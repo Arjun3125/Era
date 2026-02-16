@@ -1,0 +1,34 @@
+{
+  "domain": "Economics",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "761bf165-2489-40fb-9655-377bc265467c",
+      "text": "Endowment effect stems from valuation asymmetry",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 49
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "342f3215-cbb8-4f83-b6cf-b7bdbb895d4a",
+      "text": "Poor populations exhibit unique economic behaviors",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 49
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T09:19:22.743587Z",
+    "aggregated_from": [
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 49
+      }
+    ]
+  }
+}

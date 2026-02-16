@@ -1,0 +1,43 @@
+{
+  "domain": "Social Influence",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "842b9fd0-72ec-4806-9683-aaae78f87bb2",
+      "text": "Once a gift is given, expect reciprocation.",
+      "source": {
+        "book": "The Psychology of Persuasion",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e4ef0054-2bb9-4984-b936-505212819314",
+      "text": "Small tokens can trigger a larger response.",
+      "source": {
+        "book": "The Psychology of Persuasion",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d3c8b4b3-db75-4a13-ab44-04252f60d7ed",
+      "text": "Favor-exchange is a powerful political strategy.",
+      "source": {
+        "book": "The Psychology of Persuasion",
+        "chapter": 7
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T08:54:08.071889Z",
+    "aggregated_from": [
+      {
+        "book": "The Psychology of Persuasion",
+        "chapter": 7
+      }
+    ]
+  }
+}

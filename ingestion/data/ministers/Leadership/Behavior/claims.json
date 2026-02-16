@@ -1,0 +1,34 @@
+{
+  "domain": "Behavior",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "ebf7d4e4-e2a7-478f-b173-ad507f835384",
+      "text": "Compound interest and disciplined investing are more effective for wealth building than conspicuous consumption",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f3db9c0e-795d-4859-baf3-63e4a9134f37",
+      "text": "True financial success requires balancing achievement with prudent management",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 4
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T09:33:15.668353Z",
+    "aggregated_from": [
+      {
+        "book": "The_Psychology_of_Money",
+        "chapter": 4
+      }
+    ]
+  }
+}

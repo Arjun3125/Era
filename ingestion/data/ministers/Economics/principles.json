@@ -1,0 +1,34 @@
+{
+  "domain": "Economics",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "fbffb4de-cd88-4f06-97eb-2007f31712f4",
+      "text": "Evaluate items based on opportunity cost",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 49
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e4df3de2-d166-4acc-9f43-fc90a815ec51",
+      "text": "Losses are overvalued due to psychological asymmetry",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 49
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T09:19:22.697445Z",
+    "aggregated_from": [
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 49
+      }
+    ]
+  }
+}

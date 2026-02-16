@@ -1,0 +1,10 @@
+﻿C:\era\.venv\Scripts\python.exe : C:\era\.venv\Scripts\python.exe: can't 
+open file 'C:\\era\\ingestion\\v2\\src\\main.py': [Errno 2] No such file 
+or directory
+At line:1 char:1
++ C:\era\.venv\Scripts\python.exe C:\era\ingestion\v2\src\main.py --boo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\era\.venv\Sc...le or direc 
+   tory:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

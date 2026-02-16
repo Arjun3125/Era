@@ -1,0 +1,43 @@
+{
+  "domain": "Risk Management",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "190fdf68-71ab-4385-bf82-713f3c5c74a6",
+      "text": "A five percent annual return on substantial wealth can generate significant passive income.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "39885bd3-35e4-4dbd-b57b-5316c2cf612e",
+      "text": "Successful individuals can have legitimate, high-performing businesses even before resorting to fraudulent schemes.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "274d1218-4d7e-403e-b9ab-526ccdd66236",
+      "text": "Financial stability allows for resilience against market fluctuations and reduces the likelihood of catastrophic losses.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 13
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T09:33:16.041200Z",
+    "aggregated_from": [
+      {
+        "book": "The_Psychology_of_Money",
+        "chapter": 13
+      }
+    ]
+  }
+}

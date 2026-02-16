@@ -1,0 +1,34 @@
+{
+  "domain": "Behavioral Psychology",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "d4c0d683-66af-4d0f-9fa5-d440ba44c8ab",
+      "text": "People historically follow leaders due to their perceived larger-than-life status.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2ab27e9c-8b64-40b5-acaa-a225e37d0851",
+      "text": "The human tendency to fear and worship power leads to unquestioning loyalty.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 52
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T14:08:40.729452Z",
+    "aggregated_from": [
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 52
+      }
+    ]
+  }
+}

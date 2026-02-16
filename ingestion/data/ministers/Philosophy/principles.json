@@ -1,0 +1,131 @@
+{
+  "domain": "Philosophy",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "1c9f8675-430f-4ef2-812b-7c32172df0ce",
+      "text": "Embrace life fully despite its inherent lack of grand meaning.",
+      "source": {
+        "book": "The Myth of Sisyphus - Albert Camus",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9e95e0a9-5361-4bfc-bfb0-1dcfed1b2f13",
+      "text": "Live in the present and find value in immediate experiences.",
+      "source": {
+        "book": "The Myth of Sisyphus - Albert Camus",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2ce2b962-2838-4eb3-ac56-6403e835c122",
+      "text": "Embrace transformation and evolution as fundamental aspects of personal development.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c27630dd-a6d3-4921-8531-7d3fd264014b",
+      "text": "Value relationships and community as essential components of a meaningful life.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b5a8b112-5cd8-4c91-a785-2e7814f2c4f5",
+      "text": "Seek truth and self-discovery through active engagement with life's challenges.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4e65a529-f183-4ae8-b762-77b845bdcb88",
+      "text": "Integrate diverse perspectives to achieve a holistic understanding",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "37c76c85-8384-4a4e-adb4-f5645119c981",
+      "text": "Acknowledge and address fundamental human concerns about mortality",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1e99fcc2-aa72-40ad-91de-c394d651aa22",
+      "text": "Psychology's role in addressing human unhappiness is limited by its narrow focus on individual factors.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 67
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "76f6ec31-58bc-470c-a505-2446effe2cb5",
+      "text": "The search for meaning and identity is a fundamental aspect of human existence that psychology alone cannot fully address.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 67
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "72931f3b-0d66-40a9-aa42-85de5e449aea",
+      "text": "Humans require guidance when lacking spiritual or authoritative figures.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d3bded07-a1f4-4d37-8bbb-d6e74538f033",
+      "text": "Leadership influence stems from projecting an aura of confidence and authority.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 52
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 11,
+    "last_updated": "2026-02-13T14:08:41.406298Z",
+    "aggregated_from": [
+      {
+        "book": "The Myth of Sisyphus - Albert Camus",
+        "chapter": 2
+      },
+      {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 3
+      },
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 2
+      },
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 67
+      },
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 52
+      }
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "domain": "Philosophy",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "7dbe4afc-0c61-4e84-93df-bf108f875357",
+      "text": "Detachment from reality can lead to existential despair.",
+      "source": {
+        "book": "The Myth of Sisyphus - Albert Camus",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3e780a27-32a1-459e-86e9-6fd454c09b2c",
+      "text": "Fear of the unknown prevents the achievement of absurd freedom.",
+      "source": {
+        "book": "The Myth of Sisyphus - Albert Camus",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "65c82dbf-765e-4ff8-8cc4-12ad5a43bb65",
+      "text": "Neglecting the body and physical existence prevents spiritual growth.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fddcb713-61b3-499e-a990-9ff550382ef0",
+      "text": "Complacency and comfort can lead to a loss of vitality and purpose.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4934fa01-fb8a-4b41-b07f-e1790a447d27",
+      "text": "Fragmentation of knowledge across disciplines leads to superficial understanding",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "93aaa28a-617a-441d-9e46-406eb59c8c4d",
+      "text": "Neglecting the synthesis of psychological and theological perspectives risks incomplete comprehension of human existence",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6cb08ca8-d2f0-46d0-a586-ffb5eccefd5c",
+      "text": "Failing to recognize the historical and cultural dimensions of neurosis can exacerbate psychological problems.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 67
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8445f57f-0c3f-4e02-9381-6138368b2180",
+      "text": "Over-reliance on individualized psychological solutions may reinforce circumstantial guilt and hinder genuine healing.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 67
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "563483bf-d2ef-45dd-885e-2fcdf7d5e483",
+      "text": "Unquestioning loyalty to authority can lead to loss of individual freedom.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7cc3e885-81c7-42c4-a7f2-284cc51bb904",
+      "text": "Lack of critical thinking about leadership can perpetuate cycles of historical enslavement.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 52
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 10,
+    "last_updated": "2026-02-13T14:08:41.647972Z",
+    "aggregated_from": [
+      {
+        "book": "The Myth of Sisyphus - Albert Camus",
+        "chapter": 2
+      },
+      {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 3
+      },
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 2
+      },
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 67
+      },
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 52
+      }
+    ]
+  }
+}

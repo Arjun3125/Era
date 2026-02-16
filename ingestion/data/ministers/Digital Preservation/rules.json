@@ -1,0 +1,52 @@
+{
+  "domain": "Digital Preservation",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "dcf5bdad-f467-4fc3-91de-b38182ed3deb",
+      "text": "Usage must remain non-commercial.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2b5343cc-b7cd-4260-9936-ca44d858e4ee",
+      "text": "Automated querying is restricted.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cfb21428-3d1b-48cf-bfc9-c3acef4cfb9f",
+      "text": "Maintain attribution and credit to the source.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4db966f1-eb71-4910-8f3e-4fcd21f2bd45",
+      "text": "Ensure compliance with local copyright laws.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 4,
+    "last_updated": "2026-02-13T12:26:31.864498Z",
+    "aggregated_from": [
+      {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      }
+    ]
+  }
+}

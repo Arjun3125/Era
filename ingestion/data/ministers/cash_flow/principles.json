@@ -1,0 +1,34 @@
+{
+  "domain": "cash_flow",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "5b41ba06-0d36-4654-ac82-fb80aed78c7e",
+      "text": "Cash flow management is foundational to business sustainability and control.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "19751393-dd77-44ae-9c53-e6ea5dbbe3be",
+      "text": "Proactive monitoring of financial operations prevents cascading failures.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 26
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T19:44:27.258301Z",
+    "aggregated_from": [
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 26
+      }
+    ]
+  }
+}

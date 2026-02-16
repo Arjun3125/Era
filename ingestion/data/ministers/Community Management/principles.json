@@ -1,0 +1,34 @@
+{
+  "domain": "Community Management",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "cbde3696-fb58-4630-a00b-ff779df742c5",
+      "text": "Foster community engagement through knowledge sharing",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ff0fc8f7-2e6a-4000-831a-8368da1f900b",
+      "text": "Content sharing enhances community interaction",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 32
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T11:15:28.369927Z",
+    "aggregated_from": [
+      {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 32
+      }
+    ]
+  }
+}

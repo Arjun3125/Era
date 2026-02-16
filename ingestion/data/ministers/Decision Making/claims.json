@@ -1,0 +1,100 @@
+{
+  "domain": "Decision Making",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "add6f517-7153-40d1-96c5-ed6951671c9f",
+      "text": "Innovative thinking can transform familiar concepts into new dimensions of understanding.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9077fa49-3139-4e37-af49-871b9f1164c1",
+      "text": "Financial stability is foundational for personal initiative",
+      "source": {
+        "book": "Crime",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6c52740d-b8d8-4597-950f-12dacb91a843",
+      "text": "Social anxiety can impede professional and personal development",
+      "source": {
+        "book": "Crime",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9e37cdcb-df85-4bc1-ba3d-86e04a4b9624",
+      "text": "Clearness committees can effectively help individuals crystallize their thinking and resolve dilemmas.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 77
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b725818e-c43e-40bd-bdd1-7da1f00d654f",
+      "text": "The impact of sports results on financial markets is debated but can be significant under certain conditions.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 77
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e3bf7136-e711-449d-a87c-85d24c329d74",
+      "text": "Rethinking multiple times (e.g., four updates per question) can significantly improve accuracy and decision quality.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 81
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "18a3eb44-5753-4f1a-9095-f87297dd389e",
+      "text": "The Dunning-Kruger effect persists even when individuals have incentives to be accurate (e.g., monetary rewards).",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 81
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e3df6bbc-0eb3-4853-81f2-6507d8c12797",
+      "text": "Meta-analysis provides the most robust evidence for insights, followed by rigorous individual studies.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 81
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 8,
+    "last_updated": "2026-02-13T20:50:12.361291Z",
+    "aggregated_from": [
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 30
+      },
+      {
+        "book": "Crime",
+        "chapter": 2
+      },
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 77
+      },
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 81
+      }
+    ]
+  }
+}

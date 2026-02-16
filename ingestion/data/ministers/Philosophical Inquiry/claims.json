@@ -1,0 +1,34 @@
+{
+  "domain": "Philosophical Inquiry",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "255aa1e9-4114-44eb-8f57-3d85017ccce6",
+      "text": "The life of an inherently harmful individual holds less value than that of a productive member of society.",
+      "source": {
+        "book": "Crime",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "353eff6f-6ff1-47b9-b334-d04b71345558",
+      "text": "The death of an individual can be ethically validated by the benefits it provides to many others.",
+      "source": {
+        "book": "Crime",
+        "chapter": 11
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T05:32:32.452198Z",
+    "aggregated_from": [
+      {
+        "book": "Crime",
+        "chapter": 11
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "domain": "Wealth Building",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "e36aeab2-4643-4ffe-a81c-8f2ccb37154f",
+      "text": "Inconsistent saving or missing payments can significantly diminish long-term returns.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d141cc1d-b3a6-4193-8256-aec0ec23f106",
+      "text": "Failure to plan for future needs (aging, family care) can lead to financial hardship.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 7
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-14T19:26:08.718712Z",
+    "aggregated_from": [
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 7
+      }
+    ]
+  }
+}

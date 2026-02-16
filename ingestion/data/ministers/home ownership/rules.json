@@ -1,0 +1,47 @@
+{
+  "domain": "home ownership",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "bb9ad4a7-69f4-40b4-9912-d4ca1f146cf3",
+      "text": "Set clear expectations for financial goals",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8346fd14-30f4-4a8e-9d57-9c3ece457105",
+      "text": "Follow a step-by-step procedure for financial success",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3b7f1125-bf66-4dcd-a08e-9986daca306a",
+      "text": "Follow a step-by-step procedure for achieving financial goals",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 33
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-14T19:55:36.890423Z",
+    "aggregated_from": [
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 33
+      }
+    ]
+  }
+}

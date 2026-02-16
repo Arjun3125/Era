@@ -1,0 +1,1747 @@
+{
+  "domain": "truth",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "fe18f5d8-5a56-417a-8fe3-f6d88f0c4a85",
+      "text": "Develop a framework for labeling and analyzing systematic errors in thinking.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a706d100-e131-46cc-ab7b-ca89236215cb",
+      "text": "Question one's own beliefs and choices to foster informed self-criticism.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "af4259b3-e03a-4305-98e1-4c9ecc22fbbd",
+      "text": "Always verify intuitive judgments with analytical thinking to avoid errors.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ed05917d-b4b8-4c05-b829-fde7508e7730",
+      "text": "Be aware of and counteract confirmation bias when evaluating information.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1e6f768b-15d0-4aec-8fdb-de14196c25da",
+      "text": "Use legible fonts to minimize cognitive strain and improve message acceptance.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d5763da4-7777-4699-8f82-efcdcbd090b7",
+      "text": "Employ simple language and repetition to increase memorability and reduce intuitive errors.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "41316a56-da45-4176-87fe-72377b493d8e",
+      "text": "Select credible sources to mitigate the impact of cognitive biases.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b40c848b-278a-454c-9e8f-817ecaff2894",
+      "text": "Adjust vigilance based on emotional state: increase scrutiny in positive moods to counter intuitive biases.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ee2eaed1-6f18-40d1-8063-cd7747bf7b56",
+      "text": "Verify intuitive judgments with deliberate analysis to avoid overreliance on cognitive ease.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "aafcd79d-1d88-4825-b3ca-a7654c31dbd9",
+      "text": "Reflect regularly to clarify personal identity and values before making significant decisions.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d276f35d-b2e6-4d40-949a-7a4be1016642",
+      "text": "Prioritize deep self-knowledge over superficial external validation.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "63a85859-712d-4172-b59c-92689c25bbb1",
+      "text": "Engage in daily self-reflection to assess progress and set improvement goals.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4423208c-c941-4ab0-a747-ab634a3f6ac4",
+      "text": "Seek deep comprehension in learning rather than accepting superficial understanding.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e5f3a00e-e08e-41f1-a31e-6f0244dc7326",
+      "text": "Limit self-promotion in conversations to foster authentic connections and avoid annoyance.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1ded5fa6-f4f1-4cb5-a465-7cb6d4b67f67",
+      "text": "Scrutinize personal opinions and sensory inputs to prevent hasty conclusions and self-deception.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "04372e71-0446-48b1-9a01-9fdf193f69d3",
+      "text": "Protect mental faculties by minimizing distractions from external influences like technology.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1cb4cc5f-f58a-49bc-a371-1a07c3e2aefb",
+      "text": "Assume that others act with genuine intentions, even if misguided, before responding to their actions.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2e817d5c-3769-47f0-9a18-5b51eed72df0",
+      "text": "Reframe negative experiences by seeking a broader context to avoid hasty judgments.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "73cc93ee-e5c9-494d-8ce3-37fe602a71c8",
+      "text": "Focus attention exclusively on factors within your control",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3cf19799-0944-456a-afb9-344b71d639f7",
+      "text": "Begin operational awareness immediately upon waking and continue throughout the day",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f0f67e3d-6f6f-47ee-9866-7a251bdc33bb",
+      "text": "{'type': 'rule', 'text': 'Observe the consequences of your actions and adjust accordingly.'}",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a29ad2fd-19de-44e5-bf0c-237f33047b91",
+      "text": "{'type': 'rule', 'text': 'Accept what is within your control and let go of external judgments.'}",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0c40dad8-a9d2-4d0e-bcb5-423578342f8a",
+      "text": "{'type': 'rule', 'text': 'Manage expectations by focusing on controllable factors.'}",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e95f1ca3-327a-4d42-997c-c270042f5565",
+      "text": "Apply systematic doubt to dismantle overvalued perceptions.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 39
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ec756fcc-19af-450f-8b34-bee45b897d8f",
+      "text": "Be open to changing beliefs based on evidence to remain truthful.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 39
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2d519e9c-8c23-4e99-88be-2baba60500b4",
+      "text": "Regularly reflect on cosmic scale to counteract bias and narrow-mindedness.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "66823008-c8de-4b48-975d-07b434e7a10c",
+      "text": "Actively seek broader perspectives to manage emotional responses to minor concerns.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "afeee129-0703-41fa-a386-30fd62c28997",
+      "text": "Develop key virtues like justice and self-control through consistent practice",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 43
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1df33b1b-8d7e-427f-863c-92d8dba4bbad",
+      "text": "Rely on self-generated actions for sustained well-being and success",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 43
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4fa95c92-18a4-481a-b4a6-00c473f8f5c9",
+      "text": "Always base decisions on rational analysis and reasoned choice.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 44
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "de054a4f-977e-42d0-abc8-051a81668f45",
+      "text": "Focus exclusively on internal reasoning when evaluating actions.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 44
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e3ab8477-a070-486c-83a1-6d478b204cd3",
+      "text": "Choose right actions over easy ones in decision-making to ensure cumulative benefits.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "44d2bf9d-ed5f-4364-896b-f48a01e29fc6",
+      "text": "Maintain discipline in routine activities to achieve transformational outcomes.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b84cecb5-7d6b-4c98-ba7a-df5e914f8d09",
+      "text": "Filter decisions through core values to identify optimal choices.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 53
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b51a8b31-24aa-436d-8348-b3c09be92380",
+      "text": "Engage in purposeful work to sustain mental and physical well-being.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 53
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1e35be87-6540-4481-88e4-8dc8bcd6fff9",
+      "text": "Perform assigned duties diligently without delay or excuses.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 54
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b1198be9-6ebe-44a9-9d99-4294f64efde4",
+      "text": "Always pursue honorable actions, even when faced with hardship or sacrifice.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 66
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3e86db3d-7239-4c6a-9546-233c70bdcf64",
+      "text": "Protect and nurture personal inner strengths to avoid stagnation.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 66
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3c0a189f-6911-4519-a5a3-70b7da999767",
+      "text": "Hold your values firmly to avoid reliance on external factors that can fluctuate.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 98
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "830ba3d6-9835-46cf-a840-a07393ff6666",
+      "text": "Cultivate interconnectedness to enhance mutual support and collective decision-making.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 98
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b1264080-4101-44db-9e64-0103fdae0ee8",
+      "text": "Persist in what is good, resist what is bad",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 101
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "749ec966-f244-434f-9bcc-c1c68983c47e",
+      "text": "Do not seek revenge; instead, focus on healing",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 101
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7069929f-1a99-41fb-957c-3922037ffa7a",
+      "text": "Address emotional challenges by fostering light and connection rather than through direct confrontation.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "367de163-64d5-4664-9dab-596068d7d6d6",
+      "text": "Cultivate practices like meditation and deep love to transform one's inner state and reduce suffering.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5eee2a45-d7f1-4d54-824c-43f38b0f72e0",
+      "text": "Always prioritize truthful communication to foster mutual understanding.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dd9154be-84dd-4a49-bbcb-ae8c5c42999d",
+      "text": "Be mindful of power dynamics and ensure equitable give-and-take to prevent imbalance.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4d6a2f73-ea9d-4c1d-905c-e14c007c5255",
+      "text": "Test relationships by sharing your truth and being vulnerable.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 31
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5aabcfc4-2602-496a-b55d-10a2ca2451fc",
+      "text": "Resolve conflicts by focusing on internal responsibility rather than blaming others.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 31
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a3c45b7d-5938-4d69-8c56-17ba9293838a",
+      "text": "Integrate mindfulness into daily routines for emotional stability",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2a16b856-d48b-42f8-8e1f-2d5c0217c012",
+      "text": "Apply principles of compassion in relationships",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a84eb078-8628-4f97-8bc2-ebd92255fb95",
+      "text": "Always question the origins and validity of core beliefs.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "99b28102-4fb0-4a0e-ac35-853452e258fe",
+      "text": "When evaluating truth, consider its potential role in sustaining life, even if it's untruth.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4efa003d-6f7d-40ae-8b96-7bdd48ebff7c",
+      "text": "Analyze philosophical assertions by identifying their intended moral outcome.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5739a8b0-e989-4271-bb91-ae08b75c57ec",
+      "text": "Avoid self-deception by questioning the authenticity of one's philosophical stance.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "432784ac-9855-40a4-a51b-d87ad5c4bb44",
+      "text": "Understand the other's perspective before engaging or acting decisively.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5ede4bbf-119c-47b6-851d-9dd4ba8372ea",
+      "text": "Learn deeply and thoroughly to avoid superficial interpretations that perpetuate error.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ebc66a42-67cf-466b-91cf-7698fa7c6f55",
+      "text": "Master self-discipline to resist flimsy moral verbiage and unconscious vanity.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c2132ae1-dbc9-4d29-82fd-683163da0367",
+      "text": "Prioritize failure to foster personal growth and insight.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b0332b4e-1a22-41da-8160-a09477da3ec7",
+      "text": "Base your understanding on acknowledged ignorance to avoid false certainties.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1a4354f5-411c-47dd-9b7c-34eb1b733dc6",
+      "text": "Pause before responding to stimuli to avoid rash decisions.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "20efffa4-1037-48b4-a62a-323cf7c8f737",
+      "text": "Consider origins or deeper roots to resolve existential concerns.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4bf432f0-426e-4b7f-a0c7-40aa9885b9a7",
+      "text": "Reflect on birth and existence to mitigate attachment-related suffering.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "25704b08-01c3-4c9f-8f20-734758037659",
+      "text": "Maintain humility and avoid complacency by regularly reevaluating tasks and responsibilities to prevent stagnation.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "17bef8ca-2b59-4c67-9f37-3fdac5367763",
+      "text": "In decision-making, consider the long-term implications to avoid short-sightedness and failure.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0dd4d023-2907-4f5f-a081-86debbaa5af7",
+      "text": "Make decisive choices to avoid prolonged indecision.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c7e1299e-cd8f-4bbb-ba72-613a4ee7e3d7",
+      "text": "Understand that written records can alter perceptions of authenticity.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "34b29141-b4e3-49ef-a1e7-1af4583cdaa7",
+      "text": "Avoid changing established truths without thorough justification.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "696dcec5-b383-40af-b6a7-d9fa8077c02c",
+      "text": "Act decisively to resolve practical difficulties rather than avoiding them.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "734ef1b8-68c5-48ae-ac96-6a6dfde25375",
+      "text": "Reflect on challenges to derive lessons.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7be5d411-ab0d-489a-a06f-6aec5f0b9d55",
+      "text": "Act with intention in a potentially created universe.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0ef507a0-762b-4e5e-8d40-48ecbe3d373f",
+      "text": "Accept the inevitabilities of fate to avoid futile resistance.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1ac644f7-2d54-4a0a-8ee7-64210dab4439",
+      "text": "Limit self-revelation to preserve energy for essential tasks.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f24c1765-dcdb-4910-b8d4-320f7c51d0f8",
+      "text": "Reflect on personal experiences to mitigate emotional distress",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b5fc641c-448d-4608-b178-e4367174f2db",
+      "text": "Accept limitations to avoid unnecessary risks",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a7697cce-01c9-4c6e-9db6-35fe4d3e4b5c",
+      "text": "Let go of memories and history to avoid being held back.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "87a15b80-21c6-4ab8-9230-2d6ec2cbb463",
+      "text": "Communicate clearly to avoid misinterpretation.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0e8d5612-879d-485d-9f1a-03f2f29b48ec",
+      "text": "Understand the consequences of actions before committing to them to prevent negative outcomes.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 31
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7a7a421f-7775-41ac-8c3c-c9c60760ac97",
+      "text": "Simplify life and identity to reduce unnecessary complications and stress.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 31
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "37fb3839-c87e-48e0-b173-6afa6bc7b9e3",
+      "text": "Adhere strictly to timeless principles in all operational contexts.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "109b428d-351b-49b8-81b9-cd10c9530bce",
+      "text": "Question data and findings to ensure alignment with underlying truths.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d11aa647-3f9f-44fd-b596-f3131f14bed2",
+      "text": "Confront and accept the brutal facts before making any decisions.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "65026db8-2fd4-4ef4-86c6-a5f270cdf54f",
+      "text": "Verify the truth of the situation diligently to ensure alignment with operational goals.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "16382ca3-ab90-4fab-8a32-cc415265fe88",
+      "text": "Lead with questions to gain understanding, not answers.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8187715d-3b82-416b-943e-8101c77d154d",
+      "text": "Maintain disciplined execution by confronting reality without filtering.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1e16ad6e-cba6-4d45-b31e-23db65885f0b",
+      "text": "Only pursue a core business where you can be the best in the world, based on objective reality.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 33
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "077763f4-987b-4c50-bdd9-ddf99e5d1819",
+      "text": "Make decisions grounded in understanding, not desire or hype.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 33
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e0492c24-66e7-40a6-8f3c-32c977034274",
+      "text": "Develop and refine ideas before committing to actions",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1b9cd21c-9997-42e1-a379-ff0f6f3ed977",
+      "text": "Select a capable partner to mitigate risks in new ventures.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "528459aa-0e17-453b-8738-b2a25b1467b6",
+      "text": "Engage in self-reflection to identify and overcome excuses before taking action.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c84796cb-d9a9-493f-bea9-efdc8e230111",
+      "text": "Act as the originator of your words and actions",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fc8f46f2-f879-40fb-85a4-ebf910d975cf",
+      "text": "Do not delegate your genius to others",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d722b3cf-242c-46b7-9fe1-0147a014df18",
+      "text": "Observe from outside to gain objectivity",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b81c3148-0f3b-411b-b9cf-1c7600297f08",
+      "text": "Learn from the silence of nature",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "137e2c5e-ff62-4838-b5b9-9c6cb8448328",
+      "text": "Publish knowledge to establish its dominance and influence.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f8d96d4a-5a4f-4fbd-aed2-47fe84f0c9d8",
+      "text": "Draw attention to knowledge gaps to facilitate learning and challenge existing views.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "31dba949-9e83-45c8-af2b-7a6b928a969d",
+      "text": "Bear witness to both material and eternal realities through testimony",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e8bc52b1-d691-41e8-bc81-5f02962c14b0",
+      "text": "Testify to truth to affirm freedom and resist technological determinism",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b877b9ad-f707-4e59-b550-663258c2fe08",
+      "text": "Accept feedback but maintain ownership of your work's quality.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e6987982-9a88-4789-b9f3-7133a192b634",
+      "text": "Critics should consider their own expectations rather than the creator's effort.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8ceef075-183b-46ac-a0f9-310343454710",
+      "text": "Teach through guidance rather than direct instruction.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "af5289ad-75fd-4572-b2fe-fd6923805fb8",
+      "text": "Memorize only when necessary for novices; otherwise, focus on comprehension.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3d14f270-34bd-4b79-bd5c-b8109d588fa9",
+      "text": "Evaluate ideas by their practical applicability rather than isolated brilliance.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "75f0811a-8c0f-477a-bd24-004c16470b6f",
+      "text": "Engage in daily, deliberate practice to develop self-discipline in speech, behavior, and emotional responses.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1263c0c5-8834-4b01-99a3-4428882efca0",
+      "text": "Align actions with one's innate rational nature to avoid being swayed by external pressures and societal influences.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "94651f38-61b5-485e-9821-b0045111275f",
+      "text": "Cultivate relationships assiduously to foster mutual growth and stability.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "681b9355-c73d-43b7-8665-c94d09a2fef2",
+      "text": "Prioritize clear communication and guidance in decision-making processes.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dd09bd9a-63f5-433b-a26e-4c2e16f3fbf6",
+      "text": "Face challenges and adversities with courage.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "45d6a334-ca4e-469a-b25e-e7613565b2b5",
+      "text": "Prioritize spiritual or mental aspects over physical ones.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1feb5738-f784-425c-b32e-56857066981b",
+      "text": "End life honorably when it no longer serves a purpose.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2898be56-f5c9-4ed1-b754-4d6bca133e80",
+      "text": "Prioritize understanding over action.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 45
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "74898204-d001-4db3-a5e9-82710f1c8941",
+      "text": "Seek complete knowledge before making decisions.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 45
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "02c238f1-e68b-42ae-a166-9bb90c240a47",
+      "text": "Follow a life rule that aligns with natural and divine order",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 46
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "77e15403-245a-4b7e-9a5f-a015d431cdcc",
+      "text": "Observe and accept predetermined outcomes without resistance",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 46
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9ccef1f6-d970-4d35-a4e3-fe41deed5f15",
+      "text": "Focus on manageable tasks to avoid burnout and maintain progress.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 53
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dcf35141-315b-4648-8d6c-38b6fc9c6c02",
+      "text": "Prioritize essential knowledge to ensure effective learning outcomes.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 53
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9cbacd1a-f45c-479c-84ce-eebff545f378",
+      "text": "Fear and obsession can persist despite contradictory evidence, especially when influenced by unconscious processes.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "db72f89f-4c39-466c-92a2-2f8ce89e2613",
+      "text": "Seek guidance from belief systems when facing uncertainty or suffering to maintain well-being.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "058467fe-946f-445a-aac4-04a4c0fb26ca",
+      "text": "Evaluate the utility of abstract concepts like God or immortality based on their practical benefits rather than strict evidence.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a70ee3ec-ef26-4b05-b3ed-00e29c7f8011",
+      "text": "Cultivate core convictions that offer inner purpose and reduce existential uncertainty",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9aef02f0-4ea4-43b0-8720-091cdd150790",
+      "text": "Approach symbolic interpretations with openness rather than dismissal",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bc6b259d-e61d-4bae-8d0c-62ec4a686ff2",
+      "text": "Apply interpretive rules of thumb with prudence and intelligence.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "906b9e3a-a842-4891-833a-73e8f86948d3",
+      "text": "Handle psychic realities by prioritizing actual experience over theoretical knowledge.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0ed657bf-02de-486e-b526-819e9079ea50",
+      "text": "Analyze symbolic elements to understand complex psychological states.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 33
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ab013e77-a862-45a2-8036-1f505f31fa83",
+      "text": "Consider non-causal factors in events to identify synchronicity.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 33
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7467c202-2095-42f7-8fd5-f49418de7c98",
+      "text": "Evaluate each action for necessity before proceeding",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "74190aa4-14d2-4788-b69d-7ea9c3b65c6d",
+      "text": "Practice self-reflection to avoid unnecessary actions and thoughts",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ebadd242-71f6-4428-89a1-ccff41229bc6",
+      "text": "Focus solely on duty without being swayed by outcomes or recognition.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "49b18350-d973-44ea-8df3-f2a4921c5878",
+      "text": "Avoid becoming like those who wrong you as a form of revenge.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dfb29355-da5c-4c4b-8e27-d9a6eb29289a",
+      "text": "Always evaluate actions against core moral principles.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1b55b814-f902-4c48-ba4b-0310a2b48c6b",
+      "text": "Prioritize duty over personal gain in all circumstances.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bbe8b7d4-a13d-472e-ac48-83f54ef66426",
+      "text": "Maintain constant self-examination before decision-making.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3c7a89f6-1c27-418b-8b4d-6566819c041b",
+      "text": "Delay judgment until all relevant information is available.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ffbbc92b-06c9-4fa7-9fe4-621261461fba",
+      "text": "Apply personal experience as a counterargument to proposed ideas.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7a18392c-16ab-4fe5-9fad-e214ae565dfd",
+      "text": "Withhold knowledge that is irrelevant to the current discussion.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "543b4584-f307-44fc-aaed-29c6e3e40ecf",
+      "text": "Avoid committing principles to writing if they may become obsolete.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a3645e27-a431-45f3-9140-6e6c7bb73bfe",
+      "text": "Do not establish fixed doctrines that could hinder future improvements.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "87a1d943-317f-49ee-9ad8-36a86e98ec77",
+      "text": "Maintain continuous and coherent context when presenting information to ensure its integrity.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a9eb12f4-92aa-4a3e-9f70-f97f8e53f150",
+      "text": "Verify the interconnectedness of statements within a single context to avoid misinterpretation.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6038286b-380c-4974-898b-2d476598a4cc",
+      "text": "Prioritize immediate impact over historical context when designing communication platforms.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2c8c2eb8-b0df-45ce-84ed-08de6333d64e",
+      "text": "Information platforms must incorporate contextualization mechanisms to prevent decontextualization.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a6f2bdbf-5990-4068-a62d-7fb5cdd911aa",
+      "text": "Always act with integrity to maintain character.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8e6c46d7-b17f-4046-91ac-dfd738ac8a73",
+      "text": "Resist short-term temptations to align with long-term values.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e79311e6-5c0e-4eba-8464-d377c3ae99a6",
+      "text": "Always act consistently with core values to maintain integrity.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e62b6afa-4163-4a67-980d-a4357a5d5cc8",
+      "text": "Compromise values only when unavoidable circumstances dictate.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "025ba539-4732-48ac-987e-fcfba15b4c0b",
+      "text": "Adhere to a clear self-ideal to guide personal and professional actions.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e7811464-fbc6-478f-9bf0-18e5bb1a8cf8",
+      "text": "Always evaluate the importance of your actions before making a choice.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c538f2f0-c4eb-43d1-933b-4c5572e993d6",
+      "text": "Behave as if your actions could serve as a universal law for all individuals.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "29691431-17e6-4686-8780-85de88d1bee5",
+      "text": "Address conflicts with your highest values promptly to regain control.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "32afd452-ee64-4651-81a5-ba208b86fd50",
+      "text": "Practice self-discipline consistently to align actions with aspirations.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c51a8b15-fb7b-4121-b175-dc9c4bd34cca",
+      "text": "Parents must actively teach and model truthfulness in all interactions to foster honesty.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 107
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3dfe1493-76a2-4ad6-bc22-7dee082698dc",
+      "text": "Role modeling is required to influence children's behavior effectively.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 107
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2af08e2c-3171-4101-8941-67bf26f3ca20",
+      "text": "Always promote truth-telling by ensuring no punishment for honesty.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 108
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ff004853-8754-4ab1-9891-9eccaa7ed815",
+      "text": "Model and teach core values consistently to shape child behavior.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 108
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "590fe109-11f6-41fe-ab62-c59c49837339",
+      "text": "Address health issues through prescribed treatment rather than avoidance based on emotional reasons.",
+      "source": {
+        "book": "Notes-from-Underground-Extract",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "66961db0-2245-416c-9689-a4739f2f5bf2",
+      "text": "Develop character by actively engaging with challenges rather than defaulting to superficial behaviors.",
+      "source": {
+        "book": "Notes-from-Underground-Extract",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0085d584-27b8-4a62-b42a-3379e6be2d96",
+      "text": "One must accept natural and external constraints, even if disliked, to avoid escalating frustration and inaction.",
+      "source": {
+        "book": "Notes-from-Underground-Extract",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "970ae09d-008f-4017-b50e-f8ddf504ff55",
+      "text": "Acceptance should be based on logical reasoning to resolve conflicts effectively.",
+      "source": {
+        "book": "Notes-from-Underground-Extract",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bc007654-f5d4-47c4-ae43-640c44d406ae",
+      "text": "Consistently apply effort to overcome challenges.",
+      "source": {
+        "book": "E001005",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5bf370ea-4552-4279-a5e7-9d0a550747e8",
+      "text": "Maintain truthful integrity in all interactions.",
+      "source": {
+        "book": "E001005",
+        "chapter": 1
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 159,
+    "last_updated": "2026-02-13T05:34:07.714592Z",
+    "aggregated_from": [
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 5
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 12
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 14
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 15
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 6
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 11
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 28
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 30
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 32
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 38
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 39
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 41
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 43
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 44
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 52
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 53
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 54
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 66
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 98
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 101
+      },
+      {
+        "book": "Being in Love",
+        "chapter": 17
+      },
+      {
+        "book": "Being in Love",
+        "chapter": 29
+      },
+      {
+        "book": "Being in Love",
+        "chapter": 31
+      },
+      {
+        "book": "Being in Love",
+        "chapter": 34
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 6
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 7
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 34
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 3
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 4
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 5
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 10
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 12
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 27
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 28
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 29
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 30
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 31
+      },
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 9
+      },
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 23
+      },
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 24
+      },
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 33
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 13
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 13
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 21
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 22
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 7
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 7
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 22
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 24
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 28
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 34
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 45
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 46
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 53
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 14
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 18
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 19
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 20
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 33
+      },
+      {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 8
+      },
+      {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 11
+      },
+      {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 15
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 10
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 12
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 32
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 38
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 22
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 24
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 25
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 26
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 107
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 108
+      },
+      {
+        "book": "Notes-from-Underground-Extract",
+        "chapter": 4
+      },
+      {
+        "book": "Notes-from-Underground-Extract",
+        "chapter": 8
+      },
+      {
+        "book": "E001005",
+        "chapter": 1
+      }
+    ]
+  }
+}

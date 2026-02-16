@@ -1,0 +1,51 @@
+[
+  {
+    "text": "Operational guidance requires explicit content for extraction.",
+    "domain": "base",
+    "category": "principle",
+    "source_book": "SuperThinking",
+    "source_chapter": "ch1"
+  },
+  {
+    "text": "Generalize examples to normalized principles during extraction.",
+    "domain": "base",
+    "category": "principle",
+    "source_book": "SuperThinking",
+    "source_chapter": "ch1"
+  },
+  {
+    "text": "IF  THEN Never extract verbatim; paraphrase and abstract operational content.",
+    "domain": "base",
+    "category": "rule",
+    "source_book": "SuperThinking",
+    "source_chapter": "ch1"
+  },
+  {
+    "text": "IF  THEN Domains must be inferred from the closest applicable category if text is empty.",
+    "domain": "base",
+    "category": "rule",
+    "source_book": "SuperThinking",
+    "source_chapter": "ch1"
+  },
+  {
+    "text": "IF  THEN Operational content must be explicit to avoid under-extraction.",
+    "domain": "base",
+    "category": "rule",
+    "source_book": "SuperThinking",
+    "source_chapter": "ch1"
+  },
+  {
+    "text": "CLAIM: Text emptiness directly impacts extraction effectiveness.",
+    "domain": "base",
+    "category": "claim",
+    "source_book": "SuperThinking",
+    "source_chapter": "ch1"
+  },
+  {
+    "text": "CLAIM: Operational content extraction prioritizes actionable guidance over literary elements.",
+    "domain": "base",
+    "category": "claim",
+    "source_book": "SuperThinking",
+    "source_chapter": "ch1"
+  }
+]

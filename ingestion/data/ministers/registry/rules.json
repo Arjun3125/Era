@@ -1,0 +1,60 @@
+{
+  "domain": "registry",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "f4a260ae-73f5-49c7-be2e-2bc809203932",
+      "text": "Usage must align with publisher's explicit permissions",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 48
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4e4c8c5a-828e-43d2-b8b3-b5ceb8aad380",
+      "text": "Verify subscriber details for accurate communication",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "95dac6b7-96f6-4737-96f0-c9058f1e7f6e",
+      "text": "Provide clear instructions for user participation",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "33764097-1aa2-43a3-9abb-295eab762b9c",
+      "text": "Use collected data to personalize offers",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 93
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 4,
+    "last_updated": "2026-02-12T21:57:43.571662Z",
+    "aggregated_from": [
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 48
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 1
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 93
+      }
+    ]
+  }
+}

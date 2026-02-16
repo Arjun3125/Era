@@ -1,0 +1,65 @@
+{
+  "domain": "Narrative",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "dcae8661-6c5f-4ab4-b0b1-87f11f8bc89a",
+      "text": "Understand the distinction between finite and infinite games: finite games aim to win, while infinite games aim to continue play.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d0b673c7-fdfe-4c82-8adf-5b15e820d099",
+      "text": "Approach decision-making with a focus on long-term sustainability and adaptability.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d11fa006-011c-4745-8930-239c14815785",
+      "text": "Embrace change in dynamic contexts to foster innovation and growth.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b9190391-3876-461d-96cf-1d391dee9a7d",
+      "text": "Acceptance of one's faults leads to inner peace",
+      "source": {
+        "book": "Crime",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e1cb2f9d-3729-4128-8e3f-324b896144e4",
+      "text": "Suffering can be a source of redemption",
+      "source": {
+        "book": "Crime",
+        "chapter": 5
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 5,
+    "last_updated": "2026-02-13T05:32:31.668026Z",
+    "aggregated_from": [
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 30
+      },
+      {
+        "book": "Crime",
+        "chapter": 5
+      }
+    ]
+  }
+}

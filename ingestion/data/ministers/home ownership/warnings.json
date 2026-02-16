@@ -1,0 +1,38 @@
+{
+  "domain": "home ownership",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "5dcbead5-b7bb-4986-9548-8f1c69402aec",
+      "text": "Lack of financial planning can lead to asset loss or insecurity",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9a2c4bd6-7442-412f-8aa4-d65d5e39dee8",
+      "text": "Failure to follow the procedure may result in inability to purchase a home",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 33
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-14T19:55:36.903306Z",
+    "aggregated_from": [
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 33
+      }
+    ]
+  }
+}

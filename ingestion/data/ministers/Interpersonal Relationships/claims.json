@@ -1,0 +1,34 @@
+{
+  "domain": "Interpersonal Relationships",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "fef373c4-373f-44d6-9456-11f8da69d0d4",
+      "text": "Saying yes to everything reduces productivity.",
+      "source": {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ca863127-9b83-4f2a-ae84-6aa8f92b3b10",
+      "text": "Lack of focus on goals leads to being pushed by others.",
+      "source": {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 15
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T12:22:12.993089Z",
+    "aggregated_from": [
+      {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 15
+      }
+    ]
+  }
+}

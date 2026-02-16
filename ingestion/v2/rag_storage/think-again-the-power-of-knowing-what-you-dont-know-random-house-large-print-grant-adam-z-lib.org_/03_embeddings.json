@@ -1,0 +1,13 @@
+{
+  "pipeline_metrics": {
+    "elapsed_seconds": 5.125429630279541,
+    "processed_chunks": 99,
+    "dropped_chunks": 0,
+    "rate_limit_hits": 0,
+    "errors": 0,
+    "throughput_chunks_per_sec": 19.315450356490725,
+    "avg_embed_latency_ms": 0.0,
+    "avg_db_latency_ms": 0.0,
+    "avg_minister_latency_ms": 0.0
+  }
+}

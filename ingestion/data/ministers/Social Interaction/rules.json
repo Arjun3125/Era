@@ -1,0 +1,47 @@
+{
+  "domain": "Social Interaction",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "99d584b2-c7a3-44c2-a899-df0bd0dce6af",
+      "text": "Strategically seek financial aid when absolutely necessary, understanding the social implications",
+      "source": {
+        "book": "Crime",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7ec2a3b4-e356-40b3-b9e2-0c70fb91a590",
+      "text": "Maintain a budget to avoid debt-related stress",
+      "source": {
+        "book": "Crime",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "488105bb-6973-48b4-b6bc-735074ad61bc",
+      "text": "Prepare for social interactions to manage anxiety",
+      "source": {
+        "book": "Crime",
+        "chapter": 2
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T05:32:31.735658Z",
+    "aggregated_from": [
+      {
+        "book": "Crime",
+        "chapter": 4
+      },
+      {
+        "book": "Crime",
+        "chapter": 2
+      }
+    ]
+  }
+}

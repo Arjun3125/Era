@@ -1,0 +1,34 @@
+{
+  "domain": "Time Management",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "04fb60d6-cd76-49f3-b406-30bacc02bced",
+      "text": "Each day is a unique and finite opportunity.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 45
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "220e700c-944b-49f5-8d68-225004f7fc2d",
+      "text": "Effort and dedication determine the quality of outcomes.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 45
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T11:27:37.609874Z",
+    "aggregated_from": [
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 45
+      }
+    ]
+  }
+}

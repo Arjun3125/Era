@@ -1,0 +1,65 @@
+{
+  "domain": "Emotional Intelligence",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "c22de019-af59-4ee4-bab5-0b3318b5719b",
+      "text": "Read Love Letters Aloud for Full Engagement",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "03320d42-5132-472f-b747-a954b00448c8",
+      "text": "Adopt Structured Intent Statements for Guided Dialogue",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "668c479a-da14-4b15-9f01-a14cf5ca2f0e",
+      "text": "Set Time Limits for Processing Complex Emotions",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6d8a2d00-79f0-49fc-9aaf-008ca87ad2b2",
+      "text": "Evaluate criticism for constructive value before internalizing.",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f3cdc6e2-9473-4659-a71c-919fe77ed740",
+      "text": "Avoid overreacting to subjective opinions about yourself.",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 24
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 5,
+    "last_updated": "2026-02-13T11:31:39.336830Z",
+    "aggregated_from": [
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 24
+      }
+    ]
+  }
+}

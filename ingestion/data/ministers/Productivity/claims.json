@@ -1,0 +1,69 @@
+{
+  "domain": "Productivity",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "5ccce573-7352-474e-a760-dab76f4d3f61",
+      "text": "Daily habit formation through structured practices can lead to significant income growth.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3f5b5376-35a3-487b-9b9f-2deca0addc09",
+      "text": "Leveraging daily routines for learning can provide substantial educational benefits.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4f3d77ff-051d-4b63-91e0-d43c605cf6c0",
+      "text": "Consistent application of time management techniques leads to sustained productivity.",
+      "source": {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4bd4be08-bd69-450d-8788-069caeb9a3eb",
+      "text": "Daily reflection increases awareness of time usage and distractions",
+      "source": {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e4c1cc9d-2044-4bfc-b3dc-60b33d7c8529",
+      "text": "Limiting tasks improves focus and reduces distraction by less important tasks",
+      "source": {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 25
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 5,
+    "last_updated": "2026-02-13T12:25:58.329822Z",
+    "aggregated_from": [
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 47
+      },
+      {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 27
+      },
+      {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 25
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "domain": "Books and Publishing",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "674ba63e-2e56-42a2-8d90-0fe5096ea069",
+      "text": "Obtain prior permission for reproduction",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cf146e8f-a679-4aff-883e-322f35fadd30",
+      "text": "Clear permissions with copyright holders",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 2
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T19:44:07.102486Z",
+    "aggregated_from": [
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 2
+      }
+    ]
+  }
+}

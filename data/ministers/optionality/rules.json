@@ -1,0 +1,4937 @@
+{
+  "domain": "optionality",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "00a294a7-ae4d-48f8-95d2-75171dbf3036",
+      "text": "Evaluate decisions for potential relational consequences.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "00e6cc12-75f6-4f2f-b5c8-8b33640fd42f",
+      "text": "Save a portion of income regularly",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "017ffd0d-dc4c-4da3-9e62-41d42f8c3746",
+      "text": "Prioritize self-awareness and disciplined thinking over reactive behavior.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0387f34d-b4c5-4b02-8969-31e1483f9b14",
+      "text": "Limit daily deep work sessions to avoid exceeding natural attentional capacity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "03a905bf-a8e7-43b5-a8d1-e8ab7c83b46c",
+      "text": "Maintain a minimum threshold for deep work to ensure value creation, while permitting controlled variations in shallow work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0499d00d-5148-4f39-850d-b23394798c1a",
+      "text": "Implement a 30-day trial period for each service to assess its impact.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0512f5c1-1ab7-4a50-aa2c-7003a8b689e5",
+      "text": "Execute duties regardless of personal comfort.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "055da856-8c4e-4494-805d-823a17362493",
+      "text": "Prioritize what is within control.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "05c118f6-9546-47ba-a759-1c92f93de186",
+      "text": "Evaluate situations based on what can be controlled",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "06af9fc4-ff02-485e-86d0-339a4a035880",
+      "text": "Seek expert advice proactively",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "06b73fa4-6c62-4d3c-8c50-e2206ee6f6a1",
+      "text": "Reinvest profits to compound growth",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "06d22a9c-6ffb-451d-bd8e-8c0a4111f83b",
+      "text": "Align professional activities with core value propositions to avoid dilution.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "07fda802-d4ee-4c10-bb0f-e92bd9c9c7e0",
+      "text": "Wealth imposes new constraints that must be actively managed.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "084f6a6b-46f6-4286-9c86-87e04e1fa8ce",
+      "text": "Describe the end-to-end process in replies to avoid follow-ups.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "098990ac-97b3-41c4-a89f-feda5a68d18a",
+      "text": "Evaluate situations based on what can be controlled",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0ace8b2e-b6f5-42f2-8236-0972b5401560",
+      "text": "Evaluate situations based on their potential for transformation.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0ad759f9-3697-436f-ada7-d89f3aa4d13f",
+      "text": "Maintain focus on action, not consequence.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0b2ef798-3832-47e2-a7cf-eb062a5d4e73",
+      "text": "Embrace change without resistance to avoid unnecessary suffering.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0bd6c8b4-9fb0-4240-996e-735bc8f05bb1",
+      "text": "Allocate majority resources to high-impact tasks",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0becb2fb-d942-4e6e-ae09-ff4e5ac71710",
+      "text": "Evaluate situations based on inherent reality, not perception.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0bf9c3c5-0024-4bb9-9363-2f7226d9b3d9",
+      "text": "Allocate investments across different asset classes",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0c242095-e065-4d69-8256-4769f92c37f4",
+      "text": "Continuously re-evaluate task effectiveness",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0d573002-a538-42ea-b5bf-83884bd4e453",
+      "text": "Accept outcomes without emotional attachment",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0d6f840c-14db-450e-9311-d0ce0ebf62d3",
+      "text": "Separate environments for idea generation (collaborative hubs) and deep execution (focused spokes).",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0d757dcc-b49b-45fd-970a-176ba90d0d38",
+      "text": "Consider all outcomes as part of a larger natural order.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0d82b16b-b33b-4649-97c8-938195e20ddd",
+      "text": "Persist in applying learned lessons consistently.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0d903c2e-8487-43ca-bf27-dffac23f29e5",
+      "text": "Prioritize self-awareness and disciplined thinking over reactive behavior.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0de9ce0a-eddb-4a07-badd-ca8e1741b37c",
+      "text": "Do not allow constraints of inaction to limit the potential for favorable events.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0e092279-f9c7-4999-b165-913bdcb5134a",
+      "text": "Prioritize critical details over non-essential ones.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0ff833a6-0d9a-4ce2-9c1c-1e7ae3278c32",
+      "text": "Act from within rather than from external pressures or influences.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "101d6fd2-5d16-4edf-8988-9bd5a3f19e93",
+      "text": "Direct attention toward positive aspects to improve mood.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "10476aca-b64f-4843-96e8-82347141fa62",
+      "text": "Act justly without seeking external validation.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "10665591-a2a6-4428-ad6a-12ea54a6ba3d",
+      "text": "Discard false desires to maintain clarity of thought.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "109610b7-2c31-40d5-b536-421f05094f07",
+      "text": "Systematically test and refine deep work routines.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "113680c4-65e6-43a6-ab9d-baee49e1d9fa",
+      "text": "Allocate majority resources to high-impact tasks",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1183eb86-6d58-4ef0-8f40-a1b89ffffd54",
+      "text": "Evaluate the necessity of optional tasks",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "11ae1591-d043-4aaa-bb76-6d91c6e437b6",
+      "text": "Save a portion of income regularly",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "127293d6-06a0-4982-b6e0-e0a4b0143b57",
+      "text": "Assess the borrower's track record before lending.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "13320909-de9c-4808-b605-b55a717c6c86",
+      "text": "Ensure the ability to retrieve assets at any time.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "13874d12-06d0-4b5e-a1da-c290bcf90121",
+      "text": "Act from within rather than from external pressures or influences.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "13b82d0d-c5d7-42ee-b91c-80f569dbbe28",
+      "text": "Consider the finite nature of time when making decisions.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "13f98e9d-f54f-4fed-8d24-51c7a234d514",
+      "text": "Maintain mental readiness for unexpected challenges.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "140ec047-deab-40a8-8e39-9385a736c677",
+      "text": "Structure physical and virtual spaces to encourage serendipitous interactions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1450b71e-fdc8-4b3b-8cbd-0868df2bfda6",
+      "text": "Separate what is within your control from what is not.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "15672176-8c25-497b-9d64-9b4c3bb79dd9",
+      "text": "Actively assess each expenditure against its perceived value.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "158d466f-01b4-415a-a74c-2afd63d5e8db",
+      "text": "Prioritize high-impact collaboration over solo work for breakthrough problems.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "15b332b0-393d-4948-9481-bb7d86e45c96",
+      "text": "Align strategies with tangible goals",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "15c4b1e6-e0cf-4533-82f2-6dd1629b00b7",
+      "text": "Assess the borrower's track record before lending.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "15caaeae-f667-4894-a162-af4de74f4543",
+      "text": "Foster environments that support both concentration and innovation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "187fac6f-89b3-4d01-b20b-49794d841058",
+      "text": "Monitor external factors to mitigate risks effectively.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "187fd903-1e25-451c-8be1-a683e8ab78b9",
+      "text": "Attention must be scheduled around periods of cognitive demand.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "18b0a07d-ece4-4a55-8802-0bbaed2b80b4",
+      "text": "Evaluate decisions for potential relational consequences.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1966193d-dfd0-4db3-a6e9-2c88363c00ba",
+      "text": "Shift focus from desired outcomes to managing internal responses.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1a5e3c80-9797-40b9-9594-9f858a8b3ca3",
+      "text": "Direct attention toward positive aspects to improve mood.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1ab2e1d6-a255-4c45-b240-eef366b76f20",
+      "text": "Foundation knowledge must be mastered before teaching others",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1ad781b7-c52d-4c14-a976-33d4730c9c28",
+      "text": "Build confidence through incremental practice of deep work techniques.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1b0145f6-51f8-4c1c-8b16-7cfe4cfc2b53",
+      "text": "Clear metrics prevent the substitution of shallow work for deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1b1a764e-2be2-47e7-bf58-20ee35e74fba",
+      "text": "Assess if a tool significantly enhances critical activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1c013ed6-31b3-4f1c-9e60-d8ac2d5c810c",
+      "text": "Executives must prioritize deep work over constant connectivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1c31f93c-a6c3-47f2-99c8-6e6d4a198abf",
+      "text": "Apply consistent standards across varying circumstances.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1c47bf42-8576-44b4-8ae1-dc2fa7fd1147",
+      "text": "Adapt quickly to changing circumstances to seize advantages.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1d2691fb-c4b2-4580-8012-db37281e8d9f",
+      "text": "Focus on income generation as a primary goal",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1d2db3bd-a3de-4a56-b993-122c387fd4b3",
+      "text": "Systematically document spending decisions to reinforce fiscal discipline.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1d3670c5-6d63-427f-b342-37ba8e709ef4",
+      "text": "Schedule deep work during high-concentration periods.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1d3d7ddc-124b-4e7c-af14-750c99d47349",
+      "text": "Capital must be available before making significant investments",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1dace28a-e351-4ad1-a114-0564977f1f56",
+      "text": "Specify the current status and immediate next action.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1daf9cd0-e739-48f1-92f0-8070c2668a39",
+      "text": "Systematically document spending decisions to reinforce fiscal discipline.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1dc83883-34b0-4108-a7c5-179de55b74ca",
+      "text": "Actively assess each expenditure against its perceived value.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1ff263c8-cb57-4ed8-92a9-2568fcbb40f2",
+      "text": "Implement sender filters that require correspondents to self-select based on relevance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "202a84a3-06bc-4047-89b4-b7f4a0231835",
+      "text": "Establish a commitment to action to prevent hesitation.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "20b856ec-fa0c-480c-995b-befe41138f7c",
+      "text": "Adjust your focus to maintain alignment with core objectives.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "20eb650f-b91a-4b82-a6c3-b49cd9a2bf31",
+      "text": "Limit engagement with low-impact activities",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2264b921-19d0-45e5-aa34-bd04fa47624f",
+      "text": "Define specific work locations and timeframes to maintain focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2265b5c4-126e-41aa-9116-6b73f9901d99",
+      "text": "Repay loans promptly to preserve credit reputation",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "22a751cd-7426-4dc2-8b90-08ae0a0c14fc",
+      "text": "Align professional activities with core value propositions to avoid dilution.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "22c05b8b-e52c-455b-a716-1c6d2337eb11",
+      "text": "Reinvest profits to compound growth",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "22d16da6-9e84-475a-a00f-ce46969ee58d",
+      "text": "Actively pursue righteous conduct in all interactions.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "22ddd9b5-168a-4cee-90a7-bf56cd3151b2",
+      "text": "Adhere to fixed schedule commitments by aligning all activities with designated timeframes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "230b67cc-6dcb-47fc-993a-c13646d8917b",
+      "text": "Leverage unconscious processing for complex tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2353ccc4-f505-480f-a4c0-1fa3bdaa3282",
+      "text": "Sound money management involves acquiring, retaining, and multiplying wealth.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "23deef14-6184-4951-8221-ba3c8517252f",
+      "text": "Schedule deep work during high-concentration periods.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "23e0e308-ed9a-4f01-9c2e-985b7c4f46ef",
+      "text": "Evaluate all circumstances against the universal law of the cosmos.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "24e97aac-ce6a-4073-ad68-e36e6a9b4539",
+      "text": "Effective financial strategy necessitates ongoing learning and adaptation.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "256c1f80-2579-4e48-877d-9d80289b4436",
+      "text": "Evaluate situations based on inherent reality, not perception.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "25ac015f-77d9-41b0-9687-eda163a46468",
+      "text": "Do not delay opportunities beyond the moment they arise.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "25b1cf5f-1619-4a4a-a746-ace2f0dea64b",
+      "text": "Prioritize uninterrupted time for deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "25ea761b-f02d-4d1a-ac6d-f8a97bcfa602",
+      "text": "Executives must prioritize deep work over constant connectivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "27d0f98c-fb87-42fb-8476-8102c1583390",
+      "text": "Hard limits on time must be strictly enforced to manage work volume.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "28d11e38-f661-4522-90c9-ea06b0990596",
+      "text": "Persist in philosophical practice despite challenges",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2907af0c-518b-4a6a-8bfe-855f27d6a8b9",
+      "text": "Always identify the implied project in any response.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "291eef34-b548-4c82-8c27-11814e3917bb",
+      "text": "Balance immediate benefits against long-term sustainability.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "292c6c13-9754-4603-98a7-e1bac95a5dbb",
+      "text": "Repay loans promptly to preserve credit reputation",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "293a8eb2-5d2a-4b55-ba88-145d82b65f25",
+      "text": "Persist in applying learned lessons consistently.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "293dc948-c047-4c49-9579-1c7866a9ff67",
+      "text": "Define specific, ambitious goals before implementation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "29482a0e-d096-47ac-841e-aa606d06d612",
+      "text": "When effort is not measured, default to the easiest task.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "29514416-f7ac-451a-856c-dd391ab3299a",
+      "text": "Prioritize critical details over non-essential ones.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "29b115dd-4790-4432-adc6-be60556c6ebb",
+      "text": "Verify information through multiple perspectives before committing action.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2a1bfbcb-1661-4ebe-b95f-652166d183cb",
+      "text": "Maintain unbroken focus during deep work phases to avoid distraction.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2afdda9e-7d5c-4e5c-84bc-00902ddf9892",
+      "text": "Persist in philosophical practice despite challenges",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2c193760-f038-481a-ba21-201b1a723b55",
+      "text": "Prioritize positive focus to generate more favorable outcomes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2c6e6664-aa26-4269-91b0-43edf02850e1",
+      "text": "Financial success requires disciplined practice of fundamental principles.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2e310de6-656c-4bd7-93a2-ecff82fa4c02",
+      "text": "Resolve conflicts by addressing the other's reason.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2f182817-ee16-4341-b899-0e4ecc0d64c4",
+      "text": "Protect deep work by minimizing interruptions and shallow tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2f3b32b0-9cd0-43b8-a38d-1a4c8c6fc6dc",
+      "text": "Practice consistent effort in developing virtues to achieve mastery over one's circumstances.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2f61bfb0-1856-423a-987f-1579ca4b0b47",
+      "text": "Accept the limitations imposed by the natural world.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2f8c2f70-d260-4167-bc57-b5ec0b3cbe62",
+      "text": "Wealth imposes new constraints that must be actively managed.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2ff8765f-568c-44e2-82d1-15b76683ab59",
+      "text": "Limit engagement with low-impact activities",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "30013acd-1ffa-4194-aca0-1403a9556d13",
+      "text": "Foundation knowledge must be mastered before teaching others",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "30e55738-351e-4341-a1a9-eeac9dc820db",
+      "text": "Allocate a specific percentage of time (e.g., 30-50%) to shallow tasks based on organizational role.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "313db720-60b5-4c48-8e19-fa22b3cd4046",
+      "text": "Maintain unbroken focus during deep work phases to avoid distraction.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "31e331ec-1abb-42e6-8cb4-1b0a4055489b",
+      "text": "Structure lending decisions around concrete plans and verifiable qualifications.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "32006f65-dd45-4103-86dd-d932baeae0c3",
+      "text": "Maintain unbroken focus during deep work phases to avoid distraction.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "335110a4-930a-4ce5-9b45-14c401edecb8",
+      "text": "Limit daily deep work sessions to avoid exceeding natural attentional capacity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "33e27541-23fe-40f6-a9e8-53561fdee309",
+      "text": "Act justly without seeking external validation.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "341bbc72-6844-4458-a043-c9c94d9b7d3f",
+      "text": "Prioritize activities with low directed attention demands during downtime to facilitate recovery.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "34544c14-c8ba-4252-b280-4079219df085",
+      "text": "Save a portion of income regularly",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "34899244-06ef-4e37-a643-dd3b1f157bbf",
+      "text": "Accept the limitations imposed by the natural world.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "35588aeb-126f-4348-9ca7-e74861ff4488",
+      "text": "Prioritize high-impact collaboration over solo work for breakthrough problems.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "371185cc-3645-4429-92d1-f42249e3ea11",
+      "text": "Filter tools through the lens of primary goal activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "38254bd9-10ee-4a92-a91e-9c8eb8181464",
+      "text": "Sound money management involves acquiring, retaining, and multiplying wealth.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "38a24333-7bb9-4a78-8ca2-6e39a9213cda",
+      "text": "Evaluate decisions for potential relational consequences.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "391e2c18-4c46-43d9-9d60-7a99db68ccf2",
+      "text": "Spend each day as if it were your last, with disciplined detachment.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "39b3b513-5fde-4a5b-8196-07050b5bb6f8",
+      "text": "Establish clear boundaries during deep work sessions to prevent distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "39e4631c-7aee-44d2-a37d-3630c7e6b0e6",
+      "text": "Foster environments that support both concentration and innovation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "39f89aba-13a5-4b7c-b82c-0fa3f4b9fc2e",
+      "text": "Evaluate events through the lens of universal truth rather than personal bias.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "39fca5c6-d203-42ac-8ac7-cbe389c45bad",
+      "text": "When effort is not measured, default to the easiest task.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3a302340-d756-48c7-becb-1e2fd0831993",
+      "text": "Define specific work locations and timeframes to maintain focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3aa07d18-69ed-400d-b0f7-46d50852d1b4",
+      "text": "Visible busyness does not necessarily equate to productivity in knowledge work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3b847881-b502-4fae-971a-8df9f9a09fc5",
+      "text": "Implement a 30-day trial period for each service to assess its impact.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3be69c9c-8cf8-47c0-a3e6-047fa0216491",
+      "text": "Schedule deep work during uninterrupted time blocks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3ceca3ce-1907-48c8-9ac2-feee826b8444",
+      "text": "Save a portion of income regularly",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3d5f1924-9900-4168-a7d4-99356326ddb0",
+      "text": "Evaluate all events against the universal principles of nature.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3d8a0217-47c3-484a-8649-1e72e24a17c0",
+      "text": "Implement sender filters that require correspondents to self-select based on relevance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3da2b9af-ab3f-4a88-b87a-5e075a62cabb",
+      "text": "Prioritize the identification and immediate pursuit of potential opportunities.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3ddd04df-4a53-4d76-a8f0-4aea4b10b5f3",
+      "text": "Redirect attention immediately upon detecting distractions to maintain focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3ef93876-8787-4dc9-901d-0c33dec028ce",
+      "text": "Maintain vigilance against operational disruptions.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "411a9ef4-a15d-42b2-808c-85b9a8c9ecba",
+      "text": "Evaluate the necessity of optional tasks",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4163f411-b0b4-488c-a3ea-1160446d22a6",
+      "text": "Do not allow constraints of inaction to limit the potential for favorable events.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "417abfa9-2baa-4caf-b784-9eea2072de62",
+      "text": "Be ready to change opinions based on reason.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "41af71ff-e0d9-4c68-ae45-7b7e24f84243",
+      "text": "Define tasks as deep if they require significant expertise and cannot be completed by a novice in a short period.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "421c0107-1a9a-4960-beb3-f4dc72eacbf2",
+      "text": "Assess personal information exposure during technology adoption",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "426c597c-3619-400a-9577-d368c6ea1798",
+      "text": "Maintain mental focus to avoid emotional reactivity.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4286ffec-87a4-4b9c-9fea-09d1c4a1cf72",
+      "text": "Maintain consistency in the evaluation process to avoid subjective bias.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4290de4a-c659-4347-b209-db90a4107a42",
+      "text": "Evaluate all circumstances against the universal law of the cosmos.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "42eb5349-cae2-4484-979f-85f02a74d8eb",
+      "text": "Assume human resistance to new systems will decrease after initial exposure.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "42f18f96-8924-441f-a94a-101716a91bde",
+      "text": "Save consistently before allocating funds to investment",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4394d05d-04a1-4b84-a33a-9e4c68005c60",
+      "text": "Align actions with natural cycles to reduce emotional turmoil.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "43f6e6c9-80cd-4d5f-b8f8-53ad310c4249",
+      "text": "Maintain physical tokens to track loan status",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "440c625f-7de0-4023-af1f-052a35c85495",
+      "text": "Prioritize execution over planning to achieve results.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4492973c-da56-40ea-896d-fcd0a930d08f",
+      "text": "Prioritize execution over planning to achieve results.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4567262a-f8f0-4c5b-9734-4fbe58c94d89",
+      "text": "Attention must be scheduled around periods of cognitive demand.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4588078f-1cf0-456e-af3b-11d0d52a4593",
+      "text": "Foundation knowledge must be mastered before teaching others",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "45bb8d1d-adbc-435d-be6c-1676c6ed2c27",
+      "text": "Actively pursue righteous conduct in all interactions.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "462ac2b9-ceef-4e38-93b4-5c71df5ead0d",
+      "text": "Adjust your focus to maintain alignment with core objectives.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "46fd9525-71c3-4fc9-a420-c11f376f2c5b",
+      "text": "Evaluate the cognitive load imposed on operators when introducing technology.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "472cb589-e59b-42b1-98a4-46f145c59baf",
+      "text": "Evaluate situations based on their potential for transformation.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4750cf4a-3d5f-4727-9cfd-e682170c079b",
+      "text": "Maintain mental focus to avoid emotional reactivity.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "478755da-eb58-4073-b31f-c64d7b43b48b",
+      "text": "Evaluate the necessity of optional tasks",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "47b61618-921d-4fe1-a603-a84c9176ec00",
+      "text": "Define specific, ambitious goals before implementation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "47dc0cf6-9f91-4efc-8096-f5a8b568c06f",
+      "text": "Balance active work with intentional periods of inactivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4848d819-4fdf-434a-87c9-a72854bd18e5",
+      "text": "Prioritize positive focus to generate more favorable outcomes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "48b760c6-14ff-47ce-9660-b147240a946e",
+      "text": "Adjust behavior to align with reality.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "48d0b76b-e8b3-4aae-92c2-7be82eb98b46",
+      "text": "Embrace all aspects of life and death without resistance.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "490111cd-7176-4d48-8920-58712cff1fed",
+      "text": "Accept outcomes without emotional attachment",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4960a9cf-13e6-4a0d-b12a-2b1cab9f677b",
+      "text": "Effective financial strategy necessitates ongoing learning and adaptation.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "49e3dd36-1756-42e8-918c-2e663c29b795",
+      "text": "Identify baseline goals before evaluating tools.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4a270111-b0ed-4605-bda3-b0c4953c6748",
+      "text": "Accept that change is inevitable and requires flexibility",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4a43f6ce-b515-4c5c-b267-3d72dde450ac",
+      "text": "Persist in applying learned lessons consistently.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4abbece8-b284-46fc-a6de-f0b32b910b9c",
+      "text": "Establish boundaries for technology usage",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4b3ff4d8-0dcb-4d47-bbb9-a3330d9133ce",
+      "text": "Executives must prioritize deep work over constant connectivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4b87c2a6-d44a-4e96-ad53-053171dbea92",
+      "text": "Adjust expectations based on natural societal structures",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4bffb701-7cc1-40db-8470-34f206e167a5",
+      "text": "Limit daily deep work sessions to avoid exceeding natural attentional capacity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4da2bc04-689d-4a7d-8b65-70ed91d0998c",
+      "text": "Evaluate all circumstances against the universal law of the cosmos.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4e052f82-5e36-4c37-9ce2-b8410b43b651",
+      "text": "Adapt quickly to changing circumstances to seize advantages.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4e4668ca-6d12-4a02-882b-a46782ee8286",
+      "text": "Maintain consistency in the evaluation process to avoid subjective bias.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4f1b6f53-a7f8-4d9a-a23d-f6be7593a92d",
+      "text": "Redirect attention immediately upon detecting distractions to maintain focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4f98ef73-7ab8-4992-87c8-27e7219fe6fd",
+      "text": "Prioritize positive focus to generate more favorable outcomes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4fc09415-44b9-4925-8046-c12cdb31d26e",
+      "text": "Commit fully to the chosen strategy once it is determined.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "506a2bbd-7ee6-4e19-bf31-0400eab8eef6",
+      "text": "Identify baseline goals before evaluating tools.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "51a6c4f7-af39-4a9f-918c-411dda51af9e",
+      "text": "Allocate significant resources to signal task priority.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "52068159-378e-4e37-a8b3-9a70baca2baf",
+      "text": "Adapt quickly to changing circumstances to seize advantages.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5244991e-6f03-43d4-b4b6-a9388f668a48",
+      "text": "Maintain patience during transitional periods",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "530568ff-a304-46cb-9e06-e50caebadfe6",
+      "text": "Maintain physical tokens to track loan status",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5309ef41-92fd-415b-8b6a-29092ad49d0e",
+      "text": "Maintain focus on the resolution that yields the greatest positive outcome.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "53373ed9-1e85-492f-8644-d0934b8cc2e4",
+      "text": "Leverage unconscious processing for complex tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "535354c7-c509-4369-9e1c-1bf27657b105",
+      "text": "Ensure alignment with strategic priorities during execution.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "53ae244f-bac6-47cb-81b8-f62bc913189f",
+      "text": "Maintain mental readiness for unexpected challenges.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5404c5ce-4334-4697-8549-876e2ae5f55d",
+      "text": "Evaluate the cognitive load imposed on operators when introducing technology.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "542ddf42-66a0-40e2-a4e3-5b6b6a7cd23c",
+      "text": "Reinvest profits to compound growth",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "54de554b-f140-4928-9355-449399f82327",
+      "text": "Describe the end-to-end process in replies to avoid follow-ups.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "55664155-c99b-432f-8617-58c11f534f54",
+      "text": "Embrace change without resistance to avoid unnecessary suffering.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "55d10517-802a-40bf-ab7e-470387a740ca",
+      "text": "Separate environments for idea generation (collaborative hubs) and deep execution (focused spokes).",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5602df95-5c6f-4b18-b122-7a8fa3d00ac6",
+      "text": "Use the training time metric consistently to evaluate all work activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5624b75f-5d64-44bd-9788-d5effdccdd16",
+      "text": "Adapt quickly to changing circumstances to seize advantages.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5644a31f-9a80-4a22-94e4-aec51ef39347",
+      "text": "Accept the limitations imposed by the natural world.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "56b05b0f-5f38-461b-8ce0-e8879379ece4",
+      "text": "Consider the finite nature of time when making decisions.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "57dd777a-d2dc-44c6-888d-1de57f33064a",
+      "text": "Direct attention to controllable aspects of experience to foster personal growth.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "57fdb1d3-cf6e-4e53-bb96-0a841374cdaa",
+      "text": "Redefine success metrics beyond digital engagement",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "587e79c1-6dda-447b-a381-3c0077ea7bf4",
+      "text": "Assess tool impact against defined goals and activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5893ebf5-9027-4d3d-a6cf-465b7bc2a190",
+      "text": "Act from within rather than from external pressures or influences.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5b02bf8b-a77c-4fe4-ba6f-f7024ba48694",
+      "text": "Capital must be available before making significant investments",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5b1deba2-95eb-4423-893d-c2a891d81546",
+      "text": "Consider time/attention trade-offs against marginal benefits.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5b6601fd-facc-4d51-a2b1-c95a64ee6cf5",
+      "text": "Resolve conflicts by addressing the other's reason.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5beddb0b-7a80-47fb-97df-17a433b05bbf",
+      "text": "Shift focus from desired outcomes to managing internal responses.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5c56d084-58a4-4c9d-9bb6-d1c2afedb586",
+      "text": "Direct attention toward positive aspects to improve mood.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5d0586be-2bdf-4846-adb1-df5b5090decf",
+      "text": "Consider all outcomes as part of a larger natural order.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5d5760ed-8197-48f9-ad4d-278c66118640",
+      "text": "Allocate a specific percentage of time (e.g., 30-50%) to shallow tasks based on organizational role.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5e42199b-6222-48c6-9e23-bfd061aae1b8",
+      "text": "Assume human resistance to new systems will decrease after initial exposure.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5e49a297-35c7-416c-901b-552903a69d83",
+      "text": "Batch and limit external communications to reduce context switching.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5e7599fa-76ea-46f5-845e-6f8fe6300f92",
+      "text": "Establish a commitment to action to prevent hesitation.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5edaf8aa-c09b-44e1-ac01-ef2cf0687af5",
+      "text": "Foster environments that support both concentration and innovation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5ee9cba5-49e6-4e86-a4a2-ffaeb8ffa2cf",
+      "text": "Align strategies with tangible goals",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5ef49227-c21f-41b1-9aaa-ed7c56cb2557",
+      "text": "Establish clear boundaries during deep work sessions to prevent distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5fdf33cd-e19b-4a05-8fda-c7c6714e0466",
+      "text": "Adjust behavior to align with reality.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "603c79c0-2e61-452c-ae7e-48519259e71f",
+      "text": "Embrace all aspects of life and death without resistance.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "609dec41-096c-4afc-abd0-d596b2191fcc",
+      "text": "Internal mindset dictates response to external events.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "626f376b-2573-4c2d-8214-6e1f7d2f9fa3",
+      "text": "Assess risks to personal growth and avoid complacency.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "63e5a457-ea99-4d57-8ab4-30a973aa8ec6",
+      "text": "Avoid emotional obligations that compromise financial security.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "64f72197-79b4-4077-bb2f-5c0c37503c53",
+      "text": "Practice memory techniques to strengthen attentional control in operational contexts.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "64f90255-54b3-4093-b970-54e8d2f4ba06",
+      "text": "Maintain verifiable records of all transactions.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "650b2bf1-aa14-4187-94d9-85d7ac1322b3",
+      "text": "Resist external pressures that exceed personal control.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "65528e82-737a-410b-a520-74ba50996197",
+      "text": "Evaluate actions against universal principles of reason",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "65d793ec-7386-4a9f-82fa-772c447c11b0",
+      "text": "Maintain verifiable records of all transactions.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6766079f-9e33-4d8b-ad3a-b37ae021907a",
+      "text": "Spend each day as if it were your last, with disciplined detachment.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "68760ff8-23f4-466e-86db-fcb56d4fdf7e",
+      "text": "Assess the borrower's track record before lending.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "68e1b4a9-e45e-48af-85c7-013b7548c9a3",
+      "text": "Define and prioritize key variables and next-step questions to guide deep thinking.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "69683e31-fb51-4cc6-a986-69d730981fd7",
+      "text": "Schedule deep work during high-concentration periods.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "69d6994b-dcf4-4c42-b599-44f0274c8075",
+      "text": "Sound money management involves acquiring, retaining, and multiplying wealth.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "69d731d9-1352-4e12-b9b9-2a47fc953b47",
+      "text": "Do not lament outcomes beyond your influence.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6ae86838-883b-40eb-9649-de093968ee0b",
+      "text": "Consider the finite nature of time when making decisions.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6af13307-2937-4b89-aa91-eacab1c01f4c",
+      "text": "Do not delay opportunities beyond the moment they arise.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6b3d4697-4f1c-45aa-9219-6f3cb7ab4a94",
+      "text": "Systematically test and refine deep work routines.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6bc34909-a742-4b97-bf58-52368ae5e5f0",
+      "text": "Verify information through multiple perspectives before committing action.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6c5ecf5a-0802-464f-bf5e-7f5fd03d5925",
+      "text": "Evaluate situations based on what can be controlled",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6cd7460f-03cf-4bf2-b0f7-cd8d17d24f28",
+      "text": "Accept outcomes without emotional attachment",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6e02ad2d-98b0-4d21-ae96-9c0334b474df",
+      "text": "Establish boundaries for technology usage",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6f32bd02-621f-4aa7-8633-604115516101",
+      "text": "Align actions with core values to maintain authenticity.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6fefbfa4-acc6-48dd-afa9-751f8c3ba977",
+      "text": "Evaluate actions against universal principles of reason",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "70e72e2d-749f-42b2-bd0a-311e288b5a57",
+      "text": "Always identify the implied project in any response.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "712cb0fc-06b1-469d-b78b-d887c2db17c3",
+      "text": "Focus on income generation as a primary goal",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "716be462-16e4-418b-8fe8-62abf04c622b",
+      "text": "Persist in natural acts without seeking external validation.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "71d7a53c-6559-4aee-953b-049ce335abe7",
+      "text": "Define specific, ambitious goals before implementation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "721da7ef-8468-4629-ad7d-3ae0fe07908e",
+      "text": "Define specific work locations and timeframes to maintain focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "728ccc20-2eac-4c6e-8154-ef0059333860",
+      "text": "Monitor external factors to mitigate risks effectively.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "72919fac-ac5e-49d5-aa08-7e4f73f42ae0",
+      "text": "Adhere to fixed schedule commitments by aligning all activities with designated timeframes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "72d850bb-cff2-42f9-a2e8-c63a639d7085",
+      "text": "Avoid taking on others' burdens when lending or helping.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7328592d-15a7-4de6-bcd6-50afc8f603b1",
+      "text": "Embrace all external events with equanimity as part of the natural order.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "734fdd51-3194-4d91-9614-38013610c87e",
+      "text": "Systematically test and refine deep work routines.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7350008b-4360-43cb-8692-46987f35d8ac",
+      "text": "Continuously re-evaluate task effectiveness",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "73b42010-e9a4-40cc-9326-5236974cbaf5",
+      "text": "Shift focus from desired outcomes to managing internal responses.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "74e22d90-e928-4b9b-bc3b-7c70f1aea94a",
+      "text": "Question every action's necessity.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "753d5e65-69f7-41c0-b3db-d31bc945a21b",
+      "text": "Persist in natural acts without seeking external validation.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7560b3ab-fbb6-44aa-8881-c509ed169d4f",
+      "text": "Use multi-step processes to pre-screen inquiries before full engagement.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7624cb15-6812-4c46-9af0-2c18d32bb418",
+      "text": "Maintain inner stability regardless of external events.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "768d30a1-79de-4921-ad4e-fc738ad7eefa",
+      "text": "Avoid emotional obligations that compromise financial security.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "77377d93-e36a-4809-baad-ed41afa82cf3",
+      "text": "Maintain verifiable records of all transactions.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "775f0e5d-fee8-4cf7-9f91-09184a0352f5",
+      "text": "Adjust expectations based on natural societal structures",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "776434d8-39ac-4a59-b46d-17b4b7422e65",
+      "text": "Maintain mental focus to avoid emotional reactivity.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "778e7560-e982-4bf8-9ccb-8e7a28b773be",
+      "text": "Use the training time metric consistently to evaluate all work activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "788fffa4-6798-4fc2-8eb9-070912857145",
+      "text": "Use the training time metric consistently to evaluate all work activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "78f77b0e-de8c-4a70-81e9-587cdb5f0350",
+      "text": "Balance active work with intentional periods of inactivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "79059cd1-484d-44b4-9c38-655d75c120ce",
+      "text": "Build confidence through incremental practice of deep work techniques.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7a2804bb-4551-4d9e-b4c7-3d4a95a66a33",
+      "text": "Assess risks to personal growth and avoid complacency.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7a921c12-1c28-429c-9beb-c6dc8d41e877",
+      "text": "Internal mindset dictates response to external events.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7b57f0fa-ea56-4678-8ab1-a97e5792db9e",
+      "text": "Filter tools through the lens of primary goal activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7b9d0589-4e5c-4122-9587-e5a5c75f60a8",
+      "text": "Always identify the implied project in any response.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7d129b53-637d-4a90-adf2-f80fe0f140fe",
+      "text": "Separate environments for idea generation (collaborative hubs) and deep execution (focused spokes).",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7d84d392-f9b4-48d2-981e-56300cb72f94",
+      "text": "Evaluate the cognitive load imposed on operators when introducing technology.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7e08840c-e003-4176-86ee-0f4ced12ba95",
+      "text": "Adjust your focus to maintain alignment with core objectives.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7ee3556d-e462-4132-aad6-9f47c6139f19",
+      "text": "Practice memory techniques to strengthen attentional control in operational contexts.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7f5c6c5d-ed88-48d4-944f-8d3f03158134",
+      "text": "Limit engagement with low-impact activities",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7f6ba46f-4480-4d41-a996-4e2d92e7e442",
+      "text": "Embrace change without resistance to avoid unnecessary suffering.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8017a756-bb19-4dd4-85dd-c379e33b0eed",
+      "text": "Be ready to change opinions based on reason.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "801a2bbb-9899-4adc-878a-946f6905c386",
+      "text": "Monitor lead indicators regularly to adjust actions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8082cee7-7683-415c-ae7d-b3d274df333c",
+      "text": "Financial success requires disciplined practice of fundamental principles.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "80f13d15-7b0e-42c0-baeb-02e080ef8e72",
+      "text": "Decision-making processes should be designed to minimize distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "813437e6-6cc6-4e31-a175-f606185968f2",
+      "text": "Assume human resistance to new systems will decrease after initial exposure.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "81c84613-4d6f-403b-97d8-58c700824ff0",
+      "text": "Batch and limit external communications to reduce context switching.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "822b5bc2-fc5f-493e-89f3-2b4a9d901981",
+      "text": "Use multi-step processes to pre-screen inquiries before full engagement.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "836778dc-76fa-435e-acb4-dfee1c5b2890",
+      "text": "Resolve conflicts by addressing the other's reason.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "836db0dc-db8b-4bc0-b366-7afb1a66f49c",
+      "text": "Allocate investments across different asset classes",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "84aa2ee5-c740-43f5-b3b0-0e80aa66606d",
+      "text": "Balance immediate benefits against long-term sustainability.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "84c91d7d-a719-4fc9-ac57-f631105f104c",
+      "text": "Schedule deep work during uninterrupted time blocks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "851fbbbe-ad85-4920-8299-3ff216a4a34c",
+      "text": "Evaluate events through the lens of universal truth rather than personal bias.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "85f20fc6-5385-4b9b-9cf0-92fe1f087f9b",
+      "text": "Protect deep work by minimizing interruptions and shallow tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "86041c9b-12f6-4d38-a228-c270a28e3963",
+      "text": "Reinvest profits to compound growth",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "86a994d6-f0a7-49d9-8e9a-e1eb4f8c5d18",
+      "text": "Consider all outcomes as part of a larger natural order.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "86aab7b7-0bff-41e9-a0dc-c91debb00cbd",
+      "text": "Anachronistic productivity measures persist due to the absence of metrics.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "86cdcf70-5739-4e32-b45d-3abfebae2e67",
+      "text": "Attention must be scheduled around periods of cognitive demand.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "87800694-8022-497e-a128-fb27b4f601f5",
+      "text": "Embrace all external events with equanimity as part of the natural order.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "879a9d7e-db4a-422f-b0b1-4adf35d2f48f",
+      "text": "Balance active work with intentional periods of inactivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "88200f3f-0ea1-4247-9d12-27ae9762edff",
+      "text": "Save consistently before allocating funds to investment",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8842788a-4695-4394-9924-e01d1b2377dc",
+      "text": "Allocate majority resources to high-impact tasks",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "887a859e-dcb2-4830-be97-a6140120174c",
+      "text": "Practice consistent effort in developing virtues to achieve mastery over one's circumstances.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "887dec59-0bf5-48c1-ac97-8685674b8631",
+      "text": "Capital must be available before making significant investments",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "88e689ff-050c-4b89-b021-732a84dc19a9",
+      "text": "Allocate investments across different asset classes",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "89ed358c-c2d3-4ace-872c-7ea6c85c7a5f",
+      "text": "Practice detachment from outcomes to maintain inner peace.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8a9a72a5-0934-417b-9bf3-0967edc2bc30",
+      "text": "Leverage unconscious processing for complex tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8b07ac91-c1b8-4bbb-ad5b-0120c20fc8c9",
+      "text": "Foundation knowledge must be mastered before teaching others",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8bfc632a-c82a-4344-a796-c2ca3163cfe4",
+      "text": "Avoid taking on others' burdens when lending or helping.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8d11248c-3e95-4d51-a033-f1913968f684",
+      "text": "Prioritize self-awareness and disciplined thinking over reactive behavior.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8d1ec94a-ed76-4969-ba1a-2ef41ba65f84",
+      "text": "Practice memory techniques to strengthen attentional control in operational contexts.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8e20faff-f51f-448e-a225-8479ab5a1b4a",
+      "text": "Evaluate the cognitive load imposed on operators when introducing technology.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8e6577a4-577a-4b58-93d3-f1825ead1b68",
+      "text": "Systematically document spending decisions to reinforce fiscal discipline.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8e849d6b-21f0-4ef4-93af-70077a198265",
+      "text": "Maintain mental readiness for unexpected challenges.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8eea5218-8203-4582-be15-7604f8ce7249",
+      "text": "Practice detachment from outcomes to maintain inner peace.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8f2b6f5b-ffd3-41cb-9ffc-596cc6716cd2",
+      "text": "Avoid emotional obligations that compromise financial security.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8f94287c-c437-4bbc-b89d-f7ed593fd2c8",
+      "text": "Seek expert advice proactively",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8f9a6e66-1f14-4192-aa19-ac210168a6dd",
+      "text": "Assess whether positive impacts substantially outweigh negatives.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "90e986ae-bc6f-47ba-950b-b81d3eb76caa",
+      "text": "Do not delay opportunities beyond the moment they arise.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "90fb9dc2-18fd-43f3-89cb-5171a5a65622",
+      "text": "Specify the current status and immediate next action.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9383d6f1-7e8e-4c70-8e49-60f5b339585b",
+      "text": "Define tasks as deep if they require significant expertise and cannot be completed by a novice in a short period.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9673fa05-7817-4547-8f2a-3b8f07297826",
+      "text": "Question every action's necessity.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9691c302-76db-4f55-b990-1d71d0b25080",
+      "text": "Establish a commitment to action to prevent hesitation.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9729eeb4-3794-4db5-ae20-815cc3a57238",
+      "text": "Protect deep work by minimizing interruptions and shallow tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "97a5cbea-e5eb-4487-9fab-8bcedf8bb82d",
+      "text": "Maintain a minimum threshold for deep work to ensure value creation, while permitting controlled variations in shallow work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "97cc919a-33d0-43e3-8376-ca7a4faca5fa",
+      "text": "Wealth imposes new constraints that must be actively managed.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "97e385cc-2653-4618-b0c8-cca0da8fd82c",
+      "text": "Maintain focus on action, not consequence.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "97fa9480-cde9-426b-a020-547e25e63877",
+      "text": "Actively pursue righteous conduct in all interactions.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "999e25f0-c2ce-41f6-8d93-e23f72657112",
+      "text": "Sequential learning progression required",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "99a89e15-792f-40fb-aa0f-5161f82000ae",
+      "text": "Align professional activities with core value propositions to avoid dilution.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "99d564fe-ab71-472a-90c5-8dbcb1f078af",
+      "text": "Ensure the ability to retrieve assets at any time.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9a5d73ad-c0f0-4aef-bd53-a0b48b63432e",
+      "text": "Clear metrics prevent the substitution of shallow work for deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9a6f89fe-fec6-4a98-b521-9f57cc15bc7c",
+      "text": "Embrace all aspects of life and death without resistance.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9bb0c416-a686-4183-8026-a7e39f931646",
+      "text": "Assess whether positive impacts substantially outweigh negatives.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9c91ed5f-6fe7-4ccf-8bec-f3192306e946",
+      "text": "Assess if a tool significantly enhances critical activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9d0435a4-77ac-4c0e-99b7-1c7e6b64eb76",
+      "text": "Evaluate each situation independently based on truth and nature.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9d5f0f56-b38f-450b-b5e6-a0e6e23e6e40",
+      "text": "Avoid taking on others' burdens when lending or helping.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9d991249-96cb-4a98-abec-190cf61486ad",
+      "text": "Define and prioritize key variables and next-step questions to guide deep thinking.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9dce49ea-2087-472f-8da7-e68e4fab31ba",
+      "text": "Establish a consistent review cadence to maintain focus on key measures.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9eaa932e-74bf-495a-bf75-1b7625a17f39",
+      "text": "Assess tool impact against defined goals and activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9f511656-e9ed-4b8b-b5e6-39a2b70824cf",
+      "text": "Identify emotional leverage points to reset attitudes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9f9bd1e1-3050-4e32-b602-e7f96eea993f",
+      "text": "Use multi-step processes to pre-screen inquiries before full engagement.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a002f13e-e3ed-4c18-9fce-8cd8eb211371",
+      "text": "Visible busyness does not necessarily equate to productivity in knowledge work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a085a517-facf-43f6-b689-ce5b61b63487",
+      "text": "Schedule uninterrupted periods of low cognitive load to restore attentional resources.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a0f60613-343e-40dd-a40f-1702b048ec54",
+      "text": "Prioritize actions aligned with core values over fleeting desires.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a1428a01-1339-43b3-9042-1a6b2fe3e7d5",
+      "text": "Gold lending must be treated as a calculated investment, not a charitable act.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a1587a83-bf16-4fb8-9bf7-9fca0dda2b75",
+      "text": "Maintain focus on the resolution that yields the greatest positive outcome.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a168dee6-e413-4f28-9034-6cb280463e8c",
+      "text": "Do not allow constraints of inaction to limit the potential for favorable events.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a2675f78-1110-4839-90b6-0a6e119e94ee",
+      "text": "Standardized teaching methodology enforced",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a2abd44a-8e87-4a9a-9e1b-0ef4cba96f3a",
+      "text": "Align actions with core values to maintain authenticity.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a3766b8f-27c3-4823-98ee-2cbbb1f963fa",
+      "text": "Verify information through multiple perspectives before committing action.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a44985c7-de7a-418d-a3a7-23b251db4780",
+      "text": "Set specific conditions for response, prioritizing only highly relevant messages.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a48ec559-6d93-4535-9e56-c02fa3092f3c",
+      "text": "Maintain physical tokens to track loan status",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a4993948-9663-41b0-b389-427726cbeb0f",
+      "text": "Set specific conditions for response, prioritizing only highly relevant messages.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a499e9f4-94cd-42de-a7b6-6eefecb6e03c",
+      "text": "Establish a consistent review cadence to maintain focus on key measures.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a4a1004b-5126-469b-909d-98c0816f6f7f",
+      "text": "Practice detachment from outcomes to maintain inner peace.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a66d1f74-4124-4eb0-a5a3-573418afa100",
+      "text": "Prioritize actions aligned with core values over fleeting desires.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a75f54b0-cd28-4668-ab61-10734f72c26e",
+      "text": "Maintain vigilance against operational disruptions.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a7a60d81-82c4-43e1-8a76-95fc1e295ee3",
+      "text": "Maintain focus on action, not consequence.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a7c1d0bb-6f9c-4d13-b0ff-4628f074c35d",
+      "text": "Prioritize what is within control.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a863f707-da3b-4eac-9d45-24f4a6a06b59",
+      "text": "Prioritize uninterrupted time for deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a97ab5e7-6a74-4bb3-bfe3-962d350286ed",
+      "text": "Maintain inner stability regardless of external events.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a98098e3-8b8b-4d20-b547-4ce26138d137",
+      "text": "Assess personal information exposure during technology adoption",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a9b2bf93-3511-4b9d-b256-908cae5089af",
+      "text": "Effective financial strategy necessitates ongoing learning and adaptation.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a9bc3504-79e0-454d-a0ba-a76ec811a92a",
+      "text": "Maintain consistency in the evaluation process to avoid subjective bias.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a9ed302d-1b04-4018-8dce-3d5fee16e9a4",
+      "text": "Include contact details for exceptions to the process.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "aa2e7bb4-195d-4eab-b702-a8c2ff619dc5",
+      "text": "Specify the current status and immediate next action.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "aa32acee-c25a-40ca-b9bf-b1f678b7b95c",
+      "text": "Prioritize activities with low directed attention demands during downtime to facilitate recovery.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "aa754140-98cc-441d-8957-ddeda8d9958d",
+      "text": "Hard limits on time must be strictly enforced to manage work volume.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "abf9be6b-ccc5-4d45-8af9-8768d521ef90",
+      "text": "Continuously re-evaluate task effectiveness",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ac072ffb-5183-4f9a-adae-4120fee3e263",
+      "text": "Evaluate all events against the universal principles of nature.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ad890647-e093-4f3f-93dd-06748c1663e1",
+      "text": "Embrace all external events with equanimity as part of the natural order.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "adb61d07-dd12-4022-94f5-1b6d3f58d019",
+      "text": "Evaluate situations based on inherent reality, not perception.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ae9a0bca-d557-4b03-9cfb-d1bc2b66fb97",
+      "text": "Save consistently before allocating funds to investment",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "af397012-e153-439e-b403-cb9594e4a9dd",
+      "text": "Assess personal information exposure during technology adoption",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "af8b586f-75b5-4ec2-840d-37dbcfda6fb9",
+      "text": "Prioritize the identification and immediate pursuit of potential opportunities.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "afac96b7-9fcc-4328-a0b5-bac7dc766a89",
+      "text": "Consider time/attention trade-offs against marginal benefits.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "afb1430f-7638-4646-b8b4-d9e06fbef562",
+      "text": "Save consistently before allocating funds to investment",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b0ad31c9-c407-4061-9b1d-5bd61da5062a",
+      "text": "Systematically document spending decisions to reinforce fiscal discipline.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b2d5e244-43b3-4569-82cc-2f8efadb4fe3",
+      "text": "Identify emotional leverage points to reset attitudes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b30e9f06-7be8-4fc4-b614-c2e380ab995e",
+      "text": "Direct attention to controllable aspects of experience to foster personal growth.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b3c73cbb-ed3c-4c2d-81b5-1d99c42f102a",
+      "text": "Prioritize what is within your control in decision-making.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b3f0c837-13ed-4a1f-a509-94cce8b9f755",
+      "text": "Avoid emotional obligations that compromise financial security.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b525465a-8133-4766-9d1a-9968f7d8a8cd",
+      "text": "Prioritize what is within your control in decision-making.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b52de3a3-c8f6-46c2-9fcd-1daa933d90e1",
+      "text": "Redefine success metrics beyond digital engagement",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b53580f4-6102-4e81-bc51-db818703c45b",
+      "text": "Evaluate actions against universal principles of reason",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b6b8b4ae-414a-49c2-9205-6add73c23102",
+      "text": "Evaluate situations based on their potential for transformation.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b72d7154-1f31-4e2d-a1ed-2e57c4c42d33",
+      "text": "Resist external pressures that exceed personal control.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b7d8b312-81cf-4ccc-afc9-3d4baa6d1188",
+      "text": "Prioritize the identification and immediate pursuit of potential opportunities.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b81c148e-e96c-4faf-9b2c-92c0dc4bc16c",
+      "text": "Effective financial strategy necessitates ongoing learning and adaptation.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b877fab9-c3ce-48db-a911-bfbee2b2afaa",
+      "text": "Monitor attention investment against strategic priorities",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b8cef55f-e92b-4b8a-9b38-3a04d30d87fd",
+      "text": "Establish a consistent review cadence to maintain focus on key measures.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b930c819-9a08-47ac-91bd-ac9c7f38c749",
+      "text": "Apply consistent standards across varying circumstances.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ba118f31-0602-45a8-8cd2-ddccb2dcc3e1",
+      "text": "Actively assess each expenditure against its perceived value.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bb232edb-a802-4016-bd3d-72d7f462cdb4",
+      "text": "Monitor external factors to mitigate risks effectively.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bbbcb1bb-21e7-46a1-98a3-bf50563005a5",
+      "text": "Prioritize the identification and immediate pursuit of potential opportunities.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bbd63407-5f0a-4e13-8b85-6f7b94e23199",
+      "text": "Gold lending must be treated as a calculated investment, not a charitable act.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bc3d1631-6ca3-4eaf-bc12-3452a7147013",
+      "text": "Actively assess each expenditure against its perceived value.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bd33a212-a541-4432-a9f3-d8a632958a98",
+      "text": "Structure physical and virtual spaces to encourage serendipitous interactions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bd802a34-9f95-4e23-b665-5b99ba830b7f",
+      "text": "Prioritize critical details over non-essential ones.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bde76302-5d99-416b-86e1-eabc33017d21",
+      "text": "Structure lending decisions around concrete plans and verifiable qualifications.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "be251a3f-eeaf-4528-a5d4-8b58ab75d955",
+      "text": "Maintain inner stability regardless of external events.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "be66646c-e2c3-468b-b932-e10fa4bad944",
+      "text": "Examine all opinions and assumptions regularly.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "beaf7661-a4a2-46e8-996f-8e023421f5bb",
+      "text": "Define and prioritize key variables and next-step questions to guide deep thinking.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bf31d585-b71e-4697-9b3f-b5236331bac4",
+      "text": "Assess the borrower's track record before lending.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bf723e1b-25f0-48b4-838e-20b52769852a",
+      "text": "Assess whether positive impacts substantially outweigh negatives.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bf9f3968-3739-4020-8572-87e09c7addb0",
+      "text": "Train attention to alter neurological responses to stimuli.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bfd3b900-acf4-4b76-8dd8-c483498d71bb",
+      "text": "Focus on income generation as a primary goal",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bfec459e-0a36-4881-afcd-bc4708462fe1",
+      "text": "Seek expert advice proactively",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c03204c6-20e3-4034-b750-17024b9c6cde",
+      "text": "Maintain focus on core activities by limiting tool dependency.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c188c885-2aa7-4fd5-bfee-5e956d872a2c",
+      "text": "Consider time/attention trade-offs against marginal benefits.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c24bfa4a-3c32-4d1b-a4a0-2d5279819f44",
+      "text": "Monitor attention investment against strategic priorities",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c3c094e0-9b8c-4289-b3a7-1ccb3ea144a8",
+      "text": "Adjust strategies based on evolving circumstances and constraints.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c487b4b2-035e-4610-b857-29505264becd",
+      "text": "Ensure alignment with strategic priorities during execution.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c5634bee-97f1-48a5-b0cc-9757c71c1e2f",
+      "text": "Maintain a minimum threshold for deep work to ensure value creation, while permitting controlled variations in shallow work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c569731c-533b-4d26-970c-194bca3c4800",
+      "text": "Accept that change is inevitable and requires flexibility",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c63cce8c-b7ea-4ce0-bc36-f7a2488e8770",
+      "text": "Financial success requires disciplined practice of fundamental principles.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c6e4f288-402e-40c2-b217-c208850b608d",
+      "text": "Internal mindset dictates response to external events.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c6f2a178-600b-4c24-a176-95a1c1060adc",
+      "text": "Monitor attention investment against strategic priorities",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c7b76884-268b-4557-b039-739e4392f244",
+      "text": "Evaluate events through the lens of universal truth rather than personal bias.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c8a6050e-5f17-49e6-aed4-cd0e2f931762",
+      "text": "Align strategies with tangible goals",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c8a9438c-48fc-4241-a717-8e5c9c37ace0",
+      "text": "Focus on income generation as a primary goal",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c91af83e-a23d-466d-8007-1413dde3d252",
+      "text": "Question every action's necessity.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c9b25f1d-e0f4-4e19-924c-e13d95631c1b",
+      "text": "Standardized teaching methodology enforced",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c9b60e9e-dc2e-42dd-8e4e-79e61dbb2ad2",
+      "text": "Ensure the ability to retrieve assets at any time.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c9c7cba5-c30e-4d37-b85c-1cdcfbcb4b9b",
+      "text": "Direct attention to controllable aspects of experience to foster personal growth.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ca706220-7ede-48fd-b1e3-01f0f134f6a3",
+      "text": "Accept that change is inevitable and requires flexibility",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cba72fe2-e2cf-4043-915d-15b95372489b",
+      "text": "Repay loans promptly to preserve credit reputation",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cc8fdac7-033b-493f-bd9c-269e51203c04",
+      "text": "Maintain verifiable records of all transactions.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cdac5fa1-f416-4b6e-b0b5-550e6d6b6dc2",
+      "text": "Evaluate decisions for potential relational consequences.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ce333259-d10b-4451-b1f6-499c2e58470f",
+      "text": "Use a binary evaluation: if a service doesn't improve outcomes or matter to others, discontinue it.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ce6b136e-5001-4633-a697-959ed3f6d2b0",
+      "text": "Use a binary evaluation: if a service doesn't improve outcomes or matter to others, discontinue it.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ce9299f0-e9be-4ea1-beb2-87cf162dff9f",
+      "text": "Structure physical and virtual spaces to encourage serendipitous interactions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ceeea62b-8afe-4822-87f2-b875257e7a07",
+      "text": "Prioritize execution over planning to achieve results.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cf6a4944-d5c2-43fc-82f4-8fc85f13bc2f",
+      "text": "Prioritize uninterrupted time for deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cf88a130-207a-4ace-afee-4ece9e077268",
+      "text": "Prioritize activities with low directed attention demands during downtime to facilitate recovery.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cfcd7ac3-5918-49fb-9273-9ec59724f98f",
+      "text": "Allocate significant resources to signal task priority.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d0c35513-f978-44e3-bdb0-68686f0b1562",
+      "text": "Capital must be available before making significant investments",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d0cbe8e1-6c30-43a8-8735-b0db74886c8f",
+      "text": "Do not allow constraints of inaction to limit the potential for favorable events.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d21d4548-9b2e-4d69-8f55-c5da1f3ffedd",
+      "text": "Cultivate a habit of focusing on the present moment.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d26f4a64-ed57-460c-8109-f73bd0c7faf6",
+      "text": "Discard false desires to maintain clarity of thought.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d2cdf0fc-ee79-48cb-8ae9-4781abb0e8d6",
+      "text": "Define tasks as deep if they require significant expertise and cannot be completed by a novice in a short period.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d2ff1ec1-1f70-4d47-b810-d28197b77404",
+      "text": "Monitor lead indicators regularly to adjust actions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d439a86a-8b18-4810-96fc-aabeb7293c34",
+      "text": "Include contact details for exceptions to the process.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d4c1245e-cd7b-4ca1-a632-c6f1f490d313",
+      "text": "Cultivate a habit of focusing on the present moment.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d4e0b8b2-4459-4ed6-96a6-1913ced604f8",
+      "text": "Be ready to change opinions based on reason.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d4e76c04-b63c-463c-b6d0-a8cd43ccadf1",
+      "text": "Restrict non-essential communication and administrative tasks to predefined percentages to preserve focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d4fb3a51-03cb-428b-9170-5490d6a8558a",
+      "text": "Redirect attention immediately upon detecting distractions to maintain focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d54845c2-d986-421d-9d68-73eb04f03a92",
+      "text": "Allocate investments across different asset classes",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d552becf-9ecb-4c16-a4bb-2585172d6ede",
+      "text": "Maintain vigilance against operational disruptions.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d5584a9a-d4a8-429c-83f7-5b894abf5f7f",
+      "text": "Examine all opinions and assumptions regularly.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d5e99521-24a9-42fa-94c0-49cda778d271",
+      "text": "Evaluate all events against the universal principles of nature.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d611f8b6-850a-4688-8e30-9d8ca29ab077",
+      "text": "Hard limits on time must be strictly enforced to manage work volume.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d633982b-5c07-47c0-9275-04ba7c76386c",
+      "text": "Persist in philosophical practice despite challenges",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d6df3176-e6c1-4d4f-baeb-d74669107281",
+      "text": "Prioritize actions aligned with core values over fleeting desires.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d780c2d0-23e0-40a4-b614-50a6dc8a4175",
+      "text": "Cultivate a habit of focusing on the present moment.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d7c9e56a-0ef3-40fd-8010-133c0d38580f",
+      "text": "Execute duties regardless of personal comfort.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d8590d1f-9157-480d-85ba-281cb6fbbd7e",
+      "text": "Commit fully to the chosen strategy once it is determined.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d95eebf8-ef45-4dda-9099-71ced9baeb3f",
+      "text": "Practice consistent effort in developing virtues to achieve mastery over one's circumstances.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d9be1e75-8325-4e28-9dd1-747cee31f9d2",
+      "text": "Assess tool impact against defined goals and activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d9df0521-8527-42b2-a96c-af066765a1fd",
+      "text": "Maintain physical tokens to track loan status",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "da989ac2-2e79-4ac5-8d0f-725c04647bc7",
+      "text": "Separate what is within your control from what is not.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "daffcb91-c290-4230-b92f-7e674a82f66d",
+      "text": "Prioritize high-impact collaboration over solo work for breakthrough problems.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "db8dffd9-73c1-4ab8-815d-48eb312a84b6",
+      "text": "Adhere to fixed schedule commitments by aligning all activities with designated timeframes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dc138657-7bb7-453b-a530-54dd659d6747",
+      "text": "Apply consistent standards across varying circumstances.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dc2ee636-4d9d-4fad-a232-a0708bffe09a",
+      "text": "Filter tools through the lens of primary goal activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dca7f96c-8ddf-4cb9-9045-f90713730eec",
+      "text": "Monitor lead indicators regularly to adjust actions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dcc8ee37-f8c7-41ef-b8cd-29f1c09137a0",
+      "text": "Align actions with natural cycles to reduce emotional turmoil.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dd5f7266-8c35-4627-8a5f-26995c7f74e1",
+      "text": "Adjust expectations based on natural societal structures",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ddac0194-6b62-454a-9ebb-0f8c6a4fcbcc",
+      "text": "Prioritize what is within your control in decision-making.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "de48945f-72f7-4a32-969d-40753b3cc02b",
+      "text": "Seek expert advice proactively",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dec8362b-067f-4c46-a120-5bbe0224e6c8",
+      "text": "Execute duties regardless of personal comfort.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "defbfb11-8f9b-4f9b-aadd-c3452c83f853",
+      "text": "Schedule uninterrupted periods of low cognitive load to restore attentional resources.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dfe38a06-d443-487b-9bf4-78793a4c2a90",
+      "text": "Sequential learning progression required",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e086d968-29c3-452e-9b04-86b1b94c38b6",
+      "text": "Maintain patience during transitional periods",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e0910afb-04f5-42a6-81bc-cd29d3a60178",
+      "text": "Evaluate each situation independently based on truth and nature.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e11a886c-81ca-48fc-992c-187740e98497",
+      "text": "Redefine success metrics beyond digital engagement",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e1247dfd-b007-4dc0-aad7-8ed8e83dd87e",
+      "text": "Assume human resistance to new systems will decrease after initial exposure.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e175b67d-5ac8-4e99-9a6a-a8d29ee3e1a3",
+      "text": "Maintain patience during transitional periods",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e248bb81-203c-43b0-befd-c0cfcdc1f129",
+      "text": "Gold lending must be treated as a calculated investment, not a charitable act.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e34068e6-7949-4eef-afd3-eade59d44398",
+      "text": "Persist in natural acts without seeking external validation.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e4328f64-0348-427e-93a3-3d7c3313617b",
+      "text": "Financial success requires disciplined practice of fundamental principles.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e47f63ae-0794-442c-831b-82cf7ce48a5b",
+      "text": "Wealth imposes new constraints that must be actively managed.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e5044dc4-d0f2-47c2-a66c-9d59895c1c2c",
+      "text": "Separate what is within your control from what is not.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e5179cf2-b711-4490-9d66-61ce623166f2",
+      "text": "Balance immediate benefits against long-term sustainability.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e5f5c5ab-e94c-4136-b69c-9a06af80bb21",
+      "text": "Gold lending must be treated as a calculated investment, not a charitable act.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e66efa30-6d26-45ba-8638-92b45ef7cf1b",
+      "text": "Assess risks to personal growth and avoid complacency.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e70f63ea-4af0-446c-97fd-a55c947047fc",
+      "text": "Evaluate each situation independently based on truth and nature.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e77814bc-c0ad-4d88-9f43-a7ce0b6953de",
+      "text": "Ensure the ability to retrieve assets at any time.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e8bd4e20-5400-4e49-a037-b829abd307d3",
+      "text": "Use a binary evaluation: if a service doesn't improve outcomes or matter to others, discontinue it.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e95310e1-bcb7-4974-b545-0faf207180cf",
+      "text": "Align actions with core values to maintain authenticity.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e99951fc-9576-436b-85b0-a1ecd32ded6b",
+      "text": "Set specific conditions for response, prioritizing only highly relevant messages.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e99a2467-1d1a-4f06-853e-4526c217b3a9",
+      "text": "Visible busyness does not necessarily equate to productivity in knowledge work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ea9fb35c-231b-4cf9-af76-4641e10eeeb0",
+      "text": "Repay loans promptly to preserve credit reputation",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ec890fc1-84d1-4a55-9917-0dd2985cce4d",
+      "text": "Clear metrics prevent the substitution of shallow work for deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ec917f1e-cf77-4e4e-8fb7-2c511fab600b",
+      "text": "Discard false desires to maintain clarity of thought.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ecf4dc79-33e9-4d27-8366-361ec33f8b96",
+      "text": "Allocate a specific percentage of time (e.g., 30-50%) to shallow tasks based on organizational role.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ed8c0e5a-aaf7-436e-b8c7-40c954519d5d",
+      "text": "Anachronistic productivity measures persist due to the absence of metrics.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ede0c15e-3a39-4fb2-9e02-2a7b2aab6f92",
+      "text": "Do not lament outcomes beyond your influence.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ee6a688e-2877-4875-b4ae-25e7ee226922",
+      "text": "Batch and limit external communications to reduce context switching.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ee8b5c43-bc5a-4e18-b282-a29bfe123dec",
+      "text": "Establish a commitment to action to prevent hesitation.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ef121b86-a7c8-430a-bf8a-090222d6e370",
+      "text": "Align actions with natural cycles to reduce emotional turmoil.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ef1705dc-1f56-4534-8f41-3822bc2878c1",
+      "text": "Schedule deep work during uninterrupted time blocks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "efb30610-be24-49d1-ad79-c876aa30958f",
+      "text": "Anachronistic productivity measures persist due to the absence of metrics.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "efce0043-4cb7-4550-8b10-1a74648c722e",
+      "text": "Maintain focus on core activities by limiting tool dependency.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f03ab315-0685-4223-8f25-5b4dc6858d36",
+      "text": "Allocate significant resources to signal task priority.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f0d3caeb-beba-45b1-bba3-a2a15bf19ce7",
+      "text": "Standardized teaching methodology enforced",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f0ed4f5a-aa04-47b8-afd1-a77097437b4e",
+      "text": "When effort is not measured, default to the easiest task.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f1301a90-9aa9-4b30-893c-0505d2c2c041",
+      "text": "Establish boundaries for technology usage",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f13372e8-0f8d-4b94-905a-1b7e2fba1280",
+      "text": "Decision-making processes should be designed to minimize distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f1501746-d203-41ad-9d06-b18b5191a187",
+      "text": "Examine all opinions and assumptions regularly.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f150497c-da61-4d3d-b120-369749cc88b8",
+      "text": "Do not delay opportunities beyond the moment they arise.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f1a68ea6-d3e3-4ce4-a2dc-736ebc559503",
+      "text": "Sequential learning progression required",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f259e4bb-dc95-4bca-a5dc-65af905a710e",
+      "text": "Spend each day as if it were your last, with disciplined detachment.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f269d832-e38b-4d8b-8db5-ed659c0b205d",
+      "text": "Sequential learning progression required",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f2c3d754-3455-4834-ae2b-ab6bcaf092f9",
+      "text": "Act justly without seeking external validation.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f3c2e86a-a582-4d2c-b800-46ed5b44f46c",
+      "text": "Describe the end-to-end process in replies to avoid follow-ups.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f48a72bb-a95d-43f8-85fc-d851d84bf0d0",
+      "text": "Avoid taking on others' burdens when lending or helping.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f4938dce-3511-429e-8de7-ed262131f8e6",
+      "text": "Implement a 30-day trial period for each service to assess its impact.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f4e51da7-124f-4bda-a533-c728bf9c511a",
+      "text": "Adjust behavior to align with reality.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f5165455-bb0f-44d7-9eec-fd85702a2a7d",
+      "text": "Decision-making processes should be designed to minimize distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f56d68f4-3196-4b3f-8b0d-a94b80c1c752",
+      "text": "Identify baseline goals before evaluating tools.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f59a6bd4-d769-4093-ac36-e0fd62c58749",
+      "text": "Prioritize what is within control.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f63e356e-d769-4bcd-a1c5-29a06a2f2e9b",
+      "text": "Implement sender filters that require correspondents to self-select based on relevance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f678cc6e-ab25-4724-b5ec-b0704b65e889",
+      "text": "Structure lending decisions around concrete plans and verifiable qualifications.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f6d51f51-9a1c-446d-a139-b520b9c99cd6",
+      "text": "Structure lending decisions around concrete plans and verifiable qualifications.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f7020858-7556-4541-aeff-9191eb60c878",
+      "text": "Build confidence through incremental practice of deep work techniques.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f73ff58f-8b86-409a-a875-0923c7b8485e",
+      "text": "Commit fully to the chosen strategy once it is determined.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f75b8bcc-84dd-4839-9bd7-05ea8b624365",
+      "text": "Resist external pressures that exceed personal control.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f7da7154-7f4e-43cc-9035-2c8065454089",
+      "text": "Train attention to alter neurological responses to stimuli.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f7f91a87-6991-42dc-b117-67034834bd03",
+      "text": "Restrict non-essential communication and administrative tasks to predefined percentages to preserve focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f82c0602-1e83-4946-90d4-c1d926668b31",
+      "text": "Do not lament outcomes beyond your influence.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f854e6d1-f52b-4b69-b678-3a28f51d139b",
+      "text": "Assess if a tool significantly enhances critical activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f8d60f6f-a06b-4a3c-a056-748cb2a592da",
+      "text": "Maintain focus on the resolution that yields the greatest positive outcome.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f90bcbfe-7f00-435a-a6b7-f59936c3923b",
+      "text": "Identify emotional leverage points to reset attitudes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f9a2e9b8-ccbb-4cdb-9d90-6e335066ec29",
+      "text": "Include contact details for exceptions to the process.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fab63e79-e6f7-469e-8b91-321c3f475b8d",
+      "text": "Adjust strategies based on evolving circumstances and constraints.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fb441e6e-2a9f-4762-abe5-3fd6de77e1ea",
+      "text": "Establish clear boundaries during deep work sessions to prevent distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fb72e6ca-7c8d-4e89-b2d2-14485c77d2f1",
+      "text": "Sound money management involves acquiring, retaining, and multiplying wealth.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fb9363bb-2c45-4beb-a033-fef43139d2b6",
+      "text": "Ensure alignment with strategic priorities during execution.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fc1722b7-0220-4bd6-8e1a-194fc712d41e",
+      "text": "Maintain focus on core activities by limiting tool dependency.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fcd7f1ee-c997-4617-84f5-7ad8ed8d4f66",
+      "text": "Train attention to alter neurological responses to stimuli.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fd450b1d-c6cc-4f2b-aa49-b52bde44c8a2",
+      "text": "Restrict non-essential communication and administrative tasks to predefined percentages to preserve focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fd691255-1868-475e-a695-f57ff06296a8",
+      "text": "Schedule uninterrupted periods of low cognitive load to restore attentional resources.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fdca75f2-25aa-488a-b405-619577048783",
+      "text": "Standardized teaching methodology enforced",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ffb168ba-4dd9-49d2-852a-ae9beb1f5ad5",
+      "text": "Adjust strategies based on evolving circumstances and constraints.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 25
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 537,
+    "last_updated": "2026-02-11T08:14:26.524678Z",
+    "aggregated_from": [
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 19
+      },
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 2
+      },
+      {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 17
+      },
+      {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 3
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 20
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 25
+      },
+      {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 14
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 13
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 19
+      },
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 9
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 7
+      },
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 7
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 10
+      },
+      {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 7
+      }
+    ]
+  }
+}

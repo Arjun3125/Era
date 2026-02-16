@@ -1,0 +1,47 @@
+{
+  "domain": "Learning",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "7a203ee0-700e-4793-8901-e45c2ac18e4e",
+      "text": "Human beings are metaphorical dice-players in the face of divine chances.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0ce5f10e-728b-49c1-a2a2-b6c27bfc9572",
+      "text": "Psychological safety directly improves team learning and performance.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 71
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4113e0c3-f15e-4ea5-9270-dae4a54a0047",
+      "text": "Leaders who share feedback and remain humble enhance team psychological safety.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 71
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T20:50:12.175645Z",
+    "aggregated_from": [
+      {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 50
+      },
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 71
+      }
+    ]
+  }
+}

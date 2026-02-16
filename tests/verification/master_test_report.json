@@ -1,0 +1,250 @@
+{
+  "timestamp": "2026-02-14T13:51:02.959602",
+  "execution_time_seconds": 0.0,
+  "summary": {
+    "total_tests": 31,
+    "passed": 31,
+    "failed": 0,
+    "pass_rate": "100.0%"
+  },
+  "by_category": {
+    "basic_functionality": [
+      {
+        "test": "Agent Instantiation",
+        "passed": true,
+        "details": "OK"
+      },
+      {
+        "test": "State Initialization",
+        "passed": true,
+        "details": "OK"
+      },
+      {
+        "test": "Response Generation",
+        "passed": true,
+        "details": "OK"
+      },
+      {
+        "test": "Telemetry Collection",
+        "passed": true,
+        "details": "OK"
+      }
+    ],
+    "persona_modes": [
+      {
+        "test": "Mode: quick",
+        "passed": true,
+        "mode": "quick"
+      },
+      {
+        "test": "Mode: war",
+        "passed": true,
+        "mode": "war"
+      },
+      {
+        "test": "Mode: meeting",
+        "passed": true,
+        "mode": "meeting"
+      },
+      {
+        "test": "Mode: darbar",
+        "passed": true,
+        "mode": "darbar"
+      }
+    ],
+    "emotional_intelligence": [
+      {
+        "test": "Critical overwhelm",
+        "passed": true,
+        "expected": 0.85,
+        "detected": 0.95,
+        "response": "[Persona:SUPPRESS] Let's focus on one actionable step"
+      },
+      {
+        "test": "Career stress",
+        "passed": true,
+        "expected": 0.8,
+        "detected": 0.85,
+        "response": "[Persona:CLARIFY] Tell me more about what triggered this"
+      },
+      {
+        "test": "Work pressure",
+        "passed": true,
+        "expected": 0.75,
+        "detected": 0.85,
+        "response": "[Persona:SUPPRESS] Let's focus on one actionable step"
+      },
+      {
+        "test": "Feeling stuck",
+        "passed": true,
+        "expected": 0.7,
+        "detected": 0.8,
+        "response": "[Persona:PASS] That's an interesting question"
+      },
+      {
+        "test": "Mild concern",
+        "passed": true,
+        "expected": 0.0,
+        "detected": 0.0,
+        "response": "[Persona:PASS] That's an interesting question"
+      },
+      {
+        "test": "Contradictory emotions",
+        "passed": true,
+        "expected": 0.0,
+        "detected": 0.0,
+        "response": "[Persona:PASS] That's an interesting question"
+      }
+    ],
+    "domain_classification": [
+      {
+        "test": "Domain: strategy",
+        "passed": true,
+        "expected": [
+          "strategy"
+        ],
+        "detected": [
+          "strategy"
+        ]
+      },
+      {
+        "test": "Domain: psychology",
+        "passed": true,
+        "expected": [
+          "psychology"
+        ],
+        "detected": [
+          "strategy",
+          "psychology"
+        ]
+      },
+      {
+        "test": "Domain: discipline",
+        "passed": true,
+        "expected": [
+          "discipline"
+        ],
+        "detected": [
+          "discipline"
+        ]
+      },
+      {
+        "test": "Domain: power",
+        "passed": true,
+        "expected": [
+          "power"
+        ],
+        "detected": [
+          "power"
+        ]
+      },
+      {
+        "test": "Domain: multi",
+        "passed": true,
+        "expected": [
+          "strategy",
+          "psychology"
+        ],
+        "detected": [
+          "strategy",
+          "psychology"
+        ]
+      }
+    ],
+    "response_generation": [
+      {
+        "test": "Response: PASS",
+        "passed": true,
+        "response": "[Persona:PASS] That's an interesting question"
+      },
+      {
+        "test": "Response: CLARIFY",
+        "passed": true,
+        "response": "[Persona:CLARIFY] Tell me more about what triggered this"
+      },
+      {
+        "test": "Response: SUPPRESS",
+        "passed": true,
+        "response": "[Persona:SUPPRESS] Let's focus on one actionable step"
+      },
+      {
+        "test": "Response: SILENT",
+        "passed": true,
+        "response": "[Persona:SILENT] Need more context"
+      }
+    ],
+    "state_management": [
+      {
+        "test": "State Persistence (5 turns)",
+        "passed": true,
+        "turn_count": 5,
+        "recent_turns": 5,
+        "domains": [
+          "strategy",
+          "discipline"
+        ]
+      }
+    ],
+    "edge_cases": [
+      {
+        "test": "Edge: Empty input",
+        "passed": true,
+        "response_length": 34
+      },
+      {
+        "test": "Edge: Very long query",
+        "passed": true,
+        "response_length": 45
+      },
+      {
+        "test": "Edge: Special characters",
+        "passed": true,
+        "response_length": 34
+      },
+      {
+        "test": "Edge: Single character",
+        "passed": true,
+        "response_length": 34
+      },
+      {
+        "test": "Edge: Repeated pattern",
+        "passed": true,
+        "response_length": 45
+      }
+    ],
+    "multi_agent_integration": [
+      {
+        "test": "Orchestration (3-turn simulation)",
+        "passed": true,
+        "history_length": 8,
+        "turns_executed": 4
+      }
+    ],
+    "kis_features": [
+      {
+        "test": "KIS Multi-Domain Integration",
+        "passed": true,
+        "synthesis_available": true,
+        "multi_domain_detected": true,
+        "confidence_tracking": true,
+        "domains_used": [
+          "strategy",
+          "psychology",
+          "discipline",
+          "power"
+        ]
+      }
+    ]
+  },
+  "features_validated": [
+    "Agent Creation & State Management",
+    "All 4 Persona Modes",
+    "Emotional Intelligence (6 scenarios)",
+    "Domain Classification (5 domains)",
+    "Response Types (PASS/CLARIFY/SUPPRESS/SILENT)",
+    "State Persistence",
+    "Edge Case Handling",
+    "Multi-Agent Orchestration",
+    "KIS Feature Integration"
+  ]
+}

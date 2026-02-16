@@ -1,0 +1,10 @@
+
+2026-02-15 04:36:07.393485 | TURN 1 | MODE MEETING
+USER: [DRY_USER] simulated response at 2026-02-14T23:06:07.390893
+PROGRAM: [DRY_PROGRAM] simulated response at 2026-02-14T23:06:07.391027
+ML_RESULT: {'user_input': 'MODE: MEETING\nUSER: [DRY_USER] simulated response at 2026-02-14T23:06:07.390893\nPROGRAM: [DRY_PROGRAM] simulated response at 2026-02-14T23:06:07.391027\n', 'timestamp': '2026-02-15T04:36:07.391106', 'pipeline_stages': {}, 'quality': {'input_length': 152, 'has_kis_output': False, 'has_constraints': False, 'num_domains': 0}, 'for_training': {'situation_features': {}, 'constraint_features': {}, 'kis_features': {}, 'timestamp': '2026-02-15T04:36:07.391106'}, 'decision_key': 'dec_decision_0_d42aad41'}
+
+2026-02-15 04:36:08.395848 | TURN 2 | MODE DARBAR
+USER: [DRY_USER] simulated response at 2026-02-14T23:06:08.394246
+PROGRAM: [DRY_PROGRAM] simulated response at 2026-02-14T23:06:08.394466
+ML_RESULT: {'user_input': 'MODE: DARBAR\nUSER: [DRY_USER] simulated response at 2026-02-14T23:06:08.394246\nPROGRAM: [DRY_PROGRAM] simulated response at 2026-02-14T23:06:08.394466\n', 'timestamp': '2026-02-15T04:36:08.394618', 'pipeline_stages': {}, 'quality': {'input_length': 151, 'has_kis_output': False, 'has_constraints': False, 'num_domains': 0}, 'for_training': {'situation_features': {}, 'constraint_features': {}, 'kis_features': {}, 'timestamp': '2026-02-15T04:36:08.394618'}, 'decision_key': 'dec_decision_1_00ea09a9'}

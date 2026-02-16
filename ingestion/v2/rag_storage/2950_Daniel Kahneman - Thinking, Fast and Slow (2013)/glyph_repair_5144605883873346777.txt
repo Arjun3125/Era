@@ -1,0 +1,38 @@
+8. A. Tversky and D. Kahneman, “Belief in the Law of Small Numbers,” Psychological Bulletin 76 (1971): 105–10.
+9. Kahneman and Tversky, “On the Psychology of Prediction.”
+10. Ibid.
+11. Ibid.
+12. Ibid. 13. A. Tversky and D. Kahneman, “Availability: A Heuristic for Judging Frequency and Probability,” Cognitive Psychology 5 (1973): 207–32.
+14. Ibid.
+15. R. C. Galbraith and B. J. Underwood, “Perceived Frequency of Concrete and Abstract Words,” Memory & Cognition 1 (1973): 56–60.
+16. Tversky and Kahneman, “Availability.”
+17. L. J. Chapman and J. P. Chapman, “Genesis of Popular but Erroneous Psychodiagnostic Observations,” Journal of Abnormal Psychology 73 (1967): 193–204; L. J. Chapman and J. P. Chapman, “Illusory Correlation as an Obstacle to the Use of Valid Psychodiagnostic Signs,” Journal of Abnormal Psychology 74 (1969): 271–80.
+18. P. Slovic and S. Lichtenstein, “Comparison of Bayesian and Regression Approaches to the Study of Information Processing in Judgment,” Organizational Behavior & Human Performance 6 (1971): 649–744.
+19. M. Bar-Hillel, “On the Subjective Probability of Compound Events,” Organizational Behavior & Human Performance 9 (1973): 396–406.
+20. J. Cohen, E. I. Chesnick, and D. Haran, “A Confirmation of the Inertial-? Effect in Sequential Choice and Decision,” British Journal of Psychology 63 (1972): 41–46.
+21. M. Alpe [spa Acta Psychologica 35 (1971): 478–94; R. L. Winkler, “The Assessment of Prior Distributions in Bayesian Analysis,” Journal of the American Statistical Association 62 (1967): 776–800.
+22. Kahneman and Tversky, “Subjective Probability”; Tversky and Kahneman, “Availability.”
+23. Kahneman and Tversky, “On the Psychology of Prediction”; Tversky and Kahneman, “Belief in the Law of Small Numbers.”
+24. L. J. Savage, The Foundations of Statistics (New York: Wiley, 1954).
+25. Ibid.; B. de Finetti, “Probability: Interpretations,” in International Encyclopedia of the Social Sciences, ed. D. E. Sills, vol. 12 (New York: Macmillan, 1968), 496–505.
+
+Appendix B: Choices, Values, And Frames
+Daniel Kahneman and Amos Tversky
+
+ABSTRACT: We discuss the cognitive and the psychophysical determinants of choice in risky and riskless contexts. The psychophysics of value induce risk aversion in the domain of gains and risk seeking in the domain of losses. The psychophysics of chance induce overweighting of sure things and of improbable events, relative to events of moderate probability. Decision problems can be described or framed in multiple ways that give rise to different preferences, contrary to the invariance criterion of rational choice. The process of mental accounting, in which people organize the outcomes of transactions, explains some anomalies of consumer behavior. In particular, the acceptability of an option can depend on whether a negative outcome is evaluated as a cost or as an uncompensated loss. The relation between decision values and experience values is discussed.
+
+Making decisions is like speaking prose—people do it all the time, knowingly or unknowingly. It is hardly surprising, then, that the topic of decision making is shared by many disciplines, from mathematics and statistics, through economics and political science, to sociology and psychology. The study of decisions addresses both normative and descriptive questions. The normative analysis is concerned with the nature of rationality and the logic of decision making. The descriptive analysis, in contrast, is concerned with people’s beliefs and preferences as they are, not as they should be. The tension between normative and descriptive considerations characterizes much of the study of judgment and choice.
+
+Analyses of decision making commonly distinguish risky and riskless choices. The paradigmatic example of decision under uncertainty is:
+
+Risky Choice
+
+Risky choices, such as whether or not to take an umbrella and whether or not to go to war, are made without advance knowledge of their consequences. Because the consequences of such actions depend on uncertain events such as the weather or the opponent’s resolve, the choice of an act may be construed as the acceptance of a gamble that can yield various outcomes with different probabilities. It is therefore natural that the study of decision making under risk has focused on choices between simple gambles with monetary outcomes and specified probabilities, in the hope that these simple problems will reveal basic attitudes toward risk and value.
+
+We shall sketch an approach to risky choice that derives many of its hypotheses from a psychophysical analysis of responses to money and to probability. The psychophysical approach to decision making can be traced to a remarkable essay that Daniel Bernoulli published in 1738 (Bernoulli 1954) in which he attempted to explain why people are generally averse to risk and why risk aversion decreases with increasing wealth. To illustrate risk aversion and Bernoulli’s analysis, consider the choice between a prospect that offers an 85% chance to win $1,000 (with a 15% chance to win nothing) and the alternative of receiving $800 for sure. A large majority of people prefer the sure thing over the gamble, although the gamble has higher expectation. The preference for the sure gain is an instance of risk aversion. In general, a preference for a sure outcome over a gamble that has higher or equal expectation is called risk averse, and the rejection of a sure thing in favor of a gamble of lower or equal expectation is called risk seeking.
+
+Bernoulli suggested that people do not evaluate prospects by the expectation of their monetary outcomes, but rather by the expectation of the subjective value of these outcomes. The subjective value of a gamble is again a weighted average, but now it is the subjective value of each outcome that is weighted by its probability. To explain risk aversion within this framework, Bernoulli proposed that subjective value, or utility, is a concave function of money. In such a function, the difference between the utilities of $200 and $100, for example, is greater than the utility difference between $1,200 and $1,100. It follows from concavity that the subjective value attached to a gain of $800 is more than 80% of the value of a gain of $1,000. Consequently, the concavity of the utility function entails a risk averse preference for a sure gain of $800 over an 80% chance to win $1,000, although the two prospects have the same monetary expectation.
+
+It is customary in decision analysis to describe the outcomes of decisions in terms of total wealth. For example, an offer to bet $20 on the toss of a fair coin is represented as a choice between an individual’s current wealth W and an even chance to move to W + $20 or to W - $20. This representation appears psychologically unrealistic: People do not normally think of relatively small outcomes in terms of states of wealth but rather in terms of gains, losses, and neutral outcomes (such as the maintenance of the status quo).
+
+If the effective carriers of subjective value are changes of wealth rather than ultimate states of wealth, as we propose, the psychophysical analysis of outcomes should be applied to gains and losses rather than to total assets. This assumption plays a central role in a treatment of risky choice that we called prospect theory (Kahneman and Tversky 1979). Introspection as well as psychophysical measurements suggest that subjective value is a concave function of the size of a gain. The same generalization

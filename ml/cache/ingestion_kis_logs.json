@@ -1,0 +1,2421 @@
+{
+  "timestamp": "2026-02-15T01:25:36.854118",
+  "ingestion_contexts": {
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_1": {
+      "chapter_title": null,
+      "minister_domain": "constraints",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_1",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:28.957843"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_2": {
+      "chapter_title": null,
+      "minister_domain": "timing",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_2",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:28.970091"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_3": {
+      "chapter_title": null,
+      "minister_domain": "power",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_3",
+      "kis_synthesis": [
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power.",
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.754,
+            "book": "builtin:optionality_guide"
+          },
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.754,
+            0.558,
+            0.555
+          ],
+          "avg_kis": 0.622
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:28.975353"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_4": {
+      "chapter_title": null,
+      "minister_domain": "power",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_4",
+      "kis_synthesis": [
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power.",
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.754,
+            "book": "builtin:optionality_guide"
+          },
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.754,
+            0.558,
+            0.555
+          ],
+          "avg_kis": 0.622
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:28.984278"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_5": {
+      "chapter_title": null,
+      "minister_domain": "Finance",
+      "doctrine_excerpt": "Consistent saving is foundational to wealth creation.",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_5",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:28.991260"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_6": {
+      "chapter_title": null,
+      "minister_domain": "strategy",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_6",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:28.991433"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_7": {
+      "chapter_title": null,
+      "minister_domain": "timing",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_7",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.003976"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_8": {
+      "chapter_title": null,
+      "minister_domain": "strategy",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_8",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.007932"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_9": {
+      "chapter_title": null,
+      "minister_domain": "discipline",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_9",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.021672"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_10": {
+      "chapter_title": null,
+      "minister_domain": "discipline",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_10",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.029320"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_11": {
+      "chapter_title": null,
+      "minister_domain": "base",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_11",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.035306"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_12": {
+      "chapter_title": null,
+      "minister_domain": "strategy",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_12",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.037075"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_13": {
+      "chapter_title": null,
+      "minister_domain": "constraints",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_13",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.048646"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_14": {
+      "chapter_title": null,
+      "minister_domain": "Finance",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_14",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.060231"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_15": {
+      "chapter_title": null,
+      "minister_domain": "conflict",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_15",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.060410"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_16": {
+      "chapter_title": null,
+      "minister_domain": "discipline",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_16",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.066548"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_17": {
+      "chapter_title": null,
+      "minister_domain": "psychology",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_17",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.073125"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_18": {
+      "chapter_title": null,
+      "minister_domain": "base",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_18",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.082991"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_19": {
+      "chapter_title": null,
+      "minister_domain": "conflict",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_19",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.083732"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_20": {
+      "chapter_title": null,
+      "minister_domain": "strategy",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_20",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.087668"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_21": {
+      "chapter_title": null,
+      "minister_domain": "strategy",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_21",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.106708"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_22": {
+      "chapter_title": null,
+      "minister_domain": "optionality",
+      "doctrine_excerpt": "Unconventional solutions can address persistent problems.",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_22",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.117937"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_23": {
+      "chapter_title": null,
+      "minister_domain": "power",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_23",
+      "kis_synthesis": [
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power.",
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.754,
+            "book": "builtin:optionality_guide"
+          },
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.754,
+            0.558,
+            0.555
+          ],
+          "avg_kis": 0.622
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.164623"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_24": {
+      "chapter_title": null,
+      "minister_domain": "timing",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_24",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.170754"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_25": {
+      "chapter_title": null,
+      "minister_domain": "strategy",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_25",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.174053"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_26": {
+      "chapter_title": null,
+      "minister_domain": "power",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_26",
+      "kis_synthesis": [
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power.",
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.754,
+            "book": "builtin:optionality_guide"
+          },
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.754,
+            0.558,
+            0.555
+          ],
+          "avg_kis": 0.622
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.183118"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_27": {
+      "chapter_title": null,
+      "minister_domain": "psychology",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_27",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.188835"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_28": {
+      "chapter_title": null,
+      "minister_domain": "Business Acumen",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_28",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.193350"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_29": {
+      "chapter_title": null,
+      "minister_domain": "strategy",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_29",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.193484"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_30": {
+      "chapter_title": null,
+      "minister_domain": "Environmental Sustainability",
+      "doctrine_excerpt": "Effective resource management systems are essential for sustainable development.",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_30",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.202818"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_31": {
+      "chapter_title": null,
+      "minister_domain": "registry",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_31",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.202970"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_32": {
+      "chapter_title": null,
+      "minister_domain": "data",
+      "doctrine_excerpt": "",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_32",
+      "kis_synthesis": [
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+        "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          },
+          {
+            "aku_id": "builtin-2",
+            "domain": "optionality_guide",
+            "type": "advice",
+            "source": {
+              "book": "builtin:optionality_guide"
+            },
+            "kis": 0.534,
+            "book": "builtin:optionality_guide"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.558,
+            0.555,
+            0.534
+          ],
+          "avg_kis": 0.549
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "decision_theory",
+            "optionality_guide",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.203662"
+    },
+    "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_33": {
+      "chapter_title": null,
+      "minister_domain": "Home Ownership",
+      "doctrine_excerpt": "Use creativity and common sense in financial planning",
+      "ingestion_job_id": "ingest_16-05-2021-070111The-Richest-Man-in-Babylon_33",
+      "kis_synthesis": [
+        "Quitting without financial buffer leaves you vulnerable. Ensure 6-12 months expenses saved before major career transitions.",
+        "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+        "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration."
+      ],
+      "kis_context": {
+        "knowledge_trace": [
+          {
+            "aku_id": "builtin-1",
+            "domain": "career_risk",
+            "type": "warning",
+            "source": {
+              "book": "builtin:risk_guide"
+            },
+            "kis": 0.661,
+            "book": "builtin:risk_guide"
+          },
+          {
+            "aku_id": "builtin-4",
+            "domain": "personal_finance",
+            "type": "rule",
+            "source": {
+              "book": "builtin:finance_guide"
+            },
+            "kis": 0.558,
+            "book": "builtin:finance_guide"
+          },
+          {
+            "aku_id": "builtin-5",
+            "domain": "decision_theory",
+            "type": "principle",
+            "source": {
+              "book": "builtin:decision_theory"
+            },
+            "kis": 0.555,
+            "book": "builtin:decision_theory"
+          }
+        ],
+        "quality": {
+          "num_selected": 3,
+          "top_kis_scores": [
+            0.661,
+            0.558,
+            0.555
+          ],
+          "avg_kis": 0.591
+        },
+        "debug": {
+          "total_entries_scanned": 7,
+          "num_books_scanned": 7,
+          "books_scanned": [
+            "career_risk",
+            "decision_theory",
+            "intel_and_comm",
+            "optionality_guide",
+            "personal_finance",
+            "power_technology",
+            "psychology_of_work"
+          ],
+          "selected_books": [
+            "career_risk",
+            "decision_theory",
+            "personal_finance"
+          ]
+        }
+      },
+      "processing_timestamp": "2026-02-15T01:25:29.206045"
+    }
+  },
+  "statistics": {
+    "total_ingestions": 33,
+    "enhanced_with_kis": 33,
+    "enhancement_rate": 1.0,
+    "total_knowledge_items_synthesized": 99,
+    "avg_items_per_ingestion": 3.0
+  }
+}

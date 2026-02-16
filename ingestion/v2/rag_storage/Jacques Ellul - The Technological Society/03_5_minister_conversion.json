@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "total_chapters_processed": 85,
+  "total_entries_created": 1941,
+  "domains_populated": 12,
+  "domain_statistics": {
+    "constraints": 287,
+    "decision": 8,
+    "risk": 263,
+    "strategy": 226,
+    "technology": 406,
+    "adaptation": 282,
+    "conflict": 62,
+    "optionality": 49,
+    "truth": 8,
+    "power": 172,
+    "psychology": 161,
+    "data": 17
+  }
+}

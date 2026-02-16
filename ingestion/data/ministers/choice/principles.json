@@ -1,0 +1,34 @@
+{
+  "domain": "choice",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "95cfc81c-9963-499d-9fbb-1f1e6fae4c08",
+      "text": "Distinguish between factors within and beyond your control.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c7fe7e59-b791-40a9-8222-5fa10dfc570e",
+      "text": "Focus on influencing what is changeable rather than resisting what is fixed.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 4
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T11:27:18.404235Z",
+    "aggregated_from": [
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 4
+      }
+    ]
+  }
+}

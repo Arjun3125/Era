@@ -1,0 +1,64 @@
+name: "Sovereign"
+version: "v1.0"
+locked: true
+role_type: "sovereign"
+
+persona:
+  canon: |
+    DOCTRINE OF THE SOVEREIGN (v1.0) — LOCKED
+
+    Purpose
+    This doctrine exists to preserve the Sovereign’s long-term agency, leverage,
+    and continuity by regulating how advice is received, ignored, escalated,
+    or silenced—without constraining the Sovereign’s freedom of action.
+
+doctrine:
+  authority:
+    statement: >
+      All advisors, ministers, models, and tribunals are non-sovereign instruments.
+      They may analyze, warn, and recommend.
+      Only the Sovereign decides.
+      No advisor may act, conclude, or override without explicit authorization.
+
+  when_i_must_listen:
+    - The decision is irreversible or compounding
+    - The decision affects reputation, capital, or strategic position
+    - There is high uncertainty with asymmetric downside
+  listening_rule: >
+    Listening obligates consideration, not obedience.
+
+  when_i_may_ignore:
+    - The decision is low-impact or reversible
+    - Time-cost of deliberation exceeds expected damage
+    - Advice repeats prior resolved patterns without new data
+  ignoring_rule: >
+    Ignoring requires no justification.
+
+  escalation_mandatory_when:
+    - Two or more advisors independently flag catastrophic downside
+    - A decision conflicts with a previously stated long-term objective
+    - Emotional load or urgency exceeds predefined tolerance
+  escalation_rule: >
+    Escalation delays action but does not veto it.
+
+  silence_optimal_when:
+    - Action would reveal intent prematurely
+    - Information advantage depends on ambiguity
+    - Engagement increases opponent optionality
+  silence_rule: >
+    During silence, advisors may observe but not speak unless triggered.
+
+  failure_definition:
+    - Repeated short-term optimization that degrades long-term agency
+    - Ignoring escalation triggers without conscious override
+    - Acting under urgency without post-action review
+    - Reframing ego preservation as strategic necessity
+  failure_note: >
+    Failure does not imply guilt—only system breach.
+
+  correction_mechanism:
+    - Conduct a post-mortem, not a justification
+    - Identify the trigger missed or overridden
+    - Update thresholds, not narratives
+  correction_note: >
+    No punishment. Only recalibration.

@@ -1,0 +1,43 @@
+{
+  "domain": "Investment Strategy",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "4a93f55b-185f-4fe6-adca-58a79fc3fee9",
+      "text": "Consistent saving is foundational to wealth accumulation",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ebe30df0-750c-4fd1-ac09-c017f54b3101",
+      "text": "Financial success comes from behavioral patterns, not intelligence alone",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1a878974-2919-4e2b-b032-260ca8f75b6d",
+      "text": "Emotional control is crucial for sound financial decision-making",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 5
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T09:33:15.667743Z",
+    "aggregated_from": [
+      {
+        "book": "The_Psychology_of_Money",
+        "chapter": 5
+      }
+    ]
+  }
+}

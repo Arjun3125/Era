@@ -1,0 +1,43 @@
+{
+  "domain": "Deep Work",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "25c606eb-14d5-49c3-a45e-333d6d8e93b4",
+      "text": "Deep work can be enhanced through collaboration.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c0b628b4-e857-4fc8-a6ef-03b57b0aca3c",
+      "text": "Separate different modes of work (e.g., deep thinking vs. networking).",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "454bb00a-18f4-4e35-8158-a9fcf55f9fcf",
+      "text": "Balance between focus and interaction is key for effective deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-12T17:15:19.209164Z",
+    "aggregated_from": [
+      {
+        "book": "Deep Work",
+        "chapter": 22
+      }
+    ]
+  }
+}

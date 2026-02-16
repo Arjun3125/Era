@@ -1,0 +1,43 @@
+{
+  "domain": "Creative Process",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "c39d5254-d28d-4b7d-a3d9-a26c17d73ecb",
+      "text": "{'domain': 'Mental Well-being', 'warning': 'Rushing through life or tasks, even positive ones, can indicate underlying mental distress.', 'generalized': 'Haste, particularly in situations where deliberation is expected, can be a symptom of anxiety or lack of focus.'}",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "19e01e3a-6b3f-4029-83c7-8e2c1c1fe42c",
+      "text": "{'domain': 'Creative Process', 'warning': 'Over-reliance on established forms or traditions can stifle genuine artistic endurance.', 'generalized': 'Creative work that lacks authentic engagement or fails to connect deeply with its subject may lack lasting impact.'}",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e8a58554-9e78-4b83-b6e6-12eb85b6d39d",
+      "text": "{'domain': 'Communication & Relationships', 'warning': \"Dismissing or ignoring the simple, profound truths conveyed by everyday language (like 'taking its course') can lead to missed understanding.\", 'generalized': 'Neglecting the wisdom contained in straightforward, common expressions can result in superficial comprehension.'}",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 8
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-12T13:18:41.952140Z",
+    "aggregated_from": [
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 8
+      }
+    ]
+  }
+}

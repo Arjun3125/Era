@@ -1,0 +1,34 @@
+{
+  "domain": "Relationship Dynamics",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "4f42101d-6343-426c-8a2b-9bcf6284d0d9",
+      "text": "Persistent use of indirect language may lead to frustration and resentment.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5a47e9f0-1c9f-4c47-ab1d-1cdea498d015",
+      "text": "Ambiguous requests can result in missed expectations and unfulfilled obligations.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 50
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T02:16:56.605795Z",
+    "aggregated_from": [
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 50
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+http://localhost:11434/api/models -> 404
+404 page not found
+http://localhost:11434/api/generate -> 405
+405 method not allowed
+http://localhost:11434/authorize -> 404
+404 page not found

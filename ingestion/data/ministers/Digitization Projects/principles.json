@@ -1,0 +1,34 @@
+{
+  "domain": "Digitization Projects",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "c146c9df-5a4e-4c1a-911a-224497377361",
+      "text": "Prioritize accessibility and discovery of information.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3f24c77e-3da7-4388-8371-5236ab2a0b92",
+      "text": "Emphasize collaboration between technology and cultural institutions.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T12:26:32.017076Z",
+    "aggregated_from": [
+      {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      }
+    ]
+  }
+}

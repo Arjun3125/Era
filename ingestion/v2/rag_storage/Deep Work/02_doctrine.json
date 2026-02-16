@@ -1,0 +1,1415 @@
+[
+  {
+    "chapter_index": 1,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "legitimacy",
+      "risk"
+    ],
+    "principles": [
+      "Respect intellectual property to build sustainable value and innovation"
+    ],
+    "rules": [
+      "Obtain prior written permission before reproducing or sharing copyrighted material"
+    ],
+    "claims": [
+      "Copyright law establishes protections for intellectual property creators"
+    ],
+    "warnings": [
+      "Unauthorized use of intellectual property can lead to legal consequences and theft"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0494,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 2,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "discipline",
+      "psychology"
+    ],
+    "principles": [
+      "Structured routines enhance cognitive function and foster long-term professional development"
+    ],
+    "rules": [
+      "Allocate dedicated time for focused work and reflection to maintain peak performance",
+      "Isolate oneself from distractions to cultivate deep thinking and innovation"
+    ],
+    "claims": [
+      "Professional success in psychology requires disciplined habits and continuous learning"
+    ],
+    "warnings": [
+      "Inconsistent routines may lead to burnout and reduced effectiveness in high-stakes fields",
+      "Disagreeing with established figures without preparation can result in professional challenges"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0143,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 3,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Deep focus drives high-value output by maximizing cognitive performance.",
+      "Cultivating discipline in attention improves professional outcomes over time."
+    ],
+    "rules": [
+      "Schedule distraction-free work sessions in environments conducive to deep concentration.",
+      "Prioritize deep work over reactive tasks to maintain cognitive edge.",
+      "Intentionally limit electronic distractions during focused work periods."
+    ],
+    "claims": [
+      "Network tools fragment attention and reduce sustained cognitive effort.",
+      "Deep work requires uninterrupted time allocation for complex tasks."
+    ],
+    "warnings": [
+      "Chronic shallow work degrades long-term cognitive capacity.",
+      "Frenetic reliance on network tools creates a downward spiral in focus quality."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0047,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 4,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "discipline",
+      "technology"
+    ],
+    "principles": [
+      "Deep focus is essential for success in knowledge-based work.",
+      "Mastering complex skills requires sustained concentration and practice."
+    ],
+    "rules": [
+      "Remove distractions by limiting electronic device usage during focused work sessions.",
+      "Cultivate deep work habits by dedicating specific, uninterrupted time to cognitively demanding tasks."
+    ],
+    "claims": [
+      "Deep work can be developed through systematic training and habit formation.",
+      "In the information economy, deep work skills enhance competitiveness and earning potential."
+    ],
+    "warnings": [
+      "Neglecting deep work may lead to falling behind as technology advances and competition increases.",
+      "Without developing deep work abilities, individuals risk mediocrity and being replaced by better-performing alternatives."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0036,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 5,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "strategy",
+      "truth"
+    ],
+    "principles": [
+      "Clarity in conceptualization enhances decision-making effectiveness"
+    ],
+    "rules": [
+      "Develop and refine ideas before committing to actions"
+    ],
+    "claims": [
+      "Well-defined ideas serve as the foundation for successful operations"
+    ],
+    "warnings": [
+      "Ambiguous or untested ideas risk leading to suboptimal outcomes"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 1.0,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 6,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "data",
+      "technology"
+    ],
+    "principles": [
+      "Adapt to technological advancements to remain competitive in the modern economy.",
+      "Focus on high-level cognitive skills and data-driven tasks for economic success."
+    ],
+    "rules": [
+      "Automate routine tasks to enhance efficiency and focus on innovative problem-solving.",
+      "Develop expertise in areas where human skills cannot be easily replicated, such as complex data analysis.",
+      "Stay current with technological trends to avoid obsolescence in the workforce."
+    ],
+    "claims": [
+      "Digital technology is transforming labor markets by augmenting human capabilities.",
+      "Intelligent machines are advancing rapidly, changing how work is performed globally."
+    ],
+    "warnings": [
+      "Automation risks displacing low-skill jobs, leading to economic inequality.",
+      "Failure to adapt to technological changes may result in loss of career opportunities."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0031,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 7,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Deep focus enables mastery of complex skills.",
+      "Concentration is the foundation of effective learning."
+    ],
+    "rules": [
+      "Master complex skills through systematic, deliberate practice.",
+      "Allocate attention strategically to achieve cognitive breakthroughs."
+    ],
+    "claims": [
+      "Intense concentration reveals latent understanding.",
+      "Deliberate effort can bridge performance gaps."
+    ],
+    "warnings": [
+      "Insufficient attention leads to superficial understanding.",
+      "Without focused effort, complex skills remain inaccessible."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0202,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 8,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Concentrated effort on specific goals leads to mastery and improvement.",
+      "Skill development is enhanced through focused, iterative practice with feedback."
+    ],
+    "rules": [
+      "Dedicate uninterrupted time blocks to focused work to achieve deep results.",
+      "Batch similar tasks together to minimize distractions and maximize efficiency."
+    ],
+    "claims": [
+      "Myelin growth improves neural circuit efficiency through targeted, repetitive practice.",
+      "Deliberate practice is an effective method for acquiring expertise in cognitively demanding tasks."
+    ],
+    "warnings": [
+      "Distraction engages multiple neural circuits, hindering isolation and reducing learning effectiveness.",
+      "Inconsistent focus can lead to suboptimal performance and slower mastery in complex skills."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0029,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 9,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "executor",
+      "risk"
+    ],
+    "principles": [
+      "Effective roles require focused attention to leverage expertise.",
+      "Depth is essential for decision-making in specialized positions."
+    ],
+    "rules": [
+      "Delegating routine tasks allows executives to focus on deep analysis.",
+      "Minimize distractions to optimize performance in high-stakes environments."
+    ],
+    "claims": [
+      "Certain roles, like executives, are highly valued despite distractions.",
+      "Connectivity is prioritized in some professions but not all."
+    ],
+    "warnings": [
+      "Failing to recognize role-specific constraints can lead to inefficiencies.",
+      "Overemphasizing shallow work may result in poor outcomes in complex tasks."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0109,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 10,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Deep work is fundamental for achieving high-value output in modern economies.",
+      "Operational focus requires prioritizing uninterrupted concentration over reactive tasks."
+    ],
+    "rules": [
+      "Limit the use of open communication tools to specific times to reduce distractions.",
+      "Design workspaces and schedules to minimize interruptions from notifications and common areas."
+    ],
+    "claims": [
+      "Open office layouts increase susceptibility to distractions from colleagues and ambient noise.",
+      "Instant messaging systems enhance productivity gains but can fragment attention."
+    ],
+    "warnings": [
+      "Relying on trendy work practices may undermine the ability to perform deep, strategic thinking.",
+      "Ignoring attention fragmentation can lead to significant delays in task completion and reduced quality."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0095,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 11,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "data",
+      "risk"
+    ],
+    "principles": [
+      "Deep work is essential for achieving high-level output in knowledge-based tasks.",
+      "Commitment to focused effort enhances learning and productivity over time."
+    ],
+    "rules": [
+      "Measure the time and cost associated with distracting behaviors to identify inefficiencies.",
+      "Prioritize deep work by limiting connectivity and monitoring communication frequency to improve performance."
+    ],
+    "claims": [
+      "Distraction significantly reduces the ability to perform deep work, while deep work yields superior benefits.",
+      "It is objectively difficult to measure the individual contributions of deep work in knowledge-based roles."
+    ],
+    "warnings": [
+      "Failure to quantify the impact of work habits can lead to misallocation of resources and diminished productivity.",
+      "The metric black hole may obscure the value of deep work, allowing distracting behaviors to flourish unchecked."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0059,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 12,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "constraints",
+      "psychology"
+    ],
+    "principles": [
+      "Prioritize long-term strategic goals over immediate, short-term conveniences to achieve sustainable success.",
+      "Recognize and counteract cognitive biases that favor ease and low-effort tasks in decision-making."
+    ],
+    "rules": [
+      "Evaluate work methods based on their long-term impact on productivity and employee well-being, not just short-term efficiency.",
+      "Measure productivity through outcomes and depth of engagement, rather than activity levels or busyness."
+    ],
+    "claims": [
+      "Busyness can be mistakenly equated with productivity in organizational settings, leading to superficial results.",
+      "Administrative tasks and communication overload often detract from core value-creation activities."
+    ],
+    "warnings": [
+      "Neglecting the balance between effort and reward can lead to reduced innovation and increased burnout.",
+      "Over-reliance on ease-driven behaviors may erode the quality and depth of work, despite temporary gains."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0045,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 13,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "technology"
+    ],
+    "principles": [
+      "Deep work is foundational for extracting value from knowledge and information.",
+      "Technology should be critically evaluated rather than unquestioningly embraced."
+    ],
+    "rules": [
+      "Prioritize focused, deep work over constant busyness to enhance productivity.",
+      "Measure the effectiveness of technology adoption against clear, outcome-based metrics."
+    ],
+    "claims": [
+      "The Internet is often hyped as a universal source of wisdom and progress without empirical validation.",
+      "Social media can be a distraction in professional settings, reducing the quality of work."
+    ],
+    "warnings": [
+      "Unmeasured reliance on technology can obscure important aspects of work and decision-making.",
+      "Blindly following technology trends can lead to the invisibility and irrelevance of beneficial practices."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0049,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 14,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "discipline",
+      "risk"
+    ],
+    "principles": [
+      "Deep focus and sustained effort lead to meaningful and satisfying outcomes in skill-based tasks.",
+      "Concentrated attention on core processes enhances quality and personal fulfillment."
+    ],
+    "rules": [
+      "Engage in methodical, step-by-step execution to avoid errors and maintain integrity in complex tasks.",
+      "Prioritize deep work over shallow, distraction-filled activities to achieve clarity and purpose."
+    ],
+    "claims": [
+      "Manual craftsmanship provides a clear sense of identity and accomplishment in professional work.",
+      "Knowledge work often lacks the defined boundaries and tangible results found in traditional crafts."
+    ],
+    "warnings": [
+      "Rushing through tasks can lead to significant setbacks, such as ruining progress or compromising quality.",
+      "Ambiguity and superficiality in knowledge work can result in unfulfilling careers and reduced effectiveness."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0092,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 15,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Attention shapes the perception of life quality",
+      "Deep focus can provide meaning in work and personal life"
+    ],
+    "rules": [
+      "Prioritize deep work to enhance well-being",
+      "Limit distractions by focusing attention on key tasks"
+    ],
+    "claims": [
+      "Deep work generates satisfaction comparable to craft work",
+      "Attention management is fundamental to a fulfilling life"
+    ],
+    "warnings": [
+      "Excessive distractions can reduce life satisfaction",
+      "Neglecting focus may lead to decreased meaning and happiness"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0036,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 16,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Structured and challenging activities enhance engagement and personal satisfaction by providing clear goals and feedback."
+    ],
+    "rules": [
+      "Design work and daily routines to incorporate elements of flow, such as clear objectives and opportunities for deep focus."
+    ],
+    "claims": [
+      "Decades of empirical research validate that engaging in flow-inducing activities significantly improves life satisfaction and well-being."
+    ],
+    "warnings": [
+      "Failure to cultivate depth and meaning in life can lead to existential dissatisfaction and a sense of unlivable modern existence."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0047,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 17,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Meaning is derived from recognizing and appreciating inherent qualities within tasks.",
+      "Skill and dedication to a craft can generate a sense of purpose and fulfillment."
+    ],
+    "rules": [
+      "Cultivate deep, focused work to develop expertise and uncover meaning in any pursuit.",
+      "Apply tasks with respect and care to enhance personal satisfaction and avoid superficial outcomes."
+    ],
+    "claims": [
+      "Meaning can be found in any skilled activity, regardless of job description.",
+      "Depth in work leads to a more fulfilling and satisfying professional life."
+    ],
+    "warnings": [
+      "Overemphasizing job specifics may lead to a lack of meaning and unfulfilling work.",
+      "Nihilism can arise from autonomous individualism, but is countered by disciplined skill cultivation."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0064,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 18,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Deep focus is fundamental to achieving excellence in professional endeavors.",
+      "Consistent engagement in high-intensity work enhances personal and professional growth."
+    ],
+    "rules": [
+      "Design work environments to minimize distractions and support uninterrupted focus.",
+      "Schedule dedicated time for deep work to transform it into a regular habit."
+    ],
+    "claims": [
+      "Deep work is essential for reaching full human potential in professional settings.",
+      "Shallow work is less effective than deep work for producing high-quality results."
+    ],
+    "warnings": [
+      "Distractions from open offices and frequent interruptions can undermine deep work and reduce overall productivity.",
+      "Neglecting deep work practices may lead to failure in achieving long-term professional goals."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0096,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 19,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Focus is difficult due to inherent human tendencies to prioritize immediate rewards over sustained effort.",
+      "Understanding the mind's susceptibility to distractions is foundational to managing attention effectively."
+    ],
+    "rules": [
+      "Implement structured interventions to counteract recurring attentional disruptions.",
+      "Adopt systematic methods to replace habitual distractions with focused work routines."
+    ],
+    "claims": [
+      "Human attention is persistently drawn to superficial tasks, significantly reducing deep work capacity.",
+      "Systematic interventions can effectively mitigate attentional fragmentation."
+    ],
+    "warnings": [
+      "Underestimating the regularity and intensity of attentional urges can lead to failure in maintaining focus.",
+      "Relying solely on willpower to overcome distractions is ineffective without structured support."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0174,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 20,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "constraints",
+      "strategy"
+    ],
+    "principles": [
+      "Effort management is limited by available resources (e.g., willpower).",
+      "Habit formation reduces the need for conscious effort during execution."
+    ],
+    "rules": [
+      "Schedule deep work sessions with defined rituals to conserve willpower.",
+      "Develop a consistent depth philosophy aligned with personal circumstances."
+    ],
+    "claims": [
+      "Willpower is a finite resource that depletes with use.",
+      "Deep work effectiveness improves with structured scheduling approaches."
+    ],
+    "warnings": [
+      "Mismatched work strategies can undermine long-term consistency.",
+      "Unscheduled deep work attempts frequently fail due to willpower depletion."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0013,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 21,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Increase task importance through environmental changes to motivate deeper focus.",
+      "Commit seriously to tasks to reduce natural resistance and boost energy for completion."
+    ],
+    "rules": [
+      "Employ deliberate, significant alterations to routine, such as relocating or investing resources, to enhance concentration on deep work tasks.",
+      "Balance collaboration with focused periods to mitigate distractions and foster innovation."
+    ],
+    "claims": [
+      "Open office designs can facilitate communication but may increase distractions in work environments.",
+      "Serendipitous encounters in collaborative settings can generate creative ideas."
+    ],
+    "warnings": [
+      "Distracting environments may lead to reduced productivity and prolonged procrastination in deep work.",
+      "Insufficient commitment to a task can result in failure to achieve desired outcomes despite optimal conditions."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.003,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 22,
+    "chapter_title": null,
+    "domains": [
+      "Collaboration",
+      "Deep Work",
+      "Execution"
+    ],
+    "principles": [
+      "Deep work can be enhanced through collaboration.",
+      "Separate different modes of work (e.g., deep thinking vs. networking).",
+      "Balance between focus and interaction is key for effective deep work."
+    ],
+    "rules": [
+      "Distinguish between deep work and serendipitous encounters in your schedule.",
+      "Collaborate using the 'whiteboard effect' when solving complex problems.",
+      "Avoid mixing different work modes to prevent reduced effectiveness."
+    ],
+    "claims": [
+      "Collaborative deep work yields better results, especially in innovation.",
+      "The 4DX framework effectively helps implement high-level strategies."
+    ],
+    "warnings": [
+      "Overemphasizing interaction can crowd out necessary concentration.",
+      "Lack of clarity on 'how' to execute a strategy can hinder progress."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.011,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 23,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Concentrate resources and efforts on a limited number of critical objectives to maximize impact and efficiency.",
+      "Prioritize measurable behaviors that directly influence desired outcomes, rather than focusing solely on end-results.",
+      "Consistent, focused effort over time leads to sustainable performance improvements and motivation."
+    ],
+    "rules": [
+      "Identify and commit to a small set of ambitious, clearly defined goals to guide all actions.",
+      "Track and regularly monitor controllable behaviors that serve as indicators of progress toward key objectives.",
+      "Establish frequent accountability reviews to assess performance, celebrate successes, and adjust strategies as needed."
+    ],
+    "claims": [
+      "Execution is fundamentally more challenging than strategic planning, requiring disciplined methods for success.",
+      "Deep work hours directly correlate with professional achievements and tangible benefits, such as career advancement."
+    ],
+    "warnings": [
+      "Attempting to pursue too many tasks simultaneously can dilute focus and reduce overall effectiveness.",
+      "Relying exclusively on lag measures (end-results) can lead to delayed recognition of issues and ineffective behavior changes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0022,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 24,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Concentration is a trainable skill that improves with consistent practice.",
+      "Mental discipline builds resilience against distractions."
+    ],
+    "rules": [
+      "Engage in daily deep work sessions to strengthen focus.",
+      "Minimize distractions by limiting digital multitasking."
+    ],
+    "claims": [
+      "Constant attention switching impairs cognitive function and working memory.",
+      "Deep work enhances creative insights and professional performance."
+    ],
+    "warnings": [
+      "Chronic distraction rewires the brain, making deep focus difficult.",
+      "Neglecting focus training leads to persistent mental fragmentation."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0032,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 25,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Attention management requires proactive scheduling of focus periods to resist distractions.",
+      "Concentration improves through deliberate practice in resisting distractions."
+    ],
+    "rules": [
+      "Schedule specific focus periods (offline blocks) to minimize distractions from communication and information retrieval.",
+      "Permit exceptions for time-sensitive activities within scheduled focus periods."
+    ],
+    "claims": [
+      "Resisting distracting stimuli enhances attention autonomy.",
+      "Boredom during focus periods is a valuable opportunity for concentration training."
+    ],
+    "warnings": [
+      "Distractions can hijack attention if not scheduled or resisted.",
+      "Modern life often lacks practice in tolerating boredom, making concentration difficult."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0191,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 26,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "discipline",
+      "strategy"
+    ],
+    "principles": [
+      "High concentration leads to efficient task completion.",
+      "Breaking tasks into focused intervals improves performance."
+    ],
+    "rules": [
+      "Set strict deadlines for deep work to enhance focus.",
+      "Engage in focused meditation during routine activities to solve problems.",
+      "Commit to deadlines publicly or through timers to enforce compliance."
+    ],
+    "claims": [
+      "Artificial deadlines can train the brain to handle attention better.",
+      "Productive meditation during physical activities boosts professional productivity."
+    ],
+    "warnings": [
+      "Inadequate focus management leads to missed deadlines and reduced output.",
+      "Failing to resist distractions hinders the ability to perform deep work effectively."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0041,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 27,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Structured attention and visualization enhance cognitive performance and memory.",
+      "Cognitive abilities can be developed through deliberate practice and targeted training."
+    ],
+    "rules": [
+      "Rote memorization is less effective than using visual imagery and associations.",
+      "Memory techniques require a systematic, step-by-step approach to be effective."
+    ],
+    "claims": [
+      "The human brain is naturally adept at retaining detailed information when presented as visual scenes.",
+      "Cognitive abilities, including attention and memory, can be significantly improved through specific training methods."
+    ],
+    "warnings": [
+      "Failure to deliberately train cognitive abilities may limit overall performance and focus."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0043,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 28,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "discipline",
+      "risk"
+    ],
+    "principles": [
+      "Attention is a finite resource that must be actively managed to achieve deep focus and productivity.",
+      "Digital tools should be evaluated based on their alignment with core objectives to enhance rather than detract from performance."
+    ],
+    "rules": [
+      "Set strict criteria for adopting new network tools, requiring clear justification that outweighs potential distractions.",
+      "Balance tool usage by prioritizing activities that directly support high-value tasks over minor conveniences."
+    ],
+    "claims": [
+      "Network tools are neutral instruments that can be beneficial or detrimental depending on how they are integrated into workflows."
+    ],
+    "warnings": [
+      "Unrestrained use of digital tools can lead to distraction, burnout, and reduced effectiveness in achieving deep work.",
+      "Failing to weigh the pros and cons of tool adoption may result in long-term negative impacts on focus and productivity."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.001,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 29,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "strategy",
+      "timing"
+    ],
+    "principles": [
+      "Structured leisure time enhances cognitive development and personal growth.",
+      "Prioritizing deep work through intentional time management improves overall productivity."
+    ],
+    "rules": [
+      "Plan leisure activities in advance to avoid defaulting to distracting digital content.",
+      "Engage in quality, goal-oriented hobbies to reduce reliance on attention-grabbing websites."
+    ],
+    "claims": [
+      "Leisure time can be elevated from passive entertainment to active engagement for mental enrichment.",
+      "Deep work performance is negatively impacted by unstructured leisure activities."
+    ],
+    "warnings": [
+      "Unplanned leisure time may lead to weakened attention spans and reduced ability to concentrate.",
+      "Over-reliance on network tools for entertainment can diminish cognitive capabilities over time."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0079,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 30,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Prioritize deep work over shallow tasks to maximize efficiency and innovation.",
+      "Focus on sustainable work practices by reducing non-essential activities."
+    ],
+    "rules": [
+      "Set limits on deep work sessions, typically capping them at 4 hours per day for sustained performance.",
+      "Eliminate or minimize shallow work, such as excessive meetings and interruptions, to free up time for high-impact tasks."
+    ],
+    "claims": [
+      "Reduced working hours, like a four-day week, can maintain productivity levels without significant decline.",
+      "Cognitive capacity has inherent limits, allowing for only bounded deep work output per day."
+    ],
+    "warnings": [
+      "Allowing too much shallow work can deplete cognitive resources and crowd out opportunities for deep, innovative work.",
+      "Unplanned time drains, such as meetings and interruptions, can easily consume available time for focused tasks."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0016,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 31,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "strategy",
+      "timing"
+    ],
+    "principles": [
+      "Prioritize deep work over shallow activities to achieve long-term success.",
+      "Set boundaries to protect time for high-value tasks."
+    ],
+    "rules": [
+      "Limit shallow activities to a small percentage of total time to enable deep work.",
+      "Establish fixed work schedules and work backward to define productivity strategies.",
+      "Quantify time spent on tasks to make informed decisions about prioritization."
+    ],
+    "claims": [
+      "Deep work is the primary driver of business and professional value generation.",
+      "Fixed-schedule productivity can lead to sustainable success by capping shallow obligations."
+    ],
+    "warnings": [
+      "Jobs or roles that do not allow for deep work will hinder professional growth.",
+      "Unrestricted engagement in shallow tasks can lead to inefficiency and missed opportunities."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0047,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 32,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "discipline",
+      "strategy"
+    ],
+    "principles": [
+      "Establishing routines can significantly enhance productivity by focusing on deep work.",
+      "Reducing availability can improve concentration and output quality."
+    ],
+    "rules": [
+      "Adopt a fixed schedule to optimize work performance and avoid shallow tasks.",
+      "Email senders should take responsibility for minimizing unnecessary communications."
+    ],
+    "claims": [
+      "Fixed schedules can lead to professional achievements, as shown by real-world examples.",
+      "Email is a common source of distractions that can impede focus in work environments."
+    ],
+    "warnings": [
+      "Ignoring email constraints may result in loss of control over work time and attention.",
+      "Over-reliance on shallow activities like email can diminish long-term career effectiveness."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0195,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 33,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Filter communications based on relevance to manage personal capacity effectively.",
+      "Adapt communication strategies to align with individual goals and availability."
+    ],
+    "rules": [
+      "Set specific conditions for responding to inquiries, such as matching the inquiry to personal interests and schedule.",
+      "Establish clear filters or channels for different types of communications to control engagement."
+    ],
+    "claims": [
+      "Sender filters can reduce the volume of incoming communications significantly.",
+      "Resetting expectations about response obligations can free up mental and temporal resources."
+    ],
+    "warnings": [
+      "Unmanaged communication overload can lead to stress and decreased productivity.",
+      "Overestimating the need to respond to all messages may create unnecessary obligations."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0025,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 34,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "strategy",
+      "timing"
+    ],
+    "principles": [
+      "Dedicate uninterrupted time to focused work",
+      "Deep concentration enables significant achievements"
+    ],
+    "rules": [
+      "Commit to deep work to achieve goals",
+      "Avoid distractions during critical tasks"
+    ],
+    "claims": [
+      "Deep work is a valuable skill for accomplishing important tasks"
+    ],
+    "warnings": [
+      "Shallow thinking can hinder progress",
+      "Failure to concentrate leads to missed opportunities"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0158,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 35,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "constraints",
+      "discipline"
+    ],
+    "principles": [
+      "Consistent focus on demanding tasks enhances long-term productivity.",
+      "Deep work is foundational for achieving exceptional results in professional life."
+    ],
+    "rules": [
+      "Schedule protected blocks for deep work to minimize distractions.",
+      "Introduce artificial constraints to simulate busier schedules and build focus endurance.",
+      "Prioritize deep work by integrating it into daily routines, even during non-office hours."
+    ],
+    "claims": [
+      "Deep work can double or significantly increase productivity rates.",
+      "It requires disciplined habits and continuous effort to maintain high output."
+    ],
+    "warnings": [
+      "Overemphasizing deep work can lead to cognitive exhaustion and burnout.",
+      "Transitioning to deep work may involve discomfort from reducing distractions and busyness."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0066,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 36,
+    "chapter_title": null,
+    "domains": [
+      "Personal Development"
+    ],
+    "principles": [
+      "Develop expertise to build a reputation",
+      "Master skills to stand out"
+    ],
+    "rules": [
+      "Focus on deep expertise rather than broad knowledge",
+      "Build a reputation through consistent excellence"
+    ],
+    "claims": [
+      "Mastery in a specific area leads to opportunities",
+      "Reputation precedes success in professional endeavors"
+    ],
+    "warnings": [
+      "Lack of focus leads to obscurity",
+      "Generalists are ignored; specialists are sought after"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.2857,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 37,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Deep focus and sustained attention are essential for achieving expertise.",
+      "Adaptability to technological change is a key driver of long-term success in the modern economy."
+    ],
+    "rules": [
+      "Prioritize deep work over distracted multitasking to develop specialized skills.",
+      "Integrate data-driven approaches into decision-making processes to enhance accuracy and outcomes."
+    ],
+    "claims": [
+      "Mastering advanced technical skills (e.g., programming languages) enables superior performance in complex domains.",
+      "The digital revolution accelerates productivity gains while simultaneously increasing the need for selective attention management."
+    ],
+    "warnings": [
+      "Over-reliance on digital tools may lead to cognitive fragmentation if not balanced with focused, uninterrupted work periods.",
+      "Neglecting deliberate practice can result in falling behind peers in knowledge acquisition and application."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0069,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 38,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Embrace change to drive innovation.",
+      "Maintain simplicity in operations for efficiency."
+    ],
+    "rules": [
+      "Learn from past experiences to improve future outcomes.",
+      "Prioritize focus by reducing non-essential activities."
+    ],
+    "claims": [
+      "Innovative leadership can lead to significant wealth accumulation."
+    ],
+    "warnings": [
+      "Disruption without adaptation may result in recurring problems.",
+      "Failure to adapt can lead to repeated setbacks."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0667,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 39,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "data",
+      "risk"
+    ],
+    "principles": [
+      "Balance openness and privacy in work environments to optimize productivity.",
+      "Measure productivity using multi-faceted metrics, not just output volume."
+    ],
+    "rules": [
+      "Set clear expectations for task management to avoid overwhelm.",
+      "Evaluate productivity gains against the cost of implementation."
+    ],
+    "claims": [
+      "The h-index effectively balances publication quantity and citation impact.",
+      "Real-time collaboration tools can enhance productivity but may overcomplicate simple tasks."
+    ],
+    "warnings": [
+      "Over-reliance on digital communication can fragment attention and reduce deep work.",
+      "Measuring productivity through narrow metrics may overlook qualitative contributions."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0079,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 40,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Deep engagement in tasks leads to better outcomes.",
+      "Careful attention is essential for complex activities.",
+      "Tangible achievements contribute to personal satisfaction.",
+      "Optimal experiences occur during focused, immersive work."
+    ],
+    "rules": [
+      "Select goals or projects with deliberate care to ensure success.",
+      "Revise job structures to enhance enjoyment and engagement.",
+      "Maintain high levels of concentration to achieve optimal performance."
+    ],
+    "claims": [
+      "High focus can improve task performance.",
+      "Positive emotions can offset negative effects.",
+      "Attentional discipline supports cognitive function."
+    ],
+    "warnings": [
+      "Inadequate focus may result in suboptimal task completion.",
+      "Neglecting emotional aspects can diminish job fulfillment.",
+      "Without careful handling, complex tasks may fail."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0319,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 41,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "discipline",
+      "psychology"
+    ],
+    "principles": [
+      "Consistent focus and deep engagement lead to mastery and high-quality outcomes.",
+      "Balance between dedicated work periods and rest intervals optimizes long-term performance."
+    ],
+    "rules": [
+      "Schedule uninterrupted blocks of time for deep work to achieve significant results.",
+      "Take regular breaks to replenish mental energy and maintain self-control."
+    ],
+    "claims": [
+      "Self-control is a finite resource that diminishes with prolonged effort.",
+      "Productivity often follows a non-linear trajectory, with deep focus sessions yielding higher returns."
+    ],
+    "warnings": [
+      "Distractions can fragment attention, leading to reduced efficiency and lower-quality work.",
+      "Environmental factors, such as open-plan offices, may increase interruptions and decrease overall productivity."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0038,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 42,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "discipline",
+      "risk"
+    ],
+    "principles": [
+      "Prioritize high-impact activities to maximize efficiency.",
+      "Time blocking enhances focus and productivity."
+    ],
+    "rules": [
+      "Finish work by a fixed time to ensure balance.",
+      "Limit social media engagement to avoid distraction.",
+      "Schedule deliberate practice sessions for skill development."
+    ],
+    "claims": [
+      "The average Twitter user has a skewed follower count due to high-profile accounts.",
+      "People underestimate the time spent on digital communication."
+    ],
+    "warnings": [
+      "Overestimating productivity from constant connectivity leads to burnout.",
+      "Perpetual availability hinders deep work and innovation."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0042,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 43,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "discipline",
+      "strategy"
+    ],
+    "principles": [
+      "Focus and sustained effort are essential for high-value output",
+      "Deep work requires embracing periods of intense concentration"
+    ],
+    "rules": [
+      "Prioritize deep work sessions by minimizing distractions",
+      "Establish boundaries around shallow tasks and digital interruptions",
+      "Commit to disciplined practice of focus-based activities"
+    ],
+    "claims": [
+      "Deep work produces superior results compared to shallow efforts",
+      "Mastering focus provides a competitive advantage"
+    ],
+    "warnings": [
+      "Failure to maintain focus leads to diminished productivity",
+      "Insufficient deep work creates long-term professional disadvantage"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0364,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  }
+]

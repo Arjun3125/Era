@@ -1,0 +1,2557 @@
+{
+  "domain": "executor",
+  "rules": [
+    {
+      "id": "2c679246-2e7a-4e23-84bf-3771aa5ac18d",
+      "text": "Action must precede results; persistence is required to overcome obstacles."
+    },
+    {
+      "id": "19089024-1881-446d-901a-a90bffb56c33",
+      "text": "Skill enhancement directly correlates with increased capacity and reward."
+    },
+    {
+      "id": "88d0f5d8-c5d6-4e34-9d68-bd6b83c695d6",
+      "text": "Strategic foresight is essential for mitigating future uncertainties."
+    },
+    {
+      "id": "a3b05e7d-b30d-443f-8c3a-ad75f530c554",
+      "text": "Persist in efforts to achieve sustainable outcomes."
+    },
+    {
+      "id": "84db1f80-3535-42d0-94ec-0b3beb54185a",
+      "text": "Evaluate risks based on statistical likelihood."
+    },
+    {
+      "id": "1909ad7c-4033-46ae-9c66-bac1ffa4782e",
+      "text": "Align actions with controllable factors rather than chance."
+    },
+    {
+      "id": "d9fd0b06-646c-428d-b03f-8f15bee0bfd7",
+      "text": "Do not delay action on identified opportunities."
+    },
+    {
+      "id": "031f19f9-87bd-41ba-a6cb-1bae5adf2a6d",
+      "text": "Consistently allocate a portion of earnings for investment."
+    },
+    {
+      "id": "c547f240-9221-483b-9ff8-129e1b617774",
+      "text": "Operationalize separation of planning and execution"
+    },
+    {
+      "id": "e000dde9-df5b-4bf5-ac9b-d003df54e5d8",
+      "text": "Cognitive degradation follows mechanized workflow"
+    },
+    {
+      "id": "4cf15252-c536-4a6d-98d8-4202c5b2b85b",
+      "text": "Execute duties regardless of personal comfort."
+    },
+    {
+      "id": "1519c04a-1fa7-46c7-8387-41b08a077e17",
+      "text": "Consider all outcomes as part of a larger natural order."
+    },
+    {
+      "id": "2f937c5f-af81-4e5b-8803-668b044f7f54",
+      "text": "Maintain focus on action, not consequence."
+    },
+    {
+      "id": "8f5daa17-7dbf-4873-b3d9-a99c8aa74a42",
+      "text": "Evaluate situations based on what can be controlled"
+    },
+    {
+      "id": "e0c23db9-e86b-4224-bb8b-8214b3766d01",
+      "text": "Accept outcomes without emotional attachment"
+    },
+    {
+      "id": "decd2593-e212-4cb7-91b7-092fdb26c57e",
+      "text": "Persist in philosophical practice despite challenges"
+    },
+    {
+      "id": "fd2ba3cd-d3d1-4ef3-94ae-eeab33d817b3",
+      "text": "Evaluate situations based on their potential for transformation."
+    },
+    {
+      "id": "3353e2ef-58fc-48db-b871-4c82e2b7f397",
+      "text": "Prioritize what is within your control in decision-making."
+    },
+    {
+      "id": "f2dfb2c0-1bfc-456b-8ea1-f82d2f4ac9a9",
+      "text": "Adjust your focus to maintain alignment with core objectives."
+    },
+    {
+      "id": "af5d3eb0-9599-4ff7-883b-7665753bbeb3",
+      "text": "Resolve conflicts by addressing the other's reason."
+    },
+    {
+      "id": "2628ce09-c13b-4a31-97b0-c4832447d02a",
+      "text": "Maintain inner stability regardless of external events."
+    },
+    {
+      "id": "ec0da73f-401c-498b-82ca-36f859365d56",
+      "text": "Actively pursue righteous conduct in all interactions."
+    },
+    {
+      "id": "75e0f295-892a-48c8-a041-a8f50d908bea",
+      "text": "Direct attention to controllable aspects of experience to foster personal growth."
+    },
+    {
+      "id": "59c4a251-f3fd-45ec-92e0-de7155d8506c",
+      "text": "Practice consistent effort in developing virtues to achieve mastery over one's circumstances."
+    },
+    {
+      "id": "cc6b9619-caea-4104-9ec6-d3ab08256058",
+      "text": "Distinguish between what can be controlled and what cannot."
+    },
+    {
+      "id": "00b47c54-408b-4633-9271-3176764b4870",
+      "text": "Apply mental discipline to accept outcomes beyond influence."
+    },
+    {
+      "id": "44d04f8c-7ab2-4533-8c43-48630c8cdd35",
+      "text": "Question the nature and purpose of every action before committing."
+    },
+    {
+      "id": "26288331-3b56-4803-88fd-0ec5a8c1baba",
+      "text": "Evaluate external events as either chance or providence without assigning blame."
+    },
+    {
+      "id": "f75dc436-8be9-49fe-9029-83f86ba0a5e5",
+      "text": "Focus on the common good and universal nature of human experience."
+    },
+    {
+      "id": "ae7e7ec6-ed93-4f8e-ba05-289d94d129f9",
+      "text": "View death as a natural transition that aligns with the greater good."
+    },
+    {
+      "id": "0258789d-9a74-42f4-bacb-ce0ed3136f52",
+      "text": "Align actions with universal principles."
+    },
+    {
+      "id": "c5e33546-4fa7-4db9-881e-60299991e7ae",
+      "text": "Separate what is within control from what is not."
+    },
+    {
+      "id": "3daff702-587f-4ba7-81c0-10530c9a6bda",
+      "text": "Maintain consistency in applying rational principles."
+    },
+    {
+      "id": "0cb8ecec-b3e3-4d62-8143-e2c80b0e21cc",
+      "text": "When advising others, consider both the immediate emotional impact and the underlying principles of justice."
+    },
+    {
+      "id": "d637657b-9bf1-4705-a3f2-5ccd9b73540b",
+      "text": "Maintain clear boundaries in professional relationships to preserve mutual respect."
+    },
+    {
+      "id": "cfb08478-d799-48e3-8970-11c1b6b847fd",
+      "text": "Educational goals must align with practical application."
+    },
+    {
+      "id": "bd9371ce-416d-4b07-9de7-5b124792e440",
+      "text": "Feedback-driven adjustments are essential for skill development."
+    },
+    {
+      "id": "3ec150aa-3d2e-4e04-8c69-096008f4b4fc",
+      "text": "Time allocation must prioritize foundational competencies."
+    },
+    {
+      "id": "92311152-343c-40b2-8bbd-e9b5a062ce73",
+      "text": "Address root causes of conflict to maintain harmony."
+    },
+    {
+      "id": "46ff0832-1fc1-4295-808c-78d9a2b71447",
+      "text": "Allocate dedicated time for deliberate study and skill development."
+    },
+    {
+      "id": "83035f6f-730a-48de-9ea6-114afa5e1aa2",
+      "text": "Prioritize activities based on importance to manage limited resources."
+    },
+    {
+      "id": "3c0b0b5c-714e-4f94-9fe6-79257d8adeff",
+      "text": "Regular assessment and enforcement of standards are necessary to maintain operational effectiveness."
+    },
+    {
+      "id": "dd076790-3e05-414c-ac38-ac7bf8b703da",
+      "text": "Leaders must actively apply lessons from past experiences to current challenges."
+    },
+    {
+      "id": "680704d1-4710-403b-b3a0-c7f4ae54fc61",
+      "text": "Maintain consistency between actions and stated values."
+    },
+    {
+      "id": "6b90f780-a794-4bc7-a548-a6175110a3b7",
+      "text": "Assume all circumstances require ethical decision-making."
+    },
+    {
+      "id": "8c375e4f-b6d1-4dbe-8fbf-9794430e77c4",
+      "text": "Balance personal sacrifice with practical realities."
+    },
+    {
+      "id": "da4c3e30-843a-4fed-b808-ef7a8a3d9b79",
+      "text": "Separate what is within control (actions, judgments) from what is not (external events)."
+    },
+    {
+      "id": "33c41a71-a0d7-4f72-80d4-8c4f8ded1d66",
+      "text": "Assess the impact of events on virtue and vice."
+    },
+    {
+      "id": "c1bc19c0-8c8e-4457-96f8-a46372a58e8d",
+      "text": "Adjust focus based on the availability of control (adaptation)."
+    },
+    {
+      "id": "2df83036-a1c7-4a2f-95ae-d71381ae5ab2",
+      "text": "Act justly and consistently in all roles."
+    },
+    {
+      "id": "874ccaae-fcef-47e9-ac02-fa2ec5fae7f9",
+      "text": "Evaluate situations before making decisions."
+    },
+    {
+      "id": "c6238f61-aeab-4111-8d79-a0a03491b7c3",
+      "text": "Consider long-term consequences of actions."
+    },
+    {
+      "id": "5b4e343c-0cb6-469d-9ee7-a3044d6e71ae",
+      "text": "Action must precede results; persistence is required to overcome obstacles."
+    },
+    {
+      "id": "48f1d77c-089d-454f-ade8-ca3ceb781cbb",
+      "text": "Skill enhancement directly correlates with increased capacity and reward."
+    },
+    {
+      "id": "27a07522-82ac-4d76-9f33-014591605391",
+      "text": "Strategic foresight is essential for mitigating future uncertainties."
+    },
+    {
+      "id": "559db749-5a6a-4607-ab04-ecce9740c04e",
+      "text": "Persist in efforts to achieve sustainable outcomes."
+    },
+    {
+      "id": "6953fb13-230b-4871-b413-b1fa292921fb",
+      "text": "Evaluate risks based on statistical likelihood."
+    },
+    {
+      "id": "94f1f1dd-3bfa-42c1-a258-b938c73887ec",
+      "text": "Align actions with controllable factors rather than chance."
+    },
+    {
+      "id": "64daeb74-a8ed-47a1-ad60-d9d41735a72c",
+      "text": "Do not delay action on identified opportunities."
+    },
+    {
+      "id": "b6f69c40-3d93-4388-907b-bf4081ade2c1",
+      "text": "Consistently allocate a portion of earnings for investment."
+    },
+    {
+      "id": "2a927538-e14d-4a69-b028-f370547d813c",
+      "text": "Operationalize separation of planning and execution"
+    },
+    {
+      "id": "2ac5cabc-8047-4491-8c2f-a1171a3d4c21",
+      "text": "Cognitive degradation follows mechanized workflow"
+    },
+    {
+      "id": "1797783f-bc16-4b61-8708-bcd3bb23f540",
+      "text": "Action must precede results; persistence is required to overcome obstacles."
+    },
+    {
+      "id": "0336ea25-2e4e-4213-b402-99b20e2f3e79",
+      "text": "Skill enhancement directly correlates with increased capacity and reward."
+    },
+    {
+      "id": "44c07719-3bbd-4de4-a773-cfea2bb51231",
+      "text": "Strategic foresight is essential for mitigating future uncertainties."
+    },
+    {
+      "id": "4250d117-b599-4794-bb8a-d59bf27947f3",
+      "text": "Persist in efforts to achieve sustainable outcomes."
+    },
+    {
+      "id": "fc8b0dc3-fec7-4951-a661-c72c8bff284b",
+      "text": "Evaluate risks based on statistical likelihood."
+    },
+    {
+      "id": "2cea0979-9813-4a8c-9f46-b466c8c58387",
+      "text": "Align actions with controllable factors rather than chance."
+    },
+    {
+      "id": "be01018a-3794-44a2-8671-8645d3d7582f",
+      "text": "Do not delay action on identified opportunities."
+    },
+    {
+      "id": "ab039a72-a30e-4fd4-9782-714ce04e28b3",
+      "text": "Consistently allocate a portion of earnings for investment."
+    },
+    {
+      "id": "23e4162f-6159-4421-82ab-490268b4510d",
+      "text": "Operationalize separation of planning and execution"
+    },
+    {
+      "id": "37a4b8d3-4f35-45d1-be52-81ee146977c6",
+      "text": "Cognitive degradation follows mechanized workflow"
+    },
+    {
+      "id": "d23fe38e-b936-40f1-ad74-40c58382df2f",
+      "text": "Execute duties regardless of personal comfort."
+    },
+    {
+      "id": "021844ce-36de-4685-8f99-a830f39fec97",
+      "text": "Consider all outcomes as part of a larger natural order."
+    },
+    {
+      "id": "e0d03b57-fcd0-4f88-80b0-c8018c3edb80",
+      "text": "Maintain focus on action, not consequence."
+    },
+    {
+      "id": "2f625ddf-8f1b-45d5-b362-4f9bb50b5898",
+      "text": "Evaluate situations based on what can be controlled"
+    },
+    {
+      "id": "be971eb9-837c-40da-bbd4-019639d0f216",
+      "text": "Accept outcomes without emotional attachment"
+    },
+    {
+      "id": "4d125f27-3447-46df-a0bc-7c078350407c",
+      "text": "Persist in philosophical practice despite challenges"
+    },
+    {
+      "id": "c9ead339-6e95-4977-a41f-67c8d5bde89e",
+      "text": "Evaluate situations based on their potential for transformation."
+    },
+    {
+      "id": "8e19b737-c933-43cb-8958-d5659db6bc62",
+      "text": "Prioritize what is within your control in decision-making."
+    },
+    {
+      "id": "dcb68045-0c2d-48d0-97c6-92128230a8f4",
+      "text": "Adjust your focus to maintain alignment with core objectives."
+    },
+    {
+      "id": "66551196-27cc-4555-a4c0-134c84dc8ff7",
+      "text": "Resolve conflicts by addressing the other's reason."
+    },
+    {
+      "id": "77aa8e28-865a-46ba-86b2-5bc92bf4303f",
+      "text": "Maintain inner stability regardless of external events."
+    },
+    {
+      "id": "3419aa1f-c8f1-4f22-8a8f-2ffef6001d7d",
+      "text": "Actively pursue righteous conduct in all interactions."
+    },
+    {
+      "id": "ad95d558-8808-4ea3-bdf7-4d1d201bbf6f",
+      "text": "Direct attention to controllable aspects of experience to foster personal growth."
+    },
+    {
+      "id": "727b74ed-f729-4515-8496-8a5e59c541a8",
+      "text": "Practice consistent effort in developing virtues to achieve mastery over one's circumstances."
+    },
+    {
+      "id": "72c418cc-57af-4678-9d18-73427123f258",
+      "text": "Distinguish between what can be controlled and what cannot."
+    },
+    {
+      "id": "f40ac32a-1810-4aff-be0d-71a98834fb79",
+      "text": "Apply mental discipline to accept outcomes beyond influence."
+    },
+    {
+      "id": "855357f3-8469-4427-b1b8-cfd2a8e1cd05",
+      "text": "Question the nature and purpose of every action before committing."
+    },
+    {
+      "id": "01ff24b0-75f9-4313-a97a-875a6b16bceb",
+      "text": "Evaluate external events as either chance or providence without assigning blame."
+    },
+    {
+      "id": "d30c3e99-6d9e-42a2-b388-419c5df522b4",
+      "text": "Focus on the common good and universal nature of human experience."
+    },
+    {
+      "id": "0e820021-a4ae-4121-85c8-427aa46e070c",
+      "text": "View death as a natural transition that aligns with the greater good."
+    },
+    {
+      "id": "c8e336a0-2ed7-439f-85c9-37e49af4e895",
+      "text": "Align actions with universal principles."
+    },
+    {
+      "id": "0205aa7f-21f6-44dd-b840-0e9e84ecb83a",
+      "text": "Separate what is within control from what is not."
+    },
+    {
+      "id": "ece274d3-5f18-473c-bbe7-11221eca72bb",
+      "text": "Maintain consistency in applying rational principles."
+    },
+    {
+      "id": "cd67d1e0-6ba2-446a-9884-ee8ed7a8d1ee",
+      "text": "When advising others, consider both the immediate emotional impact and the underlying principles of justice."
+    },
+    {
+      "id": "0eb3bdd8-54e5-4315-b74e-e3a71dc42073",
+      "text": "Maintain clear boundaries in professional relationships to preserve mutual respect."
+    },
+    {
+      "id": "28922976-4599-4783-8bcf-fffb6c18be90",
+      "text": "Educational goals must align with practical application."
+    },
+    {
+      "id": "769dd74c-d78e-4dca-aa18-54283f0f3800",
+      "text": "Feedback-driven adjustments are essential for skill development."
+    },
+    {
+      "id": "e98bdf93-50d4-495e-92a8-51f5c49bc0e8",
+      "text": "Time allocation must prioritize foundational competencies."
+    },
+    {
+      "id": "398ab903-c7b2-4444-8e30-79276fbcf8b1",
+      "text": "Address root causes of conflict to maintain harmony."
+    },
+    {
+      "id": "faafa743-2598-43b6-8120-c12bebf201d2",
+      "text": "Allocate dedicated time for deliberate study and skill development."
+    },
+    {
+      "id": "94b5e5cf-b78d-4035-a159-4dd0ad94ea72",
+      "text": "Prioritize activities based on importance to manage limited resources."
+    },
+    {
+      "id": "b1eb7cf7-8146-4087-a25e-b5c2091306ad",
+      "text": "Regular assessment and enforcement of standards are necessary to maintain operational effectiveness."
+    },
+    {
+      "id": "07860ce7-9a25-46fe-8572-b6dea906fec0",
+      "text": "Leaders must actively apply lessons from past experiences to current challenges."
+    },
+    {
+      "id": "2418a477-a4a1-454a-b6a7-cd9d303a2346",
+      "text": "Maintain consistency between actions and stated values."
+    },
+    {
+      "id": "cf284811-0299-4af7-a231-cadfc07f5a8d",
+      "text": "Assume all circumstances require ethical decision-making."
+    },
+    {
+      "id": "b96e7094-f5d0-4ae5-958a-2f28f1ee77e8",
+      "text": "Balance personal sacrifice with practical realities."
+    },
+    {
+      "id": "456a4b6a-3e1a-4c11-95c3-fd5993a9b879",
+      "text": "Separate what is within control (actions, judgments) from what is not (external events)."
+    },
+    {
+      "id": "35985f19-777c-41d2-8396-3bba429914c3",
+      "text": "Assess the impact of events on virtue and vice."
+    },
+    {
+      "id": "e7d54851-7175-48d6-a6e9-2ada4e1d37ab",
+      "text": "Adjust focus based on the availability of control (adaptation)."
+    },
+    {
+      "id": "96565a17-df73-4937-90ce-8e624a5ae08a",
+      "text": "Act justly and consistently in all roles."
+    },
+    {
+      "id": "9437e40c-05c9-454d-b973-3ead70076f82",
+      "text": "Evaluate situations before making decisions."
+    },
+    {
+      "id": "aaa0b571-cba0-46ef-ab9b-362c0206910a",
+      "text": "Consider long-term consequences of actions."
+    },
+    {
+      "id": "00e44d95-3f99-415e-a7fb-b3277af4f5b7",
+      "text": "Action must precede results; persistence is required to overcome obstacles."
+    },
+    {
+      "id": "b5dcb2d1-fea8-46f9-805b-c26e47fe784c",
+      "text": "Skill enhancement directly correlates with increased capacity and reward."
+    },
+    {
+      "id": "18918dab-1c07-4068-b346-1872086e1dc9",
+      "text": "Strategic foresight is essential for mitigating future uncertainties."
+    },
+    {
+      "id": "aae057d7-e3ed-470a-8e01-a500ede47a21",
+      "text": "Persist in efforts to achieve sustainable outcomes."
+    },
+    {
+      "id": "99cbc653-631c-4714-82b8-85069933b6cd",
+      "text": "Evaluate risks based on statistical likelihood."
+    },
+    {
+      "id": "2f04a9b9-15b7-4715-a486-81547552fdc7",
+      "text": "Align actions with controllable factors rather than chance."
+    },
+    {
+      "id": "24804947-2cff-4bef-a1ca-7b77817d2d3a",
+      "text": "Do not delay action on identified opportunities."
+    },
+    {
+      "id": "55bc39e5-6281-401e-bc5d-170d21acdacc",
+      "text": "Consistently allocate a portion of earnings for investment."
+    },
+    {
+      "id": "42e54835-66b4-431b-9e74-1b36efc818c9",
+      "text": "Operationalize separation of planning and execution"
+    },
+    {
+      "id": "30019d8c-1a00-4a96-8325-f0ed2f7a162d",
+      "text": "Cognitive degradation follows mechanized workflow"
+    },
+    {
+      "id": "04270806-6b6d-4a2a-b620-9922b833da34",
+      "text": "Execute duties regardless of personal comfort."
+    },
+    {
+      "id": "6be575bb-b24f-4101-9574-90b2165fb98c",
+      "text": "Consider all outcomes as part of a larger natural order."
+    },
+    {
+      "id": "6ef495a7-49d7-4b74-9952-b38878d7ae0f",
+      "text": "Maintain focus on action, not consequence."
+    },
+    {
+      "id": "e0e7e3b0-e6ab-4d82-a54b-c2eacf7ce8f2",
+      "text": "Evaluate situations based on what can be controlled"
+    },
+    {
+      "id": "5e360f48-f2dd-4503-8c3f-d03625e3d3f5",
+      "text": "Accept outcomes without emotional attachment"
+    },
+    {
+      "id": "73dd1e37-e31a-4395-950d-b4f6025e3ed3",
+      "text": "Persist in philosophical practice despite challenges"
+    },
+    {
+      "id": "35e6d9e3-d97b-4846-9fe8-e5c9b542a3e1",
+      "text": "Evaluate situations based on their potential for transformation."
+    },
+    {
+      "id": "87a43246-4afd-4f06-b5f4-a1c91b1abb84",
+      "text": "Prioritize what is within your control in decision-making."
+    },
+    {
+      "id": "b7491422-628f-4a8a-9b08-b1279063555a",
+      "text": "Adjust your focus to maintain alignment with core objectives."
+    },
+    {
+      "id": "7e769312-92b9-42ac-9055-02c5636dd6bb",
+      "text": "Resolve conflicts by addressing the other's reason."
+    },
+    {
+      "id": "51684a01-4928-47f2-a620-be468b65524d",
+      "text": "Maintain inner stability regardless of external events."
+    },
+    {
+      "id": "c2d53e0b-9d0e-43dd-b968-863a3a8ae682",
+      "text": "Actively pursue righteous conduct in all interactions."
+    },
+    {
+      "id": "5063e124-b0c4-4334-b7b0-4b323032f2f8",
+      "text": "Direct attention to controllable aspects of experience to foster personal growth."
+    },
+    {
+      "id": "0306f222-2dd1-443d-934e-b28dcf6d35cc",
+      "text": "Practice consistent effort in developing virtues to achieve mastery over one's circumstances."
+    },
+    {
+      "id": "4f4970d6-6ad1-421a-9530-aa5336380ce6",
+      "text": "Distinguish between what can be controlled and what cannot."
+    },
+    {
+      "id": "13012a5a-1da2-4e6d-8827-1e93dc0e7387",
+      "text": "Apply mental discipline to accept outcomes beyond influence."
+    },
+    {
+      "id": "4e8b50ce-00c4-425c-b4ed-502cdd9436dd",
+      "text": "Question the nature and purpose of every action before committing."
+    },
+    {
+      "id": "6bd6ffd7-a9e7-4646-ba74-de3daa080c87",
+      "text": "Evaluate external events as either chance or providence without assigning blame."
+    },
+    {
+      "id": "742d35a6-8a68-445c-b236-50acbe62aaa1",
+      "text": "Focus on the common good and universal nature of human experience."
+    },
+    {
+      "id": "553837ee-3b27-4b80-9c15-075dbeae0114",
+      "text": "View death as a natural transition that aligns with the greater good."
+    },
+    {
+      "id": "c2aa8736-58fd-4603-a99b-ff26175512de",
+      "text": "Align actions with universal principles."
+    },
+    {
+      "id": "276da90a-c4a9-4d2c-b9c0-a458b4c3259e",
+      "text": "Separate what is within control from what is not."
+    },
+    {
+      "id": "0113216e-801c-4e0f-be15-da96baa2c230",
+      "text": "Maintain consistency in applying rational principles."
+    },
+    {
+      "id": "5e3d7f26-fe40-4b7a-bfd1-adf0d216f06d",
+      "text": "When advising others, consider both the immediate emotional impact and the underlying principles of justice."
+    },
+    {
+      "id": "3dd15a7e-7a03-473f-9f5d-31a90f29dfbb",
+      "text": "Maintain clear boundaries in professional relationships to preserve mutual respect."
+    },
+    {
+      "id": "791ff081-67bb-471c-91f1-dcb547194eb3",
+      "text": "Educational goals must align with practical application."
+    },
+    {
+      "id": "466b4065-bd47-4012-84ec-107e4abe4249",
+      "text": "Feedback-driven adjustments are essential for skill development."
+    },
+    {
+      "id": "ef40da56-05eb-46c6-aa18-e0bac2229059",
+      "text": "Time allocation must prioritize foundational competencies."
+    },
+    {
+      "id": "d0955250-6dcc-4b93-9677-7e84924f0d2c",
+      "text": "Address root causes of conflict to maintain harmony."
+    },
+    {
+      "id": "9c016310-d344-44ab-8834-e8ee0dcc16f0",
+      "text": "Allocate dedicated time for deliberate study and skill development."
+    },
+    {
+      "id": "09073034-147e-4226-a0f5-d22cf60b8905",
+      "text": "Prioritize activities based on importance to manage limited resources."
+    },
+    {
+      "id": "2bdcad5a-f3f7-4f6f-ab64-4503c29a449d",
+      "text": "Regular assessment and enforcement of standards are necessary to maintain operational effectiveness."
+    },
+    {
+      "id": "5be2da89-770a-4480-adcd-d547990e03b9",
+      "text": "Leaders must actively apply lessons from past experiences to current challenges."
+    },
+    {
+      "id": "cd4dcb8f-b779-4256-a070-e95e8753e4ab",
+      "text": "Maintain consistency between actions and stated values."
+    },
+    {
+      "id": "1c4dc112-0cde-4fb5-b3c2-7baa257e03d1",
+      "text": "Assume all circumstances require ethical decision-making."
+    },
+    {
+      "id": "7798edae-ad38-49fb-b288-8775b1dfe08f",
+      "text": "Balance personal sacrifice with practical realities."
+    },
+    {
+      "id": "24ba7292-6f5f-4347-9a3c-15d452eabb09",
+      "text": "Separate what is within control (actions, judgments) from what is not (external events)."
+    },
+    {
+      "id": "36b09ba4-b674-467c-ad51-4b3e7ffb8e27",
+      "text": "Assess the impact of events on virtue and vice."
+    },
+    {
+      "id": "1ae28fc1-4e25-4c0d-9205-41404f58b558",
+      "text": "Adjust focus based on the availability of control (adaptation)."
+    },
+    {
+      "id": "ff7a923a-e4d8-43e0-be6c-010aec340bf6",
+      "text": "Act justly and consistently in all roles."
+    },
+    {
+      "id": "764402bd-e5da-48af-9fe5-1c7d7eee0a8b",
+      "text": "Evaluate situations before making decisions."
+    },
+    {
+      "id": "b7e669d8-1bd2-43f7-9b99-adaf7dea409f",
+      "text": "Consider long-term consequences of actions."
+    }
+  ],
+  "metadata": {
+    "extracted_count": 0,
+    "last_updated": "2026-02-11T12:52:27Z"
+  },
+  "warnings": [
+    {
+      "id": "b4ddb69d-1e5c-4617-af96-a556a8392d2c",
+      "text": "Insufficient effort leads to stagnation regardless of opportunity."
+    },
+    {
+      "id": "3a425276-7013-439b-80f0-e8a8177c2ecd",
+      "text": "Lack of specialized development creates vulnerability to competition."
+    },
+    {
+      "id": "0df41e13-b5d3-4785-8920-55208667d10c",
+      "text": "Over-reliance on luck leads to inconsistent outcomes."
+    },
+    {
+      "id": "02b73834-b58a-4c37-a41d-9d52b55040d5",
+      "text": "Ignoring risk structures can result in financial loss."
+    },
+    {
+      "id": "edea3372-397c-4362-853c-7fb8a106da65",
+      "text": "Poor timing may undermine even well-executed strategies."
+    },
+    {
+      "id": "98996d18-8d7c-4bf1-80ef-8c04caf42f10",
+      "text": "Missed opportunities due to procrastination can lead to regret."
+    },
+    {
+      "id": "897c2f39-98f4-4a7d-bdc2-9ccf6f8bcfb9",
+      "text": "Inaction in the face of favorable conditions increases the risk of financial stagnation."
+    },
+    {
+      "id": "958eec7c-66c0-45e0-83d1-56a3dc87ef0c",
+      "text": "Over-reliance on technology distorts operational reality"
+    },
+    {
+      "id": "1bb06631-86f9-4af8-9519-642a2065dda0",
+      "text": "Neglecting manual skills creates knowledge blind spots"
+    },
+    {
+      "id": "44d90f84-40fb-458c-bab4-904dc007c4fc",
+      "text": "Over-identification with outcomes may lead to disappointment."
+    },
+    {
+      "id": "a1f34a78-c177-43c9-9a10-e7d7e68f6a58",
+      "text": "Neglecting self-discipline creates vulnerability."
+    },
+    {
+      "id": "a3892417-53f2-4038-affa-70dfe4459f38",
+      "text": "Failure to act may reinforce dependency on external validation."
+    },
+    {
+      "id": "c14fd1b0-3f97-4cd5-9557-ba032437c45c",
+      "text": "Resistance to fate creates unnecessary suffering"
+    },
+    {
+      "id": "bc42edfa-a141-4685-91ac-84b3c650127d",
+      "text": "Neglecting universal perspective leads to narrow thinking"
+    },
+    {
+      "id": "43dbb4e9-c763-4eee-a144-64329875d21c",
+      "text": "Disregarding core principles hinders personal growth"
+    },
+    {
+      "id": "e2bdb89c-02af-4d86-bc90-cd7b8e49c829",
+      "text": "Avoid becoming fixated on transient external conditions."
+    },
+    {
+      "id": "0b368c89-07f7-4a4a-9947-434c766d04eb",
+      "text": "Guard against allowing temporary setbacks to disrupt core purpose."
+    },
+    {
+      "id": "d1b893d7-91bf-4094-a0a9-0c444e9cac07",
+      "text": "Prevent reactive thinking from dominating strategic considerations."
+    },
+    {
+      "id": "7af0dfa7-606b-41d0-ae60-dd7e1ff53742",
+      "text": "Failure to adapt leads to internal conflict."
+    },
+    {
+      "id": "17fba166-6a06-46d7-b012-456627796a62",
+      "text": "Overemphasizing externals distracts from essential virtues."
+    },
+    {
+      "id": "01a7cfa1-4092-4f8a-a7cb-007ead8f87ce",
+      "text": "Abstracted principles may require contextual adaptation to modern environments."
+    },
+    {
+      "id": "865b9bc2-25b1-4355-971e-6d2b6edfeab5",
+      "text": "The timeless nature of the text may obscure its relevance to contemporary challenges."
+    },
+    {
+      "id": "b18bc4cc-0d0c-4d17-a245-8201c9808045",
+      "text": "Over-identification with external factors leads to strategic drift."
+    },
+    {
+      "id": "2c1d220e-3508-46d2-99bd-e06bd1dead5d",
+      "text": "Neglecting internal calibration increases vulnerability to environmental shifts."
+    },
+    {
+      "id": "a94fed3e-f171-4a89-aaea-f7ddc64d992e",
+      "text": "Ignoring the distinction between opinion and truth leads to emotional turmoil."
+    },
+    {
+      "id": "d7415ae5-e0b7-4169-aa11-33b574fb1e1d",
+      "text": "Failing to question the purpose of actions invites rashness and poor judgment."
+    },
+    {
+      "id": "3eba06d2-280c-49be-a395-5ce876397b5e",
+      "text": "Overattachment to personal achievements or possessions hinders inner freedom."
+    },
+    {
+      "id": "9c740f91-15bc-476e-92f4-2d78b80b29cb",
+      "text": "Disregarding universal principles leads to misalignment."
+    },
+    {
+      "id": "49222750-5bb1-45f7-8591-25cb77bada25",
+      "text": "Overestimating control creates unnecessary suffering."
+    },
+    {
+      "id": "a28010ad-e02b-4c1e-9441-cb370c653005",
+      "text": "Neglecting introspection distorts perception of universal principles."
+    },
+    {
+      "id": "ab6482ff-c96d-4332-a993-cedeba0d6fdc",
+      "text": "Allowing personal biases to override objective analysis can undermine decision-making credibility."
+    },
+    {
+      "id": "3265c181-50a3-47a1-bd51-be768fe8da5c",
+      "text": "Overstepping professional boundaries in personal interactions may strain relationships."
+    },
+    {
+      "id": "2bf9e7db-f1e4-4961-b64d-e5069e33cd42",
+      "text": "Insufficient foundational knowledge creates long-term deficits."
+    },
+    {
+      "id": "ce122eec-fccc-4352-a89b-e56e4f4365b9",
+      "text": "Over-reliance on external validation may limit intrinsic motivation."
+    },
+    {
+      "id": "51e9daf5-0fa4-47db-999f-c19cddb2bcd1",
+      "text": "Burnout from excessive effort reduces sustainable progress."
+    },
+    {
+      "id": "62dee592-e06d-4b58-9dfd-47a183809532",
+      "text": "Neglecting emotional dynamics can lead to relational discord."
+    },
+    {
+      "id": "48be7bc7-d070-45d8-808e-2517726c1646",
+      "text": "Inconsistent effort results in diminished expertise and confidence."
+    },
+    {
+      "id": "7a08060c-3460-4651-a311-e5c13997dede",
+      "text": "Failure to manage constraints leads to inefficiency and stress."
+    },
+    {
+      "id": "61f2bc82-404b-4175-9032-b0776adfe8ca",
+      "text": "Failure to enforce standards leads to organizational decay."
+    },
+    {
+      "id": "f7c798cf-6e8b-482a-a248-feb182ac7aa8",
+      "text": "Neglecting mentorship risks loss of institutional continuity and expertise."
+    },
+    {
+      "id": "82227b78-2b0c-464b-8d9f-75250bace407",
+      "text": "Inconsistency creates vulnerability to resentment."
+    },
+    {
+      "id": "424bc246-b035-419a-a32a-677a2d7c248e",
+      "text": "Neglecting core values leads to existential regret."
+    },
+    {
+      "id": "11b44c71-0288-4b26-8169-326fa028a905",
+      "text": "Unexamined beliefs risk undermining ethical behavior."
+    },
+    {
+      "id": "b261e9e6-88eb-425e-8c1d-739456f54ae2",
+      "text": "Failure to distinguish control leads to anxiety and distress."
+    },
+    {
+      "id": "332faa95-e863-49e8-ab27-2a1fa5fd227c",
+      "text": "Misjudging the impact of events can cause unnecessary emotional turmoil."
+    },
+    {
+      "id": "a350b4ea-bf87-404e-b0a3-97e69dd205ab",
+      "text": "Neglecting the distinction between necessity and opinion creates vulnerability to external fluctuations."
+    },
+    {
+      "id": "1b664607-7cbf-487b-8abc-6ce8d40eb438",
+      "text": "Avoid being swayed by others' opinions without personal verification."
+    },
+    {
+      "id": "7b775038-8899-46b8-b3d7-128193b03847",
+      "text": "Do not assume inherent truth without critical examination."
+    },
+    {
+      "id": "34150cc5-a577-4aa4-b5db-a2d619079a0d",
+      "text": "Be cautious of over-reliance on past strategies without adaptation."
+    },
+    {
+      "id": "361a7de2-d7d9-4348-99e1-e2b0977b5ece",
+      "text": "Insufficient effort leads to stagnation regardless of opportunity."
+    },
+    {
+      "id": "be395e5d-d5a2-4871-be9b-70b43ec95143",
+      "text": "Lack of specialized development creates vulnerability to competition."
+    },
+    {
+      "id": "2b24aa4f-0f24-4cdb-8033-e6ba9b3a68fc",
+      "text": "Over-reliance on luck leads to inconsistent outcomes."
+    },
+    {
+      "id": "0723ef86-8835-439c-8c89-dcfc1fa2679e",
+      "text": "Ignoring risk structures can result in financial loss."
+    },
+    {
+      "id": "bc7b6a98-fa24-46a5-9f9e-72b4f2e4f498",
+      "text": "Poor timing may undermine even well-executed strategies."
+    },
+    {
+      "id": "2adec3ed-40de-40a6-8023-cfa489bfadff",
+      "text": "Missed opportunities due to procrastination can lead to regret."
+    },
+    {
+      "id": "bf3e0d52-6367-4c7f-b4cb-595b888a0207",
+      "text": "Inaction in the face of favorable conditions increases the risk of financial stagnation."
+    },
+    {
+      "id": "4ac0b9ee-8d9b-4ad4-9aa0-6f11083962c6",
+      "text": "Over-reliance on technology distorts operational reality"
+    },
+    {
+      "id": "f1ff5f8b-3fd7-43a6-99e6-23ee3182c364",
+      "text": "Neglecting manual skills creates knowledge blind spots"
+    },
+    {
+      "id": "5c3610ef-6160-4178-a0d5-25f4ef508ba9",
+      "text": "Insufficient effort leads to stagnation regardless of opportunity."
+    },
+    {
+      "id": "1183b7c7-6ff3-4c50-95e8-5189893cbb9a",
+      "text": "Lack of specialized development creates vulnerability to competition."
+    },
+    {
+      "id": "284e5f6d-7764-4be1-bfc3-481a3f4e7cf1",
+      "text": "Over-reliance on luck leads to inconsistent outcomes."
+    },
+    {
+      "id": "914e816e-1a96-4437-a261-6ec3e3cf46e9",
+      "text": "Ignoring risk structures can result in financial loss."
+    },
+    {
+      "id": "9770a505-8a0a-4f3b-8890-11ce1836735c",
+      "text": "Poor timing may undermine even well-executed strategies."
+    },
+    {
+      "id": "d7b13fed-9c5f-4ea6-a5d8-7375d155fd6d",
+      "text": "Missed opportunities due to procrastination can lead to regret."
+    },
+    {
+      "id": "efeb4027-caa6-4706-8694-b162c5a143b4",
+      "text": "Inaction in the face of favorable conditions increases the risk of financial stagnation."
+    },
+    {
+      "id": "bbf6e01c-c5cc-4ef3-a7c6-1e2c1c0bdb8d",
+      "text": "Over-reliance on technology distorts operational reality"
+    },
+    {
+      "id": "cfc20e3c-d5f4-4680-a045-d6b20abfa7ca",
+      "text": "Neglecting manual skills creates knowledge blind spots"
+    },
+    {
+      "id": "c527ea66-5fae-48bb-ad6a-2688c84a78f5",
+      "text": "Over-identification with outcomes may lead to disappointment."
+    },
+    {
+      "id": "ecd1a21f-4b0f-4574-9a60-60e801d21b38",
+      "text": "Neglecting self-discipline creates vulnerability."
+    },
+    {
+      "id": "3aa22162-3071-4db1-b899-244c6121e47a",
+      "text": "Failure to act may reinforce dependency on external validation."
+    },
+    {
+      "id": "28fcf66e-d9f1-43a0-9845-42dd8159c9af",
+      "text": "Resistance to fate creates unnecessary suffering"
+    },
+    {
+      "id": "93b4df04-7094-474d-ad5a-764b72373fe7",
+      "text": "Neglecting universal perspective leads to narrow thinking"
+    },
+    {
+      "id": "861cd5d8-c6c6-4fdc-a560-22f9e88776cd",
+      "text": "Disregarding core principles hinders personal growth"
+    },
+    {
+      "id": "53a5a123-ec04-48d9-b4ff-dfd4dc1380ee",
+      "text": "Avoid becoming fixated on transient external conditions."
+    },
+    {
+      "id": "92846690-b1d0-4ff1-9d73-3be2b2e4bc64",
+      "text": "Guard against allowing temporary setbacks to disrupt core purpose."
+    },
+    {
+      "id": "0d82b259-e4e7-415f-8f54-f4c6f9b0426a",
+      "text": "Prevent reactive thinking from dominating strategic considerations."
+    },
+    {
+      "id": "8032a4e1-4138-473c-b219-bdf859001e0c",
+      "text": "Failure to adapt leads to internal conflict."
+    },
+    {
+      "id": "3ab5a983-e932-4718-9910-bbd893eacef9",
+      "text": "Overemphasizing externals distracts from essential virtues."
+    },
+    {
+      "id": "5532d27e-925a-4579-9d10-03e358c0a59e",
+      "text": "Abstracted principles may require contextual adaptation to modern environments."
+    },
+    {
+      "id": "0d80856c-d858-4d4a-b17b-f5df27c8c71f",
+      "text": "The timeless nature of the text may obscure its relevance to contemporary challenges."
+    },
+    {
+      "id": "00d83304-74f6-4216-b856-b512c902187e",
+      "text": "Over-identification with external factors leads to strategic drift."
+    },
+    {
+      "id": "cd5fbacf-97bf-4fa9-b6da-c3958cde213c",
+      "text": "Neglecting internal calibration increases vulnerability to environmental shifts."
+    },
+    {
+      "id": "de6502fc-6f8f-4991-aa43-c49b9c6687dc",
+      "text": "Ignoring the distinction between opinion and truth leads to emotional turmoil."
+    },
+    {
+      "id": "02f3d2e5-c31d-404e-be9b-4629db68d0ad",
+      "text": "Failing to question the purpose of actions invites rashness and poor judgment."
+    },
+    {
+      "id": "0e38f36a-4f08-440c-a3b5-9cda08ed70cd",
+      "text": "Overattachment to personal achievements or possessions hinders inner freedom."
+    },
+    {
+      "id": "af76c46d-47b6-4f15-9f05-d645ef74e695",
+      "text": "Disregarding universal principles leads to misalignment."
+    },
+    {
+      "id": "10181be0-50a3-4176-96e7-88cb64db6af8",
+      "text": "Overestimating control creates unnecessary suffering."
+    },
+    {
+      "id": "4026590f-6631-4a78-9b5c-de4a592b827d",
+      "text": "Neglecting introspection distorts perception of universal principles."
+    },
+    {
+      "id": "9cb3ff30-f2be-4ea1-93d9-1497acf5f321",
+      "text": "Allowing personal biases to override objective analysis can undermine decision-making credibility."
+    },
+    {
+      "id": "15c0d35c-6cc9-4c0e-b341-f171eef47710",
+      "text": "Overstepping professional boundaries in personal interactions may strain relationships."
+    },
+    {
+      "id": "eb1b853f-ca86-4f5e-80c4-08d42e3dd06a",
+      "text": "Insufficient foundational knowledge creates long-term deficits."
+    },
+    {
+      "id": "8345fdf8-eb11-441d-b956-1a4add5e4124",
+      "text": "Over-reliance on external validation may limit intrinsic motivation."
+    },
+    {
+      "id": "7a8f0c01-be71-4962-b140-352de6aa1f35",
+      "text": "Burnout from excessive effort reduces sustainable progress."
+    },
+    {
+      "id": "9d62d461-d10c-46fd-a6c9-d52147190b3e",
+      "text": "Neglecting emotional dynamics can lead to relational discord."
+    },
+    {
+      "id": "ffda9308-b442-439a-b25c-088c2d3a1683",
+      "text": "Inconsistent effort results in diminished expertise and confidence."
+    },
+    {
+      "id": "5cd0b8bf-be01-492f-ab2d-8ea5423b9a14",
+      "text": "Failure to manage constraints leads to inefficiency and stress."
+    },
+    {
+      "id": "333f1a6f-44c6-444a-8b49-28000220cd4c",
+      "text": "Failure to enforce standards leads to organizational decay."
+    },
+    {
+      "id": "d769d9c0-90be-469a-9c1f-e127b8434e39",
+      "text": "Neglecting mentorship risks loss of institutional continuity and expertise."
+    },
+    {
+      "id": "64c90974-bc96-4aa5-80aa-9ba599e3fd04",
+      "text": "Inconsistency creates vulnerability to resentment."
+    },
+    {
+      "id": "9754c9ed-d199-49e8-9d77-171b3b745ae7",
+      "text": "Neglecting core values leads to existential regret."
+    },
+    {
+      "id": "c9a89d33-d45a-45a5-96e9-793c3f389d44",
+      "text": "Unexamined beliefs risk undermining ethical behavior."
+    },
+    {
+      "id": "809e9a1d-d72f-494f-a8c5-94c3f396c5c2",
+      "text": "Failure to distinguish control leads to anxiety and distress."
+    },
+    {
+      "id": "26fb7802-efbe-4ef2-a6d2-4470a1ebe960",
+      "text": "Misjudging the impact of events can cause unnecessary emotional turmoil."
+    },
+    {
+      "id": "a36845e7-41ab-4573-bf5f-39cfff6b133f",
+      "text": "Neglecting the distinction between necessity and opinion creates vulnerability to external fluctuations."
+    },
+    {
+      "id": "275597da-df68-4d0e-b38b-cefe2986c82a",
+      "text": "Avoid being swayed by others' opinions without personal verification."
+    },
+    {
+      "id": "833f1039-b513-4ace-a7c4-ee9798307f32",
+      "text": "Do not assume inherent truth without critical examination."
+    },
+    {
+      "id": "53157fb3-a1f4-47d8-83db-d60d10ae5797",
+      "text": "Be cautious of over-reliance on past strategies without adaptation."
+    },
+    {
+      "id": "e6e0301c-d9c0-4b50-ae42-8e625d18eeb1",
+      "text": "Insufficient effort leads to stagnation regardless of opportunity."
+    },
+    {
+      "id": "0262b8f6-d17f-40e0-bb81-05b5b4f13ec8",
+      "text": "Lack of specialized development creates vulnerability to competition."
+    },
+    {
+      "id": "0e096e1a-fd59-44bb-8d20-c16e9f379d5c",
+      "text": "Over-reliance on luck leads to inconsistent outcomes."
+    },
+    {
+      "id": "c94b771d-e85d-4ef8-98ae-19ec29b6d282",
+      "text": "Ignoring risk structures can result in financial loss."
+    },
+    {
+      "id": "d4818d5b-43a4-4bfe-ad34-8536d2614796",
+      "text": "Poor timing may undermine even well-executed strategies."
+    },
+    {
+      "id": "9d9e05b3-d374-4ebe-8814-e32f7b295bec",
+      "text": "Missed opportunities due to procrastination can lead to regret."
+    },
+    {
+      "id": "67c20ee4-5238-49b6-943d-bb1e66ba8bff",
+      "text": "Inaction in the face of favorable conditions increases the risk of financial stagnation."
+    },
+    {
+      "id": "f96d5a23-8cc2-4ac9-b640-b701ff76f231",
+      "text": "Over-reliance on technology distorts operational reality"
+    },
+    {
+      "id": "0a4c8e6c-10b2-45bc-88e7-882d29b8b1f5",
+      "text": "Neglecting manual skills creates knowledge blind spots"
+    },
+    {
+      "id": "7fdf2ad4-8dfa-4684-ac67-057d7becf822",
+      "text": "Over-identification with outcomes may lead to disappointment."
+    },
+    {
+      "id": "7bf0a69b-75a3-4027-a5a4-6b529485f515",
+      "text": "Neglecting self-discipline creates vulnerability."
+    },
+    {
+      "id": "730ed80c-1c47-4aa1-847b-45500b30f719",
+      "text": "Failure to act may reinforce dependency on external validation."
+    },
+    {
+      "id": "bab6e816-fcb8-4682-91b1-87d3b52a58ee",
+      "text": "Resistance to fate creates unnecessary suffering"
+    },
+    {
+      "id": "fc7744e9-a5da-4b80-998a-7ba9c7bacca0",
+      "text": "Neglecting universal perspective leads to narrow thinking"
+    },
+    {
+      "id": "4bf3d234-cc84-41e4-957d-8ecb4dc02601",
+      "text": "Disregarding core principles hinders personal growth"
+    },
+    {
+      "id": "92440810-48eb-49e4-8ec3-15562d61dda7",
+      "text": "Avoid becoming fixated on transient external conditions."
+    },
+    {
+      "id": "e417fee1-ad91-4384-9eac-c1e33644e6ee",
+      "text": "Guard against allowing temporary setbacks to disrupt core purpose."
+    },
+    {
+      "id": "2768d602-a0ad-4b8f-88f5-6f5371110823",
+      "text": "Prevent reactive thinking from dominating strategic considerations."
+    },
+    {
+      "id": "bda3f38b-0109-4dbe-863b-35b09a18b318",
+      "text": "Failure to adapt leads to internal conflict."
+    },
+    {
+      "id": "f95780b0-449f-4e3c-97b9-7b13cee65c79",
+      "text": "Overemphasizing externals distracts from essential virtues."
+    },
+    {
+      "id": "c68e669f-7771-4d88-bc24-b440ea26d512",
+      "text": "Abstracted principles may require contextual adaptation to modern environments."
+    },
+    {
+      "id": "64bdf112-79ba-458a-8a77-1cea9d260bef",
+      "text": "The timeless nature of the text may obscure its relevance to contemporary challenges."
+    },
+    {
+      "id": "b3cb5095-2d43-416c-b7f0-b4692957756b",
+      "text": "Over-identification with external factors leads to strategic drift."
+    },
+    {
+      "id": "3e6ad63b-16b4-4943-aecb-6533a5a6a8fb",
+      "text": "Neglecting internal calibration increases vulnerability to environmental shifts."
+    },
+    {
+      "id": "444e70e8-14a8-4705-a567-ef3d41ffc58a",
+      "text": "Ignoring the distinction between opinion and truth leads to emotional turmoil."
+    },
+    {
+      "id": "169dbed9-5b6f-4072-946c-a1d04afc5a61",
+      "text": "Failing to question the purpose of actions invites rashness and poor judgment."
+    },
+    {
+      "id": "5ea9ad8d-cd7e-422c-89d1-980445619fb2",
+      "text": "Overattachment to personal achievements or possessions hinders inner freedom."
+    },
+    {
+      "id": "5cf9de37-163f-40bd-b211-db40f77a5eae",
+      "text": "Disregarding universal principles leads to misalignment."
+    },
+    {
+      "id": "d44e896e-db54-41ec-b6fb-dabc7e3f8e3f",
+      "text": "Overestimating control creates unnecessary suffering."
+    },
+    {
+      "id": "ae0cae89-7730-4915-81ef-389c00243c9d",
+      "text": "Neglecting introspection distorts perception of universal principles."
+    },
+    {
+      "id": "a56bc8f6-120e-4269-b9c2-1b4e5830c81d",
+      "text": "Allowing personal biases to override objective analysis can undermine decision-making credibility."
+    },
+    {
+      "id": "20597ab8-9568-4f2a-ab5f-2f6cb3cec535",
+      "text": "Overstepping professional boundaries in personal interactions may strain relationships."
+    },
+    {
+      "id": "58cca0e0-2dc0-4cb9-acae-2ac59b4ee4bc",
+      "text": "Insufficient foundational knowledge creates long-term deficits."
+    },
+    {
+      "id": "0bcc540c-be86-4d8c-880e-eb4bd4f8a14a",
+      "text": "Over-reliance on external validation may limit intrinsic motivation."
+    },
+    {
+      "id": "3068e8ec-45be-4ae2-94bd-cf19429538aa",
+      "text": "Burnout from excessive effort reduces sustainable progress."
+    },
+    {
+      "id": "db367aa1-bf01-40f4-b89b-d75875075a7c",
+      "text": "Neglecting emotional dynamics can lead to relational discord."
+    },
+    {
+      "id": "4171c274-0359-42c4-84d6-cf8683e850cd",
+      "text": "Inconsistent effort results in diminished expertise and confidence."
+    },
+    {
+      "id": "56ad66eb-de48-43eb-985b-0b84da513a0f",
+      "text": "Failure to manage constraints leads to inefficiency and stress."
+    },
+    {
+      "id": "b3ea4427-88c9-4f2a-80ae-1211b94aec46",
+      "text": "Failure to enforce standards leads to organizational decay."
+    },
+    {
+      "id": "c391de2c-cb93-4d11-8f07-487d5a406e34",
+      "text": "Neglecting mentorship risks loss of institutional continuity and expertise."
+    },
+    {
+      "id": "39638361-3a4b-40bc-8953-76980a7f05eb",
+      "text": "Inconsistency creates vulnerability to resentment."
+    },
+    {
+      "id": "ab32bbcb-595d-45ca-8a18-d1135708d538",
+      "text": "Neglecting core values leads to existential regret."
+    },
+    {
+      "id": "56671296-866c-4c30-ae39-60d774b6d113",
+      "text": "Unexamined beliefs risk undermining ethical behavior."
+    },
+    {
+      "id": "7e2d4b72-51b8-4bfc-ae3b-b3772195d243",
+      "text": "Failure to distinguish control leads to anxiety and distress."
+    },
+    {
+      "id": "4dc71225-7dd2-42eb-a1ec-e65f066256c2",
+      "text": "Misjudging the impact of events can cause unnecessary emotional turmoil."
+    },
+    {
+      "id": "872459c8-109c-4bca-8fb2-c0099b1f06c3",
+      "text": "Neglecting the distinction between necessity and opinion creates vulnerability to external fluctuations."
+    },
+    {
+      "id": "7e5dfaac-c901-4530-8236-425cb015079d",
+      "text": "Avoid being swayed by others' opinions without personal verification."
+    },
+    {
+      "id": "3822ff0f-58ce-48c0-be7d-8cd8820cc4de",
+      "text": "Do not assume inherent truth without critical examination."
+    },
+    {
+      "id": "758d5ad3-d54d-4103-95c3-ef46d828ae79",
+      "text": "Be cautious of over-reliance on past strategies without adaptation."
+    }
+  ],
+  "claims": [
+    {
+      "id": "b933f452-48a3-4510-b7b1-0d44b52eb3ec",
+      "text": "Systematic effort leads to measurable improvement in outcomes."
+    },
+    {
+      "id": "02d1aaa0-ca20-401d-a2bd-31780aa129d7",
+      "text": "Personal growth through knowledge acquisition generates proportional returns."
+    },
+    {
+      "id": "ec3c2853-4ff0-481c-b363-b98238a3cede",
+      "text": "Luck-based successes are temporary and unreliable."
+    },
+    {
+      "id": "1c827b4e-da32-42c4-ada8-55f37c5404d3",
+      "text": "Systematic approaches yield predictable results."
+    },
+    {
+      "id": "87f76c20-e32c-40bf-809e-15e34fb6fb48",
+      "text": "Opportunities can be anticipated through disciplined planning."
+    },
+    {
+      "id": "cfa2cded-3e35-4277-b923-30f40fb53c05",
+      "text": "Early and consistent investment leads to wealth accumulation."
+    },
+    {
+      "id": "2cc76a89-b202-49dc-84d4-7c827cc8099c",
+      "text": "Proper timing maximizes the benefits of risk-taking."
+    },
+    {
+      "id": "f6f909bf-047c-41c5-8d17-2745fddfc3e9",
+      "text": "Degradation of work is fundamentally cognitive"
+    },
+    {
+      "id": "8b020100-a7f3-4bc5-bdc9-6997a35b54fd",
+      "text": "True fulfillment comes from diligent action."
+    },
+    {
+      "id": "862ed0c7-1608-4d31-ac09-f0260d15e065",
+      "text": "Nature's demands are inherently just."
+    },
+    {
+      "id": "80051c99-5924-4f2d-bc9f-5c531faede11",
+      "text": "Self-discipline enables alignment with universal order."
+    },
+    {
+      "id": "2003c088-ae2d-4cb6-9cee-c120990de596",
+      "text": "Proper adaptation leads to inner tranquility"
+    },
+    {
+      "id": "5a3bd5e4-0e02-4672-bb07-eeb650377e65",
+      "text": "Disciplined thinking reduces existential conflict"
+    },
+    {
+      "id": "77a9a035-2145-4562-a70b-1a4bfd425734",
+      "text": "Understanding constraints enables better decision-making"
+    },
+    {
+      "id": "f76bf94e-5503-4f44-a6a8-3174ab800b04",
+      "text": "True wisdom lies in recognizing the fluidity of circumstances."
+    },
+    {
+      "id": "a2125348-4a1b-4937-9ab8-a2401b1091b9",
+      "text": "Personal excellence arises from disciplined cognitive regulation."
+    },
+    {
+      "id": "a6027d55-f348-421c-89eb-ef274a5773ef",
+      "text": "The quality of existence is determined by internal alignment, not external validation."
+    },
+    {
+      "id": "c5019025-8f25-4b15-bb77-34f2e49cc7f2",
+      "text": "External circumstances hold no lasting significance."
+    },
+    {
+      "id": "e15b686f-2de6-4766-8f2c-be4a600cea76",
+      "text": "True contentment arises from alignment with universal principles."
+    },
+    {
+      "id": "b1a6dd04-e274-443f-b508-9d4c0c7dfdfa",
+      "text": "Character and inner disposition significantly influence external behavior and outcomes."
+    },
+    {
+      "id": "2a37f7a2-d211-401c-8cfb-0c3a4f3aa4c5",
+      "text": "Clarity of focus reduces operational friction."
+    },
+    {
+      "id": "605d150b-fc99-4933-af76-da8d895a99c5",
+      "text": "Embracing uncertainty improves decision quality."
+    },
+    {
+      "id": "ddf3e144-0ad5-402a-b83b-9d52976326f9",
+      "text": "True philosophy enables one to carry themselves justly in all circumstances."
+    },
+    {
+      "id": "36c3e634-20e7-4992-9775-b75116a7674b",
+      "text": "The mind's ability to govern actions is paramount for achieving inner peace."
+    },
+    {
+      "id": "d5415afe-9ff2-43d3-a1aa-ba914d3f5123",
+      "text": "All things are governed by natural order, which is inherently good and just."
+    },
+    {
+      "id": "b35fc604-e4d3-4a5b-8ad4-96488ad1e5ea",
+      "text": "Life operates within a universal framework of natural principles."
+    },
+    {
+      "id": "5c792856-50a8-40f1-a4f0-d45176313f83",
+      "text": "Truth is attainable through introspection and alignment with universal principles."
+    },
+    {
+      "id": "a4a20b35-668d-4ce4-a2d5-1c958f70062b",
+      "text": "Death is a natural transition governed by universal principles."
+    },
+    {
+      "id": "5e6ee0b1-c5f7-4b62-b185-fc16b39ac21c",
+      "text": "Effective leadership requires balancing personal relationships with impartial judgment."
+    },
+    {
+      "id": "e7c2b9c6-7111-4eae-9b20-0291b1cc877f",
+      "text": "Consistent discipline produces superior results in skill acquisition."
+    },
+    {
+      "id": "9256460d-e77f-4f52-9bed-2e47ac508111",
+      "text": "Tailored exercises accelerate performance improvement."
+    },
+    {
+      "id": "e1da1e1b-5305-408a-b7c8-562142b8f2a5",
+      "text": "Reflective analysis improves educational effectiveness."
+    },
+    {
+      "id": "3361ca05-0e5d-4acf-905b-2290a98be25a",
+      "text": "Effective communication relies on understanding human emotions."
+    },
+    {
+      "id": "24235e17-db02-4e49-b03d-37190afdb5fe",
+      "text": "Mastery is achieved through persistent effort and structured practice."
+    },
+    {
+      "id": "424b0694-e7f7-4bdf-a19a-96b157efb8db",
+      "text": "Time management directly impacts productivity and well-being."
+    },
+    {
+      "id": "a9ba8500-1894-4980-aa21-2745d42ae655",
+      "text": "Effective discipline directly correlates with operational readiness."
+    },
+    {
+      "id": "5ad09608-b7d2-4ccb-bfd5-14d9b91e513e",
+      "text": "Structured mentorship preserves institutional knowledge and fosters long-term stability."
+    },
+    {
+      "id": "f05c21a1-a9be-448d-ab98-fa2a142e9aba",
+      "text": "Honesty is preferable to ingratitude."
+    },
+    {
+      "id": "966991b9-2069-4dc1-afc0-b02b54543460",
+      "text": "Personal integrity can withstand adversity."
+    },
+    {
+      "id": "3bfbc4e5-3c87-4200-9ffe-f0e762c6f377",
+      "text": "Virtue is essential for meaningful relationships."
+    },
+    {
+      "id": "d0749d21-4c00-4acc-912d-b23610255a7c",
+      "text": "Tranquility arises from aligning actions with virtue."
+    },
+    {
+      "id": "1e633916-98c4-4a84-91b5-f74fa3edb341",
+      "text": "Emotional stability depends on rational evaluation of circumstances."
+    },
+    {
+      "id": "ee206c3e-c3b6-4726-a0b7-5c437fdbc679",
+      "text": "Human flourishing is achieved through wise decision-making (strategy)."
+    },
+    {
+      "id": "bbbe4e31-e8c3-491b-a90a-cb63ba6708ce",
+      "text": "Personal reflection is essential for effective leadership."
+    },
+    {
+      "id": "28dddf1a-5444-4f30-a853-b99f927e6f54",
+      "text": "Understanding one's own motivations improves decision-making."
+    },
+    {
+      "id": "704776e8-7ea4-4290-92cb-c898117c7bba",
+      "text": "Adjusting approaches is necessary for success in complex situations."
+    },
+    {
+      "id": "2f4d3828-a5c3-4370-8986-2bc292c992de",
+      "text": "Systematic effort leads to measurable improvement in outcomes."
+    },
+    {
+      "id": "f739c259-d9b2-4762-b0ee-d6ce7fa445b7",
+      "text": "Personal growth through knowledge acquisition generates proportional returns."
+    },
+    {
+      "id": "ad35be5b-729e-4563-b9ff-f59f170731cc",
+      "text": "Luck-based successes are temporary and unreliable."
+    },
+    {
+      "id": "ee4c9418-9290-4384-94a5-b726dff4f480",
+      "text": "Systematic approaches yield predictable results."
+    },
+    {
+      "id": "641126ac-a135-4cfe-aacb-b20d1bf14e07",
+      "text": "Opportunities can be anticipated through disciplined planning."
+    },
+    {
+      "id": "a44295ef-b226-4ef4-9182-8835eabe0c9f",
+      "text": "Early and consistent investment leads to wealth accumulation."
+    },
+    {
+      "id": "e5778150-f22f-4036-8252-40bf5ee28aa9",
+      "text": "Proper timing maximizes the benefits of risk-taking."
+    },
+    {
+      "id": "5517c61e-a53a-49ba-8853-48a7a50631f7",
+      "text": "Degradation of work is fundamentally cognitive"
+    },
+    {
+      "id": "e250e28d-5bae-40c8-a8ee-c6e8082e0685",
+      "text": "Systematic effort leads to measurable improvement in outcomes."
+    },
+    {
+      "id": "1b34dba0-d9d4-4858-9657-3b0eeff41f98",
+      "text": "Personal growth through knowledge acquisition generates proportional returns."
+    },
+    {
+      "id": "063ebef1-455a-4ca7-a905-7cd7ac606937",
+      "text": "Luck-based successes are temporary and unreliable."
+    },
+    {
+      "id": "1800c40c-34c3-4f8a-8b48-7cd7fa8154a9",
+      "text": "Systematic approaches yield predictable results."
+    },
+    {
+      "id": "d67cdabd-12c4-4d88-8fdf-a26c8c16a1c3",
+      "text": "Opportunities can be anticipated through disciplined planning."
+    },
+    {
+      "id": "1d932a06-73c2-43af-869f-1cb18a3757ad",
+      "text": "Early and consistent investment leads to wealth accumulation."
+    },
+    {
+      "id": "feb9bad7-752c-41a5-aa38-cd0b58d3c7d6",
+      "text": "Proper timing maximizes the benefits of risk-taking."
+    },
+    {
+      "id": "90dca237-73ce-40ca-a2d4-a1a14a9e8cb7",
+      "text": "Degradation of work is fundamentally cognitive"
+    },
+    {
+      "id": "c37b30f3-032d-4113-b237-82fa8c4c83c7",
+      "text": "True fulfillment comes from diligent action."
+    },
+    {
+      "id": "6204944f-e78d-4dea-bb81-1ecaacdaf576",
+      "text": "Nature's demands are inherently just."
+    },
+    {
+      "id": "02837b96-eb62-4d23-98d9-04bf5e4df4b6",
+      "text": "Self-discipline enables alignment with universal order."
+    },
+    {
+      "id": "f6a65d75-d6be-47b1-9ae0-5f2f59a3a20a",
+      "text": "Proper adaptation leads to inner tranquility"
+    },
+    {
+      "id": "3e809a99-4441-425e-a741-decf6dcbbc88",
+      "text": "Disciplined thinking reduces existential conflict"
+    },
+    {
+      "id": "47067399-3d4a-4e44-a6b2-cb5ad6afee70",
+      "text": "Understanding constraints enables better decision-making"
+    },
+    {
+      "id": "2f6b2703-f409-4b58-8f58-28d6c450eb67",
+      "text": "True wisdom lies in recognizing the fluidity of circumstances."
+    },
+    {
+      "id": "00c4bf67-29da-4cff-909b-069d440f67d2",
+      "text": "Personal excellence arises from disciplined cognitive regulation."
+    },
+    {
+      "id": "d3581472-f342-4953-af36-f65655ac5407",
+      "text": "The quality of existence is determined by internal alignment, not external validation."
+    },
+    {
+      "id": "4bf965f7-67ed-44d1-b2ce-d789e4efe00e",
+      "text": "External circumstances hold no lasting significance."
+    },
+    {
+      "id": "75cb7ec1-5a3a-434b-aebf-9109880da8d8",
+      "text": "True contentment arises from alignment with universal principles."
+    },
+    {
+      "id": "000ed49c-f361-4e9e-870d-f86b628a98d1",
+      "text": "Character and inner disposition significantly influence external behavior and outcomes."
+    },
+    {
+      "id": "def1cb6c-d052-4507-a92c-d04f487ea494",
+      "text": "Clarity of focus reduces operational friction."
+    },
+    {
+      "id": "ae0f353f-82db-4e7e-b84b-7727628ca427",
+      "text": "Embracing uncertainty improves decision quality."
+    },
+    {
+      "id": "ffb69f3d-e18d-4d30-a958-3af8ae81514d",
+      "text": "True philosophy enables one to carry themselves justly in all circumstances."
+    },
+    {
+      "id": "23768748-8e97-4e89-900b-be4ea9589789",
+      "text": "The mind's ability to govern actions is paramount for achieving inner peace."
+    },
+    {
+      "id": "8ee806e3-bb3c-48ef-a22f-67c4f8f442a5",
+      "text": "All things are governed by natural order, which is inherently good and just."
+    },
+    {
+      "id": "774f3753-1b42-4bdf-bcaf-a5e507bcbe87",
+      "text": "Life operates within a universal framework of natural principles."
+    },
+    {
+      "id": "c0a4c655-43bd-4186-ad97-4e2ec1efa4ea",
+      "text": "Truth is attainable through introspection and alignment with universal principles."
+    },
+    {
+      "id": "d43c4607-4ea5-4d7d-8dd3-a2c07251a11c",
+      "text": "Death is a natural transition governed by universal principles."
+    },
+    {
+      "id": "19af61ac-9a1c-4691-b31c-66b4ba13b827",
+      "text": "Effective leadership requires balancing personal relationships with impartial judgment."
+    },
+    {
+      "id": "0e1e77a8-69d9-4469-b02d-ee5fa918b402",
+      "text": "Consistent discipline produces superior results in skill acquisition."
+    },
+    {
+      "id": "fe83ac83-cf4d-400f-9dca-b28a8007b67b",
+      "text": "Tailored exercises accelerate performance improvement."
+    },
+    {
+      "id": "7ead05e1-45d9-463e-a8c7-1e8c63da9088",
+      "text": "Reflective analysis improves educational effectiveness."
+    },
+    {
+      "id": "f7c74d3f-2f5b-46ca-8eec-25c62304ee11",
+      "text": "Effective communication relies on understanding human emotions."
+    },
+    {
+      "id": "307f0d31-ed1c-4a2e-968c-f3162b84a65a",
+      "text": "Mastery is achieved through persistent effort and structured practice."
+    },
+    {
+      "id": "efe08bff-ac04-4817-9f77-d4faac58f61f",
+      "text": "Time management directly impacts productivity and well-being."
+    },
+    {
+      "id": "5fc0089f-29ba-4197-ab95-fd56f82b340d",
+      "text": "Effective discipline directly correlates with operational readiness."
+    },
+    {
+      "id": "f97bfcd4-8ab3-40ee-b3c8-0493a3a9fc59",
+      "text": "Structured mentorship preserves institutional knowledge and fosters long-term stability."
+    },
+    {
+      "id": "7c773a0e-157c-4aab-9a00-35f5354be065",
+      "text": "Honesty is preferable to ingratitude."
+    },
+    {
+      "id": "85e7b4a9-7713-4ed0-a25c-304a7bd71855",
+      "text": "Personal integrity can withstand adversity."
+    },
+    {
+      "id": "8a447bb6-fa99-4503-9fc8-328bf414bcc1",
+      "text": "Virtue is essential for meaningful relationships."
+    },
+    {
+      "id": "2c976e12-42a5-4380-a918-d1cc902fb5e3",
+      "text": "Tranquility arises from aligning actions with virtue."
+    },
+    {
+      "id": "fa3b17d1-c2cc-4eb1-96ca-749d0ec55db8",
+      "text": "Emotional stability depends on rational evaluation of circumstances."
+    },
+    {
+      "id": "8c2fb3f5-a550-417e-ac34-6682f529e878",
+      "text": "Human flourishing is achieved through wise decision-making (strategy)."
+    },
+    {
+      "id": "81658eb3-e505-4442-aa52-4f31025974a5",
+      "text": "Personal reflection is essential for effective leadership."
+    },
+    {
+      "id": "240612ed-e50f-4079-b0ff-4cb1705774e5",
+      "text": "Understanding one's own motivations improves decision-making."
+    },
+    {
+      "id": "414fb6fb-d6b6-4a9f-8751-9160bd6c8347",
+      "text": "Adjusting approaches is necessary for success in complex situations."
+    },
+    {
+      "id": "213a90de-1040-47cf-9406-7be585dbcd20",
+      "text": "Systematic effort leads to measurable improvement in outcomes."
+    },
+    {
+      "id": "27bc15b6-37e6-401e-8ed1-76d0b4dca1fe",
+      "text": "Personal growth through knowledge acquisition generates proportional returns."
+    },
+    {
+      "id": "fa2c50f1-0d66-4e3f-9b8a-b3b6b5956b00",
+      "text": "Luck-based successes are temporary and unreliable."
+    },
+    {
+      "id": "b0a9e43a-eea1-4dc4-9e4e-216b00507b68",
+      "text": "Systematic approaches yield predictable results."
+    },
+    {
+      "id": "f947fc1d-0245-488e-86c4-1ca0098de223",
+      "text": "Opportunities can be anticipated through disciplined planning."
+    },
+    {
+      "id": "a217051a-5171-4e3c-97c7-5da11f8fc26c",
+      "text": "Early and consistent investment leads to wealth accumulation."
+    },
+    {
+      "id": "2d7c6b04-0023-433a-bdd9-713f2175289f",
+      "text": "Proper timing maximizes the benefits of risk-taking."
+    },
+    {
+      "id": "5da9f08a-6ed6-43da-9efd-e1f7dc3f3141",
+      "text": "Degradation of work is fundamentally cognitive"
+    },
+    {
+      "id": "388ca3cb-7e58-416c-841b-470dcaffc458",
+      "text": "True fulfillment comes from diligent action."
+    },
+    {
+      "id": "fea6b529-1e61-43d7-bff8-eda25b2595f0",
+      "text": "Nature's demands are inherently just."
+    },
+    {
+      "id": "92cd44c1-3405-4dee-a31c-4989c76dd90c",
+      "text": "Self-discipline enables alignment with universal order."
+    },
+    {
+      "id": "c3cba15c-9f77-4aaf-9971-265b17376841",
+      "text": "Proper adaptation leads to inner tranquility"
+    },
+    {
+      "id": "3b68a5ad-45d8-4444-9b19-92d6f0eeeb17",
+      "text": "Disciplined thinking reduces existential conflict"
+    },
+    {
+      "id": "c119e3d8-9735-4a1c-8089-f7a38ceb7557",
+      "text": "Understanding constraints enables better decision-making"
+    },
+    {
+      "id": "bee32625-f143-43b5-846d-bff0ff2ce445",
+      "text": "True wisdom lies in recognizing the fluidity of circumstances."
+    },
+    {
+      "id": "47470a5d-0798-4dcb-80c3-3969bb0de252",
+      "text": "Personal excellence arises from disciplined cognitive regulation."
+    },
+    {
+      "id": "519690e9-e9ed-4a00-9ed1-4223d07a5095",
+      "text": "The quality of existence is determined by internal alignment, not external validation."
+    },
+    {
+      "id": "ac9c36f9-ea66-4bcd-b911-4e7c14ffd083",
+      "text": "External circumstances hold no lasting significance."
+    },
+    {
+      "id": "b4894d97-10bf-461d-9273-2eab0fa95168",
+      "text": "True contentment arises from alignment with universal principles."
+    },
+    {
+      "id": "dfcc6957-37d4-4862-8fe9-336449044ac5",
+      "text": "Character and inner disposition significantly influence external behavior and outcomes."
+    },
+    {
+      "id": "7bbecf27-6d79-4d95-86a2-281a2aa07d59",
+      "text": "Clarity of focus reduces operational friction."
+    },
+    {
+      "id": "3d8b6b33-bea6-4e9e-a5e5-a6d1f450d5db",
+      "text": "Embracing uncertainty improves decision quality."
+    },
+    {
+      "id": "7921f2d0-5461-4f65-b318-d6a6f960acd5",
+      "text": "True philosophy enables one to carry themselves justly in all circumstances."
+    },
+    {
+      "id": "92568f47-f830-44fa-94a7-4bb90425de3e",
+      "text": "The mind's ability to govern actions is paramount for achieving inner peace."
+    },
+    {
+      "id": "d7e56d31-48fa-4b0a-a7a9-739b8c5e9eef",
+      "text": "All things are governed by natural order, which is inherently good and just."
+    },
+    {
+      "id": "79d4173b-84da-45fd-aad4-a7f47f542740",
+      "text": "Life operates within a universal framework of natural principles."
+    },
+    {
+      "id": "b8f13348-98d0-4f13-a96b-a8e7519b5cdb",
+      "text": "Truth is attainable through introspection and alignment with universal principles."
+    },
+    {
+      "id": "df071f6d-a9cd-4b2b-89a7-5e7626f7a9a6",
+      "text": "Death is a natural transition governed by universal principles."
+    },
+    {
+      "id": "2d2d6d30-57dc-479f-bf1c-fbc9dc435c29",
+      "text": "Effective leadership requires balancing personal relationships with impartial judgment."
+    },
+    {
+      "id": "3af8e852-a491-4f85-80d2-1b350964a82d",
+      "text": "Consistent discipline produces superior results in skill acquisition."
+    },
+    {
+      "id": "dfbdc444-f13d-4af1-968f-547ddc7c2167",
+      "text": "Tailored exercises accelerate performance improvement."
+    },
+    {
+      "id": "4642c4eb-2c26-46a1-9d57-48005eae2193",
+      "text": "Reflective analysis improves educational effectiveness."
+    },
+    {
+      "id": "06c4c92c-ce66-45af-9b02-247ef06ed392",
+      "text": "Effective communication relies on understanding human emotions."
+    },
+    {
+      "id": "d63122ad-2158-4a95-bfb2-c17e7e1c7ec6",
+      "text": "Mastery is achieved through persistent effort and structured practice."
+    },
+    {
+      "id": "50463e6a-4601-4360-aeb3-567d792c31c6",
+      "text": "Time management directly impacts productivity and well-being."
+    },
+    {
+      "id": "5b7f5f1d-257f-4d55-818c-91be513cc711",
+      "text": "Effective discipline directly correlates with operational readiness."
+    },
+    {
+      "id": "45edfbbc-15f9-4acb-a9af-011d18ae2757",
+      "text": "Structured mentorship preserves institutional knowledge and fosters long-term stability."
+    },
+    {
+      "id": "d5715061-8cb1-4021-b83e-48a458b67330",
+      "text": "Honesty is preferable to ingratitude."
+    },
+    {
+      "id": "44e73d55-de09-4fe8-a0a5-ab121c46901b",
+      "text": "Personal integrity can withstand adversity."
+    },
+    {
+      "id": "67942d47-0e38-459f-8788-71c2ad4b86d6",
+      "text": "Virtue is essential for meaningful relationships."
+    },
+    {
+      "id": "5bcca6d8-96d2-4d75-90c1-3c01a607254f",
+      "text": "Tranquility arises from aligning actions with virtue."
+    },
+    {
+      "id": "d95fe80a-8ca7-4579-a4e8-4e764a01ab25",
+      "text": "Emotional stability depends on rational evaluation of circumstances."
+    },
+    {
+      "id": "7e55cf40-551e-4b3d-9fbd-584ac3fa4faf",
+      "text": "Human flourishing is achieved through wise decision-making (strategy)."
+    },
+    {
+      "id": "39fdea2d-30b5-4880-8e59-7858b2e04df1",
+      "text": "Personal reflection is essential for effective leadership."
+    },
+    {
+      "id": "3f5391dc-81b6-41dd-9954-88eb02a3becd",
+      "text": "Understanding one's own motivations improves decision-making."
+    },
+    {
+      "id": "02fcd7ad-9d19-418e-9e5b-459601b6f60d",
+      "text": "Adjusting approaches is necessary for success in complex situations."
+    }
+  ],
+  "principles": [
+    {
+      "id": "8c2bbff7-6f61-4adc-a5f1-45866f186a1f",
+      "text": "Cultivate clear, focused aspirations to drive tangible outcomes."
+    },
+    {
+      "id": "7156eec3-b738-43e3-8b96-e3bf8ccb4c17",
+      "text": "Develop specialized knowledge and skills to enhance capabilities."
+    },
+    {
+      "id": "e87d0d58-a764-4274-b5b1-e9376b789c3c",
+      "text": "Consistently improve proficiency to increase effectiveness and earning potential."
+    },
+    {
+      "id": "06c2dc28-cb9a-4808-8fcf-69152567f6bb",
+      "text": "Success relies on consistent effort rather than luck."
+    },
+    {
+      "id": "ef5615c9-4b73-460b-9a48-f6208875f172",
+      "text": "Understand the probabilities to make informed decisions."
+    },
+    {
+      "id": "05dd04ce-fb03-45c4-a1b4-6a7213531928",
+      "text": "Time and opportunity require careful planning."
+    },
+    {
+      "id": "4a339aea-2378-41c2-8f9f-1d91ecf59cb7",
+      "text": "Start small with investments."
+    },
+    {
+      "id": "c98dbf68-b59a-4e85-be67-f406c30d9417",
+      "text": "Act decisively to capture opportunities."
+    },
+    {
+      "id": "70233d89-beaa-4c36-b528-5fd1daa340c0",
+      "text": "Delegate execution, integrate planning"
+    },
+    {
+      "id": "31cef6cd-99a7-4576-8cb2-f51701ea0d37",
+      "text": "Perform duties without hesitation."
+    },
+    {
+      "id": "709a497f-89c7-4f36-819f-09c50099807a",
+      "text": "Align actions with natural purpose."
+    },
+    {
+      "id": "28d239e0-bdfd-4ad3-a288-1fea08098a5a",
+      "text": "Embrace unavoidable tasks with resolve."
+    },
+    {
+      "id": "d3dda3ef-1385-499c-b6bd-477db8b757ea",
+      "text": "Act without expectation of reward."
+    },
+    {
+      "id": "ce361b4e-33c1-4667-96e7-f22fed27d588",
+      "text": "Focus on internal control and external acceptance"
+    },
+    {
+      "id": "a7758c90-0453-4c92-884e-131c66e71f79",
+      "text": "Embrace events as part of a larger purpose"
+    },
+    {
+      "id": "98d17369-06bf-49e4-beb5-343ab11013a9",
+      "text": "Maintain disciplined focus on controllable factors"
+    },
+    {
+      "id": "ba91e8dc-abb9-49f2-88f8-17ceda90acaf",
+      "text": "Embrace change as an inherent aspect of existence."
+    },
+    {
+      "id": "e7471873-96af-4a15-b87f-ba129c5e814f",
+      "text": "Focus on internal control and external acceptance."
+    },
+    {
+      "id": "a4d22413-00b2-4c11-90c4-e3f2bc9943ad",
+      "text": "Direct your thoughts intentionally to shape your perspective."
+    },
+    {
+      "id": "04cd390f-e16b-44ad-9650-1d7baacf5a6b",
+      "text": "Accept natural processes without resistance."
+    },
+    {
+      "id": "be6f884c-4efe-48da-b1be-a926938cd044",
+      "text": "Direct will through reason and focus on inner virtue."
+    },
+    {
+      "id": "cdc2333f-085f-461c-b560-67c27dc40e1f",
+      "text": "Understand that true power stems from self-control."
+    },
+    {
+      "id": "22bbc07a-144a-4a9c-b783-e3f317775417",
+      "text": "Cultivate inner qualities like good inclinations and desires as foundational to action."
+    },
+    {
+      "id": "1bb16a02-2173-4baf-ab59-0fec735dc28e",
+      "text": "Focus on self-improvement through conscious effort and reflection on one's actions."
+    },
+    {
+      "id": "54c29283-c4b1-491a-ae2c-fdc5565d375f",
+      "text": "Prioritize internal states over external circumstances."
+    },
+    {
+      "id": "ce20ac5a-9c3a-470c-b6e5-896e0f49dce3",
+      "text": "Focus on controllable factors only."
+    },
+    {
+      "id": "89e3a71f-3ab4-4229-b20e-72ae1b253941",
+      "text": "Maintain self-mastery through mindfulness and purposeful action."
+    },
+    {
+      "id": "286b6b9d-3b08-48ac-a018-5e1abffdf33b",
+      "text": "Understand the impermanence of all things to reduce fear and attachment."
+    },
+    {
+      "id": "a3239b02-f928-477c-af47-6496f9a3bd96",
+      "text": "Separate opinion from truth to avoid unnecessary distress."
+    },
+    {
+      "id": "e87073da-328d-4bda-8966-85e82f2ac39d",
+      "text": "Focus on universal truths in decision-making."
+    },
+    {
+      "id": "6aa58503-5ba5-4026-8b49-a57a0c844b81",
+      "text": "Act according to natural and rational principles."
+    },
+    {
+      "id": "b2b13bed-9b83-4ec3-b729-2cb04c47aaaf",
+      "text": "Accept limitations as part of the operational framework."
+    },
+    {
+      "id": "54caedb7-0873-4804-a01b-959da5d1ee3c",
+      "text": "Evaluate actions based on long-term strategic outcomes rather than short-term popularity."
+    },
+    {
+      "id": "c547e311-2e27-47ff-bb95-8b5f85b5de10",
+      "text": "Prioritize fairness and merit in decision-making to maintain legitimacy and trust."
+    },
+    {
+      "id": "d74084b9-c8bf-470d-9c74-c14ebb77f829",
+      "text": "Structured mentorship enhances learning outcomes."
+    },
+    {
+      "id": "e3d9cfa5-e14f-4dcc-8aeb-f3ebf6264e49",
+      "text": "Adaptive learning requires balancing effort and leisure."
+    },
+    {
+      "id": "e3b6cfa0-a5a6-4e60-b261-93dfdaf65741",
+      "text": "Incremental practice leads to mastery over time."
+    },
+    {
+      "id": "3fa87999-dade-42f3-ae4b-3f695edc3754",
+      "text": "Understand motivations to foster harmonious relationships."
+    },
+    {
+      "id": "69292016-47e5-4702-9bcd-18e9555d31f2",
+      "text": "Consistent practice enhances communication and performance."
+    },
+    {
+      "id": "102b9b05-9caf-4276-90ca-c658cfd2939a",
+      "text": "Structure tasks to balance competing priorities effectively."
+    },
+    {
+      "id": "c6e04aec-9dce-4c8f-aa63-682f6edf8254",
+      "text": "Establish clear and rigorous standards for performance to prevent decline."
+    },
+    {
+      "id": "1c8d8b62-6eb8-41cc-b1de-2ae41332d781",
+      "text": "Continuous mentorship and structured guidance are essential for maintaining institutional values and competence."
+    },
+    {
+      "id": "99d1c0d1-af9c-4143-9862-4af402e3a2b0",
+      "text": "Commit to truthfulness in all actions."
+    },
+    {
+      "id": "d636e188-032c-4c14-94a4-4fe666b9bfdc",
+      "text": "Value integrity over status and wealth."
+    },
+    {
+      "id": "e7a16937-4ff4-4d6e-a062-f31c0dde9d88",
+      "text": "Prioritize genuine relationships over flattery."
+    },
+    {
+      "id": "0ec9c9e9-54ad-4a8b-9b07-11c24fb087ef",
+      "text": "Focus on internal control (virtue) over external events."
+    },
+    {
+      "id": "738f78c8-a760-41e0-9f35-9fb684bb15c3",
+      "text": "Evaluate situations based on rational understanding (truth)."
+    },
+    {
+      "id": "08121997-3c2a-42bc-aa6f-9e812dd6c03c",
+      "text": "Prioritize what is essential (virtue) over superficial concerns (indifferent things)."
+    },
+    {
+      "id": "77a26193-75c9-42e4-bf8e-e0127e2ee66f",
+      "text": "Maintain personal integrity through self-reflection."
+    },
+    {
+      "id": "b1fb298f-079c-4a31-b47d-2bedac003fe3",
+      "text": "Balance self-interest with duty and societal needs."
+    },
+    {
+      "id": "94169e97-57f1-46bd-a54a-38a889209070",
+      "text": "Adapt actions based on circumstances and available information."
+    },
+    {
+      "id": "e2eb44ac-8ca6-48c2-aaf5-dd0d68fbbc8c",
+      "text": "Cultivate clear, focused aspirations to drive tangible outcomes."
+    },
+    {
+      "id": "84862dc7-5189-474c-96d1-7f5d8b6b071e",
+      "text": "Develop specialized knowledge and skills to enhance capabilities."
+    },
+    {
+      "id": "4441f637-4c89-4907-96b1-0516cc2ec589",
+      "text": "Consistently improve proficiency to increase effectiveness and earning potential."
+    },
+    {
+      "id": "4e386183-0c0e-485c-a98d-68b8d6d532fc",
+      "text": "Success relies on consistent effort rather than luck."
+    },
+    {
+      "id": "3dc478ec-7eb0-4d55-bf2c-27870b4e0295",
+      "text": "Understand the probabilities to make informed decisions."
+    },
+    {
+      "id": "b6fe134f-de24-4966-9b20-218a580f0b30",
+      "text": "Time and opportunity require careful planning."
+    },
+    {
+      "id": "f4d4c0b0-450d-48ae-8f1a-aa441e829b1c",
+      "text": "Start small with investments."
+    },
+    {
+      "id": "7eb00fc4-4f86-4543-9581-f628c92c8bb9",
+      "text": "Act decisively to capture opportunities."
+    },
+    {
+      "id": "1adb4f08-5238-4c2d-8c14-85323d42a72b",
+      "text": "Delegate execution, integrate planning"
+    },
+    {
+      "id": "a765f15a-691e-473f-80f9-6dc0a1316143",
+      "text": "Cultivate clear, focused aspirations to drive tangible outcomes."
+    },
+    {
+      "id": "581f1309-3cdd-472c-ad17-6b289683a49e",
+      "text": "Develop specialized knowledge and skills to enhance capabilities."
+    },
+    {
+      "id": "b94818e5-e5f3-4297-9b0b-78aaa78bce99",
+      "text": "Consistently improve proficiency to increase effectiveness and earning potential."
+    },
+    {
+      "id": "f9b3ee64-11fe-46de-9840-3c32a52908fb",
+      "text": "Success relies on consistent effort rather than luck."
+    },
+    {
+      "id": "717264d1-42e4-4ad6-a5c7-e5211dc4457b",
+      "text": "Understand the probabilities to make informed decisions."
+    },
+    {
+      "id": "a8201685-ae0d-45e1-9e66-7a2cf316408f",
+      "text": "Time and opportunity require careful planning."
+    },
+    {
+      "id": "edb936a2-001f-4479-99cf-f18b0f078f7f",
+      "text": "Start small with investments."
+    },
+    {
+      "id": "c9e1432c-93f7-4509-aaca-15a2a7a8b157",
+      "text": "Act decisively to capture opportunities."
+    },
+    {
+      "id": "c3bac18e-2a2d-450e-a35f-7028b1790d26",
+      "text": "Delegate execution, integrate planning"
+    },
+    {
+      "id": "46604372-83a1-48b8-8fbf-86a5d0992da1",
+      "text": "Perform duties without hesitation."
+    },
+    {
+      "id": "bc88fc57-7ca5-4aa0-a0a7-e574be1b7d82",
+      "text": "Align actions with natural purpose."
+    },
+    {
+      "id": "e90930e5-ec37-4c53-ac56-b8888f3eb189",
+      "text": "Embrace unavoidable tasks with resolve."
+    },
+    {
+      "id": "0c4b5a27-8a93-4155-a30e-aa2c4a7d4d73",
+      "text": "Act without expectation of reward."
+    },
+    {
+      "id": "d089f8c6-0c7e-4f4e-bca8-70fe7200ac7f",
+      "text": "Focus on internal control and external acceptance"
+    },
+    {
+      "id": "ee88c077-4947-47e2-b4ec-0ec1b659ebf7",
+      "text": "Embrace events as part of a larger purpose"
+    },
+    {
+      "id": "91e39c3a-9b42-43c7-adce-d2f05cf71977",
+      "text": "Maintain disciplined focus on controllable factors"
+    },
+    {
+      "id": "e85f79b0-69ca-4779-828d-a1d281804d2b",
+      "text": "Embrace change as an inherent aspect of existence."
+    },
+    {
+      "id": "351f14a5-6829-4767-9d68-ef690bd2fc2b",
+      "text": "Focus on internal control and external acceptance."
+    },
+    {
+      "id": "e5a28483-e205-4974-ae7a-fc8c621224cc",
+      "text": "Direct your thoughts intentionally to shape your perspective."
+    },
+    {
+      "id": "d435c77c-2d8f-4e54-b5f5-8e0d591c8c35",
+      "text": "Accept natural processes without resistance."
+    },
+    {
+      "id": "2acd9705-7e59-4e70-ad75-969f8ee1a8c9",
+      "text": "Direct will through reason and focus on inner virtue."
+    },
+    {
+      "id": "8cef12bf-a269-47a6-8e61-5a4cd4d94696",
+      "text": "Understand that true power stems from self-control."
+    },
+    {
+      "id": "47b28c67-778b-4cf9-87ed-5459c72c1bf2",
+      "text": "Cultivate inner qualities like good inclinations and desires as foundational to action."
+    },
+    {
+      "id": "1932fa27-e70f-4c1d-8244-2aa76b554323",
+      "text": "Focus on self-improvement through conscious effort and reflection on one's actions."
+    },
+    {
+      "id": "a6d80601-a8af-43db-a5e8-5431aeb559d4",
+      "text": "Prioritize internal states over external circumstances."
+    },
+    {
+      "id": "93a6cb62-8392-4ce9-aa7a-de87052f1132",
+      "text": "Focus on controllable factors only."
+    },
+    {
+      "id": "6b4591c1-e820-4409-8796-1c0cffc348cf",
+      "text": "Maintain self-mastery through mindfulness and purposeful action."
+    },
+    {
+      "id": "8a2ea482-e877-4a15-b4c6-61a89ac9a39a",
+      "text": "Understand the impermanence of all things to reduce fear and attachment."
+    },
+    {
+      "id": "6e9acb86-0b34-4d82-8a64-c84c1873959e",
+      "text": "Separate opinion from truth to avoid unnecessary distress."
+    },
+    {
+      "id": "4b629f95-4930-4917-9f4d-78bc467c1ca7",
+      "text": "Focus on universal truths in decision-making."
+    },
+    {
+      "id": "968f4372-5983-4884-8cd9-b1a28249b2a5",
+      "text": "Act according to natural and rational principles."
+    },
+    {
+      "id": "45e59eba-7e3b-4ae3-9926-0b9d97c73af5",
+      "text": "Accept limitations as part of the operational framework."
+    },
+    {
+      "id": "feab946c-a6bf-499e-9ae6-d91d403e17a0",
+      "text": "Evaluate actions based on long-term strategic outcomes rather than short-term popularity."
+    },
+    {
+      "id": "441ae9a2-16c8-4d30-965b-e54c0058933c",
+      "text": "Prioritize fairness and merit in decision-making to maintain legitimacy and trust."
+    },
+    {
+      "id": "e16bd4a4-6f77-41f8-92e3-41663c94d0fa",
+      "text": "Structured mentorship enhances learning outcomes."
+    },
+    {
+      "id": "be6fdb50-475f-4a8e-8c39-199cc918e737",
+      "text": "Adaptive learning requires balancing effort and leisure."
+    },
+    {
+      "id": "ee8d8072-7eb4-49b1-bac7-6eae4d19808d",
+      "text": "Incremental practice leads to mastery over time."
+    },
+    {
+      "id": "72ecc79a-0ad6-4532-afc9-db53b4ca6c3e",
+      "text": "Understand motivations to foster harmonious relationships."
+    },
+    {
+      "id": "ecf611b9-9843-4ced-a3ff-86138b2dafe3",
+      "text": "Consistent practice enhances communication and performance."
+    },
+    {
+      "id": "5090c1e1-8173-493c-b7e3-3ea6aee18095",
+      "text": "Structure tasks to balance competing priorities effectively."
+    },
+    {
+      "id": "127c9fe7-9986-430a-a22b-af68d204d06f",
+      "text": "Establish clear and rigorous standards for performance to prevent decline."
+    },
+    {
+      "id": "50033090-648c-4fa1-80c3-48c57075b178",
+      "text": "Continuous mentorship and structured guidance are essential for maintaining institutional values and competence."
+    },
+    {
+      "id": "4a3b3413-0257-4ea8-9b3b-ec7956a4998f",
+      "text": "Commit to truthfulness in all actions."
+    },
+    {
+      "id": "527df25f-6990-4133-8942-bda7316b2353",
+      "text": "Value integrity over status and wealth."
+    },
+    {
+      "id": "7fe055be-49c8-43d2-b8e5-b9a11b8f8e29",
+      "text": "Prioritize genuine relationships over flattery."
+    },
+    {
+      "id": "c8fc46d3-8f06-43a2-9c88-3ea6f61153b6",
+      "text": "Focus on internal control (virtue) over external events."
+    },
+    {
+      "id": "10b4ba2b-e154-4fbd-81e8-629ecfb02ed9",
+      "text": "Evaluate situations based on rational understanding (truth)."
+    },
+    {
+      "id": "d96031f9-c002-45bb-9948-06b6e417f16a",
+      "text": "Prioritize what is essential (virtue) over superficial concerns (indifferent things)."
+    },
+    {
+      "id": "ba2c9aca-6d30-4f7b-a8b9-da8c7475899c",
+      "text": "Maintain personal integrity through self-reflection."
+    },
+    {
+      "id": "e5b8e039-f9be-467f-baf0-6b97f6580f9c",
+      "text": "Balance self-interest with duty and societal needs."
+    },
+    {
+      "id": "9140c255-8cef-4a18-a2f7-f58741c1c7b0",
+      "text": "Adapt actions based on circumstances and available information."
+    },
+    {
+      "id": "2e645168-5108-45bd-9968-9ce4b61eb25d",
+      "text": "Cultivate clear, focused aspirations to drive tangible outcomes."
+    },
+    {
+      "id": "b0fa3d21-7b2d-48f7-9716-e18239f959b1",
+      "text": "Develop specialized knowledge and skills to enhance capabilities."
+    },
+    {
+      "id": "f8db6009-8e81-4e57-a006-14f8e6fb6365",
+      "text": "Consistently improve proficiency to increase effectiveness and earning potential."
+    },
+    {
+      "id": "2d8db08e-334b-4b42-b733-00253218f712",
+      "text": "Success relies on consistent effort rather than luck."
+    },
+    {
+      "id": "bf71ee2b-f6ee-4d01-9087-417c50338acc",
+      "text": "Understand the probabilities to make informed decisions."
+    },
+    {
+      "id": "c336ab97-65da-4701-b18d-edc54b727836",
+      "text": "Time and opportunity require careful planning."
+    },
+    {
+      "id": "68457743-ee81-490b-9c25-aab9185d402f",
+      "text": "Start small with investments."
+    },
+    {
+      "id": "96e61dc1-97fe-4d35-bf55-3e6251bc1a19",
+      "text": "Act decisively to capture opportunities."
+    },
+    {
+      "id": "a5845f98-4f73-4977-bd8c-00a8f36d28dc",
+      "text": "Delegate execution, integrate planning"
+    },
+    {
+      "id": "1261bb9b-2101-4d7f-85ae-3a2c165c7dfd",
+      "text": "Perform duties without hesitation."
+    },
+    {
+      "id": "cbc0dfb7-d71a-4354-a4e7-b17750e094fe",
+      "text": "Align actions with natural purpose."
+    },
+    {
+      "id": "cb2bc986-a09c-4f7a-a930-bf40d79948ae",
+      "text": "Embrace unavoidable tasks with resolve."
+    },
+    {
+      "id": "4142621f-d9a2-49a3-9678-14003e55c0ab",
+      "text": "Act without expectation of reward."
+    },
+    {
+      "id": "acc3a382-6ab8-48e1-aefc-4e0bb6fd90bb",
+      "text": "Focus on internal control and external acceptance"
+    },
+    {
+      "id": "dff2585a-65cf-4fec-8889-1ca3b918c6e8",
+      "text": "Embrace events as part of a larger purpose"
+    },
+    {
+      "id": "55107142-5a02-4eb4-a235-f42d33c691de",
+      "text": "Maintain disciplined focus on controllable factors"
+    },
+    {
+      "id": "868b4db3-c8e9-4048-b0f2-c9e8da5c670c",
+      "text": "Embrace change as an inherent aspect of existence."
+    },
+    {
+      "id": "18154c94-e5c4-46a2-9b19-76d793ca1f12",
+      "text": "Focus on internal control and external acceptance."
+    },
+    {
+      "id": "d457e586-b045-417b-97c0-b8095d5e7fed",
+      "text": "Direct your thoughts intentionally to shape your perspective."
+    },
+    {
+      "id": "ab2dd0b0-bec3-4168-ae51-6fb73d3dab5e",
+      "text": "Accept natural processes without resistance."
+    },
+    {
+      "id": "a8cf5fc5-6e66-4f76-ac83-f48c8f32f65b",
+      "text": "Direct will through reason and focus on inner virtue."
+    },
+    {
+      "id": "bbd90267-1e40-4641-830f-de7c1d6c41ba",
+      "text": "Understand that true power stems from self-control."
+    },
+    {
+      "id": "20a10301-492d-4d1b-ad87-e2b8b9a6b02e",
+      "text": "Cultivate inner qualities like good inclinations and desires as foundational to action."
+    },
+    {
+      "id": "13597f56-f94d-4800-b756-b33682d12022",
+      "text": "Focus on self-improvement through conscious effort and reflection on one's actions."
+    },
+    {
+      "id": "e39bb77e-759e-4b71-814c-fa403d762b2e",
+      "text": "Prioritize internal states over external circumstances."
+    },
+    {
+      "id": "27dd1c5d-0d87-4528-9b06-4bcdd2849a04",
+      "text": "Focus on controllable factors only."
+    },
+    {
+      "id": "ee6ec159-df25-469d-8911-e49725e09cbf",
+      "text": "Maintain self-mastery through mindfulness and purposeful action."
+    },
+    {
+      "id": "79810c40-d356-4b4b-b758-29ba8d1ddad9",
+      "text": "Understand the impermanence of all things to reduce fear and attachment."
+    },
+    {
+      "id": "f72063af-0721-426d-90ca-360773894493",
+      "text": "Separate opinion from truth to avoid unnecessary distress."
+    },
+    {
+      "id": "d8c6e2db-5d8c-4898-9375-23e5603cd197",
+      "text": "Focus on universal truths in decision-making."
+    },
+    {
+      "id": "0c0d9efe-cfba-4ed7-889f-8bc939c02bd7",
+      "text": "Act according to natural and rational principles."
+    },
+    {
+      "id": "2ffc8e76-4e7c-4796-b406-9045233eb85b",
+      "text": "Accept limitations as part of the operational framework."
+    },
+    {
+      "id": "fdf5d46b-3a6d-4afa-b30d-b409a76ea46a",
+      "text": "Evaluate actions based on long-term strategic outcomes rather than short-term popularity."
+    },
+    {
+      "id": "feaf6944-025a-4d69-9e02-e7fb06860b54",
+      "text": "Prioritize fairness and merit in decision-making to maintain legitimacy and trust."
+    },
+    {
+      "id": "0f55b5c2-9812-4276-9844-4fde9d454bc1",
+      "text": "Structured mentorship enhances learning outcomes."
+    },
+    {
+      "id": "18de952a-7f82-4f26-8c33-bf21c3211a40",
+      "text": "Adaptive learning requires balancing effort and leisure."
+    },
+    {
+      "id": "8c68e598-7d51-4f42-a75b-4a087fb836a6",
+      "text": "Incremental practice leads to mastery over time."
+    },
+    {
+      "id": "8212ef9f-370c-4a44-8e9f-e8ac63b7cccc",
+      "text": "Understand motivations to foster harmonious relationships."
+    },
+    {
+      "id": "30685cdd-efc4-4acb-b29d-bbb606bc24c0",
+      "text": "Consistent practice enhances communication and performance."
+    },
+    {
+      "id": "190f135e-7d26-490a-a12d-a5879f730a05",
+      "text": "Structure tasks to balance competing priorities effectively."
+    },
+    {
+      "id": "88c47b5c-a8d7-4918-8037-700db38c3f99",
+      "text": "Establish clear and rigorous standards for performance to prevent decline."
+    },
+    {
+      "id": "197d7bcc-74b1-41f4-aa64-f7296e12d7fd",
+      "text": "Continuous mentorship and structured guidance are essential for maintaining institutional values and competence."
+    },
+    {
+      "id": "8945ee34-4d2d-4d2e-ab46-4e3c83b2143c",
+      "text": "Commit to truthfulness in all actions."
+    },
+    {
+      "id": "3b08870a-5071-40f4-aa31-248640587bdf",
+      "text": "Value integrity over status and wealth."
+    },
+    {
+      "id": "8026d931-13b6-4da0-9e3f-15377b2a9446",
+      "text": "Prioritize genuine relationships over flattery."
+    },
+    {
+      "id": "21def7b9-3bcb-4be5-9d03-42e327787af1",
+      "text": "Focus on internal control (virtue) over external events."
+    },
+    {
+      "id": "829e5db4-9e26-4140-b427-8a620b63e972",
+      "text": "Evaluate situations based on rational understanding (truth)."
+    },
+    {
+      "id": "b048c823-94aa-47be-96f0-513bebffc47f",
+      "text": "Prioritize what is essential (virtue) over superficial concerns (indifferent things)."
+    },
+    {
+      "id": "f63c5270-a8cd-41f0-a27e-bc1ac3ab83fb",
+      "text": "Maintain personal integrity through self-reflection."
+    },
+    {
+      "id": "13093bb0-9964-4c22-b5ed-910b5fe00506",
+      "text": "Balance self-interest with duty and societal needs."
+    },
+    {
+      "id": "bdf94002-920e-41e5-8264-0e8a561bdfd1",
+      "text": "Adapt actions based on circumstances and available information."
+    }
+  ],
+  "aggregated_from": [
+    {
+      "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+      "chapter": 12
+    },
+    {
+      "book": "20090526_TNA13Crawford2009",
+      "chapter": 5
+    },
+    {
+      "book": "Marcus-Aurelius-Meditations",
+      "chapter": 17
+    },
+    {
+      "book": "Marcus-Aurelius-Meditations",
+      "chapter": 24
+    }
+  ],
+  "meta": {
+    "total_entries": 630,
+    "last_updated": "2026-02-11T07:58:25.138374Z"
+  }
+}

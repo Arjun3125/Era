@@ -1,0 +1,25 @@
+{
+  "domain": "Books and Publishing",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "8f0a37b1-bb83-4203-91ad-e429ac741b5e",
+      "text": "Infringement may occur without prior permission",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 2
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 1,
+    "last_updated": "2026-02-12T19:44:07.147454Z",
+    "aggregated_from": [
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 2
+      }
+    ]
+  }
+}

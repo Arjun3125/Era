@@ -1,0 +1,34 @@
+{
+  "domain": "rules",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "a2445b12-4267-4dde-b579-3f31a6b5c298",
+      "text": "Certain companies, like Sara Lee, exhibited strong general market performance but not relative to their industry.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 62
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eb1ea8ad-e294-45be-9b89-7b5a9af3e524",
+      "text": "Coca-Cola and Pepsico showed upward shifts in the general market but failed to do so relative to their beverage industry.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 62
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T15:03:10.836471Z",
+    "aggregated_from": [
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 62
+      }
+    ]
+  }
+}

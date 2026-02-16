@@ -1,0 +1,25 @@
+{
+  "domain": "Compliance",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "b3108652-3560-45fa-8c57-263cfb263383",
+      "text": "Survival rule: Adaptability determines longevity",
+      "source": {
+        "book": "The Psychology of Persuasion",
+        "chapter": 2
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 1,
+    "last_updated": "2026-02-13T08:54:08.025883Z",
+    "aggregated_from": [
+      {
+        "book": "The Psychology of Persuasion",
+        "chapter": 2
+      }
+    ]
+  }
+}

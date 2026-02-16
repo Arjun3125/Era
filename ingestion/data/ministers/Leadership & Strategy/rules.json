@@ -1,0 +1,34 @@
+{
+  "domain": "Leadership & Strategy",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "baf8b402-7f89-4319-9ab6-f3dcbffb9185",
+      "text": "Seek diverse perspectives to avoid blind spots.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 39
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f78a672d-f4a0-4673-82c7-4b1714ab89a3",
+      "text": "Verify information sources to prevent the spread of misinformation.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 39
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T10:52:38.429994Z",
+    "aggregated_from": [
+      {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 39
+      }
+    ]
+  }
+}

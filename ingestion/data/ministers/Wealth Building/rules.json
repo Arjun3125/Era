@@ -1,0 +1,34 @@
+{
+  "domain": "Wealth Building",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "b11f860f-dcbc-4394-a239-8b82fd3d13f3",
+      "text": "Deposit a fixed, manageable amount regularly (e.g., weekly or monthly).",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "698d66c4-4d4d-4bc9-8da5-35b209dc3afd",
+      "text": "Persist with the plan despite short-term fluctuations or minor setbacks.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 7
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-14T19:26:08.609414Z",
+    "aggregated_from": [
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 7
+      }
+    ]
+  }
+}

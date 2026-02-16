@@ -1,0 +1,43 @@
+{
+  "domain": "Learning & Development",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "9206ce30-9052-4ae4-9e17-2ffe352fa143",
+      "text": "Rethinking multiple times (e.g., four updates per question) can significantly improve accuracy and decision quality.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 81
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "434fcdb5-06fe-4a26-b75d-f0206788541e",
+      "text": "The Dunning-Kruger effect persists even when individuals have incentives to be accurate (e.g., monetary rewards).",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 81
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9e0134d9-eaaa-4ecf-8c55-8cbf5b5ea7dc",
+      "text": "Meta-analysis provides the most robust evidence for insights, followed by rigorous individual studies.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 81
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T20:50:12.497555Z",
+    "aggregated_from": [
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 81
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "domain": "Finance",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "530995c7-fb7f-43b5-b2e9-de1fe870d5b9",
+      "text": "The pursuit of knowledge should be prioritized over the pursuit of wealth or status.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e6d94b11-0d35-45a6-acd0-710c62aa6773",
+      "text": "Humility is essential for long-term success and avoiding failure.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 18
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T09:33:15.709964Z",
+    "aggregated_from": [
+      {
+        "book": "The_Psychology_of_Money",
+        "chapter": 18
+      }
+    ]
+  }
+}

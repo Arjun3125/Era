@@ -1,0 +1,113 @@
+{
+  "domain": "Philosophy",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "22df8ee5-72da-4237-a3ad-6f6ba560def2",
+      "text": "Life finds its meaning in how one confronts the absurd.",
+      "source": {
+        "book": "The Myth of Sisyphus - Albert Camus",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7f7a2339-fbc1-4cee-ad93-ea3e02b201d8",
+      "text": "Freedom is achieved through recognition of the absurd condition.",
+      "source": {
+        "book": "The Myth of Sisyphus - Albert Camus",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3740ce85-4f08-4e48-adec-f9e28c59d3a1",
+      "text": "Human potential is realized through embracing complexity and embracing life fully.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d7a47bc6-2462-486d-8b1c-5aad6e321218",
+      "text": "The highest form of wisdom comes from understanding the interconnectedness of all things.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5513b68c-0c1d-4d86-98a1-7746760fa755",
+      "text": "A comprehensive understanding of human nature necessitates integrating psychological and philosophical/religious insights",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b17dc024-aef9-4355-81b1-63f3a28874f8",
+      "text": "Such synthesis yields enduring wisdom and practical guidance for navigating life's challenges",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "aabeceb7-0915-44b8-8be0-168821d6a414",
+      "text": "Religious ideologies provide a valid framework for understanding human unhappiness, comparable to psychological approaches.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 67
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bc4d720d-b062-4c35-ab9e-6af6f8eb2e13",
+      "text": "People historically follow leaders due to their perceived larger-than-life status.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1697d2eb-0d1c-4f59-ae81-25006959ffd6",
+      "text": "The human tendency to fear and worship power leads to unquestioning loyalty.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 52
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 9,
+    "last_updated": "2026-02-13T14:08:41.547312Z",
+    "aggregated_from": [
+      {
+        "book": "The Myth of Sisyphus - Albert Camus",
+        "chapter": 2
+      },
+      {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 3
+      },
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 2
+      },
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 67
+      },
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 52
+      }
+    ]
+  }
+}

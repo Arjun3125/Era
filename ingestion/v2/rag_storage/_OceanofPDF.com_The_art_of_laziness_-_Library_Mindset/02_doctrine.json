@@ -1,0 +1,666 @@
+[
+  {
+    "chapter_index": 1,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "registry",
+      "risk"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 2,
+    "chapter_title": null,
+    "domains": [
+      "technology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 3,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "technology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 4,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 5,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "psychology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 6,
+    "chapter_title": null,
+    "domains": [
+      "risk",
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 7,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "power",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 8,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "risk",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 9,
+    "chapter_title": null,
+    "domains": [
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 10,
+    "chapter_title": null,
+    "domains": [
+      "technology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 11,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 12,
+    "chapter_title": null,
+    "domains": [
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 13,
+    "chapter_title": null,
+    "domains": [
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 14,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "power",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 15,
+    "chapter_title": null,
+    "domains": [
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 16,
+    "chapter_title": null,
+    "domains": [
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 17,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "technology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 18,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "optionality"
+    ],
+    "principles": [
+      "Diversify inputs to avoid cognitive limitations"
+    ],
+    "rules": [
+      "Select content from varied domains to build comprehensive understanding",
+      "Actively seek out different types of materials to broaden knowledge base"
+    ],
+    "claims": [
+      "Engaging with varied content builds knowledge and skills",
+      "Diverse reading enhances cognitive abilities"
+    ],
+    "warnings": [
+      "Narrow focus limits growth potential"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.1017,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 19,
+    "chapter_title": null,
+    "domains": [
+      "technology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 20,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "optionality",
+      "strategy"
+    ],
+    "principles": [
+      "Prioritize and plan tasks effectively to achieve goals",
+      "Focus is essential for productivity and efficiency"
+    ],
+    "rules": [
+      "Set clear deadlines to ensure task completion",
+      "Delegate non-essential tasks to increase efficiency",
+      "Avoid multitasking to maintain focus and productivity"
+    ],
+    "claims": [
+      "The 80/20 rule demonstrates that focused effort yields disproportionate results"
+    ],
+    "warnings": [
+      "Lack of clear deadlines can lead to task stagnation",
+      "Perfectionism may hinder progress on essential tasks"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0423,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 21,
+    "chapter_title": null,
+    "domains": [
+      "psychology"
+    ],
+    "principles": [
+      "Personal fulfillment drives sustained performance"
+    ],
+    "rules": [
+      "Align personal passions with professional roles for long-term commitment"
+    ],
+    "claims": [
+      "Motivation enhances productivity"
+    ],
+    "warnings": [
+      "Neglecting personal interests in work leads to decreased satisfaction and potential burnout"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.6667,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 22,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "optionality",
+      "risk"
+    ],
+    "principles": [
+      "Focus on high-impact actions to achieve the majority of results"
+    ],
+    "rules": [
+      "Prioritize tasks that align directly with core objectives; avoid non-essential activities"
+    ],
+    "claims": [
+      "A small subset of efforts can produce the majority of outcomes"
+    ],
+    "warnings": [
+      "Engaging in too many low-value activities leads to inefficient use of resources"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0274,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 23,
+    "chapter_title": null,
+    "domains": [
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 24,
+    "chapter_title": null,
+    "domains": [
+      "technology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 25,
+    "chapter_title": null,
+    "domains": [
+      "Personal Development",
+      "Productivity"
+    ],
+    "principles": [
+      "Reflect daily on actions to assess effectiveness and improvement opportunities",
+      "Prioritize high-value tasks to maintain focus on goals"
+    ],
+    "rules": [
+      "Journalize accomplishments and plans before bed to track progress and focus",
+      "Limit daily tasks to three high-value activities to avoid diminishing returns"
+    ],
+    "claims": [
+      "Daily reflection increases awareness of time usage and distractions",
+      "Limiting tasks improves focus and reduces distraction by less important tasks"
+    ],
+    "warnings": [
+      "Untracked activities prevent improvement and waste time",
+      "Excessive tasks reduce focus on valuable activities"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0211,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 26,
+    "chapter_title": null,
+    "domains": [
+      "risk",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 27,
+    "chapter_title": null,
+    "domains": [
+      "Productivity"
+    ],
+    "principles": [
+      "Work in focused intervals with regular breaks.",
+      "Engage deeply with enjoyable tasks to achieve flow state and satisfaction."
+    ],
+    "rules": [
+      "Complete tasks taking 5 minutes or less immediately.",
+      "Adjust work-rest intervals based on mental fatigue."
+    ],
+    "claims": [
+      "Consistent application of time management techniques leads to sustained productivity."
+    ],
+    "warnings": [
+      "Neglecting small tasks leads to accumulation and overwhelm.",
+      "Waiting on immediate tasks prevents momentum and wastes time."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0191,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 28,
+    "chapter_title": null,
+    "domains": [
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 29,
+    "chapter_title": null,
+    "domains": [
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  }
+]

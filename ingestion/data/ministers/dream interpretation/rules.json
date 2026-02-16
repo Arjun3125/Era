@@ -1,0 +1,43 @@
+{
+  "domain": "dream interpretation",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "b4bcd526-ff51-4ed7-ba60-8c4414d8ddf0",
+      "text": "Do not refer dream symbols to fixed concepts or known meanings.",
+      "source": {
+        "book": "modern-man-in-search-of-a-soul-stages-of-life-1",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dbd2081f-caa8-4ebc-98d6-80c1e3dd4d80",
+      "text": "Consider symbols in relation to the dreamer's current consciousness.",
+      "source": {
+        "book": "modern-man-in-search-of-a-soul-stages-of-life-1",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "63a745ee-68d0-4af4-90ef-8311287562f0",
+      "text": "Avoid dogmatic interpretations based on preconceived notions.",
+      "source": {
+        "book": "modern-man-in-search-of-a-soul-stages-of-life-1",
+        "chapter": 7
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T15:10:58.375483Z",
+    "aggregated_from": [
+      {
+        "book": "modern-man-in-search-of-a-soul-stages-of-life-1",
+        "chapter": 7
+      }
+    ]
+  }
+}

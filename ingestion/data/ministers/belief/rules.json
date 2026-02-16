@@ -1,0 +1,25 @@
+{
+  "domain": "belief",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "227c2197-27c0-4fcd-a813-07d1886f84f5",
+      "text": "Fear and obsession can persist despite contradictory evidence, especially when influenced by unconscious processes.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 14
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 1,
+    "last_updated": "2026-02-13T00:15:45.747730Z",
+    "aggregated_from": [
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 14
+      }
+    ]
+  }
+}

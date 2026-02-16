@@ -1,0 +1,43 @@
+{
+  "domain": "Business Ethics",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "4075adcf-6be2-4d7e-a3d0-a6a5092bef19",
+      "text": "Integrity is essential for influence and success",
+      "source": {
+        "book": "Seamos_personas_de_Infliuencia",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6843b8dc-393f-424f-86d3-53e9f790d36d",
+      "text": "Ethical behavior leads to sustainable professional and personal fulfillment",
+      "source": {
+        "book": "Seamos_personas_de_Infliuencia",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2f5bc73d-3133-4bc9-8498-b8180173a649",
+      "text": "The consequences of unethical behavior outweigh any immediate benefits",
+      "source": {
+        "book": "Seamos_personas_de_Infliuencia",
+        "chapter": 6
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T06:21:31.469373Z",
+    "aggregated_from": [
+      {
+        "book": "Seamos_personas_de_Infliuencia",
+        "chapter": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,1451 @@
+{
+  "domain": "collaboration",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "8cb21b1e-8b7d-4bff-a80a-a2befcc1a226",
+      "text": "Deep work requires intentional scheduling",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "723617ef-a5c1-405b-942c-ebd4f630a593",
+      "text": "Cognitive enhancement depends on sustained focus",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "84c783ac-cdee-4b51-bce6-ec3fc52410cd",
+      "text": "High-value output necessitates deep work",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3eec415e-9684-45c8-837e-974b4a9ec38f",
+      "text": "Schedule dedicated, distraction-free blocks for cognitively demanding tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2f34a559-4314-4304-a5a6-347c6b1058b5",
+      "text": "Minimize digital interruptions during periods of high concentration.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d91ad075-22c9-4572-a02d-a170c2063937",
+      "text": "Evaluate tools based on their impact on attention and task quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a3fa936b-c4e1-4c85-8b38-26c95afbaf40",
+      "text": "Assess the opportunity cost of fragmented work on strategic outcomes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "607ff532-6431-4a31-be99-794c1c4345bb",
+      "text": "Establish boundaries between different modes of work (deep/shallow).",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4310bf97-b76c-43e4-a747-2bd68dc31cb9",
+      "text": "Define and remove environmental factors that interrupt concentration.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dd94905f-d521-4fc3-997b-ab10cb4ba30e",
+      "text": "Cultivate deep work as a core competency to maintain economic relevance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "971b4b35-761d-4ed6-b81c-7e3786a3f258",
+      "text": "Schedule uninterrupted blocks of time for complex tasks daily.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6f29d1e2-03a2-4e19-b440-72b784347834",
+      "text": "Batch unavoidable shallow tasks into short bursts.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2364d187-2b5b-4f39-af89-946bc30072ae",
+      "text": "Invest in skills that resist automation and outsourcing.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9e9ec0d7-c279-429b-a23d-aed1877d5919",
+      "text": "Use technology strategically to enhance productivity rather than distract.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "829ce419-f637-4295-86de-ef8cda57b98d",
+      "text": "Prioritize development of human capital that complements machine capabilities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f33152ff-0b77-47dd-929c-67d27b03772f",
+      "text": "Embrace technological shifts to gain access to larger markets and reduce regional limitations.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "783ebe34-fea3-4006-b632-e4a3a8258e9b",
+      "text": "Monitor capital investment opportunities in emerging technologies to capture value creation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b199d322-eff3-45e0-bdc3-e19b51edf75c",
+      "text": "Consistent practice is essential for skill acquisition.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e4431de0-4356-4614-800d-b595dbfe97d8",
+      "text": "Efficiency in task execution determines professional impact.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d5f79c0f-6c8b-4df1-9663-27c50a875240",
+      "text": "Cognitive discipline shapes expertise and productivity levels.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5c06a5c2-bd80-49fa-92e0-81115c0424b0",
+      "text": "Prioritize deep work over multitasking",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e75ea7ac-7813-4745-b10d-9b0a1c89dbaf",
+      "text": "Schedule focused attention blocks",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6f6324b4-bcb0-47cb-80f6-1693d212feff",
+      "text": "Provide continuous feedback to maintain accuracy",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "33e28639-8076-49bc-8c08-75e73bc8af05",
+      "text": "Minimize attention residue by avoiding task-switching during peak focus periods.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "102f3fa8-6cca-437a-90be-b28f3ef9844d",
+      "text": "Maintain strict boundaries during deep work to prevent interruptions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1cd71327-d1c9-4ce2-8dfb-b2757de0cfc6",
+      "text": "Balance the intensity of focus with the necessity of attention residue management.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2954b4ed-d6d3-4378-8edd-d0f031a26660",
+      "text": "Assess the level of automation possible in decision-making processes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ad225707-7952-4a49-8ea4-795a1c0cf839",
+      "text": "Prioritize deep work when it directly contributes to value creation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ffac2554-5a0e-4475-a5ba-8e49548130a5",
+      "text": "Delegate routine tasks to subordinates to free up time for high-level thinking.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4f15d653-b632-42b6-9329-8d9ae61b1b98",
+      "text": "Organizational strategies must account for the time consumed by distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "90fd0848-9685-4bf3-8e32-7795b6984376",
+      "text": "The value of deep work cannot be easily quantified using standard metrics.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fb2002cc-4de1-46a2-a804-82e7cc8876b9",
+      "text": "Avoid optimizing for immediate feedback when it distorts long-term goals.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "acfcad18-66ce-4c27-919e-0a5d28488ac1",
+      "text": "Establish clear metrics for behaviors that cannot be easily quantified.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dc5b894c-f222-4b30-b389-4f66df0889bc",
+      "text": "Measure productivity through time-based metrics",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4ca267a7-2361-45fd-bade-c8d866c1a6af",
+      "text": "Establish clear thresholds for acceptable busyness",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "59bf4e8c-f325-45df-806f-5c508135e9d6",
+      "text": "Regularly review productivity measurement frameworks",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "059e7602-7093-4137-8daf-db1df4cb90b3",
+      "text": "Adapt work methods to leverage technology without sacrificing depth",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "790eb89a-15fb-4144-9f46-8bb377de8006",
+      "text": "Balance traditional values with technological innovation",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "be05d7b6-75db-4017-a664-13d2ff6cf3b8",
+      "text": "Attention allocation determines psychological reward in knowledge work",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f350ef7f-dda2-4e3e-8f38-9954c4a7e430",
+      "text": "Systematic avoidance of distractions reduces susceptibility to cognitive overload",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c6e5c85f-56db-4c44-a541-4e7c92851a34",
+      "text": "Attention allocation determines operational outcomes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b821472f-ae07-4880-9bad-121de2dbc605",
+      "text": "Unmanaged attention leads to passive adaptation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0034a916-9986-4cdd-8f40-e537a3c88b1a",
+      "text": "Proactive focus maintenance prevents negative cognitive bias.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1a123ac5-8f5f-4506-a011-19acdb11f6eb",
+      "text": "Measure psychological states during active engagement to validate flow experiences.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "502bbc31-4b5a-4414-969c-bab6ae9057b7",
+      "text": "Design work environments to incorporate structured goals and challenges.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5bbabd32-b28c-47c5-8fbf-7b26089a643d",
+      "text": "Prioritize depth over free time for greater life satisfaction.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "53139fc6-128f-4060-bb2e-ca1342eb7d82",
+      "text": "Consistent focus is required to achieve mastery in any field.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "38b70b2f-40ff-4548-97f5-99a99b9c3509",
+      "text": "Meaning is cultivated through sustained effort, not inherent in tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c26bebfc-01c0-41a9-9ccc-bb1ddfe12145",
+      "text": "Skill refinement requires prioritizing depth over convenience.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "61642ed0-ee83-4355-8406-0d352287dc2e",
+      "text": "Schedule deep work blocks in your day to protect focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "64b9ac54-1456-4c82-bfaf-6e1047a813d1",
+      "text": "Take regular breaks to maintain concentration.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3c96bc90-5baf-4be2-9c6c-c4b38db0aaec",
+      "text": "Implement rituals to transition into deep work mode.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d89e1af8-21bb-4596-902b-f9346f4598df",
+      "text": "Develop rituals that minimize willpower expenditure during transitions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ef69ebea-f485-430a-87f6-7a07d0512637",
+      "text": "Commit to a depth philosophy that fits individual circumstances and professional goals.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cbaca84f-4c23-40e0-a518-60e042a86543",
+      "text": "Schedule deep work sessions at consistent times to build sustainable discipline.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2c7ef054-6519-4f8b-9d88-e2c1ad496cc7",
+      "text": "Deep work requires uninterrupted time to reach peak intensity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b77a62ca-8792-4d89-b939-31d086571d89",
+      "text": "Deep work periods must be clearly scheduled and protected from shallow interruptions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "45be21d1-4990-426b-8870-d1f6f59ed5e8",
+      "text": "Execute deep work sessions at fixed times daily",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fc2dd86c-8805-4d2a-b64a-3b902a918925",
+      "text": "Maintain visual indicators of progress to reduce decision fatigue",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c94bc3cc-2c3b-45c9-9587-08752ba437f4",
+      "text": "Deep work sessions should be time-boxed to maintain focus",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "61b498f2-49ba-4984-8d10-725395da43e7",
+      "text": "Rituals must specify location, duration, and work processes",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "410461d0-1f72-4fbb-8c93-75728277feb0",
+      "text": "Deep work should be integrated gradually into the schedule",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0aae62b6-a7da-4023-bccf-1d809ebd8863",
+      "text": "Implement constraints (e.g., location changes, time limits) to create focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f3f6976b-9b12-446e-8233-cd3dbf3c8ea7",
+      "text": "Increase perceived stakes of tasks to motivate deeper engagement.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "07f55482-5ffe-4019-bdc7-8aa377526fd0",
+      "text": "Schedule deep work during high-concentration periods to maximize output.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f6dbce63-15ed-42d0-aea3-f2df632e2f7a",
+      "text": "Design environments to support both individual concentration and spontaneous interaction",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3be8434d-fe64-49c2-9b34-ffc07b414bdc",
+      "text": "Maintain distinct zones for collaboration and deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "32689902-8631-4de0-a570-eb4f92114414",
+      "text": "Prioritize execution over strategy.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fb0587f7-bcbb-445b-94cb-79f7f11849c0",
+      "text": "Leverage collaborative deep work for complex problems.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9ce12b00-3524-4a99-a86a-98f94e48fba0",
+      "text": "Limit attention to a small number of critical goals.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f6dcefba-411b-461b-a183-fa05c41b69a3",
+      "text": "Monitor lead indicators that directly control progress.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d8c06faf-4e09-4164-980d-769a967274ce",
+      "text": "Establish frequent accountability reviews to reinforce focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c6ab63f6-01cc-4d69-bde3-41e7df6ce526",
+      "text": "Schedule uninterrupted deep work periods regularly.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5a2acb74-a6ae-4471-b0e4-f0ce4e36976e",
+      "text": "Avoid over-scheduling by maintaining clear boundaries between work cycles.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "926578f8-5e4a-45ac-bbfb-21cbab0f6ae3",
+      "text": "Designate specific time for reflection and problem-solving.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7b38fec0-91fa-4e02-8b09-f5e61a7b667b",
+      "text": "Cease high-cognitive-effort tasks at a predetermined time.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bf3d9726-e2b4-4dfb-ac37-e9ade5726da4",
+      "text": "Prioritize activities that provide attention-restoring stimuli in the evening.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5ab3fd15-bb27-46d4-899e-330e8e8375d4",
+      "text": "Daily Shutdown Ritual: Execute a timed routine before ending workday.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "79e1a114-c64d-4326-84ef-c87eca3c231a",
+      "text": "Task Management: Capture incomplete tasks in a centralized system.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4735409b-59d8-457e-8f60-76cc281d41ef",
+      "text": "Consistency Enforcement: Maintain ritual for sustained cognitive benefits.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "54c51a78-8365-4998-ac20-78f50689e415",
+      "text": "Schedule focused periods",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dc7e8d0f-9b35-4c95-aeea-3d43e4353394",
+      "text": "Limit digital engagement outside designated times",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b2d2eba5-e09e-4207-9575-d91448de54bb",
+      "text": "Designate distraction-free intervals",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8ba9ce9c-321d-40a6-b75c-c242b60c0889",
+      "text": "Schedule regular intervals for internet use to create predictable breaks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eb698063-5e10-439c-a67d-7cfecfd9ad2e",
+      "text": "Maintain uninterrupted offline periods between internet sessions to reinforce focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1477bace-547f-423a-bed2-72fa3958ae4d",
+      "text": "Extend scheduled internet breaks to personal time for consistent practice.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "50dd0592-c499-4711-848d-b118f8eea3e4",
+      "text": "Define clear, time-bound objectives for high-priority tasks to maximize output within constrained timeframes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "249a758a-9dc2-4560-a0a7-c67957113a0a",
+      "text": "Schedule regular intervals of focused work (Roosevelt dashes) to train sustained attention.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eb0b1cc2-7bc3-42bf-96ad-ecb29123c9d3",
+      "text": "Integrate focused thinking into habitual activities (productive meditation) by assigning specific cognitive tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c89d149c-999d-4dc9-a5c4-161e3d3542d2",
+      "text": "Maintain consistent practice to strengthen resistance to attentional distractions and improve concentration endurance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "356f37cb-0ca2-46db-8186-cd26b10b075b",
+      "text": "Identify and eliminate recurring thoughts (looping) to maintain productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ae1a2add-f835-4f60-8d63-e9b2f947d6bb",
+      "text": "Prioritize attentional control over rote memorization for cognitive gains.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fcb41cd0-1b53-41c7-bc88-d142937e0a81",
+      "text": "Memorization requires sequential visualization and association.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a1826d4c-902c-4a90-83c7-2979f7aa5d80",
+      "text": "Attention management involves prioritizing tasks over distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a32d48b5-478a-482d-ae39-45ac042eda69",
+      "text": "Deep work effectiveness depends on controlled digital interaction.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "063ca747-8e23-488a-9b1d-89556f177122",
+      "text": "Assess both the pros and cons of a tool before adoption.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "95ac3b6a-caa2-40a8-abd6-c2aa46f14264",
+      "text": "Set stricter thresholds for allowing tools access to significant time and attention.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b98f69ac-e5a6-4c1f-a673-ebc7af2c8ef8",
+      "text": "Assess opportunity costs before implementing tools.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d4543948-ec68-44f1-948d-2456886dda8f",
+      "text": "Evaluate long-term impacts on baseline success metrics.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bef53d75-6137-438b-b5e2-397e2da4016f",
+      "text": "Prioritize activities that align with high-level goals.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8e2955eb-d0a0-4a70-98bc-38ea7abf2276",
+      "text": "Make trade-offs based on impact assessments.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ba57718b-781f-41fd-808c-8983382440e8",
+      "text": "Limit tool adoption to activities where impact is clearly positive.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "31af287e-d018-4e19-8613-36577cc830c7",
+      "text": "Concentrate resources on the top 20% of activities that yield 80% of results.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2518e8e7-20d9-4999-b5c0-5715ac08f900",
+      "text": "Avoid spreading limited resources across low-impact activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "836eaab9-7a1c-47fe-8752-ba8af41a4f70",
+      "text": "Evaluate tools and habits based on their alignment with core priorities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d1622fae-922e-4981-9e7f-3388b804fb52",
+      "text": "Implement self-imposed constraints to test digital habits",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c18fdea6-7608-4a33-9ecb-0c5ab04a186b",
+      "text": "Use quantitative feedback to inform digital decisions",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a2a6457a-9ba7-4ed2-ab21-0d5bf214b6c0",
+      "text": "Maintain operational awareness during constraint periods",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8e7c616a-53f1-401b-bf2f-97a6116fa81f",
+      "text": "Plan structured leisure activities in advance to limit reactive engagement with low-value digital content.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "03b90a19-417a-4006-92bd-712cebd1101e",
+      "text": "Prioritize activities with demonstrable personal impact over passive entertainment.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d33ad36c-630e-446c-8997-76639d046846",
+      "text": "Schedule dedicated periods for high-focus tasks to mitigate the attention-grabbing nature of digital platforms.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8ab26181-b163-4a5a-859e-3ff5fb23a079",
+      "text": "Allocate time for deep work by reducing non-essential activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e0f87ee6-d9f7-43b6-a968-4e9f6ae2d72d",
+      "text": "Maintain essential shallow tasks to support core functions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "83716131-c55a-4059-ac21-edc6991baa77",
+      "text": "Adjust daily schedules immediately upon disruption",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "84f2d75f-a61b-4729-99ea-de0e6dae3eba",
+      "text": "Time estimates should account for worst-case scenarios",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "42a39564-dbc0-49ee-8914-ab5d98d6f30b",
+      "text": "Overflow blocks must be defined before scheduling begins",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7c8b7a5c-0143-4264-afbd-be78a19462e7",
+      "text": "Assign tasks based on their time requirements to distinguish between shallow and deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7d7766de-0e43-4638-8edd-52fad0a8914d",
+      "text": "Allow schedule modifications if unexpected insights demand attention.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "17f5ac62-83d7-4eb3-b210-074de172c5ae",
+      "text": "Maintain time blocks for deep work to prevent shallow activities from dominating the day.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b6adfc13-1a50-43e1-bc43-f0d99eee5844",
+      "text": "Assess task depth by estimating training duration for hypothetical replacements.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "35d4b6ce-e7e1-4706-80ae-dd0f3cec5a7e",
+      "text": "Establish and adhere to a shallow/deep work ratio to ensure sustainable focus on high-impact activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0ef37dfb-12d3-4a6a-8167-85a2b32e4d49",
+      "text": "Communicate time allocation decisions to stakeholders to secure implicit support and streamline workflows.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "37170916-f66f-4744-b2d9-e58f101c5613",
+      "text": "Set hard time limits for work hours.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "247c4652-42a6-479b-b7de-b231f9b59fbf",
+      "text": "Cap shallow activities to protect deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "71625907-92d4-48cf-908c-64cf8cd8352d",
+      "text": "Work backward from constraints to identify actionable strategies.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "947968c2-e565-4328-8020-59d7aadd59f0",
+      "text": "Establish sender filters to control incoming communication.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e961cada-72d4-42f0-b479-09a13c665602",
+      "text": "Prioritize deep work over shallow obligations in time-boxed sessions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "76d5b54a-a037-403c-8f8b-47e5fd2e397a",
+      "text": "Implement sender filters to screen incoming requests based on predefined criteria.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c0f1d567-ead9-49ec-a76c-26080d1a5e0c",
+      "text": "Adopt a process-centric approach to email responses by outlining steps and timelines.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "33da6ff6-0aa7-42c8-a150-c904911baae3",
+      "text": "Enforce constraints on communication by requiring recipients to meet specific conditions before engaging.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "418a2eb0-40da-4464-9388-8141351a7d37",
+      "text": "Assess clarity and relevance before responding to correspondence.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "374497e2-eded-47c0-a3f3-935f1e74efb3",
+      "text": "Prioritize tasks that yield significant outcomes relative to effort expended.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "20649306-5c6c-4af3-936a-a6aff648d698",
+      "text": "Schedule deep work blocks to minimize interruptions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e02e41e9-f950-4ae9-85b4-9d0d1462c56c",
+      "text": "Adjust focus environments based on available constraints.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7656a3b7-eef5-47b6-a560-a9f5eb94b665",
+      "text": "Integrate deep work into daily routines despite time limitations.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "35b7e008-f60c-445b-a059-2bdf937785a0",
+      "text": "Schedule dedicated periods for deep work",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0dff713f-7770-4204-bcf2-4c8313c4fdc3",
+      "text": "Prioritize tasks that require sustained focus",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9ceb8291-0bed-48f6-b029-007e585245ce",
+      "text": "Assess trade-offs between comfort and productivity",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "29ea9513-cd47-4a57-9040-668cc18d97ac",
+      "text": "Allocate specific time blocks for deep tasks to avoid attention residue.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eeca6bef-b9bf-4611-b1ef-d63fa177e6b3",
+      "text": "Measure productivity through outcomes rather than communication volume.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f84a6c5a-0c50-4171-880c-2a7c052339e4",
+      "text": "Balance open collaboration with periods of uninterrupted work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ba16f682-acde-4448-af74-8eefede37796",
+      "text": "Maintain consistent effort to avoid ego depletion.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "189d1aaf-36d5-4b6c-8258-787f798b6a6f",
+      "text": "Prioritize tasks based on value and impact.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "10b10d35-0c76-455d-9a97-dd9dab51a2b5",
+      "text": "Monitor attention to prevent burnout.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "98a11ee6-0022-4c25-bd26-770fb2114a59",
+      "text": "Balance focus with necessary flexibility.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "181f8e31-2d58-4e05-b635-de27f2eb8286",
+      "text": "Prioritize outcomes over process adherence.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ef660e6d-34d0-4278-8ac1-d94c10a758c7",
+      "text": "Regularly assess environmental constraints on performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8692b6d3-8612-4148-bd52-508851cee361",
+      "text": "Apply the Law of the Vital Few to digital habits by focusing on high-impact activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d5e039ef-cfe2-49e6-958b-3137bd951081",
+      "text": "Avoid multitasking to maintain attention and decision quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5d5417a5-c3d4-47ce-8176-b8513cb7ebfb",
+      "text": "Balance active engagement with periods of cognitive rest.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f8191fa5-1f7c-42f2-b336-d1f7163beb0a",
+      "text": "Schedule dedicated time blocks for deep work to minimize distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "57d68341-2f36-4f26-b106-f0e40b1f559c",
+      "text": "Implement sender filters to control incoming communication.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e28b0a28-68fc-461a-a39b-be58517c302d",
+      "text": "Balance active engagement with periods of disconnection to maintain focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2ddd695e-2a6a-41e1-a08a-6008074be24e",
+      "text": "Dedicate consistent periods to deep work to develop expertise.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "933660f3-b99f-482a-8dba-b28f9861b464",
+      "text": "Limit exposure to attention-draining activities to preserve focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "410b7b7c-779d-48b9-8a42-a559c94b5d09",
+      "text": "Establish routines that minimize distractions during focused work sessions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "af05ec8e-8727-4ede-863a-d88ac52cb7b2",
+      "text": "Distinguish between deep work and serendipitous encounters in your schedule.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f0cfed16-6067-44df-8611-c083c4be4b59",
+      "text": "Collaborate using the 'whiteboard effect' when solving complex problems.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "71fbe306-ebf8-4aa4-bf4d-425092cf0bd9",
+      "text": "Avoid mixing different work modes to prevent reduced effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 159,
+    "last_updated": "2026-02-12T17:15:19.093605Z",
+    "aggregated_from": [
+      {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 22
+      }
+    ]
+  }
+}

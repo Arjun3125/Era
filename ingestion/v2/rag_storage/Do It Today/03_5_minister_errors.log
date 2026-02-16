@@ -1,0 +1,47 @@
+Phase 3.5 error: Extra data: line 5890 column 2 (char 169296)
+Traceback (most recent call last):
+  File "C:\era\ingestion\v2\src\ingest_pipeline.py", line 554, in run_full_ingest_with_resume
+    conversion_summary = convert_all_doctrines(
+        doctrines,
+    ...<2 lines>...
+        progress_cb=phase_3_5_progress_cb
+    )
+  File "C:\era\ingestion\v2\src\minister_converter.py", line 236, in convert_all_doctrines
+    results = list(executor.map(
+        process_fn,
+        doctrines,
+        timeout=60
+    ))
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 641, in result_iterator
+    yield _result_or_cancel(fs.pop(), end_time - time.monotonic())
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 311, in _result_or_cancel
+    return fut.result(timeout)
+           ~~~~~~~~~~^^^^^^^^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "C:\era\ingestion\v2\src\minister_converter.py", line 155, in process_chapter_doctrine
+    entry_id = add_category_entry(
+        domain_path, "principles", principle_text,
+        book_slug, chapter_index
+    )
+  File "C:\era\ingestion\v2\src\minister_converter.py", line 83, in add_category_entry
+    category_data = json.load(f)
+  File "C:\Python314\Lib\json\__init__.py", line 298, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Python314\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Python314\Lib\json\decoder.py", line 348, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 5890 column 2 (char 169296)

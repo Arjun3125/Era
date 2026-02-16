@@ -1,0 +1,43 @@
+{
+  "domain": "Strategic Planning",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "a1f74a26-4448-4926-963a-610dadaa2548",
+      "text": "Focus on a core purpose for career direction",
+      "source": {
+        "book": "Summary-of-SGTCIY-pdf",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "180bca11-6e15-45a9-be98-2d9ad582281b",
+      "text": "Embrace gradual progress and skill development",
+      "source": {
+        "book": "Summary-of-SGTCIY-pdf",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3e1ac217-66d1-4303-8098-1892f854e310",
+      "text": "Test ideas incrementally through small experiments",
+      "source": {
+        "book": "Summary-of-SGTCIY-pdf",
+        "chapter": 4
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T06:23:37.671823Z",
+    "aggregated_from": [
+      {
+        "book": "Summary-of-SGTCIY-pdf",
+        "chapter": 4
+      }
+    ]
+  }
+}

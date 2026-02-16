@@ -1,0 +1,5860 @@
+{
+  "domain": "optionality",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "9f4899e0-6ba2-46df-b787-b20dfdeec881",
+      "text": "Overgeneralizing work styles can misapply successful approaches.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e72edb9a-cbbb-4332-874a-d0c0e52fa971",
+      "text": "Assuming all roles require shallow work overlooks depth requirements.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ce595c79-0795-4213-a7fc-b2f8e6ebdfdc",
+      "text": "Inadequate focus can limit strategic execution despite high status.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "533d8681-5e5c-472f-88d9-44dc87693a21",
+      "text": "Lack of precise measurement leads to systemic inefficiency.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e158fe16-1e1d-4024-9704-2c4ed5adeaa4",
+      "text": "The pursuit of minimal effort hinders the production of meaningful results.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f146454e-b3ec-4217-b582-30fc5ad94749",
+      "text": "The absence of metrics allows anachronistic productivity measures to persist.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "688df4b3-369c-4c38-9d69-5fcd23464413",
+      "text": "Technology ideologies can obscure real problems and trade-offs.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e44228f5-810e-4f13-b4c9-8accaafea63d",
+      "text": "Relying solely on digital engagement may misjudge impact",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e92c9d25-0aba-489f-b6be-e01c3b2386c0",
+      "text": "Ignoring constraints may lead to misaligned priorities",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "77711580-34df-46c8-a2f0-e884595d223c",
+      "text": "Over-reliance on trendy activities can hinder progress",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "af71dc90-3371-460c-823d-a94c22a93c6a",
+      "text": "Neglecting positive focus can amplify negative experiences.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1a6bd9a9-5ec6-4776-9fee-3902d54499e7",
+      "text": "Failure to manage attention may lead to diminished outcomes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e3ec47ea-7718-4b4e-ace8-9dbfc7c517f4",
+      "text": "Inadequate attentional training can reinforce negative cycles.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9f3f7034-7434-486d-906b-a7c66b5329d9",
+      "text": "Monastic approaches may not suit roles requiring diverse contributions or complex problem-solving.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "17745c24-5b88-49fe-9173-3027300378df",
+      "text": "Radical focus requires clear professional goals and may limit broader career applicability.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2a5d33d1-2dcc-4dd4-83f6-79a4db847e1d",
+      "text": "Inadequate preparation can deplete willpower reserves.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "42bf72e1-ff8a-4ca9-b289-4e09fbc41fa2",
+      "text": "Over-reliance on spontaneous deep work without planning reduces effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d916ed45-2f57-425a-9051-3d1df7d95c53",
+      "text": "Underestimating the effort required for deep work can lead to failure.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "92870d67-f63e-4530-9e8e-916bce64c170",
+      "text": "Inconsistent ritual maintenance reduces effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "52759fec-9a15-426f-984a-e0cb64e1a5a5",
+      "text": "Neglecting foundational preparation can undermine deep work gains.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5f136767-e501-4bb0-8636-05adcaf0d99b",
+      "text": "Overemphasizing deep work may limit opportunities for innovation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1e2f6d3c-fab2-4222-9eb0-a10d6674a3e4",
+      "text": "Insufficient collaboration can hinder creative problem-solving.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1af13e64-7883-4c2c-a79f-c82d4782873f",
+      "text": "Ineffective workspace design can exacerbate distraction and reduce productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b87cd019-6a51-4921-ba1a-2a4c108ebfc7",
+      "text": "Mixing collaboration and deep work environments can dilute focus and reduce output quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ba390c80-d3e3-48ae-8fc9-3ea4ff73142e",
+      "text": "Overemphasizing interaction may crowd out the sustained concentration needed for breakthroughs.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8d3ecbc7-bb01-440c-b482-4398c5d47faf",
+      "text": "Failure to balance spontaneous encounters with dedicated deep work can lead to superficial results.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6add3a06-be6e-4ec7-ac62-2845afa839b3",
+      "text": "Overly broad goals can dilute focus and reduce effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9bb1a5be-41c0-4bd7-a744-a9879ece944b",
+      "text": "Neglecting intermediate metrics may lead to misaligned efforts.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4b7772a1-e6a2-4868-b365-c345232f088c",
+      "text": "Insufficient accountability can undermine progress tracking.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "00eaf247-82df-4cea-8986-cdb36a7116f1",
+      "text": "Excessive busyness degrades deep work quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3685daf7-0544-4fd0-85d8-2f6680e67072",
+      "text": "Over-reliance on conscious deliberation for complex decisions reduces effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d9cd02da-d00a-482e-a0d8-80ac112f99b1",
+      "text": "Neglecting downtime leads to diminished cognitive function.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a7b80dd2-4d89-43e2-a136-5d1b75c413df",
+      "text": "Insufficient attention restoration can lead to diminished cognitive performance and reduced deep work capacity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3587392d-cd51-4b0e-aeab-efc50c04f499",
+      "text": "Neglecting scheduled downtime may result in lower overall productivity despite increased work hours.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4548eb9b-bc9f-4fa3-908d-d9834a3a3a7e",
+      "text": "Inadequate attentional recovery can create a cycle of declining performance and increased fatigue over time.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "03a63354-63e3-4725-a94f-af29da2501ad",
+      "text": "Neglecting distractions can lead to diminished productivity and prolonged ramp-up periods.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e537a8c3-e254-49f5-832e-7714292640e3",
+      "text": "Without clear structure, deep thinking may become inefficient due to looping or aimless effort.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "26fd6374-1c89-47a2-ab0e-bb93d16e9c9e",
+      "text": "Failure to adapt may result in suboptimal performance under constraints.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "43b3397a-6657-4ff8-b602-e0cffa795f6a",
+      "text": "Neglecting critical details can lead to operational risks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "717c6598-6630-495f-a34c-8cad9a7cf6a0",
+      "text": "Unexamined benefits may lead to unsustainable outcomes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "19619bd6-4d3a-49ee-943b-7a936fc65a98",
+      "text": "Neglecting opportunity costs can diminish overall effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6e8f8324-d52a-4c8d-840f-ee441bf92cc7",
+      "text": "Over-reliance on simplistic evaluation frameworks risks failure.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ef0fdcda-c692-4198-b15f-d2f85bfa4aef",
+      "text": "Complex decisions may require iterative refinement.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "83bf892c-d739-4603-85e6-19f23a81203e",
+      "text": "Over-reliance on tools can distort judgment.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c4387b59-fd42-4337-aa4d-bdbdde2f1085",
+      "text": "Overemphasizing tool benefits may distract from direct activity improvement.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b245f958-1717-4228-85a8-95b414d53525",
+      "text": "Neglecting to quantify time/attention costs can lead to inefficient allocation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b7b2c030-1489-4068-bba2-b4c9655f7b7e",
+      "text": "Assuming all activities contribute equally may result in suboptimal prioritization.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b9df3333-4915-43a7-a0f3-9f4bf01ebee4",
+      "text": "Diminishing returns from misallocation",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "124c3a5c-75e7-4e30-afae-175d5681e9e5",
+      "text": "Reduced effectiveness",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cfc09eaa-1ee0-4527-a921-eeedab99189e",
+      "text": "Misinterpretation of social validation can sustain unnecessary digital habits.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "18eea0ec-0e9f-444a-8649-593640262532",
+      "text": "Ignoring ambiguous evaluation results may perpetuate inefficient tool usage.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ca4773f2-6961-4d18-916d-70b1d99ed6be",
+      "text": "Overestimation of one's digital presence can hinder progress toward focused work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "39f75c24-0676-49a2-832b-11ba70efdcb3",
+      "text": "Attention fragmentation may compromise mission effectiveness",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a7a88ab3-9cf7-45e1-8211-c058076c47da",
+      "text": "Technology dependencies can emerge unexpectedly",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "629a8275-d6c2-40ea-b30d-9d1586f26c3e",
+      "text": "Personal information exposure creates cascading effects",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bff0ab1c-66ed-48c4-8036-72d52a1e7456",
+      "text": "Ambiguous tasks may misclassify as deep if their perceived importance outweighs their actual complexity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dcb57cb6-8e94-4153-b3c6-1a7393f62b32",
+      "text": "Changing established work habits requires explicit commitment to the time allocation strategy.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8d967022-237c-4c77-99a8-bc69f553109c",
+      "text": "Failure to enforce time boundaries may lead to chronic inefficiency and diminished output quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a4190257-3c36-4dca-b062-4617b97c27a4",
+      "text": "Inconsistent application of task categorization can result in misaligned resource allocation and strategic drift.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "385f76ae-7096-4c98-b03d-3e06551d5629",
+      "text": "Neglecting constraint flexibility may foster rigid approaches that fail to adapt to evolving operational needs.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6a3e6fef-6b4e-44c8-8acf-86ff63a107b8",
+      "text": "Schedule creep occurs when limits are not strictly maintained.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5b9ac6ae-169e-4ddb-aca2-185c5368ad38",
+      "text": "Exhaustion from deep work can be mitigated by protecting dedicated time.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e0340623-9ced-4680-92b8-fb44b23a7ecc",
+      "text": "Failure to manage incoming communication can lead to chronic inbox overload.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d1db4a84-823b-440a-bb68-04bf50c3d866",
+      "text": "Unmanaged expectations create psychological obligation that consumes mental energy.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0c9361f7-1a8a-4a63-b121-7299a5bc818b",
+      "text": "Incomplete process identification leads to unresolved dependencies.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3f6ab202-1ab6-4cd1-9dab-38414b3923d5",
+      "text": "Ambiguous next steps create recurring follow-up requests.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c9831f1d-f48d-4634-86e5-14cfa5d55783",
+      "text": "Failure to specify responsible parties causes task ownership confusion.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5f67850d-9530-4e49-878e-04667ff8acf2",
+      "text": "Distraction significantly reduces deep work effectiveness",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8b674cb3-bef7-4f7b-964c-9d16d94e2aed",
+      "text": "Maintaining focus requires consistent effort",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "768c596f-1bc4-4fdb-8b75-bde5fb713620",
+      "text": "Deep work is difficult to sustain without dedicated time",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "041b93c4-d284-4d12-8787-7a6597d1318d",
+      "text": "Prolonged immersion in shallow work can permanently impair the ability to engage in deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d980be21-0ae6-4b30-a8e0-4486a56fd592",
+      "text": "Digital distraction creates a self-reinforcing cycle that reduces cognitive performance over time.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b8df37b0-0efb-49e9-add7-a8c61943c719",
+      "text": "Failure to adapt to digital workflows risks professional irrelevance in knowledge-based fields.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c7b76e02-de58-4509-9f82-a57fc0ba1e96",
+      "text": "The fragmentation of attention creates a false perception of productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5939b95b-ae12-4997-9657-256e5ce76294",
+      "text": "Automation threatens to commoditize knowledge workers if they cannot demonstrate deep expertise.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "724230fe-3803-4c85-8327-e3649f2b7a34",
+      "text": "Failure to develop deep work skills may lead to professional obsolescence.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d8f7e627-de81-48d2-a578-5a3a0dce2c56",
+      "text": "Digital distractions can significantly hinder the development of deep work capacity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4e8e0513-2e5c-4fd2-9f34-c2d64975d312",
+      "text": "Failure to adapt to technological changes may lead to professional obsolescence.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "57f4ba54-1f98-4ad1-b56a-dab714cc7358",
+      "text": "Over-reliance on technology can create vulnerabilities in the workforce.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9798585d-0886-45dd-abc5-842dd5bbbfaa",
+      "text": "Failure to adapt skills may result in economic displacement.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "681fa261-b500-4e82-8f15-98c6cabdac53",
+      "text": "Over-reliance on regional advantages may limit market access.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "776a2828-c562-4080-b5c5-35a9d696dcc7",
+      "text": "Capital-intensive technologies may concentrate wealth rapidly.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "394f8c6e-e41a-4e57-8708-6b9a1980e565",
+      "text": "Inadequate adaptation may lead to professional obsolescence.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "34d75040-a20e-4295-981b-155073df491a",
+      "text": "Insufficient focus reduces the quality and impact of work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "451b693b-cb2d-462c-809e-b1657e01ff2f",
+      "text": "Failure to develop cognitive discipline limits professional growth.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ddfb9623-a7ec-47ec-a59f-13c0fb9dc235",
+      "text": "Distraction prevents neural optimization",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9422fa9d-a1ec-47bf-baed-8a6b5c62bd18",
+      "text": "Insufficient focus limits adaptation potential",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ba4c1b66-59c6-47bb-99f6-2a28670ed2cc",
+      "text": "Inconsistent practice leads to skill decay",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f37f4f8c-f123-43be-9187-6ec9581a0555",
+      "text": "Extended task-switching can lead to diminished task performance and output quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5c3d5093-06d1-4285-9d48-397c2c920cfa",
+      "text": "Allowing attention residue to accumulate may create performance bottlenecks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7526b659-eff5-4646-af60-a8b4bf68ed5a",
+      "text": "Failure to schedule focused work periods may result in lower productivity levels.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b3e5d1b6-07fc-47b4-bc5a-2856547c3bf1",
+      "text": "Misapplying executive strategies to less constrained roles can lead to reduced productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0d103f83-de6a-4be9-9486-1c869612d7d6",
+      "text": "Ignoring role-specific constraints may result in wasted effort on activities that don't add value.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a8442e7e-9cd9-4d9b-8344-5389248fe6d6",
+      "text": "Misjudging the cost of distractions can lead to inefficient resource allocation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1dfa570b-bb1b-4f44-8194-4e9a47f5aca1",
+      "text": "Overemphasizing trendy behaviors may neglect core productivity metrics.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bfe00cad-aff2-47a8-9b34-13a13189f8d1",
+      "text": "Inaction on unmeasured factors can lead to gradual degradation of performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d7b87e1a-7202-4a20-8bdc-d7833c9b2da1",
+      "text": "Shortcuts in execution may increase short-term productivity but decrease long-term value.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b5b45112-b872-406a-9ca5-a878ac7a7134",
+      "text": "Overemphasizing busyness may obscure actual productivity",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "965367e3-448a-434b-ae83-0bf69864f36f",
+      "text": "Misusing proxy metrics can create false accountability",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2cdd7b0e-4bfe-4524-9773-5b025cc48864",
+      "text": "Inadequate measurement frameworks risk strategic misalignment",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "adad52a4-1316-4909-9dc4-0d5428babbf6",
+      "text": "Ignoring depth may lead to obscurity despite technological trends",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "369f3c3f-549d-46ae-8c0d-6b570331a31d",
+      "text": "Inability to measure depth creates a vulnerability to technopoly",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "511e20c0-246d-4e33-9460-f1b1aaa3186a",
+      "text": "Inadequate attention management leads to professional burnout",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ff9935f3-5186-441e-9d53-f09ac0661d8d",
+      "text": "Failure to prioritize depth increases susceptibility to trend-driven distractions",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2ea9c02d-ad83-43d1-9a5c-72931ed38b8c",
+      "text": "Neglected attention creates cumulative operational stress.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ed548edd-41f5-4778-a27f-747ab9d497dc",
+      "text": "Shallow focus degrades decision quality over time.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "669b73a4-353d-409b-b7b9-d870ed8a3707",
+      "text": "Attentional fragmentation reduces system resilience.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e3da1e1e-0ff1-4411-a932-2ed155260fbc",
+      "text": "Individuals must actively seek opportunities for flow to achieve satisfaction.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ded17881-cb43-4a4d-9184-57918a89aee0",
+      "text": "Technology integration for data collection requires careful implementation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a81489ae-5529-4826-a66c-502b13b7ba28",
+      "text": "Organizational change for flow-inducing work may face resistance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f898cfde-7a70-492d-a539-971fda13cc7a",
+      "text": "Neglecting depth leads to professional dissatisfaction.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ead197a7-5f1a-4d1d-b22b-dcef48ef474c",
+      "text": "Overemphasizing job description ignores hidden sources of meaning.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7e1d5c9f-191f-4fdd-bec4-faab8d98c556",
+      "text": "Shallow approaches limit potential in knowledge work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fd5df2a7-254c-4b31-8c69-679bc3db5e6b",
+      "text": "Willpower depletion reduces productivity if not managed.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1888f930-1236-4bc3-abd7-e1799123aee0",
+      "text": "Distraction habits can override deep work intentions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e0429155-0a7e-4d6a-a5b5-1ccdf58a1842",
+      "text": "Ignoring constraints leads to burnout and inefficiency.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "99c1b8ca-d0cc-441d-9329-ab657612041c",
+      "text": "Mismatched depth philosophies may lead to premature failure of deep work habits.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5b0886ed-ce36-4496-ad8b-0760caa898fe",
+      "text": "Inflexible strategies may not account for varying personal and professional demands.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e224e1ed-e7d1-4a26-b466-7f444261e021",
+      "text": "Deep work requires flexibility that may be absent in standard work environments.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0dfbb5ac-c801-40c8-9962-324c92414ed1",
+      "text": "Deep work may be difficult for those uncomfortable with periods of professional inaccessibility.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8ea4942b-485b-4cac-b305-488d28850167",
+      "text": "Sustaining discipline requires consistent effort",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "376c7b68-e80a-4c86-8e7b-bf3203789682",
+      "text": "Overcoming initial resistance to rigid scheduling",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6d497f27-63b3-4b3c-ad83-5d3d4523dc7d",
+      "text": "Frequent switching between modes can deplete willpower",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b5a6921f-21af-4f6c-9f15-0269ad47f3af",
+      "text": "Insufficient practice may lead to failure in sustaining deep work",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e21540e9-b254-45a2-b499-4824e87787eb",
+      "text": "Lack of conviction may limit the effectiveness of deep work",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0b3e9290-75ab-4498-8b88-c802731e530f",
+      "text": "Over-engineering rituals may increase cognitive load.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c5c1fc46-0abd-4028-a907-4f31416c0b30",
+      "text": "Grand gestures require significant resources or effort.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cbc1f525-2ca8-4fd3-8f1d-20a51bad94b2",
+      "text": "Adaptation to new constraints may initially reduce productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2c38d262-8526-4349-8e57-65da04be6ba8",
+      "text": "Open-plan offices can hinder deep work by increasing distractions",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "979384c2-c1a5-4fbe-9305-baea0a68afd4",
+      "text": "Distraction destroys depth.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "64cde3f2-9cfb-43ab-88fb-7d79cda103bf",
+      "text": "Overemphasizing collaboration can impair concentration.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "95692fe8-8c75-4390-b753-95dbb3a1beee",
+      "text": "Failure to limit focus may result in diluted execution.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c1761758-eb6b-471a-a84c-4e662237fa74",
+      "text": "Neglecting actionable metrics risks misalignment with core objectives.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6aa34e1e-59c2-4386-9370-91f99e005272",
+      "text": "Inconsistent review processes may diminish long-term commitment.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4dabcabf-52ee-4073-bbd7-351d49392850",
+      "text": "Over-scheduling prevents meaningful progress.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5788dd30-bb05-4c88-addc-8ef14533611b",
+      "text": "Exhaustion from constant activity reduces long-term effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "02134278-2df4-487b-b06c-7809ee70511f",
+      "text": "Insufficient rest prevents attention restoration.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b69bd047-5ebe-4301-9cc2-8169e1999944",
+      "text": "Frequent interruptions during downtime limit recovery.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "448c911b-ce90-4a58-825d-2a6a5b16b55a",
+      "text": "Insufficient time allocation may limit cognitive benefits.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a43cda62-06dd-4191-a030-5dc1331c1af7",
+      "text": "Initial adjustment period may cause temporary productivity dip.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0f07da9c-79cf-42a8-88dd-f8cf49bcec17",
+      "text": "Inconsistent execution negates the benefits of the practice.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "54380de0-39b7-422a-bbc2-7293ad150267",
+      "text": "Inconsistent practice leads to diminishing returns",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "95134032-6d01-4027-8b83-a9eaf9a804c7",
+      "text": "Digital addiction requires structured interventions",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ebbbc635-042e-40f3-8703-3e9db02842d5",
+      "text": "Partial attention breaks may inadvertently weaken focus endurance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bf113f73-0de4-4bfb-90ab-a1ef76338ae8",
+      "text": "Inconsistent implementation reduces the effectiveness of attention training.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fb566bba-473c-4fd4-8b5b-72c014c34b9c",
+      "text": "Initial implementation may require patience to develop sustainable focus habits.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "66914205-1304-477a-874e-4a317c06b8dc",
+      "text": "Overly ambitious deadlines may lead to burnout if not balanced with adequate recovery periods.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "657f28d8-7c23-4f98-991d-4be402608a17",
+      "text": "Inconsistent practice may limit the development of attentional control capabilities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ed5e5475-aa4a-407a-aeba-b8f05dbe1b36",
+      "text": "Failure to manage distractions leads to reduced productivity in focused tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9fb2a87b-2c18-447c-8d77-d114906032f2",
+      "text": "Neglecting structured thinking processes hinders problem-solving efficiency.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dfb3a945-2d7f-4ba6-88b9-03ffad3f7e15",
+      "text": "Digital distraction can undermine sustained attention.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2ba40140-a185-4411-b560-95a873e915b3",
+      "text": "Habit formation requires consistent reinforcement.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c5ff2566-9887-4a72-84a0-effe27a768cf",
+      "text": "Over-reliance on network tools may limit cognitive growth.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d20e6ca7-6e41-4067-aa55-b0acafd74f67",
+      "text": "Unrestrained use of network tools can lead to chronic distraction and reduced effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "77aef63e-c01f-411a-a392-88388c5f1ac6",
+      "text": "The absence of rigorous evaluation for digital tools mirrors less critical approaches to physical tools.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a3fa030b-3a88-46c9-85ec-c3c09b371542",
+      "text": "Overestimating direct benefits may lead to suboptimal decisions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "919038ca-7609-48a9-8641-af5b532a634d",
+      "text": "Ignoring secondary costs can undermine long-term effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fe6d39f8-7995-42a1-9d76-8d9a38eca8fa",
+      "text": "Complexity may arise from tool evaluation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b3795536-94a5-4098-8e88-b9f61795a52f",
+      "text": "Distraction can negatively impact core activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "580a78ef-4dc7-4fa4-8a87-ed109ea64b03",
+      "text": "Neglecting constraints may lead to inefficiency and missed opportunities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ff8e35bd-7b4b-4f20-85e3-7a5241cf6847",
+      "text": "Spreading resources too thin can diminish overall performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "94fee575-5b32-4758-997d-dc4c86e323db",
+      "text": "Failing to apply prioritization strategies may result in suboptimal outcomes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "35d06dde-b7a7-47b6-8871-3595b3d920a3",
+      "text": "Misinterpretation of engagement metrics may reinforce digital habits",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b2c348fb-4767-4053-bc1e-12e29ef36a55",
+      "text": "Operational awareness may be compromised during constraint periods",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "43b6d236-d10e-4320-a941-376c547027dc",
+      "text": "Digital minimalism may require periodic reassessment",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1b1000a8-a477-4fbb-a1c8-b5360db27b41",
+      "text": "Structured leisure may initially feel less restorative than unstructured time.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "90f259a4-70ee-4f7c-ac58-cc5c9311cf72",
+      "text": "Digital distraction reinforcement can undermine long-term attentional discipline.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "84048f0e-c6c6-489b-8467-01d3282aa969",
+      "text": "Overemphasizing deep work may neglect necessary shallow tasks, leading to operational inefficiencies.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "374fed5d-0976-402e-bf34-6311df2bb215",
+      "text": "Exceeding cognitive capacity during deep work can reduce sustained performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a502f32c-e74a-47fb-9fd6-e9101db52ddf",
+      "text": "Conservative time estimates prevent schedule collapse",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c37c954d-07d3-4632-bd81-fc654398072f",
+      "text": "Unplanned interruptions will inevitably occur",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fb2d14eb-6139-417b-871d-cb5ed33d53d7",
+      "text": "Inadequate scheduling leads to shallowing of deep work",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3be3561e-eff6-4e86-a0b3-9d2e8ec03a26",
+      "text": "Over-reliance on rigid schedules may stifle spontaneous creativity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "89a9f969-21bc-4062-a723-decaedac8f62",
+      "text": "Misclassifying tasks based on time requirements can lead to inefficient resource allocation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c7f887fd-f573-4c2b-bd4a-0ebba4319d74",
+      "text": "Overestimation of deep task value may lead to neglecting essential but shallow coordination functions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "94f86f7b-5d37-4b79-b375-3c229e14eaf6",
+      "text": "Insufficient budget flexibility may create unsustainable pressure to reject all low-priority shallow work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "345e8c80-b52a-476f-9e2a-5ab352788433",
+      "text": "Failure to communicate time allocation may result in misaligned expectations and increased friction.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "72c1de30-86ba-4218-a8af-ce96032788c6",
+      "text": "Failure to set constraints leads to unsustainable work patterns.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "627ad928-e6ae-4913-86f5-c71ddd8ea0c7",
+      "text": "Overcommitting shallow tasks reduces capacity for high-impact work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "94bbd10e-5d03-419b-b06e-0fa9d46318c0",
+      "text": "Lack of discipline in communication invites inefficiency.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e0a6f2b5-5700-4750-bf9c-130d686428f9",
+      "text": "Ignoring email culture traps individuals in reactive loops.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3604a1e2-2db6-4c69-96aa-27b8073b389b",
+      "text": "Inadequate constraints can lead to inbox overload and wasted time.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c7f4b1c4-c0a2-46e6-89e8-9f2e56d4d57a",
+      "text": "Ignoring response expectations may result in chronic time drain from trivial follow-ups.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c2769494-d0dc-4e6e-98d9-1c96dc15eefc",
+      "text": "Without clear timing, projects may stall due to ambiguous next steps.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bd1583e5-3cab-4862-a97f-34b1d448f7f5",
+      "text": "Initial resistance may occur when altering established communication conventions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8630e9e9-db49-4f90-8156-89e7f65c3aa9",
+      "text": "Context-dependent exceptions are necessary for effective implementation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e47fbfe3-0893-4383-8602-c8e9873a6c53",
+      "text": "Loss of focus can lead to decreased productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "457f77bd-a974-46a0-88d9-338a86e4ebe6",
+      "text": "Inability to adapt focus habits may hinder progress.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4902b5e6-9845-45e4-b39b-bca59109837b",
+      "text": "Ignoring constraints can result in burnout or reduced output.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "efbc3290-ab71-4be4-95bf-162fa147adf7",
+      "text": "Cognitive fatigue limits sustainability",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d9a5c588-6c2c-4e0f-8727-784992a7af20",
+      "text": "Inaction risks obsolescence",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "28f7de4a-2467-49af-9927-7723a7404099",
+      "text": "Overcommitment may create burnout",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "93e95401-6f34-46a2-892f-80df6254e18e",
+      "text": "Over-reliance on digital communication may fragment attention.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d613c09a-0b60-4ad5-9970-f2ec0bc3389c",
+      "text": "Quantifying productivity through metrics can overlook qualitative gains.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "81ee0ffd-8b3c-42a1-8ff6-f21a3b3b3e01",
+      "text": "Ignoring cognitive fatigue may lead to burnout and declining performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "46cea506-0bfd-488a-aafc-e76a71c4139a",
+      "text": "Overestimating self-control can lead to burnout.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f2357c34-cd3d-4120-a6cd-88b84bd4fedc",
+      "text": "Neglecting emotional states reduces effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "caeb9e88-59bf-46e2-960b-6bf51ab0f263",
+      "text": "Relying on quick fixes may undermine sustainable outcomes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7a1c26c3-1e89-43a0-883a-b6bd520ba958",
+      "text": "Distraction can undermine focus and productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1ad51b87-5322-4fd9-9053-1aa9cb8caa06",
+      "text": "Poorly designed workspaces may hinder execution.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b5005165-17e8-4678-9611-97961fff8262",
+      "text": "Failure to adapt routines may lead to inefficiency.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5f608316-8fe4-4d8e-a38e-282e8171f2a8",
+      "text": "Burnout from constant attention demands can reduce productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fb04868e-c5b8-426c-a543-a8af0b8dce41",
+      "text": "Neglecting cognitive restoration may lead to decreased performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bf940810-4c09-4200-9f0f-c78658f9936e",
+      "text": "Over-reliance on digital tools without breaks can increase error rates.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6e392948-542d-436b-b22f-5d7ae151e665",
+      "text": "Overestimating attention capacity may lead to burnout.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fd6db4c9-5784-4935-a57f-d76ff36ad41b",
+      "text": "Misjudging time allocation can create chronic imbalance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "20a9a53a-fc39-48c1-8099-70b995018f56",
+      "text": "Digital tools may amplify existing cognitive biases.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "87f8efc3-2035-4ac2-a41a-ee2ffb74757a",
+      "text": "Failure to conserve attention may lead to diminished performance and missed opportunities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8b386848-ceaa-4cb9-9a2e-a51d07c4ac97",
+      "text": "Over-reliance on shallow activities can undermine long-term productivity and growth.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c8f25830-32cb-47f9-8ca6-26fc0c9c4f3b",
+      "text": "Intuition can lead to flawed decisions if not verified.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a4f79881-14b0-4a36-877b-6acdcc0741d7",
+      "text": "Cognitive limitations can cause significant errors.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6c0a66af-4c6d-4851-a711-c2bf78d23dfc",
+      "text": "Misunderstanding framing effects can lead to poor outcomes.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cca330df-6fcf-4ce9-91ba-21f794f91e75",
+      "text": "Over-reliance on automatic thinking can lead to biased or erroneous judgments in uncertain situations.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8c14c35a-c2d8-4414-9557-1cc700144d86",
+      "text": "Insufficient attention allocation can impair performance on complex tasks, resulting in failures.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7dc2da48-d1af-470d-887e-f80bdc51de38",
+      "text": "Over-reliance on cognitive ease can lead to accepting falsehoods.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "048aa491-fc6f-4790-8d0b-6181d7afb3ac",
+      "text": "Cognitive strain does not automatically result in better judgments.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9686001e-9a31-434d-a5cd-2bdc7d44f156",
+      "text": "System 1's automatic causal thinking can misinterpret coincidences as meaningful patterns.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "195bd9f4-e594-4730-926b-e826deab19f5",
+      "text": "Over-reliance on narrative explanations may obscure statistical realities in complex situations.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b7b3b46d-e5e6-4d3f-ad7b-3a5613cc2a8f",
+      "text": "Intuitive answers may misrepresent the target question if substitution occurs.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "38b66afc-fcbd-400d-8bea-c87e7d60eb78",
+      "text": "Emotional states can unconsciously influence responses to unrelated queries.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a2fc3822-ea13-44e7-aa90-12aebf39d17b",
+      "text": "Rapid emotional learning may lead to biased or inaccurate judgments without conscious awareness.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e4b9b721-bdfc-4918-8c32-e4906c042d86",
+      "text": "Insufficient practice or experience can result in poor performance in high-stakes situations.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "de5e9de7-f525-407f-b72f-dea14a96c56f",
+      "text": "Budget reserves may become self-fulfilling prophecies.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 40
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9c71186b-d509-4e15-b6a5-22e8fb027ae8",
+      "text": "Ignoring planning fallacy increases risk of project failure.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 40
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a19aa1f9-ba89-4f3c-bda5-d9bf4db73819",
+      "text": "Overestimation of gains and underestimation of losses can lead to suboptimal decisions.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "14f040e8-e9f3-458b-b8de-459e624ca992",
+      "text": "Asymmetry in threat vs. opportunity processing may result in inefficient resource allocation.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e4ae8632-61df-40eb-b093-93ea0298bbf9",
+      "text": "Excessive loss aversion can prevent individuals and organizations from taking necessary risks, leading to suboptimal outcomes.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 53
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5cb565d0-e9df-4b68-a44a-881db683d59b",
+      "text": "Short-term emotional responses to losses can override rational decision-making, particularly in volatile environments.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 53
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "16a8327a-2216-407a-8129-6b4659b2f17e",
+      "text": "Misjudging well-being due to cognitive biases can lead to poor decision-making about life circumstances.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 64
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "36aebc9e-ac6f-4bef-980d-7d01b2ab6190",
+      "text": "Relying on short-term emotional states may overestimate overall happiness levels.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 64
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "aa36db75-a3ae-4ca1-b834-729fc66596b6",
+      "text": "Ignoring duration and focusing on peaks and ends leads to suboptimal decisions (duration neglect bias).",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 65
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3e28d25b-bcb4-4f40-a1c7-9e36bd0a48b4",
+      "text": "Memory overemphasizes endings and overlooks the importance of time, leading to distorted evaluations of experience.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 65
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "780d9487-7408-4017-960f-345c1af1dd62",
+      "text": "Relying solely on mathematical expectation may lead to suboptimal decisions.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 66
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "31ec3ad6-fdbe-4040-8181-b4f04866d2d3",
+      "text": "Decision-makers may be influenced by framing effects, leading to inconsistent choices.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 66
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1f512e76-7377-4cf5-a28c-95cdc0df0153",
+      "text": "Low-probability events have unstable decision weights that can significantly amplify or diminish their impact.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 67
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d93eb1d0-e4c8-4125-9e89-e9d07839020e",
+      "text": "Ignoring the psychological compounding of concurrent decisions may lead to systematic violations of invariance.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 67
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e24abf24-73b0-416d-8520-08a0b47eccc9",
+      "text": "Over-reliance on intuitive decision-making may lead to ignoring systematic cognitive biases like loss aversion.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 74
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d83a7e87-a866-40cb-9f72-1d8ad5a01383",
+      "text": "Neglecting formal analysis of risk can result in suboptimal outcomes due to emotional decision-making under uncertainty.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 74
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b3230c0d-8d30-4216-b516-5be9c1a63097",
+      "text": "Cognitive strain impairs judgment in complex scenarios.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 78
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6dc777c7-d660-472b-ba4e-f4b1a51ae7ce",
+      "text": "Overconfidence in intuitive judgments leads to systematic errors.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 78
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "00433e48-231d-4efc-8127-25c6c6dd82dc",
+      "text": "Ignoring base rates increases susceptibility to illusory correlations.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 78
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c038f003-ec96-4bee-8bed-1052fc6b2974",
+      "text": "Complacency can lead to sudden failure without warning.",
+      "source": {
+        "book": "33449",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1fe0d54c-e65c-49f3-940f-7f5e25ea907a",
+      "text": "Ignoring early signs of change can result in significant losses or disaster.",
+      "source": {
+        "book": "33449",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1805146e-ceb2-4d15-a0a1-54f69565dafe",
+      "text": "Lack of foresight can prevent individuals and organizations from thriving in changing environments.",
+      "source": {
+        "book": "33449",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a87362ee-c570-4fda-a926-3610cb6dc754",
+      "text": "Spreading efforts too thin leads to burnout and failure to meet core needs.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c1867586-6523-4079-96bf-bc843411f20c",
+      "text": "Neglecting core priorities leads to imbalance and dissatisfaction.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5ae4d7d3-00c5-4474-b8b9-f4b74e21d2ab",
+      "text": "Self-imposed obligations can lead to a loss of freedom and personal agency.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "82584bf1-679c-4c98-8bc2-95f8949d3bcf",
+      "text": "Acting from vanity or ignorance may result in unnecessary constraints on your life.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "696a3fb3-8845-4d95-8083-0ec24a35e657",
+      "text": "Ignoring internal conflicts can lead to civil wars within oneself.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 37
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7745796b-0328-49e7-8d9a-be14ca657ccb",
+      "text": "Accepting assumptions without scrutiny can lead to poor decisions.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 37
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ab590d31-4d92-40aa-a0bb-9794b6e6c4e0",
+      "text": "Arrogant opinions can prevent personal growth and adaptation.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 37
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a08679d4-6c9a-48b3-a38e-2a0cb0e0aba0",
+      "text": "Failing to engage in reasoned choice can lead to moral uncertainty.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 44
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "286a511f-ad5d-43f3-b979-6e4abca3e8f5",
+      "text": "Neglecting disciplined decision-making may result in confusion and incorrect outcomes.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 44
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2746fc2b-06d9-4d39-b9bd-513dd52bff05",
+      "text": "Ignoring obstacles or failing to adapt can lead to failure and prolonged difficulties.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 55
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "97b64cbb-d2cd-4f8a-bb70-8d99b363bbf1",
+      "text": "Rigid thinking may prevent effective resolution of problems in the face of change.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 55
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "29af128c-29a7-44fb-a077-728c59f89c25",
+      "text": "Allowing self-pity and excessive complaining can deplete your energy and motivation.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 57
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fdde323f-1622-4b0d-8d59-5cd86f49441f",
+      "text": "Inconsistent effort and lack of discipline can lead to instability and wasted opportunities.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 57
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8a72bca1-deb7-4571-8f5d-7d3376971e5c",
+      "text": "Implementing counterintuitive strategies without careful consideration may lead to failure if beneficial elements are discarded.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 62
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e84f0fd5-fd39-447a-8b56-1c5be7cdf932",
+      "text": "Neglecting the context of one's life can result in worsening situations when applying habitual change techniques.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 62
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0ab28fce-121e-42e6-a4f2-864edc1e2443",
+      "text": "Distraction by irrelevant news or events can lead to inaction and detract from reasoned decision-making.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 71
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "62f0fc38-54ea-4830-84e7-9cee774f6122",
+      "text": "Mindless emotional responses to others' circumstances do not contribute to personal growth and may impair focus on individual responsibilities.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 71
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eca83c5a-c425-4a61-8978-fbd310e0133e",
+      "text": "Unrealistic expectations hinder progress.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 76
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b67d7ca3-e53f-4010-bcfd-21f7983fabbb",
+      "text": "External validation cannot replace internal focus.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 76
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5539614c-831c-4f79-a4ca-39b7744dc189",
+      "text": "Failure to adapt emotionally to setbacks can lead to increased suffering and worsened feelings.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 84
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0fa99f50-f326-4965-9b51-db2dfc1de368",
+      "text": "Over-reliance on wealth may not guarantee happiness and can lead to anxiety.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 85
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e3a28399-30cc-4dec-8e7b-ec45692899b4",
+      "text": "Procrastination due to laziness can result in missed opportunities and reduced productivity.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 85
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fd274fb0-00c3-47bf-843f-37834d244c25",
+      "text": "Defaulting to untrained habits leads to predictable failures.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 92
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8360273f-89c6-49ee-aa6b-b650ad01360f",
+      "text": "Indolence during periods of rest can lead to a diminished sense of purpose.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 94
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4c59e0ff-41ad-46f7-a8f2-235f95744b5f",
+      "text": "Redefining rest as complete inactivity may misinterpret its benefits.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 94
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0b752a94-358d-4cea-aedb-914a74796ad8",
+      "text": "Superficial motivations in personal improvement can lead to ethical corruption and lack of depth.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 104
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "75894909-6fd2-468c-83d3-d7269a0b2925",
+      "text": "Misjudging the continuity of circumstances can lead to flawed decision-making.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 110
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3bf92646-1e49-4840-92df-484afec8f0b4",
+      "text": "Ignoring historical patterns may create blind spots in understanding current situations",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 110
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6f28aace-1ef4-43dd-b24b-29da8a461274",
+      "text": "Resentment towards change leads to wasted emotional energy.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 112
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b81499e7-4ad7-44da-b706-cf2c007c702a",
+      "text": "Assuming outcomes will persist causes unnecessary regret.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 112
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c6f5a2f7-fb18-4c03-a84b-c1e904b58d8a",
+      "text": "Acting on uncertain projections (hope/fear) leads to wasted energy and suffering.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 113
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d2b2f1d9-b9a1-469a-a029-e3aa0d96928e",
+      "text": "Judging others' faults enables self-deception about one's own shortcomings.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 113
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0a9b99c6-8862-4b65-a32c-cd4cd6f10210",
+      "text": "Procrastination prevents personal growth",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 128
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fcff1dd0-dc6f-4931-90eb-a63aa7457afa",
+      "text": "Uncertainty about the future necessitates proactive action",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 128
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c5a804d9-e5e4-40bc-8328-9854a23b2d7e",
+      "text": "Focusing on external factors outside your control leads to anxiety and unhappiness.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 130
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e56f8a68-d1ce-47af-a11a-95f6b5e7eaef",
+      "text": "Misaligned judgments about control can distort reality and hinder personal development.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 130
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "41c31d97-a98e-4ccd-a4e6-2126a2336bdb",
+      "text": "Superficial engagement with material may limit growth",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 132
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3fd7bd2c-f5fe-47ae-a3ad-173681cf7dd3",
+      "text": "Businesslike approaches to love create emotional detachment",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "df40a7f3-d474-4087-8c8a-f0e8d212bbe4",
+      "text": "Remaining dependent stifles personal development",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3e3fab6b-03ea-422d-8dc5-918def1241a9",
+      "text": "False beliefs about eternal love can lead to relational conflicts and personal dissatisfaction.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "23700df7-20ba-4918-aee3-c200abadc66c",
+      "text": "Excessive possessiveness in relationships may result in emotional and relational harm.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "53ff33f2-cda9-400f-8bca-573db2c5e598",
+      "text": "Repression prevents true understanding of life's potential.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "df11fcc5-1f60-489b-9e2b-ce56f64a1c16",
+      "text": "Fear-based decision-making closes off transformative possibilities.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0202c4af-f525-44da-80f7-cae929e5f546",
+      "text": "Prolonged imbalance between polarities leads to loss of depth or richness.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "53c2acd2-d7c7-4468-91f2-a77c77e9ed7a",
+      "text": "Attachment breeds anxiety about the future.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a2ef5025-e6d4-4ec9-83a8-201ca03bc907",
+      "text": "Adherence to structured schedules enhances effectiveness.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 33
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f1c31216-1f72-4b47-b07b-32ef212de012",
+      "text": "Deviating from program offerings may limit transformative outcomes.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 33
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e88efa46-6a13-4a36-bb7b-b86807b9d37c",
+      "text": "Legal dependencies may affect reprinting operations",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5fd6dd35-d061-4bf7-83bf-4b0584b92dbc",
+      "text": "Complacency in religious practices leads to decline.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "470c8680-2272-4e47-a373-6215fa36b75e",
+      "text": "Failure to question deeply held beliefs may result in societal detachment.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d47fc8ea-9f3c-4a71-80dc-a154cd6e8e88",
+      "text": "Unchecked presumptions about societal structure can lead to stagnation.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2d249e7f-5e20-40f6-b531-91768e242d33",
+      "text": "Excessive self-constraint may result in mediocrity and decline over time.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c9614b20-6a20-4af9-a6fb-a690892d4dbd",
+      "text": "Neglecting emotional foundations invites collapse",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bf9d2b6e-e887-4600-b018-7481c110edf3",
+      "text": "Over-reliance on sensuality weakens love",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "41948308-4bea-44a4-9072-7cbe8e34de1e",
+      "text": "Acting without understanding opponent's intentions leads to failure",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d134ee3b-bc35-48c3-88b1-8b4d0492b014",
+      "text": "Allowing women to seek equality disrupts established power dynamics.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e42d4a75-dd7f-445a-96a5-7c1de77c54a3",
+      "text": "Women's pursuit of truth challenges the foundations of male-dominated societies.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ca52f320-a4b1-4196-a7ee-1b44d480a876",
+      "text": "Rushing into action without proper preparation leads to failure.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 43
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "62ade866-21f9-430c-b9cd-6a3a9eafc3e8",
+      "text": "Over-commitment to societal expectations stifles personal growth.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 43
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4b091e31-acb0-4f5f-88d1-7a9c5824cbe8",
+      "text": "Stagnation leads to decay and disappearance.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 44
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6dd32a28-3bea-4a31-ab4c-e7ecc7aff822",
+      "text": "Static existence faces the perils of becoming superseded.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 44
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "281bc1ab-5db9-4530-93c2-54b0ca07773c",
+      "text": "Lack of ambition may limit professional growth",
+      "source": {
+        "book": "CAMUS, Albert - The Stranger",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0991f02c-9998-4d69-9095-a5d166d4ba8e",
+      "text": "Ambiguity in relationships can lead to unresolved conflicts",
+      "source": {
+        "book": "CAMUS, Albert - The Stranger",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2b52dd11-8463-402e-85fb-c96f60704662",
+      "text": "Excessive focus on the past or future creates disconnection.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f1e45591-e2dd-4cd0-b25d-d7fdb6e1d3b0",
+      "text": "Rigid thinking prevents authentic engagement with existence.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d9fdac39-e4b7-4741-b6e8-ae0d08f310b0",
+      "text": "Accumulating desires without renunciation leads to inevitable disappointment.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "276dae0e-ee0d-478b-b261-bed53ec4cd8e",
+      "text": "Over-engagement with the external world diminishes inner vitality and clarity.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a0ef4b0c-059b-4c28-ac5a-e1527cdf7445",
+      "text": "Indecision can lead to depression.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2ffebb36-af29-4143-9db3-8e597349e20c",
+      "text": "Over-reliance on philosophical language can obscure truth.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "200c8d5b-39bd-413b-9082-59feede59fb5",
+      "text": "Ignoring fundamental human needs leads to instability.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "16d1319e-9ac4-4841-876c-a2216c890dee",
+      "text": "Success without authenticity creates hollow legacies.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5f9f4e89-73dd-4259-8063-7c85099941c9",
+      "text": "Disregarding outliers hinders accurate future prediction.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "39d42a4c-8bc1-408b-a18d-50930cb9051d",
+      "text": "Relying on outdated methods may lead to irrelevance",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a4576f52-4e2a-4dfc-9144-ca5fab6542a5",
+      "text": "Engaging without belief increases vulnerability",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cab795b2-c521-4bd1-adb4-9b299b0d86b4",
+      "text": "Financial incentives may distract from long-term impact.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6adafe56-2245-4950-9e10-eb4c8616cc33",
+      "text": "Abandoning validated knowledge limits potential learning.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "44b4b9c2-6c4d-4571-ad38-eee9a306d1b2",
+      "text": "Settling for good prevents the evolution toward greatness.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3af17d3e-79da-416f-8759-d2ce9b8b7b8e",
+      "text": "Incremental changes without fundamental transformation lead to stagnation.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "68a3968e-ff17-452c-a1fb-bf346ab19b40",
+      "text": "Over-reliance on external factors like mergers, acquisitions, or technology can hinder transformation.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f3f3085d-dcc5-4c9a-bd40-b88db624bdd4",
+      "text": "Neglecting foundational internal processes can lead to failure despite external advantages.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5eb4f061-3fdd-4531-b0ac-accc113f529c",
+      "text": "Relying on a single criterion may lead to incorrect evaluations",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 61
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6f0e586e-74a5-45cc-bc8e-5aa8bd2ea475",
+      "text": "Failure to address all potential failure modes may result in missed opportunities",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 61
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4657425a-5b18-4c99-8871-27267307d775",
+      "text": "Relying too heavily on outsider hires without considering sustainability may lead to suboptimal outcomes",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 71
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "06108832-56f9-438f-aba2-61e789c9b83d",
+      "text": "Misattributing success to external conditions without proper analysis may lead to flawed decision-making",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 72
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3b4e3d67-e0c3-4302-b598-706b5c7465e5",
+      "text": "Inconsistent strategic execution leads to organizational decline.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 73
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ddb4c819-40f2-4d70-bc9b-4f49687786db",
+      "text": "Failing to adapt without abandoning core strategy increases risk of failure.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 73
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a8ca06da-c9fc-4a01-80f6-5244bbf56545",
+      "text": "Lack of disciplined execution can result in financial loss and competitive disadvantage.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 74
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5690d2b5-eb02-443c-b2b0-c9e546642319",
+      "text": "Operational inertia and failure to adapt to market changes accelerates organizational decline.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 74
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7ede222a-3ec4-4847-a7c5-a96864dd8c0e",
+      "text": "Reaction to external pressures without a clear strategic framework creates decision paralysis.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 74
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f6ffcee8-6d13-43fe-a43a-7f0e9820aced",
+      "text": "Failing to address self-interest first can lead to unproductive conflicts and prolonged resolution times.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1f84879f-c0fa-44e3-bf6f-da3e3fabed04",
+      "text": "Neglecting self-reflection may result in unhealthy communication patterns and escalated disputes.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5069581e-7521-4468-ba86-1ba7b0cf5da2",
+      "text": "Neglecting Sucker's Choices can lead to repetitive unhealthy communication patterns.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ff3b1822-728b-4b93-9087-40b47696d198",
+      "text": "Failing to clarify motives in conflicts may result in unproductive stalemates.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f799b9ef-42a4-4415-b52c-b3e9c37671d4",
+      "text": "Ignoring artificial constraints leads to internal conflict",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4a709640-e177-4126-b563-74af8ff5e63e",
+      "text": "Escalating arguments without considering impact can damage relationships.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ae8184cb-a397-440b-9a24-36359357f717",
+      "text": "Failing to adapt to conversational dynamics leads to ineffective outcomes.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "44685387-cdc8-45fa-9faf-a7b94b12d265",
+      "text": "Blaming others for conversational breakdowns prevents necessary self-reflection.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8c3fb432-1166-4722-b0a1-f3f4674c2038",
+      "text": "Misusing consensus can lead to excessive time consumption.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 45
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2c77f6cc-9f89-4192-91c4-6722e1a092f1",
+      "text": "Failing to include necessary stakeholders can result in resistance to decisions.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 45
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cdcef408-c7b9-49e4-827c-aef85ab58a1e",
+      "text": "Restricting decision freedom without justification can lead to decreased motivation and conflicts.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 46
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ce7e973f-200f-4add-bcbb-958bba87aff7",
+      "text": "Inadequate explanation for decisions may result in resistance, blame, and prolonged disputes.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 46
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "523b888f-4fe1-4d38-ba2e-7b9dacf2e447",
+      "text": "Improper voting without considering losers' perspectives can create winners and losers, leading to sustained conflict.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 46
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2e1b449b-0adc-4eb5-a392-eccd9857e25b",
+      "text": "Delayed recognition of deteriorating communication leads to increased costs.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e1992673-12ce-4477-b54d-046f1d16164f",
+      "text": "Emotional escalation during conversations can derail progress and decision-making.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f0430308-fef3-4aa6-8a9b-339e2ce522f0",
+      "text": "Unpreparedness for high-risk discussions can lead to negative outcomes.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 64
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6b4aabf7-6474-478a-82c6-e574dc8f7d3a",
+      "text": "Lack of awareness of cues leads to missed opportunities.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 66
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "79f26a76-45de-4732-86c5-0e2ed09a3023",
+      "text": "Emotional responses can override rational decision-making.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 66
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "61691214-df6e-438e-9f2b-392845dcefa9",
+      "text": "Without understanding individual perspectives, communication strategies may fail",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 73
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7b3b68f6-7e83-4c30-805b-1732c72f1247",
+      "text": "Unclear delegation leads to negative outcomes in team communication",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 73
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8218a78c-24e7-4155-87ea-b6fe500c0088",
+      "text": "Relying on shortcuts or superficial knowledge can lead to errors and failure.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "64216a72-5b4e-4af9-a4b2-7cdcffe0edd1",
+      "text": "Neglecting to learn from mistakes may hinder progress.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3c0aa71b-7407-4657-a913-4d68fdd09035",
+      "text": "Excessive envy may foster greed and lead to personal dissatisfaction, undermining the benefits of wealth.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "27bc3b81-465d-4526-891b-9d74cc74ba10",
+      "text": "Inherited wealth requires diligent management to prevent depletion due to external factors like taxes or overspending.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6fc6cbbd-7852-4029-b778-92e17135584b",
+      "text": "Quick realization of assets may trigger capital gains taxes, reducing net wealth.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dada380e-a8ac-453e-8521-a61df8da7c81",
+      "text": "Over-reliance on easily realizable assets can lead to financial vulnerability during economic downturns.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "07e9f2ad-7d54-4c65-baa9-23cae0d3486b",
+      "text": "Over-reliance on tradition can stifle innovation and lead to missed opportunities.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b0978719-2f25-46a1-a6ff-f80c209c0e8c",
+      "text": "Ignoring one's own potential and societal influences may result in failure to capitalize on available choices.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "39754192-2644-46e0-8fb3-0370037869c8",
+      "text": "Societal biases can misguide but are not insurmountable obstacles to achieving wealth.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c9914aa1-aaba-45be-b9cc-969d6364a8b0",
+      "text": "Overemphasizing team spirit can hinder individual wealth pursuit.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c654a642-1483-4937-bd54-c6e10179c1c3",
+      "text": "Extended stays in non-target roles may limit industry exposure and skill development.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c27cb62a-c104-4d98-96af-de939736c227",
+      "text": "Relying on borrowed capital without a clear repayment strategy can lead to financial exhaustion.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4784dee4-587b-4af2-ae02-f7c8b188d8ee",
+      "text": "Predatory lending practices can undermine financial stability through exorbitant interest rates.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "249bc1e0-aef8-4dfb-be26-a3c4ae80b761",
+      "text": "Venture capitalists may prioritize quick returns over long-term business sustainability.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "63729595-72b2-4142-9ec7-c000a80921b4",
+      "text": "Lack of inner compulsion in pursuing goals can lead to a downward spiral of personal unhappiness, strained relationships, and missed opportunities.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e1ccbbc1-91ea-4c3c-b37c-43b90c33e117",
+      "text": "Attempting to achieve wealth without passion risks personal tragedy, including family issues and a sense of imposed burden.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1d457006-0099-45a7-b542-381fdde8548a",
+      "text": "Complacency leads to failure when success breeds excessive spending and loss of focus.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a5f48c1d-3eb5-4840-9d69-1656c83b0689",
+      "text": "Losing touch with foundational principles can result in financial and personal decline.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "657c276d-db5a-4721-8d96-e09956e54d49",
+      "text": "Failure to adapt to talent's changing needs can lead to loss.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a7dbfd89-883d-4d77-9cce-5e8fa0d54135",
+      "text": "Rigidity in wealth strategies leads to failure.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 46
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5fe4f314-63b8-4dd9-ae48-7d7b9720c5e5",
+      "text": "Neglecting non-material aspects of life can lead to unfulfilling wealth.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 46
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "91c21db8-25a1-4b5a-a5ea-ea0594aa4561",
+      "text": "Impulsive actions in competition can lead to mistakes and failure.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b7f8f488-8c6c-4b44-9990-a1988a56a2c1",
+      "text": "Monopolies and lack of competition can lead to significant national decline.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "77a31c87-9325-4854-ba44-b2ca71c98736",
+      "text": "Neglecting to investigate opportunities can result in significant financial loss and professional embarrassment.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 61
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ff10b3a5-39ad-48d6-af40-54309a02b8d9",
+      "text": "Inadequate risk management may lead to failure, even when faced with challenges.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 61
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "44785551-3ca3-4cae-8c47-b9afa146fe0d",
+      "text": "Excessive flexibility leads to self-sabotage and unmet objectives",
+      "source": {
+        "book": "Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9ca9de8d-e6e2-4293-b593-1ecdb0434b0f",
+      "text": "Approaching problems with a negative mindset and avoiding discomfort can lead to failure.",
+      "source": {
+        "book": "Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f2df8d71-8587-483b-adc4-cbff4b5e7c5f",
+      "text": "Ignoring realistic limits may cause burnout and abandonment of objectives.",
+      "source": {
+        "book": "Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a8d14301-a08c-46e2-bc43-d7becdf909e6",
+      "text": "Overcomplicating decisions can result in missed opportunities and inefficiency.",
+      "source": {
+        "book": "Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8348c5a7-1894-496a-9e4b-a41bdf2e65ad",
+      "text": "Finite games risk becoming repetitive without infinite possibility",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1668ae2c-ff32-47e0-9e0b-e61c66f8a1a0",
+      "text": "Ignoring the nature of the game leads to strategic failure",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "361b9397-20d4-4ce8-8b4c-2bdb080a6b69",
+      "text": "Over-identification with a role can lead to losing touch with one's authentic self, resulting in performative living rather than genuine engagement.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eba8f84e-d17c-4981-a6a2-cafea4907561",
+      "text": "Inadequate seriousness in finite tasks, characterized by superficial self-veiling, can lead to missed opportunities and failure to achieve deeper meaning.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d5993368-4c10-45c2-931f-80a048c656e0",
+      "text": "Misreading seriousness as triviality may overlook its role in establishing necessary boundaries.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f6016407-f52f-4bd4-9d30-79523a41c9d7",
+      "text": "Confusing play with scripted roles risks overlooking the genuine freedom essential for meaningful engagement.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "75902662-dd88-40bf-9ff6-c245cade5514",
+      "text": "Relying heavily on titles can limit future possibilities and stifle innovation by creating rigid expectations and scripted interactions.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "af6352a3-ad8a-468d-9d62-abfae481a1b0",
+      "text": "Attempting to quantify power without considering the dynamic nature of resistance and the context of the game may lead to an inaccurate assessment of influence.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d5099575-7df6-4027-9376-f96033406f07",
+      "text": "Relying on conventional structures may constrain authentic expression.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "af3d08bc-f130-4d37-862e-199279271758",
+      "text": "Failure to consistently apply principles may lead to stagnation in personal development.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "510f8f33-63a1-4415-9336-0eec720e9809",
+      "text": "Failing to adapt to others' perspectives leads to missed opportunities.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9104a744-b3db-4dc2-a90d-7f1669de3a97",
+      "text": "Without clear alignment, desired outcomes remain unattainable.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d6ce88c2-7599-4270-884c-64acc121de3d",
+      "text": "Selfishness and lack of appreciation can lead to isolation and failure.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "55f5e506-1326-438b-b4db-219c972f6639",
+      "text": "Asserting superiority or challenging intelligence creates resistance.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f974fd33-0108-4461-a910-f86ef8347df9",
+      "text": "Blunt confrontation discourages opinion change and damages relationships.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "51d54ac5-7dcc-48fc-9fe4-f6d7d7e51cdc",
+      "text": "People cling to beliefs due to self-esteem, not logical reasoning.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bcb1a88a-4931-426e-9fe5-affe999c93c8",
+      "text": "Data inaccuracies may lead to misdirected communications",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a91ce34c-3fb7-4a55-bc36-92a7f29ca0b8",
+      "text": "Unclear processes can hinder user engagement",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5cf3092c-c005-4b55-af94-913f1b3c7c9c",
+      "text": "Too many options can lead to decision paralysis and dissatisfaction.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4d37cf27-eaed-4ffa-9480-de98ca95c43e",
+      "text": "Social comparison via curated media can negatively impact relationship satisfaction.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6a7edd16-8c42-4992-8669-c41905995bf1",
+      "text": "Excessive focus on perfect outcomes can lead to decision paralysis",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6cbeb631-959f-46dd-b4df-ed5c4f8e1bc6",
+      "text": "Societal pressures may distort judgment in critical life choices",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "59587ad7-b930-4a26-a9d9-fb9dccd5c456",
+      "text": "Unrealistic fairy-tale expectations about love can lead to disappointment and premature abandonment of relationships.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3fe46ce7-a656-4485-bac4-8a397b4ebd81",
+      "text": "High, unattainable standards for a partner can prevent individuals from forming meaningful connections with suitable matches.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "06b63c69-76be-45c2-b5c7-7bdf74a9e8c4",
+      "text": "Unrealistic soul mate beliefs lead to wasted time and missed opportunities for meaningful relationships.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a7890750-71c6-4405-804c-34817c957ab8",
+      "text": "Relying on infatuation rather than sustained effort can doom long-term relationships.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eca2529b-f0a7-4685-babf-fedd8123dbb1",
+      "text": "Unrealistic optimism may lead to missed opportunities and relationship strain.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cda8a0c2-ccd2-4969-8e0d-7dec1eed9fc5",
+      "text": "Overanalysis can result in delayed action, causing loss of potential partners.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "35d4305c-3bf2-4467-82da-952198185c9b",
+      "text": "Overly ambitious exploration of all options can lead to decision paralysis and missed opportunities.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4fdcea31-ce21-48e3-8b07-09bea1193996",
+      "text": "Relying solely on exhaustive analysis may prevent timely decision-making in time-sensitive situations.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ff632e79-641c-4354-92cf-499959c195f9",
+      "text": "Over-analysis can lead to regret and missed opportunities.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e50a3b74-bcfe-4da3-bf79-882dbe42a6a9",
+      "text": "Delaying decisions due to excessive exploration may result in lost chances.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e78e61ba-4785-4dea-a5fd-ebed2b3815f9",
+      "text": "Prolonged uncertainty in decision-making may lead to psychological distress.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c526194c-ef3f-41de-91cd-f8db0dd02db8",
+      "text": "Delaying commitment may result in missed opportunities due to changing circumstances.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "02d9690f-c23d-4277-a7f8-2c1f2a58b0da",
+      "text": "Delaying action prevents development of preferences and compatibility knowledge.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "398c2a0e-4c35-4043-a050-f8bb662dc244",
+      "text": "Inaction creates cumulative missed opportunities with measurable costs.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "26ffb103-0258-49b0-8495-b162cc7a010f",
+      "text": "Unmitigated intention-action gap leads to progressive neglect of important opportunities.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0ef06ba5-6f3c-47bd-897b-3d5aa81441c8",
+      "text": "Insufficient preparation creates vulnerability to awkwardness in social interactions.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "97108ea9-3df4-4f4e-8e77-2d432f4e0893",
+      "text": "Sleeping with an ex after a breakup may prolong the process of recovery.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2124b2ce-08fb-49fb-9edc-7b6ee4bab8c6",
+      "text": "Ongoing hesitation and perfectionism can delay personal growth and opportunities.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2c1af533-51e7-45c4-9c5e-8d2b22f10f45",
+      "text": "Ignoring relationship needs in favor of personal hobbies can lead to dissatisfaction and conflict.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "66e32462-9b8f-4437-bf4b-734587ae1dd0",
+      "text": "Mismatched expectations about hobbies or individual freedoms can strain a relationship over time.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f27dbbb5-b11c-4128-816c-2cdc448f73d3",
+      "text": "Neglecting enjoyment may lead to diminished interest",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 36
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "15af41b1-ded4-4b6e-a715-c8cd07e6cd12",
+      "text": "Over-reliance on easily measurable attributes can lead to superficial outcomes.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 37
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "df94b68d-31ae-4483-8526-969b960782ea",
+      "text": "Abundance of choices may cause decision paralysis and hinder commitment.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 37
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "823a2af9-f014-499c-9204-60607de5a034",
+      "text": "Evaluative dating leads to disconnection and missed opportunities.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0e68dd8e-c5c8-4ca3-ac2a-eedcf0957b8c",
+      "text": "Negative mindsets can cause self-sabotage and prevent recognizing potential matches.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "facffd40-1136-4598-a2f2-eb6afd0b6f84",
+      "text": "Neglecting positive aspects may lead to overlooking suitable partners or opportunities.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 49
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "009ed44b-fb1d-4300-9af2-a0b2dbc47092",
+      "text": "Cognitive biases can result in poor choices if not addressed through deliberate strategies.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 49
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1c86c742-c03d-4b2d-a667-d9ad26320ff9",
+      "text": "Over-reliance on defaults may limit growth and adaptation to changing circumstances.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7deb1ef0-2a96-4eee-8d23-d4b7d4e6c3ac",
+      "text": "Unconsidered default settings can lead to unintended outcomes.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ac39b0cb-1258-4b29-b69d-26f480f22ad7",
+      "text": "Misclassifying preferences as dealbreakers may lead to overlooking compatible partners.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 51
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2f2d5c30-9caa-40ad-b5ac-562743910fb5",
+      "text": "Over-reliance on first impressions can result in missed opportunities for fulfilling relationships.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 51
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a70ea9fa-87ec-492c-a01a-92f73c8fba55",
+      "text": "Inaction in communication can lead to prolonged uncertainty and emotional distress for both parties.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fbd1fd2c-cb75-46f2-8c12-2413eb890f9d",
+      "text": "Relying on cognitive biases may result in suboptimal relationship choices if not addressed through self-reflection.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7157dc78-eefa-4d98-a45f-dba5f65b11b3",
+      "text": "Ghosting can cause emotional harm and damage relationships.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 54
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0f1eef8c-5657-4438-9084-0f2005859bd1",
+      "text": "Lack of patience or consideration in communication may lead to failed outcomes.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 54
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "55663e69-8a5c-406f-b1ff-50274b7aa3bf",
+      "text": "Delaying exit decisions increases cumulative opportunity costs.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 63
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "44cf7ed0-e180-4641-9d4b-84cd349bef6b",
+      "text": "Underestimating partner's opportunity costs prolongs negative outcomes.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 63
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e2a66d36-88f6-4ad7-9f37-ac9af0e1cb17",
+      "text": "Misinterpreting temporary behavior as indicative of long-term issues can lead to unnecessary conflict.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 64
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "08398252-89e1-4260-b519-e67b357d43b8",
+      "text": "Overreacting to minor irritations may escalate relationship problems if not addressed properly.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 64
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3500b0ca-7f51-42a0-9a62-f48f75446c81",
+      "text": "Cognitive Bias: The sunk-cost fallacy (continuing due to prior investment) can trap relationships.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 67
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4414b64d-b6ef-4a4d-a671-ad6b9f341ed4",
+      "text": "Loss Aversion: Fear of loss may prevent ending relationships that no longer meet needs.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 67
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "52dbfc4b-5872-4cdb-820e-6ab961763906",
+      "text": "Declining motivation post-decision may lead to regret if proper planning is not executed.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 68
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c5d2632a-56f9-4644-9ffc-5936353f429e",
+      "text": "Failure to replace established habits may lead to backsliding during the recovery process.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 72
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6e22c860-854a-4585-9508-e0c80c00a5c9",
+      "text": "Emotional pain during a breakup is temporary",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 78
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7dadb882-e46d-4cb0-82cd-3a47a0025695",
+      "text": "Unprocessed relationship endings can hinder future growth",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 78
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f71fa9b0-af55-4857-b515-4d83d1c10c41",
+      "text": "Assuming similarities without discussion can lead to relationship conflicts and dissatisfaction.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 81
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "608f8f04-4d29-4b2a-b7fd-059acfa65d11",
+      "text": "Unaddressed differences in future preferences may result in relationship failure.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 81
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a79ca027-a00e-4997-8f3f-0b84f373151c",
+      "text": "Neglecting the relationship over time can lead to decreased satisfaction and eventual failure.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 82
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "351ca8a6-1f4c-43b1-af9e-8ee385c13de5",
+      "text": "Relying solely on finding a partner ignores the ongoing work required for relationship longevity.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 82
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "63543415-11f6-4fc4-b280-840aadc5a602",
+      "text": "Neglecting proactive maintenance leads to relationship failure.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 84
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "88f10a2a-5858-4832-ba1b-0f2355088158",
+      "text": "Inaction increases the risk of relationship breakdown.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 84
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cce1a2bd-6920-4f60-b5f6-67c9d526bd69",
+      "text": "Be mindful of data privacy implications",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 93
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c54bd308-bd59-4ec2-a6a3-b0799b472c16",
+      "text": "Excessive choice delays relationship commitment and increases the likelihood of regret.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 95
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4db78052-5ed3-4eb0-941a-397830af48b9",
+      "text": "Over-reliance on quantity in dating reduces the quality of potential partners.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 95
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3b79f1cb-94d4-42a8-9d9c-369aff431365",
+      "text": "The pursuit of perfect matches through abundance creates psychological distress.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 95
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b833cfb9-2de2-405c-a5cb-36ee0c503764",
+      "text": "Over-analysis may lead to missed opportunities.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 97
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d361a242-784b-47a9-86b2-729c5e6acbd1",
+      "text": "Inaction due to indecision can hinder progress.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 97
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "19141a46-007a-44cd-9222-6b62e6ff8f29",
+      "text": "Failing to commit leads to decision paralysis and missed opportunities.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 98
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6603d0be-6bd0-4771-8c83-14af81348f31",
+      "text": "Ignoring the psychological burden of multiple options can result in regret and reduced satisfaction.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 98
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f3c6ff3c-d6dc-41aa-9bab-13292154efa7",
+      "text": "Neglecting attachment dynamics leads to recurring relational conflicts.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 99
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "351c0359-159f-4912-b28c-52fa14e9813f",
+      "text": "Inaccurate self-perception in relationships creates predictable communication breakdowns.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 99
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "716339d4-a38c-492f-8c9a-7f7ca2029b96",
+      "text": "Misjudging long-term happiness based on short-term gains (e.g., financial status) can lead to dissatisfaction.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 100
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "39066ee0-ef28-4524-bb89-59d5b5d80201",
+      "text": "Excessive choice in relationships may increase dissatisfaction due to comparison and unmet expectations.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 100
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e2795b6c-5942-4c33-8e16-c6301a03dacd",
+      "text": "Approximation loses nuanced language.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0a5d4ea9-ac89-4338-af4a-d76f1ca8b73b",
+      "text": "Original source is essential for precise understanding.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e83137f5-25e9-467c-a707-5508cbf239b6",
+      "text": "Neglecting technological advancements may result in societal lagging behind competitors.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6e305690-32f5-4455-aa96-8552f2c18cd4",
+      "text": "Over-reliance on technology can create vulnerabilities if not balanced with human oversight.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "044fb846-f755-41bf-a84a-1a0ec232d0ec",
+      "text": "Neglecting the operational environment in technical design can lead to rapid obsolescence and failure.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "703c91ac-e467-4a3e-9388-1fe7c4cb2ffe",
+      "text": "Over-reliance on non-essential moral or ethical theories can impede technical progress and innovation.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8d275dda-b9b4-4d49-a1db-46a6674e5607",
+      "text": "Neglecting human decision-making can result in stagnation in technological and societal development.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "88c7bbf6-72be-482f-98ae-8c1ebfb6a60b",
+      "text": "Inadequate or ineffective technology may lead to decline if not aligned with human needs.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d3be5584-cd5d-4449-8224-7921a5ac49be",
+      "text": "Over-reliance on distraction may lead to diminished self-awareness.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 69
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e6a025f1-cc91-4837-a6f7-20be48af7286",
+      "text": "Pursuing happiness through external stimuli may postpone necessary internal development.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 69
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "18c1368a-aad8-4235-9910-b44006ba1c1b",
+      "text": "Over-reliance on human techniques may lead to the dehumanization of individuals.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 71
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a4d8f6d3-187f-4458-b644-1cf5636df2e1",
+      "text": "Public exposure of techniques can provoke widespread opposition, undermining state control.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 71
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "410bda5c-7f16-4975-b277-3cafb3a13d0b",
+      "text": "Generalizing human techniques risks degrading human beings, as they are not naturally suited for broad application.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 71
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "da80e0c0-223f-4b4a-948d-cb33e7435f7a",
+      "text": "Personal bias may result in incomplete or skewed outcomes.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "aa95b6d1-5ccd-40f0-9863-6e9fe66e74d1",
+      "text": "Failure to avoid repetition can lead to redundancy and reduced effectiveness.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "83f9341b-2401-44b5-9e37-a2efe464ac43",
+      "text": "Overestimating universal approval invites disappointment and misdirected criticism.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e1fb8a64-0b69-4e58-8d0e-95382d846295",
+      "text": "Unmet expectations often reflect the critic's own shortcomings rather than the work's flaws.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b3b081b2-0a4a-4584-8e73-fbd032ceec5f",
+      "text": "Excessive indulgence can lead to loss of self-control",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9cd0d193-20e8-4955-a0d1-7cfe22d1362c",
+      "text": "Lack of preparation for hardship can cause future panic",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9e4cf634-df8e-4a56-98a8-bb91895840b0",
+      "text": "Neglecting timely action leads to regret and missed potential.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 56
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b50fab87-076f-412d-a945-ebdd2b72f319",
+      "text": "Over-specialization in irrelevant details hinders progress.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 56
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "58cfc96e-8322-4b01-a31c-ae8c90ac5852",
+      "text": "Disregarding fundamental human needs for routine can lead to excessive vices.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 60
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "deed7456-39da-45ba-9146-fe7524560b54",
+      "text": "Unexamined deviations from moderation may result in unsustainable lifestyles.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 60
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c1a1b9a0-bfe1-46cb-96b8-31e98765c2e7",
+      "text": "Unclear communication can lead to project failure or suboptimal outcomes.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ae1808e0-0f41-4967-991f-305770801c4b",
+      "text": "Overestimating one's own understanding may obscure critical project requirements.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "abb181e8-181e-4f13-a888-9b433fd58423",
+      "text": "Misinterpreting symbolic language can lead to misunderstandings",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1dc39c49-eb9a-4f6d-a4b6-276715151cc5",
+      "text": "Deficiencies in understanding emotional language cause miscommunication",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "07242c62-86d0-467c-bf2d-ccf7a6caa983",
+      "text": "Repressing instincts can lead to unsatisfactory relationships and inner conflict.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f8b4718a-79fb-4038-bf36-eadb69206bea",
+      "text": "Ignoring the balance between spiritual and biological aspects can result in personal dissatisfaction.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b2ad15fd-7580-4420-b373-cf9871024f43",
+      "text": "Failure to recognize and respond to inner guidance may result in stagnation or arrested development.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8d4bdd49-6667-428b-ab63-0cda559b6614",
+      "text": "Misalignment between conscious actions and unconscious principles can impede the natural process of maturation.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ea7132dd-acec-48a6-adcf-c85e0a7288fc",
+      "text": "Unquestioned beliefs may lead to negative outcomes.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 31
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9c62557d-7751-4eec-beca-783159d40939",
+      "text": "Misidentifying unconscious influences can result in poor decisions.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 31
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "80f6aca1-d8e4-4233-b5f0-feb58f3a7603",
+      "text": "Overemphasizing material form may obscure its symbolic essence.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4d34d4a9-57d4-4e4e-b1f4-6a8e2681fddb",
+      "text": "Creative transformation requires balancing conscious intention with unconscious projection",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3938ea4b-1036-4b52-a611-b894dc5315df",
+      "text": "Neglecting unconscious material may prolong developmental delays.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c663239f-0e92-4253-a51b-ec9712e73183",
+      "text": "Over-reliance on intellectual rationality without emotional integration hinders maturity.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d87e1c3a-b700-4516-89eb-da77ca63e129",
+      "text": "Ignoring recurring dream themes can reinforce psychological defenses.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f6c42262-e1e6-4ba4-8c72-661c89477e09",
+      "text": "Extended maternal identification may limit personal autonomy and decision-making capacity.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c64353e9-e584-4e84-bae7-bcdbc099be6a",
+      "text": "Neglecting unconscious biases leads to primitive behavior",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 42
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "23431cf1-98b7-44cc-9457-167009e44131",
+      "text": "Unprocessed emotions can manifest as untamed forces",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 42
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "00ec7360-c190-4a5f-9aa8-1331a5aa9f9c",
+      "text": "Uncontrolled opinions and judgments lead to unnecessary distress.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0cec5751-6409-4ef4-9726-f2d1631cbd2b",
+      "text": "Fear of change hinders personal growth and understanding.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8e61d8e0-8bc4-4576-99ae-fd7144968cd5",
+      "text": "Over-reliance on others' opinions can diminish original thought.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d02b9560-0818-40b1-b5cb-928a4cb3078d",
+      "text": "Neglecting foundational principles creates vulnerability to later challenges.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a797362f-f5ec-4138-8f04-b427213e169a",
+      "text": "Unbalanced work schedules impair sustained performance excellence.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cce36b9f-8d15-4f13-a2cf-9e5fe1e5b951",
+      "text": "Neglecting to reinforce feelings of being needed can lead to gradual disengagement.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6c3dee84-173b-4089-aba4-763230b19c62",
+      "text": "Failing to address unmet emotional needs may result in resentment and conflict.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "98097d04-5612-4dff-9974-69624b625625",
+      "text": "Failure to adapt communication styles may lead to increased tension and emotional disconnection.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "626af146-9676-491b-9fc7-80c3ee365ca6",
+      "text": "Inadequate appreciation can result in partners feeling dismissed or unvalued.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bca7ba72-f276-4188-8f0c-cfc9fe7b7793",
+      "text": "Misunderstanding scoring systems can lead to frustration, resentment, and relationship breakdown.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 36
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "20dbc995-3d4a-4acd-8353-d06469c69d2b",
+      "text": "Neglecting small relationship maintenance tasks creates cumulative dissatisfaction.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 36
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c7f4e79b-1884-4f01-8e05-c1526517c681",
+      "text": "Unresolved emotional escalation leads to relationship drift.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 46
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2839ffd7-971e-4391-887e-1a6db49d3e43",
+      "text": "Fear of vulnerability may perpetuate relational misunderstandings.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 46
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c5d31982-f850-450e-b566-2565327031c4",
+      "text": "Rigid adherence to written principles can impede intellectual growth.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b2d1d779-fa0c-4f7e-8190-61379af3001f",
+      "text": "Over-reliance on established doctrines may limit future development.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b394a9ed-6027-4a52-a606-d37079b14e59",
+      "text": "Overestimating the transformative potential of new media may lead to misplaced expectations.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "52f71d72-b32e-49bf-bb4b-88330feaf7f8",
+      "text": "Relying solely on the perceived novelty of a technology can obscure its inherent limitations.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "65371a90-6eee-47e0-b36f-30a1061315d3",
+      "text": "The entertainment-first approach risks trivializing complex issues by defaulting to superficial engagement patterns.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ec0e5a4c-7234-4333-90b1-19551ef29d2b",
+      "text": "Over-reliance on visual spectacle may distract from substantive content, leading to a shallow public discourse.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8c9cf650-604a-4ba4-b4ab-7cc65e50bf3f",
+      "text": "Complacency about information forms can lead to uncritical acceptance of misleading or shallow content.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 40
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "09da9ba6-ff3e-42b5-afac-5115cecea769",
+      "text": "Misinterpreting information requires awareness of its form, context, and potential biases rather than focusing solely on content.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 40
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d5d9762d-7126-4f64-ab44-4cc8a1f980f6",
+      "text": "Relying on incomplete or unverified data can lead to incorrect conclusions and undermine operational legitimacy.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 45
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c0f06950-4a76-48b3-b9ab-cf49aa66618d",
+      "text": "sharing foundational knowledge risks enabling imitation and loss of competitive edge",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 46
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0a5ae820-fc70-4a76-a029-27f5d6cc4d92",
+      "text": "Blame-shifting can lead to stagnation and missed opportunities for success.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b58860f1-ff3d-4572-ab96-8863512aac72",
+      "text": "Internalized childhood conditioning may result in persistent feelings of inadequacy.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "516d3271-c16b-4889-8476-492295a3afae",
+      "text": "Unclear objectives lead to ineffective pursuit of outcomes.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1ca2df6e-e0e9-49c7-aff0-57e254433607",
+      "text": "Inaction results in missed opportunities.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "887d5951-c544-49a0-b82a-476c01f07b01",
+      "text": "Failure to continuously develop skills leads to obsolescence.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 39
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "534f6010-3baf-4ab2-a729-58433cda0eea",
+      "text": "Income mobility requires strategic self-improvement.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 39
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0a4bc909-a183-4d32-bd28-2823df754294",
+      "text": "Failing to commit to continuous improvement can lead to defaulting to average performance.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 40
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "83eeaffc-18aa-4146-bd40-01a93ec480a9",
+      "text": "Neglecting to learn and apply new skills increases the risk of stagnation and mediocrity.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 40
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "06ca211d-87b2-48dc-b31c-e8a057f825c8",
+      "text": "Neglecting physical activity through excessive TV viewing can lead to health deterioration.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 44
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5d7fba61-b237-49b7-9a7e-39157d361643",
+      "text": "Inaction in forming beneficial habits may result in missed opportunities for personal advancement.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 44
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "77e0c1d6-8747-4bee-a4bc-e2bedfad90ad",
+      "text": "Inconsistent effort leads to diminished long-term gains.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 45
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eb63b0ee-d529-4eac-b5c7-8e609b886869",
+      "text": "Fear and worry can manifest in physical symptoms.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4bff2af1-0949-4c88-98e5-ed27d553f6d3",
+      "text": "Misjudging the likelihood of negative outcomes can lead to unnecessary suffering.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3dabc5c5-8fcc-444d-87ba-91392dffc501",
+      "text": "Lack of persistence leads to failure and missed opportunities.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 54
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "72a0e7fe-ff87-44b5-988a-5c1a144bdb60",
+      "text": "Unexpected setbacks often catch individuals off guard.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 54
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bb641de1-54bc-4dcb-a12e-a453d84bf414",
+      "text": "Pessimism and complaining lead to reduced personal power and effectiveness.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 55
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0e673c1f-f6c4-43ea-8967-45764a315fbc",
+      "text": "Victim mentality (feeling sorry for oneself) hinders success and learning.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 55
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2c83f601-50bc-41f9-bf8a-92d6941e0080",
+      "text": "Failure to persist leads to missed opportunities.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 56
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1af9e641-2959-4e46-a0a1-e757bff6b474",
+      "text": "Giving up early hinders personal growth and achievement.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 56
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ed9163d3-0264-4387-84b9-41772fe5d05d",
+      "text": "Spending time on low-value tasks reduces capacity for high-value contributions.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 60
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "11a744e1-6e61-4761-9012-e2a06238884d",
+      "text": "Lack of alignment between employee and decision-maker priorities creates professional friction.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 60
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eb46bc3d-4365-45ee-be00-4792c3d4cfcf",
+      "text": "Inadequate sales skills can limit professional and financial growth",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 71
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3817ae4e-4365-4f67-80c5-e9aadbc118da",
+      "text": "Failure to align actions with priorities leads to diminishing returns and missed opportunities.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 79
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dab34c7a-6c78-4f79-a399-3d899b858a9a",
+      "text": "Overeating leads to fatigue and digestive issues.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 90
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7e4ea69e-079a-4360-b424-2d6f20f03b52",
+      "text": "Lack of sleep causes reduced performance and increased accidents.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 90
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4c256fca-7186-4bb9-862c-795a7d77ff48",
+      "text": "Traffic accidents are the leading cause of premature death for young adults.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 90
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "31705824-56dd-45c1-9f80-af891ebaec5f",
+      "text": "Smoking increases risk for multiple life-threatening conditions.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 90
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "953e5987-f1a8-498e-9e60-81a43673370f",
+      "text": "Inconsistent exercise patterns may diminish cognitive benefits over time.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 95
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c98e15aa-a12b-40bb-aaf7-442a1b9a96d3",
+      "text": "Failure to adapt fitness regimens may lead to plateaued progress.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 95
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "68b3f4e7-2295-431c-8fdc-aa2701df0726",
+      "text": "Inconsistent effort undermines habit formation.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 96
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fee9aa57-e17d-4eb1-a75c-a6600c272f7d",
+      "text": "Rapid progression without gradual buildup increases injury risk.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 96
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "82c6f01f-4f4e-46d7-9978-c9d303cc7447",
+      "text": "Inadequate maintenance of information can lead to reduced user engagement and satisfaction",
+      "source": {
+        "book": "Notes-from-Underground-Extract",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "726172fb-e89f-4aed-a531-bc79201a5ba7",
+      "text": "Misinterpreting the absence of content may lead to ineffective operational guidance.",
+      "source": {
+        "book": "Ortega_y_Gasset_Jose_The_Revolt_of_the_Masses",
+        "chapter": 1
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 564,
+    "last_updated": "2026-02-13T03:58:23.021602Z",
+    "aggregated_from": [
+      {
+        "book": "Deep Work",
+        "chapter": 7
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 10
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 13
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 20
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 25
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 34
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 7
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 8
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 13
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 17
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 18
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 38
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 40
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 50
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 53
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 64
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 65
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 66
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 67
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 74
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 78
+      },
+      {
+        "book": "33449",
+        "chapter": 4
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 25
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 27
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 37
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 44
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 55
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 57
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 62
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 71
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 76
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 84
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 85
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 92
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 94
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 104
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 110
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 112
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 113
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 128
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 130
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 132
+      },
+      {
+        "book": "Being in Love",
+        "chapter": 4
+      },
+      {
+        "book": "Being in Love",
+        "chapter": 9
+      },
+      {
+        "book": "Being in Love",
+        "chapter": 12
+      },
+      {
+        "book": "Being in Love",
+        "chapter": 19
+      },
+      {
+        "book": "Being in Love",
+        "chapter": 33
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 1
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 12
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 15
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 17
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 35
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 43
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 44
+      },
+      {
+        "book": "CAMUS, Albert - The Stranger",
+        "chapter": 5
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 2
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 6
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 7
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 9
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 25
+      },
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 5
+      },
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 6
+      },
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 8
+      },
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 61
+      },
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 71
+      },
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 72
+      },
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 73
+      },
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 74
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 11
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 13
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 14
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 18
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 45
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 46
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 52
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 64
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 66
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 73
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 5
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 7
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 8
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 11
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 17
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 21
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 25
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 29
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 30
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 46
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 52
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 61
+      },
+      {
+        "book": "Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action",
+        "chapter": 9
+      },
+      {
+        "book": "Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action",
+        "chapter": 13
+      },
+      {
+        "book": "Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action",
+        "chapter": 20
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 1
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 3
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 4
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 7
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 16
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 6
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 15
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 21
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 26
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 1
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 4
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 5
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 8
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 9
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 11
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 12
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 13
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 14
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 15
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 16
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 17
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 22
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 36
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 37
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 41
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 49
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 50
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 51
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 52
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 54
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 63
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 64
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 67
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 68
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 72
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 78
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 81
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 82
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 84
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 93
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 95
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 97
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 98
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 99
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 100
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 5
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 12
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 21
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 22
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 69
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 71
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 6
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 7
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 18
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 56
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 60
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 2
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 12
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 26
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 30
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 31
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 35
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 38
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 42
+      },
+      {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 14
+      },
+      {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 25
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 14
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 24
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 36
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 46
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 12
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 21
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 24
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 40
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 45
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 46
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 28
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 32
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 39
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 40
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 44
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 45
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 52
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 54
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 55
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 56
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 60
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 71
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 79
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 90
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 95
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 96
+      },
+      {
+        "book": "Notes-from-Underground-Extract",
+        "chapter": 9
+      },
+      {
+        "book": "Ortega_y_Gasset_Jose_The_Revolt_of_the_Masses",
+        "chapter": 1
+      }
+    ]
+  }
+}

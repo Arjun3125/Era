@@ -1,0 +1,33 @@
+[
+  {
+    "chapter_index": 1,
+    "chapter_title": null,
+    "domains": [
+      "Information Technology"
+    ],
+    "principles": [
+      "Universal access to knowledge"
+    ],
+    "rules": [
+      "Non-commercial use only",
+      "Maintain attribution",
+      "Contact for research purposes"
+    ],
+    "claims": [
+      "Digitization preserves knowledge",
+      "Legal responsibility for users"
+    ],
+    "warnings": [
+      "Copyright varies by country",
+      "Severe liability for infringement"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0161,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  }
+]

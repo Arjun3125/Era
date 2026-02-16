@@ -1,0 +1,43 @@
+{
+  "domain": "Information Technology",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "f17075e9-b3cc-4221-a8b7-dac4d4876a8c",
+      "text": "Non-commercial use only",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f5c6907d-5ea8-4495-bbee-8106d88bbefc",
+      "text": "Maintain attribution",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "314f7149-a4c3-4485-9f78-27c9416f4fdf",
+      "text": "Contact for research purposes",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T12:27:03.418728Z",
+    "aggregated_from": [
+      {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      }
+    ]
+  }
+}

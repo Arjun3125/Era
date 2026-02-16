@@ -1,0 +1,78 @@
+{
+  "domain": "Productivity",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "a2c913db-8b57-4589-b840-7625e7bbf9ef",
+      "text": "Set daily priorities based on importance to maximize productivity.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8458e3b3-e42f-48a1-8672-3b12cb0223d2",
+      "text": "Focus exclusively on one task until completion to improve efficiency.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3408c8ed-8829-48ac-8d1c-4e1c1234b146",
+      "text": "Complete tasks taking 5 minutes or less immediately.",
+      "source": {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9f048dd4-ef0f-423e-8185-c1227da5b581",
+      "text": "Adjust work-rest intervals based on mental fatigue.",
+      "source": {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f86991b2-693a-44c8-ba70-77e317a8a419",
+      "text": "Journalize accomplishments and plans before bed to track progress and focus",
+      "source": {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8e2ee95e-4a53-430f-b274-e2485c19033c",
+      "text": "Limit daily tasks to three high-value activities to avoid diminishing returns",
+      "source": {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 25
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 6,
+    "last_updated": "2026-02-13T12:25:58.292337Z",
+    "aggregated_from": [
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 47
+      },
+      {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 27
+      },
+      {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 25
+      }
+    ]
+  }
+}

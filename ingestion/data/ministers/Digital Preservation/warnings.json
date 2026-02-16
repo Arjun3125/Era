@@ -1,0 +1,52 @@
+{
+  "domain": "Digital Preservation",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "d12557c9-6fad-4907-88fc-dfbd5d51577f",
+      "text": "Copyright status varies by jurisdiction.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "05ee7f87-5e2b-4d93-b3ad-d5ac5950f9c2",
+      "text": "Assume no universal public domain status.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4fd89322-07be-4973-809e-0e5a800b73fe",
+      "text": "Inaccurate assumptions about copyright can lead to legal liability.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9c88b43e-7755-4dfd-a29d-a97cefd79a3a",
+      "text": "Digital copies may contain original annotations affecting interpretation.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 4,
+    "last_updated": "2026-02-13T12:26:31.978894Z",
+    "aggregated_from": [
+      {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      }
+    ]
+  }
+}

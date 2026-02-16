@@ -1,0 +1,34 @@
+{
+  "domain": "Entrepreneurship",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "3ae6f0c0-2f15-4bec-b4e0-e2b35d13769c",
+      "text": "Overcoming internal obstacles (fear, lack of confidence) is essential for living life on your own terms.",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7746ca32-1412-4796-8dc9-0c8418d004bf",
+      "text": "Personal development and mindset shifts are foundational to achieving success and fulfillment.",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 2
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T11:15:28.319212Z",
+    "aggregated_from": [
+      {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 2
+      }
+    ]
+  }
+}

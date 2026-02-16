@@ -1,0 +1,52 @@
+{
+  "domain": "cash_flow",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "7cda4f27-f65c-4a65-9c28-d47da1af59d8",
+      "text": "Never delegate cash flow forecasting or monitoring tasks.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d3fd39bc-6fe2-44c3-aff6-e3a85c00dd1d",
+      "text": "Maintain minimal overhead costs to ensure positive cash flow.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cff0bd88-c505-4796-94b9-b44876afd1b2",
+      "text": "Avoid long-term financial commitments unless cash flow can support them.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7a1ae961-0177-4409-9fc9-8253a9d6d7c3",
+      "text": "Only use factoring as a last resort, ensuring exit clauses are in place.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 26
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 4,
+    "last_updated": "2026-02-12T19:44:27.302554Z",
+    "aggregated_from": [
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 26
+      }
+    ]
+  }
+}

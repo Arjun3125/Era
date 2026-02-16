@@ -1,0 +1,52 @@
+{
+  "domain": "Knowledge Dissemination",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "219dae9b-17a5-43e6-865d-67a552f09441",
+      "text": "Usage must remain non-commercial.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e868d632-3d22-4b2d-a87d-69c91502ad29",
+      "text": "Automated querying is restricted.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b2044bb8-a468-4cda-b58e-c08eddde5a62",
+      "text": "Maintain attribution and credit to the source.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "86e0d618-b9c0-424e-ba03-a53fa8a89e45",
+      "text": "Ensure compliance with local copyright laws.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 4,
+    "last_updated": "2026-02-13T12:26:32.319371Z",
+    "aggregated_from": [
+      {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      }
+    ]
+  }
+}

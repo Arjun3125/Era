@@ -1,0 +1,38 @@
+{
+  "domain": "Psychological Insight",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "349d0bec-3769-4077-abef-7106136bd843",
+      "text": "Integrating psychological and religious perspectives provides a more comprehensive understanding of human experience.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5c54f841-cd0e-4ba7-b83d-400d32dad7a7",
+      "text": "Denial, while a common coping mechanism, operates within inherent limits that can be identified through analysis.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 94
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T14:08:41.929833Z",
+    "aggregated_from": [
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 34
+      },
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 94
+      }
+    ]
+  }
+}

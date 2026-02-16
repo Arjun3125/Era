@@ -1,0 +1,34 @@
+{
+  "domain": "Scientific Methodology",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "98de875e-5158-4134-b800-451fa69d5f42",
+      "text": "Fundamental principles clarify complex theories",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 84
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7c1df870-cdd1-4ec5-8743-8c01a36c499c",
+      "text": "Clarity in communication enables effective collaboration",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 84
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T15:03:21.399330Z",
+    "aggregated_from": [
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 84
+      }
+    ]
+  }
+}

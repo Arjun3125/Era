@@ -1,0 +1,34 @@
+{
+  "domain": "Books and Publishing",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "329142af-c998-4da6-b3ce-02a086c4520b",
+      "text": "This publication is copyrighted",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fb766fdb-8050-49ef-9088-d8e9a01107f5",
+      "text": "ISBN numbers are assigned",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 2
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T19:44:07.130954Z",
+    "aggregated_from": [
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 2
+      }
+    ]
+  }
+}

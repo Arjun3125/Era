@@ -1,0 +1,34 @@
+{
+  "domain": "spiritual-growth",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "9f393d46-bb94-4ff7-a82a-089859c70e57",
+      "text": "Human potential is realized through embracing complexity and embracing life fully.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6ce7d12f-ca5a-4eb5-adc0-5656a012d7ad",
+      "text": "The highest form of wisdom comes from understanding the interconnectedness of all things.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 3
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T10:31:13.742441Z",
+    "aggregated_from": [
+      {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "domain": "Knowledge Dissemination",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "9adf1bfc-ab41-46f7-ba33-dda4fa431326",
+      "text": "Copyright status varies by jurisdiction.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eca06d1e-531b-4ab8-acc0-dad9e3a55048",
+      "text": "Assume no universal public domain status.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2fcf7ede-45ba-4a84-9138-c91094fa3648",
+      "text": "Inaccurate assumptions about copyright can lead to legal liability.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "485c4d2e-9b35-4799-b75f-8087a03b60b5",
+      "text": "Digital copies may contain original annotations affecting interpretation.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 4,
+    "last_updated": "2026-02-13T12:26:32.434555Z",
+    "aggregated_from": [
+      {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      }
+    ]
+  }
+}

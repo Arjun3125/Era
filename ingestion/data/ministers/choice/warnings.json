@@ -1,0 +1,34 @@
+{
+  "domain": "choice",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "5b2d497b-f21b-4921-a265-876c088aefb0",
+      "text": "Neglecting uncontrollable factors leads to wasted effort.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a2a6b2ee-18dd-435b-a3ca-6de2051d54f0",
+      "text": "Unregulated emotional responses can consume limited resources.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 4
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T11:27:18.493089Z",
+    "aggregated_from": [
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 4
+      }
+    ]
+  }
+}

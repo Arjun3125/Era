@@ -1,0 +1,34 @@
+{
+  "domain": "Environmental Sustainability",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "c7222c45-c035-4401-bd30-8a179c1c74c5",
+      "text": "Invest in sustainable infrastructure to support agricultural productivity.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bebddad4-392f-44cf-a8ce-27e3ad975a1c",
+      "text": "Balance expansion with defensive capabilities to maintain stability.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 30
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-14T19:55:36.935349Z",
+    "aggregated_from": [
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 30
+      }
+    ]
+  }
+}

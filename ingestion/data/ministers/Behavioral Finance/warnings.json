@@ -1,0 +1,34 @@
+{
+  "domain": "Behavioral Finance",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "162d6297-7815-4cb3-a18b-1ea021bad4da",
+      "text": "Excessive spending without saving leads to financial disaster",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "be924ece-e78f-4762-8e93-234e1b0a0124",
+      "text": "High debt levels during economic crises can result in bankruptcy",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 5
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T09:33:15.608531Z",
+    "aggregated_from": [
+      {
+        "book": "The_Psychology_of_Money",
+        "chapter": 5
+      }
+    ]
+  }
+}

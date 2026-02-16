@@ -1,0 +1,136 @@
+[
+  {
+    "chapter_index": 1,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "optionality",
+      "strategy"
+    ],
+    "principles": [
+      "Foundational truth: develop skills systematically to build a valuable career asset.",
+      "Contrast maxim: passion without skill development leads to unfulfilled aspirations."
+    ],
+    "rules": [
+      "Action criterion: continuously develop skills to increase career capital.",
+      "Operational test: evaluate career potential through skill mastery rather than passion alone."
+    ],
+    "claims": [
+      "Skills directly enable the acquisition of desirable work conditions.",
+      "Career capital can be leveraged for creative, autonomous work."
+    ],
+    "warnings": [
+      "Inadequate skill development before career transitions leads to disappointment.",
+      "Passion-based career choices without corresponding skills may result in failure."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0238,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 2,
+    "chapter_title": null,
+    "domains": [
+      "Career Development",
+      "Decision-Making"
+    ],
+    "principles": [
+      "Avoid passion-driven career decisions based on immediate feelings.",
+      "Focus on mastery and skill development as the foundation for career satisfaction."
+    ],
+    "rules": [
+      "Develop expertise before seeking career advancement.",
+      "Progress through jobs before pursuing a calling."
+    ],
+    "claims": [
+      "Passion is a side-effect of mastery, not a primary driver.",
+      "Craftsman mindset leads to career clarity and fulfillment."
+    ],
+    "warnings": [
+      "Job-hopping due to passion misalignment leads to self-doubt.",
+      "Overemphasizing passion causes career confusion and missed opportunities."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0072,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 3,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "power",
+      "strategy"
+    ],
+    "principles": [
+      "Value creation through skill development leads to desired outcomes.",
+      "Continuous self-improvement is essential for career growth."
+    ],
+    "rules": [
+      "Develop rare and valuable skills to obtain career capital.",
+      "Trade career capital for control and influence.",
+      "Avoid promotions that reduce control if they haven't built sufficient career capital.",
+      "Seek 'open gates' to build career capital by focusing on opportunities that align with personal strengths."
+    ],
+    "claims": [
+      "Serious study is the greatest predictor of success, outweighing tournament play.",
+      "Deliberate practice is necessary for significant improvement, even if it is not enjoyable."
+    ],
+    "warnings": [
+      "Acquiring control without sufficient career capital leads to unsustainable outcomes.",
+      "Control can generate resistance once it is attained, requiring adaptation.",
+      "Developing valuable skills requires patience, and rewards may not be immediate."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0078,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 4,
+    "chapter_title": null,
+    "domains": [
+      "Career Development",
+      "Professional Growth",
+      "Strategic Planning"
+    ],
+    "principles": [
+      "Focus on a core purpose for career direction",
+      "Embrace gradual progress and skill development",
+      "Test ideas incrementally through small experiments"
+    ],
+    "rules": [
+      "Build foundational skills before pursuing major goals",
+      "Cash in professional capital for increased control and flexibility"
+    ],
+    "claims": [
+      "Pursuing passion without a defined mission leads to dissatisfaction",
+      "Remarkable work naturally attracts attention and support"
+    ],
+    "warnings": [
+      "Insufficient investment in skill development leads to unremarkable outcomes"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0151,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  }
+]

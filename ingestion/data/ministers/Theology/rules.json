@@ -1,0 +1,34 @@
+{
+  "domain": "Theology",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "a50c5ed1-dd6c-4a28-8358-ee669f2ac04e",
+      "text": "A profound synthesis requires bridging seemingly disparate fields of inquiry",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b7250f7c-8280-4437-99aa-d3644a977989",
+      "text": "True insight emerges from connecting psychological and philosophical explorations of the human condition",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 2
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T13:42:59.190932Z",
+    "aggregated_from": [
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 2
+      }
+    ]
+  }
+}

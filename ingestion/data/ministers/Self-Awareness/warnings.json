@@ -1,0 +1,34 @@
+{
+  "domain": "Self-Awareness",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "76071a5c-3167-445b-b07f-8dd0f2ad01c8",
+      "text": "Overconfidence can be prevalent, particularly among high-performers in technical domains.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 81
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f86a4824-e34a-4b57-9f30-e975af99a535",
+      "text": "Gender differences exist in how impostor syndrome affects performance and behavior (e.g., men compensate through collaboration).",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 81
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T20:50:12.612945Z",
+    "aggregated_from": [
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 81
+      }
+    ]
+  }
+}

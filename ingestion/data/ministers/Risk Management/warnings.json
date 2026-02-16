@@ -1,0 +1,43 @@
+{
+  "domain": "Risk Management",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "c093282d-5001-4b98-bff3-9b2ff67eec83",
+      "text": "Insider trading and excessive risk-taking can lead to severe consequences, including loss of career and reputation.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8f1fdca4-9164-46fd-a586-c183074e73d5",
+      "text": "Lack of a clear understanding of 'enough' can lead to unnecessary risks and potential financial ruin.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7924c4f3-4bee-44a2-90c4-a85623383c9b",
+      "text": "Even in favorable market conditions, excessive risk-taking can result in significant losses.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 13
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T09:33:16.142127Z",
+    "aggregated_from": [
+      {
+        "book": "The_Psychology_of_Money",
+        "chapter": 13
+      }
+    ]
+  }
+}

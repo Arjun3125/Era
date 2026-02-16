@@ -1,0 +1,43 @@
+{
+  "domain": "Business Ethics",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "1799d925-51ff-4152-87c9-b4f3c24339f1",
+      "text": "Lack of integrity leads to diminished trust and potential failure",
+      "source": {
+        "book": "Seamos_personas_de_Infliuencia",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "28bfb3e5-c994-4153-bafa-22373e3669f8",
+      "text": "Even seemingly minor ethical lapses can accumulate and lead to significant consequences",
+      "source": {
+        "book": "Seamos_personas_de_Infliuencia",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "32c02ade-d4d2-4676-b663-cafef23ff2cf",
+      "text": "Short-term gains from unethical behavior are often temporary and come at a high cost",
+      "source": {
+        "book": "Seamos_personas_de_Infliuencia",
+        "chapter": 6
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T06:21:31.533241Z",
+    "aggregated_from": [
+      {
+        "book": "Seamos_personas_de_Infliuencia",
+        "chapter": 6
+      }
+    ]
+  }
+}

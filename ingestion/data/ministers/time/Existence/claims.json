@@ -1,0 +1,25 @@
+{
+  "domain": "Existence",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "f59e7e8a-87e5-423b-b5ca-c3eef5a2fdb4",
+      "text": "Human beings are metaphorical dice-players in the face of divine chances.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 50
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 1,
+    "last_updated": "2026-02-13T10:52:38.860313Z",
+    "aggregated_from": [
+      {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 50
+      }
+    ]
+  }
+}

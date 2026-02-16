@@ -1,0 +1,34 @@
+{
+  "domain": "Resilience",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "12eb4050-843b-4c0c-9088-910d7a756f09",
+      "text": "Evaluate criticism for constructive value before internalizing.",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "19a5b745-525c-4d5b-875e-97686494c917",
+      "text": "Avoid overreacting to subjective opinions about yourself.",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 24
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T11:31:39.524812Z",
+    "aggregated_from": [
+      {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 24
+      }
+    ]
+  }
+}

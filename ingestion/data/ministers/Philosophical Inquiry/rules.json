@@ -1,0 +1,25 @@
+{
+  "domain": "Philosophical Inquiry",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "6eb8a935-1acb-4841-9ea1-046e59c2ef08",
+      "text": "Quantitative assessment can be used to justify moral decisions (though contextually limited).",
+      "source": {
+        "book": "Crime",
+        "chapter": 11
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 1,
+    "last_updated": "2026-02-13T05:32:32.423919Z",
+    "aggregated_from": [
+      {
+        "book": "Crime",
+        "chapter": 11
+      }
+    ]
+  }
+}

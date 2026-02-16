@@ -1,0 +1,556 @@
+{
+  "domain": "execution",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "00e7a34d-1fe2-4419-8c7c-dd52a41d88c7",
+      "text": "Over-reliance on spontaneous deep work without planning reduces effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "01277b94-ee39-4b21-94a9-873cef951d19",
+      "text": "Failure to balance spontaneous encounters with dedicated deep work can lead to superficial results.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "016ade5e-fc06-482b-a250-c58c5bc74a5f",
+      "text": "Insufficient attention restoration can lead to diminished cognitive performance and reduced deep work capacity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0208b9ec-be82-453f-a9d2-dcd1669e1471",
+      "text": "Overemphasizing interaction may crowd out the sustained concentration needed for breakthroughs.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0ce3de55-8b09-49ae-9c1f-58ad91a9e183",
+      "text": "Overemphasizing interaction may crowd out the sustained concentration needed for breakthroughs.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0f7335af-e222-4714-bc7c-d88ce09e6482",
+      "text": "Neglecting scheduled downtime may result in lower overall productivity despite increased work hours.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "12e3ad3c-2a72-4939-8eda-63c6f427b1b6",
+      "text": "Neglecting foundational preparation can undermine deep work gains.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1bd4aa07-1bff-476b-883b-3a6a62974e0e",
+      "text": "Over-reliance on conscious deliberation for complex decisions reduces effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "209941b1-378b-47cd-b1d6-963c122c9c8d",
+      "text": "Overemphasizing deep work may limit opportunities for innovation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2be38700-69fb-4871-84ec-9a1f1d0143ae",
+      "text": "Neglecting scheduled downtime may result in lower overall productivity despite increased work hours.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2e53dbd3-01ad-46c7-b67d-c135e15dda0d",
+      "text": "Excessive busyness degrades deep work quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2fc0e758-c4cb-4582-9cfd-6ee6481f6c6a",
+      "text": "Inadequate preparation can deplete willpower reserves.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "31e081cb-64cb-4c52-a86d-822d69308f62",
+      "text": "Ineffective workspace design can exacerbate distraction and reduce productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "33e11ebd-79db-4e57-9eda-13972b8561e3",
+      "text": "Neglecting intermediate metrics may lead to misaligned efforts.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3e8b56ad-1e11-4255-a903-dd599ce9f5a0",
+      "text": "Neglecting intermediate metrics may lead to misaligned efforts.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "457632cf-abe8-4706-ab4f-7e6ac1253903",
+      "text": "Inadequate preparation can deplete willpower reserves.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4d49b47e-dff3-498c-bb7b-dc8ea7984f4f",
+      "text": "Neglecting downtime leads to diminished cognitive function.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "54cbba6b-4fb7-444e-b5ed-6b4f16836393",
+      "text": "Insufficient collaboration can hinder creative problem-solving.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "56c1a718-1d39-44b0-a7a9-13702b45387b",
+      "text": "Over-reliance on spontaneous deep work without planning reduces effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "58bb0dd1-617d-418a-be51-dd2fa9c1ed0a",
+      "text": "Neglecting downtime leads to diminished cognitive function.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "77e1a905-4d28-4d72-9393-1322e83eb23b",
+      "text": "Excessive busyness degrades deep work quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7e88e289-b600-4df5-ab5e-62fb5ac5e2df",
+      "text": "Neglecting foundational preparation can undermine deep work gains.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7f77f4ae-45f1-4d86-a3ad-dd02847d9bf6",
+      "text": "Over-reliance on spontaneous deep work without planning reduces effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8440a2ca-6715-4e16-a1bc-8609e10dd3b9",
+      "text": "Underestimating the effort required for deep work can lead to failure.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "84420e33-27e7-4e20-80e0-4bd767e05d83",
+      "text": "Insufficient accountability can undermine progress tracking.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "899af417-2ce9-4ae8-b941-04ba5ea0b974",
+      "text": "Underestimating the effort required for deep work can lead to failure.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8a3a1698-b33e-403c-88ca-a6f4087fedf5",
+      "text": "Inadequate attentional recovery can create a cycle of declining performance and increased fatigue over time.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8cb7e899-f3c2-4c7d-a568-c2446a55547c",
+      "text": "Neglecting intermediate metrics may lead to misaligned efforts.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9519551a-8b8d-4fce-b5b1-8d1bb61134cd",
+      "text": "Ineffective workspace design can exacerbate distraction and reduce productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9e3644ff-5900-4e35-9f97-4ee194ffb041",
+      "text": "Mixing collaboration and deep work environments can dilute focus and reduce output quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a687f699-c2de-42a0-88b2-204041503a7d",
+      "text": "Insufficient accountability can undermine progress tracking.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a99ec840-272e-429c-b19d-7858f6a5d65c",
+      "text": "Overly broad goals can dilute focus and reduce effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a9d0c2bf-d812-4152-ae64-7bc7f20200ce",
+      "text": "Inconsistent ritual maintenance reduces effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ab4552d1-4637-4d08-9741-219e326f9dfe",
+      "text": "Inadequate attentional recovery can create a cycle of declining performance and increased fatigue over time.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ac50ecc2-4ea6-416e-af73-a7a59678f4bf",
+      "text": "Overly broad goals can dilute focus and reduce effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ad40a25d-c48f-47c4-a3b8-a1f3b4d46368",
+      "text": "Failure to balance spontaneous encounters with dedicated deep work can lead to superficial results.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "aec9d74c-05ae-474a-bee2-7bc80f2e6f93",
+      "text": "Insufficient collaboration can hinder creative problem-solving.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b3aa6e09-a6df-4874-bd3f-4216b320ed47",
+      "text": "Insufficient attention restoration can lead to diminished cognitive performance and reduced deep work capacity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b4633f29-3244-4804-956f-a090afc14f3e",
+      "text": "Excessive busyness degrades deep work quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b4cbcc92-f31c-40b9-b7f7-1386c7acb088",
+      "text": "Overemphasizing deep work may limit opportunities for innovation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b727dfdb-7061-4bdb-9fd7-3ddb27f875e3",
+      "text": "Failure to balance spontaneous encounters with dedicated deep work can lead to superficial results.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b76b74b2-8f49-43f3-8838-a16667336292",
+      "text": "Underestimating the effort required for deep work can lead to failure.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b8b562b1-5c78-4c42-ab26-09b9093cf56b",
+      "text": "Mixing collaboration and deep work environments can dilute focus and reduce output quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bfa17117-1a1a-4b1b-933b-b6e560d6728d",
+      "text": "Inconsistent ritual maintenance reduces effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bfca0028-20bb-48f6-9ac2-f3a4dd990299",
+      "text": "Overemphasizing interaction may crowd out the sustained concentration needed for breakthroughs.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bfef170b-20f7-4929-aaa4-b1aea2a66fb4",
+      "text": "Inadequate preparation can deplete willpower reserves.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c6a12a87-9500-46f1-b6c5-6598cf42a1a3",
+      "text": "Neglecting downtime leads to diminished cognitive function.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d574e806-c7d1-4425-9ae6-7ff29bfd6f5f",
+      "text": "Overemphasizing deep work may limit opportunities for innovation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d76da900-e5a6-4159-96cc-4640a73a1599",
+      "text": "Insufficient accountability can undermine progress tracking.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d8e2a283-bd4e-40fe-9158-b465a3abaf59",
+      "text": "Inadequate attentional recovery can create a cycle of declining performance and increased fatigue over time.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d8e3029a-79e4-46f3-a2d4-2e68f5742dab",
+      "text": "Neglecting foundational preparation can undermine deep work gains.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "da08fd4a-16be-434b-8d45-f6bd1a839921",
+      "text": "Insufficient collaboration can hinder creative problem-solving.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dbff12cf-08a0-44d0-bcab-2df1d3a25989",
+      "text": "Insufficient attention restoration can lead to diminished cognitive performance and reduced deep work capacity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "df361cd9-1f1c-43dd-8a30-548cf98f379f",
+      "text": "Over-reliance on conscious deliberation for complex decisions reduces effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e3927b64-605d-4baa-9bd1-54db933df6ac",
+      "text": "Overly broad goals can dilute focus and reduce effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ee88729a-d5f3-449e-a4d3-79be0718940b",
+      "text": "Neglecting scheduled downtime may result in lower overall productivity despite increased work hours.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f5f3bc51-727f-4100-b7c3-efea2622119e",
+      "text": "Inconsistent ritual maintenance reduces effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f6bd5128-6875-4506-abf2-a339f9649fa7",
+      "text": "Mixing collaboration and deep work environments can dilute focus and reduce output quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ff01d45e-91cb-402f-9d9d-a168d928d926",
+      "text": "Over-reliance on conscious deliberation for complex decisions reduces effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ffa56cb1-9a63-4eb6-a6df-a7bc051650c6",
+      "text": "Ineffective workspace design can exacerbate distraction and reduce productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 60,
+    "last_updated": "2026-02-11T08:14:26.413829Z",
+    "aggregated_from": [
+      {
+        "book": "Deep Work",
+        "chapter": 22
+      }
+    ]
+  }
+}

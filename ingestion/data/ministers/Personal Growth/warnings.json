@@ -1,0 +1,56 @@
+{
+  "domain": "Personal Growth",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "9a4c0cc7-6f0b-481f-bdf9-8ba51c4e09db",
+      "text": "Ignoring relationship dynamics can lead to unexpected burdens later.",
+      "source": {
+        "book": "Crime",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ad586a34-9d0c-417e-9ee3-f22cee402c13",
+      "text": "Deceptive practices in agreements can fundamentally undermine trust.",
+      "source": {
+        "book": "Crime",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9446c8d3-f471-4fd6-878b-af810389dc62",
+      "text": "Unallocated savings can lead to missed opportunities.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7dd1411d-3728-45f2-b350-1ab9f05545a3",
+      "text": "Misguided investments can result in financial loss or stagnation.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 5
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 4,
+    "last_updated": "2026-02-14T19:55:37.136255Z",
+    "aggregated_from": [
+      {
+        "book": "Crime",
+        "chapter": 8
+      },
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "domain": "Wealth",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "3887d553-59c4-4ca5-80cb-63f736a281a4",
+      "text": "Consult knowledgeable advisors before managing valuable assets",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4078c0da-a888-4e4b-93f1-8d52bf102adf",
+      "text": "Maintain diversified holdings to mitigate risk",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-14T19:26:08.667113Z",
+    "aggregated_from": [
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 13
+      }
+    ]
+  }
+}

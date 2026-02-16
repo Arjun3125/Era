@@ -1,0 +1,56 @@
+{
+  "domain": "Personal Growth",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "8f116961-3711-42e7-bd5b-2a56141f9f2b",
+      "text": "Understand motivations behind actions and decisions.",
+      "source": {
+        "book": "Crime",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8e209d27-5b96-4957-bc33-5bdc2b786fd0",
+      "text": "True understanding requires looking beyond surface-level interactions.",
+      "source": {
+        "book": "Crime",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8840f049-1267-4441-a578-02d82bc79ec4",
+      "text": "Consistent saving is foundational to wealth creation.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7096327c-513a-44df-8da2-0c0f4378e345",
+      "text": "Investing requires understanding and preparation before opportunity arises.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 5
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 4,
+    "last_updated": "2026-02-14T19:55:37.092130Z",
+    "aggregated_from": [
+      {
+        "book": "Crime",
+        "chapter": 8
+      },
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 5
+      }
+    ]
+  }
+}

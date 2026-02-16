@@ -1,0 +1,51 @@
+t matches the evidence for her talent. The final step is a translation, from an impression of Julie’s relative academic standing to the GPA that corresponds to it.
+
+Intensity matching yields predictions that are as extreme as the evidence on which they are based, leading people to give the same answer to two quite different questions:
+What is Julie's percentile score on reading precocity?
+What is Julie's percentile score on GPA?
+
+By now you should easily recognize that all these operations are features of System 1. I listed them here as an orderly sequence of steps, but of course the spread of activation in associative memory does not work this way. You should imagine a process of spreading activation that is initially prompted by the evidence and the question, feeds back upon itself, and eventually settles on the most coherent solution possible.
+
+Amos and I once asked participants in an experiment to judge descriptions of eight college freshmen, allegedly written by a counselor on the basis of interviews of the entering class. Each description consisted of five adjectives, as in the following example:
+intelligent, self-confident, well-read, hardworking, inquisitive
+
+We asked some participants to answer two questions:
+How much does this description impress you with respect to academic ability?
+
+What percentage of descriptions of freshmen do you believe would impress you more?
+
+The questions require you to evaluate the evidence by comparing the description to your norm for descriptions of students by counselors. The very existence of such a norm is remarkable. Although you surely do not know how you acquired it, you have a fairly clear sense of how much enthusiasm the description conveys: the counselor believes that this student is good, but not spectacularly good. There is room for stronger adjectives than intelligent (brilliant, creative), well-read (scholarly, erudite, impressively knowledgeable), and hardworking (passionate, perfectionist). The verdict: very likely to be in the top 15% but unlikely to be in the top 3%. There is impressive consensus in such judgments, at least within a culture.
+
+The other participants in our experiment were asked different questions:
+What is your estimate of the grade point average that the student will obtain?
+What is the percentage of freshmen who obtain a higher GPA?
+
+You need another look to detect the subtle difference between the two sets of questions. The difference should be obvious, but it is not. Unlike the first questions, which required you only to evaluate the evidence, the second set involves a great deal of uncertainty. The question refers to actual performance at the end of the freshman year. What happened during the year since the interview was performed? How accurately can you predict the student’s actual achievements in the first year at college from five adjectives? Would the counselor herself be perfectly accurate if she predicted GPA from an interview?
+
+The objective of this study was to compare the percentile judgments that the participants made when evaluating the evidence in one case, and when predicting the ultimate outcome in another. The results are easy to summarize: the judgments were identical. Although the two sets of questions differ (one is about the description, the other about the student’s future academic performance), the participants treated them as if they were the same. As was the case with Julie, the prediction of the future is not distinguished from an evaluation of current evidence—prediction matches evaluation. This is perhaps the best evidence we have for the role of substitution. People are asked for a prediction but substitute an evaluation of the evidence, without noticing that the question they answer is not the one they were asked. This process is guaranteed to generate predictions that are systematically biased; they completely ignore regression to the mean.
+
+During my military service in the Israeli Defense Forces, I spent some time attached to a unit that selected candidates for officer training on the basis of a series of interviews and field tests. The designated criterion for successful prediction was a cadet’s final grade in officer school. The validity of the ratings was known to be rather poor (I will tell more about it in a later chapter). The unit still existed years later, when I was a professor and collaborating with Amos in the study of intuitive judgment. I had good contacts with the people at the unit and asked them for a favor. In addition to the usual grading system they used to evaluate the candidates, I asked for their best guess of the grade that each of the future cadets would obtain in officer school. They collected a few hundred such forecasts.
+
+The officers who had produced the predictions were all familiar with the letter grading system that the school applied to its cadets and the approximate proportions of A’s, B’s, etc., among them. The results were striking: the relative frequency of A’s and B’s in the predictions was almost identical to the frequencies in the final grades of the school. These findings provide a compelling example of both substitution and intensity matching. The officers who provided the predictions completely failed to discriminate between two tasks:
+
+their usual mission, which was to evaluate the performance of candidates during their stay at the unit
+the task I had asked them to perform, which was an actual prediction of a future grade
+
+They had simply translated their own grades onto the scale used in officer school, applying intensity matching. Once again, the failure to address the (considerable) uncertainty of their predictions had led them to predictions that were completely nonregressive.
+
+A Correction for Intuitive Predictions
+
+Back to Julie, our precocious reader. The correct way to predict her GPA was introduced in the preceding chapter. As I did there for golf on successive days and for weight and piano playing, I write a schematic formula for the factors that determine reading age and college grades:
+reading age = shared factors + factors specific to reading age = 100%
+GPA = shared factors + factors specific to GPA = 100%
+
+The shared factors involve genetically determined aptitude, the degree to which the family supports academic interests, and anything else that would cause the same people to be precocious readers as children and academically successful as young adults. Of course there are many factors that would affect one of these outcomes and not the other. Julie could have been pushed to read early by overly ambitious parents, she may have had an unhappy love affair that depressed her college grades, she could have had a skiing accident during adolescence that left her slightly impaired, and so on.
+
+Recall that the correlation between two measures—in this case reading age and GPA—is equal to the proportion of shared factors among their determinants. What is your best guess about that proportion? My most optimistic guess is about 30%. Assuming this estimate, we have all we need to produce an unbiased prediction. Here are the directions for how to get there in four simple steps:
+
+1. Start with an estimate of average GPA.
+2. Determine the GPA that matches your impression of the evidence.
+3. Estimate the correlation between your evidence and GPA.
+4. If the correlation is .30, move 30% of the distance from the average to the matching GPA.
+
+Step 1 gets you the baseline, the GPA you would have predicted if you were told nothing about Julie beyond the fact that she is a graduating senior. In the absence of information, you would have predicted the average. (This is similar to assigning the base-rate probability of business administration graduates when you are told nothing about Tom W.) Step 2 is your intuitive pred

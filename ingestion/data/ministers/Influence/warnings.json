@@ -1,0 +1,25 @@
+{
+  "domain": "Influence",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "d5cc782b-67c8-4f2f-9334-86cbeb88c3c9",
+      "text": "Be vigilant against subtle compliance tactics",
+      "source": {
+        "book": "The Psychology of Persuasion",
+        "chapter": 2
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 1,
+    "last_updated": "2026-02-13T08:54:08.384512Z",
+    "aggregated_from": [
+      {
+        "book": "The Psychology of Persuasion",
+        "chapter": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "domain": "decision",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "53f32cfb-e775-4dd1-8c8c-e46b0025de06",
+      "text": "Delaying action due to language barriers risks missing valuable contributions.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7dc1736a-76e8-477c-867d-1e06c3705209",
+      "text": "Relying solely on initial impressions may overlook significant potential.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 1
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T22:50:38.660949Z",
+    "aggregated_from": [
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 1
+      }
+    ]
+  }
+}

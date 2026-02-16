@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-02-15T04:16:12.966395",
+  "num_samples": 4,
+  "samples": [
+    {
+      "decision_id": "decision_0",
+      "features": {},
+      "label": {
+        "principle_weight": 1.0,
+        "rule_weight": 1.0,
+        "warning_weight": 1.0,
+        "claim_weight": 1.0,
+        "advice_weight": 1.0
+      },
+      "outcome": {
+        "success": true,
+        "regret_score": 0.2,
+        "recovery_time_days": 0,
+        "secondary_damage": false,
+        "notes": "Test outcome - decision succeeded",
+        "timestamp": "2026-02-15T04:16:12.873605"
+      },
+      "timestamp": "2026-02-15T04:16:12.855088"
+    },
+    {
+      "decision_id": "decision_1",
+      "features": {},
+      "label": {
+        "principle_weight": 1.0,
+        "rule_weight": 1.0,
+        "warning_weight": 1.0,
+        "claim_weight": 1.0,
+        "advice_weight": 1.0
+      },
+      "outcome": {
+        "success": true,
+        "regret_score": 0.1,
+        "recovery_time_days": 0,
+        "secondary_damage": false,
+        "notes": "Test outcome - success",
+        "timestamp": "2026-02-15T04:16:12.875103"
+      },
+      "timestamp": "2026-02-15T04:16:12.874675"
+    },
+    {
+      "decision_id": "decision_2",
+      "features": {},
+      "label": {
+        "principle_weight": 1.0,
+        "rule_weight": 1.0,
+        "warning_weight": 1.0,
+        "claim_weight": 1.0,
+        "advice_weight": 1.0
+      },
+      "outcome": {
+        "success": false,
+        "regret_score": 0.8,
+        "recovery_time_days": 30,
+        "secondary_damage": false,
+        "notes": "Test outcome - failure",
+        "timestamp": "2026-02-15T04:16:12.896392"
+      },
+      "timestamp": "2026-02-15T04:16:12.895964"
+    },
+    {
+      "decision_id": "decision_3",
+      "features": {},
+      "label": {
+        "principle_weight": 1.0,
+        "rule_weight": 1.0,
+        "warning_weight": 1.0,
+        "claim_weight": 1.0,
+        "advice_weight": 1.0
+      },
+      "outcome": {
+        "success": true,
+        "regret_score": 0.05,
+        "recovery_time_days": 0,
+        "secondary_damage": false,
+        "notes": "Test outcome - success",
+        "timestamp": "2026-02-15T04:16:12.918629"
+      },
+      "timestamp": "2026-02-15T04:16:12.918261"
+    }
+  ]
+}

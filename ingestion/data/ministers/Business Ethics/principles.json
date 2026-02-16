@@ -1,0 +1,52 @@
+{
+  "domain": "Business Ethics",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "1e31371a-1fb7-4f57-b83b-40074640b218",
+      "text": "Honesty in all dealings",
+      "source": {
+        "book": "Seamos_personas_de_Infliuencia",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f71dd01c-54eb-4de9-bbf6-33dcbf3bf6a2",
+      "text": "Transparency in actions",
+      "source": {
+        "book": "Seamos_personas_de_Infliuencia",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4c5cbf0a-4d42-42f4-98f6-9b1eb8c892ba",
+      "text": "Long-term value over short-term gains",
+      "source": {
+        "book": "Seamos_personas_de_Infliuencia",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "da9c99dc-fc87-4c59-aa20-46dc559168b0",
+      "text": "Consistency in ethical behavior",
+      "source": {
+        "book": "Seamos_personas_de_Infliuencia",
+        "chapter": 6
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 4,
+    "last_updated": "2026-02-13T06:21:31.330136Z",
+    "aggregated_from": [
+      {
+        "book": "Seamos_personas_de_Infliuencia",
+        "chapter": 6
+      }
+    ]
+  }
+}

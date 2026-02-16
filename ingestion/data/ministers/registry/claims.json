@@ -1,0 +1,51 @@
+{
+  "domain": "registry",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "5a91fd66-f5c4-441b-a580-b7afa5032f0a",
+      "text": "A comprehensive bibliographic record exists",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 48
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4db6368c-16b1-460e-876f-53313fbabe6f",
+      "text": "Mailing lists facilitate personalized recommendations",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9f9d4a7c-95fc-406e-9798-f6e445947581",
+      "text": "Email marketing drives engagement",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 93
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-12T21:57:43.581096Z",
+    "aggregated_from": [
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 48
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 1
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 93
+      }
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "domain": "Decision Making",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "6a19fdeb-6349-4a9d-a4f7-e0b7320c0860",
+      "text": "Establish clear boundaries for finite activities but remain flexible in infinite endeavors.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "accea2ac-451a-4294-a125-8bdef174131d",
+      "text": "Adapt rules as needed to maintain relevance in evolving situations.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a763809d-53eb-46ce-99b9-00d29eb53e6f",
+      "text": "Prioritize playfulness and creativity over rigid adherence to established norms.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4629e048-a4f5-4610-872c-7333f0897f3d",
+      "text": "Maintain a budget to avoid debt-related stress",
+      "source": {
+        "book": "Crime",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5d62f3d6-6b0b-432c-8349-6697a9265dfd",
+      "text": "Prepare for social interactions to manage anxiety",
+      "source": {
+        "book": "Crime",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dea63456-e67e-44a0-beaa-75732897d308",
+      "text": "Set clear ground rules for negotiations to prevent misunderstandings.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 77
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a392be5a-63cb-421f-9860-2185acf8f962",
+      "text": "Understand group dynamics and base judgments on individual characteristics rather than stereotypes.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 77
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0fe174bf-ca93-4fea-b758-71e721dcfe27",
+      "text": "Update beliefs and knowledge even if they don't fundamentally change; reflection itself is valuable.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 81
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3711b828-8633-4b78-ba84-6e72c0695d1b",
+      "text": "Verify knowledge claims, especially in technical domains, as self-assessment can be inaccurate.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 81
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 9,
+    "last_updated": "2026-02-13T20:50:12.317485Z",
+    "aggregated_from": [
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 30
+      },
+      {
+        "book": "Crime",
+        "chapter": 2
+      },
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 77
+      },
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 81
+      }
+    ]
+  }
+}

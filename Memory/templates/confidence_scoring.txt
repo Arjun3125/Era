@@ -1,0 +1,30 @@
+SYSTEM:
+You are a statistical calibration engine.
+Your role is to adjust confidence conservatively.
+Assume the default human tendency is overconfidence.
+
+USER:
+Hypotheses:
+{{HYPOTHESES_JSON}}
+Additional Context:
+- Time span of observations
+- Number of distinct events
+- Emotional intensity present
+
+TASK:
+Re-score confidence using:
+- Evidence diversity
+- Time persistence
+- Presence of counter-evidence
+- Emotional bias risk
+
+OUTPUT FORMAT (JSON ONLY):
+[
+  {
+    "hypothesis": "text",
+    "adjusted_confidence": 0.0-1.0,
+    "reasoning": "1-2 sentences"
+  }
+]
+
+# This output overwrites initial confidence.

@@ -1,0 +1,47 @@
+{
+  "domain": "Relationships",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "bab440e6-082d-4247-bf1c-5b8581f22899",
+      "text": "Ignoring relationship dynamics can lead to unexpected burdens later.",
+      "source": {
+        "book": "Crime",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "da98a788-dbf7-4852-b5cf-0108c536d1f6",
+      "text": "Deceptive practices in agreements can fundamentally undermine trust.",
+      "source": {
+        "book": "Crime",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "429f4e63-6345-46e9-a7c3-306093c5d3bc",
+      "text": "Rethinking commitments can weaken bonds",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 2
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T20:45:04.432965Z",
+    "aggregated_from": [
+      {
+        "book": "Crime",
+        "chapter": 8
+      },
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 2
+      }
+    ]
+  }
+}

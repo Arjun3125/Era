@@ -1,0 +1,34 @@
+{
+  "domain": "Business Innovation",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "c3d3482d-c10b-46bf-b763-2a7be2a8bd7e",
+      "text": "Establish clear expectations before delegating tasks",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 84
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "29dee2ff-139d-49dd-b0d8-2f3cadb6df6a",
+      "text": "Ensure theories are grounded in fundamental principles",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 84
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T15:03:21.183045Z",
+    "aggregated_from": [
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 84
+      }
+    ]
+  }
+}

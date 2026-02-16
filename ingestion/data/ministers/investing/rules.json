@@ -1,0 +1,56 @@
+{
+  "domain": "investing",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "cfcec84b-34a9-4892-9500-5a7d9abd3636",
+      "text": "Set clear expectations for financial goals",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cfe016da-f129-412c-ae7a-d822b1a8bd60",
+      "text": "Follow a step-by-step procedure for financial success",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b05fe661-d125-4aea-98ed-fecd1a3a773c",
+      "text": "Always allocate a portion of income to savings before spending.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bed2dbbd-61d7-40ac-9b3b-a34ae7515158",
+      "text": "Avoid speculative investments that do not generate reliable returns.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 5
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 4,
+    "last_updated": "2026-02-14T19:55:37.044966Z",
+    "aggregated_from": [
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 5
+      }
+    ]
+  }
+}

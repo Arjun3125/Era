@@ -1,0 +1,1892 @@
+1 “We Make Them Dance”: Surveillance Capitalism,  
+the Rise of Instrumentarian Power, and the Threat to 
+Human Rights
+Shoshana Zuboff
+What Just Happened?
+A 2002 review of “wireless telemedicine” stressed the value of home health 
+monitoring for the elderly and the expansion of health services in remote 
+areas. A diagram of the proposed digital architecture for such services fea -
+tured only three parties: a closed loop that exclusively linked a person 
+at home, her hospital’s servers, and her physician (Pattichis et al. 2002, 
+143– 153). Digitalized information about one’s body was imagined as deeply 
+“mine”: an inalienable extension of self with which one could choose to 
+enrich already close relationships, such as those between a patient and 
+a trusted doctor or elderly parents and their adult children. In just a few 
+years, however, those 2002 schematics faded like an old daguerreotype.
+Many studies of health monitoring continue to emphasize its utility for 
+the elderly and other forms of remote care, but the conversation has deci -
+sively moved on from its earlier state of grace. Researchers anticipate the 
+fusion of “smart cities” and what’s now called “m-health” to produce “smart 
+health,” defined as “the provision of health services by using the context-  
+aware network and sensing infrastructure of smart cities” (Solanas et al. 
+2014, 74– 81). Toward that end, there are now reliable sensors for rendering 
+an increasing range of physiological processes as behavioral data, including 
+body temperature, heart rate, brain activity, muscle motion, blood pres -
+sure, sweat rate, energy expenditure, and body and limb motion (Intille 
+et al. 2012, 24– 31; Mukhopadhyay 2015, 1321– 1330). There are sensors 
+that can render audio, visual, and physiological data during postsurgical 
+patient recovery and rehabilitation (Castillejo et al. 2013, 38– 49). A flexi-
+ble, sensored textile patch has been developed that can render breathing, 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 20264 Shoshana Zuboff
+hand movements, swallowing, and walking as behavioral data (Cheng et 
+al. 2013, 3935– 3947). In other applications, “wearable micromachined sen-
+sors” provide “accurate biomechanical analysis” as you walk or run, and 
+a “body area network” records and analyzes walking and running “under 
+extreme conditions” (De Rossi and Veltink 2010, 37– 43).
+These rich data can no longer be imagined as cloistered within the inti-
+mate closed loops of family and physician or even an application and its 
+dieters or runners. By 2016, there were more than 100,000 mobile health 
+apps available on the Google Android and Apple iOS platforms, double the 
+number in 2014 (Addonizio 2016). A legal review of mobile health apps 
+concludes that most of them “take the consumers’ private information and 
+data without the consumers’ permission and . . . do not generally disclose 
+to the user that this information will be sent to advertising companies” 
+(Dehling et al. 2015, 1– 26). These conclusions are borne out by a long 
+queue of studies.
+One in- depth investigation focused on the collection, processing, and 
+usage activities associated with nine prominent fitness trackers (Hilts et al. 
+2016). All but two apps transmitted every logged fitness event to the com-
+pany’s servers, which enabled backup and sharing with one’s friends but 
+also “data analytics” and distribution to third parties. Among many dis -
+turbing findings was the fact that some of the trackers transmitted device 
+identification numbers; others passively and continuously transmitted the 
+user’s precise longitude and latitude coordinates. These identifiers “could 
+link fitness and biographical data to a single mobile phone hardware, or 
+single specific fitness wearable. . . .” None of this sensitive information was 
+necessary for the tracker to operate effectively, and most of the privacy pol-
+icies were opaque at best and allowed data to be “sold or exchanged with 
+third parties.” The researchers concluded, “We discovered severe security 
+vulnerabilities, incredibly sensitive geolocation transmissions that serve no 
+apparent benefit to the end user, and . . . policies leaving the door open 
+for the sale of users’ fitness data to third parties without express consent 
+of the users.”
+A comprehensive study of Android- based diabetes apps published in the 
+Journal of American Medicine notes that while the US Food and Drug Admin-
+istration approved the prescription of a range of apps that transmit sensitive 
+health data, the behind- the- scenes practices of these apps are “ understud-
+ied” (italics mine; Blenner et al. 2016, 1051– 1052). Researchers examined 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 5
+211 diabetes apps and randomly sampled 65 of them for close analysis of 
+data- transmission practices. In some of these apps, merely downloading the 
+software automatically “authorized collection and modification of sensitive 
+information.” They identified many backstage operations, including apps 
+that modify or delete your information (64 percent), read your phone status 
+and identity (31 percent), gather location data (27 percent), view your Wi- Fi 
+connections (12 percent), and activate your camera in order to access your 
+photos and videos (11 percent). Between 4 and 6 percent of the apps went 
+even further: reading your contact lists, calling phone numbers found in 
+your device, modifying your contacts, reading your call log, and activating 
+your microphone to record your speech.
+The research team concluded that privacy policies do not matter. Of the 
+211 apps in the group, 81 percent did not have privacy policies, but for 
+those that did, “not all of the provisions actually protected privacy.” Of 
+those apps without privacy policies, 76 percent shared sensitive information 
+with third parties, and of those with privacy policies, 79 percent shared your 
+data while only about half admitted doing so in their published disclosures. 
+Indeed, these discoveries suggest that the very notion of a “privacy pol -
+icy’ has become a dangerous euphemism, when such statements are better 
+understood as “surveillance policies.”
+The coda here is simple: Once I was mine. Now I am theirs . In 2002, inti-
+mate health and body information was assumed to be the possession of 
+the experiencing subject. Now, the same information is assumed to be the 
+possession of the owners of the means by which it is produced. The experi-
+encing subject is transformed into a data object. This transformation reflects 
+what might be thought of as a journey through the ontologies, econom -
+ics, and politics of possession, alerting us to the qualities of existence and 
+power that attend self- possession in contrast to dispossession. The journey 
+from one to the other is not restricted to body information but rather illus-
+trates a pattern that now engulfs every aspect of human experience. We 
+must therefore ask, what is it that determines these states of possession? 
+What happened between 2002 and 2018 to decisively transform the onto -
+logical, economic, and political structures of these information flows? This 
+question is aimed at the early twenty- first century, but it is clarified in a 
+useful way with a quick backward glance.
+“We’ve stumbled along for a while, trying to run a new civilization in 
+old ways, but we’ve got to start to make this world over.” It was 1912 when 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 20266 Shoshana Zuboff
+Thomas Edison laid out his vision for a new industrial civilization in a 
+letter to Henry Ford. Edison worried that industrialism’s potential to serve 
+the progress of humanity would be thwarted by the stubborn power of the 
+robber barons and the monopolist economics that ruled their kingdoms. 
+He decried the “wastefulness” and “cruelty” of US capitalism: “Our pro -
+duction, our factory laws, our charities, our relations between capital and 
+labor, our distribution —all wrong, out of gear” (Nevins 1954, 532). Both 
+Edison and Ford understood that the modern industrial civilization for 
+which they harbored such hope was careening toward a darkness marked 
+by industrial enslavement and grinding poverty for the many and prosper-
+ity for the very few.
+The two quintessentially American inventors agreed that the moral life 
+of industrial civilization would be shaped by the practices of capitalism that 
+rose to dominance in their time and the unbridled power that such prac -
+tices enjoyed, largely unimpeded by law, regulation, or jurisprudence. They 
+believed that US society, and eventually the world, would have to fashion 
+a new, more rational capitalism in order to avert a future of misery and 
+conflict. A new century had dawned, but the evolution of capitalism, like 
+the churning of civilizations, did not obey the calendar or the clock. It was 
+1912, and still the nineteenth century’s Gilded Age refused to relinquish its 
+claim on the twentieth.
+The same can be said of our time. Once more we look to the great struc-
+tural transformations of the market economy and its novel realizations of 
+capitalism to define our era, and once more we see their promise occluded 
+by the emergence of a new quality of economic power whose effects are 
+revealed in a new kind of enslavement. What happened in the years 
+between 2002 and 2018 was the emergence of a new surveillance capitalism, 
+whose mechanisms and operations are only imaginable within the digital 
+milieu (Zuboff 2014, 2015, 2016). Surveillance capitalism produces a new 
+species of economic power that I call instrumentarianism. Together, the new 
+capitalism and its unique production of power are as untamed by law as 
+were the capitalism and economic power of the Gilded Age, and they are 
+just as dangerous. Despite the many splendors of the digital milieu, surveil-
+lance capitalism and instrumentarian power now inscribe our lives with 
+their unique signature of havoc, challenging human rights in ways that we 
+did not predict and could not anticipate. Many old inequalities are deep -
+ened, while wholly new axes of exclusion and domination threaten every 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 7
+unprotected dimension of human experience. Earlier contests over political 
+rights are renewed, elemental human rights are abrogated, and even the 
+“right to have rights” is under siege (Arendt 2004).
+Indeed, when it comes to the digital future and its consequences for 
+human rights, a single point demands our attention: The challenges to 
+human rights that we encounter in the digital era cannot be circumscribed 
+by a specific technology or company, though they may be expressed in 
+technological assemblies, such as algorithms and platforms, or in the prac-
+tices of a single corporation. Rather, the challenges we face originate in the 
+rapid evolution of a new economic order  in which wealth is largely derived 
+from surveillance— specifically, the unilateral dispossession of human experi -
+ence for the sake of others’ profit.  As was the case in the twentieth century, 
+this new economic order seeks to fashion in its likeness human personal -
+ity, society, civilization, and the frameworks of human rights that bind all 
+three. The sudden development of these conditions of existence means that 
+if we are to claim the future for humanity, then new forms of collective 
+action, resistance, and struggle are required. This chapter aims to contribute 
+to such an undertaking by illuminating this triad: a novel capitalism, its 
+novel form of power, and their novel challenges to elemental human rights 
+that bear upon the production of autonomous action.
+What Is Surveillance Capitalism?1
+Framework
+This effort to understand surveillance capitalism begins with the recog -
+nition that we hunt the puppet master, not the puppet.  A first challenge to 
+comprehension is the confusion between surveillance capitalism and the 
+technologies it employs. Surveillance capitalism is not technology; it is a 
+logic that imbues technology and commands it into action. Surveillance 
+capitalism is a market form that is unimaginable outside the digital milieu, 
+but it is not the same as “the digital.” As is evident in the evolution of tele-
+medicine, the digital can take many forms depending upon the social and 
+economic logics that direct it into action. It is the capitalism that assigns the 
+price tag of subjugation and helplessness, not the technology. In my view 
+it is vital to understand that surveillance capitalism cannot be reduced to 
+“platforms,” “algorithms,” “machine intelligence,” or any other technolog-
+ical manifestation. While it is impossible to imagine surveillance capitalism 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 20268 Shoshana Zuboff
+without the affordances of the digital, it is perfectly possible to imagine 
+these technologies and capabilities without surveillance capitalism.
+That technologies are always economic means, not ends in themselves, 
+is not a new point. Max Weber called attention to this “economic orienta-
+tion,” observing that economic ends are always intrinsic to technology’s 
+development and deployment. “Economic action” determines objectives, 
+whereas technology provides “appropriate means.” In Weber’s framing, 
+“The fact that what is called the technological development of modern 
+times has been so largely oriented economically to profit- making is one of 
+the fundamental facts of the history of technology” (Weber 1978, 67). In a 
+modern capitalist society, technology is, was, and always will be an expres-
+sion of the economic objectives that direct it into action. A worthwhile 
+exercise would be to delete the word “technology” from our vocabularies in 
+order to see how quickly capitalism’s objectives are exposed.
+The primacy of economics over technology is not new, but capitalism 
+has long found it useful to conceal itself within the Trojan horse of tech -
+nology in order that we might perceive its excesses as the inevitable expres-
+sion of the machines it employs. Surveillance capitalists are no exception. 
+For example, in 2009 the public first became aware that Google maintains 
+search histories indefinitely. When questioned about these practices, the 
+corporation’s former CEO Eric Schmidt explained, “. . . the reality is that 
+search engines including Google do retain this information for some time” 
+(Newman 2009). In truth, search engines do not retain, but surveillance 
+capitalism does. Schmidt’s statement is a classic of misdirection that bewil-
+ders the public by conflating commercial imperatives and technological 
+necessity. It camouflages the concrete practices of surveillance capitalism 
+and the specific choices that impelled Google’s brand of search into action. 
+Most significantly, it makes surveillance capitalism’s practices appear to 
+be inevitable, when they are actually meticulously calculated and lavishly 
+funded means to self- dealing commercial ends.
+Just as surveillance capitalism is not the same as technology, this new 
+logic of accumulation cannot be reduced to any single corporation or group 
+of corporations. Surveillance capitalism first rooted and flourished at Goo-
+gle and Facebook, then quickly became the default mode for most Internet 
+businesses, startups, and apps. By now surveillance capitalism can no longer 
+be thought of as restricted to individual companies or even to the Internet 
+sector. It has spread across a wide range of products, services, and economic 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 9
+sectors, including insurance, retail, health care, finance, entertainment, 
+education, transportation, and more, birthing whole new ecosystems of 
+suppliers, producers, customers, market- makers, and market players. Nearly 
+every product or service that begins with the word “smart” or “personal -
+ized,” every Internet- enabled device, every “digital assistant,” operates as a 
+supply- chain interface for the unobstructed flow of behavioral data.
+Surveillance capitalism was invented at Google, where its logic and foun-
+dational mechanisms were discovered and elaborated between 2001 and 
+2004 in much the same way that General Motors invented and perfected 
+managerial capitalism a century ago. Google was the pathfinder of surveil-
+lance capitalism in thought and practice, the deep pocket for research and 
+development, and the catalyst in experimentation and implementation. As 
+the pioneer of surveillance capitalism, Google launched an unprecedented 
+market operation into the unmapped spaces of the Internet where it faced 
+few impediments from law or competitors, like an invasive species in a 
+landscape free of natural predators. Its leaders drove the systemic coher -
+ence of their businesses at a breakneck pace that neither public institutions 
+nor individuals could follow. Indeed, both speed and secrecy were carefully 
+crafted strategies of shock and awe essential to the company’s larger ambi-
+tions of market dominance (Zuboff, 2019).
+Surveillance capitalism originates in history, not in technological inev -
+itability. Google’s discovery and pursuit of surveillance capitalism cannot 
+be separated from the unique historical conditions that first motivated the 
+urgent search for a new market form and later nurtured and sheltered its 
+new mechanisms of accumulation. Specifically, the young company faced 
+extreme pressure from its investors in the teeth of the 2001 financial crisis 
+in Silicon Valley. Surveillance capitalism was invented as the solution to 
+this financial emergency. It proved itself a rapid methodology for the trans-
+lation of investment into revenue and capital. Google also benefitted from 
+historical circumstance, when a national security apparatus galvanized by 
+the attacks of 9/11 was inclined to nurture, mimic, shelter, and appropriate 
+surveillance capitalism’s emergent capabilities for the sake of total knowl-
+edge and its promise of total certainty. These dynamics comprise a political 
+condition that I call surveillance exceptionalism.
+The combination of financial success and the politics of surveillance 
+exceptionalism transformed the new logic of accumulation into the default 
+model of information capitalism. Surveillance capitalism migrated to 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 202610 Shoshana Zuboff
+Facebook with Google- turned- Facebook executive Sheryl Sandberg and 
+later took hold at Microsoft under the leadership of CEO Satya Nadella. 
+Evidence suggests that Amazon has veered toward surveillance capitalism. 
+The lure of surveillance revenue remains a constant challenge to Apple, 
+both as an external threat and as a source of internal debate and conflict. 
+Surveillance capitalism is no longer confined to the competitive dramas 
+of the large Internet companies as competitive intensity eventually drove 
+expansion into the offline world. Its economic imperatives and founda -
+tional mechanisms now spread across every economic sector and category 
+of goods and services.
+“Laws of Motion”
+Borrowed from Newton’s laws of inertia, force, and equal and opposite reac-
+tions, “laws of motion” is a metaphor that has been used to describe the nec-
+essary and predictable features of industrial capitalism (Marx 1992, 91– 92; 
+Wood 2002, 76, 93, 125). While surveillance capitalism does not abandon 
+established capitalist “laws” such as competitive production, profit maxi -
+mization, productivity, and growth, these earlier dynamics now operate in 
+the context of a new logic of accumulation that also introduces its own sui 
+generis laws of motion. Surveillance capitalism is defined by new economic 
+imperatives whose mechanisms and effects cannot be grasped with existing 
+models and assumptions. This is not to say that the old imperatives —a 
+compulsion toward profit maximization along with the intensification 
+of the means of production, growth, and competition —have vanished. 
+Rather, these must now operate through the novel aims and mechanisms 
+of a new market form. Most people credit Google’s success to its advertising 
+model. But the discoveries that led to Google’s rapid rise in revenue and 
+market capitalization are only incidentally related to advertising. Google’s 
+success derives from its ability to predict the future—specifically the future 
+of human behavior.
+The Rendition of Experience: Human– Natural Resources
+From the start, Google had collected data on users’ search- related behavior 
+as a by- product of query activity. Back then, these data logs were treated 
+as waste, not even safely or methodically stored. Eventually, the young 
+company came to understand that these logs could be used to teach and 
+continuously improve its search engine. The problem was this:  Serving 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 11
+users with effective search results “used up” all the value that users cre -
+ated when they inadvertently provided behavioral data. It was a complete 
+and self- contained process in which users were ends in themselves. All the 
+value that users created was reinvested in their experience in the form of 
+improved search, a progression that I have called the behavioral value rein -
+vestment cycle. In this interaction, there was nothing “left over,” no surplus 
+for Google to turn into capital. As long as the effectiveness of the search 
+engine needed users’ behavioral data about as much as users needed search, 
+charging a fee for service was too risky. In 2001 Google was remarkable, but 
+it wasn’t yet capitalism—just one of many Internet start- ups that boasted 
+“eyeballs” but no revenue.
+The year 2001 brought the dot.com bust and mounting investor pres -
+sures at Google. Back then, advertisers selected the search term pages for 
+their displays. Google decided to try and boost ad revenue by applying its 
+already substantial analytical capabilities to the challenge of increasing an 
+ad’s relevance to users—and thus its value to advertisers. Operationally, this 
+meant that Google would finally repurpose its growing cache of “useless” 
+behavioral data. Now the data would be used to match ads with keywords, 
+exploiting subtleties that only its access to behavioral data, combined with 
+its analytical capabilities, could reveal.
+It’s now clear that this shift in the use of behavioral data was an his -
+toric turning point. Behavioral data that were once discarded or ignored 
+were rediscovered as what I call behavioral surplus: data reserves that are 
+more than what is required for product and service improvements. Google’s 
+dramatic success in “matching” ads to pages revealed the transformational 
+value of this behavioral surplus as a means of generating revenue and ulti-
+mately turning investment into revenue.
+Key to this formula was the fact that this new market exchange was not 
+an exchange with users but rather with companies who understood how 
+to make money from bets on users’ future behavior. In this new context, 
+users were no longer ends in themselves. Instead, they became a means to 
+profits in a new behavioral futures market in which users are neither buyers 
+nor sellers nor products. Users are instead the human nature- al source of 
+free raw material that feeds a new kind of manufacturing process designed 
+to fabricate prediction products. These products are calculations that predict 
+what individuals and groups will do now, soon, and later. The more raw 
+materials that are fed into this new machine intelligence– based “means of 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 202612 Shoshana Zuboff
+production,” the more powerful are its prediction products. While these 
+processes were initially aimed at online ad targeting, they are no more 
+restricted to that application than mass production was restricted to the 
+manufacture of automobiles, where it was first applied at scale.
+Many of the facts I describe here are well- known, but their significance 
+has not been fully appreciated or adequately theorized. Google and other 
+surveillance platforms are sometimes described as “two- sided” or “multi- 
+sided” markets (Rochet and Tirole 2006, 645– 667), but the mechanisms of 
+surveillance capitalism suggest something different. Google had discovered 
+a way to translate its nonmarket interactions with users into surplus raw 
+material for the fabrication of products aimed at genuine market transac -
+tions with its real customers: advertisers (Strandburg 2013). The translation 
+of human experience outside the market to behavioral data that circulates 
+inside the market finally enabled Google to convert investment into reve -
+nue. The corporation thus created out of thin air and at zero marginal cost 
+an asset class of vital raw materials derived from users’ nonmarket online 
+experience. At first those raw materials were simply “found,” a by- product 
+of users’ search action. Later those assets were hunted aggressively, pro -
+cured, and accumulated —largely through unilateral operations designed 
+to evade individual awareness and thus bypass individual decision rights—
+operations that are therefore best summarized as “surveillance.”
+That behavioral surplus became the defining element of Google’s success 
+was well understood by its leaders. Google’s former CEO Eric Schmidt cred-
+its Hal Varian’s early development of the firm’s ad auctions with providing 
+the eureka moment that clarified the true nature of Google’s business— “All 
+of a sudden, we realized we were in the auction business”— referring to the 
+automated behavioral futures markets deployed in ad targeting (Polanyi 
+2001, 75– 76). Larry Page is credited with a very different and far more 
+insightful answer to the question “What is Google?” Google’s first brand 
+manager, Douglas Edwards, recounts a 2001 session with the founders that 
+probed their answers to that precise query. It was Page who ruminated, “If 
+we did have a category, it would be personal information. . . . The places 
+you’ve seen. Communications. . . . Sensors are really cheap. . . . Storage 
+is cheap. Cameras are cheap. People will generate enormous amounts of 
+data. . . . Everything you’ve ever heard or seen or experienced will become 
+searchable. Your whole life will be searchable” (Edwards 2011, 291).
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 13
+Page’s vision perfectly reflects the history of capitalism as a process of 
+taking things that live outside the market sphere and declaring their new 
+life as market commodities. In historian Karl Polanyi’s 1944 grand narra -
+tive of the “great transformation” to a self- regulating market economy, he 
+described the origins of this translation process in three astonishing and 
+crucial mental inventions that he called “commodity fictions.” The first 
+was that human life could be subordinated to market dynamics and reborn 
+as “labor” to be bought and sold. The second was that nature could be trans-
+lated into the market and reborn as “land” or “real estate.” The third was 
+that exchange could be reborn as “money” (Polanyi 2001, 75– 76). Nearly 
+eighty years earlier, Karl Marx had described the taking of lands and natural 
+resources as the original “big bang” that ignited modern capital formation, 
+calling it “primitive accumulation” (Marx 1992).
+Page grasped that human experience would be Google’s virgin wood—
+that it could be extracted at no extra cost online and at a low marginal cost 
+out in the real world, where “sensors are really cheap,” thus producing a 
+surplus as the basis of a wholly new class of market exchange. Surveillance 
+capitalism originates in this act of digital dispossession, operationalized in 
+the rendition of human experience as behavioral data. This is the lever that 
+moved Google’s world and shifted it toward profit, changing the trajec -
+tory of information capitalism as it claimed undefended human experience 
+for a market dynamic that would encounter no impediment in the lawless 
+spaces of the Internet.
+The significance of behavioral surplus was lost in euphemism, both 
+at Google and throughout the Internet industry, with labels like “digital 
+exhaust,” “digital breadcrumbs,” and so on.2 These euphemisms for behav-
+ioral surplus operate as ideological filters in exactly the same way that the 
+earliest maps of the North American continent labeled whole regions with 
+terms like “heathens,” “infidels,” “idolaters,” “primitives,” “vassals,” or 
+“rebels.” On the strength of those labels, native peoples, their places and 
+claims, were erased from the invaders’ moral and legal equations, legitimat-
+ing their acts of taking and breaking in the name of Church and Monarchy.
+In the case of surveillance capitalism, camouflage and other methodol -
+ogies of secrecy aim to prevent interruption of critical supply- chain oper-
+ations that begin with the rendition of human experience and end with 
+the delivery of behavioral data to machine intelligence– based production 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 202614 Shoshana Zuboff
+systems. These operations of secrecy by design turn us into exiles from our 
+own behavior, denied access to or control over knowledge derived from our 
+experience. Knowledge and power rest with surveillance capital, for which 
+we are merely “human natural” resources. We are the native peoples, now, 
+whose tacit claims to self- determination have vanished from the maps of 
+our own lives.
+To be sure, there are always sound business reasons for hiding the loca -
+tion of your gold mine. In Google’s case, an explicit “hiding strategy” 
+accrued to its competitive advantage, but there were other, more pressing 
+reasons for concealment and obfuscation (Levy 2011, 69). Douglas Edwards 
+writes compellingly about the corporation’s culture of secrecy: According to 
+his account, Larry Page and Sergey Brin were “hawks,” insisting on aggres-
+sive data capture and retention. “Larry opposed any path that would reveal 
+our technological secrets or stir the privacy pot and endanger our ability to 
+gather data.” Page wanted to avoid arousing users’ curiosity by minimizing 
+their exposure to any clues about the reach of the firm’s data operations. 
+He questioned the prudence of the electronic scroll in the reception lobby 
+that displays a continuous stream of search queries, and he “tried to kill” 
+the annual Google Zeitgeist conference that summarizes the year’s trends in 
+search terms (Edwards 2011, 340– 345).
+What might the response have been back then if the public were told 
+that Google’s magic derived from its exclusive capabilities in unilateral 
+surveillance of online behavior and methods specifically designed to over-
+ride awareness and thus individual decision rights? Secrecy was required 
+in order to protect operations designed to be undetectable because they 
+took things from users without asking and employed those illegitimately 
+claimed resources to work in the service of others’ purposes.
+That Google was able to choose secrecy is itself testament to the success 
+of its own claims and an illustration of the difference between “decision 
+rights” and “privacy.” Decision rights confer the power to choose whether 
+to keep something secret or to share it. One can choose the degree of pri -
+vacy or transparency for each situation. US Supreme Court Justice William 
+O. Douglas articulated this view of privacy in 1967: “Privacy involves the 
+choice of the individual to disclose or to reveal what he believes, what he 
+thinks, what he possesses” (Douglas 1967; Farahany 2012). Surveillance 
+capitalism laid claim to these decision rights.
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 15
+The typical complaint is that privacy is eroded, but that is misleading. 
+In the larger societal pattern, privacy is not eroded but redistributed, as 
+decision rights over privacy are claimed for surveillance capital. Instead of 
+many people having the right to decide how and what they will disclose, 
+these rights are concentrated within the domain of surveillance capitalism. 
+Google discovered this necessary element of the new logic of accumulation: 
+it must declare its rights to take the information upon which its success 
+depends. The extraordinary financial power of surveillance capitalism’s 
+hidden inventions was only revealed when Google went public in 2004. 
+At that time it became clear that on the strength of its secrets, the firm’s 
+revenue had increased 3,590 percent in less than four years.
+Today’s owners of surveillance capital have thus declared a fourth fic -
+tional commodity expropriated from the experiential realities of human 
+beings whose bodies, thoughts, and feelings are as blameless as nature’s 
+once plentiful meadows and forests before they fell to the market dynamic. 
+In this new logic, human experience is subjugated to surveillance capitalism’s 
+market mechanisms and rendered as “behavior.” Behavior is reduced to data, 
+ready to take their place in a numberless queue that feeds the machines for 
+fabrication into predictions and eventual exchange in behavioral futures 
+markets. The experiencing individual is not essential to this market action, 
+except as the source of raw material.
+The summary of these developments is that the behavioral surplus 
+upon which Google’s fortune rests can be considered as surveillance assets. 
+These assets are critical raw materials in the pursuit of surveillance customers 
+for the sake of surveillance revenues  and their translation into surveillance 
+capital. The entire logic of this capital accumulation is most accurately 
+understood as surveillance capitalism, which is the foundational framework 
+of a surveillance- based economic order: a surveillance economy.  The big 
+pattern here is one of subordination and hierarchy, in which earlier reci -
+procities between the firm and its users are subordinated to the derivative 
+project of behavioral surplus captured for others’ market aims. Individual 
+“users” are not the subjects of value realization. Nor are they, as some have 
+insisted, “the product” in the sales process. Instead, they are the objects 
+from which raw materials are extracted and expropriated for Google’s pre-
+diction factories: they are the means to others’ ends. This is how in our 
+lifetimes we observe capitalism shifting under our gaze: once profits from 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 202616 Shoshana Zuboff
+products and services, then profits from financial speculation, and now 
+profits from surveillance.
+The Extraction Imperative: Economies of Scale
+The accumulation of behavioral surplus is the master motion of surveil -
+lance capitalism from which key economic imperatives can be induced. The 
+quality of prediction products depends upon volume inputs to machine 
+processes. Volume surplus is thus a competitive requirement. This dynamic 
+establishes the extraction imperative, which expresses the necessity of econo-
+mies of scale in surplus accumulation  and depends upon automated systems 
+that relentlessly track, hunt, and induce more behavioral surplus. These 
+systems, which began in the online environment and later spread to the 
+“real” world, constitute an extraction architecture that has evolved in the 
+direction of ubiquity, just as Larry Page anticipated in 2001 and as the evo-
+lution of digital “health” information amply demonstrates. Under the lash 
+of the extraction imperative, the once simple closed loops have been trans-
+formed into a global, sensate, computational, connected architecture of 
+behavioral surplus capture and analysis, fulfilling computer scientist Mark 
+Weiser’s 1999 vision of “ubiquitous computing” memorialized in two leg-
+endary sentences: “The most profound technologies are those that disap -
+pear. They weave themselves into the fabric of everyday life until they are 
+indistinguishable from it” (Weiser 1999).
+The Prediction Imperative: Economies of Scope
+Surveillance profits awakened intense competition over the revenues that 
+flow from behavioral futures markets. In this second phase of competitive 
+intensity, the volume of surplus became a necessary but insufficient condi-
+tion for success. Even the most sophisticated process of converting behav -
+ioral surplus into products that accurately forecast the future is only as good 
+as the raw material available for processing. In the race for higher degrees 
+of certainty, it became clear that the best predictions would have to approx-
+imate observation. The next threshold was defined by the quality, not just 
+the quantity, of behavioral surplus. These pressures led to a search for new 
+supplies of surplus that would more reliably foretell the future. This marks 
+a critical turning point in the trial- and- error elaboration of surveillance 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 17
+capitalism and crystallizes a second economic imperative— the prediction 
+imperative— as the expression of these competitive forces. The prediction 
+imperative drives the diversification of extraction architectures to accom -
+modate, first, economies of scope in surplus accumulation and, later, econ-
+omies of action.
+The shift toward economies of scope represents a new set of aims: behav-
+ioral surplus must be vast, but it must also be varied. These variations have 
+been developed along two dimensions. The first is the extension of extraction 
+operations from the virtual world into the “real” world of embodied human 
+experience. Surveillance capitalists understood that their future wealth 
+would depend upon new supply routes that extend to real life on the roads, 
+among the trees, throughout the cities. Extension wants your bloodstream 
+and your bed, your breakfast conversation, your commute, your run, your 
+refrigerator, your parking space, your living room, your pancreas.
+Economies of scope also proceed along a second depth dimension. The 
+idea here is that more predictive, and therefore more lucrative, behavioral 
+surplus can be plumbed from intimate patterns of the self. These supply 
+operations are aimed at your personality, moods, and emotions; your lies 
+and vulnerabilities. (For a detailed discussion, see Zuboff 2019, chapters 8 
+and 9.) Emergent rendition techniques are trained on successive levels of 
+intimacy where new supplies can be automatically captured and flattened 
+into a tidal flow of data points that proceed toward manufactured certainty.
+As the prediction imperative drives deeper into the self, the value of 
+its surplus becomes irresistible, and the competitive pressures to corner 
+lucrative sources of supply escalate. It is no longer a matter of surveillance 
+capital wringing surplus from what I search, buy, and browse. Surveillance 
+capital wants more than my body’s coordinates in time and space. Now it 
+violates the inner sanctum, as machines and their algorithms decide the 
+meaning of my sighs, blinks, and utterances; the pattern of my breathing 
+and the movements of my eyes; my jaw muscles; the hitch in my voice; 
+and the exclamation points in a Facebook post that I offered in innocence 
+and hope.
+There are many glosses that divert attention from the logic of these oper-
+ations and their economic origins: “ambient computing,” “ubiquitous com-
+puting,” and the “Internet of Things” are but a few examples. The labels 
+differ, but they share a consistent vision: the everywhere, always- on instru-
+mentation, datafication, connection, communication, and computation 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 202618 Shoshana Zuboff
+of all things, animate and inanimate, and all processes— natural, human, 
+physiological, chemical, machine, administrative, vehicular, financial . . . 
+This new architecture provides the means through which human experi -
+ence is continuously rendered —from phones, cars, streets, homes, shops, 
+bodies, trees, buildings, airports, and cities —and translated to the digital 
+realm where it finds a new market life.
+The Prediction Imperative: Economies of Action
+The capital requirements of these automated architectures are justified by 
+the lure of surveillance revenues, continuously ratcheting up the compet -
+itive intensity of the prediction imperative. Just as scale became necessary 
+but insufficient for higher quality predictions, the demands of the predic -
+tion imperative eventually encountered the limitations of economies of 
+scope. While behavioral surplus must be vast and varied, surveillance capi-
+talists gradually came to understand that the surest way to predict behavior 
+is to intervene at its source and shape it. The processes invented to achieve 
+this goal are what I call economies of action.
+Economies of scale and scope are well- known industrial logics, but econ-
+omies of action are distinct to surveillance capitalism and its digital milieu. 
+In order to achieve these economies, machine processes are configured to 
+intervene in the state of play in the real world among real people and things. 
+These interventions are designed to augment prediction products in order 
+that they approximate certainty by “tuning,” “herding,” and condition -
+ing the behavior of individuals, groups, and populations. These economies 
+of action apply techniques that are as varied as inserting a specific phrase 
+into your Facebook news feed, timing the appearance of a BUY button on 
+your phone with the rise of your endorphins at the end of a run, shutting 
+down your car engine when an insurance payment is late, or employing 
+population- scale behavioral microtargeting drawn from Facebook profiles. 
+Indeed, the notorious manipulations of the data firm Cambridge Analytica, 
+which scandalized the world in 2018, simply appropriated the means and 
+methods that are now both standard and necessary operations in the sur -
+veillance capitalism arsenal (Zuboff 2019, 295– 330).
+As the prediction imperative gathers force, it gradually becomes clear 
+that economies of scale and scope were the first phases of a more ambi -
+tious project. Economies of action mean that ubiquitous machine archi -
+tectures must be able to know as well as to do. What began as an extraction 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 19
+architecture now doubles as an execution architecture through which hidden 
+economic objectives are imposed upon the vast and varied field of behav -
+ior. As surveillance capitalism’s imperatives and the material infrastructures 
+that perform extraction and execution operations begin to function as a 
+coherent whole, they produce a twenty- first- century means of behavioral 
+modification to which the means of production is subordinated as merely 
+one part of this larger whole.
+The means of behavioral modification does not aim to compel confor -
+mity to or compliance with social norms, as has been the case with earlier 
+applications of the behaviorist paradigm. Rather, this new complex aims 
+to produce behavior that reliably, definitively, and certainly leads to pre -
+dicted commercial results for surveillance customers. The research director 
+of Gartner, the respected business advisory and research firm, makes the 
+point unambiguously when he observes that mastery of the “Internet of 
+Things” will serve as “a key enabler in the transformation of business mod-
+els from ‘guaranteed levels of performance’ to ‘guaranteed outcomes’” (italics 
+mine; Pettey 2016). This is an extraordinary statement, because there can 
+be no such guarantees in the absence of the power to make it so. The wider 
+complex of “the means of behavioral modification” is the expression of this 
+gathering power. The prospect of businesses competing on the promise of 
+guaranteed outcomes enabled by a global digital architecture alerts us to 
+the force of the prediction imperative, which now demands that surveil -
+lance capitalists make the future for the sake of predicting it.
+Surveillance capitalists’ interests have shifted from using automated 
+machine processes to know about your behavior to using machine pro -
+cesses to shape your behavior according to their interests. Given the con -
+ditions of increasing ubiquity, it has become difficult, if not impossible, 
+to escape this web. Under this regime, ubiquitous computing is not just a 
+knowing machine; it is an actuating machine designed to produce more 
+certainty about us and for them. The nearly two- decade trajectory since the 
+collection and analysis of health data was conceived as a simple closed loop 
+has taken us from automating information flows about behavior to auto-
+mating behavior. Just as industrial capitalism was driven to the continuous 
+intensification of the means of production, so surveillance capitalists are 
+now locked in a cycle of continuous intensification of the means of behav -
+ioral modification. While it is possible to imagine something like a ubiqui -
+tous, connected, sensate computational architecture without surveillance 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 202620 Shoshana Zuboff
+capitalism, the means of behavioral modification depend entirely on this 
+pervasive networked architecture.
+Economies of scale and scope ignored privacy norms and laws, relying 
+on weak legitimation processes like “sadistic contracts” and meaningless 
+mechanisms of notice and consent to accumulate decision rights in the 
+surveillance capitalist domain (Bakos, et al. 2014; Becher and Zarsky 2015; 
+Kar 2013; Kim 2013; Preston 2015; Radin 2012). But economies of action 
+go further. These new systems and procedures take direct aim at individual 
+autonomy, systematically replacing self- determined action with a range of 
+hidden operations designed to shape behavior at the source. Economies 
+of action are constructed through systematic experimentation that began 
+with apparent banalities like the A/B testing of web- page design elements 
+and eventually progressed to more complex undertakings. One example is 
+the secret manipulation of social contagion demonstrated in Facebook’s 
+vast experiments in shaping social behavior, about which the corporation’s 
+researchers concluded, “Emotional states can be transferred to others via 
+emotional contagion, leading people to experience the same emotions 
+without their awareness. . . . Online messages influence our experience of 
+emotions, which may affect a variety of offline behaviors” (Kramer, Guil -
+lory, and Hancock 2014). Another is the population- scale social herding 
+experiments popularized by the Google- incubated augmented reality appli-
+cation of Niantic Labs’ Pokémon Go, in which innocent players are herded 
+to eat, drink, and purchase in the restaurants, bars, fast- food joints, and 
+shops that pay to play in the company’s behavioral futures markets (see the 
+discussion in Zuboff 2019).
+Ultimately behavioral modification capabilities are institutionalized in 
+“innovative” commercial practices in which individuals fund their own 
+domination. One finds digital tuning, herding, and conditioning embedded 
+in such varied practices as the insurance industry’s embrace of “behavioral 
+underwriting,” the gamification of retailing, the remote- control opera -
+tions of automotive telematics, or the “personalized services” of so- called 
+“digital assistants” such as Amazon’s “Alexa,” Google’s “Google Assistant,” 
+and Microsoft’s “Cortana.” What they share is the explicit aim to produce 
+planned behavioral outcomes with methods of behavioral modification 
+that operate through unprecedented and proprietary digital architectures, 
+while carefully circumventing the awareness of human targets.
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 21
+The conflation of economic imperatives and behavior modification at 
+scale locates the surveillance capitalist project squarely in the paradigm of 
+radical behaviorism associated with B. F. Skinner, which draws upon for -
+mulations in early theoretical physics, especially the philosophical work of 
+Max Planck (2007a, 2007b). Following Planck, radical behaviorism insists 
+on the reduction of human experience to observable, measurable behavior 
+purged of inwardness, thus establishing psychological science as the objec-
+tive study of behaving objects comparable to the research paradigms of the 
+natural sciences. Max Meyer, a student of Planck’s and the early- twentieth- 
+century experimental psychologist most admired by Skinner, called this 
+approach “the psychology of the Other- One” (Skinner 1991, 4– 6; see also 
+Meyer 1921). Human behavior would yield to scientific inquiry only if 
+psychologists learned to view humans as “others,” a “viewpoint of obser -
+vation” considered an absolute requirement for an “objective science of 
+human behaviour” (Meyer 1912, 371). Central to this new viewpoint was 
+Meyer’s insistence that the human being should be regarded as an “organ-
+ism among organisms,” distinguishable from a lettuce, a moose, or an inch-
+worm only in degree of complexity (Esper 1967, 114; Meyer 1912, 1921).
+Skinner embraced Meyer’s “viewpoint of observation,” which led to his 
+discovery of the principles of “operant conditioning” in which a carefully 
+designed “schedule of reinforcements” is imposed on the animal in order 
+to shape specific behavioral patterns by amplifying some actions at the 
+expense of others. While Skinner focused his work on mice and pigeons, 
+the epistemology of radical behaviorism enabled easy generalizations across 
+species (Blanshard 1967; Meyer 1912, 1921; Skinner 1976, 1991, 2002, 
+2012; Wozniak 1997). Even the complexities of human reasoning, choice, 
+problem- solving, and reflection render themselves to the viewpoint of the 
+Other- One:
+When a man controls himself, chooses a course of action, thinks out the solution to 
+a problem, or strives toward an increase in self- knowledge, he is behaving. He con-
+trols himself precisely as he would control the behavior of anyone else— through 
+the manipulation of variables of which behavior is a function. His behavior in so 
+doing is a proper object of analysis, and eventually it must be accounted for with 
+variables lying outside the individual himself. (Skinner 2012, 228– 229)
+It was Skinner who first imagined a ubiquitous “technology of behavior” 
+that would enable the application of operant conditioning across entire 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 202622 Shoshana Zuboff
+human populations. He argued that “the field of human behavior” would 
+never achieve scientific status without “instruments and methods” as pow-
+erful as those available to physicists and biologists (Skinner 2002, 4– 5). Such 
+instruments would finally illuminate the laws of human action, enabling 
+scientists to shape and predict behavior.
+There would be challenges. New technologies of behavior would have 
+to continually push the envelope of the public– private divide in order 
+to access all the data relevant to behavioral prediction and control. Like 
+today’s surveillance capitalists, Skinner was confident that the slow drip of 
+technological invention would eventually push privacy to the margins of 
+human experience, where it would join “freedom,” “autonomy,” and other 
+troublesome illusions. All of these would be replaced by the viewpoint of 
+the Other- One embodied in new instruments and methods:
+The line between public and private is not fixed. The boundary shifts with every 
+discovery of a technique for making private events public. Behavior which is 
+of such small magnitude that it is not ordinarily observed may be amplified. 
+Covert verbal behavior may be detected in slight movements of the speech appa-
+ratus. . . . The problem of privacy may, therefore, eventually be solved by tech -
+nical advances . . . we are still faced with events which occur at the private level 
+and which are important to the organism without instrumental amplification. 
+How the organism reacts to these events will remain an important question, 
+even though the events may some day be made accessible to everyone. (Skinner 
+2012, 282)
+Skinner’s technologies of behavior have finally come to life as a market 
+project. The conflation of economic orientation, the means of behavioral 
+modification, and the digital architectures and devices that are its medium 
+are now a taken- for- granted feature of the surveillance capitalist milieu. 
+This theme and the necessity of its concealment are reiterated throughout 
+the interviews that I conducted with data scientists and software engineers 
+between 2012 and 2015 as one element of a larger study of surveillance 
+capitalism.3 The means of behavioral modification are the subject of cre -
+ative elaboration, experimentation, and application, but always outside the 
+awareness of its human targets. For example, the chief data scientist for a 
+national drugstore chain described how his company designs automated 
+digital reinforcers to subtly tune customers’ behaviors: “You can make peo-
+ple do things with this technology. Even if it’s just 5% of people, you’ve 
+made 5% of people do an action they otherwise wouldn’t have done, so to 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 23
+some extent there is an element of the user’s loss of self- control.” A soft-
+ware engineer specializing in the Internet of Things explained his compa -
+ny’s approach to conditioning: “The goal of everything we do is to change 
+people’s actual behavior at scale . . . we can capture their behaviors and 
+identify good and bad. Then we develop ‘treatments’ or ‘data pellets’ that 
+select good behaviors.” Another recounted the operational mechanisms of 
+herding: “We can engineer the context around a particular behavior and 
+force change that way. . . . We are learning how to write the music, and then we 
+let the music make them dance.”
+How do they get away with it? Dozens of surveys conducted since 2008 
+attest to substantial majorities in the United States, the EU, and around the 
+world that reject the premises and practices of surveillance capitalism, yet 
+it persists, succeeds, and dominates. In other work I have detailed sixteen 
+factors that enabled this new logic of accumulation to root and flourish 
+(Zuboff 2019), and here I want to underscore two of these.
+The first is dependency. Surveillance capitalism now controls many of 
+the operations that are essential for social participation. Early on, the free 
+services of Google, Facebook, and other applications appealed to the latent 
+needs of second- modernity individuals seeking resources for effective 
+life in an increasingly hostile institutional environment (Beck and Beck-  
+Gernsheim 2002; Zuboff and Maxmin 2002). Once bitten, the apple was 
+irresistible. A 2010 BBC poll found that 79 percent of people in twenty- six 
+countries considered Internet access to be a fundamental human right (BBC 
+2010). Six years later, in 2016, the United Nations Human Rights Council 
+would adopt specific language on the importance of Internet access. In the 
+United States, many people call the emergency services number, 911, on 
+those rare occasions when Facebook is down (LA Times 2014). Most people 
+find it difficult to withdraw from these utilities, and many ponder if it is 
+even possible (Alter 2017; Andreassen et al. 2012; Casale and Fioravanti 
+2015; Cheng and Li 2014; Dreifus 2017; Griffiths, Kuss, and Demetrovics 
+2014; Schou Andreassen, and Pallesen 2014).
+As surveillance capitalism spread across the Internet, the means of social 
+participation became coextensive with the means of behavioral modifica -
+tion, eroding the choice mechanisms that adhere to the private realm —
+exit, voice, and loyalty. There can be no exit from processes that we cannot 
+detect and upon which we must depend for the effectiveness of daily life. 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 202624 Shoshana Zuboff
+Users are not customers and thus far lack institutionalized means of col -
+lective action that would establish reliable channels for voice. Loyalty is 
+an empty suit, as continued participation is better explained in terms of 
+helplessness, resignation, and the foreclosure of alternatives.
+Next I turn to the second key answer to the question “How do they get 
+away with it?” That answer is power.
+The Rise of Instrumentarian Power
+The internal pressures exerted by surveillance capitalism’s economic imper-
+atives produce the compulsion to “make them dance.” First, production is 
+subordinated to extraction, and then the means of production is subordi -
+nated to the means of behavioral modification. Finally, what is produced is 
+the guarantee of outcomes, or at least the ever- improving approximation 
+to such guarantees. These guarantees have value, but in the novel logic of 
+surveillance capitalism, their value is a function of markets that bear no 
+organic reciprocities with their populations, now repurposed as the source 
+of unlimited raw material supplies. This analysis brings us to the edge of a 
+new terrain, but no further. I have suggested that there can be no guarantee 
+of outcomes without the power to make it so. In order to proceed, it is nec-
+essary to answer the question, what is this new power to “make them dance”? 
+The answer offers a glimpse into the dark heart of surveillance capitalism as 
+a usurper of rights and a civilizational force.
+The first key point is that there is no historical precedent for the quality 
+of power that now confronts us. It is, I argue, an unprecedented species of 
+power that emerges in the unprecedented digital milieu of surveillance cap-
+italism and its unprecedented economic logic founded on the dispossession 
+of human behavior as the new source of capital accumulation. Any encoun-
+ter with the unprecedented is itself a genuine intellectual and existential 
+challenge, and this fact itself merits our attention. That which is unprece -
+dented is necessarily unrecognizable, tacitly interpreted through the lens of 
+familiar categories. This mental operation renders invisible precisely those 
+dimensions of experience for which there are no established mental sets. 
+A classic example is the notion of the “horseless carriage” to which peo -
+ple reverted when confronted with the unprecedented facts of the auto -
+mobile. Existing lenses illuminate the familiar and obscure the original by 
+turning the unprecedented into an extension of the past. The sociology of 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 25
+the unprecedented multiplies this effect. Once the abnormal is normalized, 
+habituation and psychic numbing make contest even more unlikely (Baehr 
+2002; Lifton 2010; Slovic et al. 2011; van Der Kolk and Saporta 1991).
+In the years during and immediately following World War II, scholars 
+confronted these barriers of cognition, imagination, and language as they 
+tried to name and grasp another unprecedented configuration of power, 
+what would come to be known as “totalitarianism.” In the early phases of 
+this effort, critics appropriated the horseless- carriage language of “imperial-
+ism” as the only framework at hand with which to articulate and resist the 
+new power’s murderous threats. With a few important exceptions, it was 
+only after the Nazi defeat that the program of naming began in earnest.
+That confrontation with the unprecedented is reflected in the mov -
+ing accounts of the first scholars determined to lift the veil on their era’s 
+gruesome truths. The systematic accretion of violence and complicity that 
+engulfed whole populations at extreme velocity invoked a kind of bewil -
+derment that ended in paralysis, even for many of the greatest minds of the 
+twentieth century. Harvard political scientist Carl Friedrich was among the 
+first scholars of totalitarianism to address this experience of improbability 
+writing in 1954: “Virtually no one before 1914 anticipated the course of 
+development which has overtaken Western civilization since then . . . none 
+of the outstanding scholars in history, law, and the social sciences discerned 
+what was ahead . . . which culminated in totalitarianism. To this failure to 
+foresee corresponds a difficulty in comprehending” (Friedrich 1954, 1– 2).
+Nearly every intellectual who turned to this project in the period imme-
+diately following the war cites the feeling of astonishment at the suddenness 
+with which, as Friedrich put it, totalitarianism had “burst upon mankind . . . 
+unexpected and unannounced” (Friedrich 1954, 1). Its manifestations were 
+so novel and unanticipated, so shocking, rapid, and unparalleled, that all 
+of it eluded language, challenging every tradition, norm, value, and legiti -
+mate form of action. Hannah Arendt described the defeat of Nazi Germany 
+as “the first chance to try to tell and to understand what had happened . . . 
+still in grief and sorrow and . . . a tendency to lament, but no longer in 
+speechless outrage and impotent horror” (Arendt 2004, 387). Later, histo -
+rian Robert Conquest would document the similar failure of journalists, 
+scholars, and Western governments in reckoning the full weight of Soviet 
+totalitarianism’s monstrous achievements. The most salient reason for this 
+failure, he observed, was that the actual facts were so “improbable” that it 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 202626 Shoshana Zuboff
+was difficult even for specialists to grasp their truth. “Plenty of information 
+was available contradicting the official picture,” wrote Conquest. “The Sta-
+lin epoch is replete with what appear as improbabilities to minds unfitted 
+to deal with the phenomena” (Conquest 2008, 486).
+Ultimately, a courageous body of scholarship would evolve to meet the 
+challenge of comprehension. It yielded different models and schools of 
+thought, each with distinct emphasis and insights, but these shared com -
+mon purpose in the work of naming. “Totalitarianism has discovered a 
+means of dominating and terrorizing human beings from within,” wrote 
+Arendt, the German- born philosopher who would spend the six years after 
+World War II writing her extraordinary study of totalitarian power, pub -
+lished in 1951 as The Origins of Totalitarianism (Arendt 2004, 431). Arendt’s 
+was a detailed disclosure and a pioneering attempt to theorize what had 
+just occurred. “Comprehension,” she said, is the necessary response to the 
+“truly radical nature of Evil” disclosed by totalitarianism. “It means  .  .  . 
+examining and bearing consciously the burden which our century has 
+placed on us— neither denying its existence nor submitting meekly to its 
+weight.” Totalitarianism was bent on the “destruction of humanity” and 
+“the essence of man,” but, she insisted, “to turn our backs on the destruc-
+tive forces of the century is of little avail” (Arendt 2004, xxvii). Essential 
+here was the deletion of all ties and sources of meaning other than “the 
+movement”: “Total loyalty— the psychological basis for domination— can 
+be expected only from the completely isolated human being who, without 
+any other social ties to family, friends, comrades, or even mere acquain -
+tances, derives his sense of having a place in the world only from his belong-
+ing to a movement, his membership in the party” (Arendt 2004, 429).
+Midcentury scholars such as Friedrich, Adorno, Gurian, Brzezinski, and 
+Aron added to these themes, recognizing totalitarianism’s insistence on 
+domination of the human soul (Adorno 1966, 1985, 1991; Aron 1968; Frie-
+drich 1954, 1956 ). The Russian- born political scientist Waldemar Gurian, 
+who escaped Nazi Germany in 1939, argued that totalitarianism functioned 
+as a “secularized political religion” that requires “absolute obedience” and 
+demands “active acclamation” (Gurian 1954, 119– 129). Political scientists 
+Carl Friedrich and Zbigniew Brzezinski emphasized totalitarianism’s reli -
+ance on terror to drive and sustain “human remolding,” “re- educative mea-
+sures,” and “extensive revisions” of self and psyche (Friedrich and Brzezinski 
+1956, 130– 133). Activist and theorist Franz Neumann’s courageous analysis 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 27
+of National Socialism from 1933 to 1944 also elevated terror to the highest- 
+order principle of action. Neumann described the Third Reich’s subordina-
+tion of the means of production to the “means of violence,” as the Nazis 
+asserted authority over property and production, both through the expro -
+priation of Jewish assets and through the party’s command and control of 
+key industries (Neumann and Hayes 2009, 470– 76, 632– 634).
+Totalitarianism was bent on the purification of the human species 
+through the dual mechanisms of genocide and the “engineering of the 
+soul.” In this way totalitarian regimes could achieve their fantastical aim 
+of “the People- as- one,” as Claude Lefort describes it. “Social unanimity cor-
+responds to inner unanimity, held in place by hatred activated toward the 
+‘enemies of the people’” (Lefort 1986, 297– 298). But to command popula-
+tions right down to their souls requires unimaginable effort, which was one 
+reason why totalitarianism was unimaginable. It measures success at the cel-
+lular level, penetrating to the quick, where it subverts and commands each 
+unspoken yearning in pursuit of the genocidal vision that historian Richard 
+Shorten calls “the experiment in reshaping humanity” (Shorten 2012, 50). 
+Each individual inner life must be claimed and transformed by the per -
+petual threat of terror: punishment without crime. This craftwork requires 
+the detailed orchestration of isolation, anxiety, fear, persuasion, fantasy, 
+longing, inspiration, torture, dread, and surveillance. Arendt describes the 
+relentless process of “atomization” and fusion in which terror destroys the 
+ordinary human bonds of law, norms, trust, and affection, “which provide 
+the living space for the freedom of the individual” (Arendt 1994, 343).
+Arendt’s project of naming was embedded in a larger wave of postwar 
+reform determined to inoculate civilization from the genocidal impulse 
+and institutionalized in the 1948 Universal Declaration of Human Rights 
+(UDHR), beginning with the assertion, “All human beings are born free and 
+equal in dignity and rights.” As Michael Ignatieff has argued, the UDHR 
+founded a “judicial revolution,” establishing a global juridical framework 
+of human rights that both ignited and legitimated the justice demands of 
+colonial subjects, civil rights groups, and other movements originating in 
+exclusion and oppression (Ignatieff 2001; see also Franck 2000).
+Now a new surveillance- based economic order casts us adrift in a dif -
+ferent dark sea of original and thus difficult- to- discern dangers, where 
+the abrogation of human rights does not always or easily correspond to 
+the historical development of human rights and its established juridical 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 202628 Shoshana Zuboff
+frameworks. And just as the scholars of totalitarianism once looked to 
+nineteenth- century imperialism to explain the violence of their time, it is 
+we who now reach for the familiar vernaculars of twentieth- century power 
+like lifesaving driftwood. Invariably we look to the specter of totalitarian -
+ism as the lens through which to interpret today’s threats. The result is 
+that Google, Facebook, and the larger field of commercial surveillance are 
+frequently criticized as “Big Brother” or “digital totalitarianism” (Blakely 
+2014; Borowicz 2014; Doctorow 2017; Economist 2004; Hirsh 2015; Menell 
+2013; Schulz 2016; Sorell and Draper 2012). I admire those who have stood 
+against the incursions of commercial surveillance, but I also suggest that 
+the equation of its new power with totalitarianism and the Orwellian trope 
+impedes our understanding as well as our ability to resist, neutralize, and 
+ultimately vanquish its potency. Instead, we need to grasp the specific inner 
+logic of a conspicuously twenty- first- century conjuring of power to which 
+the past offers no adequate compass. Its aims are in many ways just as ambi-
+tious as those of totalitarianism, but they are also utterly and profoundly 
+distinct. The work of naming a strange form of power unprecedented in the 
+human experience must begin anew for the sake of effective resistance and 
+the creative power to insist on a future of our own making.
+As to the new species of power, I have suggested that it is best understood 
+as instrumentarianism, defined as the instrumentation and instrumentalization 
+of behavior for the purposes of modification, prediction, monetization and control. 
+In this formulation, “instrumentation” refers to the ubiquitous, sensate, 
+computational, actuating global architecture that renders, monitors, com -
+putes, and modifies human behavior. Surveillance capitalism is the puppet 
+master that imposes its will through the vast capabilities of this connected 
+puppet to produce instrumentarian power, replacing the engineering of 
+souls with the engineering of behavior. There is no brother here of any 
+kind, big or little, evil or good— no family ties, however grim. Instead, this 
+new global apparatus is better understood as a Big Other that encodes the 
+viewpoint of the Other- One as a pervasive presence, finally bringing Skin -
+ner’s longed for “technology of behavior” to life. “Instrumentalization” 
+denotes the social relations that orient the puppet masters to human expe-
+rience, as surveillance capital overrides long- standing reciprocities of mar-
+ket democracy, wielding its machines to transform us into the means to 
+others’ market ends. Although he did not name it, Mark Weiser, the vision-
+ary of ubiquitous computing, foresaw the immensity of instrumentarian 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 29
+power as a totalizing societal project. He did so in a way that suggests both 
+its utter lack of precedent and the danger of confounding it with what 
+has gone before: “Hundreds of computers in every room, all capable of 
+sensing people near them and linked by high- speed networks, have the 
+potential to make totalitarianism up to now seem like sheerest anarchy” 
+(Weiser 1999, 89). In fact, all those computers are not the means to a digital 
+hypertotalitarianism. They are, as I think Weiser sensed, the foundation of 
+an unprecedented power that can reshape society in unprecedented ways. 
+If instrumentarian power can make totalitarianism look like anarchy, then 
+what might it have in store for us?
+While all power yearns toward totality, instrumentarian power’s specific 
+purposes and methods are not only distinct from totalitarianism but they 
+are in many ways its precise opposite. Surveillance capitalists have no interest 
+in murder or the reformation of our souls. Instrumentarian power, there -
+fore, has no principle to instruct. There is no training or transformation for 
+spiritual salvation, no ideology against which to judge our actions. It does 
+not demand possession of each person from the inside out. It has no inter-
+est in exterminating or disfiguring our bodies and minds in the name of 
+pure devotion. Totalitarianism was a political project that converged with 
+economics to overwhelm society. Instrumentarianism is a market project 
+that converges with the digital to achieve its own unique brand of social 
+domination. Totalitarianism operated through the means of violence, but 
+instrumentarian power operates through the means of behavioral modifica-
+tion. And this is where our focus must shift. What passes for social relations 
+and economic exchange now occurs across the medium of this robotized 
+veil of abstraction.
+Instrumentarianism’s specific “viewpoint of observation” was forged in 
+the controversial intellectual domain of “radical behaviorism.” Thanks to 
+Big Other’s capabilities, instrumentarian power reduces human experience 
+to measurable, observable behavior, while remaining steadfastly indiffer -
+ent to the meaning of that experience. It is profoundly, infinitely, and, 
+following its behaviorist origins, radically indifferent to our meanings and 
+motives. This epistemology of radical indifference produces observation with-
+out witness. Instead of an intimate violent political religion, Big Other’s way 
+of knowing us yields the remote but inescapable presence of impenetrably 
+complex systems and the interests that author them, carrying individuals 
+on a fast- moving current to the fulfillment of others’ ends. Big Other has 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 202630 Shoshana Zuboff
+no interest in soiling itself with our excretions, but it may aggressively hunt 
+data on the behavior of our blood and shit. It has no appetite for our grief, 
+pain, or terror, although it welcomes the behavioral surplus that leaches 
+from our anguish.
+Trained on measurable action, Big Other cares only about observing 
+what we do and ensuring that we do it in ways that are accessible to its ever- 
+evolving operations of rendition, reinforcement, calculation, and moneti -
+zation. Instrumentarianism’s radical indifference is operationalized in Big 
+Other’s dehumanized methods of evaluation that produce equivalence with-
+out equality by reducing individuals to the lowest common denominator of 
+sameness— an organism among organisms.
+In the execution of economies of action, Big Other simulates the behav-
+iorists’ “vortex of stimuli,” transforming “natural selection” into the 
+“unnatural selection” of variation and reinforcement authored by market 
+players and the competition for surveillance revenues. We may confuse Big 
+Other with the behaviorist god of the vortex, but only because it effectively 
+conceals the machinations of surveillance capitalism that are the wizard 
+behind the digital curtain. The gentle seductive voice crafted on the yonder 
+side of this veil— Google, is that you? — gently herds us along the path that 
+coughs up the maximum of behavioral surplus and the closest approxima-
+tion to certainty.
+Instrumentarian Power Thrives in Lawless Space
+Instrumentarianism is not murderous, but it is as startling, incomprehensi-
+ble, and new to the human story as totalitarianism was to its witnesses and 
+victims. Thanks to Big Other’s capabilities to know and to do, instrumen -
+tarian power aims for a condition of certainty without terror in the form of 
+“guaranteed outcomes.” In pursuit of this certainty, the locus of economic 
+power shifts from ownership of the means of production to ownership of 
+the means of behavioral modification. Instrumentarian power produces 
+endlessly accruing knowledge and control for surveillance capitalists and 
+diminished self- determination for its populations who now fund their own 
+domination as targets of extraction and modification.
+The paradox is that because instrumentarianism does not claim our bod-
+ies for some grotesque regime of pain and murder, we are prone to under -
+value its effects and lower our guard. Instead of death, torture, reeducation, 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 31
+or conversion, instrumentarianism effectively expels us from our own 
+behavior. It severs our insides from our outsides, our subjectivity and inte-
+riority from our observable actions. Otherized behavior takes on a life of its 
+own that delivers our actions now, soon, and later to surveillance capital -
+ism’s aims and interests.
+Under the regime of instrumentarian power, the mental agency and self- 
+possession of autonomous human action are gradually submerged beneath a 
+new kind of automaticity: a lived routine of stimulus– response– reinforcement 
+that operates outside of awareness and is aggregated as statistical phenom-
+ena: the comings and goings of mere organisms. Our conformity is irrele -
+vant to instrumentarianism’s success. There is no need for mass submission 
+to social norms, no loss of self to the collective induced by terror and com-
+pulsion, no inducements of acceptance and belonging as a reward for bend-
+ing to the group. All of that is superseded by a market- based digital order 
+that thrives within things and bodies, transforming volition into reinforce-
+ment and action into conditioned response.
+Using Polanyi’s lens, we have seen that surveillance capitalism annexes 
+human experience to the market dynamic so that it is reborn as behav -
+ior: the fourth “fictional commodity.” However, Polanyi’s first three fic -
+tional commodities— land, labor, and money— were eventually subjected 
+to law. Although these laws have been imperfect, the institutions of labor 
+law, environmental law, and banking law provided regulatory frameworks 
+intended to defend society (and nature, life, and exchange) from the worst 
+excesses of raw capitalism’s destructive power. Surveillance capitalism’s 
+translation of human experience into market commodities has thus far 
+faced no such impediments.
+In earlier work I detail the historical conditions and forms of corporate 
+action that enabled surveillance capitalism’s successful pursuit and suste -
+nance of lawless space (Zuboff 2019). While a reprise of those arguments 
+exceeds the space of this chapter, two conditions float above them all, and 
+they merit emphasis. The first reverts to the sociology of the unprecedented, 
+as the original action of instrumentarian power works its will before it can 
+be adequately understood, thus enjoying a substantial lag in social evolu -
+tion and the eventual production of law. This problem is already evident 
+in the commoditization of human experience, which does not easily corre-
+spond to established legal frameworks, such as those that concern privacy 
+rights or anticompetitive corporate practices. For example, laws that pertain 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 202632 Shoshana Zuboff
+to “data ownership” or “data protection” overlook what is original in this 
+latest “original sin,” namely, the assertion that human experience is free 
+for unilateral (and secret) rendition into behavioral data in the first place.
+A second condition that has enabled the pursuit and protection of law -
+less operational spaces derives from surveillance capitalism’s historical and 
+material origins as both American born and “born digital.” On both counts, 
+surveillance capital has benefitted from the antiregulatory zeitgeist of US 
+neoliberal economic policy and political ideology (Cohen 2016; Hoofna -
+gle 2017; Short 2011). In this respect surveillance capitalists have enjoyed 
+a political windfall, not unlike the Gilded Age titans who exploited the 
+absence of industry regulation in their time to claim undefended territory 
+for their own interests, declare the righteousness of their self- authorizing 
+prerogatives, and defend their brand of raw capitalism from democracy 
+(Nasaw 2005). Imbued with the conviction that “the state had neither right 
+nor reason to interfere in the workings of the economy,” Gilded Age mil -
+lionaires joined forces to defend the “rights of capital” and limit the role 
+of elected representatives in setting policy or developing legislation (Nasaw 
+2005, 124– 125). There was no need for law, they argued, when one had the 
+“law of evolution,” the “laws of capital,” and the “laws of industrial soci -
+ety.” John Rockefeller insisted that his outsized oil fortune was the result 
+of “the natural law of trade development.” Jay Gould, when questioned by 
+Congress on the need for federal regulation of railroad rates, replied that 
+“the laws of supply and demand, production and consumption” already 
+regulate rates (Nasaw 2005, 132).
+Gilded Age business elites determined that the most effective way to 
+protect the original sin of that economic era was, as historian David Nasaw 
+puts it, “to circumscribe democracy.” They did this by lavishly funding their 
+own political candidates as well as through the careful honing and aggres-
+sive dissemination of an ideological attack on the very notion of democra-
+cy’s right to interfere in the economic realm (Friedman 2004, 14– 28; Nasaw 
+2005, 146, 148).
+A similar determination to conduct surveillance capitalism free of demo-
+cratic oversight dominates Google’s short but remarkable history. Its ability 
+to discern, construct, and stake its claim to the unregulated territories of the 
+Internet not yet subject to law and, in the United States at least, free from 
+constitutional constraints, was essential to its frictionless accumulation of 
+surplus as the means to its frictionless accumulation of power and capital. 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 33
+Eric Schmidt and Jared Cohen celebrate their claim to operational spaces 
+beyond the reach of political institutions on the very first page of their 
+book on the digital age: “The online world is not truly bound by terrestrial 
+laws . . . it’s the world’s largest ungoverned space” (Schmidt and Cohen 
+2014).
+Surveillance capitalists are impelled to pursue lawlessness by the logic 
+of their own creation. Google and Facebook vigorously lobby to kill online 
+privacy protection, limit regulations, weaken or block privacy- enhancing 
+legislation, and thwart every attempt to circumscribe their practices 
+because such laws threaten the flow of behavioral surplus (Dougherty 2016; 
+Google Transparency Project 2016, 2017; Mullins and Nicas 2017; Shaban 
+2017a, 2017b; Statista 2017; Taplin 2017). Schmidt, Brin, and Page have 
+ardently defended their right to freedom from law even as Google grew to 
+become what is arguably the world’s most powerful corporation (Khosla 
+2004). Their efforts have been marked by a few consistent themes: that 
+technology companies such as Google move faster than the state’s ability 
+to understand or follow; that any attempts to intervene or constrain are 
+therefore fated to be ill- conceived and inept; that regulation is always a 
+negative force that impedes innovation and progress; and that lawlessness 
+is the necessary context for innovation (Cunningham 2011; Gobry 2011; 
+Jenkins 2010; Yarow 2013).
+Many hopes today are pinned on the new body of EU regulation known 
+as the General Data Protection Regulation (GDPR), which became enforce-
+able in May 2018. In time the world will learn if the GDPR can move out 
+in front of Big Other, successfully challenging the legitimacy of surveil -
+lance capitalism, its means of behavioral modification, and its production 
+of instrumentarian power. Scholars and specialists debate the implications 
+of the sweeping new regulations, some arguing the inevitability of deci -
+sive change, and others arguing the likelihood of continuity over dramatic 
+reversals of practice (Keller 2017; Mayer- Schönberger and Padova 2016; 
+Rossi 2016; Wachter 2017; Zarsky 2017). The only possible answer is that 
+everything will depend upon how European societies interpret the new 
+regulatory regime in legislation and in the courts. It will not be the word -
+ing of the regulations but rather popular movements on the ground that 
+shape these interpretations. Just as a century ago workers joined in collec -
+tive action to tip the scales of power, today’s “users” will have to mobilize 
+in new ways that assert society’s rejection of an economic order based on 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 202634 Shoshana Zuboff
+the dispossession of human experience as a means to the prediction and 
+control of human behavior for others’ profit.
+As a result of its successful pursuit of lawlessness and in the absence of 
+the typical mechanisms of private governance associated with exit, voice, 
+and loyalty, surveillance capitalism has wielded its instrumentarian power 
+to bypass older distinctions between market and world, market and soci -
+ety, market and home, or market and person. Instrumentarianism opens 
+these borderlands to profit seeking, as market operations fill the void where 
+democratic institutions should be. It is already clear that instrumentar -
+ian power produces specific contests over the constitutionally established 
+rights of citizens. For example, when US scholars and jurists assess the ways 
+in which digital capabilities challenge Fourth Amendment doctrine, the 
+focus is typically on the relationship between individuals and the state. It 
+is of course vital that Fourth Amendment protections reflect the realities of 
+twenty- first- century data production and dispossession (Brennan- Marquez 
+and Henderson 2017; Gray 2017a, 2017b; Kerr 2005, 531– 585; Wydra et 
+al. 2017). The problem is that even expanded protections from state sur -
+veillance do not shield users from the assaults of instrumentarian power 
+animated by surveillance capitalism’s private economic imperatives (Daskal 
+2015; Kerr 2005).
+Legal scholarship is just beginning to reckon with these new facts. Fourth 
+Amendment scholar Andrew Guthrie Ferguson concludes, “If billions of 
+sensors filled with personal data fall outside of Fourth Amendment protec-
+tions, a large- scale surveillance network will exist without constitutional 
+limits” (Ferguson 2015, 879– 880). Dutch scholars make a similar case for 
+the inadequacy of Dutch law as it trails behind Big Other, no longer able to 
+effectively assert the sanctity of the home from the invasive action of either 
+industry or the state. “The walls no longer shield the individual effectively 
+from the outside in the pursuing of . . . personal life without intrusion . . .” 
+(Van Dongen and Timan 2017).
+These and other contests over the extension of juridical rights to surveil-
+lance capitalism’s market domain point us toward an even deeper crisis of 
+human rights, delivering us head- on to Hannah Arendt’s meta- formulation 
+of the “right to have rights.” Arendt’s assertion peels away juridical achieve-
+ments—she refers to these as the “Rights of Man” —revealing the a priori 
+grounds upon which the very possibility of juridical rights rests. It is here 
+on the ground of what I shall refer to as “elemental human rights” that 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 35
+I propose to consider the implications of surveillance capitalism and its 
+instrumentarian power for the prospects of human freedom.4
+Instrumentarian Power as a Coup from Above
+For Arendt, the “right to have rights” stands in contrast to juridical rights 
+as indelible, “Man, it turns out, can lose all so- called Rights of Man with -
+out losing his essential quality as man, his human dignity” (Arendt 2004, 
+377). This is because the “right to have rights” equates to the “right of 
+every individual to belong to humanity,” and it “should be guaranteed by 
+humanity itself” (Arendt 2004, 379). What does this belonging signify? For 
+Arendt it means, above all, the possibility of effective life through voice and 
+action, possibilities that are given in the elemental condition of inclusion 
+in the human community. To belong to humanity is to belong to a world 
+in which one can choose one’s actions and exercise one’s voice in ways that 
+effectively further the aims of one’s own life and the life of one’s group.
+How does the elemental condition of belonging to humanity translate 
+into a “right to have rights”? Arendt argues that this conversion from ele -
+mental condition to explicit right arises only in the confrontation with a 
+threat to the condition of inclusion:
+We became aware of the existence of a “right to have rights” (and that means 
+to live in a framework where one is judged by one’s actions and opinions) and 
+a right to belong to some kind of organized community, only when millions of 
+people emerged who had lost and could not regain these rights because of the 
+new global political situation. . . . Not the loss of specific rights, then, but the loss 
+of a community willing and able to guarantee any rights whatsoever, has been the 
+calamity which has befallen ever- increasing numbers of people. Only the loss of a 
+polity itself expels him from humanity. (Arendt 2004, 376– 377)
+Only exclusion from humanity itself, and thus exclusion from the elemen-
+tal freedoms of voice and action, can abrogate the “right to have rights.” 
+“The fundamental deprivation of human rights is manifested first and 
+above all in the deprivation of a place in the world which makes opinions 
+significant and actions effective” (Arendt 2004, 376).
+In this Arendt foreshadows the linguistic philosopher John Searle’s 
+“pragmatic considerations of the formulation of rights” (Searle 2010, 
+194– 195). Searle argues that elemental conditions of existence are crystal -
+lized as formal human rights only at that moment in history when they 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 202636 Shoshana Zuboff
+come under systematic threat. So, for example, the ability to speak is an ele-
+mental condition. The concept of “freedom of speech” as a formal juridical 
+right emerged only when society evolved to a degree of political complexity 
+that the freedom to speak came under threat. Searle observes that speech is 
+not more central to human life than breathing or being able to move one’s 
+body. No one has declared a “right to breathe” or a “right to bodily move-
+ment” because these elemental conditions have not come under attack and 
+therefore do not require formal protection. What counts as a basic right, 
+Searle argues, is both “historically contingent” and “pragmatic” (Searle 
+2010, 194– 195).
+It is not surprising then, that Arendt wrestled with the elemental human 
+conditions of inclusion, voice, and action at a time when totalitarianism 
+forced many philosophers and social theorists to question the structure of 
+human freedom (Adorno 2008; Arendt 1983; Sartre 1957, 1992). Were there 
+elemental constituents of human freedom that remain ineradicable, even 
+in the teeth of “no escape” from a totalizing power? For the Arendt of Ori-
+gins “action” was an indelible manifestation of freedom. Of those deprived 
+of human rights under totalitarianism she wrote, “They are deprived, not of 
+the right to freedom, but of the right to action” (Arendt 2004, 376).
+It was a theme that she would elaborate throughout her life: action 
+initiates. It asserts beginnings that diverge from established lines of force. 
+Action inserts itself into the already composed human world to make 
+something new. “To act . . . means to take an initiative, to begin . . . to 
+set something into motion” (Arendt 1998, 176– 177). Arendt observes that 
+every beginning, seen from the perspective of the framework that it inter -
+rupts, is a miracle. The capacity for performing such miracles is uniquely 
+human. “What usually remains intact in the epochs of petrification and 
+foreordained doom is the faculty of freedom itself, the sheer capacity to 
+begin, which animates and inspires all human activities and is the hidden 
+source . . . of all great and beautiful things” (Arendt 1993, 169).
+Key to our discussion is Arendt’s insistence that “this insertion is not 
+forced upon us by necessity. . . . It may be stimulated by the presence of 
+others whose company we may wish to join, but it is never conditioned by 
+them; its impulse springs from the beginning which came into the world 
+when we were born and to which we respond by beginning something new 
+on our own initiative” (Arendt 1993, 177). She explores this “impulse” in 
+her extensive examination of “will,” which she characterizes as the “organ 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 37
+for the future” in the same way that memory is the mental organ for the 
+past. When we recall the past, we see only objects, but the view to the 
+future brings “projects” that are latent in our will but have not yet come 
+to be. Will is the organ with which we summon our futures into existence 
+as we project ourselves into the future tense, make promises, and close the 
+gap between present and future by fulfilling those promises as we translate 
+the latent into the real.
+These initiatives could have been “left undone” but for the inward free-
+dom to project our commitments into the future and impose our will to 
+see them through. It is not only that we make new beginnings, but also 
+that these beginnings would not come into existence in the absence of 
+our willing to undertake them. In this way, the future remains contingent 
+on our will to create it and must therefore be understood as intrinsically 
+unpredictable. Will is the human counterpoint to the fear of uncertainty 
+that suffocates original action: “A will that is not free is a contradiction in 
+terms” (Arendt 1978, 13– 14).
+These elemental manifestations of human self- determination, Arendt 
+argues, derive from the capacity “to dispose of the future as though it were 
+the present.” Will is the means by which we annex the future tense, trans-
+forming it into a territory for deliberation, choice, promises, and the initia-
+tion of new beginnings in the fulfillment of those promises. This is how we 
+manage the inescapable uncertainty of existence and achieve, as individuals 
+and as communities, some “limited independence from the incalculability 
+of the future.” Arendt thus describes promises as “islands of predictability” 
+and “guideposts of reliability” in an “ocean of uncertainty.” They are, she 
+argues, the only alternative to a different kind of “mastery” that relies on 
+“domination of one’s self and rule over others” when the lust for certainty 
+produces the impulse “to cover the whole ground of the future and to map 
+out a path secured in all directions” (Arendt 1998, 243– 247). In this way 
+human action as an elemental source of freedom expresses a dynamic biog-
+raphy born in the inwardness of will in order to flourish in the embrace of 
+a human community where wills are joined to produce effective life, prom-
+ising and keeping promises in shared purpose.
+We have seen that the “right to have rights” is crystallized only in the 
+historical moment when inclusion in humanity comes under threat. But 
+what of action’s birthplace in the elemental functions of human will and its 
+annexation of the future? Arendt’s metaphor of will asserts the inalienable 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 202638 Shoshana Zuboff
+status of this elemental inward capacity. What happens when the uniquely 
+human capacity to dispose of the future as though it were the present—the 
+right to count the future as one’s field of action —is threatened with sup -
+pression or extinction? Following Arendt’s and Searle’s logic, such a threat 
+demands the translation of this elemental condition of human freedom 
+into a right, that it might be recognized as fundamental to effective life and 
+accorded the protection of the political community.
+This elemental condition in which we annex the future to the present 
+as the field of autonomous action is what I have called the right to the future 
+tense (Zuboff 2019). It asserts the inalienable capacity to will the future into 
+existence through the force of one’s own choice and commitment, and it 
+recognizes this capacity as a baseline condition of effective human life. In 
+claiming the future as a potential field of self- determined action, the right 
+to the future tense asserts the unbroken biography of will and action that 
+founds Arendt’s “right to have rights.” The right to the future tense and 
+the “right to have rights” are twinborn. Expressed in action and guaran -
+teed by inclusion in the human group, the “right to have rights” already 
+presupposes the future tense as the ground on which the inner organ of 
+the will is made manifest in the shared reality of the human community. 
+Each is essential to the meaning and manifestation of the other, joined in 
+the biographical arc of birth and adulthood. If the right to the future tense 
+is abrogated, the miracle of human action is subordinated to others’ plans 
+that favor others’ certainty. In the absence of the right to the future tense, 
+the “right to have rights” is shorn of its origins in will and drifts into mem-
+ory, a token of earlier unpredictable times.
+I suggest that we now face the moment in history when the elemental 
+condition in which we claim the future for autonomous action is threatened 
+by the laws of motion of a new economic order in which wealth derives 
+from the predictability of human behavior. The competitive dynamics of 
+this new order require economies of action that operate to configure human 
+behavior in ways that facilitate predictability. These operations grow more 
+muscular with the escalation of competitive intensity, driving the evolu -
+tion of predictability toward certainty. They are made manifest in a ubiqui-
+tous digital architecture of behavior modification owned and operated by 
+surveillance capital outside of meaningful legal boundaries, indecipherable, 
+and largely hidden. Motive and means combine to produce a new instru -
+mentarian power that supplants freedom as the crucible of human action 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 39
+for the sake of guaranteed outcomes and the competitive advantages that 
+they confer in markets that trade in the future of human behavior.
+Instrumentarian power employs the logic of radical behaviorism to exile 
+persons from their own behavior, reducing action to measurable behav -
+ior and severing interior meaning from observable performance. In this 
+process, the human person is reduced to an organism among organisms. 
+This constitutes a bloodless methodology through which not only are per-
+sons excluded from humanity but, for the sake of others’ market success, 
+humanity itself is excluded from the calculative knowledge that shapes the 
+future. These new information territories are private and privileged, known 
+only to the machines, their priests, and the market participants who pay 
+to play in these new market spaces. Although it is obviously the case that 
+we are excluded because the knowledge thus accumulated is not for us, the 
+demands of economies of action suggest an even deeper structural basis for 
+exclusion: the ability to evade individual awareness, and therefore individual 
+will, is an essential condition for the efficient exercise of instrumentarian power 
+and its economic objectives. Autonomous human action is costly friction that 
+threatens surveillance revenues. In this way a new form of domination and 
+its maps of a certain future override the right to the future tense.
+Instrumentarian power does not simply destroy elemental rights; it 
+usurps them. Such processes of expropriation were first evident in the trans-
+fer of decision rights over personal information from individuals to surveil-
+lance capitalists. The competitive demand for economies of action and the 
+elaboration of the means of behavioral modification extends the pattern of 
+expropriation to the elemental right to the future tense, which is the right 
+to count the future as one’s field of action, to initiate beginnings, and thus, 
+to borrow from Machado, to make the road as you go (Machado 2003).
+For this reason surveillance capitalism and its instrumentarian power are 
+best described as a market- driven coup from above— not a coup d’état in the 
+classic sense but rather a coup de gens: an overthrow of the people concealed 
+in the technological Trojan horse that is Big Other. Instead of unpredictable 
+human actors, the organism among organisms is manipulated for the sake 
+of others’ certainty at the expense of the arc of autonomous action that 
+begins with the inner organ of free will and is completed in the mutual 
+elaboration of a human community that guarantees the right to manifest 
+one’s will in action. Instrumentarian power is the hammer that suppresses 
+human freedom in favor of others’ market certainty. First to be extinguished 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 202640 Shoshana Zuboff
+in this coup is the pure impulse to initiate action that constructs social life 
+as a miracle of unpredictable beginnings and distinguishes human beings 
+as those who are born to replicate the natal miracle in original action. 
+Arendt anticipated the possibility of this threat to human freedom at the 
+hands of a behaviorist project elevated by global capital to world- historic 
+power. She feared that the “last stage of the laboring society” would reduce 
+its members to “automatic functioning,” forced to acquiesce “in a dazed, 
+‘tranquilized,’ functional type of behavior”:
+The trouble with modern theories of behaviorism is not that they are wrong but 
+that they could become true, that they actually are the best possible conceptual-
+ization of certain obvious trends in modern society. It is quite conceivable that 
+the modern age— which began with such an unprecedented and promising out -
+burst of human activity— may end in the deadliest, most sterile passivity history 
+has ever known. (Arendt 1998, 322)
+Now it is the surveillance capitalists who enjoy the right to the future tense 
+and who claim the “right to have rights” over the fields of action and knowl-
+edge. Instrumentarian power accomplishes the dispossession of human 
+experience as an economic imperative, decisively prosecuting the redistri -
+bution of elemental human rights from individuals to capital. Surveillance 
+capitalism’s economic imperatives cannot be satisfied without these incur-
+sions into social and political territories that extend far beyond the tradi -
+tional boundaries of private capital. In this way surveillance capitalism and 
+its instrumentarian power are revealed as a profoundly antidemocratic con-
+stellation. They do not simply evade democratic oversight, but rather they 
+undermine the foundations of such oversight for the sake of guaranteed 
+outcomes. Surveillance capitalists accumulate not only surveillance assets 
+and capital but also the elemental right to action, which is to say, freedom.
+Just as industrial civilization flourished at the expense of nature and 
+now threatens to cost us the earth, surveillance capitalism and its unprece-
+dented instrumentarian power will thrive at the expense of human nature 
+and threaten to cost us our humanity. The industrial legacy of climate 
+chaos fills us with dismay, remorse, and fear. As surveillance capitalism 
+founds a new economic order, what fresh legacy of damage and regret will 
+be mourned by future generations? By the time you read these words, the 
+reach of this new order will have grown, as more sectors, firms, start- ups, 
+app developers, and investors mobilize around this one plausible version of 
+information capitalism. This mobilization and the resistance it engenders 
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 41
+will define a key battleground at the new frontier of power where elemental 
+human rights will be contested in the name of humanity and the future. 
+Who will write the music? Who will dance?
+Notes
+1. For readers who seek more detail, surveillance capitalism, its production of 
+instrumentarian power, and many of its rights implications are fully analyzed in The 
+Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power 
+(Zuboff 2019).
+2. A typical example is this statement from the Economist: “Google exploits informa-
+tion that is a by- product of user interactions, or data exhaust, which is automatically 
+recycled to improve the service or create an entirely new product.” “Clicking for 
+Gold,” Economist, February 25, 2010, http://www.economist.com/node/15557431.
+3. Between 2012 and 2015 I interviewed fifty- two data scientists from nineteen 
+different companies with a combined 586 years of experience in high technology 
+corporations and start- ups, primarily in Silicon Valley. These interviews were con -
+ducted as I developed my “ground truth” understanding of surveillance capitalism 
+and its material infrastructure.
+4. I mean to introduce here a distinction between “elemental” and “fundamental” 
+human rights. For example, “equality under the law” is a fundamental right. In 
+contrast, “breathing” or “moving one’s arms” are elemental rights. Such rights are 
+given under the condition of being alive and are rarely formalized as fundamental or 
+juridical rights unless they come under direct threat of prohibition.
+References
+Addonizio, Gabrielle. 2016. “The Privacy Risks Surrounding Consumer Health and 
+Fitness Apps with HIPAA’s Limitations and the FTC’s Guidance.” Health Law Outlook 
+9 (1). http://scholarship.shu.edu/health-law-outlook/vol9/iss1/1.
+Adorno, Theodor. 1966. “Education after Auschwitz,” in Critical Models: Interventions 
+and Catchwords. New York: Columbia University Press.
+———. 1985. “On the Question: ‘What Is German?,’” New German Critique 36 (Fall): 
+121– 131.
+———. 1991. “The Schema of Mass Culture,” in Culture Industry: Selected Essays on 
+Mass Culture. New York: Routledge.
+———. 2008. History and Freedom. Cambridge: Polity Press.
+Alter, Adam. 2017. Irresistible: The Rise of Addictive Technology and the Business of 
+Keeping Us Hooked. New York: Penguin Press.
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 202642 Shoshana Zuboff
+Andreassen, Cecilie Schou, Torbjørn Torsheim, Geir Scott Brunborg, and Ståle 
+Pallesen. 2012. “Development of a Facebook Addiction Scale.” Psychological Reports 
+110 (2): 501– 517. https://doi.org/10.2466/02.09.18.PR0.110.2.501-517.
+Arendt, Hannah. 1968. The Origins of Totalitarianism. Orlando, FL: Harcourt.
+———. 1978. The Life of the Mind: Volume Two, Willing . New York: Harcourt Brace 
+Jovanovich.
+———. 1983. Men in Dark Times. New York: Harcourt Brace.
+———. 1993 “What Is Freedom?,” in Between Past and Future: Eight Exercises in Politi-
+cal Thought. New York: Penguin.
+———. 1994. Essays in Understanding. New York: Schocken.
+———. 1998. The Human Condition. Chicago: University of Chicago Press.
+———. 2004. The Origins of Totalitarianism. New York: Schocken.
+———. 2006. Between Past and Future: Eight Exercises in Political Thought . New York: 
+Penguin Books.
+Aron, Raymond. 1968. Democracy and Totalitarianism . London: Weidenfeld & 
+Nicolson.
+Baehr, Peter. 2002. “Identifying the Unprecedented: Hannah Arendt, Totalitarian -
+ism, and the Critique of Sociology.” American Sociological Review  67 (6): 804– 831. 
+https://doi.org/10.2307/3088971.
+Bakos, Yannis, et al. 2014. “Does Anyone Read the Fine Print? Consumer Atten -
+tion to Standard- Form Contracts.” Journal of Legal Studies  43 (1): 1– 35. https://doi 
+.org/10.1086/674424.
+BBC. 2010. “Internet Access ‘a Human Right.’” BBC News, March 8. http://news.bbc  
+.co.uk/2/hi/8548190.stm.
+Becher, Shmuel I., and Tal Z. Zarsky. 2015. “Online Consumer Contracts: No One 
+Reads, but Does Anyone Care? Comments on Florencia Marotta- Wurgler’s Studies.” 
+Jerusalem Review of Legal Studies 12 (1): 105– 120. https://doi.org/10.1093/jrls/jlv005.
+Beck, Ulrich, and Elisabeth Beck- Gernsheim. 2002. Individualization: Institutionalized 
+Individualism and Its Social and Political Consequences. London: Sage.
+Blakely, Rhys. 2014. “‘We Thought Google Was the Future but It’s Becoming Big 
+Brother.’” The Times , September  19. http://www.thetimes.co.uk/tto/technology/
+internet/article4271776.ece.
+Blanshard, Brand. 1967. “The Problem of Consciousness: A Debate with B. F. Skin -
+ner.” Philosophy and Phenomenological Research 27 (3): 317– 337.
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 43
+Blenner, Sarah R. et al. 2016. “Privacy Policies of Android Diabetes Apps and Sharing 
+of Health Information.” JAMA 315 (10): 1051– 1052. https://doi.org/10.1001/jama 
+.2015.19426.
+Borowicz, Wojciech. 2014. “Privacy in the Internet of Things Era,” Next Web, Octo-
+ber  18. http://thenextweb.com/dd/2014/10/18/privacy-internet-things-era-will-nsa  
+-know-whats-fridge.
+Brennan- Marquez, Kiel, and Stephen E. Henderson. 2017. “Fourth Amendment 
+Anxiety.” SSRN Scholarly Paper ID 2955077. Rochester, NY: Social Science Research 
+Network. https://papers.ssrn.com/abstract=2955077.
+Casale, Silvia, and Giulia Fioravanti. 2015. “Satisfying Needs through Social Net -
+working Sites: A Pathway towards Problematic Internet Use for Socially Anxious 
+People?” Addictive Behaviors Reports  1 (Supplement C): 34– 39. https://doi.org/  
+10.1016/j.abrep.2015.03.008.
+Castillejo, P., J. F. Martínez, J. Rodríguez- Molina, and A. Cuerva. 2013. “Integration 
+of Wearable Devices in a Wireless Sensor Network for an E-health Application,” IEEE 
+Wireless Communications 20 (4): 38– 49.
+Cheng, Cecilia, and Angel Yee- lam Li. 2014. “Internet Addiction Prevalence and 
+Quality of (Real) Life: A Meta- Analysis of 31 Nations across Seven World Regions.” 
+Cyberpsychology, Behavior and Social Networking  17 (12): 755– 760. https://doi  
+.org/10.1089/cyber.2014.0317.
+Cheng, J., O. Amft, G. Bahle, and P. Lukowicz. 2013. “Designing Sensitive Wearable 
+Capacitive Sensors for Activity Recognition.” IEEE Sensors Journal 13 (10): 3935– 3947.
+Cohen, Julie E. 2016. “The Regulatory State in the Information Age.” Theoretical 
+Inquiries in Law 17 (2). http://www7.tau.ac.il/ojs/index.php/til/article/view/1425.
+Conquest, Robert. 2008. The Great Terror: A Reassessment. Oxford: Oxford University 
+Press.
+Cunningham, Lillian. 2011. “Google’s Eric Schmidt Expounds on His Senate Testi -
+mony.” Washington Post, September 30. http://www.washingtonpost.com/national/
+on-leadership/googles-eric-schmidt-expounds-on-his-senate-testimony/2011/09/30/
+gIQAPyVgCL_story.html.
+Daskal, Jennifer. 2015. “The Un- Territoriality of Data.” Yale Law Journal  125 (2): 
+326– 559. http://www.yalelawjournal.org/article/the-un-territoriality-of-data.
+De Rossi, D and P. Veltink. 2010. “Wearable Technology for Biomechanics: E-Textile 
+or Micromechanical Sensors?” IEEE Engineering in Medicine and Biology Magazine , 
+May 20, 37– 43.
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 202644 Shoshana Zuboff
+Dehling, Tobias et al. 2015. “Exploring the Far Side of Mobile Health: Information 
+Security and Privacy of Mobile Health Apps on IOS and Android.” JMIR MHealth and 
+UHealth 3 (1): 1– 26, https://doi.org/10.2196/mhealth.3672.
+Der Kolk, Bessel A. van, and Jose Saporta. 1991. “The Biological Response to Psychic 
+Trauma: Mechanisms and Treatment of Intrusion and Numbing.” Anxiety Research 4 
+(3). https://doi.org/10.1080/08917779108248774.
+Doctorow, Cory. 2017. “Unchecked Surveillance Technology Is Leading Us Towards 
+Totalitarianism— Opinion.” International Business Times, May 5. http://www.ibtimes  
+.com/unchecked-surveillance-technology-leading-us-towards-totalitarianism  
+-opinion-2535230.
+Douglas, J. 1967. “Dissenting Statement of Justice Douglas, J. Regarding Warden v. 
+Hayden, 387 U.S. 294” (US Supreme Court, April 12, 1967). https://www.law.cornell 
+.edu/supremecourt/text/387/294.
+Dougherty, Conor. 2016. “Tech Companies Take Their Legislative Concerns to the 
+States,” New York Times, May 27.
+Dreifus, Claudia. 2017. “Why We Can’t Look Away from Our Screens.” New York  
+Times, March  6. https://www.nytimes.com/2017/03/06/science/technology-addiction 
+-irresistible-by-adam-alter.html.
+Economist. 2004. “Move over, Big Brother,” Economist, December. http://www.econ 
+omist.com/node/3422918.
+Edwards, Douglas. 2011. I’m Feeling Lucky. Boston: Houghton Mifflin Harcourt.
+Elizabeth B. Wydra, Brianne J. Gorod, and Brian R. Frazelle. 2017. “Timothy Ivory 
+Carpenter v. United States of America— On Writ of Certiorari to the United States 
+Court of Appeals for the Sixth Circuit— Brief of Scholars of the History and Origi -
+nal Meaning of the Fourth Amendment as Amici Curiae in Support of Petitioner.” 
+Supreme Court of the United States.
+Esper, Erwin A. 1967. “Max Meyer in America.” Journal of the History of the Behavioral 
+Sciences 3 (2): 107– 131.
+Farahany, Nita A. 2012. “Searching Secrets.” University of Pennsylvania Law Review  
+160 (5): 1271.
+Ferguson, Andrew Guthrie. 2015. “The Internet of Things and the Fourth Amend -
+ment of Effects.” Rochester, NY: California Law Review. https://papers.ssrn.com/
+abstract=2577944.
+Franck, Thomas M. 2000. The Empowered Self: Law and Society in an Age of Individual-
+ism. Oxford: Oxford University Press.
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 45
+Friedman, Lawrence M. 2004. American Law in the 20th Century . New Haven: Yale 
+University Press.
+Friedrich, Carl J. 1954. “The Problem of Totalitarianism— An Introduction,” in Total-
+itarianism, ed. Carl J. Friedrich. New York: Grosset & Dunlap.
+———, ed. 1954. Totalitarianism. New York: Grosset & Dunlap.
+Friedrich, Carl J., and Zbigniew Brzezinski. 1956. Totalitarian Dictatorship and Autoc-
+racy. Cambridge: Harvard University Press.
+Gobry, Pascal- Emmanuel. 2011. “Eric Schmidt to World Leaders at EG8: Don’t Reg-
+ulate Us, or Else.” Business Insider. May 24, 2011. http://www.businessinsider.com/
+eric-schmidt-google-eg8-2011-5.
+Google Transparency Project. 2016. “Google’s Revolving Door Explorer (US).” April 15. 
+http://www.googletransparencyproject.org/googles-revolving-door-explorer-us.
+———. 2017. “Google’s European Revolving Door.” September 25. http://google  
+transparencyproject.org/articles/googles-european-revolving-door.
+Gray, David. 2017a. “The Fourth Amendment Categorical Imperative.” Michigan Law 
+Review. http://michiganlawreview.org/the-fourth-amendment-categorical-imperative.
+———. 2017b. The Fourth Amendment in an Age of Surveillance. New York: Cambridge 
+University Press.
+Griffiths, Mark D., Daria J. Kuss, and Zsolt Demetrovics. 2014. “Social Networking 
+Addiction.” In Behavioral Addictions, edited by Kenneth Paul Rosenberg and Laura Cur-
+tiss Feder, 119– 141. Elsevier. https://doi.org/10.1016/B978-0-12-407724-9.00006-9.
+Gurian, Waldemar. 1964. “Totalitarianism as Political Religion.” In Totalitarianism, 
+edited by Carl J. Friedrich, 119– 129. New York: Grosset & Dunlap.
+Harvey, David. 2005. The New Imperialism. New York: Oxford University Press.
+Hilts, Andrew, Christopher Parsons, and Jeffrey Knockel. 2016. “Every Step You 
+Fake: A Comparative Analysis of Fitness Tracker Privacy and Security.” Open Effect. 
+https://openeffect.ca/fitness-trackers.
+Hirsh, Michael. 2015. “We Are All Big Brother Now,” POLITICO Magazine, July 23 
+https://www.politico.com/magazine/story/2015/07/big-brother-technology-trial  
+-120477.html.
+Hoofnagle, Chris Jay. 2017. “FTC Regulation of Cybersecurity and Surveillance.” 
+Public Law Research Paper ID 3010205. Berkeley, CA: UC Berkeley. https://papers  
+.ssrn.com/abstract=3010205.
+Ignatieff, Michael. 2001. Human Rights as Politics and Idolatry. Princeton, NJ: Prince-
+ton University Press.
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 202646 Shoshana Zuboff
+Intille, Stephen S., Jonathan Lester, James F. Sallis, and Glen Duncan. 2012. “New 
+Horizons in Sensor Development.” Medicine & Science in Sports & Exercise  44 (Janu -
+ary): S24– 31. https://doi.org/10.1249/MSS.0b013e3182399c7d.
+Jenkins, Holman W. 2010. “Google and the Search for the Future.” Wall Street Jour-
+nal, August 14. http://www.wsj.com/articles/SB100014240527487049011045754232
+94099527212.
+Kar, Robin Bradley. 2013. “The Challenge of Boilerplate.” Illinois Public Law and 
+Legal Theory Research Paper Series. University of Illinois College of Law. http://juris 
+.jotwell.com/the-challenge-of-boilerplate.
+Keller, Daphne. 2017. “The Right Tools: Europe’s Intermediary Liability Laws 
+and the 2016 General Data Protection Regulation.” SSRN Scholarly Paper ID 
+2914684. Rochester, NY: Social Science Research Network. https://papers.ssrn.com/
+abstract=2914684.
+Kerr, Orin S. 2005. “Searches and Seizures in a Digital World.” Harvard Law Review 
+119, 531– 585.
+Khosla, Vinod. 2014. “Fireside Chat with Google Co- Founders, Larry Page and 
+Sergey Brin.” Khosla Ventures, July 3. http://www.khoslaventures.com/fireside-chat  
+-with-google-co-founders-larry-page-and-sergey-brin.
+Kim, Nancy S. 2013. Wrap Contracts: Foundations and Ramifications. Oxford: Oxford 
+University Press.
+Kramer, Adam D. I., Jamie E. Guillory, and Jeffrey T. Hancock. 2014. “Experimental 
+Evidence of Massive- Scale Emotional Contagion through Social Networks.” Pro-
+ceedings of the National Academy of Sciences of the United States of America  111 (24): 
+8788– 8790. https://doi.org/10.1073/pnas.1320040111.
+LA Times. 2014. “911 Calls about Facebook Outage Angers L.A. County Sheriff’s Offi-
+cials.” Los Angeles Times, August 1. http://www.latimes.com/local/lanow/la-me-ln-911 
+-calls-about-facebook-outage-angers-la-sheriffs-officials-20140801-htmlstory.html.
+Lefort, Claude. 1986. The Political Forms of Modern Society: Bureaucracy, Democracy, 
+Totalitarianism, ed. John B. Thompson. Cambridge: MIT Press.
+Lemley, Mark A. 2006. “Terms of Use.” Minnesota Law Review  91 (July). https://
+papers.ssrn.com/abstract=917926.
+Levy, Steven. 2011. In the Plex: How Google Thinks, Works, and Shapes Our Lives. New 
+York: Simon & Schuster.
+———. 2009. “Secret of Googlenomics: Data- Fueled Recipe Brews Profitability.”  
+Wired, May 22. http://archive.wired.com/culture/culturereviews/magazine/17-06/nep 
+_googlenomics.
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 47
+Lifton, Robert Jay. 2010. “Beyond Psychic Numbing: A Call to Awareness.” American 
+Journal of Orthopsychiatry 52 (4): 619– 629. https://doi.org/10.1111/j.1939-0025.1982 
+.tb01451.x.
+Machado, Antonio. 2003. There Is No Road: Proverbs by Antonio Machado. Buffalo, NY: 
+White Pine Press.
+Marx, Karl. 1992. Capital: A Critique of Political Economy, vol. 3. Translated by David 
+Fernbach. London: Penguin.
+“Max Karl Ernst Ludwig Planck.” 2017. Nobel- Winners.Com, December 16. http://
+www.nobel-winners.com/Physics/max_karl_ernst_ludwig_planck.html.
+“Max Planck Facts, Information, Pictures | Encyclopedia.Com Articles about Max 
+Planck.” n.d. http://www.encyclopedia.com/people/science-and-technology/physics 
+-biographies/max-planck.
+Mayer- Schönberger, Viktor, and Yann Padova. 2016. “Regime Change? Enabling Big 
+Data through Europe’s New Data Protection Regulation.” Columbia Science & Tech -
+nology Law Review 17: 315– 335.
+Menell, Peter S. 2013. “2014: Brand Totalitarianism.” UC Berkeley Public Law 
+Research Paper. Berkeley: University of California. http://papers.ssrn.com/abstract  
+=2318492.
+Meyer, Max. 1912. “The Present Status of the Problem of the Relation between Mind 
+and Body.” Journal of Philosophy, Psychology and Scientific Methods  9 (14): 365– 371. 
+https://doi.org/10.2307/2013335.
+Meyer, Max Friedrich. 1921. Psychology of the Other- One. Columbia, MO: Missouri 
+Book Publishers. http://archive.org/details/cu31924031214442.
+Mukhopadhyay, S.  C. 2015. “Wearable Sensors for Human Activity Monitoring: 
+A Review ,” IEEE Sensors Journal  15 (3): 1321– 1330. https://doi.org/10.1109/JSEN  
+.2014.2370945.
+Mullins, Brody, and Jack Nicas. 2017. “Paying Professors: Inside Google’s Academic 
+Influence Campaign.” Wall Street Journal , July  14. https://www.wsj.com/articles/
+paying-professors-inside-googles-academic-influence-campaign-149978528.
+Nasaw, David. 2005. “Gilded Age Gospels.” In Ruling America: A History of Wealth 
+and Power in a Democracy , edited by Steve Fraser and Gary Gerstle, 123– 148. Cam-
+bridge, MA: Harvard University Press.
+Neumann, Franz L., and Peter Hayes. 2009. Behemoth: The Structure and Practice of 
+National Socialism, 1933–1944. Chicago: Ivan R. Dee.
+Nevins, Allan. 1954. Ford: The Times, the Man, the Company. New York: Charles Scrib-
+ner’s Sons.
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 202648 Shoshana Zuboff
+Newman, Jared. 2009. “Google’s Schmidt Roasted for Privacy Comments.” PCWorld, 
+December  11, 2009. http://www.pcworld.com/article/184446/googles_schmidt_roasted 
+_for_privacy_comments.html.
+Pattichis, C.  S. et al. 2002. “Wireless Telemedicine Systems: An Overview,” IEEE 
+Antennas and Propagation Magazine 44 (2): 143– 153.
+Pettey, Christy. 2016. “Treating Information as an Asset.” Smarter with Gartner, Feb-
+ruary 17. www.gartner.com/smarterwithgartner/treating-information-as-an-asset.
+Planck, Max. 2007a. “Phantom Problems in Science.” In Scientific Autobiography and 
+Other Papers, 52– 79. New York: Philosophical Library.
+———. 2007b. Scientific Autobiography and Other Papers . New York: Philosophical 
+Library.
+Polanyi, Karl. 2001. The Great Transformation: The Political and Economic Origins of 
+Our Time. Boston: Beacon Press.
+Preston, Cheryl B. 2015. “‘Please Note: You Have Waived Everything’: Can Notice 
+Redeem Online Contracts?” American University Law Review 64 (3): 535– 590. http://
+digitalcommons.wcl.american.edu/cgi/viewcontent.cgi?article=1950&context=aulr.
+“Promotion, Protection, and Enjoyment of Human Rights on the Internet, The.” 
+2016. United Nations Human Rights Council. https://www.article19.org/data/files/
+Internet_Statement_Adopted.pdf.
+Preston, Cheryl B. 2015. “‘Please Note: You Have Waived Everything’: Can Notice 
+Redeem Online Contracts?” American University Law Review 64 (3): 535– 590. http://
+digitalcommons.wcl.american.edu/cgi/viewcontent.cgi?article=1950&context=aulr.
+Radin, Margaret Jane. 2012. Boilerplate: The Fine Print, Vanishing Rights, and the Rule 
+of Law. Princeton, NJ: Princeton University Press.
+Rochet, Jean- Charles, and Jean Tirole. 2006. “Two- Sided Markets: A Progress Report.” 
+RAND Journal of Economics 37 (3): 645– 667.
+Rossi, Anna. 2016. “Respected or Challenged by Technology? The General Data 
+Protection Regulation and Commercial Profiling on the Internet.” SSRN Scholarly 
+Paper ID 2852739. Rochester, NY: Social Science Research Network. https://papers  
+.ssrn.com/abstract=2852739.
+Sandel, Michael J. 2013. What Money Can’t Buy: The Moral Limits of Markets . New 
+York: Farrar, Straus and Giroux.
+Sartre, Jean- Paul. 1957. Existentialism and Human Emotions. New York: Philosophical 
+Library.
+———. 1992. Being and Nothingness. New York: Washington Square Press.
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 49
+Schmidt, Eric, and Jared Cohen. 2014. The New Digital Age: Transforming Nations, 
+Businesses, and Our Lives. New York: Vintage.
+Schou Andreassen, Cecilie, and Stale Pallesen. 2014. “Social Network Site 
+Addiction— An Overview.” Current Pharmaceutical Design 20 (25): 4053– 4061. http://
+www.ingentaconnect.com/content/ben/cpd/2014/00000020/00000025/art00007.
+Schulz, Martin. 2016. “Transcript of Keynote Speech at Cpdp2016 on Technologi -
+cal, Totalitarianism, Politics and Democracy,” Scribd. https://www.scribd.com/docu 
+ment/305093114/Keynote-Speech-at-Cpdp2016-on-Technological-Totalitarianism  
+-Politics-and-Democracy.
+Searle, John R. 2010. Making the Social World: The Structure of Human Civilization . 
+Oxford: Oxford University Press.
+Shaban, Hamza. 2017a. “Google Spent the Most It Ever Has Trying to Influence 
+Washington: $6 Million.” Washington Post , July  21. https://www.washingtonpost  
+.com/news/the-switch/wp/2017/07/21/google-spent-the-most-it-ever-has-trying-to  
+-influence-washington-6-million.
+———. 2017b. “Google Is the Highest- Spending Company for Federal Lobbying.” 
+Technocracy News , September  19. https://www.technocracy.news/index.php/2017/  
+09/19/google-highest-spending-company-federal-lobbying.
+Short, Jodi L. 2011. “The Paranoid Style in Regulatory Reform.” Hastings Law Journal 
+63 (January): 633– 694.
+Shorten, Richard. 2012. Modernism and Totalitarianism— Rethinking the Intellectual 
+Sources of Nazism and Stalinism, 1945 to the Present . New York, Palgrave Macmillan. 
+http://www.palgrave.com/us/book/9780230252066.
+Skinner, B. F. 1976. About Behaviorism. New York: Vintage Books.
+———. 1991. The Behavior of Organisms: An Experimental Analysis . Acton, MA: 
+Copley.
+———. 2002. Beyond Freedom & Dignity. Kindle. Indianapolis, IN: Hackett.
+———. 2012. Science and Human Behavior. New York: Free Press.
+Slovic, Paul, David Zionts, Andrew Keane Woods, Ryan Goodman, and Derek Jinks. 
+2011. “Psychic Numbing and Mass Atrocity.” Public Law Research Paper 11– 56. New 
+York: NYU School of Law. http://papers.ssrn.com/abstract=1809951.
+Solanas, A. et al. 2014. “Smart Health: A Context- Aware Health Paradigm within 
+Smart Cities.” IEEE Communications Magazine 52 (8): 74– 81. https://doi.org/10.1109/
+MCOM.2014.6871673.
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 202650 Shoshana Zuboff
+Sorell, Tom, and Heather Draper. 2012. “Telecare, Surveillance, and the Welfare 
+State.” American Journal of Bioethics 12 (9): 36– 44. https://doi.org/10.1080/15265161 
+.2012.699137.
+Statista. 2017. “Google Is the Biggest Lobbying Spender in Tech: Chart.” Statista, July  24. 
+https://www.statista.com/chart/10393/lobbying-expenditure-of-tech-companies.
+Strandburg, Katherine J. 2013. “Free Fall: The Online Market’s Consumer Preference 
+Disconnect.” Working Paper, New York University Law and Economics. New York: 
+NYU.
+Taplin, Jonathan. 2017. “Why Is Google Spending Record Sums on Lobbying Wash-
+ington?” Guardian, July  30. http://www.theguardian.com/technology/2017/jul/30/
+google-silicon-valley-corporate-lobbying-washington-dc-politics.
+Van Der Kolk, Bessel A., and Jose Saporta. 1991. “The Biological Response to Psychic 
+Trauma: Mechanisms and Treatment of Intrusion and Numbing.” Anxiety Research 4 
+(3): 199– 212. https://doi.org/10.1080/08917779108248774.
+Van  Dongen, Lisa, and Tjerk Timan. 2017. “Your Smart Coffee Machine Knows 
+What You Did Last Summer: A Legal Analysis of the Limitations of Traditional Pri -
+vacy of the Home under Dutch Law in the Era of Smart Technology.” SSRN Scholarly 
+Paper ID 3090340. Rochester, NY: Social Science Research Network. https://papers  
+.ssrn.com/abstract=3090340.
+Wachter, Sandra. 2017. “Normative Challenges of Identification in the Internet of 
+Things: Privacy, Profiling, Discrimination, and the GDPR.” SSRN Scholarly Paper ID 
+3083554. Rochester, NY: Social Science Research Network. https://papers.ssrn.com/
+abstract=3083554.
+Weber, Max. 1978. Economy and Society: An Outline of Interpretive Sociology . Berkeley: 
+University of California Press.
+Weiser, Mark. 1999. “The Computer for the 21st Century.” Scientific American, July, 
+3– 11.
+Wells, Bruce R. 2009. “The Fog of Cloud Computing: Fourth Amendment Issues 
+Raised by the Blurring of Online and Offline Content.” University of Pennsylvania 
+Journal of Constitutional Law 12: 223– 240.
+Wiebe, Robert H. 1967. The Search for Order: 1877– 1920. New York: Hill and Wang.
+Wood, Ellen. 2002. The Origin of Capitalism: A Longer View. London: Verso.
+World Unplugged, The. n.d. https://theworldunplugged.wordpress.com.
+Wozniak, Robert H. 1997. “Max Meyer and The Fundamental Laws of Human Behav -
+ior.” Bryn Mawr College. http://www.brynmawr.edu/psychology/rwozniak/meyer  
+.html.
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026“We Make Them Dance” 51
+Wydra, Elizabeth B., Brianne J. Gorod, and Brian R. Frazelle. 2017. “Timothy Ivory 
+Carpenter v. United States of America— On Writ of Certiorari to the United States 
+Court of Appeals for the Sixth Circuit— Brief of Scholars of the History and Origi -
+nal Meaning of the Fourth Amendment as Amici Curiae in Support of Petitioner.” 
+Supreme Court of the United States.
+Yarow, Jay. 2013. “Google CEO Larry Page Wants a Totally Separate World Where 
+Tech Companies Can Conduct Experiments on People.” Business Insider. May 16. 
+http://www.businessinsider.com/google-ceo-larry-page-wants-a-place-for-experi  
+ments-2013-5.
+Zarsky, Tal. 2017. “Incompatible: The GDPR in the Age of Big Data.” SSRN Scholarly 
+Paper ID 3022646. Rochester, NY: Social Science Research Network. https://papers.
+ssrn.com/abstract=3022646.
+Zuboff, Shoshana. 2014. “A Digital Declaration.” Frankfurter Allgemeine Zeitung, Sep-
+tember 15. http://www.faz.net/aktuell/feuilleton/debatten/the-digital-debate/shoshan 
+-zuboff-on-big-data-as-surveillance-capitalism-13152525.html.
+———. 2015. “Big Other: Surveillance Capitalism and the Prospects of an Infor -
+mation Civilization.” Journal of Information Technology  30 (1): 75– 89. https://doi  
+.org/10.1057/jit.2015.5.
+———. 2016. “Google as a Fortune Teller: The Secrets of Surveillance Capitalism.” 
+Frankfurter Allgemeine Zeitung , March  5. http://www.faz.net/aktuell/feuilleton/  
+debatten/the-digital-debate/shoshana-zuboff-secrets-of-surveillance-capitalism  
+-14103616.html.
+———. 2019. The Age of Surveillance Capitalism: The Fight for a Human Future at the 
+New Frontier of Power. New York: PublicAffairs.
+Zuboff, Shoshana, and James Maxmin. 2002. The Support Economy: Why Corporations 
+Are Failing Individuals and the Next Episode of Capitalism. New York: Viking.
+This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026This is a portion of the eBook at doi:10.7551/mitpress/11304.001.0001
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026This is a section of doi:10.7551/mitpress/11304.001.0001
+Human Rights in the Age of Platforms
+Edited by: Rikke Frank Jørgensen
+Citation:
+Human Rights in the Age of Platforms
+Edited by:
+DOI:
+ISBN (electronic):
+Publisher:
+Published:
+Rikke Frank Jørgensen
+The MIT Press
+2019
+10.7551/mitpress/11304.001.0001
+9780262353946
+The open access edition of this book was made possible by
+generous funding and support from the Danish Council for
+Independent Research, and Knowledge Unlatched
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026© 2019 Massachusetts Institute of Technology
+All rights reserved. No part of this book may be reproduced in any form by any 
+electronic or mechanical means (including photocopying, recording, or information 
+storage and retrieval) without permission in writing from the publisher.
+This work is licensed under a Creative Commons Attribution- NonCommercial 4.0 
+(CC- BY- NC 4.0) International License.
+The Open Access edition of this book was published with generous support from 
+Knowledge Unlatched and the Danish Council for Independent Research.
+This book was set in Stone Serif and Stone Sans by Jen Jackowitz. Printed and bound 
+in the United States of America.
+Library of Congress Cataloging- in- Publication Data
+Names: Jørgensen, Rikke Frank, editor.
+Title: Human rights in the age of platforms / edited by Rikke Frank Jørgensen.
+Description: Cambridge, MA : The MIT Press, [2019] | Series: Information  
+policy | Includes bibliographical references and index.
+Identifiers: LCCN 2018049349 | ISBN 9780262039055 (hardcover : alk. paper)
+Subjects: LCSH: Human rights. | Information society. | Information  
+technology- - Moral and ethical aspects.
+Classification: LCC JC571 .H7695266 2019 | DDC 323- - dc23 LC record available at 
+https://lccn.loc.gov/2018049349
+10 9 8 7 6 5 4 3 2 1
+MIT Press Direct
+Downloaded from http://direct.mit.edu/books/oa-edited-volume/chapter-pdf/2259403/9780262353946_caa.pdf by guest on 14 January 2026

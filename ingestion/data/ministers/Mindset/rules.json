@@ -1,0 +1,60 @@
+{
+  "domain": "Mindset",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "b0fa0a71-f7b9-4857-80f0-23c87276a26b",
+      "text": "Be honest with yourself about your inner battles and areas for improvement.",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "557c3797-a77a-4492-a86e-24c692a48ae9",
+      "text": "Challenge the status quo and be willing to disrupt comfortable patterns to foster growth.",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9aa16bdf-91c4-419a-840c-025e3b3649c9",
+      "text": "Eliminate excuses to maintain momentum toward personal objectives.",
+      "source": {
+        "book": "the_magic_of_thinking_big",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8eca6504-5a9d-4105-a35b-ffdde8c14399",
+      "text": "Don't become too attached to initial ideas; be prepared to adapt",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 6
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 4,
+    "last_updated": "2026-02-13T20:50:12.083053Z",
+    "aggregated_from": [
+      {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 2
+      },
+      {
+        "book": "the_magic_of_thinking_big",
+        "chapter": 1
+      },
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 6
+      }
+    ]
+  }
+}

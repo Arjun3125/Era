@@ -1,0 +1,34 @@
+{
+  "domain": "Ethical Decision Making",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "a91247e5-1d17-4b08-99c9-70e3c068fcbc",
+      "text": "The life of an inherently harmful individual holds less value than that of a productive member of society.",
+      "source": {
+        "book": "Crime",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c28bf33b-844c-463f-bf03-e51cbbdddc11",
+      "text": "The death of an individual can be ethically validated by the benefits it provides to many others.",
+      "source": {
+        "book": "Crime",
+        "chapter": 11
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T05:32:32.337871Z",
+    "aggregated_from": [
+      {
+        "book": "Crime",
+        "chapter": 11
+      }
+    ]
+  }
+}

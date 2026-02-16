@@ -1,0 +1,34 @@
+{
+  "domain": "choice",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "41720341-64c4-4ffd-9296-e366bce921c9",
+      "text": "Education enhances personal freedom and capability.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d8e321b5-bd63-4bf8-9f56-fff0a9f888d6",
+      "text": "Emotions can be managed through conscious regulation.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 4
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T11:27:18.460168Z",
+    "aggregated_from": [
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 4
+      }
+    ]
+  }
+}

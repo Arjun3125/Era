@@ -1,0 +1,1259 @@
+[
+  {
+    "chapter_index": 1,
+    "chapter_title": null,
+    "domains": [
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 2,
+    "chapter_title": null,
+    "domains": [
+      "risk"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 3,
+    "chapter_title": null,
+    "domains": [
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 4,
+    "chapter_title": null,
+    "domains": [
+      "Finance",
+      "Leadership/Behavior"
+    ],
+    "principles": [
+      "Financial humility is essential for long-term success",
+      "Observation and attention to detail are crucial for effective decision-making"
+    ],
+    "rules": [
+      "Avoid public displays of wealth to prevent insecurity-driven financial behaviors",
+      "Set clear financial goals and diversify investments rather than hoarding cash"
+    ],
+    "claims": [
+      "Compound interest and disciplined investing are more effective for wealth building than conspicuous consumption",
+      "True financial success requires balancing achievement with prudent management"
+    ],
+    "warnings": [
+      "Insecurity about financial status can lead to impulsive, poorly planned decisions",
+      "Excessive bragging about wealth may mask underlying financial mismanagement"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0482,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 5,
+    "chapter_title": null,
+    "domains": [
+      "Behavioral Finance",
+      "Investment Strategy",
+      "Personal Finance"
+    ],
+    "principles": [
+      "Consistent saving is foundational to wealth accumulation",
+      "Financial success comes from behavioral patterns, not intelligence alone",
+      "Emotional control is crucial for sound financial decision-making"
+    ],
+    "rules": [
+      "Save consistently, even in small amounts",
+      "Compound interest requires patience to yield substantial returns",
+      "Avoid high-interest debt during economic downturns"
+    ],
+    "claims": [
+      "Behavioral finance principles can be learned through practice",
+      "Compounding over time can turn small savings into significant wealth"
+    ],
+    "warnings": [
+      "Excessive spending without saving leads to financial disaster",
+      "High debt levels during economic crises can result in bankruptcy"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0151,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 6,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 7,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "optionality",
+      "psychology"
+    ],
+    "principles": [
+      "Individual decision-making is fundamentally shaped by personal history and lived experience.",
+      "Understanding human behavior requires empathy and recognition of diverse life contexts"
+    ],
+    "rules": [
+      "Financial decisions should be evaluated through the lens of the decision-maker's unique life experiences.",
+      "True financial wisdom requires both formal knowledge and lived experience"
+    ],
+    "claims": [
+      "Investment decisions are strongly anchored to personal generational experiences.",
+      "Financial behavior is more influenced by lived experience than by formal financial theory"
+    ],
+    "warnings": [
+      "Relying solely on formal financial education may fail to capture the full complexity of money decisions.",
+      "Lack of personal experience creates blind spots in understanding others' financial behaviors"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0052,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 8,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "timing",
+      "truth"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 9,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "power",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 10,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "risk",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 11,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "risk",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 12,
+    "chapter_title": null,
+    "domains": [
+      "risk",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 13,
+    "chapter_title": null,
+    "domains": [
+      "Investment",
+      "Personal Finance",
+      "Risk Management"
+    ],
+    "principles": [
+      "Recognize the difference between 'enough' and excess wealth.",
+      "Understand that luck plays a significant role in success, but risk is equally important.",
+      "Avoid overvaluing past successes or current wealth when making future decisions."
+    ],
+    "rules": [
+      "Do not risk what you need for what you don't have.",
+      "Be mindful of your financial limits and avoid the illusion of endless wealth.",
+      "Prioritize financial stability over aggressive growth when necessary."
+    ],
+    "claims": [
+      "A five percent annual return on substantial wealth can generate significant passive income.",
+      "Successful individuals can have legitimate, high-performing businesses even before resorting to fraudulent schemes.",
+      "Financial stability allows for resilience against market fluctuations and reduces the likelihood of catastrophic losses."
+    ],
+    "warnings": [
+      "Insider trading and excessive risk-taking can lead to severe consequences, including loss of career and reputation.",
+      "Lack of a clear understanding of 'enough' can lead to unnecessary risks and potential financial ruin.",
+      "Even in favorable market conditions, excessive risk-taking can result in significant losses."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0055,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 14,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 15,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 16,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 17,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 18,
+    "chapter_title": null,
+    "domains": [
+      "Business/Finance",
+      "Leadership",
+      "Personal Development"
+    ],
+    "principles": [
+      "The pursuit of knowledge should be prioritized over the pursuit of wealth or status.",
+      "Humility is essential for long-term success and avoiding failure."
+    ],
+    "rules": [
+      "Avoid letting success or early successes inflate one's ego.",
+      "Continuously seek feedback and remain open to learning, even from setbacks."
+    ],
+    "claims": [
+      "Arrogance (swelled head) is a common cause of failure among successful individuals.",
+      "The consequences of arrogance are universal and affect everyone."
+    ],
+    "warnings": [
+      "Overconfidence can lead to poor decision-making and ultimately, professional failure.",
+      "Neglecting self-awareness can result in a gradual loss of perspective and critical judgment."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.1194,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 19,
+    "chapter_title": null,
+    "domains": [
+      "risk",
+      "technology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 20,
+    "chapter_title": null,
+    "domains": [
+      "risk",
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 21,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "registry",
+      "risk"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 22,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "psychology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 23,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "timing",
+      "truth"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 24,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "timing",
+      "truth"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 25,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "power",
+      "truth"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 26,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "data",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 27,
+    "chapter_title": null,
+    "domains": [
+      "strategy",
+      "timing",
+      "truth"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 28,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Past experiences do not guarantee future outcomes due to the influence of cognitive biases like overconfidence."
+    ],
+    "rules": [
+      "Consider the probability and impact of outlier events when forecasting, regardless of past experience.",
+      "Acknowledge cognitive biases (e.g., anchoring, overconfidence) that can distort decision-making based on limited data."
+    ],
+    "claims": [
+      "Outlier events have disproportionately shaped historical economic and market outcomes."
+    ],
+    "warnings": [
+      "Relying heavily on past experiences can lead to underestimating the impact of rare, outlier events.",
+      "Overconfidence stemming from past successes may prevent adaptation to novel circumstances."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0199,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 29,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "discipline",
+      "technology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 30,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "technology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 31,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "technology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 32,
+    "chapter_title": null,
+    "domains": [
+      "risk",
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 33,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 34,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 35,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Flexibility and adaptability yield substantial long-term benefits.",
+      "Uncertainty can be navigated through preparation for the unforeseen."
+    ],
+    "rules": [
+      "Prepare for risks that are difficult to anticipate.",
+      "Maintain a margin for error to mitigate unexpected disruptions."
+    ],
+    "claims": [
+      "Unforeseen risks are common and can have significant impacts.",
+      "The ability to recognize and avoid serious risks is a critical skill."
+    ],
+    "warnings": [
+      "Lack of preparation for rare events can lead to significant failure.",
+      "Overconfidence in predictability can leave operations vulnerable."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0163,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 36,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Diversification reduces vulnerability to failure",
+      "Systems should account for human change over time"
+    ],
+    "rules": [
+      "Critical systems must have redundant components",
+      "Financial planning must anticipate unknown future expenses",
+      "Long-term plans must include flexibility for changing goals"
+    ],
+    "claims": [
+      "People adapt to most circumstances",
+      "Few financial plans adequately account for real-world unpredictability"
+    ],
+    "warnings": [
+      "Single points of failure lead to catastrophic outcomes",
+      "The End of History Illusion prevents adequate future planning"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0016,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 37,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "risk",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 38,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "risk",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 39,
+    "chapter_title": null,
+    "domains": [
+      "strategy",
+      "technology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 40,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "risk",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 41,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "power",
+      "technology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 42,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "data",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 43,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "constraints",
+      "power"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 44,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "risk",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 45,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 46,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "power",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 47,
+    "chapter_title": null,
+    "domains": [
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 48,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "timing",
+      "truth"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 49,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "psychology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 50,
+    "chapter_title": null,
+    "domains": [
+      "registry"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 51,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "conflict",
+      "power"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 52,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "timing",
+      "truth"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 53,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "risk"
+    ],
+    "principles": [
+      "Accuracy is foundational to trust.",
+      "Information must be reliable to maintain credibility."
+    ],
+    "rules": [
+      "Never accept liability for outcomes solely based on provided information.",
+      "Limit responsibility by clearly disclaiming guarantees."
+    ],
+    "claims": [
+      "Information accuracy is ensured through diligent effort.",
+      "Disclaimers define the scope of acceptable reliance."
+    ],
+    "warnings": [
+      "Relying solely on information may lead to financial loss.",
+      "Lack of guarantees necessitates cautious interpretation."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0661,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  }
+]

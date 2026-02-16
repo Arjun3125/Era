@@ -1,0 +1,563 @@
+[
+  {
+    "chapter_index": 1,
+    "chapter_title": null,
+    "domains": [
+      "power"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 2,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "power",
+      "strategy"
+    ],
+    "principles": [
+      "Understand and adapt to the nature of the state and its people to govern effectively.",
+      "Balance between being feared and loved, with fear more reliable for maintaining power.",
+      "Power dynamics are influenced by both human actions and fortune."
+    ],
+    "rules": [
+      "Rulers must be both generous and moderate in their spending to avoid creating resentment.",
+      "Avoid relying on fortune; actively cultivate strength and stability.",
+      "Maintain respect through consistent actions and avoid contempt by fulfilling promises.",
+      "Use adaptable strategies in warfare, considering the strengths and weaknesses of different forces."
+    ],
+    "claims": [
+      "Fortune is a constant factor in human affairs, capable of shifting unpredictably.",
+      "Rulers can be effective through a combination of skill, force, and political maneuvering."
+    ],
+    "warnings": [
+      "Relying solely on fortune or luck can lead to the loss of power.",
+      "Inconsistency and indecision can lead to contempt and hatred from the governed.",
+      "Over-reliance on mercenaries can weaken a ruler's authority and control."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0433,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 3,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Understand cause and effect relationships",
+      "Adapt to circumstances to ensure survival",
+      "Prioritize essentials over luxuries"
+    ],
+    "rules": [
+      "Act with necessity as the primary guide",
+      "Understand and leverage political systems",
+      "Be decisive in the face of uncertainty"
+    ],
+    "claims": [
+      "The Prince provides enduring insights into power dynamics",
+      "Political fortune can be unpredictable and volatile"
+    ],
+    "warnings": [
+      "Misjudging political consequences can lead to ruin",
+      "Human nature is often unpredictable in political contexts",
+      "Overestimating one's ability to control events invites failure"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0103,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 4,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "power",
+      "risk"
+    ],
+    "principles": [
+      "Maintain equilibrium in power dynamics through continuous assessment and adaptation.",
+      "Alliances are essential for stability in competitive environments."
+    ],
+    "rules": [
+      "Form coalitions to counter a rising power before it dominates.",
+      "Evaluate the credibility of threats to avoid unnecessary escalation."
+    ],
+    "claims": [
+      "Foreign intervention can be predictable when internal vulnerabilities exist.",
+      "The balance of power is fragile and easily disrupted by external events."
+    ],
+    "warnings": [
+      "Overconfidence in diplomatic threats can lead to unforeseen invasions and disasters.",
+      "Neglecting potential risks in power dynamics may result in loss of independence and security."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0095,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 5,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "power",
+      "strategy"
+    ],
+    "principles": [
+      "Prioritize decisive action over abstract concepts",
+      "The effectiveness of military forces depends on their composition (citizen vs mercenary)"
+    ],
+    "rules": [
+      "Form citizen armies to ensure reliable military power",
+      "Assess situations rapidly and make calculated decisions to achieve objectives"
+    ],
+    "claims": [
+      "Citizen armies are superior to mercenary forces in maintaining discipline and loyalty",
+      "Rapid assessment and decisive action are key to achieving desired outcomes"
+    ],
+    "warnings": [
+      "Relying on weak leadership leads to strategic failure",
+      "Inadequate preparation and resource allocation can undermine diplomatic missions"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0008,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 6,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Success depends on aligning with changing circumstances.",
+      "Proactive adaptation to dynamic factors is key to achieving control."
+    ],
+    "rules": [
+      "Adopt an aggressive and impulsive strategy to overcome obstacles in unpredictable situations."
+    ],
+    "claims": [
+      "External forces can be personified and managed through human-like intervention."
+    ],
+    "warnings": [
+      "Failing to adapt proactively to changing conditions can result in missed opportunities and failure."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0058,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 7,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Effective power acquisition relies on capability rather than luck.",
+      "Fear is more constant than love in maintaining control."
+    ],
+    "rules": [
+      "Maintain order through severity when necessary.",
+      "Keep promises to preserve reputation.",
+      "Balance rewards and punishments to avoid neglecting either."
+    ],
+    "claims": [
+      "The Prince should appear merciful, truthful, and prudent.",
+      "People fear change more than death."
+    ],
+    "warnings": [
+      "Hating one's subjects leads to ruin.",
+      "Changing established laws is difficult.",
+      "Neglecting both rewards and punishments invites disaster."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 2.0,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 8,
+    "chapter_title": null,
+    "domains": [
+      "legitimacy",
+      "power",
+      "strategy"
+    ],
+    "principles": [
+      "Understand the people to govern effectively.",
+      "Learn from history and contemporary affairs to inform governance."
+    ],
+    "rules": [
+      "Avoid disrupting established order in hereditary monarchies.",
+      "New rulers must manage expectations and prevent rebellion."
+    ],
+    "claims": [
+      "Hereditary monarchies are easier to maintain than new ones.",
+      "Territories accustomed to a monarch can be held if the ruler is legitimate."
+    ],
+    "warnings": [
+      "Rulers should be wary of men changing allegiance if they believe conditions can be improved.",
+      "Failure to understand the character of a people can undermine a ruler's position."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0005,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 9,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Consolidate power through a balance of severity and leniency",
+      "Power is built through decisive action and careful planning"
+    ],
+    "rules": [
+      "Eliminate opposition to secure long-term control",
+      "Leverage external alliances to overcome immediate obstacles",
+      "Align support by offering incentives to key stakeholders"
+    ],
+    "claims": [
+      "Effective governance can transform unstable regions into loyal territories",
+      "Power gained through fortune can be secured through strategic consolidation"
+    ],
+    "warnings": [
+      "Relying on fortune or external support creates vulnerability to collapse",
+      "Failure to adapt to changing circumstances leads to rapid downfall"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0034,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 10,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Effective leadership involves taking decisive actions to overcome obstacles.",
+      "Power is gained through forceful measures and maintained by adaptability to challenges."
+    ],
+    "rules": [
+      "Eliminate opposition to secure and hold power.",
+      "Hold power by demonstrating capability and resilience in the face of adversity."
+    ],
+    "claims": [
+      "Achieving rulership can be done through violent means, as shown by historical examples.",
+      "Gaining power often requires seizing opportunities without relying on luck or support."
+    ],
+    "warnings": [
+      "Brutality may sustain power but can lead to a lack of lasting glory or admiration.",
+      "Failing to adapt to changing circumstances can result in the loss of power."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0019,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 11,
+    "chapter_title": null,
+    "domains": [
+      "legitimacy",
+      "power",
+      "risk"
+    ],
+    "principles": [
+      "A ruler's foundation of power is built upon the loyalty and support of the governed.",
+      "Consistency in governance and leadership style fosters trust and long-term stability."
+    ],
+    "rules": [
+      "Rulers must actively ensure citizens remain dependent on their leadership during both prosperous and challenging times.",
+      "Direct command is preferable to indirect rule when facing critical moments, as it minimizes reliance on potentially unreliable proxies."
+    ],
+    "claims": [
+      "The people's loyalty is contingent upon the ruler's ability to protect and provide for them effectively."
+    ],
+    "warnings": [
+      "Rulers who lose the people's support during crises will face isolation and the inability to mount an effective defense.",
+      "Critical moments offer only one opportunity for intervention, making preparation and consistent engagement essential."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0026,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 12,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Power is derived from legitimacy and institutional support rather than solely from force or personal ability.",
+      "Security stems from alignment with foundational, enduring structures (e.g., religion)."
+    ],
+    "rules": [
+      "Maintain control by leveraging existing institutions rather than relying on active defense or governance.",
+      "Govern by addressing the ambitions and divisions within leadership hierarchies (e.g., cardinals)."
+    ],
+    "claims": [
+      "Temporal power can be significantly enhanced through strategic financial mechanisms and military force.",
+      "Effective governance requires balancing expansion with consolidation to maintain stability."
+    ],
+    "warnings": [
+      "Inherent instability arises from short tenures and internal power struggles within governing bodies.",
+      "Failure to adapt to changing circumstances can lead to the erosion of established power structures."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0043,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 13,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "State power relies on solid foundations, which include good laws and a strong military force.",
+      "The quality of military forces determines the quality of governance and state stability."
+    ],
+    "rules": [
+      "States should base their military forces on their own citizens to ensure loyalty and discipline.",
+      "Rulers must personally command their armies to maintain control and prevent coups in republics."
+    ],
+    "claims": [
+      "Mercenaries are disloyal, undisciplined, and prioritize their pay over the state's interests.",
+      "Republics with citizen armies are less likely to experience coups compared to those using mercenaries."
+    ],
+    "warnings": [
+      "Relying on mercenaries leads to instability, insecurity, and eventual state collapse due to their self-serving nature.",
+      "Prolonged dependence on mercenaries creates systemic risks, as seen in Italy's historical decline."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.001,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 14,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Leaders should balance ideal qualities with practical necessities to avoid failure.",
+      "Rulers must adapt their behavior based on circumstances to maintain control."
+    ],
+    "rules": [
+      "To secure power, rulers should prioritize resource management over constant generosity.",
+      "Avoid actions that could lead to public discredit if they don't directly threaten survival."
+    ],
+    "claims": [
+      "Rulers can effectively maintain authority by focusing on essential qualities even if they are unpopular."
+    ],
+    "warnings": [
+      "Over-reliance on positive qualities like generosity can lead to financial depletion and loss of power.",
+      "Inaction or excessive benevolence in uncertain times may result in downfall."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0016,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 15,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Leaders must base their power on what they control, not on others' choices.",
+      "Rulers should adapt to circumstances and appear virtuous to maintain authority.",
+      "Success requires understanding human nature and exploiting both lawful and forceful tactics."
+    ],
+    "rules": [
+      "Keep promises only when beneficial; break them if it serves your goals.",
+      "Always appear compassionate, loyal, humane, honest, and religious to maintain public perception.",
+      "Use cunning and deception as necessary to achieve objectives, but disguise it effectively."
+    ],
+    "claims": [
+      "Outwitting opponents through cunning yields greater achievements than honest behavior.",
+      "Pope Alexander VI's deceptions were effective because he deeply understood human nature.",
+      "Modern leaders often break peace treaties without significant consequences due to public focus on outcomes."
+    ],
+    "warnings": [
+      "Failing to adapt to changing circumstances can lead to loss of power.",
+      "Losing the support of the people through hatred outweighs gains from love.",
+      "Breaking promises requires ready excuses, which can erode long-term authority."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0005,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 16,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Strategic alliances are fundamental to achieving political and military objectives.",
+      "Effective leadership requires balancing short-term gains with long-term sustainability."
+    ],
+    "rules": [
+      "Form alliances strategically based on mutual interests and clear objectives.",
+      "Maintain a balance between personal power and institutional legitimacy to avoid downfall."
+    ],
+    "claims": [
+      "Military success depends on the effective integration of diplomatic and strategic planning.",
+      "Leaders can achieve rapid territorial expansion through coordinated alliances and decisive action."
+    ],
+    "warnings": [
+      "Excessive focus on personal gain may undermine long-term stability and institutional support.",
+      "Failure to adapt to changing circumstances can lead to the collapse of alliances and power structures."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0013,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 17,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "power",
+      "strategy"
+    ],
+    "principles": [
+      "Effective strategy requires balancing boldness with resource management.",
+      "Adaptability to changing circumstances is crucial for long-term success.",
+      "Political legitimacy can be leveraged to maintain power and influence."
+    ],
+    "rules": [
+      "Form alliances based on mutual interests rather than temporary gains.",
+      "Maintain clear lines of communication to avoid internal conflicts.",
+      "Understand the balance of power in any given region before committing forces."
+    ],
+    "claims": [
+      "Military success can be achieved through innovative tactics.",
+      "Political power can be consolidated through strategic marriages and appointments.",
+      "Economic stability is essential for maintaining military strength."
+    ],
+    "warnings": [
+      "Overextension of resources can lead to strategic collapse.",
+      "Ignoring cultural or regional differences may result in operational failure.",
+      "Failure to adapt to changing political landscapes can undermine long-term goals."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0016,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  }
+]

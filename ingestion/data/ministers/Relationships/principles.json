@@ -1,0 +1,47 @@
+{
+  "domain": "Relationships",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "de9878ec-9d53-49fc-851f-2cc17cff70fb",
+      "text": "Understand motivations behind actions and decisions.",
+      "source": {
+        "book": "Crime",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1ed16e4c-caac-49b1-90be-bc454b8254b8",
+      "text": "True understanding requires looking beyond surface-level interactions.",
+      "source": {
+        "book": "Crime",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e0086ad3-c6ef-4b2e-b3d7-132f33f69eda",
+      "text": "Commit to relationships without overthinking",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 2
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T20:45:04.406413Z",
+    "aggregated_from": [
+      {
+        "book": "Crime",
+        "chapter": 8
+      },
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 2
+      }
+    ]
+  }
+}

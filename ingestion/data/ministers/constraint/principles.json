@@ -1,0 +1,34 @@
+{
+  "domain": "constraint",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "e6352309-b763-42e0-bbbc-dc3aa1b1ee60",
+      "text": "Persistence is essential for overcoming challenges.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5c893881-d671-4888-8fbd-595ba3fa558a",
+      "text": "Strategic planning and decisive action are required for success.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 22
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T19:44:24.497061Z",
+    "aggregated_from": [
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 22
+      }
+    ]
+  }
+}

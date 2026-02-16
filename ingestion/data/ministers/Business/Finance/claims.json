@@ -1,0 +1,34 @@
+{
+  "domain": "Finance",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "b6108b9d-aae7-4127-8685-d65f46fac69d",
+      "text": "Arrogance (swelled head) is a common cause of failure among successful individuals.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6621e138-9dcb-45c2-b433-8059f441f2ca",
+      "text": "The consequences of arrogance are universal and affect everyone.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 18
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T09:33:15.777458Z",
+    "aggregated_from": [
+      {
+        "book": "The_Psychology_of_Money",
+        "chapter": 18
+      }
+    ]
+  }
+}

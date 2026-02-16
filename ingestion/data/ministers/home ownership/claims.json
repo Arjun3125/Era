@@ -1,0 +1,47 @@
+{
+  "domain": "home ownership",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "e0354de8-a2c0-4df9-a5f0-c168d88db96b",
+      "text": "Anyone can own a home with creativity and common sense",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "34163a38-b79c-43f4-8a2c-ddfa7bfb46dc",
+      "text": "Financial success can be achieved through disciplined habits and planning",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9efe0441-2c86-44eb-afb4-d25895a22529",
+      "text": "Creativity and common sense enable home ownership",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 33
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-14T19:55:36.893092Z",
+    "aggregated_from": [
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 33
+      }
+    ]
+  }
+}

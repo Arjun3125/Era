@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "total_chapters_processed": 4,
+  "total_entries_created": 82,
+  "domains_populated": 7,
+  "domain_statistics": {
+    "adaptation": 26,
+    "constraints": 8,
+    "strategy": 16,
+    "base": 4,
+    "conflict": 4,
+    "risk": 14,
+    "optionality": 10
+  }
+}

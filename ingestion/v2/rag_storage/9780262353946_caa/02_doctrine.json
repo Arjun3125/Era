@@ -1,0 +1,201 @@
+[
+  {
+    "chapter_index": 1,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "data",
+      "power"
+    ],
+    "principles": [
+      "Data ownership transforms from user-centric to system-centric, fundamentally altering the relationship between individuals and their information."
+    ],
+    "rules": [
+      "Explicit consent is required for data collection and usage.",
+      "Data minimization is necessary to avoid unnecessary surveillance."
+    ],
+    "claims": [
+      "Personal data is transitioning from being an extension of the self to a commodity owned by the data collection systems."
+    ],
+    "warnings": [
+      "Inadequate data governance leads to loss of control over personal information.",
+      "Surveillance capitalism normalizes data exploitation without user benefit."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.001,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 2,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Continuous data extraction enables prediction and behavioral modification.",
+      "Certainty drives the intensification of surveillance capitalism's operational capabilities."
+    ],
+    "rules": [
+      "Prioritize prediction accuracy by expanding data collection scope.",
+      "Interventions must be timed to align with user physiological states.",
+      "Test behavioral modification techniques through systematic experimentation."
+    ],
+    "claims": [
+      "Surveillance capitalism evolved from extraction to execution economies.",
+      "Behavioral modification aims for guaranteed commercial outcomes.",
+      "Digital architecture enables unprecedented behavioral prediction capabilities."
+    ],
+    "warnings": [
+      "Loss of individual autonomy as self-determined action is systematically replaced.",
+      "Difficulties escaping surveillance networks increase as ubiquity intensifies.",
+      "Meaningless consent mechanisms cannot contain the power of behavioral modification."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0029,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 3,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "strategy",
+      "technology"
+    ],
+    "principles": [
+      "Power structures evolve by adapting their methods to changing circumstances.",
+      "Control is maintained through the modification of human behavior rather than direct coercion."
+    ],
+    "rules": [
+      "Organizations must monitor and analyze behavioral data to predict and monetize user actions.",
+      "Effective control requires replacing traditional human-centric interactions with algorithmic processes."
+    ],
+    "claims": [
+      "Surveillance capitalism can reshape society through unprecedented behavioral engineering.",
+      "Digital technology enables market-driven control that surpasses traditional political domination."
+    ],
+    "warnings": [
+      "Conflating new forms of power with historical models hinders effective resistance.",
+      "Unchecked behavioral modification through data collection can erode fundamental human rights."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0061,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 4,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Focus on observable actions and behaviors to extract surplus.",
+      "Operationalize control through measurable data and reinforcement cycles."
+    ],
+    "rules": [
+      "Reduce human experience to quantifiable behavioral data for market exploitation.",
+      "Transform natural human agency into algorithmic stimulus-response patterns."
+    ],
+    "claims": [
+      "Surveillance capitalism can completely subsume human self-determination.",
+      "Digital behavioral modification operates effectively without traditional legal constraints."
+    ],
+    "warnings": [
+      "Operational dominance creates a lag in social and legal adaptation.",
+      "Market-based control systems may override democratic oversight mechanisms."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0016,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 5,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Data-driven systems fundamentally reshape power dynamics by enabling granular control over human behavior.",
+      "The strategic accumulation of behavioral data creates asymmetric advantages in commercial and social contexts."
+    ],
+    "rules": [
+      "Organizations must establish clear boundaries between explicit user consent and the automated exploitation of behavioral data (data exhaust).",
+      "Governments should develop regulatory frameworks to limit the instrumentalization of personal data beyond its immediate utility."
+    ],
+    "claims": [
+      "Contemporary business models derive significant value from the continuous harvesting of user-generated behavioral data.",
+      "The distinction between fundamental rights and instrumentalized data collection is increasingly blurred in digital societies."
+    ],
+    "warnings": [
+      "Algorithmic manipulation of attention spans creates dependencies that may compromise human autonomy.",
+      "The erosion of informational sovereignty through data aggregation threatens core human rights."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0032,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 6,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "power",
+      "psychology"
+    ],
+    "principles": [
+      "Understand human behavior to predict and shape future needs",
+      "Behavioral patterns can be systematically analyzed and utilized"
+    ],
+    "rules": [
+      "Design systems to continuously collect behavioral surplus",
+      "Monetize attention by extracting previously unquantifiable human responses"
+    ],
+    "claims": [
+      "Surveillance capitalism creates a new economic paradigm based on behavioral data",
+      "Attention is a quantifiable resource that can be bought and sold"
+    ],
+    "warnings": [
+      "Over-reliance on behavioral prediction may lead to diminished human agency",
+      "Continuous monitoring creates a feedback loop that subtly alters human decision-making"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0069,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  }
+]

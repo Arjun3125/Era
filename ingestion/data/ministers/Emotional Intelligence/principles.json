@@ -1,0 +1,65 @@
+{
+  "domain": "Emotional Intelligence",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "0d2fbb63-4a20-433a-9c88-6aac855f179e",
+      "text": "Prioritize Understanding Over Defensiveness",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "11dd73b5-9111-49df-acad-0108a4d241d5",
+      "text": "Normalize Vulnerability in Emotional Expression",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cdc53854-6f1b-4e6e-9650-201d4dc3ef8d",
+      "text": "Iterative Processing of Feelings",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9aaf4a88-c67e-4e3b-9c3f-662dfa327aed",
+      "text": "Resilience is built by not internalizing minor criticism.",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "593911b0-6d91-4e07-8dee-eb26b0c7fb2a",
+      "text": "Emotional growth comes from learning to handle criticism.",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 24
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 5,
+    "last_updated": "2026-02-13T11:31:39.296590Z",
+    "aggregated_from": [
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 24
+      }
+    ]
+  }
+}

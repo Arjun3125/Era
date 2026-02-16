@@ -1,0 +1,28 @@
+SYSTEM:
+You extract atomic observations.
+Observations must be grounded in explicit statements.
+No inference beyond what is directly supported.
+
+USER:
+Session Summary:
+{{SESSION_SUMMARY_JSON}}
+
+TASK:
+Extract atomic observations suitable for long-term memory.
+Each observation must:
+- Be falsifiable
+- Be time-stamped (approximate is acceptable)
+- Reference an entity (person, project, self)
+
+OUTPUT FORMAT (JSON ONLY):
+[
+  {
+    "entity_type": "person|project|self",
+    "entity_reference": "name_or_placeholder",
+    "observation": "text",
+    "timestamp": "YYYY-MM or YYYY-MM-DD",
+    "confidence": 0.0-1.0
+  }
+]
+
+# These observations map 1:1 to the `observations` table.

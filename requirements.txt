@@ -1,0 +1,33 @@
+# Minimal reproducible environment for ingestion pipeline (Windows)
+# Install with: python -m pip install -r requirements.txt
+
+# HTTP client + Ollama interactions
+requests>=2.28.0,<3
+
+# Async + HTTP
+aiohttp>=3.8.1,<4
+asyncpg>=0.27.0
+
+# PDF extraction
+pypdf>=3.3.0
+
+# Postgres client + pgvector support (optional; required for real DB)
+psycopg2-binary>=2.9.6
+pgvector>=0.6.0
+
+# Utilities (typing, dataclasses are stdlib for supported Pythons)
+# Optional dev tools
+python-dotenv>=1.0.0
+
+# Pin a conservative requests dependency for Windows environments
+certifi>=2023.5.7
+
+# Vector memory
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+ 
+# HSE analytics
+Flask>=2.0.0
+Flask-Cors>=3.0.10
+gunicorn>=20.1.0
+rich>=13.0.0

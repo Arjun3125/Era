@@ -1,0 +1,60 @@
+{
+  "domain": "registry",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "0de44d62-71e0-4bcd-8ce8-62fe25d7ad37",
+      "text": "Unauthorized distribution carries legal implications",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 48
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a57d2635-6cbc-468c-919c-beb99d3c1c71",
+      "text": "Data inaccuracies may lead to misdirected communications",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a6a77e2d-8d57-45c1-a498-b52083b68e47",
+      "text": "Unclear processes can hinder user engagement",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "faa09dee-11e6-4d71-8ec8-439fd4e21928",
+      "text": "Be mindful of data privacy implications",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 93
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 4,
+    "last_updated": "2026-02-12T21:57:43.599666Z",
+    "aggregated_from": [
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 48
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 1
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 93
+      }
+    ]
+  }
+}

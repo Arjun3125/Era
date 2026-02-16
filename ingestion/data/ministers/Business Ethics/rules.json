@@ -1,0 +1,43 @@
+{
+  "domain": "Business Ethics",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "5f8df911-a8fd-46db-800b-9be6c2006d0f",
+      "text": "Be transparent in all professional and personal interactions",
+      "source": {
+        "book": "Seamos_personas_de_Infliuencia",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0af188e1-aa3c-46fb-84e4-e4fdb7b8fddc",
+      "text": "Maintain integrity even in small or seemingly insignificant matters",
+      "source": {
+        "book": "Seamos_personas_de_Infliuencia",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0961de2a-f7ab-4fc7-b4ba-86d4c3c17814",
+      "text": "Value reputation and trust above convenience or expediency",
+      "source": {
+        "book": "Seamos_personas_de_Infliuencia",
+        "chapter": 6
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T06:21:31.390024Z",
+    "aggregated_from": [
+      {
+        "book": "Seamos_personas_de_Infliuencia",
+        "chapter": 6
+      }
+    ]
+  }
+}

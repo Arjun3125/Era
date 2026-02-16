@@ -1,0 +1,47 @@
+{
+  "domain": "Narrative",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "2fc88dab-e821-4367-bc61-48d20c5f2386",
+      "text": "Innovative thinking can transform familiar concepts into new dimensions of understanding.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4446d184-fd69-4e42-a1ad-699745ac7378",
+      "text": "True wisdom comes from understanding human frailty",
+      "source": {
+        "book": "Crime",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ee72f270-0efa-48aa-afcc-6dec1d16c307",
+      "text": "Sacrifice enables personal growth",
+      "source": {
+        "book": "Crime",
+        "chapter": 5
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T05:32:31.707345Z",
+    "aggregated_from": [
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 30
+      },
+      {
+        "book": "Crime",
+        "chapter": 5
+      }
+    ]
+  }
+}

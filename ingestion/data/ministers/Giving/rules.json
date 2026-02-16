@@ -1,0 +1,34 @@
+{
+  "domain": "Giving",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "f7ddf329-229a-49e0-bf47-e6475a886a01",
+      "text": "Tithing is a foundational practice for financial giving.",
+      "source": {
+        "book": "pathtowealthorli00hall",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "962d2d0d-29a1-4d22-ad86-1ed32fdba489",
+      "text": "Giving should be systematic and regular.",
+      "source": {
+        "book": "pathtowealthorli00hall",
+        "chapter": 3
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T16:08:04.380191Z",
+    "aggregated_from": [
+      {
+        "book": "pathtowealthorli00hall",
+        "chapter": 3
+      }
+    ]
+  }
+}

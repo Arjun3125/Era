@@ -1,0 +1,43 @@
+{
+  "domain": "Stress Management",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "873afc36-f0d1-4ed8-8172-bd64127c22e2",
+      "text": "Responding to partner's emotional needs by acknowledging bids (Principle of Bid Responsiveness).",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 89
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "720e7d76-d806-4dc0-81ff-15f6c9911ee4",
+      "text": "Continuous effort and commitment are essential for maintaining a healthy relationship (Principle of Relational Investment).",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 89
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d8015a2a-b978-4103-979f-bac3f71abc85",
+      "text": "Effective communication is fundamental to relationship satisfaction and longevity (Principle of Communicative Effectiveness).",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 89
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-12T21:57:41.170681Z",
+    "aggregated_from": [
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 89
+      }
+    ]
+  }
+}

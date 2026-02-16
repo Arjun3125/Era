@@ -1,0 +1,2027 @@
+[
+  {
+    "chapter_index": 1,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "strategy"
+    ],
+    "principles": [
+      "Decisions inherently involve trade-offs that require careful consideration of priorities"
+    ],
+    "rules": [
+      "Evaluate all potential outcomes before committing to a course of action"
+    ],
+    "claims": [
+      "Effective long-term planning leads to sustainable success"
+    ],
+    "warnings": [
+      "Neglecting to consider alternative perspectives can limit potential outcomes"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.4,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 2,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "optionality",
+      "power"
+    ],
+    "principles": [
+      "Challenging established beliefs can lead to growth",
+      "Understanding limitations is foundational to progress"
+    ],
+    "rules": [
+      "Question assumptions regularly",
+      "Seek diverse perspectives before forming opinions"
+    ],
+    "claims": [
+      "The power of knowledge comes from recognizing what you don't know"
+    ],
+    "warnings": [
+      "Confirmation bias can limit understanding",
+      "Overconfidence in knowledge hinders growth"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0261,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 3,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 4,
+    "chapter_title": null,
+    "domains": [
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 5,
+    "chapter_title": null,
+    "domains": [
+      "emergency response",
+      "wildfire management"
+    ],
+    "principles": [
+      "Assess and adapt tactics based on changing conditions during an emergency."
+    ],
+    "rules": [
+      "Fire behavior is influenced by terrain (e.g., uphill slopes increase fire speed).",
+      "Resourcefulness involves using available materials creatively for immediate survival."
+    ],
+    "claims": [],
+    "warnings": [
+      "Underestimating fire speed and intensity can be life-threatening in wildland environments."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0133,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 6,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "psychology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 7,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "conflict",
+      "discipline"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 8,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 9,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 10,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "discipline",
+      "power"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 11,
+    "chapter_title": null,
+    "domains": [
+      "psychology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 12,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Acknowledge and address personal blind spots to improve decision-making.",
+      "Balance confidence and competence to avoid extremes."
+    ],
+    "rules": [
+      "Regularly seek feedback to identify and mitigate cognitive biases.",
+      "Assess strengths and weaknesses through objective measures."
+    ],
+    "claims": [
+      "People often underestimate their own abilities and overestimate their limitations."
+    ],
+    "warnings": [
+      "Ignoring cognitive blind spots can lead to poor decision-making and failure.",
+      "Overconfidence may result in missed opportunities, while underconfidence can hinder growth."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.004,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 13,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "power",
+      "psychology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 14,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Balance confidence with doubt to foster continuous improvement and adaptability.",
+      "Embrace beginner's mindset to drive reevaluation and avoid complacency."
+    ],
+    "rules": [
+      "Track and act on feelings of uncertainty or doubt to enhance performance and decision-making.",
+      "Underestimate capabilities intentionally to maintain a growth-oriented perspective."
+    ],
+    "claims": [
+      "Impostor syndrome is associated with higher performance in clinical and professional settings.",
+      "Confidence and humility are both critical for effective leadership and innovation."
+    ],
+    "warnings": [
+      "Overconfidence can lead to arrogance and hinder progress.",
+      "Misinterpreting impostor syndrome solely as a weakness overlooks its potential benefits."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0038,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 15,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "power",
+      "psychology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 16,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "psychology",
+      "technology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 17,
+    "chapter_title": null,
+    "domains": [
+      "Communication",
+      "Decision Making",
+      "Learning & Development"
+    ],
+    "principles": [
+      "Honesty is essential in communication.",
+      "Unlearning biases and preconceptions is necessary for accurate understanding."
+    ],
+    "rules": [
+      "Communicate difficult truths even if they may cause initial discomfort.",
+      "Acknowledge and address emotional responses to information."
+    ],
+    "claims": [
+      "Withholding information can prevent necessary adaptation and understanding."
+    ],
+    "warnings": [
+      "Fear of causing distress may lead to the omission of critical information.",
+      "Assuming others' perspectives without clear communication can result in misunderstandings."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0547,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 18,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "data",
+      "truth"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 19,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "risk",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 20,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "optionality",
+      "psychology"
+    ],
+    "principles": [
+      "Continuous learning through adaptation to new information improves decision-making.",
+      "Honesty and willingness to change one's mind are foundational to intellectual growth."
+    ],
+    "rules": [
+      "Always ground opinions in verifiable facts and remain open to changing perspectives.",
+      "Form opinions based on logic, and commit to updating them as evidence emerges."
+    ],
+    "claims": [
+      "Admitting mistakes enhances credibility and is judged more favorably than denial.",
+      "People are entitled to hold opinions but must support them with evidence."
+    ],
+    "warnings": [
+      "Refusing to admit errors can lead to reputational damage and hinder personal improvement.",
+      "Holding onto rigid viewpoints without evidence can result in being wrong frequently."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0132,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 21,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "technology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 22,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 23,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "technology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 24,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "conflict",
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 25,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "data",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 26,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "data",
+      "diplomacy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 27,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "conflict",
+      "diplomacy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 28,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "data",
+      "truth"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 29,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "power",
+      "strategy"
+    ],
+    "principles": [
+      "Start discussions with common ground to build rapport.",
+      "Focus on shared understanding rather than solely on data."
+    ],
+    "rules": [
+      "Use specific, compelling reasons to encourage rethinking.",
+      "Adopt a data-driven approach to support arguments."
+    ],
+    "claims": [
+      "Compensation alone may not retain employees if other factors are poor.",
+      "Randomized controlled experiments provide rigorous evidence."
+    ],
+    "warnings": [
+      "Escalation in disagreement can shift the argument from logic to name-calling.",
+      "Overconfidence cycles can be broken by acknowledging agreement and asking questions."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0146,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 30,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "data",
+      "strategy"
+    ],
+    "principles": [
+      "Adjust communication style according to the situation and other person's emotional state.",
+      "Understanding the process and context enhances dialogue."
+    ],
+    "rules": [
+      "Wait before responding to maintain composure.",
+      "Use data to back arguments and open minds.",
+      "Test understanding of the other side's feelings.",
+      "Quantify arguments where possible."
+    ],
+    "claims": [
+      "Quantity increases chances for success."
+    ],
+    "warnings": [
+      "Hostility can escalate without proper handling.",
+      "Lack of data invites skepticism.",
+      "Misunderstanding feelings leads to conflict."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0296,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 31,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "conflict",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 32,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "conflict",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 33,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "psychology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 34,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "conflict",
+      "psychology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 35,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "data",
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 36,
+    "chapter_title": null,
+    "domains": [
+      "Cognitive",
+      "Communication",
+      "Social"
+    ],
+    "principles": [
+      "Encourage reflection to challenge stereotypes",
+      "Recognize similarities between groups to reduce prejudice"
+    ],
+    "rules": [
+      "Direct interaction between groups is the most effective way to reduce stereotypes",
+      "Question the validity of holding opinions about groups"
+    ],
+    "claims": [
+      "Intergroup contact significantly reduces prejudice in the majority of cases"
+    ],
+    "warnings": [
+      "Stereotypes can be fragile and easily challenged",
+      "Lack of direct interaction can perpetuate misunderstandings"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0212,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 37,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "technology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 38,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 39,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "psychology",
+      "technology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 40,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "data",
+      "discipline"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 41,
+    "chapter_title": null,
+    "domains": [
+      "Communication",
+      "Persuasion/Influence"
+    ],
+    "principles": [
+      "Avoid using communication techniques manipulatively.",
+      "Act with a genuine desire to help others achieve their goals."
+    ],
+    "rules": [
+      "Focus on understanding and listening before attempting to persuade.",
+      "Ensure that communication reflects a shared goal or genuine interest."
+    ],
+    "claims": [
+      "Effective listening can achieve influence without persuasion.",
+      "Genuine intent in communication leads to better outcomes."
+    ],
+    "warnings": [
+      "Manipulative communication triggers defense mechanisms, reducing effectiveness.",
+      "Lack of genuine alignment with others' goals can hinder influence."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0179,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 42,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "power",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 43,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "data",
+      "psychology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 44,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Complexity and nuance are essential for effective communication and persuasion.",
+      "Communication should actively seek and highlight shades of gray to avoid oversimplification."
+    ],
+    "rules": [
+      "Acknowledge multiple perspectives and uncertainties when presenting complex issues.",
+      "Favor content that presents diverse viewpoints rather than binary choices."
+    ],
+    "claims": [
+      "Desirability bias significantly shapes beliefs about complex topics like climate change.",
+      "Nuanced communication, including expressing uncertainty, enhances credibility and persuasiveness."
+    ],
+    "warnings": [
+      "Binary bias can lead to disengagement from critical issues by oversimplifying complexity.",
+      "Overestimating the prevalence of denial may reduce motivation to address climate change."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.002,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 45,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "constraints",
+      "optionality"
+    ],
+    "principles": [
+      "question established knowledge to foster critical thinking",
+      "active learning enhances understanding"
+    ],
+    "rules": [
+      "assign outdated materials intentionally to provoke critical thinking",
+      "incorporate diverse perspectives into educational materials"
+    ],
+    "claims": [
+      "unlearning false beliefs requires consistent practice",
+      "delaying the introduction of counterintuitive ideas increases their difficulty to change"
+    ],
+    "warnings": [
+      "confirmation bias can trap learners in overconfidence cycles",
+      "overreliance on popular narratives may obscure factual inaccuracies"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.004,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 46,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "risk",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 47,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "risk",
+      "technology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 48,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "psychology",
+      "risk"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 49,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "psychology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 50,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Shift the burden of proof in safety-critical decisions from affirming safety to affirming necessity of action.",
+      "Root cause analysis is fundamental to effective problem-solving and decision-making."
+    ],
+    "rules": [
+      "Delay operations until the root cause of potential issues is identified and resolved.",
+      "Cultivate organizational cultures that actively reevaluate problems and learn from incidents."
+    ],
+    "claims": [
+      "Proactive reevaluation of risks can prevent catastrophic failures in complex systems."
+    ],
+    "warnings": [
+      "Failure to learn from past incidents can lead to recurring failures and increased risk.",
+      "Inaction in the face of uncertainty can result in significant consequences if not based on thorough analysis."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0177,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 51,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 52,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 53,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 54,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 55,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 56,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "constraints",
+      "data"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 57,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "diplomacy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 58,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 59,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 60,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "optionality",
+      "psychology"
+    ],
+    "principles": [
+      "Initial instincts are often correct due to intuitive processing.",
+      "Intelligence is foundational for learning and problem-solving across domains."
+    ],
+    "rules": [
+      "Stick with initial answers on multiple-choice tests unless met with strong evidence to change.",
+      "Avoid changing answers based on time pressure alone.",
+      "Measure performance against baseline data before implementing interventions."
+    ],
+    "claims": [
+      "Cognitive abilities predict occupational success and job performance.",
+      "Answer changing behavior can alter test outcomes."
+    ],
+    "warnings": [
+      "Cognitive biases (mental miser effect) can lead to premature closure of the mind.",
+      "Relying solely on intuition without reflection can result in missed opportunities.",
+      "Gradual changes may go unnoticed until significant consequences occur."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0292,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 61,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "psychology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 62,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 63,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "psychology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 64,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "psychology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 65,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 66,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Effective persuasion relies on the quality of reasons provided.",
+      "Acknowledging legitimate weaknesses strengthens credibility and persuasiveness."
+    ],
+    "rules": [
+      "Use the 'steel man' technique by addressing an opponent's strongest arguments before refuting them.",
+      "Adhere to the elaboration likelihood model by focusing on deep processing of information for effective persuasion."
+    ],
+    "claims": [
+      "Two-sided messages are more convincing than one-sided ones in persuasive communication.",
+      "Expert witnesses enhance credibility and persuasion in courtrooms."
+    ],
+    "warnings": [
+      "Blending egoistic and altruistic reasons in persuasion can reduce effectiveness.",
+      "Cognitive biases, such as Schadenfreude, can negatively impact decision-making and relationships."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0093,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 67,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "power",
+      "psychology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 68,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "conflict",
+      "psychology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 69,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "data",
+      "psychology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 70,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "psychology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 71,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "strategy",
+      "technology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 72,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "data",
+      "psychology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 73,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "psychology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 74,
+    "chapter_title": null,
+    "domains": [
+      "data"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 75,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "power",
+      "psychology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 76,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "conflict",
+      "data"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 77,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "data",
+      "psychology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 78,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "optionality",
+      "psychology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 79,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 80,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "base",
+      "technology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 81,
+    "chapter_title": null,
+    "domains": [
+      "Communication",
+      "Complexity",
+      "Decision-Making"
+    ],
+    "principles": [
+      "Motivate action by highlighting collective benefits and shared values.",
+      "Embrace complexity and nuance in communication to avoid oversimplification."
+    ],
+    "rules": [
+      "Frame initiatives (e.g., policy changes or training programs) around shared values to increase buy-in.",
+      "Convey nuanced findings clearly to prevent misinterpretation."
+    ],
+    "claims": [
+      "Embracing complexity can lead to more creative solutions.",
+      "Acknowledging mixed outcomes can provide valuable insights."
+    ],
+    "warnings": [
+      "Avoid oversimplifying complex issues, as it can lead to misinterpretation and biased conclusions.",
+      "Be cautious of confirmation and desirability bias when interpreting research findings."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0285,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 82,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "constraints",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 83,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "psychology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 84,
+    "chapter_title": null,
+    "domains": [
+      "Personal Development",
+      "Social Dynamics"
+    ],
+    "principles": [
+      "Beliefs can evolve without compromising core values.",
+      "Communication style should consider audience and context."
+    ],
+    "rules": [
+      "Focus on core values when adapting beliefs.",
+      "Consider how gender may influence perception of self-deprecating humor."
+    ],
+    "claims": [
+      "De-identification from religion does not reduce prosocial behaviors.",
+      "Self-deprecating humor in women is interpreted as confident humility."
+    ],
+    "warnings": [
+      "Avoid equating belief change with loss of values.",
+      "Misinterpreting gendered humor can negatively impact perception."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0541,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  }
+]

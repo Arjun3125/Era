@@ -1,0 +1,34 @@
+{
+  "domain": "Performance",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "ccf11fd2-7f99-48a6-a43f-3c6887c2b21b",
+      "text": "Focus exclusively on the present moment.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 45
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "48954cac-2fc1-41ce-8ede-f8dc3055e606",
+      "text": "Eliminate distractions to maintain focus on priorities.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 45
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T11:27:37.315798Z",
+    "aggregated_from": [
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 45
+      }
+    ]
+  }
+}

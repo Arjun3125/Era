@@ -1,0 +1,869 @@
+{
+  "domain": "technology",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "02f8a72b-b80f-4b3e-b4ba-7d04f021dc32",
+      "text": "Use a binary evaluation: if a service doesn't improve outcomes or matter to others, discontinue it.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "033045b9-afc3-4405-b732-c83bae3988da",
+      "text": "Maintain consistency in the evaluation process to avoid subjective bias.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "044d5883-a170-477d-b111-28144dcfae96",
+      "text": "Deep work capacity may be diminished by frequent distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "073acb65-18ea-4b2d-b038-5032ed2eb486",
+      "text": "Automation opportunities may exist for routine cognitive tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "086df246-4bef-45c1-9a59-cc05b5d3702a",
+      "text": "Consumer choices should prioritize actual utility over fabricated narratives.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0f1bbad6-e784-426c-9a21-b93991507b56",
+      "text": "Technological interfaces may obscure the underlying mechanisms of produced goods.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "130d345d-c279-4d8b-9915-2918d2fa5520",
+      "text": "Digital network effects amplify both rewards for excellence and risks for mediocrity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "176d839d-d817-4002-abb9-b8b83f14bf56",
+      "text": "Implement a 30-day trial period for each service to assess its impact.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "18a2ce27-35e9-4167-ab5b-b5e59d90500d",
+      "text": "Production standards must align with functional durability to ensure long-term reliability.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1956c86c-5f11-449a-b011-99b1cb0a447a",
+      "text": "Failure to cultivate deep work capabilities leads to obsolescence in a rapidly changing economy.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1b1a93da-602e-409a-8ced-23448231dcd9",
+      "text": "Consumer choices should prioritize actual utility over fabricated narratives.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1f2f0d47-0c7b-4c01-b36c-479788391807",
+      "text": "Habit formation depends on consistent interaction with objects that meet objective criteria.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "26ad0567-2254-4313-9722-cdcf3e5a1d1e",
+      "text": "Deep work capacity may be diminished by frequent distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "26d3c355-3d01-4d91-9892-8aae6cf8b7de",
+      "text": "Maintain consistency in the evaluation process to avoid subjective bias.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "29df47b1-7140-4296-8c00-07993ea51ba0",
+      "text": "When introducing new tools, reassess task prioritization.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2b418cb3-e33b-4605-85ac-bfd99db99d67",
+      "text": "Technological interfaces may obscure the underlying mechanisms of produced goods.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2f99cf2c-c008-40f6-ac3e-c2cd8fe873a2",
+      "text": "Societal focus on knowledge-based work diminishes appreciation for manual skills.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3192db17-bcf1-4730-90b4-18ac2d20ec62",
+      "text": "Target high-value, non-automatable skill sets in the workforce.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3283059e-c55e-4b7d-8848-3ed1048990b6",
+      "text": "Evaluate the opportunity cost of attention fragmentation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "36187d73-560a-4544-b6d8-c4e0d41f7bf8",
+      "text": "Maintain consistency in the evaluation process to avoid subjective bias.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "36c6ff8d-75b3-4684-a078-eeef4d2ccfc0",
+      "text": "Digital network effects amplify both rewards for excellence and risks for mediocrity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3a2bdadb-a7ec-4af2-a3f5-48d95365600f",
+      "text": "Automation opportunities may exist for routine cognitive tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3b8402a4-653b-40ce-9d24-dd7d7cc04128",
+      "text": "Visible busyness does not necessarily equate to productivity in knowledge work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3f1f3780-7875-4d9b-b8bd-72290b2065d0",
+      "text": "Target high-value, non-automatable skill sets in the workforce.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "42da1a8c-10ce-4ba1-aa2f-26d4e9228f8e",
+      "text": "Evaluate the opportunity cost of attention fragmentation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4a216cdc-3512-43b0-9474-a050de3f155c",
+      "text": "Evaluate the necessity of optional tasks",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4f472661-dea3-4c30-b357-c954f08fc55e",
+      "text": "Operational effectiveness is improved through direct engagement with physical systems.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "52fbe8ca-f41a-4ab1-a629-adc0bf5fa735",
+      "text": "Implement a 30-day trial period for each service to assess its impact.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "533a69f4-d2b2-4204-a110-820ee9ede517",
+      "text": "Use a binary evaluation: if a service doesn't improve outcomes or matter to others, discontinue it.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "56fd91a3-a12e-4619-a647-31396dca94e8",
+      "text": "Align strategies with tangible goals",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5d839b50-9e35-446c-9abd-4b7c3b0a1810",
+      "text": "Failure to cultivate deep work capabilities leads to obsolescence in a rapidly changing economy.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5e737161-f575-46d9-a19e-b80cd3fe51f3",
+      "text": "Redefine success metrics beyond digital engagement",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5ede31db-83f7-4772-9cb4-16dbd495ae40",
+      "text": "Assess personal information exposure during technology adoption",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "60c04da9-5e52-4d76-8b30-01812797fe36",
+      "text": "Monitor economic shifts to capitalize on emerging winners in restructuring periods.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6254dc10-1072-41b3-bf17-c0e772ff185c",
+      "text": "Schedule uninterrupted time for deep cognitive tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "62921e39-da55-43e3-a886-2e6d87f7c92e",
+      "text": "Target high-value, non-automatable skill sets in the workforce.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "62eb0592-8494-4fc7-a1bc-cbc855ae7125",
+      "text": "Allocate resources to sectors experiencing exponential growth due to technological adoption.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "63b19eba-6360-4a22-9217-2b992c0fb304",
+      "text": "When introducing new tools, reassess task prioritization.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "67533ee1-5b44-49e6-9572-d85e46585e4e",
+      "text": "Consumer choices should prioritize actual utility over fabricated narratives.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "682007ba-bd99-4694-8907-84ebee8b4a08",
+      "text": "Monitor economic shifts to capitalize on emerging winners in restructuring periods.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "69fcf4f2-0515-4929-954e-246b7020d9a9",
+      "text": "Anachronistic productivity measures persist due to the absence of metrics.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6aed764e-ecb9-4b7e-a587-4eeaacf88663",
+      "text": "Establish boundaries for technology usage",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6e26ce22-a6ec-427c-9534-57230940e74b",
+      "text": "Minimize electronic distractions during focused work periods.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7e18bf06-5f17-43cf-9f60-212676853890",
+      "text": "Implement a 30-day trial period for each service to assess its impact.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7f86c2f4-5cfa-4130-90ba-d6562edee46a",
+      "text": "Minimize electronic distractions during focused work periods.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7fd7576f-4403-43d5-8c74-8cecccebad50",
+      "text": "Habit formation depends on consistent interaction with objects that meet objective criteria.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "841765fc-4a07-49af-baed-75650ddf19df",
+      "text": "Habit formation depends on consistent interaction with objects that meet objective criteria.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8654f9c5-02fc-4ede-ac56-922d367e7e84",
+      "text": "Evaluate the opportunity cost of attention fragmentation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8673e51a-9966-4fd4-87bd-4741866311e3",
+      "text": "Visible busyness does not necessarily equate to productivity in knowledge work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "86c6eae3-a44f-46dc-bafb-77e12b7cf42e",
+      "text": "Assess personal information exposure during technology adoption",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "88764520-af9a-4b8a-b2a7-8794002a807b",
+      "text": "Production standards must align with functional durability to ensure long-term reliability.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "89be7558-4d84-4152-8adc-12f074adc917",
+      "text": "Align strategies with tangible goals",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "906019e6-6eeb-4973-83c6-6e57ce0b7374",
+      "text": "Operational effectiveness is improved through direct engagement with physical systems.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "92c8f8d5-6ef7-4e2f-bfc8-dc42c4fad89d",
+      "text": "Use a binary evaluation: if a service doesn't improve outcomes or matter to others, discontinue it.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "96153287-7cdc-489f-9241-2022182f2f64",
+      "text": "Establish boundaries for technology usage",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "970564b3-e6d8-4715-83e4-c7e24ee9516f",
+      "text": "Production standards must align with functional durability to ensure long-term reliability.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "99d6b256-80fa-4c76-8daf-346c0a047835",
+      "text": "Deep work capacity may be diminished by frequent distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9b303aeb-13e6-41e1-acb1-f6a0c95c7441",
+      "text": "Allocate resources to sectors experiencing exponential growth due to technological adoption.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9c39d6ef-569e-415c-a5e4-a916b0d96c7d",
+      "text": "Evaluate the necessity of optional tasks",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a16a20dc-6991-483a-a0ed-c041d4ee496e",
+      "text": "Assess personal information exposure during technology adoption",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a3b28b8d-eedd-4b8e-87d7-f3c4fe7a8ea0",
+      "text": "Establish boundaries for technology usage",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a4cc0f81-64b9-4e39-af3c-176c7354d817",
+      "text": "Prioritize adaptation to rapidly evolving digital technologies.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a57838de-61fd-49ae-a369-06d2128e69f8",
+      "text": "When introducing new tools, reassess task prioritization.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "aa468289-f8cb-4460-89e7-91cb6373d97b",
+      "text": "Societal focus on knowledge-based work diminishes appreciation for manual skills.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ac3d04a9-3adc-4161-bc8b-aec163cccd13",
+      "text": "Evaluate the necessity of optional tasks",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "aff3ffb4-18e6-46bb-9528-4c934b4508d7",
+      "text": "Monitor attention investment against strategic priorities",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b01f49dc-f62b-4938-ab07-22a12335bcee",
+      "text": "Schedule uninterrupted time for deep cognitive tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b34b82b8-09c7-40c7-8168-67c9ec58813f",
+      "text": "Redefine success metrics beyond digital engagement",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b4fdff75-530d-49aa-a180-34f3873410b4",
+      "text": "Technological interfaces may obscure the underlying mechanisms of produced goods.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b68cbdcc-a68a-4b1a-95d5-edbf5b7cdfdb",
+      "text": "Align strategies with tangible goals",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b719832b-c0da-4c99-be60-d84634a5230d",
+      "text": "Monitor attention investment against strategic priorities",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bd0bf126-d66c-4736-9166-9620d294e51f",
+      "text": "Monitor economic shifts to capitalize on emerging winners in restructuring periods.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bed973bc-228b-4b85-8070-764db9068d33",
+      "text": "Digital network effects amplify both rewards for excellence and risks for mediocrity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c0131f61-ca43-4929-904f-feeaa77e7ad4",
+      "text": "Societal focus on knowledge-based work diminishes appreciation for manual skills.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c2cac9c7-ee7f-46a6-bc69-f245247a552d",
+      "text": "Schedule uninterrupted time for deep cognitive tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c48df646-3902-4664-87a8-d50a09f16575",
+      "text": "Minimize electronic distractions during focused work periods.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cbd9c7f8-a741-4bdb-ba56-845058941064",
+      "text": "Redefine success metrics beyond digital engagement",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cda50027-1f6f-42d0-bc0b-3c32a03f57ad",
+      "text": "Operational effectiveness is improved through direct engagement with physical systems.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d0f37608-2164-4806-96f3-2dd471315cde",
+      "text": "Prioritize adaptation to rapidly evolving digital technologies.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d2a07972-e9c0-4eff-b570-210b93e12c57",
+      "text": "Societal focus on knowledge-based work diminishes appreciation for manual skills.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dc0c0baa-9966-435c-b820-ff506104922a",
+      "text": "Allocate resources to sectors experiencing exponential growth due to technological adoption.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dc540f7f-7fc5-4bce-8c20-2be9e8bfa030",
+      "text": "Anachronistic productivity measures persist due to the absence of metrics.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dfce5ebe-d2ff-4262-9abb-a8d00d189c72",
+      "text": "Prioritize adaptation to rapidly evolving digital technologies.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e4501d71-4131-46c5-a13b-f54dd153d8b6",
+      "text": "Consumer choices should prioritize actual utility over fabricated narratives.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e50077db-3628-4017-be20-8d7556a14141",
+      "text": "Failure to cultivate deep work capabilities leads to obsolescence in a rapidly changing economy.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ebc9ca60-12b0-4ccd-a306-5b96b27abe04",
+      "text": "Operational effectiveness is improved through direct engagement with physical systems.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f534d408-ce10-423c-aea8-a022f6351564",
+      "text": "Monitor attention investment against strategic priorities",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f55089a4-5232-4b38-9330-a111c82027d9",
+      "text": "Habit formation depends on consistent interaction with objects that meet objective criteria.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f58640d2-65ee-4ad6-9711-005b54394731",
+      "text": "Production standards must align with functional durability to ensure long-term reliability.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f8f665d4-1e83-4b53-b0aa-5b963fe25c26",
+      "text": "Anachronistic productivity measures persist due to the absence of metrics.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fb709e65-ac53-4fed-ab0d-a3b8c741b9a0",
+      "text": "Technological interfaces may obscure the underlying mechanisms of produced goods.",
+      "source": {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fbfd95ea-9cd6-44bb-ac67-68a5a3ddc149",
+      "text": "Automation opportunities may exist for routine cognitive tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fe7db9c0-9262-4089-8916-6d0dd6bac191",
+      "text": "Visible busyness does not necessarily equate to productivity in knowledge work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 93,
+    "last_updated": "2026-02-11T08:14:27.582086Z",
+    "aggregated_from": [
+      {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      {
+        "book": "20090526_TNA13Crawford2009",
+        "chapter": 1
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 11
+      }
+    ]
+  }
+}

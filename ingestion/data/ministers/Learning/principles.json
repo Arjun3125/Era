@@ -1,0 +1,56 @@
+{
+  "domain": "Learning",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "1682fa6f-4a21-4f4d-b95d-ba4639f14319",
+      "text": "Engage in questioning and exploration to understand the world.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fec51a30-0ee6-41ee-ae75-16f805d10d44",
+      "text": "Value self-awareness and honest reflection on one's role.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "23e675fa-2941-42ca-a9c2-77a594c84cc2",
+      "text": "Psychological safety is foundational for organizational learning and error correction.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 71
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3b515c97-41c1-4a71-862c-66c7bdadad73",
+      "text": "Leaders should create environments where psychological safety is prioritized to foster engagement and innovation.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 71
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 4,
+    "last_updated": "2026-02-13T20:50:12.081447Z",
+    "aggregated_from": [
+      {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 50
+      },
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 71
+      }
+    ]
+  }
+}

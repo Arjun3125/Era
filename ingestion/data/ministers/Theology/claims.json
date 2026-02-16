@@ -1,0 +1,34 @@
+{
+  "domain": "Theology",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "f5c17027-d67d-4ab5-ba0c-60c7efb00f4b",
+      "text": "A comprehensive understanding of human nature necessitates integrating psychological and philosophical/religious insights",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2b8d65d0-f98c-4f81-b507-d5c7f3a647a9",
+      "text": "Such synthesis yields enduring wisdom and practical guidance for navigating life's challenges",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 2
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T13:42:59.227676Z",
+    "aggregated_from": [
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 2
+      }
+    ]
+  }
+}

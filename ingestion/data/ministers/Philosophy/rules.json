@@ -1,0 +1,122 @@
+{
+  "domain": "Philosophy",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "1ffde6f9-1d25-4805-a923-f37f00c93c4a",
+      "text": "Face life directly without illusions or excessive hope.",
+      "source": {
+        "book": "The Myth of Sisyphus - Albert Camus",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f3044421-6876-4ef1-90cf-77dd02e117a7",
+      "text": "Accept the absurdity as the foundation for authentic living.",
+      "source": {
+        "book": "The Myth of Sisyphus - Albert Camus",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "618d996c-2c7f-4fcc-bd95-8e02c8c5ab12",
+      "text": "Overcome mediocrity by embracing hardship and self-improvement.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3bd81123-0949-4bce-bcef-2720ad8d0f5f",
+      "text": "Redefine values based on personal growth rather than societal expectations.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "862bd6c0-6da5-4396-b8e6-43f1f0f2e5eb",
+      "text": "A profound synthesis requires bridging seemingly disparate fields of inquiry",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6672a4cc-4d47-42cd-9d77-e73af607855c",
+      "text": "True insight emerges from connecting psychological and philosophical explorations of the human condition",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8dbfec92-dd73-467e-943c-a98fdcf488c9",
+      "text": "Psychological analysis should not be limited to personal life history but must consider broader historical and cultural contexts.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 67
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "00dd4706-0d68-4dbc-82aa-69b94079f2c9",
+      "text": "Therapeutic approaches should avoid overemphasizing specific causes (like sexuality) and instead acknowledge the holistic nature of human suffering.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 67
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a371ac8e-7ab6-4110-948c-246264819a1c",
+      "text": "Followers may accept authority based on perceived power and charisma.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8358dc64-b022-449d-9e06-f9ae2393bd52",
+      "text": "Leaders must project confidence to maintain follower trust.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 52
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 10,
+    "last_updated": "2026-02-13T14:08:41.478234Z",
+    "aggregated_from": [
+      {
+        "book": "The Myth of Sisyphus - Albert Camus",
+        "chapter": 2
+      },
+      {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 3
+      },
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 2
+      },
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 67
+      },
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 52
+      }
+    ]
+  }
+}

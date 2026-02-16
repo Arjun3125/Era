@@ -1,0 +1,25 @@
+{
+  "domain": "emergency response",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "dc2b4b52-88bb-46a1-b6b2-057b8c1abb79",
+      "text": "Underestimating fire speed and intensity can be life-threatening in wildland environments.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 5
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 1,
+    "last_updated": "2026-02-13T21:29:41.002456Z",
+    "aggregated_from": [
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 5
+      }
+    ]
+  }
+}

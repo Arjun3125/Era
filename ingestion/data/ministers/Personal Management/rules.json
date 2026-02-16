@@ -1,0 +1,34 @@
+{
+  "domain": "Personal Management",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "fb6ebc58-9ed2-4a5e-9410-27c828d0b8d6",
+      "text": "Be polite when saying no.",
+      "source": {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "32581971-7c0c-41c9-8a5d-88b87909dc4c",
+      "text": "Avoid saying no to everything.",
+      "source": {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 15
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T12:22:13.116915Z",
+    "aggregated_from": [
+      {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 15
+      }
+    ]
+  }
+}

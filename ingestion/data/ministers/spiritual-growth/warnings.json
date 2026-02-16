@@ -1,0 +1,34 @@
+{
+  "domain": "spiritual-growth",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "aa86c743-88a3-48eb-912c-27317195ae63",
+      "text": "Neglecting the body and physical existence prevents spiritual growth.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "873777c7-df11-425f-ba8c-8c73266d680c",
+      "text": "Complacency and comfort can lead to a loss of vitality and purpose.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 3
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T10:31:13.767799Z",
+    "aggregated_from": [
+      {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 3
+      }
+    ]
+  }
+}

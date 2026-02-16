@@ -1,0 +1,47 @@
+{
+  "domain": "Relationships",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "90b11994-adaf-4252-8524-88dc8ed06fe7",
+      "text": "Individuals may prioritize perceived benefits over potential long-term consequences.",
+      "source": {
+        "book": "Crime",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4455e77f-2505-4bda-b02d-daaaaa5a98c3",
+      "text": "People often overlook warning signs in favor of immediate comfort or convenience.",
+      "source": {
+        "book": "Crime",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "563f6036-13c0-44ea-9868-f5f77008a61b",
+      "text": "Relationships are foundational to personal endeavors",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 2
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T20:45:04.422475Z",
+    "aggregated_from": [
+      {
+        "book": "Crime",
+        "chapter": 8
+      },
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 2
+      }
+    ]
+  }
+}

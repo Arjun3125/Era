@@ -1,0 +1,47 @@
+{
+  "domain": "Relationships",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "201f53ef-6c66-4c73-8fb3-1a1ab21d838c",
+      "text": "Financial considerations should be transparent and agreed upon before major commitments.",
+      "source": {
+        "book": "Crime",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "97b11433-dd9a-43bb-b490-e26ff07ca926",
+      "text": "Decisions impact multiple stakeholders and require full disclosure.",
+      "source": {
+        "book": "Crime",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "55131bf8-d582-4712-9b0e-11688e562ed1",
+      "text": "Dedicate content to important individuals",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 2
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T20:45:04.414285Z",
+    "aggregated_from": [
+      {
+        "book": "Crime",
+        "chapter": 8
+      },
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "domain": "Economics",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "7cabbadb-b44f-469f-a7ab-1b93d47fdb46",
+      "text": "Dismissing alternative wealth-building methods can lead to financial insecurity in early adulthood.",
+      "source": {
+        "book": "the-millionaire-fastlane",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1de2bac4-c102-469f-9c56-d7d0867e895e",
+      "text": "Financial advice often oversimplifies complex economic realities, potentially misleading those outside elite demographics.",
+      "source": {
+        "book": "the-millionaire-fastlane",
+        "chapter": 7
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T19:10:44.917870Z",
+    "aggregated_from": [
+      {
+        "book": "the-millionaire-fastlane",
+        "chapter": 7
+      }
+    ]
+  }
+}

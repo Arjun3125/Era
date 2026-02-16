@@ -1,0 +1,34 @@
+{
+  "domain": "Existential",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "29de1582-bf45-4d7b-88e7-34b3dd41cdbf",
+      "text": "Accept that death is an inherent part of life and cannot be denied indefinitely",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ec395bfb-5a6a-4a1c-bfa3-fca0dff3b063",
+      "text": "Confront the reality of death to avoid existential crisis",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 7
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T13:42:58.678968Z",
+    "aggregated_from": [
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 7
+      }
+    ]
+  }
+}

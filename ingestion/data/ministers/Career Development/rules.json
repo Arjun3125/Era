@@ -1,0 +1,34 @@
+{
+  "domain": "Career Development",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "f36f2d32-b32c-44a9-bdea-bbdd03ee37b7",
+      "text": "Build foundational skills before pursuing major goals",
+      "source": {
+        "book": "Summary-of-SGTCIY-pdf",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6b2efbc6-5f76-4738-9d60-2eb034c07c28",
+      "text": "Cash in professional capital for increased control and flexibility",
+      "source": {
+        "book": "Summary-of-SGTCIY-pdf",
+        "chapter": 4
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T06:23:37.330871Z",
+    "aggregated_from": [
+      {
+        "book": "Summary-of-SGTCIY-pdf",
+        "chapter": 4
+      }
+    ]
+  }
+}

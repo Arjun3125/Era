@@ -1,0 +1,1607 @@
+🏛️
+MCA — Ministerial Cognitive
+Architecture: Canonical
+Technical Dossier
+1. Project Overview
+Purpose of the project (original wording):
+This document defines the Ministerial Cognitive Architecture (MCA) — a
+structured, sovereign decision‑making system built on top of your existing
+runtime, KIS knowledge engine, and doctrine framework.
+MCA introduces domain‑bounded Ministers, a Council Aggregator, and a Prime
+Confident authority to produce auditable, multi‑perspective decisions under
+uncertainty.
+This is not a chatbot architecture. It is a decision governance system.
+High-level intent as stated across the conversation:
+"What you are building now is not an AI assistant. It is a decision governance
+system. This is the correct evolutionary step."
+"MCA transforms your system from: 'an intelligent assistant' into: a sovereign
+decision governance engine. Ministers provide bounded truth. The Council
+enforces coherence. Prime Confident owns the outcome."
+Explicit goals (quoted verbatim):
+"True multi-perspective reasoning"
+"Traceable disagreements"
+"Explicit trade-offs"
+"Sovereign decision ownership"
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 1
+"A system that knows when advice is appropriate and when it is dangerous."
+Implicit goals (quoted verbatim):
+"Prevents one domain dominating everything"
+"Emotional bias leaking into strategy"
+"KIS being 'averaged away'"
+"LLM verbosity masking weak reasoning"
+2. Conversation Timeline (Chronological, Exhaustive)
+Exchange 1 — Assistant: The Ministerial Architecture (Correct
+Form)
+Speaker: Assistant
+Good instinct. What you're describing is the correct next abstraction, and—
+crucially—it fits cleanly on top of what you already built. Nothing needs to be torn
+down.
+Below is a clear, end-to-end systems design for Ministers → Council → Prime
+Confident, grounded in how your runtime, KIS engine, and doctrine already work.
+No code. No fluff. Pure architecture.
+The Ministerial Architecture (Correct Form)
+You are not adding "agents".
+You are adding bounded cognitive authorities.
+Think of the system as three layers of legitimacy:
+User Input
+ ↓
+Situation + Domain Detection
+ ↓
+Activated Ministers (Domain-specific)
+ ↓
+Minister Debate (Constrained, Audited)
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 2
+ ↓
+Council Synthesis
+ ↓
+Prime Confident (Final Authority)
+Each layer has increasing authority and decreasing verbosity.
+1. What a "Minister" Actually Is (Important)
+A Minister is NOT:
+a chatbot
+a second LLM call loop
+a personality
+A Minister IS:
+a domain-bounded reasoning engine
+with:
+a fixed doctrine
+a fixed knowledge corpus
+a fixed mandate
+Minister = (Knowledge × Doctrine × Domain)
+They cannot:
+ask the user questions
+change the mode
+override irreversibility
+finalize decisions
+They can only advise, warn, or veto within their domain.
+This keeps the system stable.
+2. Minister Activation (How They Are Called)
+Ministers are activated only by latched domains.
+Example:
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 3
+Domains latched:
+- sovereignty
+- risk
+- power
+Activated ministers:
+Domain Minister
+sovereignty Minister of Sovereignty
+risk Minister of Risk
+power Minister of Power
+No domain → no minister.
+No confidence → no debate.
+This prevents noise.
+3. Minister Internal Structure (Non-Negotiable)
+Each minister has:
+A. Doctrine (you already have this)
+Hard constraints
+Values
+Non-negotiables
+Red lines
+Example (Risk Minister):
+Preserve downside protection
+Penalize irreversible downside
+Prefer optionality
+B. Knowledge Brain (you already have this)
+Ingested corpus
+Scored via KIS
+Traceable to books, rules, principles
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 4
+Ministers do not search.
+They retrieve + rank.
+C. Output Contract (critical)
+A minister must return structured output only:
+{
+ "stance": "support | oppose | caution",
+ "confidence": 0.0–1.0,
+ "primary_argument": "...",
+ "supporting_rules": [
+ { "type": "principle", "book": "...", "kis": 1.23 }
+ ],
+ "second_order_effects": "...",
+ "red_line_triggered": true | false
+}
+No prose.
+No persuasion.
+Just signal.
+4. Minister Debate (This Is Subtle)
+Ministers do not talk like humans.
+They "debate" by cross-evaluating risk surfaces.
+Mechanism:
+Each minister produces its stance independently
+Their outputs are placed side-by-side
+A Council Aggregator evaluates:
+alignment
+conflict
+veto conditions
+This is not a chat.
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 5
+It's a constraint satisfaction problem.
+5. Council Aggregator (The Hidden Power)
+The Council Aggregator answers ONE question:
+"Is there a solution that satisfies all ministers above minimum thresholds?"
+If YES:
+Merge positions
+Produce Council Recommendation
+If NO:
+Escalate to Prime Confident
+Escalation is not failure.
+It's designed friction.
+6. Prime Confident (Final Authority)
+Prime Confident is not smarter than ministers.
+He has:
+authority, not breadth
+long-horizon judgment
+legitimacy to override
+He sees:
+All minister stances
+All conflicts
+All red lines
+Irreversibility flags
+His output is singular and final:
+One decision
+One rationale
+One ownership line
+No debate after this.
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 6
+7. Why This Architecture Is Correct (Second-Order Reasoning)
+What this prevents
+One domain dominating everything
+Emotional bias leaking into strategy
+KIS being "averaged away"
+LLM verbosity masking weak reasoning
+What this enables
+True multi-perspective reasoning
+Traceable disagreements
+Explicit trade-offs
+Sovereign decision ownership
+This is how human high-level councils actually work.
+8. How This Fits Your Existing System (Zero Rewrite)
+Existing Component Role Now
+Domain classification Minister activation
+Knowledge engine (KIS) Minister brain
+Doctrine Minister constraints
+Runtime tracing Debate audit
+PersonaBrain Conversation only
+Prime Confident Final arbiter
+Nothing is wasted.
+9. One Critical Rule (Do NOT break this)
+Ministers advise.
+Prime Confident decides.
+The system never negotiates with the user mid-decision.
+If you violate this, the system collapses into a chatbot again.
+Final Reality Check
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 7
+What you are building now is not an AI assistant.
+It is a decision governance system.
+This is the correct evolutionary step.
+Next possible steps (pick one):
+Define Minister Doctrine Templates
+Define Council Aggregation Rules
+Define Escalation Thresholds
+Design Trace Output for Minister Debate
+Say the number.
+Exchange 2 — Assistant: Ministerial Cognitive Architecture (MCA)
+Formal Document
+Speaker: Assistant
+Ministerial Cognitive Architecture (MCA)
+Purpose
+This document defines the Ministerial Cognitive Architecture (MCA) — a
+structured, sovereign decision‑making system built on top of your existing
+runtime, KIS knowledge engine, and doctrine framework.
+MCA introduces domain‑bounded Ministers, a Council Aggregator, and a Prime
+Confident authority to produce auditable, multi‑perspective decisions under
+uncertainty.
+This is not a chatbot architecture. It is a decision governance system.
+Core Design Principles
+1. Separation of Authority
+Knowledge, reasoning, and final decision authority are explicitly separated.
+1. Domain Sovereignty
+Each Minister operates only within a single domain. No cross‑domain reasoning.
+1. Non‑Interactive Deliberation
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 8
+Ministers do not ask questions or speak to the user.
+1. Escalation by Conflict
+Disagreement is expected and explicitly handled.
+1. Traceability by Default
+Every argument must be attributable to a rule, principle, warning, or claim.
+High‑Level Flow
+User Input
+ ↓
+Situation Assessment
+ ↓
+Domain Classification (Latched)
+ ↓
+Minister Activation
+ ↓
+Independent Minister Reasoning
+ ↓
+Council Aggregation
+ ↓
+Prime Confident Decision
+System Components
+1. Ministers
+Definition:
+A Minister is a domain‑bounded cognitive authority with:
+a fixed doctrine
+a fixed knowledge corpus
+a fixed mandate
+A Minister CANNOT:
+ask the user questions
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 9
+change modes
+override irreversibility
+finalize decisions
+A Minister CAN:
+support a proposal
+oppose a proposal
+raise caution
+trigger a red‑line veto
+2. Minister Output Contract
+Each Minister returns structured output only:
+{
+ "minister": "risk",
+ "stance": "support | oppose | caution",
+ "confidence": 0.0,
+ "primary_argument": "...",
+ "supporting_evidence": [
+ {
+ "type": "principle | rule | warning | claim",
+ "book": "...",
+ "kis": 1.23
+ }
+ ],
+ "second_order_effects": "...",
+ "red_line_triggered": false
+}
+No prose. No persuasion. Only signal.
+3. Council Aggregator
+Purpose:
+Evaluate whether Minister outputs can be reconciled.
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 10
+Council Outcomes:
+consensus_reached
+bounded_risk_tradeoff
+irreconcilable_conflict
+The Council does not invent reasoning. It only evaluates compatibility.
+4. Prime Confident
+Role: Final decision authority.
+Prime Confident is activated only when:
+Ministers disagree irreconcilably
+A red‑line veto is triggered
+The decision is explicitly irreversible
+Prime Confident sees:
+All Minister outputs
+All conflicts
+All red lines
+Long‑horizon implications
+Prime Confident outputs:
+One decision
+One rationale
+One ownership statement
+File Structure (Proposed)
+sovereign/
+│
+├── runtime/
+│ ├── persona_runtime.py
+│ ├── minister_runtime.py # orchestrates ministers
+│ ├── council_runtime.py # aggregates minister outp
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 11
+uts
+│ └── prime_confident_runtime.py # final authority
+│
+├── ministers/
+│ ├── base_minister.py # abstract minister interf
+ace
+│ ├── risk_minister.py
+│ ├── sovereignty_minister.py
+│ ├── power_minister.py
+│ ├── strategy_minister.py
+│ └── psychology_minister.py
+│
+├── doctrine/
+│ ├── ministers/
+│ │ ├── risk.yaml
+│ │ ├── sovereignty.yaml
+│ │ ├── power.yaml
+│ │ └── strategy.yaml
+│ └── prime_confident.yaml
+│
+├── cognition/
+│ ├── knowledge_engine.py
+│ ├── kis_scoring.py
+│ └── ingestion/
+│
+├── council/
+│ ├── aggregator.py
+│ ├── conflict_matrix.py
+│ └── escalation_rules.py
+│
+├── traces/
+│ ├── minister_trace.py
+│ ├── council_trace.py
+│ └── decision_trace.py
+│
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 12
+└── docs/
+ └── ministerial_architecture.md
+Trace & Audit Guarantees
+For every decision, the system must be able to answer:
+Which Ministers were activated?
+What stance did each take?
+Which rules/principles were cited?
+What KIS scores dominated?
+Why was escalation required (or not)?
+Why was the final decision chosen?
+If any answer is missing → architecture violation.
+Explicit Non‑Goals
+No free‑form debate text
+No emotional persuasion
+No democratic averaging
+No user interruption mid‑decision
+Summary
+MCA transforms your system from:
+"an intelligent assistant"
+into:
+a sovereign decision governance engine
+Ministers provide bounded truth.
+The Council enforces coherence.
+Prime Confident owns the outcome.
+Next Step
+After this document is accepted:
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 13
+1. Implement base_minister.py
+2. Implement one Minister (Risk) end‑to‑end
+3. Wire Council Aggregator
+4. Integrate Prime Confident
+One layer at a time.
+One layer at a time.
+I've created a clean, first-principles markdown document that defines exactly
+what you're building, why it exists, and how it fits your current system.
+What's done
+✅ Clear conceptual architecture (Ministers → Council → Prime Confident)
+✅ Explicit roles, authority boundaries, and non-goals
+✅ Structured output contracts (no prose, no ambiguity)
+✅ Proposed file structure aligned with your existing runtime + KIS
+✅ Built-in audit & trace guarantees
+✅ No implementation yet (by design)
+This document now serves as:
+the canonical spec
+the implementation contract
+the guardrail against sliding back into chatbot behavior
+Exchange 3 — Assistant: Execution Phases (PHASE 0–7)
+Speaker: Assistant
+PHASE 0 — Entry Conditions (Gatekeeping)
+Trigger:
+User provides input (CLI / pipe / interactive).
+Immediate actions:
+1. Input is captured once
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 14
+2. Session flags are set:
+irreversible? (keywords / explicit)
+command vs conversational?
+3. No minister is called yet.
+🔒 Rule: No reasoning before situation is understood.
+PHASE 1 — Situation Assessment (Single Shot)
+Component: assess_situation
+Output:
+{
+ "situation_type": "decision | casual | emotional | unclea
+r",
+ "clarity": 0.0–1.0,
+ "emotional_load": 0.0–1.0
+}
+Decision rule:
+If situation_type != decision → no ministers
+If clarity < threshold → no ministers
+Else → continue
+🎯 Ministers are expensive. Only activate on clear decisions.
+PHASE 2 — Domain Classification (Latch Point)
+Component: classify_domains
+Output:
+{
+ "domains": ["risk", "sovereignty", "power"],
+ "confidence": 0.72
+}
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 15
+Actions:
+Domains are latched
+Domain confidence is frozen
+This snapshot becomes the activation contract
+🔒 Rule: Domains never change mid-decision.
+PHASE 3 — Minister Activation
+Component: minister_runtime
+Execution logic:
+For each latched domain:
+1. Load corresponding Minister
+2. Inject:
+user input
+doctrine
+domain-scoped knowledge (via KIS)
+3. Run minister independently
+Ministers do not see each other.
+PHASE 4 — Minister Reasoning (Parallel, Isolated)
+Each Minister performs:
+1. KIS retrieval
+ranks rules / principles / warnings
+2. Doctrine constraint check
+red lines?
+3. Second-order analysis
+4. Position formation
+Minister output (strict):
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 16
+{
+ "minister": "risk",
+ "stance": "caution",
+ "confidence": 0.81,
+ "primary_argument": "...",
+ "supporting_evidence": [
+ { "type": "rule", "book": "X", "kis": 1.42 }
+ ],
+ "second_order_effects": "...",
+ "red_line_triggered": false
+}
+🚫 Ministers never speak to the user
+🚫 Ministers never finalize decisions
+PHASE 5 — Council Aggregation
+Component: council_runtime
+Input: list of Minister outputs
+Council evaluates:
+Stance alignment
+Confidence spread
+Red-line conflicts
+Trade-off feasibility
+Possible outcomes:
+A. Consensus
+All ministers compatible.
+→ produce Council Recommendation
+B. Bounded Trade-off
+Disagreement exists but resolvable.
+→ produce Qualified Recommendation
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 17
+C. Irreconcilable Conflict
+Red lines / veto / incompatible doctrines.
+→ ESCALATE
+⚖️ Council does not invent reasoning.
+It only checks compatibility.
+PHASE 6 — Prime Confident (Final Authority)
+Activated only if:
+Escalation triggered
+Or irreversible decision
+Or explicit override mode
+Prime Confident receives:
+All minister outputs
+Council assessment
+Full trace
+Long-horizon risk markers
+Prime Confident does:
+Third-order reasoning
+Strategic override if needed
+Ownership of outcome
+Output:
+{
+ "decision": "...",
+ "rationale": "...",
+ "overrides": ["risk"],
+ "ownership": "Prime Confident"
+}
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 18
+🏛️ This is the only layer allowed to override doctrine.
+PHASE 7 — Finalization & Output
+Runtime actions:
+1. Format final response (WAR / DARBAR / etc.)
+2. Emit:
+decision
+rationale
+3. Lock session if irreversible
+4. End execution
+No further questions.
+No loops.
+How This Maps to Files You'll Build
+Phase File
+Minister interface ministers/base_minister.py
+Domain ministers ministers/*.py
+Minister orchestration runtime/minister_runtime.py
+Aggregation logic council/aggregator.py
+Escalation rules council/escalation_rules.py
+Final authority runtime/prime_confident_runtime.py
+Tracing traces/*.py
+Why This WILL Do What You Want
+Because:
+Authority is layered
+Knowledge is bounded
+Debate is structured
+Escalation is explicit
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 19
+Final decision is singular
+And because:
+No component is allowed to "be smart everywhere"
+No averaging hides conflict
+No LLM improvisation decides policy
+This is governance, not generation.
+Exchange 4 — Assistant: What Lives in Each Minister .py File
+Speaker: Assistant
+What Lives in Each Minister .py File
+Think of a minister file as a sealed cognitive appliance.
+Minister File = 5 Things Only
+ministers/
+└── risk_minister.py
+Contains:
+1. Identity & Domain
+2. Doctrine Loader
+3. Knowledge Invocation (KIS)
+4. Evaluation Logic
+5. Structured Output Builder
+Nothing else.
+No runtime logic.
+No debate.
+No escalation.
+No I/O.
+1. Identity & Domain (Non-Negotiable)
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 20
+Every minister declares who it is and what it owns.
+MINISTER_NAME = "risk"
+DOMAIN = "risk"
+Why this matters:
+Prevents cross-domain leakage
+Enables strict activation
+Enforces trace clarity
+If a minister touches anything outside its domain → architecture violation.
+2. Doctrine Loader (Hard Constraints)
+Each minister loads only its own doctrine.
+def load_doctrine() -> dict:
+ """
+ Loads immutable doctrine rules for this minister.
+ """
+Doctrine includes:
+Non-negotiables
+Red lines
+Priority weights
+Time horizon bias
+Example (conceptual):
+Preserve downside protection
+Penalize irreversible losses
+Prefer optionality over optimization
+Doctrine never changes at runtime.
+3. Knowledge Invocation (KIS Access)
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 21
+Ministers do not scan everything.
+They only retrieve their domain's ranked knowledge.
+def retrieve_knowledge(user_input, domain_confidence) -> dic
+t:
+ """
+ Calls synthesize_knowledge with domain-scoped bias.
+ """
+What they receive:
+knowledge_trace
+kis scores
+books / rules / principles
+Ministers do not interpret KIS math.
+They trust the ranking.
+4. Evaluation Logic (This Is the Core)
+This is where a minister forms a stance, not a solution.
+Inputs:
+User input
+Doctrine
+Top KIS-ranked entries
+Outputs:
+stance
+confidence
+second-order effects
+red-line trigger
+Example responsibilities:
+Detect irreversible downside
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 22
+Detect hidden risk transfer
+Detect long-term fragility
+Important rule:
+A minister does not propose actions.
+It evaluates acceptability.
+5. Structured Output Builder (Contract)
+Every minister must return exactly the same shape.
+{
+ "minister": "risk",
+ "stance": "support | oppose | caution",
+ "confidence": 0.0–1.0,
+ "primary_argument": "...",
+ "supporting_evidence": [
+ {
+ "type": "rule | principle | warning | claim",
+ "book": "...",
+ "kis": 1.34
+ }
+ ],
+ "second_order_effects": "...",
+ "red_line_triggered": false
+}
+No prose.
+No persuasion.
+No verbosity.
+This allows:
+deterministic aggregation
+clean debate
+auditable escalation
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 23
+What a Minister File MUST NOT Contain
+❌ No LLM calls
+❌ No user interaction
+❌ No mode switching
+❌ No council logic
+❌ No final decisions
+❌ No cross-minister awareness
+If you see any of these → the design is broken.
+Minimal Conceptual Skeleton (Not Code, Just Shape)
+risk_minister.py
+│
+├── constants (name, domain)
+├── load_doctrine()
+├── retrieve_knowledge()
+├── evaluate_position()
+└── produce_output()
+That's it.
+Each minister differs only in:
+doctrine
+evaluation heuristics
+red-line definitions
+The structure stays identical.
+Why This Design Works (Second-Order)
+Because it enforces:
+Cognitive separation (no domain contamination)
+Explainability (every stance is traceable)
+Non-democratic truth (not averaged, not voted)
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 24
+Escalation clarity (you know why conflict exists)
+This is how real councils function internally.
+Exchange 5 — Assistant: base_minister.py Constitutional
+Contract
+Speaker: Assistant
+What base_minister.py IS
+base_minister.py defines the constitutional contract for every Minister.
+It answers four questions mechanically:
+1. Who am I allowed to be?
+2. What inputs am I allowed to see?
+3. What am I allowed to compute?
+4. What am I allowed to return?
+Nothing else.
+Design Rules (Non-Negotiable)
+A Minister must:
+Be domain-bound
+Be deterministic given inputs
+Produce structured output only
+Never talk to the user
+Never talk to other ministers
+Never decide outcomes
+A Minister must not:
+Call the LLM directly
+Mutate global state
+Escalate decisions
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 25
+Ask questions
+Output free text
+This file enforces all of that.
+Conceptual Responsibilities of the Base Interface
+BaseMinister does three things only:
+1. Defines the contract
+2. Enforces structure
+3. Standardizes traceability
+It does not contain domain logic.
+Exact Responsibilities (Method by Method)
+1. Identity & Domain Declaration
+Every minister must explicitly declare:
+MINISTER_NAME
+DOMAIN
+This prevents silent misuse.
+2. Doctrine Access
+The base class defines how doctrine is loaded, not what it contains.
+Doctrine is:
+immutable
+domain-specific
+required
+3. Knowledge Access (via KIS)
+The base class defines how knowledge is requested, not how it's interpreted.
+Uses synthesize_knowledge
+Domain-scoped
+Traceable
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 26
+4. Evaluation Hook (Abstract)
+Each minister must implement:
+"Given doctrine + top KIS knowledge + input → what is my stance?"
+No shortcuts.
+5. Output Validation
+The base class validates that the minister output:
+Has all required fields
+Uses allowed enum values
+Is numerically sane
+If a minister violates the contract → runtime error.
+This is intentional.
+The Exact Base Interface (Code)
+This is the canonical version.
+Do not add more. Do not remove constraints.
+# ministers/base_minister.py
+from abc import ABC, abstractmethod
+from typing import Dict, Any, List
+class BaseMinister(ABC):
+ """
+ BaseMinister defines the constitutional interface for all
+domain ministers.
+ Ministers are:
+ - domain-bounded
+ - non-interactive
+ - advisory only
+ """
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 27
+ # --- REQUIRED CLASS ATTRIBUTES ---
+ MINISTER_NAME: str = None
+ DOMAIN: str = None
+ # --- PUBLIC ENTRY POINT ---
+ def run(
+ self,
+ user_input: str,
+ domain_confidence: float,
+ knowledge_engine_fn,
+ ) -> Dict[str, Any]:
+ """
+ Execute the minister's full reasoning cycle.
+ """
+ self._validate_identity()
+ doctrine = self.load_doctrine()
+ knowledge = self.retrieve_knowledge(
+ user_input=user_input,
+ domain_confidence=domain_confidence,
+ knowledge_engine_fn=knowledge_engine_fn,
+ )
+ result = self.evaluate(
+ user_input=user_input,
+ doctrine=doctrine,
+ knowledge=knowledge,
+ )
+ self._validate_output(result)
+ return result
+ # --- REQUIRED IMPLEMENTATIONS ---
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 28
+ @abstractmethod
+ def load_doctrine(self) -> Dict[str, Any]:
+ """
+ Load immutable doctrine for this minister.
+ """
+ raise NotImplementedError
+ @abstractmethod
+ def evaluate(
+ self,
+ user_input: str,
+ doctrine: Dict[str, Any],
+ knowledge: Dict[str, Any],
+ ) -> Dict[str, Any]:
+ """
+ Evaluate the decision strictly within this domain.
+ """
+ raise NotImplementedError
+ # --- SHARED HELPERS ---
+ def retrieve_knowledge(
+ self,
+ user_input: str,
+ domain_confidence: float,
+ knowledge_engine_fn,
+ max_items: int = 5,
+ ) -> Dict[str, Any]:
+ """
+ Retrieve domain-scoped knowledge using KIS.
+ """
+ return knowledge_engine_fn(
+ user_input=user_input,
+ active_domains=[self.DOMAIN],
+ domain_confidence=domain_confidence,
+ max_items=max_items,
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 29
+ )
+ # --- VALIDATION ---
+ def _validate_identity(self):
+ if not self.MINISTER_NAME or not self.DOMAIN:
+ raise ValueError(
+ "Minister must define MINISTER_NAME and DOMAI
+N"
+ )
+ def _validate_output(self, output: Dict[str, Any]):
+ required_fields = {
+ "minister": str,
+ "stance": str,
+ "confidence": (int, float),
+ "primary_argument": str,
+ "supporting_evidence": list,
+ "second_order_effects": str,
+ "red_line_triggered": bool,
+ }
+ for field, ftype in required_fields.items():
+ if field not in output:
+ raise ValueError(
+ f"Minister output missing required field:
+{field}"
+ )
+ if not isinstance(output[field], ftype):
+ raise TypeError(
+ f"Field '{field}' must be of type {ftyp
+e}"
+ )
+ if output["stance"] not in {"support", "oppose", "cau
+tion"}:
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 30
+ raise ValueError("Invalid stance value")
+ if not (0.0 <= float(output["confidence"]) <= 1.0):
+ raise ValueError("Confidence must be between 0 an
+d 1")
+ if output["minister"] != self.DOMAIN:
+ raise ValueError(
+ "Minister output 'minister' field must match
+DOMAIN"
+ )
+Why This Interface Is Correct (Systems Reasoning)
+First-order
+Forces uniform structure
+Prevents improvisation
+Second-order
+Enables deterministic council aggregation
+Makes conflicts machine-detectable
+Third-order
+Prevents the system from "becoming chatty" over time
+Keeps Prime Confident as the only authority
+This is constitutional AI, not prompt engineering.
+Exchange 6 — Assistant: Uniform Interface Confirmation
+Speaker: Assistant
+The Short Answer
+✅ Every minister uses the same base_minister.py
+✅ No minister is allowed to change the interface
+✅ Differences exist only in doctrine + evaluation logic
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 31
+If a minister needs a different interface → it is not a minister.
+The Long Answer (Why This Is Critical)
+1. Ministers Are Not Personalities
+They are roles under a constitution.
+Uniform interface = constitutional law
+Doctrine = policy
+Evaluation = interpretation
+If ministers had different shapes, you would get:
+hidden authority shifts
+silent bias
+impossible aggregation
+untraceable decisions
+Uniformity prevents that.
+What Is the SAME Across All Ministers
+Every minister:
+✅ Uses the same run() lifecycle
+input → doctrine → KIS → evaluate → structured output
+✅ Receives the same inputs
+user_input
+domain_confidence
+knowledge_engine_fn
+✅ Returns the same output shape
+{
+ "minister": "...",
+ "stance": "...",
+ "confidence": ...,
+ "primary_argument": "...",
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 32
+ "supporting_evidence": [...],
+ "second_order_effects": "...",
+ "red_line_triggered": ...
+}
+✅ Is validated by the same rules
+stance enum
+confidence bounds
+domain match
+schema enforcement
+This is what allows:
+parallel execution
+clean debate
+deterministic escalation
+What Is DIFFERENT (And ONLY This)
+Each minister differs in exactly two places:
+1. Doctrine
+Loaded via:
+load_doctrine()
+Examples:
+Risk → downside protection
+Power → leverage preservation
+Sovereignty → autonomy constraints
+Strategy → sequencing and timing
+Doctrine is static and domain-specific.
+2. Evaluation Logic
+Implemented in:
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 33
+evaluate(...)
+Examples:
+Risk checks irreversible downside
+Power checks leverage loss
+Strategy checks sequencing errors
+Psychology checks emotional distortion
+This is the only place intelligence differs.
+Concrete Comparison (Mental Model)
+Minister Interface Doctrine Evaluation
+Risk SAME Different Different
+Power SAME Different Different
+Sovereignty SAME Different Different
+Strategy SAME Different Different
+Interface never changes.
+Doctrine and evaluation always do.
+Why This Makes the System Powerful (Second-Order)
+Because now you can:
+Add new ministers without touching runtime
+Swap doctrines without touching code
+Audit ministers mechanically
+Enforce fairness and limits
+Detect conflicts programmatically
+This is how real institutions scale.
+What Would Be a Red Flag 🚨
+If you ever feel tempted to:
+add a new method to one minister
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 34
+give a minister access to another's output
+let a minister ask the user something
+let a minister decide the outcome
+That's the moment the architecture is breaking.
+Final Confirmation
+Yes. The base interface is identical for all ministers.
+This is by design, not convenience.
+Exchange 7 — Assistant: Master Copilot Prompt for All 15
+Ministers
+Speaker: Assistant
+MASTER COPILOT PROMPT (FOR ALL 15 MINISTERS)
+Use this exact prompt in Copilot Chat before generating files.
+🔹 COPILOT PROMPT — Minister Generation
+You are implementing a Ministerial Cognitive Architecture.
+Your task is to generate domain-specific Minister classes that ALL inherit from a
+single immutable base interface.
+HARD CONSTRAINTS (DO NOT VIOLATE)
+1. ALL ministers MUST inherit from BaseMinister
+2. ALL ministers MUST use the SAME interface
+3. NO minister may add extra public methods
+4. NO minister may call LLMs
+5. NO minister may ask user questions
+6. NO minister may make decisions or escalate
+7. NO minister may reference other ministers
+Ministers are advisory only.
+BASE INTERFACE (ASSUME EXISTS)
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 35
+class BaseMinister(ABC):
+ MINISTER_NAME: str
+ DOMAIN: str
+ def run(self, user_input, domain_confidence, knowledge_en
+gine_fn) -> dict
+ def load_doctrine(self) -> dict
+ def evaluate(self, user_input, doctrine, knowledge) -> di
+ct
+REQUIRED OUTPUT SHAPE (STRICT)
+Every minister MUST return EXACTLY this schema:
+{
+ "minister": "<domain>",
+ "stance": "support | oppose | caution",
+ "confidence": 0.0,
+ "primary_argument": "...",
+ "supporting_evidence": [
+ { "type": "rule | principle | warning | claim", "book":
+"...", "kis": 0.0 }
+ ],
+ "second_order_effects": "...",
+ "red_line_triggered": false
+}
+DOMAINS TO IMPLEMENT (15 FILES)
+Create ONE file per domain, named <domain>_minister.py:
+risk
+sovereignty
+power
+strategy
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 36
+psychology
+intelligence
+legitimacy
+diplomacy
+discipline
+timing
+adaptation
+optionality
+conflict
+data
+risk_resources
+DOCTRINE REQUIREMENTS
+Load doctrine from doctrine/ministers/<domain>.yaml
+Doctrine is immutable
+Doctrine defines:
+red lines
+priority weights
+domain goals
+EVALUATION LOGIC REQUIREMENTS
+Each minister must:
+Inspect top KIS-ranked knowledge only
+Respect doctrine red lines
+Identify second-order effects
+Set red_line_triggered = true ONLY if doctrine is violated
+Set confidence based on:
+domain confidence
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 37
+KIS dominance
+STYLE RULES
+Clear, explicit Python
+No clever abstractions
+No nested ternaries
+Deterministic logic
+Readability over brevity
+YOUR TASK
+Generate ALL 15 minister files, each differing ONLY in:
+MINISTER_NAME
+DOMAIN
+doctrine interpretation
+evaluation heuristics
+Do NOT modify the base interface.
+Do NOT introduce new dependencies.
+Do NOT add runtime logic.
+Begin with risk_minister.py, then repeat the pattern consistently.
+If any requirement conflicts, STOP and explain the conflict instead of guessing.
+HOW TO USE THIS EFFECTIVELY
+Option A — One Minister at a Time (Safest)
+1. Paste the prompt
+2. Ask:
+"Generate risk_minister.py now"
+1. Review
+2. Repeat per domain
+Option B — Batch (Faster, Riskier)
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 38
+1. Paste prompt
+2. Ask:
+"Generate all 15 ministers in separate files"
+⚠️ Batch works only if Copilot context window is large.
+HOW YOU WILL KNOW COPILOT DID IT RIGHT
+A correct minister file will:
+✅ Import BaseMinister
+✅ Declare MINISTER_NAME and DOMAIN
+✅ Implement only:
+load_doctrine
+evaluate
+✅ Never mention another domain
+✅ Return the exact schema
+✅ Contain no LLM calls
+✅ Contain no user interaction
+If any of these fail → regenerate.
+STRATEGIC NOTE (IMPORTANT)
+You are not asking Copilot to think.
+You are asking it to instantiate a constitutional pattern.
+This prompt does that.
+Exchange 8 — Assistant: Meeting Mode Architecture
+Speaker: Assistant
+1. What "Meeting Mode" ACTUALLY Means in Your System
+Meeting mode is not a UI mode.
+It is a governance trigger.
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 39
+Meeting Mode =
+"I am explicitly delegating analysis to institutional reasoning."
+When meeting mode is active:
+❌ PersonaBrain no longer controls flow
+❌ No clarifying questions
+❌ No conversational back-and-forth
+✅ Ministers are allowed
+✅ Council aggregation is allowed
+✅ Prime Confident may be invoked
+So:
+Meeting mode is the only legal gateway to Prime Confident (unless forced by
+irreversibility).
+2. High-Level Control Flow (Authoritative)
+User Input
+ ↓
+Mode Resolution
+ ↓
+[IF mode == meeting]
+ ↓
+Minister Runtime
+ ↓
+Council Aggregator
+ ↓
+[IF escalation required]
+ ↓
+Prime Confident
+ ↓
+Final Output
+No loops. No branching ambiguity.
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 40
+3. How Meeting Mode Activates Prime Confident
+Rule (Hard Constraint)
+Prime Confident is invoked only if one of these is true:
+1. Council returns irreconcilable_conflict
+2. Any minister triggers red_line_triggered == true
+3. Decision is marked irreversible
+4. User explicitly requests escalation
+Meeting mode permits escalation.
+It does not guarantee it.
+4. Files You Need and Their Exact Responsibility
+Below is the minimum correct file set and how they connect.
+A. runtime/minister_runtime.py
+Responsibility
+Activate ministers based on latched domains
+Run them in parallel or sequence
+Collect outputs
+Input
+user_input
+latched_domains
+domain_confidence
+Output
+{
+ "minister_outputs": [ ... ],
+ "activated_ministers": ["risk", "power", "strategy"]
+}
+🚫 Does NOT aggregate
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 41
+🚫 Does NOT decide
+🚫 Does NOT escalate
+B. council/aggregator.py
+Responsibility
+Compare minister outputs
+Detect compatibility vs conflict
+Decide whether escalation is required
+Input
+List of minister outputs
+Output
+{
+ "outcome": "consensus | bounded_tradeoff | irreconcilable_c
+onflict",
+ "conflicts": [...],
+ "summary": "..."
+}
+🚫 Does NOT invent reasoning
+🚫 Does NOT override ministers
+C. council/escalation_rules.py
+Responsibility
+Encode when Prime Confident must be invoked
+This file answers:
+"Is this decision too important or too conflicted for ministers alone?"
+Rules include:
+Red-line presence
+Confidence divergence
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 42
+Irreversibility
+Domain hierarchy conflicts (e.g., sovereignty vs efficiency)
+This keeps escalation predictable, not emotional.
+D. runtime/prime_confident_runtime.py
+Responsibility
+Final authority
+Long-horizon judgment
+Override capability
+Input
+Minister outputs
+Council outcome
+Escalation context
+Output
+{
+ "decision": "...",
+ "rationale": "...",
+ "overrides": ["risk"],
+ "ownership": "Prime Confident"
+}
+This is the only component allowed to override doctrine.
+E. runtime/persona_runtime.py (Modified Role)
+Persona runtime now becomes:
+If mode == quick / war
+Use PersonaBrain
+No ministers
+If mode == meeting
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 43
+Bypass PersonaBrain
+Delegate to Minister Runtime
+PersonaBrain never participates in meeting mode.
+This separation is critical.
+5. How Meeting Mode Is Detected (Mechanically)
+Meeting mode can be entered via:
+1. Explicit user command
+"Let's do a meeting"
+1. Mode latch from earlier turn
+2. High-confidence domain + explicit complexity
+3. Forced by irreversible decision
+Once in meeting mode:
+Mode is locked
+No downgrade until decision completes
+6. End-to-End Example (Concrete)
+User Input
+"This decision permanently affects sovereignty and long-term power balance."
+Execution
+1. Situation → decision
+2. Domains → sovereignty, power, risk
+3. Mode → meeting (auto or explicit)
+4. Ministers run:
+Risk → caution
+Power → oppose
+Sovereignty → red-line triggered
+5. Council:
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 44
+Outcome → irreconcilable_conflict
+6. Escalation:
+Prime Confident invoked
+7. Final Output:
+Decision issued
+Overrides documented
+Session locked
+No questions. No loops.
+Exchange 9 — Assistant: Meeting Mode Runtime Pseudocode
+(Authoritative)
+Speaker: Assistant
+MEETING MODE — RUNTIME PSEUDOCODE (AUTHORITATIVE)
+Top-Level Invariant
+Meeting mode disables conversational control and enables institutional
+reasoning.
+No PersonaBrain.
+No clarifying questions.
+No loops.
+ENTRY POINT — persona_runtime.py
+function handle_user_input(user_input):
+ state = get_or_create_state()
+ situation = assess_situation(user_input)
+ if situation.type != "decision":
+ fallback_to_conversational_path()
+ return
+ domains = classify_domains(user_input)
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 45
+ latch(domains)
+ if should_enter_meeting_mode(state, situation, domains):
+ state.mode = "meeting"
+ lock_mode(state)
+ execute_meeting_mode(state, user_input)
+ return
+ fallback_to_non_meeting_path()
+MEETING MODE EXECUTION — SINGLE ENTRY
+function execute_meeting_mode(state, user_input):
+ assert state.mode == "meeting"
+ assert state.domains_latched == true
+ assert no_user_questions_allowed
+From this point forward, nothing conversational may execute.
+PHASE 1 — Minister Activation
+function activate_ministers(state):
+ ministers = []
+ for domain in state.latched_domains:
+ minister = load_minister_for_domain(domain)
+ ministers.append(minister)
+ trace("ministers_activated", ministers)
+ return ministers
+Rules:
+One minister per domain
+No duplication
+No fallback ministers
+PHASE 2 — Minister Execution (Parallel-Safe)
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 46
+function run_ministers(ministers, state, user_input):
+ outputs = []
+ for minister in ministers:
+ output = minister.run(
+ user_input = user_input,
+ domain_confidence = state.domain_confidence,
+ knowledge_engine_fn = synthesize_knowledge
+ )
+ validate_minister_output(output)
+ outputs.append(output)
+ trace("minister_outputs", outputs)
+ return outputs
+Key guarantees:
+Ministers do not see each other
+Ministers do not mutate state
+Ministers do not decide outcomes
+PHASE 3 — Council Aggregation
+function aggregate_council(minister_outputs):
+ council_result = council_aggregator.evaluate(minister_out
+puts)
+ trace("council_result", council_result)
+ return council_result
+Council output shape:
+{
+ "outcome": "consensus | bounded_tradeoff | irreconcilable_c
+onflict",
+ "conflicts": [...],
+ "confidence_spread": 0.0–1.0,
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 47
+ "red_lines_present": true | false
+}
+PHASE 4 — Escalation Decision
+function should_escalate(state, council_result):
+ if state.irreversible == true:
+ return true
+ if council_result.red_lines_present:
+ return true
+ if council_result.outcome == "irreconcilable_conflict":
+ return true
+ return false
+No discretion here.
+Escalation rules are mechanical.
+PHASE 5 — Prime Confident Invocation (Conditional)
+function maybe_invoke_prime_confident(state, minister_output
+s, council_result):
+ if should_escalate(state, council_result):
+ decision = prime_confident.decide(
+ user_input = state.original_input,
+ ministers = minister_outputs,
+ council = council_result,
+ irreversible = state.irreversible
+ )
+ trace("prime_confident_decision", decision)
+ return decision
+ else:
+ return council_result.recommendation
+Prime Confident:
+sees everything
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 48
+overrides doctrine if required
+owns the decision
+PHASE 6 — Final Output & Lockdown
+function finalize_decision(state, decision):
+ output = format_final_response(decision, mode="meeting")
+ emit(output)
+ if state.irreversible:
+ lock_session(state)
+ end_execution()
+After this:
+No more reasoning
+No more questions
+No downgrade of mode
+CONTROL FLOW SUMMARY (ONE SCREEN)
+INPUT
+ ↓
+Situation = decision?
+ ↓ yes
+Domains classified & latched
+ ↓
+Mode → MEETING
+ ↓
+Run Ministers
+ ↓
+Council Aggregation
+ ↓
+Escalation?
+ ├─ yes → Prime Confident
+ └─ no → Council Recommendation
+ ↓
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 49
+Final Output
+ ↓
+END
+CRITICAL GUARANTEES (DO NOT BREAK)
+If any of these happen, the architecture is broken:
+❌ PersonaBrain runs in meeting mode
+❌ A minister asks a question
+❌ A minister decides the outcome
+❌ Council invents reasoning
+❌ Prime Confident runs without conflict or irreversibility
+❌ Mode downgrades mid-decision
+WHY THIS WORKS (SYSTEMS LEVEL)
+First-order
+Clear separation of responsibility
+Second-order
+Conflicts are explicit, not averaged
+Third-order
+Authority is centralized only when required
+This is how real institutions execute decisions.
+Exchange 10 — Assistant: Meeting Mode End-to-End Test Cases
+Speaker: Assistant
+MEETING MODE — END-TO-END TEST CASES
+Test Structure (How to Think About It)
+Each test validates one constitutional invariant:
+correct activation
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 50
+correct isolation
+correct escalation
+correct final authority
+Every test has:
+Input
+Expected activation
+Expected traces
+Expected final authority
+TEST 1 — Consensus, No Escalation
+Purpose
+Verify ministers run, council aggregates, Prime Confident is NOT invoked.
+Input
+"Should I delay the product launch by two weeks to reduce deployment risk?"
+Expected Situation
+{
+ "situation_type": "decision",
+ "clarity": >= 0.7
+}
+Expected Domains (Latched)
+["risk", "timing", "strategy"]
+Expected Minister Outputs
+Minister Stance Red Line
+Risk support false
+Timing support false
+Strategy support false
+Expected Council Output
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 51
+{
+ "outcome": "consensus",
+ "red_lines_present": false
+}
+Expected Final Behavior
+✅ Ministers executed
+✅ Council executed
+❌ Prime Confident NOT invoked
+✅ Council recommendation returned
+Pass Condition
+trace contains:
+- ministers_activated
+- minister_outputs
+- council_result (consensus)
+NO trace:
+- prime_confident_decision
+TEST 2 — Bounded Trade-off, Still No Escalation
+Purpose
+Verify disagreement without red lines does NOT escalate.
+Input
+"Should I reallocate 30% of engineering capacity to a risky new feature?"
+Expected Domains
+["risk", "strategy", "optionality"]
+Expected Minister Outputs
+Minister Stance
+Risk caution
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 52
+Minister Stance
+Strategy support
+Optionality caution
+Red lines: none
+Expected Council Output
+{
+ "outcome": "bounded_tradeoff",
+ "red_lines_present": false
+}
+Expected Final Behavior
+❌ Prime Confident NOT invoked
+✅ Council returns qualified recommendation
+Pass Condition
+Council outcome == bounded_tradeoff
+No escalation
+TEST 3 — Red Line Trigger → Escalation
+Purpose
+Verify any red line forces Prime Confident.
+Input
+"This decision permanently reduces sovereignty by outsourcing core
+infrastructure."
+Expected Domains
+["sovereignty", "risk", "power"]
+Expected Minister Outputs
+Minister Stance Red Line
+Sovereignty oppose true
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 53
+Minister Stance Red Line
+Risk caution false
+Power oppose false
+Expected Council Output
+{
+ "outcome": "irreconcilable_conflict",
+ "red_lines_present": true
+}
+Expected Final Behavior
+✅ Prime Confident invoked
+✅ Prime Confident overrides if needed
+✅ Final decision issued once
+Pass Condition
+trace contains:
+- prime_confident_decision
+decision.ownership == "Prime Confident"
+TEST 4 — Irreversible Decision Forces Escalation (Even with Consensus)
+Purpose
+Verify irreversibility alone triggers Prime Confident.
+Input
+"This is an irreversible decision affecting long-term sovereignty and power."
+Flags
+state.irreversible = true
+Expected Minister Outputs
+All ministers may agree.
+Expected Behavior
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 54
+❌ Council consensus does NOT stop escalation
+✅ Prime Confident invoked anyway
+Pass Condition
+state.irreversible == true
+prime_confident_decision exists
+TEST 5 — PersonaBrain Must NOT Run in Meeting Mode
+Purpose
+Verify PersonaBrain is fully bypassed.
+Input
+"Let's do a meeting about long-term power and risk tradeoffs."
+Expected Behavior
+❌ No PersonaBrain decision trace
+❌ No "clarify" questions
+✅ Minister pipeline activated directly
+Pass Condition
+NO trace:
+- persona_brain_decision
+TEST 6 — Minister Isolation (Critical)
+Purpose
+Ensure ministers do not leak or cross-talk.
+Input
+"Optimize short-term efficiency at the cost of future optionality."
+Validation
+Inspect minister outputs.
+Pass Conditions
+Each minister:
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 55
+references only its domain
+cites only its own doctrine
+uses only its KIS results
+No minister references:
+another minister
+council
+final decision
+TEST 7 — KIS Trace Integrity
+Purpose
+Ensure KIS is actually used and traceable.
+Input
+"Trade long-term resilience for short-term gains."
+Expected Knowledge Trace
+For each minister:
+supporting_evidence: [
+ {
+ "type": "principle | rule",
+ "book": "...",
+ "kis": > 0
+ }
+]
+Fail Conditions
+empty supporting_evidence
+kis == 0
+missing book attribution
+TEST 8 — No Questions Guarantee
+Purpose
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 56
+Ensure meeting mode never asks questions.
+Input
+"Decide whether to permanently lock this strategic path."
+Pass Condition
+NO output contains:
+- "?"
+- "Can you"
+- "What do you"
+TEST 9 — Single Final Output
+Purpose
+Ensure no loops, no double decisions.
+Input
+"Make a final irreversible decision about sovereignty."
+Pass Condition
+Exactly one final output
+Program terminates execution
+TEST 10 — Full Trace Completeness
+Purpose
+Ensure auditability.
+Required Trace Stages
+situation_assessed
+domains_classified
+ministers_activated
+minister_outputs
+council_result
+(optional) prime_confident_decision
+final_output
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 57
+Fail Condition
+Any missing stage → ❌ architecture violation
+How to Automate Later (Future)
+You can later convert these into:
+pytest cases
+golden trace comparisons
+invariant assertions
+But manual first is correct.
+Final Validation Rule (Non-Negotiable)
+If any test produces:
+a user question
+a missing minister
+a silent escalation
+an untraceable decision
+The system is not sovereign yet.
+MCA — Ministerial Cognitive Architecture: Canonical Technical Dossier 58

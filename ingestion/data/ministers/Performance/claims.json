@@ -1,0 +1,34 @@
+{
+  "domain": "Performance",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "3ff47228-c5f9-4c66-899f-772c84c78c5c",
+      "text": "Each day is a unique and finite opportunity.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 45
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "02c7670f-b6dc-4e0c-80c6-e1e31c4d32ce",
+      "text": "Effort and dedication determine the quality of outcomes.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 45
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T11:27:37.348511Z",
+    "aggregated_from": [
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 45
+      }
+    ]
+  }
+}

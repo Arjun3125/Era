@@ -1,0 +1,1669 @@
+[
+  {
+    "chapter_index": 1,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "power",
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 2,
+    "chapter_title": null,
+    "domains": [
+      "psychology"
+    ],
+    "principles": [
+      "Understanding human nature is fundamental to achieving mastery"
+    ],
+    "rules": [
+      "Master the art of perception to gain an advantage over others"
+    ],
+    "claims": [
+      "Mastery requires deep psychological insight"
+    ],
+    "warnings": [
+      "Failure to understand psychological nuances can lead to strategic failure"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0163,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 3,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Self-discovery is foundational for personal mastery by reconnecting with innate inclinations.",
+      "Iterative learning through observation, practice, and experimentation enhances skill acquisition.",
+      "Humility enables effective learning and growth from mentors and experiences."
+    ],
+    "rules": [
+      "Begin mastery by inwardly exploring to define your Life's Task and connect with your inner force.",
+      "During apprenticeship, prioritize learning over financial gain to achieve self-transformation.",
+      "Select a mentor who aligns with your Life's Task and fosters independent growth."
+    ],
+    "claims": [
+      "The human brain's plasticity allows for adaptability and mastery development throughout life.",
+      "Great Masters exhibit traits like intuitive intelligence and disciplined focus to overcome challenges.",
+      "Mentorship involves a dynamic exchange that transforms knowledge and fosters innovation."
+    ],
+    "warnings": [
+      "Passivity can lead to stagnation and missed opportunities in achieving personal mastery.",
+      "Inadequate self-reflection may result in misalignment with one's true potential and goals.",
+      "Over-dependence on mentors can hinder the development of independent problem-solving skills."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.016,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 4,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Develop social intelligence to effectively navigate social environments and reduce emotional drain.",
+      "Expand knowledge across diverse fields to foster creativity and innovation."
+    ],
+    "rules": [
+      "Observe nonverbal cues and emotional patterns to accurately interpret others.",
+      "Adjust your attitude based on feedback and interpretations of historical or contextual examples.",
+      "Cultivate negative capability to remain open to new ideas and challenge established norms.",
+      "Allow serendipity by maintaining openness to unexpected discoveries and analogical thinking.",
+      "Alternate perspectives to avoid biases and ensure comprehensive understanding."
+    ],
+    "claims": [
+      "Social intelligence is essential for achieving sustainable mastery and success.",
+      "True mastery involves internalizing and transforming established rules to suit personal inclinations."
+    ],
+    "warnings": [
+      "Misreading others' intentions can lead to social conflicts and misunderstandings.",
+      "Rushing to generalizations may cause the neglect of critical details, resulting in errors."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0201,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 5,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Embracing constraints can foster innovation.",
+      "Leverage visual and diagrammatic thinking to overcome language limitations."
+    ],
+    "rules": [
+      "Identify the right level of tension to trigger creative breakthroughs.",
+      "Employ authentic communication to achieve desired outcomes.",
+      "Structure processes to deliberately create pressure for innovation."
+    ],
+    "claims": [
+      "Mechanistic approaches can complement creative thinking.",
+      "Delegating effectively requires clear communication channels."
+    ],
+    "warnings": [
+      "Excessive complacency stifles innovation.",
+      "Rigid thinking prevents adaptation to new circumstances.",
+      "Unmanaged pressure can lead to creative blocks."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0552,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 6,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "power",
+      "strategy"
+    ],
+    "principles": [
+      "Integrate intuitive and rational thinking to achieve mastery",
+      "Follow personal inclinations to cultivate specialized expertise"
+    ],
+    "rules": [
+      "Deeply immerse yourself in areas of interest to develop expertise",
+      "Practice consistently to develop intuitive understanding and mastery",
+      "Cultivate tolerance for complexity and chaos in problem-solving"
+    ],
+    "claims": [
+      "Mastery can be achieved through dedicated practice (20,000 hours)",
+      "The brain undergoes changes to support mastery and intuitive understanding"
+    ],
+    "warnings": [
+      "Lack of deep focus may lead to superficial expertise",
+      "Disconnection from authentic inclinations may result in unfulfilled potential"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0262,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 7,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "power",
+      "psychology"
+    ],
+    "principles": [
+      "Continuous learning and adaptation lead to mastery",
+      "Break down complex tasks into manageable components"
+    ],
+    "rules": [
+      "Practice consistently to develop fluency in new skills",
+      "Manage emotions to maintain focus during learning",
+      "Internalize knowledge through repetition and application"
+    ],
+    "claims": [
+      "Mastery is achievable through structured learning phases",
+      "Intuition develops through deep understanding and experience"
+    ],
+    "warnings": [
+      "Boredom and impatience hinder progress in skill development",
+      "Partial understanding limits effectiveness in complex domains"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0016,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 8,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "power",
+      "psychology"
+    ],
+    "principles": [
+      "Mastery is achieved through sustained effort and personal initiative.",
+      "Understanding one's inclinations and emotional connections drives effective action."
+    ],
+    "rules": [
+      "Actively pursue goals despite external challenges and temptations.",
+      "Prioritize deliberate practice over passive reliance on technology."
+    ],
+    "claims": [
+      "The brain is adaptable and can be reshaped through mental and behavioral actions.",
+      "Cultural shifts can diminish the perceived value of mastery, but it remains crucial for human progress."
+    ],
+    "warnings": [
+      "Passivity leads to a loss of motivation and increased risk of stagnation in personal and professional endeavors.",
+      "Over-reliance on technology may erode personal responsibility and limit opportunities for growth."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0079,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 9,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "discipline",
+      "strategy"
+    ],
+    "principles": [
+      "Continuous growth is achieved by embracing change and renewal.",
+      "Mastery is a process of progressive learning, not a fixed endpoint.",
+      "Apprenticeship serves as a foundational phase for creative development."
+    ],
+    "rules": [
+      "Learn from historical and contemporary masters through observation and practice.",
+      "Apply strategies derived from mastery to maintain creativity and adaptability.",
+      "Constantly refresh your mindset to avoid stagnation and decay."
+    ],
+    "claims": [
+      "Mastery is attainable through persistent effort, regardless of innate talent.",
+      "The process of mastery is supported by research in neuro-cognitive science and studies on creativity."
+    ],
+    "warnings": [
+      "Resting on achievements leads to mental decay and loss of creativity.",
+      "Disregarding the dynamic nature of growth can result in missed opportunities."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0094,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 10,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "optionality",
+      "strategy"
+    ],
+    "principles": [
+      "Follow an inner directive to achieve mastery.",
+      "Persistence in learning drives creative breakthroughs."
+    ],
+    "rules": [
+      "Develop unique approaches to problems by combining diverse knowledge.",
+      "Diversify revenue streams to mitigate professional dependence."
+    ],
+    "claims": [
+      "An inner force guides organic development and transformation.",
+      "Creative work transcends imitation through scientific rigor."
+    ],
+    "warnings": [
+      "Neglecting personal passions leads to professional stagnation.",
+      "Over-reliance on external validation hinders authentic growth."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0008,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 11,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Trust your own truth and inner voice as the foundation for decision-making.",
+      "Apply experiences to benefit others as a core principle of fulfillment."
+    ],
+    "rules": [
+      "Listen to internal guidance rather than external validation.",
+      "Maintain focus on long-term mastery rather than immediate material gains."
+    ],
+    "claims": [
+      "Mastery and fulfilling one's life task lead to sustainable success.",
+      "Deviation from one's path inevitably leads to emptiness and failure."
+    ],
+    "warnings": [
+      "Prioritizing money over mastery creates a cycle of temporary prosperity and eventual disappointment.",
+      "Ignoring internal discomfort signals (pain, frustration) leads to irreversible detachment from one's path."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0036,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 12,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "constraints",
+      "risk"
+    ],
+    "principles": [
+      "Master practical skills through real-world application",
+      "Embrace personal passions in career decisions"
+    ],
+    "rules": [
+      "Align career choices with personal strengths despite external pressures",
+      "Secure foundational qualifications while pursuing specialized interests"
+    ],
+    "claims": [
+      "Individuals develop unique talents through specialized practice",
+      "External validation can significantly influence career trajectories"
+    ],
+    "warnings": [
+      "Neglecting personal passions leads to regrettable career outcomes",
+      "Ignoring insecurities during professional development creates long-term obstacles"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0037,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 13,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "discipline",
+      "psychology"
+    ],
+    "principles": [
+      "Mastery requires transforming one's mindset through practical engagement with reality.",
+      "The apprenticeship phase is essential for developing mastery through self-directed learning."
+    ],
+    "rules": [
+      "Choose work environments that maximize learning opportunities and challenge personal growth.",
+      "Adapt continuously to new experiences and feedback during the apprenticeship phase."
+    ],
+    "claims": [
+      "Practical knowledge provides long-term value beyond immediate career advancement.",
+      "The brain's learning processes transcend specific fields or historical periods."
+    ],
+    "warnings": [
+      "Neglecting self-transformation during apprenticeship leads to recurring personal and professional challenges.",
+      "Relying on book-based learning without practical application creates a disconnect between knowledge and real-world outcomes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0039,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 14,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "power",
+      "psychology"
+    ],
+    "principles": [
+      "Comprehensive observation of an environment builds foundational understanding and facilitates adaptation.",
+      "Absorb reality without preconceptions to gain deeper insights into operational dynamics."
+    ],
+    "rules": [
+      "Observe all aspects of an unfamiliar environment meticulously before drawing conclusions or acting.",
+      "Base theories and decisions on direct observation and analysis, not assumptions or ego-driven hypotheses."
+    ],
+    "claims": [
+      "Understanding the rules and power dynamics of an environment enhances navigation and decision-making capabilities.",
+      "Observation skills can transform into a lifelong critical skill for success in various contexts."
+    ],
+    "warnings": [
+      "Failure to adapt and observe carefully can lead to costly mistakes, such as being dismissed or failing in new roles.",
+      "Inadequate observation may result in misinterpreting situations, potentially causing personal or professional setbacks."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0137,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 15,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "constraints",
+      "discipline"
+    ],
+    "principles": [
+      "Skills mastery requires deep, focused practice over extended periods.",
+      "Incremental improvement through repetition creates lasting neural pathways"
+    ],
+    "rules": [
+      "Limit concurrent skill acquisition to prevent cognitive overload",
+      "Embrace initial discomfort as necessary for skill development",
+      "Schedule dedicated, distraction-free practice time"
+    ],
+    "claims": [
+      "Extended deliberate practice establishes automaticity in skill performance",
+      "The brain reorganizes neural pathways through consistent repetition"
+    ],
+    "warnings": [
+      "Premature skill application without sufficient practice leads to inconsistent performance",
+      "Multitasking across multiple skills creates learning debt that requires additional practice"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0046,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 16,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "constraints",
+      "strategy"
+    ],
+    "principles": [
+      "Embrace experimentation to gauge progress and identify knowledge gaps.",
+      "Combine knowledge across domains to drive innovation and solve complex problems."
+    ],
+    "rules": [
+      "Progress through structured stages of learning, culminating in independent application.",
+      "Value learning over comfort zones to develop resilience and mastery."
+    ],
+    "claims": [
+      "Future success depends on adaptability to increasing complexity and cross-disciplinary knowledge.",
+      "The craftsman model remains essential despite technological advancement."
+    ],
+    "warnings": [
+      "Ignoring complexity leads to obsolescence in a rapidly changing world.",
+      "Distracted learning and lack of focus hinder mastery and adaptation."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0031,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 17,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "optionality",
+      "strategy"
+    ],
+    "principles": [
+      "Continuous learning and diverse experiences fuel personal and professional growth.",
+      "Inner freedom and mental expansion can overcome external limitations."
+    ],
+    "rules": [
+      "Actively seek diverse environments to broaden perspectives and opportunities.",
+      "Structured education can provide discipline and direction for unstructured thinking.",
+      "Persistent networking and relationship-building are essential for career advancement."
+    ],
+    "claims": [
+      "Dedication to self-improvement can overcome socioeconomic barriers.",
+      "Cultural immersion and anthropological study deepen understanding of one's own background."
+    ],
+    "warnings": [
+      "Stagnation leads to missed opportunities and personal decline.",
+      "Fear of failure or comfort zones can prematurely close doors to growth."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0009,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 18,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "optionality",
+      "technology"
+    ],
+    "principles": [
+      "Iterative learning through experimentation leads to mastery and discovery.",
+      "Follow personal interests to guide professional and personal development."
+    ],
+    "rules": [
+      "Avoid rigid, predefined career paths in favor of flexible, exploratory approaches.",
+      "Embrace open-ended constraints to maximize creativity and adaptability."
+    ],
+    "claims": [
+      "Trial and error is an effective method for acquiring skills and solving problems.",
+      "The hacker approach to innovation can revolutionize business models."
+    ],
+    "warnings": [
+      "Rigid educational or professional structures may stifle individual potential.",
+      "Unforeseen changes in technology can render certain skills obsolete."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0042,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 19,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "constraints",
+      "power"
+    ],
+    "principles": [
+      "Absorb knowledge through mentorship and disciplined practice.",
+      "Learning is most effective through active engagement and replication of foundational methods.",
+      "Cultural or social constraints can be overcome through persistent adaptation and resourcefulness."
+    ],
+    "rules": [
+      "Follow structured mentorship to accelerate skill development.",
+      "Integrate knowledge with personal experience to deepen understanding.",
+      "Overcome limitations by seeking diverse perspectives and structured learning frameworks."
+    ],
+    "claims": [
+      "Mentorship significantly accelerates professional growth.",
+      "Bookbinding apprenticeship can lead to scientific achievement.",
+      "Science is a profound exploration of natural phenomena."
+    ],
+    "warnings": [
+      "Lack of mentorship leads to inefficient knowledge acquisition.",
+      "Ignoring foundational principles risks stagnation despite effort.",
+      "Unstructured learning may produce superficial understanding."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.003,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 20,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Emotional investment enhances learning outcomes by fostering deeper engagement.",
+      "Mentorship accelerates development by providing focused guidance and reducing errors."
+    ],
+    "rules": [
+      "Actively seek mentors who offer tangible support and align with your goals.",
+      "Engage fully in learning activities to absorb knowledge effectively."
+    ],
+    "claims": [
+      "Mentorship can transform theoretical knowledge into practical innovation.",
+      "Emotional and psychological factors significantly influence the efficiency of learning."
+    ],
+    "warnings": [
+      "Insufficient mentorship may lead to stagnation and unfulfilled potential.",
+      "Lack of emotional connection can result in superficial learning and reduced effectiveness."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0017,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 21,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "optionality",
+      "power"
+    ],
+    "principles": [
+      "Authentic mastery requires continuous practice and self-refinement.",
+      "True understanding transcends intellectual knowledge and involves lived experience."
+    ],
+    "rules": [
+      "Regularly challenge your current understanding to prevent stagnation.",
+      "Mentors should push students beyond their comfort zones to foster growth."
+    ],
+    "claims": [
+      "Enlightenment is achieved through persistent engagement with challenging concepts.",
+      "True Zen practice is dynamic and alive, not static or intellectualized."
+    ],
+    "warnings": [
+      "Resting on past achievements can lead to spiritual atrophy.",
+      "Intellectualization of practice creates a false sense of mastery."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0017,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 22,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "discipline"
+    ],
+    "principles": [
+      "Curiosity drives learning and mastery.",
+      "Self-teaching can achieve mastery through persistent effort and experimentation."
+    ],
+    "rules": [
+      "Develop extreme self-reliance when formal mentorship is unavailable.",
+      "Learn by emulating mentors, even through indirect exposure."
+    ],
+    "claims": [
+      "Self-directed learners can achieve mastery through books, experiments, and practical experience."
+    ],
+    "warnings": [
+      "Lacking formal mentorship requires rigorous self-discipline to avoid stagnation."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0086,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 23,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Understand others' perspectives to build effective relationships and conserve mental energy.",
+      "Learn from experiences to adapt and improve decision-making over time."
+    ],
+    "rules": [
+      "Always verify information about others before acting on it.",
+      "Set clear boundaries and expectations in interactions to minimize misunderstandings."
+    ],
+    "claims": [
+      "Disciplined actions lead to sustainable success in personal and professional endeavors.",
+      "Strategic planning can identify and exploit opportunities in dynamic environments."
+    ],
+    "warnings": [
+      "Misjudging others' intentions or capabilities can result in failures or missed opportunities.",
+      "Overconfidence in initial impressions without validation can lead to poor outcomes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0008,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 24,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Persistence in problem-solving can lead to significant discoveries.",
+      "Continuous learning and adaptation are essential for progress."
+    ],
+    "rules": [
+      "Validate hypotheses with empirical evidence before widespread adoption.",
+      "Implement and enforce standardized procedures to ensure reliability."
+    ],
+    "claims": [
+      "Direct interaction can transmit specific causes of disease.",
+      "Systematic inquiry can uncover previously unknown truths."
+    ],
+    "warnings": [
+      "Emotional biases can impede objective decision-making.",
+      "Resistance to change can hinder innovation and collaboration."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0053,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 25,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Social intelligence is foundational to success in professional and scientific fields.",
+      "Building consensus through collaboration enhances credibility and adoption of ideas."
+    ],
+    "rules": [
+      "Delay publication until evidence is robust to mitigate premature opposition.",
+      "Involve stakeholders early to foster buy-in and reduce resistance to new theories.",
+      "Assert authority strategically to maintain influence without direct confrontation."
+    ],
+    "claims": [
+      "Clear communication in publications significantly accelerates the acceptance of innovative ideas.",
+      "Social dynamics can be leveraged to overcome institutional inertia."
+    ],
+    "warnings": [
+      "Direct confrontation with established figures may alienate potential allies.",
+      "Over-reliance on theoretical truth can create barriers to practical adoption."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0079,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 26,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "power",
+      "strategy"
+    ],
+    "principles": [
+      "One's public persona can be shaped to align with desired perceptions.",
+      "Mystery can be strategically employed to enhance impact and authority."
+    ],
+    "rules": [
+      "Adapt communication style to counter stereotypes about gender and profession.",
+      "Maintain consistency between public image and authentic self when necessary."
+    ],
+    "claims": [
+      "Strategic ambiguity in artistic process can generate greater public intrigue.",
+      "Female artists face unique challenges in being taken seriously within male-dominated fields."
+    ],
+    "warnings": [
+      "Over-reliance on a constructed persona may limit authenticity over time.",
+      "Failure to adapt to changing circumstances may perpetuate outdated stereotypes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0024,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 27,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology"
+    ],
+    "principles": [
+      "Self-awareness improves through reflection on past experiences.",
+      "Understanding one's role in negative events reveals personal flaws"
+    ],
+    "rules": [
+      "Analyze past negative events by focusing on your own actions.",
+      "Seek feedback from trusted individuals after demonstrating openness to criticism"
+    ],
+    "claims": [
+      "Self-detachment enables more objective self-perception.",
+      "Social intelligence requires both self-awareness and understanding others"
+    ],
+    "warnings": [
+      "Emotional bias limits objective self-assessment.",
+      "Ignoring negative feedback can reinforce flawed self-image"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0362,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 28,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Adapt to constraints by transforming limitations into opportunities for observation and learning.",
+      "Understand human nature to anticipate reactions and shape outcomes effectively."
+    ],
+    "rules": [
+      "Prioritize the final product by neutralizing obstacles through strategic patience and resourcefulness.",
+      "Manage relationships by addressing individual concerns while maintaining a unified vision."
+    ],
+    "claims": [
+      "The study of language reveals unique structural properties that challenge universal grammar theories.",
+      "Effective adaptation requires selective engagement with one's environment to maximize learning and productivity."
+    ],
+    "warnings": [
+      "Misinterpreting human motivations can derail long-term goals.",
+      "Inadequate preparation for environmental constraints can lead to prolonged frustration and inefficiency."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0057,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 29,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Accept human imperfection and folly as inherent to life to foster composure in interactions.",
+      "Prioritize long-term objectives over short-term gains to achieve sustainable success."
+    ],
+    "rules": [
+      "When dealing with individuals who prioritize immediate benefits, focus on your goals and minimize engagement.",
+      "Keep group sizes small to reduce the likelihood of political maneuvering and ego-driven conflicts."
+    ],
+    "claims": [
+      "Foolish behavior often arises from ego-driven motivations and can be exploited for learning.",
+      "Social intelligence is a key skill that can mitigate interpersonal challenges in various settings."
+    ],
+    "warnings": [
+      "Ignoring trivial criticisms or distractions can prevent the wasteful expenditure of resources on unimportant matters.",
+      "In environments with unchecked political dynamics, sound decision-making may be overshadowed by personal ambitions."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0048,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 30,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Intense focus and passion are foundational to mastering complex skills.",
+      "Adaptability to new environments and challenges accelerates growth and recognition."
+    ],
+    "rules": [
+      "Structured practice and deliberate exposure to diverse audiences cultivate professional reputationⲭ",
+      "Strategic delegation of non-core activities (e.g., logistics) enhances focus on core competencies."
+    ],
+    "claims": [
+      "Early, intensive specialization can yield exceptional proficiency before formal education is complete."
+    ],
+    "warnings": [
+      "Sustained high-pressure performance schedules risk emotional burnout and health deterioration.",
+      "The novelty of prodigious talent may fade, requiring continuous innovation to maintain relevance."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0021,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 31,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "discipline",
+      "psychology"
+    ],
+    "principles": [
+      "Creativity thrives when combining childlike curiosity with focused discipline.",
+      "Maintaining mental flexibility is essential for sustained creative output."
+    ],
+    "rules": [
+      "Practice consistently to develop deep expertise while preserving innovative thinking.",
+      "Question assumptions boldly to unlock new perspectives and solutions."
+    ],
+    "claims": [
+      "Innate creative potential exists in all individuals regardless of age or experience level."
+    ],
+    "warnings": [
+      "Failure to challenge established thinking leads to diminished mental vitality and career stagnation."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0004,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 32,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "discipline",
+      "optionality"
+    ],
+    "principles": [
+      "Continuous learning through experimentation leads to mastery.",
+      "Personalization of technique enables authentic emotional expression."
+    ],
+    "rules": [
+      "Practice relentlessly to achieve technical proficiency.",
+      "Internalize diverse influences to inform originality.",
+      "Seek feedback to refine artistic expression."
+    ],
+    "claims": [
+      "Unconventional chord progressions can achieve musical innovation.",
+      "Emotional depth combined with technical skill creates resonant art."
+    ],
+    "warnings": [
+      "Over-reliance on technical practice may inhibit originality.",
+      "Imitation without personalization risks artistic stagnation.",
+      "Emotional expression in creative work can be challenging to articulate."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0023,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 33,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "power",
+      "technology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 34,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "psychology",
+      "technology"
+    ],
+    "principles": [
+      "Creative work thrives when technical knowledge is combined with intuitive expression.",
+      "Iterative development reveals unexpected connections between ideas and form."
+    ],
+    "rules": [
+      "Begin projects with free-form sketching to capture subconscious inspiration.",
+      "Technical mastery must precede creative breakthroughs in design fields."
+    ],
+    "claims": [
+      "Hand-drawn sketching preserves a designer's authentic creative voice.",
+      "Long-term projects can maintain initial vision despite external pressures."
+    ],
+    "warnings": [
+      "Extended project timelines increase the risk of stakeholder conflicts.",
+      "Over-reliance on technology can limit spontaneous creative breakthroughs."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0028,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 35,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "optionality",
+      "risk"
+    ],
+    "principles": [
+      "Creativity thrives through authentic self-expression and unique vision.",
+      "Innovation requires challenging established norms and conventions."
+    ],
+    "rules": [
+      "Develop a unique language or form by building foundational discipline.",
+      "Constantly innovate to avoid falling into established paradigms.",
+      "Focus intensely on core elements to create expressive power."
+    ],
+    "claims": [
+      "Creative forms eventually decay into established conventions if not continuously renewed."
+    ],
+    "warnings": [
+      "Conforming to existing paradigms stifles innovation and leads to creative stagnation.",
+      "Ignoring internal vision in favor of trends results in derivative work lacking authenticity."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0051,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 36,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "strategy",
+      "technology"
+    ],
+    "principles": [
+      "Thoroughly investigate details to gain insights into overarching concepts.",
+      "Maintain a broad perspective to avoid narrow-mindedness in complex fields."
+    ],
+    "rules": [
+      "Integrate knowledge from diverse disciplines in technical projects.",
+      "Prioritize high-level goals when designing systems to ensure innovation."
+    ],
+    "claims": [
+      "Anatomically accurate designs in robotics can achieve industry benchmarks.",
+      "Neuro-signals can be leveraged to create prosthetic devices that integrate seamlessly with human cognition."
+    ],
+    "warnings": [
+      "Neglecting the larger purpose can lead to a form of technical lock, causing tunnel vision.",
+      "Over-reliance on standard techniques may limit adaptability and innovation in problem-solving."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0031,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 37,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Operational success requires flexibility and adaptability.",
+      "Creativity emerges from repurposing existing elements and embracing contingencies."
+    ],
+    "rules": [
+      "Cultivate multiple small-scale experiments to validate ideas rapidly.",
+      "Maintain close customer relationships to identify emerging opportunities."
+    ],
+    "claims": [
+      "举行 can be accelerated through structured mentorship programs.",
+      "Organic evolution is a fundamental driver of creative outcomes."
+    ],
+    "warnings": [
+      "Rigid thinking stifles innovation and adaptation.",
+      "Over-reliance on initial ideas can limit growth potential."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0043,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 38,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "data",
+      "strategy"
+    ],
+    "principles": [
+      "Approach problems holistically by considering multiple variables and organic evolution (rather than purely mathematical or static systems).",
+      "Leverage interdisciplinary knowledge and diverse perspectives to solve complex challenges."
+    ],
+    "rules": [
+      "Use quantitative data analysis as a starting point but validate findings against broader contextual and qualitative evidence.",
+      "Persist through setbacks and changing circumstances, especially when faced with political or external challenges."
+    ],
+    "claims": [
+      "Complex systems (like ancient languages) often require mixed methodologies to fully understand.",
+      "Direct visual or pattern-based analysis of symbols can uncover foundational relationships in decipherment."
+    ],
+    "warnings": [
+      "Relying solely on frequency analysis or rigid assumptions can lead to incorrect conclusions.",
+      "External factors (political, social, personal) can significantly disrupt long-term projects if not anticipated or mitigated."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.001,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 39,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "legitimacy",
+      "psychology"
+    ],
+    "principles": [
+      "Deep immersion over time leads to intuitive mastery of systems.",
+      "Holistic understanding captures the dynamic elements that rational analysis misses."
+    ],
+    "rules": [
+      "Internalize components to gain an intuitive feel for the whole.",
+      "Engage in prolonged, focused study to develop intuitive capabilities."
+    ],
+    "claims": [
+      "Intuition is a legitimate and valid form of intelligence that accesses deeper truths.",
+      "The dynamic force inherent in systems influences outcomes in ways that can be intuitively perceived."
+    ],
+    "warnings": [
+      "Misinterpreting intuition may lead to its dismissal as mystical or less reliable.",
+      "Failing to recognize and integrate intuitive insights can result in missed opportunities or strategic errors."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0013,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 40,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "optionality",
+      "strategy"
+    ],
+    "principles": [
+      "Understand systems and relationships for better decision-making",
+      "Contextual thinking improves problem-solving"
+    ],
+    "rules": [
+      "Focus intensely on a field to achieve mastery",
+      "Forge your own unconventional path when conventional routes limit growth",
+      "Connect specialized knowledge to broader applications"
+    ],
+    "claims": [
+      "Consciousness connects us to reality",
+      "Mastery is achieved through time and intense focus"
+    ],
+    "warnings": [
+      "Excessive specialization can disconnect from reality",
+      "Conventional paths may dampen personal growth"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0005,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 41,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Adapting to internal forces enables personal transformation and balance"
+    ],
+    "rules": [
+      "Manage inner turmoil through disciplined action"
+    ],
+    "claims": [
+      "Humans possess an inner life force that can be cultivated"
+    ],
+    "warnings": [
+      "Uncontrolled emotional swings can lead to existential despair"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.001,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 42,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Understanding complexity requires deep immersion and patience.",
+      "Effective communication emerges from mastering intricate systems.",
+      "Problem-solving involves iterative learning and adaptation.",
+      "Perception shapes reality, and challenging conventional views can reveal new insights."
+    ],
+    "rules": [
+      "Master complex systems through persistent study and application.",
+      "Design solutions by anticipating potential failures and mitigating them.",
+      "Validate approaches through testing in real-world scenarios.",
+      "Seek diverse perspectives to challenge assumptions and broaden understanding."
+    ],
+    "claims": [
+      "Deep immersion in a domain enables breakthrough understanding.",
+      "Systematic problem-solving can transform complex challenges into manageable solutions.",
+      "Cognitive biases significantly impact decision-making quality."
+    ],
+    "warnings": [
+      "Rushing understanding or execution without thorough preparation leads to flawed outcomes.",
+      "Untested solutions may fail when applied to real-world contexts.",
+      "Over-reliance on conventional perspectives limits innovative breakthroughs."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0169,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 43,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "optionality",
+      "strategy"
+    ],
+    "principles": [
+      "Redirecting specialized knowledge can lead to significant innovation.",
+      "Understanding human biomechanics and neural control can be enhanced through robotics and virtual environments."
+    ],
+    "rules": [
+      "Strategic career advancement requires leveraging foundational expertise to transition into new domains.",
+      "Developing a unique field requires interdisciplinary integration and persistent innovation."
+    ],
+    "claims": [
+      "Neurobotics is a viable and impactful field that combines neuroscience and robotics.",
+      "Specialized knowledge in psychology can lead to influential public recognition."
+    ],
+    "warnings": [
+      "Inadequate preparation in foundational fields can limit cross-disciplinary success.",
+      "Overcomplication without clear direction can obscure systemic issues."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.019,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 44,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "discipline",
+      "risk"
+    ],
+    "principles": [
+      "Consistent, rigorous training builds expertise and resilience.",
+      "Understanding an opponent's tendencies is crucial for success in high-stakes scenarios."
+    ],
+    "rules": [
+      "Assess risks before engaging in high-pressure operations.",
+      "Thorough preparation and understanding of constraints are prerequisites for effective decision-making."
+    ],
+    "claims": [
+      "Mastery of a domain requires significant accumulated practice and experience.",
+      "Effective leadership in operational contexts necessitates understanding both individual capabilities and systemic constraints."
+    ],
+    "warnings": [
+      "Overconfidence can lead to operational failure when risks are underestimated.",
+      "Long-term operational sustainability requires proactive management of inherent constraints and limitations."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0181,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 45,
+    "chapter_title": null,
+    "domains": [
+      "learning",
+      "process",
+      "psychology"
+    ],
+    "principles": [
+      "Collaboration with diverse mentors accelerates growth",
+      "Open-mindedness is essential for mastery"
+    ],
+    "rules": [
+      "Conduct interviews in person without time constraints",
+      "Secure candid responses by offering flexible conditions"
+    ],
+    "claims": [
+      "Mastery requires openness to diverse perspectives",
+      "Structured mentorship yields measurable professional growth"
+    ],
+    "warnings": [
+      "Rigorous preparation is necessary to secure candid responses",
+      "Over-reliance on assistants may limit direct learning"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0085,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 46,
+    "chapter_title": null,
+    "domains": [
+      "Claims",
+      "Principles",
+      "Rules",
+      "Warnings"
+    ],
+    "principles": [
+      "Understanding fundamentals is essential for mastery.",
+      "Evolution of thought requires openness to new paradigms.",
+      "Innovation arises from interdisciplinary exploration.",
+      "Adaptation to foundational concepts enables resilience.",
+      "Expertise develops through deliberate practice and experience."
+    ],
+    "rules": [
+      "Persistence in the face of challenges leads to breakthroughs.",
+      "Decision-making relies on clear cognitive frameworks.",
+      "Cultivating intuition enhances problem-solving abilities.",
+      "Structured practice is necessary for skill acquisition.",
+      "Exploring diverse perspectives fosters creativity."
+    ],
+    "claims": [
+      "Human cognition transcends mechanical processes.",
+      "Consciousness emerges from complex brain dynamics.",
+      "Intelligence manifests in multiple measurable forms.",
+      "Genius is a combination of convergent and divergent thinking.",
+      "Reality is shaped by evolving scientific paradigms."
+    ],
+    "warnings": [
+      "Over-reliance on established methods can limit innovation.",
+      "Neglecting foundational knowledge leads to fragmented understanding.",
+      "Unclear cognitive processes can result in flawed decision-making.",
+      "Inadequate practice produces superficial expertise.",
+      "Ignoring evolutionary patterns hinders adaptability."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0203,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 47,
+    "chapter_title": null,
+    "domains": [
+      "{'domain': 'Creativity & Innovation', 'operational_content': ['Cultivate childhood spirit and openness to foster creativity.', 'Use analogies and models to generate new ideas.', 'Subvert established shorthands to spark innovation.']}",
+      "{'domain': 'Learning & Development', 'operational_content': ['Focus on strengths to achieve mastery (Einstein example).', 'Embrace constructive criticism to refine skills (Edison example).', 'Seek mentorship and democratize knowledge (Davy example).']}",
+      "{'domain': 'Problem Solving', 'operational_content': ['Identify and leverage core strengths (Einstein example).', 'Apply dimensional thinking to complex challenges.', 'Embrace doubt and criticism as catalysts for breakthroughs.']}"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 48,
+    "chapter_title": null,
+    "domains": [
+      "Creative Process",
+      "Mastery",
+      "Personal Development"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 49,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "risk",
+      "timing"
+    ],
+    "principles": [
+      "Authenticity is an expression of self that leads to true voice and resonance.",
+      "Mastery is achieved through persistent practice, internalization, and application.",
+      "Opportunities compound over time through consistent learning and engagement."
+    ],
+    "rules": [
+      "Self-criticism can be harnessed as a motivational tool for growth.",
+      "Effective observation and self-observation are foundational to understanding oneself.",
+      "Cultivate serendipity by intentionally creating conditions for chance discoveries."
+    ],
+    "claims": [
+      "Deliberate practice in a focused mode leads to skill acquisition.",
+      "Serendipity plays a significant role in both artistic creation and scientific discovery.",
+      "Social intelligence is cultivated through understanding and adapting to human nature."
+    ],
+    "warnings": [
+      "Self-obsessiveness can become a barrier to authentic expression and growth.",
+      "Poor strategies in social intelligence can lead to ineffective communication and misunderstandings."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0317,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 50,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "constraints",
+      "risk"
+    ],
+    "principles": [
+      "Embracing challenges can lead to mastery and growth.",
+      "Learning through adversity builds resilience and capability."
+    ],
+    "rules": [
+      "Avoid over-reliance on technology as a shortcut for creative thinking.",
+      "Mastery requires understanding both parts and the whole of a system."
+    ],
+    "claims": [
+      "Mastery is achieved through understanding and leveraging one's strengths.",
+      "Technology can be an effective tool when applied appropriately."
+    ],
+    "warnings": [
+      "Relying solely on technology may hinder creative problem-solving.",
+      "Superiority can be an impediment to progress if not managed carefully."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0571,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 51,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "strategy",
+      "timing"
+    ],
+    "principles": [
+      "Creative thinking enhances problem-solving capabilities.",
+      "Time is essential for iterative skill development."
+    ],
+    "rules": [
+      "Practice consistently to achieve mastery in any domain.",
+      "Use visualization techniques to overcome mental barriers in creative tasks."
+    ],
+    "claims": [
+      "Trial and error is a fundamental method for learning and innovation.",
+      "Trust in the learning process improves outcomes and facilitates growth."
+    ],
+    "warnings": [
+      "Lack of patience can hinder progress in skill acquisition.",
+      "Insufficient discipline may prevent transformation and mastery."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0214,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  }
+]

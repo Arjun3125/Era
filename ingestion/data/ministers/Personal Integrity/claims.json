@@ -1,0 +1,25 @@
+{
+  "domain": "Personal Integrity",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "cbcf53f7-946f-49b0-b8b9-66d3f93fbc27",
+      "text": "Education is essential for maintaining respectability in society",
+      "source": {
+        "book": "Crime",
+        "chapter": 4
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 1,
+    "last_updated": "2026-02-13T05:32:31.565694Z",
+    "aggregated_from": [
+      {
+        "book": "Crime",
+        "chapter": 4
+      }
+    ]
+  }
+}

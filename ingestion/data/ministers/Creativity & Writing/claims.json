@@ -1,0 +1,43 @@
+{
+  "domain": "Creativity & Writing",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "53103eb0-4bb5-40b1-97be-c42880549363",
+      "text": "Talent hinders progress on the spiritual path.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e6245771-66ec-4a90-a7ab-389ad4356398",
+      "text": "True success requires a balance between resignation and ecstasy.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dbe17bac-e9ef-4d8b-b882-826a609c8bb5",
+      "text": "Life is inherently flawed as a deviation from pure Being.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 11
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-12T13:18:44.063998Z",
+    "aggregated_from": [
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 11
+      }
+    ]
+  }
+}

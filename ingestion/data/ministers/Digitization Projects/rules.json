@@ -1,0 +1,52 @@
+{
+  "domain": "Digitization Projects",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "af64a8a5-3fea-4136-9233-ed7a115273fb",
+      "text": "Usage must remain non-commercial.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c5486feb-adf0-4308-823a-54d3ab97cf95",
+      "text": "Automated querying is restricted.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a5829077-950a-41dd-90c2-26e415eea974",
+      "text": "Maintain attribution and credit to the source.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "259d80fa-dda5-4943-a054-688513ab1edd",
+      "text": "Ensure compliance with local copyright laws.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 4,
+    "last_updated": "2026-02-13T12:26:32.092686Z",
+    "aggregated_from": [
+      {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      }
+    ]
+  }
+}

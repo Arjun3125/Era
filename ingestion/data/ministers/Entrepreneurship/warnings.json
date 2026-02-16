@@ -1,0 +1,34 @@
+{
+  "domain": "Entrepreneurship",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "0c04a23b-c434-4dda-860d-7670c94649a3",
+      "text": "Ignoring inner battles can prevent clarity and hinder progress.",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a111a951-062e-4c8d-aba0-f4ec595c967a",
+      "text": "Health setbacks can significantly impact momentum and overall well-being.",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 2
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T11:15:28.336586Z",
+    "aggregated_from": [
+      {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,2919 @@
+[
+  {
+    "chapter_index": 1,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "data",
+      "registry"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 2,
+    "chapter_title": null,
+    "domains": [
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 3,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power.",
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.754,
+          "book": "builtin:optionality_guide"
+        },
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.754,
+          0.558,
+          0.555
+        ],
+        "avg_kis": 0.622
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 4,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power.",
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.754,
+          "book": "builtin:optionality_guide"
+        },
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.754,
+          0.558,
+          0.555
+        ],
+        "avg_kis": 0.622
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 5,
+    "chapter_title": null,
+    "domains": [
+      "Finance",
+      "Investing",
+      "Personal Growth"
+    ],
+    "principles": [
+      "Consistent saving is foundational to wealth creation.",
+      "Investing requires understanding and preparation before opportunity arises."
+    ],
+    "rules": [
+      "Always allocate a portion of income to savings before spending.",
+      "Avoid speculative investments that do not generate reliable returns."
+    ],
+    "claims": [
+      "Compound growth through disciplined saving and investing leads to financial freedom."
+    ],
+    "warnings": [
+      "Unallocated savings can lead to missed opportunities.",
+      "Misguided investments can result in financial loss or stagnation."
+    ],
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0286,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 6,
+    "chapter_title": null,
+    "domains": [
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 7,
+    "chapter_title": null,
+    "domains": [
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 8,
+    "chapter_title": null,
+    "domains": [
+      "strategy",
+      "timing",
+      "truth"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 9,
+    "chapter_title": null,
+    "domains": [
+      "discipline"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 10,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "risk",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 11,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "psychology",
+      "risk"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 12,
+    "chapter_title": null,
+    "domains": [
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 13,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "discipline",
+      "power"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 14,
+    "chapter_title": null,
+    "domains": [
+      "Finance",
+      "Investment",
+      "Personal Development"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 15,
+    "chapter_title": null,
+    "domains": [
+      "conflict"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 16,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 17,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 18,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "power",
+      "psychology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 19,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "power",
+      "psychology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 20,
+    "chapter_title": null,
+    "domains": [
+      "strategy",
+      "timing",
+      "truth"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 21,
+    "chapter_title": null,
+    "domains": [
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 22,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Unconventional solutions can address persistent problems."
+    ],
+    "rules": [
+      "Test any new method in a practical setting before full commitment."
+    ],
+    "claims": [
+      "A specific method can simultaneously repay debts and generate wealth."
+    ],
+    "warnings": [
+      "Historical solutions may not reliably apply to modern contexts."
+    ],
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.011,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 23,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power.",
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.754,
+          "book": "builtin:optionality_guide"
+        },
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.754,
+          0.558,
+          0.555
+        ],
+        "avg_kis": 0.622
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 24,
+    "chapter_title": null,
+    "domains": [
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 25,
+    "chapter_title": null,
+    "domains": [
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 26,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power.",
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.754,
+          "book": "builtin:optionality_guide"
+        },
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.754,
+          0.558,
+          0.555
+        ],
+        "avg_kis": 0.622
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 27,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 28,
+    "chapter_title": null,
+    "domains": [
+      "Business Acumen",
+      "Financial Planning",
+      "Personal Finance"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 29,
+    "chapter_title": null,
+    "domains": [
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 30,
+    "chapter_title": null,
+    "domains": [
+      "Environmental Sustainability",
+      "Infrastructure Development",
+      "Urban Planning"
+    ],
+    "principles": [
+      "Effective resource management systems are essential for sustainable development.",
+      "Long-term planning and governance contribute to the endurance of urban centers."
+    ],
+    "rules": [
+      "Invest in sustainable infrastructure to support agricultural productivity.",
+      "Balance expansion with defensive capabilities to maintain stability."
+    ],
+    "claims": [
+      "Historical engineering feats demonstrate the impact of innovative irrigation on societal prosperity."
+    ],
+    "warnings": [
+      "Environmental neglect leads to irreversible decline, as seen in the desertification of ancient cities.",
+      "Governance failures in resource management can result in societal collapse."
+    ],
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0162,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 31,
+    "chapter_title": null,
+    "domains": [
+      "registry",
+      "timing",
+      "truth"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 32,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "discipline",
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "kis_guidance": [
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration.",
+      "Plan alternatives before committing. Keep multiple paths open to maintain negotiating power."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        },
+        {
+          "aku_id": "builtin-2",
+          "domain": "optionality_guide",
+          "type": "advice",
+          "source": {
+            "book": "builtin:optionality_guide"
+          },
+          "kis": 0.534,
+          "book": "builtin:optionality_guide"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.558,
+          0.555,
+          0.534
+        ],
+        "avg_kis": 0.549
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "decision_theory",
+          "optionality_guide",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 33,
+    "chapter_title": null,
+    "domains": [
+      "Home Ownership",
+      "Personal Finance"
+    ],
+    "principles": [
+      "Use creativity and common sense in financial planning"
+    ],
+    "rules": [
+      "Follow a step-by-step procedure for achieving financial goals"
+    ],
+    "claims": [
+      "Creativity and common sense enable home ownership"
+    ],
+    "warnings": [
+      "Failure to follow the procedure may result in inability to purchase a home"
+    ],
+    "kis_guidance": [
+      "Quitting without financial buffer leaves you vulnerable. Ensure 6-12 months expenses saved before major career transitions.",
+      "Prioritize emergency savings. Build 3-month liquid reserves before investing in growth opportunities.",
+      "Irreversible decisions warrant extra scrutiny. Reversible decisions can be optimized through iteration."
+    ],
+    "kis_context": {
+      "knowledge_trace": [
+        {
+          "aku_id": "builtin-1",
+          "domain": "career_risk",
+          "type": "warning",
+          "source": {
+            "book": "builtin:risk_guide"
+          },
+          "kis": 0.661,
+          "book": "builtin:risk_guide"
+        },
+        {
+          "aku_id": "builtin-4",
+          "domain": "personal_finance",
+          "type": "rule",
+          "source": {
+            "book": "builtin:finance_guide"
+          },
+          "kis": 0.558,
+          "book": "builtin:finance_guide"
+        },
+        {
+          "aku_id": "builtin-5",
+          "domain": "decision_theory",
+          "type": "principle",
+          "source": {
+            "book": "builtin:decision_theory"
+          },
+          "kis": 0.555,
+          "book": "builtin:decision_theory"
+        }
+      ],
+      "quality": {
+        "num_selected": 3,
+        "top_kis_scores": [
+          0.661,
+          0.558,
+          0.555
+        ],
+        "avg_kis": 0.591
+      },
+      "debug": {
+        "total_entries_scanned": 7,
+        "num_books_scanned": 7,
+        "books_scanned": [
+          "career_risk",
+          "decision_theory",
+          "intel_and_comm",
+          "optionality_guide",
+          "personal_finance",
+          "power_technology",
+          "psychology_of_work"
+        ],
+        "selected_books": [
+          "career_risk",
+          "decision_theory",
+          "personal_finance"
+        ]
+      }
+    },
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0169,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  }
+]

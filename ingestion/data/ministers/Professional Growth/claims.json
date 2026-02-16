@@ -1,0 +1,34 @@
+{
+  "domain": "Professional Growth",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "536aa7de-9877-4925-bb47-6ac0ad3af58b",
+      "text": "Pursuing passion without a defined mission leads to dissatisfaction",
+      "source": {
+        "book": "Summary-of-SGTCIY-pdf",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "16d33b9e-f4d9-4533-9f44-8490c4ad1fa3",
+      "text": "Remarkable work naturally attracts attention and support",
+      "source": {
+        "book": "Summary-of-SGTCIY-pdf",
+        "chapter": 4
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T06:23:37.628992Z",
+    "aggregated_from": [
+      {
+        "book": "Summary-of-SGTCIY-pdf",
+        "chapter": 4
+      }
+    ]
+  }
+}

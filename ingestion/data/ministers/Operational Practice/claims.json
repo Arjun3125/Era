@@ -1,0 +1,34 @@
+{
+  "domain": "Operational Practice",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "4e4ea644-4d37-4120-9420-2fdf85a17dfa",
+      "text": "The unconscious psyche contains a vast wealth of content and living forms.",
+      "source": {
+        "book": "modern-man-in-search-of-a-soul-stages-of-life-1",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "97a67028-4147-4d19-9a0c-db64aec5406a",
+      "text": "Dreams can express a wide range of human experiences, including truths, memories, and irrational processes.",
+      "source": {
+        "book": "modern-man-in-search-of-a-soul-stages-of-life-1",
+        "chapter": 5
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T15:10:58.370562Z",
+    "aggregated_from": [
+      {
+        "book": "modern-man-in-search-of-a-soul-stages-of-life-1",
+        "chapter": 5
+      }
+    ]
+  }
+}

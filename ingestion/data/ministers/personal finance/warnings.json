@@ -1,0 +1,113 @@
+{
+  "domain": "personal finance",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "9c67ad9f-8fff-4f58-954e-5096eccbc808",
+      "text": "Lack of financial planning can lead to asset loss or insecurity",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b4164007-fb59-4687-8501-8363882c4001",
+      "text": "Insider trading and excessive risk-taking can lead to severe consequences, including loss of career and reputation.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8cc50aea-d246-4c0b-b676-7c5c1b01a7ce",
+      "text": "Lack of a clear understanding of 'enough' can lead to unnecessary risks and potential financial ruin.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bec6248f-f393-491a-a29e-1dfa5d04c366",
+      "text": "Even in favorable market conditions, excessive risk-taking can result in significant losses.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "010e91cb-d121-481e-8d2d-b974dd8a899a",
+      "text": "Excessive spending without saving leads to financial disaster",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8814eafe-6f21-444f-ae6d-3ca37fa5ef07",
+      "text": "High debt levels during economic crises can result in bankruptcy",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e44320ce-0373-4d44-a727-5998e2fd0b33",
+      "text": "Avoid investments that carry the risk of loss or lack consistent returns.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3a125cff-eba1-4610-bff2-9fa5d69297de",
+      "text": "Failure to understand compound interest may hinder long-term financial growth.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "547c3443-24e2-448f-814d-83a628ca8c63",
+      "text": "Failure to follow the procedure may result in inability to purchase a home",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 33
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 9,
+    "last_updated": "2026-02-14T19:55:36.981890Z",
+    "aggregated_from": [
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      {
+        "book": "The_Psychology_of_Money",
+        "chapter": 13
+      },
+      {
+        "book": "The_Psychology_of_Money",
+        "chapter": 5
+      },
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 5
+      },
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 33
+      }
+    ]
+  }
+}

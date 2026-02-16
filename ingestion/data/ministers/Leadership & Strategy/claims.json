@@ -1,0 +1,34 @@
+{
+  "domain": "Leadership & Strategy",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "3624754e-5040-431a-b8f0-d88b03cdeb0f",
+      "text": "Complexity can mask underlying simplicity.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 39
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a467f30d-7884-4693-a951-705805bd001b",
+      "text": "Institutions often obscure their limitations with technical jargon and false ceilings.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 39
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T10:52:38.527727Z",
+    "aggregated_from": [
+      {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 39
+      }
+    ]
+  }
+}

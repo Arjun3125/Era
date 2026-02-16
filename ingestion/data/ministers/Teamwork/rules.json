@@ -1,0 +1,34 @@
+{
+  "domain": "Teamwork",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "6906b639-9f03-4e77-92cb-3423d791327b",
+      "text": "Team members must feel psychologically safe to raise concerns or speak up.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 71
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "51190223-f8f3-4d08-894c-ccafe489239e",
+      "text": "Leaders should actively seek diverse perspectives to enhance psychological safety.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 71
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T20:50:12.405212Z",
+    "aggregated_from": [
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 71
+      }
+    ]
+  }
+}

@@ -1,0 +1,6082 @@
+{
+  "domain": "conflict",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "28664782-5cf2-4393-a843-f74f02c40d47",
+      "text": "Deep focus improves professional output quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b54abef5-1eaf-4383-80ce-0da4a74bfc30",
+      "text": "Attention fragmentation reduces cognitive performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a7a5fc70-82b7-4da0-b124-c6722dc79209",
+      "text": "Digital tools can enhance or detract from focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "10f17a93-9de9-4d2b-b567-6353840976fb",
+      "text": "Network tools can fundamentally alter work patterns.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bf9c2a3d-4dba-4fce-9948-161d61bc97de",
+      "text": "Individuals can gain competitive advantage by mastering deep work skills.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ca077ebf-a755-4459-be86-f46a285c0e56",
+      "text": "The ability to focus is a critical differentiator in knowledge work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6d52ba5b-9a2c-48aa-9a7c-7cd98b3a57b0",
+      "text": "Deep work represents a transferable skill with enduring economic value across professions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1f0bbf24-3241-415c-bb0c-0590939d4ca8",
+      "text": "Attention fragmentation creates cognitive conflict between task relevance and environmental stimuli.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "38bab35f-8449-4dff-b126-b60e9e3f80cd",
+      "text": "Knowledge work environments inherently constrain attention due to connectivity demands.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3b60f246-5955-41d5-96c9-5881aa2dc309",
+      "text": "Deep work execution fundamentally alters neurological perception of task significance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "066ffd6c-bb2d-4c5f-aa72-c182545d5b3d",
+      "text": "The human tendency to succumb to distractions is inherent and frequent.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5bb2b286-1d4a-418a-971a-c459808f6892",
+      "text": "Deep work is essential for achieving high-value output.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1d440600-50e6-4375-908f-3d3ab1655597",
+      "text": "Distractions are a primary barrier to deep work and require systematic management.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "72acd275-8ee2-4220-8af0-8917cb06587f",
+      "text": "Deep work enhances cognitive capabilities",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f27b5867-6035-41d4-b8ea-f60a32802d5d",
+      "text": "Strategic focus improves professional outcomes",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ae0cc990-5a10-493a-a278-6dec6603e1f4",
+      "text": "Concentrated effort produces valuable results",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9e171d24-d01b-4dc5-9f15-6c366a87e41d",
+      "text": "Digital tools inherently fragment attention, reducing the quality of complex tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d6661efd-6e08-485a-a0b4-f1b643e3153e",
+      "text": "The shift toward shallow work creates a competitive disadvantage for individuals.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c06396ab-1a09-435d-a56c-08c193279d9e",
+      "text": "Network tools redistribute power in knowledge work by enabling automation of routine tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "45a9a24d-165f-49e6-9f56-e71c2438f559",
+      "text": "Deep work capacity is a finite resource that degrades with prolonged shallow work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "53ee2f4e-d3c4-4a79-9836-febc03a6d821",
+      "text": "Automation enables knowledge workers to perform more strategic value-creation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a61be831-2ebb-40fe-95ef-d197ab381a0d",
+      "text": "Deep work is essential for innovation and competitive advantage.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5bc02895-d7ff-456b-8269-f873b27c1f48",
+      "text": "The ability to focus deeply is becoming increasingly rare and valuable.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "095cf486-25f2-458a-b34c-318341bd3442",
+      "text": "Deep work produces more value than shallow activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "df242601-4a9c-4eac-8502-b86f29eaaa29",
+      "text": "Digital technology creates a competitive advantage for those who adapt.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0b6f0c72-8079-4140-ab08-a27a01e05bd7",
+      "text": "Automation increases value for specialized human-machine integration.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e1228d66-fa57-497c-a6f3-755ba5607550",
+      "text": "Digital infrastructure enables global access to talent markets.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f17e97bf-a694-47e2-8300-63a9babe0dc2",
+      "text": "Venture capital can generate disproportionate returns from minimal labor input.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "de41c0ff-1a59-4947-8562-909945a4f515",
+      "text": "Deep work is foundational for mastering complex skills.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dd33dd3f-5fc4-433e-a81a-afd492b51553",
+      "text": "Integrating scientific learning methods improves performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4540573c-0ac0-4237-86dd-3ce3b9e1de04",
+      "text": "Psychological factors determine success in skill development.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "69f04c32-a855-48c9-9fa4-a6e4b1b18eb6",
+      "text": "Deliberate practice fundamentally changes neural pathways",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "da581bae-ce81-48aa-9129-8f45b2960142",
+      "text": "Attentional control determines performance outcomes",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3df80071-0ba7-4ad4-a6a3-3e60c38f394a",
+      "text": "Mastery requires systematic repetition",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5367466a-f03a-4391-b633-573e2f5f18d4",
+      "text": "High-quality work is directly proportional to the intensity of focus applied.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "43445127-2a96-4afb-a733-e0abd0dec284",
+      "text": "Attention residue significantly degrades performance on subsequent tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e66768bb-0ce0-41a7-8ef5-ef8b30073264",
+      "text": "Deep work is essential for achieving peak professional performance levels.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "486e9f80-1f91-470b-979f-064d4d5d12fc",
+      "text": "Highly constrained roles may not require deep work, but opportunities for depth exist in most positions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "36e7b4f1-c08e-421a-8850-ebcd2f67b39d",
+      "text": "Automation can replace certain decision-making tasks, making deep work more critical for human oversight.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d6928ebf-f5e8-474b-a017-d58671b6f24a",
+      "text": "Deep work is undervalued in business environments despite its economic benefits.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "72a854bc-ceb4-41b0-8be7-f971daeef2f2",
+      "text": "Distractions fragment attention and reduce productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "41662d54-af9a-4034-a519-c697f83920e9",
+      "text": "Operational focus can be obscured by measurement limitations.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e3d4bd7f-1870-4b0f-93f5-4da11731c296",
+      "text": "Ease of execution often outweighs depth in organizational behavior.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "362ce1db-8d24-48a9-ac69-720e8c549dfe",
+      "text": "Busyness correlates with productivity under certain conditions",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1a8df539-8bf2-4b6a-ac21-ed82db3ecd6a",
+      "text": "Effective productivity measurement requires contextual understanding",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7bcb1edd-c6ff-483a-9bf3-b1aae641fca6",
+      "text": "Anachronistic metrics can misrepresent modern work value",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f85a8817-b909-41c0-b3b8-71407742fe60",
+      "text": "Deep work enhances value production while shallow work distracts",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "aceae983-05d4-42d8-8134-b5a99169f6d6",
+      "text": "Technology can become an ideology that overshadows other considerations",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "636fd96d-415f-460a-b365-786494dd2225",
+      "text": "Depth-focused activities generate sustainable psychological satisfaction",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "72ff2404-6e78-4e5f-b3f0-da547d135683",
+      "text": "Concentrated effort reduces vulnerability to information overload risks",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "04298239-397d-4867-8e7d-3aaf89880884",
+      "text": "Directed attention can reconfigure neural processing.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b8f718cb-65c1-46a8-875e-01577edae7dd",
+      "text": "Attentional discipline creates sustainable operational advantage.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "72b7aaeb-e343-4f6e-8a63-f13c33bbb772",
+      "text": "Operational satisfaction correlates with attentional focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "da296201-ad7f-466c-a6ee-663df5bfaf7d",
+      "text": "Flow states significantly contribute to life satisfaction and happiness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d46cedc8-e402-449f-85d5-555f89ed07c2",
+      "text": "Real-time data collection provides accurate insights into psychological experiences.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3d25888e-051d-4de2-b870-e0f89fa55873",
+      "text": "Proactive job redesign can enhance flow and meaning in work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a68ec8ed-953e-4a91-8696-e9435684d052",
+      "text": "Meaning in work arises from skillful execution, not job specifics.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4a8a94c3-9244-4367-8539-66c6e65e831f",
+      "text": "Deep work connects modern cognitive tasks to traditional craftsmanship.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "34bdb70e-3f46-43bf-bb27-1f90c7853816",
+      "text": "Cognitive evolution favors depth, making shallow work obsolete.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9ec6ba21-edeb-44cc-91fd-859623fa50b9",
+      "text": "Consistent deep work improves focus and productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6ccded16-1cd2-4630-8a6b-56405409f036",
+      "text": "Strategic breaks enhance cognitive performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ed4c5548-8555-40c8-babc-aa732fd0037e",
+      "text": "Willpower can be trained to sustain focus longer.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6c39a983-07c6-48be-82a9-1e7f6e4f82d9",
+      "text": "Deep work strategies can be tailored to different professional contexts.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "02c03608-fb31-4bb8-b8e8-0c16dc765859",
+      "text": "Adapting to a chosen philosophy increases the likelihood of long-term success.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "69cd1e46-0071-468f-a8ea-7ab4c89c7858",
+      "text": "Deep work scheduling can produce extreme productivity and memorable career outcomes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "37c0b623-a135-458c-888f-ef4dddfb71f1",
+      "text": "Deep work is essential for breakthroughs and significant professional impact.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "41d0c70c-8815-475a-909a-c84ee2bee8ee",
+      "text": "Increased annual deep work hours through consistent scheduling",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3f7ae2ae-5b9f-473f-9c7c-73ede05f3759",
+      "text": "Productivity gains from regular habit implementation",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "677c616a-9233-4d7b-9ede-22a07e9e3628",
+      "text": "Deep work can be integrated into a busy schedule",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5cfb79fa-69e1-417c-92a1-a377747eb21b",
+      "text": "Rituals reduce the cognitive load of starting deep work",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "29a84e9c-b7d3-4431-8c9a-4fa5d8ee65e6",
+      "text": "Confidence in the work's importance enhances persistence",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "66a3b3c8-3c3f-4078-b8f8-f569dff6a741",
+      "text": "Strategic constraints can significantly improve focus and work quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "62980395-12f0-4fb4-9772-18488adda497",
+      "text": "Elevated task importance reduces procrastination and boosts motivation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dea9aa23-c808-4a61-9d52-f5e8da010e0b",
+      "text": "Time-bound commitments enhance focus and accelerate task completion.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "056da534-ba46-41f0-bee4-0bdb81b0e7e7",
+      "text": "Certain architectural designs enhance creative breakthroughs through controlled interaction",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f09b3602-5aba-42d3-a1d6-38d87c86a7f4",
+      "text": "Hub-and-spoke architecture optimizes both innovation and deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fa44e8b9-93e9-4fd5-8462-63840c4abed4",
+      "text": "Collaborative deep work produces better results than solo deep work for certain problems.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "667b5482-373c-4253-9148-33c67375abd4",
+      "text": "Focusing on essential goals enables sustained high performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d972e641-a4fa-472d-92fe-8ea47a41d22d",
+      "text": "Direct measurement of controllable actions improves execution.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7a9c3215-0c00-4675-a3d4-c04c010fa418",
+      "text": "Consistent review mechanisms enhance long-term adherence to objectives.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2edd0a0f-e26e-4ded-bda8-9ddb758c0a35",
+      "text": "Structured execution can significantly improve goal achievement.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d994aa7a-afc8-4ff7-ba55-30f0ff551696",
+      "text": "Integrating downtime enhances decision-making capabilities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "af3d062d-805b-43ec-adc3-04c3b0e3f23f",
+      "text": "Prioritizing deep work leads to superior output quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6a04a7ed-c44b-47db-a046-55a61f0786f1",
+      "text": "Scheduled downtime enhances sustained attention and performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "26e431a5-0aa2-40cc-ad51-4a062e09d9cf",
+      "text": "Evening work reduces the potential for deep cognitive engagement.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fd1bcb2c-e816-4516-ba4b-df6a0f6fd389",
+      "text": "Regular task resolution reduces persistent cognitive load from unfinished obligations.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "76529201-e8df-4ad8-b176-fb5a218f3027",
+      "text": "Structured planning mitigates attentional drag from incomplete tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a19e1110-c4d9-4485-acf9-524bd9ef9bbe",
+      "text": "Consistent discipline improves focus and deep work capacity over time.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "645578ca-50d1-41cf-81c4-7ee005d13656",
+      "text": "Digital habits rewire the brain",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1fe00d93-5bc1-444b-8961-2727b910506c",
+      "text": "Scheduled breaks improve focus",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "331754cc-0be5-4e4b-89c8-535eb0e81e66",
+      "text": "Scheduled attention breaks effectively train the mind to resist distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cc07571e-80b0-43a3-9707-af1175b92b7a",
+      "text": "Consistent practice of scheduled focus periods builds cognitive control.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "030bb30c-fe54-40b7-a4da-be68ded68ad9",
+      "text": "Strategic time management can achieve greater output quality within standard work hours.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0fb53e46-2692-428a-bb46-a082c370b266",
+      "text": "Focused work performance can be systematically improved through interval training of attention.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2bedb4ed-74b4-442a-9a03-b4b47c0362f2",
+      "text": "Routine activities can be leveraged for creative problem-solving when attention is deliberately directed.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8e337489-f359-4cc1-a1db-7c8b98655174",
+      "text": "Attentional control is a foundational cognitive ability for deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "22b53efd-e7c0-488d-ac50-c5b850e7223e",
+      "text": "Memory training techniques enhance general concentration abilities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ac0292f0-276f-4339-9e2f-3ae7fb5f501b",
+      "text": "Cognitive enhancement is achievable through disciplined practice.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f25190dc-9b3b-4974-a6f1-0eda0fa23c89",
+      "text": "Digital detox improves focus duration and quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dd8b84d1-fa3a-400b-819f-cbb3bb1a8a3d",
+      "text": "Operational efficiency correlates with attention management.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "11082157-6521-4bd5-87c6-97c7f7da04a0",
+      "text": "Tools are neutral instruments that require careful evaluation before integration.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "af379f58-d46d-490d-b99d-d8287989e4e8",
+      "text": "The 'any-benefit' approach to tool selection leads to diminished performance and well-being.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8ceb51ea-4df1-4e6b-9be8-685d5095efa2",
+      "text": "Tool value depends on context-specific trade-offs.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "75628f10-d55f-4758-8d5c-89131e11ce14",
+      "text": "Direct benefits must outweigh indirect costs for tool adoption.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "48b4565b-cdd2-428a-b901-a30190f9af8e",
+      "text": "Tool selection should align with core activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "03cdee19-9f45-493c-8a7a-061a98806670",
+      "text": "Impact assessments should guide tool adoption decisions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a2d2dbe1-0029-40d7-81e2-b369d824cd32",
+      "text": "Effective prioritization enhances overall effectiveness and reduces inefficiency.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fb1e40dc-1fe9-424c-930d-d11a3e765d08",
+      "text": "Time invested in high-impact activities generates greater returns than in low-impact ones.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5ad6fde5-2c06-4200-bcdf-9303b53f476d",
+      "text": "The 80/20 rule provides a heuristic for optimizing resource allocation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d5133cae-7447-4810-94f4-434d229e625b",
+      "text": "Digital minimalism improves cognitive focus",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b69f5d91-dddb-4c91-8e22-3207ba1fb73e",
+      "text": "Social validation overestimates personal importance",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3609f057-fd3a-42e5-958c-3056a5c6f6be",
+      "text": "Operational awareness reduces susceptibility to digital distraction",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1ecf794c-edf8-4656-8229-fb8916a830ec",
+      "text": "Deliberate structuring of free time improves personal growth.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e43ef91f-0482-4cf4-ad4d-5a787446b889",
+      "text": "Digital tools designed for entertainment capture attention effectively.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b03fe022-d938-4b16-95c8-4d1659107a59",
+      "text": "Optimizing time allocation through strategic reduction of shallow work enhances overall output.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0c4f6458-3396-4373-ab51-a5e1a0fc749d",
+      "text": "Deep work is the primary driver of significant results and innovation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "06b002f8-5aff-40aa-8df9-3d6c852a08f3",
+      "text": "Inaccurate time estimates lead to reduced deep work capacity",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ff66410b-19a2-4f1e-babb-d23d29d315f0",
+      "text": "Daily scheduling directly influences the balance between deep and shallow work",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ccf3b673-c7cc-4363-b735-93e686dccd49",
+      "text": "Structured time allocation enhances creative output by prioritizing deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "582671e7-8f02-4c5a-9b54-18b5ec371bcd",
+      "text": "Task categorization via time investment metrics improves decision-making efficiency.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c165a7f5-971d-4930-a647-7005528a3507",
+      "text": "Tasks requiring specialized expertise contribute disproportionately to value creation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d700529e-4c6d-4cd6-b35e-c4c32f5f2778",
+      "text": "Explicit time budgeting reduces the marginal cost of shallow work in knowledge-intensive roles.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "54adb05c-6fd1-4b88-85eb-c36995bd18ad",
+      "text": "Psychological barriers to rejecting low-value tasks can be overcome through data-driven prioritization.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d9617c13-0ed0-45b2-b8d0-1a867ba4b158",
+      "text": "Fixed schedules improve professional outcomes by enabling focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ab61d3cd-5fc8-4741-8d69-b3a456d64057",
+      "text": "Time-based constraints enhance productivity in knowledge work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2b2566b6-eb5f-4cac-834c-3bec5c7ca494",
+      "text": "Time constraints amplify focus by reducing decision fatigue.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "241cb45e-9a5d-46b0-acad-895c12e8538a",
+      "text": "Sender filters increase productivity by eliminating inbox overload.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "927698f9-88d7-46ed-8aef-22f5d4606ae7",
+      "text": "Clear communication constraints improve focus and reduce unnecessary interactions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3b21a11d-0a05-4efa-9f79-5f65f404e1ca",
+      "text": "Process-centric responses minimize follow-up messages and mental clutter.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6c1a203f-c426-4dac-adf8-e113a1140995",
+      "text": "Managing response expectations frees up time and attention for higher-priority tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "83a49a55-d1ed-4d66-9338-f0632df160fd",
+      "text": "Systematic approaches to operational communication enhance efficiency.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ad2938cb-607f-444e-81e0-4d17f267b0a8",
+      "text": "Defined processes reduce cognitive load associated with information management.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "22471f9f-d48f-496c-b054-d8792c3dc160",
+      "text": "Deep work is a skill that enhances productivity and outcomes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9e67dd31-73c7-4a81-88f0-1aba6d7b57fc",
+      "text": "Focus enables the achievement of complex goals within limited timeframes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0b9a18b3-0fae-4514-83db-e60d017fdb82",
+      "text": "Deep work is a measurable and improvable capability.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3f8f9a74-76eb-474e-b5a6-0809f458e801",
+      "text": "Deep work produces superior outcomes",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7df670a5-5e2d-41c4-a4c3-afeb2b677d2f",
+      "text": "Disciplined focus creates competitive advantage",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "affac61c-a927-470c-be90-acdf49f5157f",
+      "text": "Calculated risks yield transformative results",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b723febe-3bb9-4282-8331-a9ec67eace2f",
+      "text": "Deliberate practice can be systematically cultivated to improve performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "62f5cd24-ca29-40ef-b2ea-e4bb34451e03",
+      "text": "Open-plan offices may hinder deep cognitive tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3120cad4-12b2-469d-9f38-489c4600cd77",
+      "text": "Digital tools can enhance or detract from focus depending on usage.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "75ccfe2c-1a1f-47fb-97d0-bd3ea589a115",
+      "text": "Attention is a finite resource that can be depleted.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "233ff0fd-5366-4079-914a-f9aea65a2f36",
+      "text": "Productivity is enhanced by structured workflows.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f9b6149c-9a34-47c0-85bb-5043cc7ca4e5",
+      "text": "Emotional well-being influences decision-making capacity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8ba6bad5-84d5-47d5-b6d6-7a3e2799aa59",
+      "text": "Consistent routines enhance productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "627e1560-0ff5-4f6e-b4f5-260e877d92a0",
+      "text": "Effective execution requires clear frameworks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6c5f3ed8-f206-4da6-9205-0bc752e35978",
+      "text": "Work environments significantly impact focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4a4102f8-db5e-4f1a-8348-1c90012d016e",
+      "text": "Downtime improves cognitive performance and decision-making.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "48c7ef7c-bac3-4fe6-8ce1-9dcb858e11a8",
+      "text": "Multitasking degrades focus and task completion quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "900ce688-6efa-42f5-93bb-6297c2d3f2c8",
+      "text": "Attention restoration through nature or deliberate practice enhances cognitive abilities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8cf0728e-8364-42e5-b81c-eb28971b749c",
+      "text": "Time management strategies can significantly reduce cognitive load.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9a0e91e8-69fe-4028-aa94-e17cf50313ad",
+      "text": "The Pareto principle can be applied to optimize work-life balance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c688e1bf-2b18-4425-aff0-9d8bed5272f0",
+      "text": "Digital habits shape attention spans and productivity patterns.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8cee0574-34b9-4433-b81d-3cafeeb4f490",
+      "text": "Deep work is essential for achieving expertise and meaningful results.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "940d2c09-db1c-405c-94bb-d9975a19fea7",
+      "text": "Attention is a finite resource requiring strategic allocation to prevent depletion.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7f81e4ad-c437-42de-b95f-bbcf879123e1",
+      "text": "Effective decision-making rooted in wisdom can lead to significant wealth and prosperity.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "aacb8157-479c-46cb-8e0d-d0ca727c9187",
+      "text": "Cognitive illusions persist despite knowledge of facts",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d92dcbda-bb18-4335-864c-60fde0120b5a",
+      "text": "Psychopathic charm is a cognitive illusion",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4e651d3b-1612-45f3-9704-da76b0ca5f41",
+      "text": "The situation is sufficiently complex to warrant careful consideration.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cfe2184b-eb75-427b-a5a6-31e52c47ab51",
+      "text": "Insufficient information currently exists to determine the optimal course of action.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d47662fe-ffa0-419b-83d6-0ce3f68058b1",
+      "text": "Cognitive heuristics can lead to systematic errors in probability assessments.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f4f91a51-502a-4d52-b72f-08e19e944e5e",
+      "text": "Spatial and frequency-based representations can facilitate accurate decision-making in complex scenarios.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "98c7e1c9-40f2-4ff1-8f8b-89cd37b111bb",
+      "text": "Diminishing sensitivity explains why individuals often overvalue small probabilities and sure outcomes, leading to behaviors like paying premiums for insurance or accepting small settlements.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "176d82ae-d20b-4fe2-b227-96387b904983",
+      "text": "The certainty effect demonstrates that people prefer definite outcomes over uncertain ones with equal expected value, which can be leveraged in decision-making to favor conservative strategies.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9c41b96c-8c53-404c-8b15-3029c4ec7911",
+      "text": "The evaluability hypothesis explains how some attributes are ignored in single-item evaluations but emphasized in joint evaluations.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 57
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b93eb75e-fc39-4c57-a066-727a646825c6",
+      "text": "Cognitive biases, such as framing effects, are prevalent across all decision-making contexts.",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 59
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "041c6d70-3e12-4d81-beca-2c4b5f8d49f4",
+      "text": "Neuroscientific evidence shows specific brain regions correlate with emotional and cognitive conflict in decisions",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 59
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "47f41997-42aa-45e0-b59e-54ce8320ced5",
+      "text": "Business and management studies have become a dominant focus in higher education systems globally.",
+      "source": {
+        "book": "33449",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "46e2a060-f5d4-426e-bd59-a931e6267981",
+      "text": "Anger diminishes one's capacity for rational thought and can be perceived as weakness.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "98e59912-d0bf-4151-95a5-49c755eefae9",
+      "text": "True strength is derived from maintaining emotional equilibrium rather than yielding to passions.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "186bd50b-c4ef-4866-aff6-875343115655",
+      "text": "Emotions such as envy and greed are neutral and do not inherently define well-being.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6f0af2e9-d3b0-4aa7-9ede-78f73ea704bc",
+      "text": "Human actions are typically based on perceived rationality, even when flawed or mistaken.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9784ce6a-5237-4c41-af25-a7cff52f0fa2",
+      "text": "Most conflicts arise from misunderstandings that can be resolved through perspective-taking.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ce233a0f-4da6-4277-9c8d-edf4ce74dde3",
+      "text": "Guilt can be worse than external punishment.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a44a6f4f-a621-43db-abcf-2c8e5e8efc8c",
+      "text": "Habitual kindness influences others' behavior.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9e6fcff5-506e-456d-abf9-522accfb77d9",
+      "text": "Rigid adherence to plans often leads to failure when faced with unexpected events.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 59
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9bc306e7-1fd7-40e6-a0eb-9ece3879bf68",
+      "text": "Clear-headedness and discipline are essential for achieving long-term goals.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 59
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c8c533b4-797e-46d1-9d3f-2496059c5fb3",
+      "text": "External forces can be managed through proactive adaptation.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 60
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fec0466f-d1b1-4bda-b8b8-8cd7d8bd6646",
+      "text": "Philosophical understanding reduces⾝理 and emotional vulnerabilities.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 60
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "105e01f2-c013-4d30-8e90-04c491e41d5d",
+      "text": "Calm judgment stabilizes responses to chaotic situations.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 60
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "140f9d84-ae2d-444d-8506-8dbed621490d",
+      "text": "Learning from failure is a conscious choice and requires deliberate effort to change behavior.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 61
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0e9caeae-ab98-4637-b2e5-1ef7f77cfb9d",
+      "text": "True education involves understanding the distinction between personal affairs and external matters.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 61
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "76c342a1-77f2-43f2-ad45-7296006af98b",
+      "text": "Human behavior often arises from a partial or incomplete grasp of truth and context.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 70
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d581a824-cd17-4612-b799-a588a3b6b1e1",
+      "text": "Forgiveness is essential for cultivating gentleness and reducing interpersonal friction.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 70
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c1b9df4f-ee4f-44c1-8666-f90c517c8e64",
+      "text": "Justice is an innate human inclination that should be actively supported through individual and collective efforts.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 70
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cba4ebbd-9ed4-43fb-9634-5e50aecd53a7",
+      "text": "Emotional detachment allows individuals to remain committed to their core duties regardless of external influences.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 71
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8f1e7333-e4ca-4778-be03-7757b0e512fd",
+      "text": "Philosophy is fundamentally concerned with factual truths and provides a basis for disciplined living.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 80
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ecfcc43a-6a72-40a6-8237-71eda9e21284",
+      "text": "Effective decision-making relies on understanding the core elements of situations, not mere words.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 80
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3e4823e6-e967-4c8d-a1a7-18eeae5ce05c",
+      "text": "No one intentionally does wrong.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 86
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6954a6e7-de82-48e8-a4ac-6beaa06f3d79",
+      "text": "Self-inflicted errors occur frequently due to human limitations.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 86
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "690181a2-6e01-4f07-9c06-22e61e0f9e92",
+      "text": "Enduring discomfort strengthens decision-making capacity.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 87
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e2bddb82-ee57-4e45-a8b6-9a798294a1b5",
+      "text": "True freedom originates from internal resolve, not external circumstances.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 87
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5218ec67-d47d-4ed6-8336-0f96a41e788c",
+      "text": "Pain is temporary and manageable.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 90
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e900d4f2-eedd-4df9-918b-39a6d85a268f",
+      "text": "Flexibility is a form of strength.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 90
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0cdf9c01-4ba3-40b5-876f-16e615bdfd88",
+      "text": "Life involves inherent adversaries and uncertainties.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 91
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4988ff48-4663-46a9-9f9f-2bc620ff7933",
+      "text": "Character is revealed through challenges.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 91
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ae11744b-d862-4fb1-a08b-2450a51a4802",
+      "text": "Gratitude towards events enhances overall happiness",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 107
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f64948ca-3a12-4761-8484-dd3498b63b76",
+      "text": "Willingness to accept outcomes is a fundamental aspect of Stoic philosophy",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 107
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6a88d1f0-b66e-4415-91cc-3b205df761b1",
+      "text": "Life events are objective and neutral, with human judgment determining their perceived goodness or badness.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 108
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7e9d9ce1-c158-437f-b0a8-d762707be540",
+      "text": "Inner strength can endure physical limitations",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 127
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f5688551-8453-4714-b288-46874a8b05c8",
+      "text": "Adherence to principles supports long-term endurance",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 127
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3220768d-3c9d-4337-932d-053f7de01dc0",
+      "text": "Love is a natural process",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5049f2ed-1958-432b-a4dd-7b17b3ce11ca",
+      "text": "Understanding simplifies love",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fea8e574-9ceb-43ff-93d1-c38306ac5c70",
+      "text": "There exists an optimal balance between having an ego and being adaptable.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "607a993d-3ce5-450f-a859-83fa9f25a193",
+      "text": "The ego is both a protective barrier and a source of internal conflict.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2cb2f38a-c8de-4f59-8841-a00720e79767",
+      "text": "Lust is a selfish, physical attachment that can lead to harm in relationships.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "170df413-6a6c-4434-8a00-2b270cec4407",
+      "text": "Ego can distort the understanding and experience of love.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a187cd73-b995-4735-98e0-31e4401f62ce",
+      "text": "Opposites in human experience, such as love and hate, do not contradict but can enrich each other.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6bf86d6f-0f84-4f98-9e19-ce9ed8458fd9",
+      "text": "{'type': 'claim', 'extraction': \"Love is fundamentally a friendly, equal partnership where neither partner assumes superiority or control over the other's decisions.\"}",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "932849a0-01bd-4923-808a-156d3db020ae",
+      "text": "Authentic relationships transform into spiritual phenomena when both parties are sincere.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ecdac6b9-b980-4bad-946e-55a4863c01b0",
+      "text": "Love is a dynamic process, not a static state",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "78f93692-54fe-41a9-bd07-13db5ac43daf",
+      "text": "Relationships require continuous effort and adaptation",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dd7ce6f8-9558-4f80-8aab-afaf9482aa72",
+      "text": "Life is fundamentally driven by a will to power, leading to inherent conflicts.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c702658f-1d1f-4346-a892-b94a40b0ff54",
+      "text": "True love creates a shared spiritual space that transcends physical boundaries.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c741624a-bfc1-4e5a-ad3a-5f573018fb6c",
+      "text": "Guardedness in relationships hinders the potential for authentic truth-sharing.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "93a3b740-6424-40fa-9a8e-e2c83211ceaa",
+      "text": "Creative and relational depth arises from inner preparation without external validation.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2f39ea7a-046c-48e1-a373-6faa1cdf2341",
+      "text": "True love enables both partners to be happy independently.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 31
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "618bcf44-3e25-4533-8904-48a6cfb8d24f",
+      "text": "Empathy is a deeper, transformative force than sympathy.",
+      "source": {
+        "book": "Being in Love",
+        "chapter": 31
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4f4500ea-4a93-46de-a987-82f5eccd846f",
+      "text": "Dogmatism often stems from deceptive wordplay or grammatical manipulation",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "654ce928-e1fc-48b1-a2b8-4623944add44",
+      "text": "Christianity represents a simplified, dogmatic version of Platonic philosophy",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "86c5f9aa-d389-4fbe-b10d-2f6f3a07464f",
+      "text": "Metaphysical systems frequently rely on unquestioned antitheses of values.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "beb05675-3848-44cf-95bb-28f0b154af29",
+      "text": "Human understanding is shaped by instinctual and strategic thinking processes.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1b4a7774-1950-4254-b8fb-0aa012d7dd00",
+      "text": "Knowledge pursued for its own sake can lead to moral entanglements.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7f928cc2-2108-4dc6-b7ce-81bd93cb35e0",
+      "text": "Emotional extremes can turn lighter through contrasting influences.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f7b6fcb8-5c5f-402d-a6ae-02ef7474a28f",
+      "text": "Pity has a deceptive effect on knowledgeable individuals, altering their perspective superficially.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "98df0414-e5d3-464a-93f3-524146572620",
+      "text": "Vanity is relative and counterbalanced by taste in social comparisons.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "21bc847c-aa57-467c-bf19-f4141fa276a2",
+      "text": "Pride in kindness can be mistaken for haughtiness or rudeness",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7a82820e-3046-47d6-a9c6-b071137b0e97",
+      "text": "Moral systems are natural forces that educate and discipline the spirit.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c5288b05-860f-41f4-ba53-7b25dea9c7c0",
+      "text": "Herd mentality is the most prevalent mode of human behavior, shaping societal norms.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bb3a148f-5a11-4592-8a37-eea35da23a76",
+      "text": "True morality emerges from conflict resolution and self-mastery, not herd instincts.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5f46fee4-d7a0-4add-a170-55a8e16bf9fe",
+      "text": "Democratic movements are a degenerating form of human organization.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "03391c37-6bad-47ce-9e9c-d0c3f574d683",
+      "text": "Mutual sympathy is mistaken for the pinnacle of morality.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "75cd92d5-14af-4927-a065-4754f8935b30",
+      "text": "Genuine wisdom is often misinterpreted as mere prudence in practical matters.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ce69d110-9efa-429b-93c1-d343f42fbeaa",
+      "text": "Objectivity, while valuable, can be an obstacle to true understanding if overemphasized.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b72559a4-338f-4ae2-afda-c32c5f12166a",
+      "text": "Skepticism has a calming and reassuring effect on individuals' decision processes.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f0eeee8f-5e14-4963-8aad-2a7301ab2594",
+      "text": "The 'objectiveman' is a product of societal influences rather than an inherent self-determining entity.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bc0aff28-beec-48eb-a7ec-b81ae867a2b9",
+      "text": "The decline of Europe stems from a weakening of the will and rise of critical scepticism.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "82636e34-ade2-458a-8669-8f507b693e84",
+      "text": "A balance of critical thinking and decisive action defines true leadership.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cb2bd52a-eb68-48f2-953c-611b3d1601cb",
+      "text": "Morality has evolved from religious to secular frameworks",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "06834183-266f-43b4-87fb-64f2ce41a19c",
+      "text": "Disinterested action is fundamentally strategic",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d87b1f4b-9e9c-4337-b9f9-d917500c3859",
+      "text": "The pursuit of 'general welfare' is a conceptually ambiguous goal that cannot be fully grasped or universally applied.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 33
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3683740b-3edb-4577-a815-231f69b28e5b",
+      "text": "Life is an organic function driven by the Will to Power.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 40
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a10618c1-6ee9-4f4a-9b5c-86190a198fef",
+      "text": "Morality originates from the ruling class to justify their dominance.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 40
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d886770b-b961-40ab-8a07-2dfde7ca0cc4",
+      "text": "Heredity significantly influences human behavior patterns",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 42
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e9b2a488-1c92-47d2-a540-d8bb546f981c",
+      "text": "Communication requires mutual understanding of contextual meaning",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 42
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a49820a4-e53d-4452-b98d-53703fd84137",
+      "text": "Ambiguity in communication can create uncertainty about critical events.",
+      "source": {
+        "book": "CAMUS, Albert - The Stranger",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b0b931cd-4808-4a8b-9794-464c6085d147",
+      "text": "Certain behaviors and routines become ingrained through repetition.",
+      "source": {
+        "book": "CAMUS, Albert - The Stranger",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5b23f472-06fa-46c9-bea6-69552cecc6df",
+      "text": "Financial dependencies can lead to hidden costs and disputes if not managed transparently.",
+      "source": {
+        "book": "CAMUS, Albert - The Stranger",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "947d00b5-6b28-4e51-8a34-ad2bd09c101d",
+      "text": "Emotional detachment can be perceived as a lack of humanity.",
+      "source": {
+        "book": "CAMUS, Albert - The Stranger",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bb22eba0-1bd8-4df7-9deb-3818997c4da8",
+      "text": "A calculated act of violence is a deliberate choice.",
+      "source": {
+        "book": "CAMUS, Albert - The Stranger",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3b339b39-217a-4c0a-b4a4-670a61b1e482",
+      "text": "God's death is a profound existential truth in modern thought.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2beb0910-c913-44c6-9cd5-eba04d2cd72a",
+      "text": "Alternative belief systems, such as those based on dreams, can explain and influence life decisions.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "62d4f78e-b067-4c74-b447-759a5678e265",
+      "text": "Spiritual practices like prayer are often ineffective when rooted in despondency.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ddb927d3-6eaf-49a8-ab2e-589bbd179720",
+      "text": "Mortality is a universal phenomenon that affects all equally.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f22ba2d5-e4f9-494d-be50-abab009a9278",
+      "text": "Friendships inherently involve subtle conflicts and emotional wounds.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7dbb0edc-498d-4ad8-8da2-b40ad476e2d9",
+      "text": "God's solutions are no longer as effective as they once were.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "919e9f09-a070-48af-880e-bb79651fcbf5",
+      "text": "Philosophy can inadvertently lead to new forms of servitude.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8eff3a16-9fc2-401e-976b-9687d7347b06",
+      "text": "Existence is fundamentally marked by suffering and uncertainty.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cfd1aa68-6703-41ee-ace5-4d367b3ab235",
+      "text": "Truth endures beyond initial doubts and evidence of nothing.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "284fa758-75c5-4f30-be6d-03e2a3126eb2",
+      "text": "Human nature inherently includes a predisposition towards destruction and complacency.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "52c8474d-f8aa-42c8-a3da-073521e94965",
+      "text": "History repeats due to a limited set of human illusions that resurface in different forms.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "372ddd46-3ed9-4e50-b95e-2ecd5beff528",
+      "text": "There is a shift in thinking from progress to mutation, linked to catastrophic outcomes.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "838fa17a-cd65-497e-a2df-aea2a82099d7",
+      "text": "Contemporary society has lost its sense of fate.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ad64f244-1a15-4f3f-87c5-6e3be9386210",
+      "text": "Admiration is closely tied to irresponsibility.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e27d8b3b-62f0-40d2-8809-bdd388a4146c",
+      "text": "Crucial conversations play a pivotal role in defining life and career trajectories.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0e244f5d-eeb1-4391-9a8a-188b63479ee8",
+      "text": "Adapting to higher-level challenges prevents the failure of previously successful approaches.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7059b81c-8a1c-4a57-a5ba-b946e633be75",
+      "text": "Avoiding crucial conversations leads to negative outcomes in personal and professional life.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4f2784d9-22a5-4aa6-b8ea-092878200ea8",
+      "text": "Emotional intensity in conversations can alter the course of daily routines and relationships.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ce368afc-4310-4c90-b9c5-f334b7e59c97",
+      "text": "Mastering crucial conversations directly enhances professional influence and organizational health",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9e5400e4-3c48-4d84-a8e1-0811670398ec",
+      "text": "Strong relationships and organizational success depend on effective communication",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "76c0fe2a-c317-40df-8005-4b8b002b3263",
+      "text": "Mastering crucial conversations can significantly impact personal and professional domains.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e171a9bf-4cf1-4012-b65b-b4ab6df9031c",
+      "text": "Effective communication skills can be learned and applied to improve outcomes in various settings.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fa20c7ee-7b47-4c63-bf68-cc72fa293a43",
+      "text": "Effective dialogue can be developed as a learnable skill for better communication.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bb2ef7b3-0df7-4ee5-8890-cf99cb132074",
+      "text": "The size of the shared meaning pool directly correlates with the quality of group decisions.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7a8ee791-38c3-4835-8d09-fa6d40a152b8",
+      "text": "Dialogue skills are learnable and can be acquired through structured methods and observation.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3af1fac9-a3e4-4d39-aebb-aec94a28526e",
+      "text": "Dialogue skills can be developed and enhanced through consistent practice and self-reflection.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e9a13485-e1a2-4133-8534-05ee8d9c45c1",
+      "text": "Individuals have the capacity to change and improve their communication behaviors.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "108e182a-afca-4be6-bf14-212a722894a5",
+      "text": "Anger can impair rational decision-making by amplifying personal stakes in disputes.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fe96f6e4-7763-4d4f-9bd6-1c1cbb66a002",
+      "text": "Sucker's Choices are common in human interactions and represent false dichotomies.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fa56b1a5-1598-4bff-90dd-8fc104005ed7",
+      "text": "There exists viable alternatives to Sucker's Choices that promote productive dialogue.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ec15c6c2-427b-4035-bb28-beed3e2e008d",
+      "text": "Artificial constraints exist in decision-making",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "663f6c56-1a4b-4ab8-8008-27f72a2c6c6d",
+      "text": "Fear narrows peripheral vision and limits perception.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d9fb9b70-57a3-4da7-a8c1-f8cf8ada1558",
+      "text": "Trust in others' motives creates a safe space for feedback absorption.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b0f5fb8c-4a23-4870-8181-42482d8f5d41",
+      "text": "Foundations of relationships are built on communication, not just shared activities.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c0de3055-e838-423e-8322-7f34e174b605",
+      "text": "Direct, unvarnished dialogue resolves conflicts more effectively than indirect communication.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "10232cd2-50af-47d0-9620-e138c38e646d",
+      "text": "Participants in crucial conversations must align on shared objectives to maintain productive dialogue.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0945d52e-996a-4f20-826f-31bbfe8fd135",
+      "text": "Respect is essential for maintaining dialogue.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1d97322d-710b-442a-aec5-f8876c7a6f62",
+      "text": "Feelings of disrespect often stem from dwelling on differences.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4840842f-ab4b-4b9a-a6e2-a3dc0b9751f1",
+      "text": "Honoring shared humanity can transform even tense conversations.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c1e0e96f-7594-444d-869b-982270dd6e2d",
+      "text": "Sincere apologies can restore safety in crucial conversations.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1be0bd9c-e1d2-42fb-a73f-9b17ea70540b",
+      "text": "Contrasting is a technique that ensures communication does not exceed its intended impact by addressing false assumptions.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2bfdbb22-9bd4-4f7a-b849-adb1a9c45986",
+      "text": "Emotions are not imposed by external factors but are internally created through cognitive and physiological processes.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "93cb782f-de22-459d-99f1-a4c4a154faa3",
+      "text": "Individuals have complete control over how they respond to emotions, with options to act proactively or reactively.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0a42ab50-de89-4dc7-86b9-7e9e5950cae7",
+      "text": "Victim narratives emphasize external causes while downplaying personal responsibility.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "09a04f7f-d057-450d-a080-614c988b1bc1",
+      "text": "Helpless narratives limit perceived options for change in challenging scenarios.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b1c07d9c-46df-459b-9ae5-72cf3fa3ea7d",
+      "text": "Clever stories often distort reality by emphasizing one's own correctness and others' flaws.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bbf5f769-ce4c-4793-a1a4-c2ab320d5dae",
+      "text": "Helpless stories can limit proactive approaches by attributing problems to fixed, unchangeable factors.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c6651a33-70df-4873-ad6a-86922c6702ca",
+      "text": "Dialogue effectiveness is directly influenced by emotional state.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 31
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6e1ace24-2713-413d-9f7d-7415a39fd79f",
+      "text": "Incomplete narratives lead to defensive and hurtful communication.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 31
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bb5a8d35-d8f6-485b-be13-038453fd8dd3",
+      "text": "People in crucial conversations often have positive intentions.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b40e36d4-c170-4be8-906e-5f4e26e7c417",
+      "text": "Emotions can influence behavior and perception in interactions.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "685e93a7-c100-40ad-afb1-01ccef21bee2",
+      "text": "Three key ingredients (confidence, humility, skill) can be combined to facilitate honest dialogue without causing offense.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 33
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b4b590d6-5577-423b-8f3d-2ee210bbafc2",
+      "text": "Quantifiable evidence can fuel suspicion even when context is missing.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c8ecc398-9600-4779-b541-ea9110fccdfe",
+      "text": "Factsنى are less controversial and more persuasive than subjective conclusions or judgments.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fcb76837-13ce-46b3-a3c2-26d552b2af4a",
+      "text": "Tentative communication can increase influence by making it safe for others to offer counterpoints.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 36
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8959682c-53cf-4da1-a674-40a78e790ba1",
+      "text": "Dialogue helps in verifying the accuracy and relevance of shared information by incorporating diverse perspectives.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 36
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8ea12677-c2ce-4328-954c-45a5742796fd",
+      "text": "Truth is a duty to be actively defended against opposing views",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 37
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "43849a77-af37-4f39-83a8-9dfdfd62ec77",
+      "text": "Emotions can hinder rational discussion.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7d098117-ee4c-43f9-be72-d7c5a3d041f7",
+      "text": "Passion may contradict its own goals when expressed forcefully.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e027c821-5bc4-48b1-85ec-1a43413207c4",
+      "text": "Emotional responses are influenced by physiological factors that linger after thoughts change",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 39
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bf5cb7f1-5b29-4034-bcb6-bb65b2b8f0f2",
+      "text": "Structured listening techniques (AMPP) can resolve communication breakdowns.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "112a5ac3-df55-4c8e-9767-e406ded41344",
+      "text": "People are trained from an early age to look for errors in others' statements.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 42
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "32117ba4-9a2a-469b-a303-123bea2aa694",
+      "text": "Skilled dialogue avoids turning agreements into debates.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 42
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "18277892-832b-40d2-8c01-3cd5c20681e3",
+      "text": "The desire to be right can override the need for constructive dialogue.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 42
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c9c2b312-1977-4e21-aa54-44c99cb2d8fa",
+      "text": "Collaborative dialogue leads to better outcomes than debate",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 43
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1ccf6f69-536e-45cd-96a8-f87fb7b8643f",
+      "text": "Unclear decision-making processes hinder action",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 43
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "adfb53cb-de9c-4f05-aaae-84ec0928e366",
+      "text": "There are multiple standard methods for making decisions, including command, consult, facilitate, and random approaches.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 44
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e68afe87-549a-451f-a28c-3f375495198d",
+      "text": "Consensus decision-making enhances group buy-in and support for outcomes.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cb1a25c2-a6ec-485b-977b-bb351120de6e",
+      "text": "Some situations necessitate authoritative, non-consensual decision-making.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 48
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "44bf25f1-7012-4f30-8e9e-eb79157301fb",
+      "text": "Documentation enhances memory recall of commitments and decisions.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d4ac753c-cac5-4a87-a16f-3ab5738bf42e",
+      "text": "Proactive intervention in conversations prevents escalation of conflict.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b52ba8ec-5da2-4a65-ae1e-1d45785b95cc",
+      "text": "Emotional regulation enables better decision-making during crucial conversations.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "53ff3798-2c16-4da7-86d4-ba1d4d5aff48",
+      "text": "Structured dialogue principles can enhance the resolution of conflicts in various contexts.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 54
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ee208f63-49ff-49e7-ab7b-8d900be1269d",
+      "text": "Most problems can be resolved through respectful discussion.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 55
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "062b7b3b-7149-49c4-9ec6-85bdadec22bb",
+      "text": "Early intervention prevents problems from escalating.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 56
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "af7038de-6c72-4016-8f8d-ca56f619928d",
+      "text": "Clear communication improves relationships.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 56
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c8ae0f66-04a6-4f8b-ad26-305d62cd64bd",
+      "text": "Deference often stems from fear of authority or disagreement.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 57
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "873bfb43-51e3-4036-89f3-69f9812f672d",
+      "text": "Trust can be differentiated based on motive and ability in specific contexts.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 57
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e46faa1f-c9e9-46ea-9dd7-49c23eb4656f",
+      "text": "Dialogue effectiveness is enhanced by making interactions safe and beneficial.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 58
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "233f5390-68f5-44b1-b948-047420988ad0",
+      "text": "Building safety in a relationship increases the likelihood of positive change.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 59
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a900465e-8d97-40df-bbd9-fe13033d4250",
+      "text": "Crucial conversations can improve relationships when handled properly.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 59
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5d5e4749-043c-4e6c-94a9-0814b912fcf3",
+      "text": "Abstract descriptions are ineffective in crucial conversations.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 60
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a0a73684-cba5-40f4-ab58-55b4a823e981",
+      "text": "Emotional regulation improves by focusing on behavioral patterns.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 62
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3f2a0dfe-0583-4b69-b923-29d8e5b4ea61",
+      "text": "Unattended issues tend to intensify over time without intervention.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 62
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ceaa92f4-6f0d-41f7-be25-99699ef88a75",
+      "text": "Behavior modification techniques can effectively treat obesity.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 70
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c41c74d3-c46c-4230-a3c7-2c39ec637acf",
+      "text": "Building consensus enhances decision outcomes.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 70
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "22822220-77f6-446d-98e9-c73c305ad0cf",
+      "text": "Emotions are crucial to effective dialogue",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 71
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ff1c09ff-ef14-41ee-bddf-6279d1ef3a8b",
+      "text": "Unclear delegation can lead to failure",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 71
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "afe365ea-625c-42e9-8f7f-4fa9d8954bea",
+      "text": "Busyness can be mistakenly equated with productivity in organizational settings, leading to superficial results.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fec57433-0b37-4406-9e01-959e37ad7c21",
+      "text": "Administrative tasks and communication overload often detract from core value-creation activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3d916b83-67cf-4c17-b635-0a6b2a499630",
+      "text": "Manual craftsmanship provides a clear sense of identity and accomplishment in professional work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fea0c676-8d3f-4f3b-a9b7-3e445c791cd0",
+      "text": "Knowledge work often lacks the defined boundaries and tangible results found in traditional crafts.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6db92fca-30e2-4774-9c4b-2f37b9cfc5a4",
+      "text": "Deep work is essential for reaching full human potential in professional settings.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "acbca565-a74e-4463-bef1-512d8aaf1c99",
+      "text": "Shallow work is less effective than deep work for producing high-quality results.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2b8ab77b-51d3-4180-8def-12eea7bd68dd",
+      "text": "Open office designs can facilitate communication but may increase distractions in work environments.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d60a1915-2b6c-4fa4-b45a-84c38a0abce1",
+      "text": "Serendipitous encounters in collaborative settings can generate creative ideas.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8ea62f83-27a6-4c72-aecb-2fc4696f0568",
+      "text": "Self-control is a finite resource that diminishes with prolonged effort.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "93298789-c4c0-4bf4-a2e4-de939178f46c",
+      "text": "Productivity often follows a non-linear trajectory, with deep focus sessions yielding higher returns.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "506fa059-9368-4f6d-9d4a-e30fa106178d",
+      "text": "Memories and foundational truths can vanish completely over time.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0bf9fbda-c37a-4209-854a-9e5d3c5e0a06",
+      "text": "Worship or adherence can continue unknowingly without deep comprehension.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4544c13c-46fb-42e6-bbac-ffd9a8515e59",
+      "text": "Success against odds can be validated by future recognition and impact.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "20214acb-4107-49e0-a4a3-baf3250ffedc",
+      "text": "Perseverance in personal or professional endeavors leads to intrinsic rewards.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fd8fea50-5aaa-414c-832c-0e14c337aeb3",
+      "text": "Multiple revenue streams increase resilience",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 33
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2989e126-4888-4d91-823a-51e5ae3d8842",
+      "text": "Routine interactions often mislabeled as negotiations are actually simple problem-solving rather than formal bargaining.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 40
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c1572742-b841-4a4f-a1c1-988ec6def823",
+      "text": "Negotiation skills are a critical asset for business success, often determining the outcome of deals.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 44
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "64a45290-929b-4c8f-b3a9-2b99d3b18c86",
+      "text": "Detailed preparation and homework are essential for effective negotiation in any context.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 44
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a63d1951-d30c-4a83-af04-0d40d12392b0",
+      "text": "Powerful entities can significantly impact an organization's trajectory.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 53
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "046c7555-c085-4d85-90e4-79e42b84b511",
+      "text": "Market dynamics vary across regions and require tailored approaches.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 53
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1ebe61a4-cfe7-4ef7-a0df-8775b7bf3053",
+      "text": "Direct confrontation with large competitors can be avoided by strategic adaptation.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 54
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f5df79c4-4600-4854-b98d-b5fb0782220b",
+      "text": "Competitors can inspire innovation while also posing threats.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 54
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e7ba7b4f-5eb2-4c4f-b431-9f038c583795",
+      "text": "Talent is fundamental to business success and innovation.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 56
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9fa1fdac-da57-430f-8f25-e8b94956b628",
+      "text": "Asset values are finite and do not indefinitely appreciate.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 56
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "42c4e86a-bfbc-4e8e-94dc-40afd6bdd519",
+      "text": "Finite and infinite games coexist in human experience",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "70cd5483-359f-4ce8-856d-be381261385d",
+      "text": "Finite processes inherently involve defined start and end points, while infinite processes are characterized by ongoing flexibility.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cbcddf2b-0e0a-4ef8-a52e-476e88af01dd",
+      "text": "Effective decision-making relies on predefined rules and boundaries that are mutually accepted by all involved parties.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "27c5b97f-d5d7-4c2e-bb1d-f03aa5dbeabc",
+      "text": "The outcome of engagement is influenced by the openness of boundaries.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a0adab95-1af9-44ff-ab83-f9d08d5fec9a",
+      "text": "Finite engagement focuses on predetermined goals, while infinite engagement embraces unpredictability.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "733755fd-22c5-4613-8d75-b3be97b499ef",
+      "text": "Much of human history can be recovered and continued from what appears to be lost.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5fdf650b-b559-4397-a756-cb654efffbdf",
+      "text": "Evil often results from silencing or ignoring diverse perspectives and their contributions.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0d0d6201-eec8-409b-9f73-3fa527e4e039",
+      "text": "Human freedom is constrained by social realities that define possibilities.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c12abe3d-88fe-483d-bb06-18456c0d8b04",
+      "text": "True decision-making freedom arises from how boundaries are set, not from the availability of choices.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "69be6e2a-76c7-4c10-9c83-956e40b1d8b0",
+      "text": "Titles are acknowledgment-based and cannot be self-entitled.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a09ba072-bde4-4b3a-8135-ab5b6bf7faa2",
+      "text": "Ownership restores individuals to pre-competitive status through compensation.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "23c01cdf-8fba-4eb0-b9f7-4b7c6208b7f1",
+      "text": "The act of seeing transforms perception from repetition to innovation.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "232fb537-f7c5-4f2d-9dc6-8b6d8016e09e",
+      "text": "Birth represents a discontinuous, transformative event in personal and cultural history.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b1e274dd-39b9-4c30-9ba1-23dae8351c39",
+      "text": "Machinery can amplify human control over natural phenomena.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "81ca30aa-2e19-4ab8-8c87-2048fbaef23e",
+      "text": "Effective technology enables seamless integration into life without hindering spontaneity.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6676e04a-3c86-4f10-b0c2-179e94bc02d9",
+      "text": "Technology is designed to facilitate efficient, yet depersonalized, interactions.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "97a9ec8e-c8fb-4f2e-afe0-6752193817fa",
+      "text": "Gardening practices promote diversity and unplanned development as key to vitality.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "05f96c48-6c35-4122-a95f-f44a2f5b8ff0",
+      "text": "Criminals frequently rationalize their actions as beneficial to society.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "98f98dfc-03ba-464c-9058-b16f94f3b462",
+      "text": "Effective communication minimizes misunderstandings that lead to conflict.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cfd65ecc-b7be-40d6-9e21-e6bf1c7b4539",
+      "text": "Criticism is less effective than praise in modifying behavior.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7461c1fe-0b17-41ee-9091-3b08bc5450ad",
+      "text": "Resentment persists despite criticism due to human tendency to defend themselves.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2707a49e-93a2-4ce3-a9a7-c41204032aa2",
+      "text": "Leadership involves seizing timely opportunities to achieve strategic goals.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f84422f6-78a6-4cac-83d7-aab88fbd8c1b",
+      "text": "Criticism, when based on clear evidence, can foster growth but may perpetuate resentment if unjustified.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7eecfda7-23ac-43fc-a79a-4ccc06debb94",
+      "text": "Late deliveries during late afternoon hours cause congestion and delays in handling.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4510d507-935f-43e4-98c8-50d37bcffedd",
+      "text": "Direct engagement and empathy can lead to positive changes in attitudes and decisions.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "298b368e-823e-4be1-bbb7-9743bedfde4a",
+      "text": "Pride can lead individuals to resist changing their opinions despite evidence.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "815d55a1-b6dd-4b89-88b4-58927ad2398b",
+      "text": "Agreeing with others can reduce tension and facilitate productive conversations.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1d74088c-c61c-4ac2-b3dd-9c906ddfc7a4",
+      "text": "Disagreements can be opportunities for learning and resolution when approached with tact.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6f28789e-d9ec-4131-a763-d87fddadc46e",
+      "text": "Diplomacy is effective in achieving one's point without conflict.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ce84880e-368a-4076-a492-d251ee0c38f7",
+      "text": "Courageous admission of errors can lead to forgiveness and positive outcomes.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "315fcfb3-4eed-4d92-b6a4-a1464ce60eb0",
+      "text": "Proactive fault acknowledgment reduces defensiveness and facilitates problem-solving.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7cc921c0-d03a-4a67-8884-20b62f566105",
+      "text": "Friendly approaches significantly increase the likelihood of successful outcomes in negotiations.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5b4ec15d-359b-424e-834f-09abdb5864fe",
+      "text": "Gentle persuasion leads to more sustainable agreements than confrontational methods.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c8537d12-def6-472e-9f18-cc390519121b",
+      "text": "Understanding others' perspectives enhances decision-making and outcomes.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d5d3b77a-eaa4-4083-819e-b17754c89b17",
+      "text": "Success in interpersonal relations depends entirely on accurately grasping the other person's perspective.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 33
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "35fd0d01-23eb-49c9-8d23-1c3ae9271b31",
+      "text": "Adapting communication style to match the other person's viewpoint ensures compliance and goodwill.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 33
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4ab5d1d4-e46b-4f8c-8869-88b9e77b47bb",
+      "text": "Sympathy can effectively mitigate negative emotions and resolve interpersonal conflicts.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "52662cc9-b7dc-4121-9cf1-beb1344d8851",
+      "text": "Proactive communication can address concerns before they escalate.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "60ada337-70fd-498d-8856-8b2978ba53a9",
+      "text": "Disney perpetuates the 'Prince Charming' narrative, convincing individuals to wait for a single perfect partner.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c3b788b5-2825-416c-976d-cc9e762fc12b",
+      "text": "Good sex does not necessarily define the success of a relationship.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a765dd09-44f4-4992-bbd7-a8c5fa9738c8",
+      "text": "Approximately 69% of relationship conflicts are perpetual and cannot be fully resolved.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4dffe948-4475-4522-8cc5-fe307be37de3",
+      "text": "Online chemistry does not guarantee success in face-to-face interactions.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "052ac9b0-2d4f-417d-b095-582e4bdfd2a5",
+      "text": "Cohabitation before marriage is associated with higher rates of dissatisfaction and divorce.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 58
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "998d17ee-9116-41b1-b287-5c3da1889617",
+      "text": "Shared living can lead to entanglements that complicate relationship dissolution.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 58
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0dc2d8c5-1fc3-4d32-9bea-db74f8d871d6",
+      "text": "Cognitive biases can significantly influence judgments about relationship satisfaction",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 61
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a76676dd-0c1a-4b09-b78c-bf388569c5c4",
+      "text": "Couples therapy has been validated to improve relationship outcomes.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 66
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "11eab499-25b1-4b9e-a0d0-cf523cd3601d",
+      "text": "Relationships experience periodic dips in satisfaction due to external demands.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 66
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fe7387e8-89e0-4880-9c73-9c2c0edd07ae",
+      "text": "Delaying significant relationship decisions by a defined period decreases the likelihood of negative outcomes",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 80
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6b0a77db-e6f5-41b3-a7ea-00d8c5cc8617",
+      "text": "The false-consensus effect is a cognitive bias where individuals assume others share their viewpoints.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 81
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5db6c247-f2fa-4ed3-9914-fdb0b8921d42",
+      "text": "Human beings continue to grow and change throughout their lives.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 83
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f5914ba4-e7d6-4beb-a239-8d2aa2dee8d6",
+      "text": "The core aspects of identity are subject to change over time.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 83
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6094218b-c8c6-4373-9c73-96c335879e3e",
+      "text": "Relationships can be enhanced through planned communication and self-reflection.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 88
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d015ca48-dde6-4125-a757-371a4cda5a96",
+      "text": "Sex is an important aspect of the relationship.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 90
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6aed241c-d23e-4e12-9dcb-c1dff68dc028",
+      "text": "Relationships require ongoing effort and flexibility.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 90
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6d05ca9a-3ba9-4bee-b6ab-1016f3e20413",
+      "text": "A minimum frequency of intimacy should be maintained.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 90
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fc7310af-d15f-410e-b7a9-50b901214041",
+      "text": "Technique operates and expands without deliberate human planning or intention.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "79e01cb0-0240-4024-abe5-370a476066d6",
+      "text": "Progress in a technical society results in dehumanization and loss of individual agency.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8c5bad12-05e2-4020-8cff-d00b3666e3f6",
+      "text": "Technological intervention is the only means to alter technology's trajectory",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "682fefcb-dec8-4f87-bb78-b8efc318d231",
+      "text": "Christian testimony is uniquely positioned to critique technological society",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6ca8f88a-c72d-4d62-ae86-30b7defb0e8d",
+      "text": "Various forms of technique, including spiritual ones, co-evolve in human development",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1fb12bad-6fb2-48e3-82e4-a346f5eeaf14",
+      "text": "Economic laws are not eternal but change with technological advancements, similar to how physical laws evolve.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 46
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "370e12cc-bca6-488e-8f66-c6a696bb5867",
+      "text": "Macroeconomics, as a global framework, subsumes and modifies traditional economic structures and social factors.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 46
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cb9be9c1-d8ca-40d5-a1d5-8e2da8f09470",
+      "text": "Marxism is primarily a method of thought and action, not just a set of doctrines or beliefs.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2721b951-5ae2-4a4d-be2d-b618018cbb5f",
+      "text": "Political technique is superior to other forms of governance when it is systematically applied.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "42890b56-231c-4423-a89b-d574bf596929",
+      "text": "Productivity metrics can be applied to political administration.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 53
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "70e63f52-d292-434d-87fc-a17ed0918511",
+      "text": "The nation becomes a supplier of working capital for the state apparatus.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 53
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "58226fdc-5adc-401d-b862-33fc005208df",
+      "text": "Techniques fundamentally shape state forms by questioning their efficiency",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 57
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f739dd97-de37-45ac-9d7d-12093d4030bd",
+      "text": "Technology shapes human behavior by incorporating deep-seated instincts into everyday life.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 76
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ad7e9d13-f02e-40a0-b320-4fa5f9ccda38",
+      "text": "Modern art forms, like jazz, originated as profound protests but can evolve into mere entertainment.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 76
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4f6f2585-9078-4a64-ace8-4575022424d1",
+      "text": "Contentment arises from focusing on fundamentals rather than superficial gains.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "20a0528e-a865-4280-8904-3f09d76008bb",
+      "text": "A harmonious life is attained by aligning with natural and simple standards.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f2d3aacb-ccb6-4ec6-8ec0-9c4b0e07059a",
+      "text": "True progress is marked by self-awareness and recognizing one's own potential for growth.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "507a605f-796d-4f04-b39b-20ec6a6da6da",
+      "text": "Friendship thrives when individuals share common values and aspirations.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "12191f19-c067-4158-84b9-58d2ea204e7f",
+      "text": "Crowds amplify negative traits through imitation.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e6ecaace-0f3d-4f49-b510-bb59b04fdacf",
+      "text": "Vices spread more easily in social settings than virtues.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "439d22cb-e884-4b8f-9b4a-57de898ecb6c",
+      "text": "Philosophy provides practical counsel for addressing human challenges.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7240597c-6025-4c56-ac2a-20284eea1d57",
+      "text": "Nature establishes straightforward principles that can be followed for a harmonious life.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b7e764cf-ae14-415a-9bf8-3445cc592a32",
+      "text": "Virtue enables mastery over physiological limitations, rendering even extreme conditions manageable.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "68ef3f3e-3a7a-45ab-8f1e-0bd2825559b2",
+      "text": "Disasters can strike with little warning, even to the most prepared",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "df41238b-99da-4778-a12f-22fe96b035c3",
+      "text": "Nothing is permanent; all things are subject to change",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a6902902-758f-4184-9dc0-a4447217f974",
+      "text": "Traditional values such as virtue and philosophy may be ineffective in achieving true happiness.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 62
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3f76e43c-e3df-484b-90fe-e9be182da321",
+      "text": "Immediate enjoyment and spending are superior to wise restraint and long-term planning.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 62
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c11c6bd5-ebcb-48a6-b715-05e76f954802",
+      "text": "True wisdom requires experiential depth.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 63
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "deed7a9f-146b-48ec-a5a2-26855d338509",
+      "text": "Operational success favors disciplined adaptation.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 63
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "13b6af5d-03df-44db-93b2-d63719881e5b",
+      "text": "Nero's cruelty is a fundamental aspect of his rule, leading to personal betrayals.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 67
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "960e7329-8ba9-48ce-a513-d39a7955607f",
+      "text": "Stoic philosophy serves as a foundational framework for ethical decision-making in complex situations.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 72
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "62ffa62b-2224-4691-b4dc-7a2fa3cd1e53",
+      "text": "Foreign intervention can be predictable when internal vulnerabilities exist.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4dfbac43-706c-40e5-9a85-41df4a0a2fea",
+      "text": "The balance of power is fragile and easily disrupted by external events.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "180f0c57-08b4-41c8-b18d-8c357c0ea814",
+      "text": "Military success can be achieved through innovative tactics.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a3c26304-ff36-4398-aa07-11338e0e8499",
+      "text": "Political power can be consolidated through strategic marriages and appointments.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e32bece2-ccf6-4117-b9dd-c25f8026463f",
+      "text": "Economic stability is essential for maintaining military strength.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "66ad4f34-7e1c-44b0-9cd2-fe98e485e4fd",
+      "text": "Complete individuation leads to personal wholeness, calm, fertility, and happiness.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cb13074e-3bc8-424f-a87a-a77077963caf",
+      "text": "Symbolic communication is fundamental to unconscious expression and interpretation.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8208f696-ab22-4ea8-8405-c5e9b8ecb9ef",
+      "text": "The hero archetype has profound psychological importance in both individual and societal contexts.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ecb1af48-b1cb-4125-883e-b7208b12b4fa",
+      "text": "Jungian psychology demonstrates that modern symbols evolve from ancient mythological patterns",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ae330954-3c1b-4376-867d-5c33d1a7772d",
+      "text": "Initiation processes are universal, manifesting in unconscious experiences and cultural rituals.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eac6c802-f169-44fc-8544-d7b7899a1385",
+      "text": "The hero myth emphasizes achievement, while initiation focuses on submission and humility.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "976b72cd-6a8e-450b-b325-0dc3002621c9",
+      "text": "Marriage serves as a symbolic discovery of one's psychological components.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3d0c3813-4996-42bf-af49-fd51bc14049c",
+      "text": "The union of opposites is a fundamental archetype in human psychology.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1738078d-5513-4e53-87b1-babe03513afd",
+      "text": "Symbols effectively communicate complex ideas across cultures",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "caec2909-52b3-4a81-82c0-575ceed1ea4c",
+      "text": "Modern technology embodies the same transcendent principle as ancient symbols.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "36d9ecee-8168-4f18-8f52-9ef05e8b33b2",
+      "text": "Every material carries inherent symbolic potential.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b5543274-fcc6-4bcb-a45a-48cf5d6eac0b",
+      "text": "Transformation bridges the gap between instinctual foundation and rational understanding",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e0d91132-7701-4179-a134-d9ee65f43b58",
+      "text": "Modern art facilitates healing between abstraction and realism.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 37
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4d57b0ab-714c-4ac1-8a06-7582ae4d511c",
+      "text": "The Church has become a patron of modern artistic expression.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 37
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fc5bd307-1249-4451-98e8-1454483665bd",
+      "text": "Dreams serve as representations of the unconscious mind.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 40
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "05b7dcb3-f522-4736-9f74-a66859ac310e",
+      "text": "Cultural and historical associations influence personal interpretations of symbols.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 40
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "18b8b767-3531-453b-8f06-0cbb510241db",
+      "text": "Stoic philosophy provides a foundation for effective leadership.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "932c21b0-7b55-4f30-aacd-459e477b958a",
+      "text": "Clear judgment depends on emotional regulation.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "52be39a4-ac6d-49fa-8c39-b9a6954dd8ee",
+      "text": "Troubles originate from internal opinions, not external events.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8806ae9e-ae46-4bc5-a364-3dd6bfb20641",
+      "text": "All things exist in a state of constant change, which is natural.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4eb546ed-7bfc-475b-8702-992642fb5be7",
+      "text": "The universe distributes events impartially to all.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1f242729-16d8-4d91-8a12-da9909ce8f88",
+      "text": "Thoughtful communication strengthens bonds with others.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d9b76bf7-e184-41f5-bb74-6a7903ebbf5f",
+      "text": "Different communication styles lead to misunderstandings.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "86cf193a-ae10-4020-927f-9c2ec6ba918b",
+      "text": "Motivation can be achieved by understanding and addressing the other gender's needs.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ef4c30f5-76e8-4214-b07d-b2a242f0433e",
+      "text": "Physical comfort and presence can address emotional needs more effectively than verbal reassurance.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b33080fc-730f-47ac-ba08-7e0634229627",
+      "text": "Communication breakdowns in relationships often stem from unmet emotional expectations.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7d175eb5-8f98-4829-abba-2f07bed191eb",
+      "text": "Understanding gender differences reduces conflict and increases relationship satisfaction.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "da469dd3-c05c-44e3-b527-49b64b81da21",
+      "text": "At least 90% of participants in relationship seminars recognize themselves in the described differences.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8a8d3a50-de23-458c-beeb-85180f133c28",
+      "text": "Men and women exhibit fundamentally different approaches to intimacy, communication, and problem-solving.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cd99178a-1aac-4558-bfff-e62ff4d848b5",
+      "text": "The success rate of long-term marriages is low, with approximately half of couples separating despite initial commitment.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "947c30e7-9502-485f-b45b-d918256422bc",
+      "text": "Martians prioritize competence and achievement in problem-solving approaches.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8f4e09d2-027b-4937-b176-de2804c4da21",
+      "text": "Venusians emphasize emotional connection and relational harmony over task-oriented communication.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5232e0ee-79d3-44d5-848c-0518d33afacd",
+      "text": "Stress can alter how individuals perceive and respond to problems based on their communication style.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7a2d3022-c242-43d6-91b9-a7eb1af32fcc",
+      "text": "Gender-specific communication patterns may lead to misunderstandings if not recognized.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "593710b0-fa4d-43df-a421-1ce88f137fc7",
+      "text": "Gender-specific communication patterns can be overcome through mutual respect and empathy.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "832c46ba-d2f6-49bd-8096-5281771ae49d",
+      "text": "Detailed sharing of emotions leads to greater fulfillment in interpersonal interactions.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ec304a9e-2f17-41ea-ab7f-c53d628f6e9a",
+      "text": "People often talk about problems to process emotions and reduce dwelling on issues.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a42b553a-9b1d-46f2-beb1-3818df609a17",
+      "text": "Lack of attention or feeling unloved can lead to persistent emotional distress.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4d35f573-010b-4a62-b3e4-872afad1e035",
+      "text": "Adjusting behaviors and expectations can transform relationship dynamics",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5de6640f-545f-42f5-9b82-e399f53e65e8",
+      "text": "Respecting boundaries facilitates mutual support and understanding",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e77834ec-5ac9-4867-a4a2-9850af699d2d",
+      "text": "Different cultural groups employ distinct communication paradigms that may yield the same vocabulary but different meanings.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1501e617-bc5f-49d1-a6ff-298a41738ae9",
+      "text": "Literal translation of expressive language can misrepresent intended meaning",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0f5db2a1-2ada-42c1-b87e-c491e7301d26",
+      "text": "Gender-based differences in communication processing exist, with women often sharing thoughts verbally and men processing internally.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "364656b6-98c9-49a1-bcd7-cfac6bd43ded",
+      "text": "Individuals require time alone to regain composure and focus.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3c9fbcf0-f3a0-470d-9e59-1f7fb58ba91e",
+      "text": "Women often misunderstand the reasons behind men's withdrawal in conversations.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "733a8d52-af83-4cfa-ab34-6f54ff01834d",
+      "text": "Men often use abbreviated language to indicate they can handle emotions independently, while women may misinterpret this as avoidance.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "39f07460-857b-453e-95dd-b5fcf150b25e",
+      "text": "Cultural differences in emotional expression can lead to persistent misunderstandings if not properly addressed.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "75a010c5-e270-4504-8588-1263b90275fd",
+      "text": "Different communication styles require mutual adaptation for effective relationship dynamics.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "334836fa-578b-4d97-a12d-2dad95d5fbf6",
+      "text": "Martians emphasize self-care activities as a means of indirectly supporting Venusians.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2ab84b54-3cc1-4d91-81f9-99c585a20f05",
+      "text": "Men require periods of independence to recharge their capacity for intimacy.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d87865d2-5f3b-4c17-baad-0c75a9bef38d",
+      "text": "Male reconnection (springing back) occurs spontaneously after fulfilling autonomy needs.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "000f7ac4-063b-4ac4-ae5c-d311aebdf950",
+      "text": "Men require personal time to recharge, which prevents withdrawal and maintains intimacy.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "06feeffb-496f-48c9-a814-3efe4a1951e6",
+      "text": "Practicing active listening encourages partners to open up and share more deeply.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b1c351bc-95d6-467e-b458-968da29fb126",
+      "text": "Emotional states often surface unresolved past issues during relationship cycles.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9fba5f6e-0b15-420e-8b54-068d9cc97b85",
+      "text": "A loving relationship enables navigating emotional cycles without conflict.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7f72031b-e2c1-403b-a797-2b1b84fda276",
+      "text": "Both genders have six primary love needs, but they differ significantly.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "30100994-58bd-4be6-b68a-ca6a7e32803c",
+      "text": "Fulfilling primary needs creates receptiveness to other forms of love.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "383d2a43-8213-47f4-8006-6480c62216b8",
+      "text": "Gender-based communication styles can lead to misunderstandings and unresolved conflicts.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "edf59be1-2820-4b88-8b2e-b32fe1d33a1b",
+      "text": "Long-term relationship satisfaction depends on resolving conflicts effectively.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 33
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4917ff69-6ded-448e-b31c-ecfc95bd9cdb",
+      "text": "Common conflict-avoidance strategies include fight, flight, fake, and fold.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 33
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e27b73aa-5304-4e48-9dfd-7f344c70e62d",
+      "text": "Approval plays a critical role in maintaining healthy and lasting relationships.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2628170f-63e1-4970-974c-571d33d974be",
+      "text": "Indirect communication can lead to escalation of minor disagreements into full-blown arguments.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e300eb3f-07d4-4c84-8500-dcf658576c10",
+      "text": "Consistent validation reduces misunderstandings",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "992c63b3-e9d0-4108-b625-d87b92c10fda",
+      "text": "Small gestures of care contribute to emotional healing and relationship satisfaction.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ca408660-4474-4bfa-bb14-4b7b9e1695ef",
+      "text": "Appreciation can transform resentment into mutual love and trust.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a41b7d66-d591-4f87-8f94-42e42b6fbdae",
+      "text": "Women can mitigate men's fixation on success by focusing on daily contributions.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 39
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "daab62f8-c50c-4b0b-99dc-17cb70cec48a",
+      "text": "Gender-based differences exist in how partners perceive and handle relationship interactions.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 40
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e308d33f-b643-4340-bfd0-903896fd38c0",
+      "text": "Resentment can be managed through awareness of differing scoring mechanisms in relationships.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 40
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "64d79bc2-057e-49a8-bc51-08c859fc0108",
+      "text": "Love and appreciation are powerful drivers of relationship success and longevity.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 42
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9b53ff53-7504-415b-8e0f-c56b7f27f619",
+      "text": "Gender-specific approaches to emotional expression can be effectively bridged through conscious effort and understanding.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 42
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "51c81674-34cf-434e-8d1c-6381ce1489fd",
+      "text": "The Love Letter Technique enhances emotional processing and communication, allowing individuals to better understand and articulate their feelings.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 45
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c6fce29a-5356-43f8-bb8e-e2428e94fadb",
+      "text": "Writing letters provides a method for deepening self-awareness and improving relational dynamics through structured emotional expression.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 45
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "95fe9382-6673-463a-9822-d3cdd662893b",
+      "text": "Love Letters increase relationship satisfaction by fostering emotional intimacy.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 46
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "485a4847-4a4a-45f9-a7ee-fa567062d30f",
+      "text": "Systematic expression of feelings resolves relational conflicts faster than spontaneous arguments.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 46
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ccd45ff8-134f-450e-add9-4da5f13509d7",
+      "text": "Love can surface previously repressed emotions.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7633c35a-f1a9-40ae-9e7e-ddd8d6f1fd18",
+      "text": "Relationship conflicts can arise during periods of positivity due to unresolved issues.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "442dcf40-1423-4a88-a11e-b01c1f7ff645",
+      "text": "The printing press revolutionized the dissemination of knowledge and ideas.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fdfe38fc-900d-479a-8651-f23ca7577117",
+      "text": "Deists were marginalized despite their rational approach to religion compared to revivalists.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "238863af-5b0f-4b9d-96f9-ee2987522ef5",
+      "text": "Americans are the best entertained and least well-informed people",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 31
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9eb994ee-0fd3-45fa-b096-be4564ad9159",
+      "text": "Commercial television prioritizes entertainment over information",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 31
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "db6750d0-29a2-4f17-9afa-df2e317c2c4a",
+      "text": "Media can be a powerful tool for political influence",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4ed96f86-2e51-4d10-8b64-78e9c7375e7e",
+      "text": "Character can only be developed through real-life decision-making.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d67745d6-0b12-49ba-96f9-923209ae90e7",
+      "text": "Wisdom is enhanced by reflection, while character is honed through practical experience.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3638c56b-9031-4947-82d4-5df3a484ab3b",
+      "text": "Crisis is an inevitable part of leadership that tests and reveals competence.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 67
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e41c6b95-50a7-45c0-b6e2-945b6381b9db",
+      "text": "Leaders demonstrate competence through calm, controlled, and intelligent responses to challenges.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 67
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bc407c37-c796-4996-a9b2-ae37ddf37070",
+      "text": "Leaders should act with high personal responsibility and ownership of organizational outcomes.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 67
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b12718e5-ef02-4587-ba2b-d6169e47dee7",
+      "text": "Temperament differences attract individuals, while shared values drive long-term compatibility.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 100
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9bd8d507-af32-4c75-bf8f-cc50da6f50e1",
+      "text": "Love is intrinsically linked to value systems and can endure differences if prioritized appropriately.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 100
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3b58d617-1bdc-4d64-9251-c8bf92567b70",
+      "text": "Popularity is frequently linked to descriptions of individuals as 'nice'.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 113
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0875dc75-33fb-4810-b3b0-0529e64fc5ea",
+      "text": "Attachment to material and emotional things causes human suffering and unhappiness.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 114
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7f7fc478-f1de-4034-adf1-193d42e730f6",
+      "text": "People inherently have a need to be right, which can be overcome by prioritizing happiness.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 114
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a9a94238-4ab8-4bc9-b040-992ad5448ff4",
+      "text": "Societal structures can be oppressive",
+      "source": {
+        "book": "Notes-from-Underground-Extract",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "940299b5-7ba8-4910-b5fe-399b7939f353",
+      "text": "Excessive self-awareness can impede progress and lead to decision paralysis.",
+      "source": {
+        "book": "Notes-from-Underground-Extract",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f0b79cab-4e9a-4ac5-81c6-70f7f72ad8e1",
+      "text": "Individuals with heightened awareness often face internal struggles that affect their well-being.",
+      "source": {
+        "book": "Notes-from-Underground-Extract",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c54df237-d3fd-4315-93e9-0bb60b13ab50",
+      "text": "Resentment, when unaddressed, can perpetuate psychological harm over time.",
+      "source": {
+        "book": "Notes-from-Underground-Extract",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f3fea199-2a87-4e3e-b0ea-4371da4b17c8",
+      "text": "Walls and inherent laws are part of the natural order and cannot be altered through personal preference alone.",
+      "source": {
+        "book": "Notes-from-Underground-Extract",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8dd57a5a-106f-452a-ad76-7150e953452b",
+      "text": "Financial discipline prevents catastrophic debt",
+      "source": {
+        "book": "Crime",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a94ae6f0-07a5-416f-b3ac-a2d17290c65a",
+      "text": "Creative work under pressure can produce depth",
+      "source": {
+        "book": "Crime",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "56f98f5e-a406-4fe5-b15b-c6cf7220de35",
+      "text": "Extended periods of emotional turmoil can lead to physical discomfort",
+      "source": {
+        "book": "Crime",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "83f0b58b-deda-40df-b0fd-22fcb9f87142",
+      "text": "Life is fundamentally a series of negotiations",
+      "source": {
+        "book": "E001005",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b1714eb6-92e0-417f-8511-89ef989396df",
+      "text": "Tactical empathy is an effective approach to gaining access to others' minds",
+      "source": {
+        "book": "E001005",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "19044805-3315-48a3-9d3a-8954dc34fa2a",
+      "text": "Mastering negotiation can empower individuals to control and influence key conversations in their lives.",
+      "source": {
+        "book": "E001005",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1b3defcb-0345-461b-960a-866a49a2e29d",
+      "text": "Uncertain situations often involve deceptive elements that can be revealed through careful analysis.",
+      "source": {
+        "book": "E001005",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e50e4965-e98e-4ecd-adb6-8975456677fc",
+      "text": "Early intelligence in negotiations can be accurate or misleading, requiring verification over time.",
+      "source": {
+        "book": "E001005",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5d32b96d-e13a-410b-a8cd-eaa8401767a8",
+      "text": "Great negotiators possess refined skills in communication and empathy, which can be learned and applied.",
+      "source": {
+        "book": "E001005",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "703051bb-16e1-4489-84f5-4be2e71faa5b",
+      "text": "Mirroring is an effective technique that leverages similarity to build trust and defuse potential conflicts.",
+      "source": {
+        "book": "E001005",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8b787efc-563e-4aaf-8389-0b1c8104066a",
+      "text": "The 'accusation audit' technique, when applied systematically, can lead to successful resolution of complex negotiations.",
+      "source": {
+        "book": "E001005",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "06f80da9-cec6-4b7c-9ef7-7a1df5ff1de6",
+      "text": "Social intelligence is essential for achieving sustainable mastery and success.",
+      "source": {
+        "book": "Mastery by Robert Greene",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bc5de0ed-1215-4a37-888d-42102c3f37d2",
+      "text": "True mastery involves internalizing and transforming established rules to suit personal inclinations.",
+      "source": {
+        "book": "Mastery by Robert Greene",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8d5db03c-2075-4362-8825-9f01c6e81b6f",
+      "text": "True happiness and fulfillment come from self-reliance and independent action.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 76
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4aea376c-88b3-4234-9a5b-ce3d9e15e0e6",
+      "text": "Small, well-constituted things hold more value than grand but flawed achievements.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 76
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5a46ab9d-917a-4669-a7e7-ab889ff3de71",
+      "text": "Individuals can maintain a harmonious dual existence by aligning their public persona with their core identity, though this requires ongoing effort.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 40
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ad830e3d-9e92-4fb5-bebe-9ef4cd0e3338",
+      "text": "Marriage is a significant commitment that requires careful consideration, but not excessive constraint",
+      "source": {
+        "book": "the_magic_of_thinking_big",
+        "chapter": 40
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 566,
+    "last_updated": "2026-02-13T19:53:11.036008Z",
+    "aggregated_from": [
+      {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 14
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 17
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 9
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 9
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 20
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 26
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 52
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 57
+      },
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 59
+      },
+      {
+        "book": "33449",
+        "chapter": 2
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 16
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 23
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 30
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 47
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 59
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 60
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 61
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 70
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 71
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 80
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 86
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 87
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 90
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 91
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 107
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 108
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 127
+      },
+      {
+        "book": "Being in Love",
+        "chapter": 1
+      },
+      {
+        "book": "Being in Love",
+        "chapter": 6
+      },
+      {
+        "book": "Being in Love",
+        "chapter": 11
+      },
+      {
+        "book": "Being in Love",
+        "chapter": 16
+      },
+      {
+        "book": "Being in Love",
+        "chapter": 20
+      },
+      {
+        "book": "Being in Love",
+        "chapter": 26
+      },
+      {
+        "book": "Being in Love",
+        "chapter": 28
+      },
+      {
+        "book": "Being in Love",
+        "chapter": 29
+      },
+      {
+        "book": "Being in Love",
+        "chapter": 30
+      },
+      {
+        "book": "Being in Love",
+        "chapter": 31
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 5
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 6
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 16
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 19
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 21
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 22
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 24
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 25
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 26
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 27
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 28
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 30
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 33
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 40
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 42
+      },
+      {
+        "book": "CAMUS, Albert - The Stranger",
+        "chapter": 1
+      },
+      {
+        "book": "CAMUS, Albert - The Stranger",
+        "chapter": 4
+      },
+      {
+        "book": "CAMUS, Albert - The Stranger",
+        "chapter": 8
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 10
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 13
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 14
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 17
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 18
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 22
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 23
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 24
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 3
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 5
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 6
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 8
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 9
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 10
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 11
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 12
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 13
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 14
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 17
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 21
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 22
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 24
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 25
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 26
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 27
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 28
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 29
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 30
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 31
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 32
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 33
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 34
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 35
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 36
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 37
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 38
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 39
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 41
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 42
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 43
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 44
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 47
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 48
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 50
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 52
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 54
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 55
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 56
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 57
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 58
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 59
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 60
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 62
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 70
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 71
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 12
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 18
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 21
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 41
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 3
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 23
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 33
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 40
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 44
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 53
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 54
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 56
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 1
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 2
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 6
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 9
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 10
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 11
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 14
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 26
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 27
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 7
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 8
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 9
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 10
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 13
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 17
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 23
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 24
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 28
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 29
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 30
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 32
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 33
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 35
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 9
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 25
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 35
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 58
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 61
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 66
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 80
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 81
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 83
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 88
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 90
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 3
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 7
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 16
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 46
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 52
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 53
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 57
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 76
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 10
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 11
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 12
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 28
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 38
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 47
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 62
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 63
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 67
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 72
+      },
+      {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 4
+      },
+      {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 4
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 23
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 24
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 25
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 28
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 29
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 35
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 37
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 40
+      },
+      {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 2
+      },
+      {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 16
+      },
+      {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 20
+      },
+      {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 24
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 2
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 3
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 4
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 5
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 7
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 8
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 11
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 12
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 13
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 15
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 18
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 20
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 21
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 22
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 23
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 25
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 26
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 29
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 30
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 32
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 33
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 34
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 35
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 38
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 39
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 40
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 42
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 45
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 46
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 52
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 16
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 31
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 47
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 22
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 67
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 100
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 113
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 114
+      },
+      {
+        "book": "Notes-from-Underground-Extract",
+        "chapter": 2
+      },
+      {
+        "book": "Notes-from-Underground-Extract",
+        "chapter": 5
+      },
+      {
+        "book": "Notes-from-Underground-Extract",
+        "chapter": 6
+      },
+      {
+        "book": "Notes-from-Underground-Extract",
+        "chapter": 8
+      },
+      {
+        "book": "Crime",
+        "chapter": 1
+      },
+      {
+        "book": "Crime",
+        "chapter": 7
+      },
+      {
+        "book": "E001005",
+        "chapter": 5
+      },
+      {
+        "book": "E001005",
+        "chapter": 6
+      },
+      {
+        "book": "E001005",
+        "chapter": 11
+      },
+      {
+        "book": "E001005",
+        "chapter": 12
+      },
+      {
+        "book": "E001005",
+        "chapter": 15
+      },
+      {
+        "book": "Mastery by Robert Greene",
+        "chapter": 4
+      },
+      {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 76
+      },
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 40
+      },
+      {
+        "book": "the_magic_of_thinking_big",
+        "chapter": 40
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "domain": "Social Influence",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "0931cf33-de29-4a6b-a455-c870845e3820",
+      "text": "Give to encourage giving back.",
+      "source": {
+        "book": "The Psychology of Persuasion",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7fe4d221-6aed-4eaf-a77c-329abe039aa3",
+      "text": "The initial gift creates an obligation.",
+      "source": {
+        "book": "The Psychology of Persuasion",
+        "chapter": 7
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T08:54:07.998906Z",
+    "aggregated_from": [
+      {
+        "book": "The Psychology of Persuasion",
+        "chapter": 7
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "domain": "Emotional Intelligence",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "ea270e21-8c8f-4685-80f0-10058ff0c18f",
+      "text": "Avoid Immediate Criticism of Partner's Feelings",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6f42aa97-aa35-4d34-8edc-21c17314b929",
+      "text": "Acknowledge Processing Time for Emotional Impact",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "26469c02-e6aa-49e2-8329-ee7b167cb187",
+      "text": "Maintain Non-Judgmental Stance During Vulnerability",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8611c95d-9414-4c43-9c3c-0564938d0632",
+      "text": "Fear of criticism can paralyze action and prevent personal growth.",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a4753434-b148-46ca-ae69-8d8c7c6280dc",
+      "text": "Internalizing negativity from others can create unnecessary emotional distress.",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 24
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 5,
+    "last_updated": "2026-02-13T11:31:39.378910Z",
+    "aggregated_from": [
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 24
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "domain": "Learning",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "24ae48ee-c22a-4e17-8466-e8a674ca930b",
+      "text": "Limit speech in the presence of the 'day' (perhaps representing a higher power or a moment of truth).",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b3d7d8e0-d886-4c9b-a1d3-c911c5dfc8f4",
+      "text": "Team members must feel psychologically safe to raise concerns or speak up.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 71
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9b1d60fd-aacf-4159-b807-a82920651866",
+      "text": "Leaders should actively seek diverse perspectives to enhance psychological safety.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 71
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T20:50:12.118230Z",
+    "aggregated_from": [
+      {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 50
+      },
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 71
+      }
+    ]
+  }
+}

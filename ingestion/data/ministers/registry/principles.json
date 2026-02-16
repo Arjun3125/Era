@@ -1,0 +1,51 @@
+{
+  "domain": "registry",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "7f5cefa1-f382-445b-9246-3347ecbe4696",
+      "text": "Boundaries must be respected to maintain operational integrity",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 48
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "07869675-b798-4d0a-b0e1-da447a6384ec",
+      "text": "Understand audience preferences to enhance engagement",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d3f7b025-c563-4744-971b-8afb89597ec8",
+      "text": "Respect user data privacy",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 93
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-12T21:57:43.556376Z",
+    "aggregated_from": [
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 48
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 1
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 93
+      }
+    ]
+  }
+}

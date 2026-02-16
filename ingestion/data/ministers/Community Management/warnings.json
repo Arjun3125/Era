@@ -1,0 +1,34 @@
+{
+  "domain": "Community Management",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "779d9526-aa18-4854-ba26-b20187e669d5",
+      "text": "Failure to subscribe may result in missing valuable content",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ee356be2-6b61-43f2-be11-c05b8792ee32",
+      "text": "Unclear subscription processes may deter community growth",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 32
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T11:15:28.459516Z",
+    "aggregated_from": [
+      {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 32
+      }
+    ]
+  }
+}

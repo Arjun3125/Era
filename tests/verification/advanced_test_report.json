@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-02-14T04:46:29.738770",
+  "summary": {
+    "total_tests": 35,
+    "passed": 34,
+    "failed": 1,
+    "pass_rate": "97.1%",
+    "total_time_ms": 3.78
+  },
+  "by_category": {
+    "Basic": {
+      "passed": 3,
+      "total": 3
+    },
+    "Modes": {
+      "passed": 4,
+      "total": 4
+    },
+    "Emotions": {
+      "passed": 6,
+      "total": 6
+    },
+    "Domains": {
+      "passed": 5,
+      "total": 5
+    },
+    "Responses": {
+      "passed": 4,
+      "total": 5
+    },
+    "State": {
+      "passed": 2,
+      "total": 2
+    },
+    "Edge Cases": {
+      "passed": 5,
+      "total": 5
+    },
+    "Strategies": {
+      "passed": 3,
+      "total": 3
+    },
+    "Integration": {
+      "passed": 1,
+      "total": 1
+    },
+    "Metrics": {
+      "passed": 1,
+      "total": 1
+    }
+  },
+  "features": [
+    "All Persona Modes",
+    "Emotional Intelligence",
+    "Domain Classification",
+    "Response Types",
+    "State Management",
+    "Edge Cases",
+    "Strategies",
+    "Multi-Agent Integration",
+    "Telemetry"
+  ]
+}

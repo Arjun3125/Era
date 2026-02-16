@@ -1,0 +1,34 @@
+{
+  "domain": "Persuasion",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "0fd1f26f-b308-4031-9821-431a6e762719",
+      "text": "Understand factors influencing compliance",
+      "source": {
+        "book": "The Psychology of Persuasion",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "243608f8-1fbf-46e6-bcac-2d7a959b1e71",
+      "text": "Systematic observation enhances understanding",
+      "source": {
+        "book": "The Psychology of Persuasion",
+        "chapter": 2
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T08:54:08.534631Z",
+    "aggregated_from": [
+      {
+        "book": "The Psychology of Persuasion",
+        "chapter": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,789 @@
+[
+  {
+    "chapter_index": 1,
+    "chapter_title": null,
+    "domains": [
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 2,
+    "chapter_title": null,
+    "domains": [
+      "Leadership",
+      "Personal Development"
+    ],
+    "principles": [
+      "Understand others to build influence",
+      "Leverage shared values for collaboration"
+    ],
+    "rules": [
+      "Build collaborative networks to achieve goals"
+    ],
+    "claims": [
+      "Influence is a fundamental driver of personal and organizational success"
+    ],
+    "warnings": [
+      "Context matters in influence; consider ethical implications"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0112,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 3,
+    "chapter_title": null,
+    "domains": [
+      "Leadership",
+      "Personal Development"
+    ],
+    "principles": [
+      "Influence stems from personal connections and shared experiences.",
+      "Everyone has the potential to influence others through their interactions."
+    ],
+    "rules": [
+      "Influence develops gradually through repeated interactions.",
+      "The influence of any individual is amplified by the people they impact."
+    ],
+    "claims": [
+      "Every person, regardless of profession or status, has inherent influence.",
+      "Influence is a universal human capacity that exists in all relationships."
+    ],
+    "warnings": [
+      "Underestimating one's influence can limit personal effectiveness.",
+      "Lack of awareness about one's influence does not negate its existence."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0169,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 4,
+    "chapter_title": null,
+    "domains": [
+      "executor",
+      "registry"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 5,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "registry"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 6,
+    "chapter_title": null,
+    "domains": [
+      "Business Ethics",
+      "Personal Development"
+    ],
+    "principles": [
+      "Honesty in all dealings",
+      "Transparency in actions",
+      "Long-term value over short-term gains",
+      "Consistency in ethical behavior"
+    ],
+    "rules": [
+      "Be transparent in all professional and personal interactions",
+      "Maintain integrity even in small or seemingly insignificant matters",
+      "Value reputation and trust above convenience or expediency"
+    ],
+    "claims": [
+      "Integrity is essential for influence and success",
+      "Ethical behavior leads to sustainable professional and personal fulfillment",
+      "The consequences of unethical behavior outweigh any immediate benefits"
+    ],
+    "warnings": [
+      "Lack of integrity leads to diminished trust and potential failure",
+      "Even seemingly minor ethical lapses can accumulate and lead to significant consequences",
+      "Short-term gains from unethical behavior are often temporary and come at a high cost"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0026,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 7,
+    "chapter_title": null,
+    "domains": [
+      "base"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 8,
+    "chapter_title": null,
+    "domains": [
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 9,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "executor",
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 10,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Maintaining high morale enhances resilience and the ability to overcome challenges.",
+      "Self-esteem is foundational to personal motivation and success across life domains."
+    ],
+    "rules": [
+      "Actively encourage others to foster their self-esteem and sense of belonging.",
+      "Prioritize others' needs and emotional well-being in decision-making."
+    ],
+    "claims": [
+      "Low self-esteem creates invisible barriers to achieving personal potential.",
+      "Self-confidence has a greater impact on academic achievement than IQ."
+    ],
+    "warnings": [
+      "Insufficient encouragement can lead to missed opportunities and personal underperformance.",
+      "Negative self-perception can limit individuals' attempts to exceed self-imposed limitations."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0049,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 11,
+    "chapter_title": null,
+    "domains": [
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 12,
+    "chapter_title": null,
+    "domains": [
+      "executor",
+      "power",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 13,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "psychology",
+      "registry"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 14,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Effective listening requires focused attention and present-moment awareness.",
+      "Developing listening skills is foundational to effective communication and leadership."
+    ],
+    "rules": [
+      "Maintain eye contact during conversations to enhance comprehension.",
+      "Avoid making assumptions about individuals based on group stereotypes.",
+      "Prioritize listening over personal concerns or distractions during interactions.",
+      "Resolve personal emotional biases before engaging in active listening."
+    ],
+    "claims": [
+      "Active listening improves comprehension and reduces misunderstandings.",
+      "The majority of daily communication time is spent listening (45%)."
+    ],
+    "warnings": [
+      "Failing to listen effectively can lead to miscommunication and relationship breakdowns.",
+      "Unresolved personal biases can distort perception and hinder effective listening.",
+      "Overcoming egocentrism is essential to avoid missing critical information."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0034,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 15,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 16,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "legitimacy",
+      "psychology"
+    ],
+    "principles": [
+      "Understanding others' perspectives leads to effective collaboration.",
+      "Overcoming egocentrism improves decision-making."
+    ],
+    "rules": [
+      "Assume ideas will be rejected unless proven otherwise.",
+      "Maintain authority to discourage suggestions.",
+      "Prioritize clarity to avoid misunderstandings."
+    ],
+    "claims": [
+      "Fear of rejection suppresses employee innovation.",
+      "Unclear communication reduces productivity."
+    ],
+    "warnings": [
+      "Fear creates cycles of avoidance and reduced productivity.",
+      "Egocentrism leads to poor strategic alignment."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.018,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 17,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "executor"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 18,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "constraints",
+      "registry"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 19,
+    "chapter_title": null,
+    "domains": [
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 20,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "data",
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 21,
+    "chapter_title": null,
+    "domains": [
+      "conflict"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 22,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Focus on others' internal states and perspectives to effectively influence and solve problems."
+    ],
+    "rules": [
+      "Develop problem-solving skills through practice and mentorship.",
+      "Maintain patience and persistence when facing obstacles to achieve goals."
+    ],
+    "claims": [
+      "True friendship is characterized by active listening, support, correction, and celebration of success."
+    ],
+    "warnings": [
+      "Failure to adapt and develop problem-solving abilities may result in missed opportunities or failure to achieve desired outcomes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0044,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 23,
+    "chapter_title": null,
+    "domains": [
+      "executor",
+      "registry"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 24,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "power",
+      "psychology"
+    ],
+    "principles": [
+      "Relationships are built through active engagement and shared understanding.",
+      "Effective communication requires adaptation to others' perspectives and motivations."
+    ],
+    "rules": [
+      "Leaders must initiate contact to build connections.",
+      "Communication should align with the recipient's personality type for effectiveness."
+    ],
+    "claims": [
+      "The ability to understand and meet others' needs enhances influence.",
+      "There are four primary personality types: Sanguine, Melancholic, Phlegmatic, and Choleric."
+    ],
+    "warnings": [
+      "Failing to initiate contact prevents meaningful connections.",
+      "Ineffective adaptation to personality differences reduces relationship-building success."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0031,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 25,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "power",
+      "psychology"
+    ],
+    "principles": [
+      "Invest time in relationships to build influence and trust.",
+      "Empower others by providing opportunities and support.",
+      "Strong connections create environments for shared growth and success."
+    ],
+    "rules": [
+      "Make judgment calls in service interactions without rigid rules.",
+      "Communicate vision to align others with shared goals.",
+      "Allow flexibility in processes to accommodate unique situations."
+    ],
+    "claims": [
+      "Strengthening others multiplies influence and creates cascading impact.",
+      "Great service stems from treating people as valued partners.",
+      "Relationships built on trust outperform transactional connections."
+    ],
+    "warnings": [
+      "Rigid systems can undermine relationships by treating people as cases.",
+      "Lack of active listening creates missed opportunities for connection.",
+      "Focusing solely on outcomes neglects the relational foundation."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0059,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 26,
+    "chapter_title": null,
+    "domains": [
+      "executor",
+      "psychology"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 27,
+    "chapter_title": null,
+    "domains": [
+      "registry",
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 28,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Empower individuals by transferring authority and enabling independent action.",
+      "Leadership growth occurs through delegation of responsibility and opportunities for success."
+    ],
+    "rules": [
+      "Delegate tasks when others can perform them with at least 80% effectiveness.",
+      "Address errors and challenges privately while providing constructive feedback.",
+      "Show confidence publicly to build trust and legitimacy."
+    ],
+    "claims": [
+      "Effective empowerment leads to organizational growth and improved performance."
+    ],
+    "warnings": [
+      "Failure to empower others may limit organizational potential.",
+      "Rushing delegation without proper preparation can lead to suboptimal outcomes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0025,
+      "extracted_chunks": 0,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 29,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "strategy",
+      "timing"
+    ],
+    "principles": [
+      "Leadership development requires internal transformation.",
+      "Team focus enables sustainable growth."
+    ],
+    "rules": [
+      "Assess team development using the five-stage model.",
+      "Develop leaders through intentional mentorship and empowerment."
+    ],
+    "claims": [
+      "70% of leaders fail to develop others effectively.",
+      "Effective leadership development creates a multiplier effect."
+    ],
+    "warnings": [
+      "Short-term fixes lead to high turnover and organizational decay.",
+      "Passive leadership development creates unsustainable growth."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0061,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 30,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 0,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 31,
+    "chapter_title": null,
+    "domains": [
+      "executor",
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  }
+]

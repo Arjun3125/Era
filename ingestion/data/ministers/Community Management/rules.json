@@ -1,0 +1,34 @@
+{
+  "domain": "Community Management",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "6a82b919-25c3-4f0b-a8fd-cbe32b16f10c",
+      "text": "Subscribers must provide clear subscription instructions",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "48cae8fb-28e2-4c2e-98af-13a39183c6f0",
+      "text": "Direct communication with the author is required for subscription",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 32
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T11:15:28.401907Z",
+    "aggregated_from": [
+      {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 32
+      }
+    ]
+  }
+}

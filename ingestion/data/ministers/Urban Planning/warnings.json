@@ -1,0 +1,34 @@
+{
+  "domain": "Urban Planning",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "25fc0e76-2d4c-4533-867c-afb688f27f4d",
+      "text": "Environmental neglect leads to irreversible decline, as seen in the desertification of ancient cities.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cdf972b1-4688-432a-852c-93fd0ae2b4a8",
+      "text": "Governance failures in resource management can result in societal collapse.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 30
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-14T19:55:37.162772Z",
+    "aggregated_from": [
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 30
+      }
+    ]
+  }
+}

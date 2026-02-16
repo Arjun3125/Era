@@ -1,0 +1,34 @@
+{
+  "domain": "Finance",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "e19c55cd-9cb0-4469-9d0e-760de13c1732",
+      "text": "Avoid letting success or early successes inflate one's ego.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bc27b856-a329-493e-9d1f-f835e61e9c11",
+      "text": "Continuously seek feedback and remain open to learning, even from setbacks.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 18
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T09:33:15.736835Z",
+    "aggregated_from": [
+      {
+        "book": "The_Psychology_of_Money",
+        "chapter": 18
+      }
+    ]
+  }
+}

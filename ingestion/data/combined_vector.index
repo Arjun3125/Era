@@ -1,0 +1,308 @@
+{
+  "domain": "all",
+  "combined": true,
+  "domains_included": [
+    "Archetype Theory",
+    "Books and Publishing",
+    "Business Innovation",
+    "Communication",
+    "Conflict Resolution",
+    "Creative Process",
+    "Creativity & Writing",
+    "Decision Making",
+    "Deep Work",
+    "Economics",
+    "Emotional Intelligence",
+    "Existential Reflections",
+    "Leadership",
+    "Mental Well-being",
+    "Narrative",
+    "Performance",
+    "Personal Development",
+    "Physics",
+    "Productivity",
+    "Psychological Development",
+    "Reflection & Growth",
+    "Relationship Dynamics",
+    "Relationship Dynamics & Communication",
+    "Scientific Methodology",
+    "Stress Management",
+    "Time Management",
+    "Time Management & Scheduling",
+    "adaptation",
+    "base",
+    "belief",
+    "cash_flow",
+    "choice",
+    "collaboration",
+    "conflict",
+    "constraint",
+    "constraints",
+    "credibility",
+    "data",
+    "decision",
+    "diplomacy",
+    "discipline",
+    "execution",
+    "executor",
+    "finance",
+    "home ownership",
+    "investing",
+    "legitimacy",
+    "optionality",
+    "personal finance",
+    "power",
+    "psychology",
+    "registry",
+    "risk",
+    "rules",
+    "strategy",
+    "technology",
+    "time",
+    "timing",
+    "truth"
+  ],
+  "domain_statistics": {
+    "adaptation": {
+      "total_entries": 3788,
+      "last_updated": "2026-02-13T03:57:59.431775Z"
+    },
+    "Archetype Theory": {
+      "total_entries": 8,
+      "last_updated": "2026-02-13T00:16:07.538443Z"
+    },
+    "base": {
+      "total_entries": 720,
+      "last_updated": "2026-02-12T20:51:33.591416Z"
+    },
+    "belief": {
+      "total_entries": 4,
+      "last_updated": "2026-02-13T00:15:45.770050Z"
+    },
+    "Books and Publishing": {
+      "total_entries": 7,
+      "last_updated": "2026-02-12T19:44:07.147454Z"
+    },
+    "Business Innovation": {
+      "total_entries": 8,
+      "last_updated": "2026-02-12T15:03:21.220518Z"
+    },
+    "cash_flow": {
+      "total_entries": 11,
+      "last_updated": "2026-02-12T19:44:27.376459Z"
+    },
+    "choice": {
+      "total_entries": 8,
+      "last_updated": "2026-02-12T11:27:18.493089Z"
+    },
+    "collaboration": {
+      "total_entries": 600,
+      "last_updated": "2026-02-12T17:15:19.149783Z"
+    },
+    "Communication": {
+      "total_entries": 20,
+      "last_updated": "2026-02-13T02:16:56.487343Z"
+    },
+    "conflict": {
+      "total_entries": 2446,
+      "last_updated": "2026-02-13T03:58:03.375836Z"
+    },
+    "Conflict Resolution": {
+      "total_entries": 37,
+      "last_updated": "2026-02-13T02:16:54.590829Z"
+    },
+    "constraint": {
+      "total_entries": 8,
+      "last_updated": "2026-02-12T19:44:24.585750Z"
+    },
+    "constraints": {
+      "total_entries": 3254,
+      "last_updated": "2026-02-13T03:58:22.987715Z"
+    },
+    "Creative Process": {
+      "total_entries": 15,
+      "last_updated": "2026-02-12T13:18:41.952140Z"
+    },
+    "Creativity & Writing": {
+      "total_entries": 13,
+      "last_updated": "2026-02-12T13:18:44.117546Z"
+    },
+    "credibility": {
+      "total_entries": 10,
+      "last_updated": "2026-02-13T02:42:19.038134Z"
+    },
+    "data": {
+      "total_entries": 1141,
+      "last_updated": "2026-02-13T03:58:03.843681Z"
+    },
+    "decision": {
+      "total_entries": 8,
+      "last_updated": "2026-02-12T22:50:38.660949Z"
+    },
+    "Decision Making": {
+      "total_entries": 8,
+      "last_updated": "2026-02-12T20:21:07.201524Z"
+    },
+    "Deep Work": {
+      "total_entries": 10,
+      "last_updated": "2026-02-12T17:15:19.327947Z"
+    },
+    "diplomacy": {
+      "total_entries": 122,
+      "last_updated": "2026-02-13T02:16:46.959638Z"
+    },
+    "discipline": {
+      "total_entries": 3145,
+      "last_updated": "2026-02-13T03:51:43.362479Z"
+    },
+    "Economics": {
+      "total_entries": 8,
+      "last_updated": "2026-02-12T09:19:22.773840Z"
+    },
+    "Emotional Intelligence": {
+      "total_entries": 12,
+      "last_updated": "2026-02-13T02:16:54.726687Z"
+    },
+    "execution": {
+      "total_entries": 92,
+      "last_updated": "2026-02-12T17:15:19.460191Z"
+    },
+    "executor": {
+      "total_entries": 664,
+      "last_updated": "2026-02-13T03:51:08.897803Z"
+    },
+    "Existential Reflections": {
+      "total_entries": 15,
+      "last_updated": "2026-02-12T13:18:42.205443Z"
+    },
+    "finance": {
+      "total_entries": 9,
+      "last_updated": "2026-02-12T06:42:08.760739Z"
+    },
+    "home ownership": {
+      "total_entries": 9,
+      "last_updated": "2026-02-12T06:42:08.924629Z"
+    },
+    "investing": {
+      "total_entries": 9,
+      "last_updated": "2026-02-12T06:42:09.049241Z"
+    },
+    "Leadership": {
+      "total_entries": 7,
+      "last_updated": "2026-02-12T11:27:37.749122Z"
+    },
+    "legitimacy": {
+      "total_entries": 779,
+      "last_updated": "2026-02-13T03:58:04.038807Z"
+    },
+    "Mental Well-being": {
+      "total_entries": 15,
+      "last_updated": "2026-02-12T13:18:42.434134Z"
+    },
+    "Narrative": {
+      "total_entries": 8,
+      "last_updated": "2026-02-12T20:21:07.306323Z"
+    },
+    "optionality": {
+      "total_entries": 2255,
+      "last_updated": "2026-02-13T03:58:23.021602Z"
+    },
+    "Performance": {
+      "total_entries": 8,
+      "last_updated": "2026-02-12T11:27:37.379552Z"
+    },
+    "Personal Development": {
+      "total_entries": 44,
+      "last_updated": "2026-02-13T03:50:58.333428Z"
+    },
+    "personal finance": {
+      "total_entries": 9,
+      "last_updated": "2026-02-12T06:42:09.196325Z"
+    },
+    "Physics": {
+      "total_entries": 8,
+      "last_updated": "2026-02-12T15:03:21.360405Z"
+    },
+    "power": {
+      "total_entries": 2407,
+      "last_updated": "2026-02-13T03:51:39.575509Z"
+    },
+    "Productivity": {
+      "total_entries": 8,
+      "last_updated": "2026-02-13T03:50:58.409138Z"
+    },
+    "Psychological Development": {
+      "total_entries": 8,
+      "last_updated": "2026-02-13T00:16:07.651983Z"
+    },
+    "psychology": {
+      "total_entries": 6620,
+      "last_updated": "2026-02-13T03:58:03.655722Z"
+    },
+    "Reflection & Growth": {
+      "total_entries": 13,
+      "last_updated": "2026-02-12T13:18:44.455550Z"
+    },
+    "registry": {
+      "total_entries": 14,
+      "last_updated": "2026-02-12T21:57:43.599666Z"
+    },
+    "Relationship Dynamics": {
+      "total_entries": 8,
+      "last_updated": "2026-02-13T02:16:56.605795Z"
+    },
+    "Relationship Dynamics & Communication": {
+      "total_entries": 25,
+      "last_updated": "2026-02-12T21:57:41.112370Z"
+    },
+    "risk": {
+      "total_entries": 6222,
+      "last_updated": "2026-02-13T03:58:23.100366Z"
+    },
+    "rules": {
+      "total_entries": 9,
+      "last_updated": "2026-02-12T15:03:10.860629Z"
+    },
+    "Scientific Methodology": {
+      "total_entries": 8,
+      "last_updated": "2026-02-12T15:03:21.500605Z"
+    },
+    "strategy": {
+      "total_entries": 4919,
+      "last_updated": "2026-02-13T03:58:04.171532Z"
+    },
+    "Stress Management": {
+      "total_entries": 25,
+      "last_updated": "2026-02-12T21:57:41.532206Z"
+    },
+    "technology": {
+      "total_entries": 1304,
+      "last_updated": "2026-02-13T02:42:26.994511Z"
+    },
+    "time": {
+      "total_entries": 9,
+      "last_updated": "2026-02-12T20:21:00.362814Z"
+    },
+    "Time Management": {
+      "total_entries": 8,
+      "last_updated": "2026-02-12T11:27:37.647594Z"
+    },
+    "Time Management & Scheduling": {
+      "total_entries": 25,
+      "last_updated": "2026-02-12T21:57:41.902396Z"
+    },
+    "timing": {
+      "total_entries": 1398,
+      "last_updated": "2026-02-13T03:51:29.516164Z"
+    },
+    "truth": {
+      "total_entries": 589,
+      "last_updated": "2026-02-13T03:58:03.831828Z"
+    }
+  },
+  "metadata": {
+    "created": "2026-02-13T03:58:23.475446Z",
+    "total_domains": 59,
+    "total_entries": 42961
+  }
+}

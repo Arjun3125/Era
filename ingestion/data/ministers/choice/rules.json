@@ -1,0 +1,34 @@
+{
+  "domain": "choice",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "68ee7ff3-6292-4c91-bee6-96787b288cb1",
+      "text": "Prioritize efforts on controllable aspects to maximize effectiveness.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9f0e470b-7d7e-4f39-bfb6-4b1d047b3a09",
+      "text": "Set clear boundaries to protect time and energy for high-impact activities.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 4
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T11:27:18.434420Z",
+    "aggregated_from": [
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 4
+      }
+    ]
+  }
+}

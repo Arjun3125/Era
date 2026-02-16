@@ -1,0 +1,52 @@
+{
+  "domain": "Creative Process",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "1614c0d7-9f7c-4cc3-ac40-de6b0bcfcbc1",
+      "text": "{'domain': 'Existential Reflections', 'claim': 'Life inherently involves disappointment, which is unavoidable and unchangeable.', 'generalized': 'Disappointment is a fundamental aspect of the human condition, universally experienced.'}",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "47e27a13-4338-41dc-aab6-564b9ab8972d",
+      "text": "{'domain': 'Mental Well-being', 'claim': 'Imaginary or self-inflicted emotional pain is often perceived as more real than external suffering.', 'generalized': 'Internal, persistent emotional distress can feel as profound or even more real than objective external pain.'}",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c76555a1-4e96-4fde-b95b-a540a52a72e0",
+      "text": "{'domain': 'Creative Process', 'claim': \"The state of 'exhaustion' in art paradoxically makes it both difficult and easier to produce.\", 'generalized': 'When a field is depleted or fatigued, its creation becomes simultaneously harder to innovate and easier to replicate.'}",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "643ae7ab-10b2-405d-8810-a6de7ac5ab0a",
+      "text": "{'domain': 'Existential Reflections', 'claim': \"Meaning is derived from navigating and confronting the 'terrible' core of existence.\", 'generalized': 'Deep understanding or purpose arises from grappling with fundamental existential challenges.'}",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 8
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 4,
+    "last_updated": "2026-02-12T13:18:41.895451Z",
+    "aggregated_from": [
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 8
+      }
+    ]
+  }
+}

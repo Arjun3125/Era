@@ -1,0 +1,34 @@
+{
+  "domain": "Physics",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "bad8f0bf-630a-4378-89da-c0f728223320",
+      "text": "Unclear delegation can lead to project failures",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 84
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2bdfecee-8ac4-4796-9307-f8f242bf658e",
+      "text": "Incomplete theories without clear principles may hinder progress",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 84
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T15:03:21.360405Z",
+    "aggregated_from": [
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 84
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "domain": "constraint",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "a11ea08b-28ca-45fd-89f6-1e40cfbee18e",
+      "text": "Proactive management can lead to increased profitability.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6d6e3882-8339-445e-938d-7098367514c7",
+      "text": "Wage slavery reduces motivation to pursue wealth.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 22
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T19:44:24.558062Z",
+    "aggregated_from": [
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 22
+      }
+    ]
+  }
+}

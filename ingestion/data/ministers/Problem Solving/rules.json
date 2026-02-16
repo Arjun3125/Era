@@ -1,0 +1,34 @@
+{
+  "domain": "Problem Solving",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "6ae24a6d-dda2-43b5-baf4-f76b0fa410d6",
+      "text": "Paraphrase to confirm understanding.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "814e4e0c-5671-42d3-8fdc-fc614426aa40",
+      "text": "Assume positive intent initially.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 21
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T20:50:12.259687Z",
+    "aggregated_from": [
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 21
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "domain": "Economics",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "06da2196-0ff9-479c-91f9-f8df501ee3ec",
+      "text": "Overvaluing possessions due to endowment effect",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 49
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a4b6af62-b387-45b2-abad-eb6b32ccf9f5",
+      "text": "Cultural factors influence economic decision-making",
+      "source": {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 49
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T09:19:22.773840Z",
+    "aggregated_from": [
+      {
+        "book": "2950_Daniel Kahneman - Thinking, Fast and Slow (2013)",
+        "chapter": 49
+      }
+    ]
+  }
+}

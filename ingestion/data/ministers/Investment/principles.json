@@ -1,0 +1,43 @@
+{
+  "domain": "Investment",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "dfb11404-0499-45c7-bd0e-f1b7b742a64f",
+      "text": "Recognize the difference between 'enough' and excess wealth.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "508c84d7-3aff-4bf1-92ff-8d3a3f94f346",
+      "text": "Understand that luck plays a significant role in success, but risk is equally important.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "34e9d77a-ec34-4d21-99de-d20659daee64",
+      "text": "Avoid overvaluing past successes or current wealth when making future decisions.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 13
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T09:33:15.467106Z",
+    "aggregated_from": [
+      {
+        "book": "The_Psychology_of_Money",
+        "chapter": 13
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "domain": "Digital Preservation",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "ce6e6000-a370-4fa6-96b3-ed6624d2dc1b",
+      "text": "Prioritize accessibility and discovery of information.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "99c08dff-9309-49cf-a3bf-0dde23cfb873",
+      "text": "Emphasize collaboration between technology and cultural institutions.",
+      "source": {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T12:26:31.788416Z",
+    "aggregated_from": [
+      {
+        "book": "crowdastudypopu00bongoog",
+        "chapter": 1
+      }
+    ]
+  }
+}

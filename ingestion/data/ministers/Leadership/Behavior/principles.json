@@ -1,0 +1,34 @@
+{
+  "domain": "Behavior",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "fe944f7c-14c3-405b-b828-a9faf104b37e",
+      "text": "Financial humility is essential for long-term success",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "42b38f89-4af3-4eeb-8884-04d737aef80f",
+      "text": "Observation and attention to detail are crucial for effective decision-making",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 4
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T09:33:15.589836Z",
+    "aggregated_from": [
+      {
+        "book": "The_Psychology_of_Money",
+        "chapter": 4
+      }
+    ]
+  }
+}

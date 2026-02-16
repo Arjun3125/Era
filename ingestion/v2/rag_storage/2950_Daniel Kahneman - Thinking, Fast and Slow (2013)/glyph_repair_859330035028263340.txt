@@ -1,0 +1,65 @@
+TEXT:
+Battlefield,”	
+Risk Analysis
+19 (1999): 689–701.
+British Toxicology Society
+: Slovic, “Trust, Emotion, Sex, Politics, and Science.” The technologies and substances used in these studies are not alternative solutions to the same problem. In realistic problems, where competitive solutions are considered, the correlation between costs and benefits must be negative; the solutions that have {ns problems, the largest benefits are also the most costly. Whether laypeople and even experts might fail to recognize the correct relationship even in those cases is an interesting question.
+“wags the rational dog”
+: Jonathan Haidt, “The Emotional Dog and Its Rational Tail: A Social Institutionist Approach to Moral Judgment,” Psychological Review 108 (2001): 814–34.
+‘Risk’ does not exist
+: Paul Slovic,
+The Perception of Risk
+(Sterling, VA: EarthScan, 2000).
+availability cascade: Timur Kuran and Cass R. Sunstein, “Availability Cascades and Risk Regulation,” Stanford Law Review 51 (1999): 683–768.
+CERCLA, the Comprehensive Environmental Response, Compensation, and Liability Act, passed in 1980.
+nothing in between
+: Paul Slovic, who testified for the apple growers in the Alar case, has a rather different view: “The scare was triggered by the CBS 60 Minutes broadcast that said 4,000 children will die of cancer (no probabilities there) along with frightening pictures of bald children in a cancer ward—and many more incorrect statements. Also the story exposed EPA’s lack of competence in attending to and evaluating the safety of Alar, destroying trust in regulatory control. Given this, I think the public’s response was rational.” (Personal communication, May 11, 2011.)
+14: Tom W's Specialty
+‘a shy poetry lover’
+: I borrowed this example from Max H. Bazerman and Don A. Moore,
+Judgment in Managerial Decision Making
+(New York: Wiley, 2008).
+always weighted more
+: Jonathan St. B. T. Evans, “Heuristic and Analytic Processes in Reasoning,” British Journal of Psychology 75 (1984): 451–68.
+the opposite effect
+: Norbert Schwarz et al., “Base Rates, Representativeness, and the Logic of Conversation: The Contextual Relevance of ‘Irrelevant’ Information,” Social Cognition 9 (1991): 67–84.
+told to frown
+: Alter, Oppenheimer, Epley, and Eyre, “Overcoming Intuition.”
+Bayes’s rule
+: The simplest form of Bayes’s rule is in odds form, posterior odds = prior odds × likelihood ratio, where the posterior odds are the odds (the ratio of probabilities) for two competing hypotheses. Consider a problem of diagnosis. Your friend has tested positive for a serious disease. The disease is rare: only 1 in 600 of the cases sent in for testing actually has the disease. The test is fairly accurate. Its likelihood ratio is 25:1, which means that the probability that a person who has the disease will test positive is 25 times higher than the probability of a false positive. Testing positive is frightening news, but the odds that your friend has the disease have risen only from 1/600 to 25/600, and the probability is 4%.
+For the hypothesis that Tom W is a computer scientist, the prior odds that correspond to a base rate of 3% are (.03/.97 = .031). Assuming a likelihood ratio of 4 (the description is 4 times as likely if Tom W is a computer scientist than if he is not), the posterior odds are 4 × .031 = 12.4. From these odds you can {odes as l compute that the posterior probability of Tom W being a computer scientist is now 11% (because 12.4/112.4 = .11).
+15: Linda: Less is More
+the role of heuristics
+: Amos Tversky and Daniel Kahneman, “Extensional Versus Intuitive Reasoning: The Conjunction Fallacy in Probability Judgment,” Psychological Review 90 (1983), 293-315.
+‘a little homunculus’
+: Stephen Jay Gould,
+Bully for Brontosaurus
+(New York: Norton, 1991).
+weakened or explained
+: See, among others, Ralph Hertwig and Gerd Gigerenzer, “The ‘Conjunction Fallacy’ Revisited: How Intelligent Inferences Look Like Reasoning Errors,” Journal of Behavioral Decision Making 12 (1999): 275–305; Ralph Hertwig, Bjoern Benz, and Stefan Krauss, “The Conjunction Fallacy and the Many Meanings of And,” Cognition 108 (2008): 740–53.
+settle our differences
+: Barbara Mellers, Ralph Hertwig, and Daniel Kahneman, “Do Frequency Representations Eliminate Conjunction Effects? An Exercise in Adversarial Collaboration,” Psychological Science 12 (2001): 269–75.
+16: Causes Trump Statistics
+correct answer is 41%
+: Applying Bayes’s rule in odds form, the prior odds are the odds for the Blue cab from the base rate, and the likelihood ratio is the ratio of the probability of the witness saying the cab is Blue if it is Blue, divided by the probability of the witness saying the cab is Blue if it is not Blue. This is the least-squares criterion, which is commonly accepted. Other loss functions lead to different solutions.
+17: Regression to the Mean
+help of the most brilliant statisticians
+: Michael Bulmer,
+Francis Galton: Pioneer of Heredity and Biometry
+(Baltimore: Johns Hopkins University Press, 2003).
+standard scores: Researchers transform each original score into a standard score by subtracting the mean and dividing the result by the standard deviation. Standard scores have a mean of zero and a standard deviation of 1, can be compared across variables (especially when the statistical distributions of the original scores are similar), and have many desirable mathematical properties, which Galton had to work out to understand the nature of correlation and regression.
+correlation between parent and child
+: This will not be true in an environment in which some children are malnourished. Differences in nutrition will become important, the proportion of shared factors will diminish, and with it the correlation between the height of parents and the height of children (unless the parents of malnourished children were also stunted by hunger in childhood).
+height and weight
+: The correlation was computed for a very large sample of the population of the United States (the Gallup-Healthways Well-Being Index).
+income and education
+: The correlation appears impressive, but I was surprised to learn many years ago from the sociologist Christopher Jencks that if everyone had the same education, the inequality of income (measured by standard deviation) would be reduced only by about 9%. The relevant formula is v(1–r^2), where r is the correlation.
+correlation and regression
+: This is true when both variables are measured in standard scores—that is, where each score is transformed by removing the mean and dividing the result by the standard deviation.
+confusing mere correlation with causation
+: Howard Wainer, “The Most Dangerous Equation,” American Scientist 95 (2007): 249–56.
+18: Taming Intuitive Predictions
+far more moderate
+: The proof of the standard regression as the optimal solution to the prediction problem assumes that errors are weighted by the squared deviation from the correct value. This is the least-squares criterion, which is commonly accepted. Other loss functions lead to different solutions.
+19: The Illusion of Understanding
+narrative fall

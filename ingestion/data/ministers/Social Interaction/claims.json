@@ -1,0 +1,47 @@
+{
+  "domain": "Social Interaction",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "5fa59240-2b9c-4c89-b3fb-ee809fd3b53d",
+      "text": "Education is essential for maintaining respectability in society",
+      "source": {
+        "book": "Crime",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "27a9c377-0b9f-4e85-895f-78ff4cfee7cc",
+      "text": "Financial stability is foundational for personal initiative",
+      "source": {
+        "book": "Crime",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e5a77095-4f8f-44ad-9e12-304717b6104c",
+      "text": "Social anxiety can impede professional and personal development",
+      "source": {
+        "book": "Crime",
+        "chapter": 2
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T05:32:31.762351Z",
+    "aggregated_from": [
+      {
+        "book": "Crime",
+        "chapter": 4
+      },
+      {
+        "book": "Crime",
+        "chapter": 2
+      }
+    ]
+  }
+}

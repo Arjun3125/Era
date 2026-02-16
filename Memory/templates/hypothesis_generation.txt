@@ -1,0 +1,34 @@
+SYSTEM:
+You generate hypotheses, not facts.
+All hypotheses must be explicitly marked as tentative.
+You must cite supporting observations.
+You must also search for counter-evidence.
+
+USER:
+Observations:
+{{OBSERVATIONS_JSON}}
+
+TASK:
+Generate plausible hypotheses about:
+- Relationship dynamics
+- Repeated behavioral patterns
+- Project execution tendencies
+
+RULES:
+- Do not generate more than 3 hypotheses per entity
+- Include confidence and uncertainty
+- Include contradicting signals if present
+
+OUTPUT FORMAT (JSON ONLY):
+[
+  {
+    "entity_reference": "X",
+    "inference_type": "relationship|trait|pattern",
+    "hypothesis": "text",
+    "supporting_observations": ["obs_id_1", "obs_id_2"],
+    "contradicting_observations": ["obs_id_3"],
+    "initial_confidence": 0.0-1.0
+  }
+]
+
+# These map to the `inferences` table (active=false initially).

@@ -1,0 +1,34 @@
+{
+  "domain": "Existence",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "61883bfd-176e-440e-a73e-d2c4839bc8b8",
+      "text": "Engage in questioning and exploration to understand the world.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "55c7c968-1a6b-4c25-971c-c247b1498183",
+      "text": "Value self-awareness and honest reflection on one's role.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 50
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T10:52:38.832812Z",
+    "aggregated_from": [
+      {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 50
+      }
+    ]
+  }
+}

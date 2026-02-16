@@ -1,0 +1,6516 @@
+{
+  "domain": "power",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "504933cf-95ed-4951-bf8c-b09ffd6307f8",
+      "text": "Limit actions without permission",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9fdfe098-ba5a-44dd-9144-2d4e064c70e6",
+      "text": "Restrict unauthorized dissemination",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f241e1e1-a36e-495b-b9f2-e5ee20d8e2e9",
+      "text": "Prioritize deep work as a core activity",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7a41d1f5-cd53-4cb6-be53-d3dec1c4ffde",
+      "text": "Batch shallow tasks to minimize disruption",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b3245f93-7aa1-4cf7-9769-c194583b08f9",
+      "text": "Schedule deep work during high focus periods",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4a38a157-90b7-41cc-ba15-ed112411939a",
+      "text": "Cultivate discipline to resist distractions",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dcec6a49-84cd-43c0-b848-175069208ba8",
+      "text": "Embrace technological advancements to enhance productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "74c77b32-bc90-449d-ac4b-a96a9fb9b5a6",
+      "text": "Focus on high-value, data-driven tasks to remain competitive.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9dc68aa2-e57c-4513-ab0c-752c9dc05a1c",
+      "text": "Leverage technology to access broader markets and talent pools.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "64d7daa9-3f80-45df-bb81-a75f1e7e30d3",
+      "text": "Prioritize capital investment in high-return opportunities driven by technological shifts.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7706dbd9-000f-4aec-8993-2d1f040feb23",
+      "text": "Embrace complexity to leverage technology effectively.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cd707f1a-3be4-4f4b-a163-8fe617cdf3a8",
+      "text": "Deep work is foundational for mastering skills and achieving elite performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "45e93b0b-c695-45d7-865b-dc8bd3ed6550",
+      "text": "Elite performance requires transforming potential into tangible value.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4614ab55-5668-486b-9b90-1638b4316e58",
+      "text": "Maintain deep focus to accelerate skill acquisition.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "190ad964-bba4-4779-b47d-9583d4db5f48",
+      "text": "Break complex tasks into manageable components for targeted improvement.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "84524afb-adba-4a9c-acd7-5bf16bcfbdeb",
+      "text": "Iterative practice with feedback optimizes performance outcomes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6736a317-9ce4-4692-90d6-715dfd281be4",
+      "text": "Batching tasks involves grouping similar activities to minimize context switching.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bb1cffb6-0dd5-43c4-bf6a-e91e8ec27b18",
+      "text": "Allocating time strategically between different roles enhances overall productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "aa28a146-2902-495c-bb12-4c4bc395f96c",
+      "text": "Focusing intensely on single tasks maximizes output efficiency.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "661d184c-0d32-4ad0-99e0-14b13746b18f",
+      "text": "Prioritize deep tasks over shallow ones to achieve peak performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "546e56c2-f26b-426d-abf3-661b848a29a5",
+      "text": "Focus on sustained attention to maintain high output quality and quantity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2e98c6a9-26f5-449c-8b58-5148148251ae",
+      "text": "Differentiate tasks based on value and replicability.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "66190e2d-158b-453d-8f32-c9c112249d7b",
+      "text": "Operational focus is shaped by prevailing workplace trends and organizational demands.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "00dfda08-ee75-4de8-83ec-cc5890d45e7d",
+      "text": "Prioritizing speed over depth can create a cycle of distraction and reduced productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "865649c1-cb68-4a00-bc83-bdb1b7b4a2e8",
+      "text": "Prioritize measurable outcomes when evaluating productivity, but recognize that deeper value may not be easily captured by simple metrics.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c6cc3cd6-35e7-4b17-96cf-36359fe99c70",
+      "text": "Focus on eliminating low-value tasks to reclaim time for high-impact work, even when the benefits are hard to quantify.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8bd9f549-4046-40fc-9f1d-b05bd5967b16",
+      "text": "Cultivate habits that minimize decision fatigue and cognitive load in the face of constant distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8da94b7f-7e76-42a1-b566-d6b20ca80659",
+      "text": "Prioritize immediate feedback over long-term planning in operational tasks",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "28978a3f-9d86-4f07-8a55-6d9c0c48ef6a",
+      "text": "Assign power to structured processes over reactive approaches in communication-heavy environments",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "aeff83ca-e2e2-4cba-8eb2-a8446b278a97",
+      "text": "Prioritize minimal effort over depth.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5a9ca7ba-1140-4f68-b392-b75c87d2465b",
+      "text": "Work habits are shaped by the absence of clear performance metrics.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "23f76301-fb4b-4168-9df0-be5a8f907105",
+      "text": "Develop deep expertise through consistent practice.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d92d9876-e19b-428e-9f29-b75f9377e649",
+      "text": "Cultivate an appreciation for the inherent value within tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0a5560eb-d6ae-4681-b555-6b006a992a97",
+      "text": "View professional activities as crafts requiring dedication.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7c08cef0-f2d7-4e0e-a1b6-3b8130a9d90f",
+      "text": "Commit to deep work to develop skills and achieve elite performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4c646a89-00e5-4386-8a35-c27d162b67d2",
+      "text": "Focus transforms knowledge work from obligation to fulfillment.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "83bba855-2cae-4fb8-9a74-8943f0dd30d7",
+      "text": "Integrate deep work into a regular habit by establishing consistent schedules.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7317eeac-f702-400e-8756-99968d813a0a",
+      "text": "Balance focused, high-intensity work periods with open time for broader engagement.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4673b67c-d7f0-4bae-8e63-e183016810a7",
+      "text": "Define minimum durations for deep work to achieve cognitive breakthroughs.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "39a18d34-bd8f-484a-a77c-b86abf8b76ac",
+      "text": "Schedule deep work in consistent intervals to build sustainable progress.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "671fb302-bf46-4194-9de7-4cdb27eec197",
+      "text": "Align work routines with personal energy cycles and external obligations.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "471ff426-ea58-4380-9468-afc0e4a58a5d",
+      "text": "Employ structured rituals to minimize friction in transitioning to deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "47863c90-1d24-404f-ab06-70393eee7f31",
+      "text": "Schedule deep work sessions proactively by mapping out time and locations.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a0732d43-067f-4b2c-aa3a-f2707e7629e4",
+      "text": "Integrate deep work into existing routines by leveraging available opportunities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a4651022-5c41-4328-bc97-b9092a151fbe",
+      "text": "Design rituals to structure focus and minimize friction.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2504a5d4-71fd-408e-b688-da03b15061a2",
+      "text": "Commit to deep work through systematic preparation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d7720a08-afd6-469b-8436-ffadd7753930",
+      "text": "Prioritize tasks by aligning effort with perceived importance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "85538bb5-7725-4cef-a57f-23482d49b735",
+      "text": "Design environments to enhance focus and reduce distraction.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a039209b-83cd-4c2a-bfc3-d79a8a0f6658",
+      "text": "Balance individual focus with collaborative opportunities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cc98eb4d-5d75-4839-93cc-135e9a2f1ac6",
+      "text": "Integrate diverse perspectives in shared spaces.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "49151281-206c-4b69-8588-80cd31c896bf",
+      "text": "Balance collaboration (hub) and deep work (spoke) to optimize innovation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "82c73b8d-62a2-4409-ba7b-fa819b53078d",
+      "text": "Structure environments to support both spontaneous interaction and focused concentration.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d0b0f3a9-2ff6-44ad-84b0-0d84d9a63acf",
+      "text": "Leverage collaborative problem-solving for complex challenges, but maintain individual deep work for refinement.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "336c6bb3-ead6-45e7-bb8a-0cfe7efb044d",
+      "text": "Prioritize a limited number of key objectives to avoid spreading effort too thin.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "30f7609b-2013-4dbb-b266-d09c24a9fe9a",
+      "text": "Track actionable metrics that directly influence long-term goals.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "96f13fbc-db4f-4711-9fc3-17e89f0fbcb7",
+      "text": "Use visible progress indicators to maintain motivation and focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a6b49f4c-38c9-48c5-840b-304e3e3cf106",
+      "text": "Establish clear goals to drive focused execution.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "826a4d98-9c64-458f-9ad2-bd478f2c62bf",
+      "text": "Schedule deep work regularly to maintain sustained output.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "59a9abff-54f6-49e7-8194-101a927d5dba",
+      "text": "Downtime enhances cognitive processing and decision-making quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1939aa47-4dfe-4354-8bb0-a03f8c3ceac2",
+      "text": "Mental performance can be enhanced by exposure to inherently fascinating stimuli that allow for passive attention restoration.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "14a02154-35be-4683-905a-276fc9e200e9",
+      "text": "Deep work capacity is limited, requiring strategic scheduling and dedicated downtime to maximize output.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8a5c7f85-c47a-4124-97a9-6099b52f6099",
+      "text": "Directed attention resources can be replenished through activities that minimize cognitive load and provide engaging stimuli.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3df4eed4-0429-439f-9b06-2e63bd600f97",
+      "text": "Control attention by managing tool access.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8704069a-347f-436e-a84a-60ba7facc37f",
+      "text": "Define clear thresholds for tool integration.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b89f1610-d8d1-461b-be45-4550f3975577",
+      "text": "Evaluate both benefits and drawbacks before adopting a tool or strategy.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "55441058-715a-4c19-894a-46331d648fff",
+      "text": "Consider long-term implications and trade-offs in decision-making.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a612f6f3-1db1-4be0-a1f8-03fa0e5ade1d",
+      "text": "Focus on core objectives when assessing value.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "41afae99-f89f-4c0b-8be1-444842fff241",
+      "text": "Prioritize core activities by identifying high-level goals.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ad0c75bd-d669-4470-92a3-bbbbbf4892ee",
+      "text": "Evaluate tool impact systematically against key activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c18e0f2c-601e-417c-aa87-ba8435033f8c",
+      "text": "Prioritize high-value activities over tools.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0fdd37c2-bd86-463d-8bb1-7eef05ef6e29",
+      "text": "Limit resource allocation to activities with proven impact.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2fa02978-4ff5-4456-abb7-71657e84808f",
+      "text": "Evaluate tools against core goal-supporting activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d729f436-dc80-421c-9ec7-97eea77c97d8",
+      "text": "Prioritize high-impact activities",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f97a4806-da8d-43e2-afa8-b04f91d5a2dc",
+      "text": "Recognize finite resources",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6ae88d2a-f9a7-4fd0-b61a-633ff4b132fe",
+      "text": "Align efforts strategically",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "77f9e62d-6b4b-489e-8337-3a48e5147a8d",
+      "text": "Structured leisure enhances work performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9c99a2de-4524-427e-87d4-767231128c29",
+      "text": "Pre-planned activities prevent passive entertainment.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9333d013-1e67-4c65-8c03-73c37c895b8d",
+      "text": "Mental faculties improve with continuous hard work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "afd1fa3e-d4a1-4082-a5bf-68941bf154dd",
+      "text": "Prioritize deep work to maximize productivity and value.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "04ba012c-e3c7-4ab0-8115-3328a7690127",
+      "text": "Manage shallow tasks to avoid inefficiency and wasted time.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a1302916-4adb-4022-9b16-19d37aa7223e",
+      "text": "Balance deep and shallow work based on capacity and importance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9ab9c410-33aa-456a-9ab6-4d0e3b11211b",
+      "text": "Balance deep and shallow thinking within work sessions",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "69f10b93-53c1-47ae-8abe-e4f32c80e12e",
+      "text": "Quantify task depth by estimating the time required to train a novice to perform the task.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "caf3b0c9-6507-4395-a89d-7c1e1ba095f3",
+      "text": "Prioritize activities that leverage specialized expertise over those that can be easily replicated.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9979fbf7-6f4b-430d-b4a5-af2fda614d92",
+      "text": "Define explicit time boundaries for work activities to enhance predictability and reduce ambiguity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "506fe9cb-9391-4d09-8d9c-3476d986da52",
+      "text": "Establish measurable ratios for task categorization (e.g., deep vs. shallow work) to optimize resource allocation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0b9d0659-dbde-400f-ba8b-9b0197c38284",
+      "text": "Prioritize flexibility in execution by allowing multiple approaches to meet core objectives within defined constraints.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ad1c7fcd-08bc-46f5-bf36-4e2e8376c65c",
+      "text": "Establish hard limits on total work hours to control schedule.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b75a24cb-caf6-46fd-860f-f73f89bb66c8",
+      "text": "Prioritize deep, high-value tasks over numerous shallow obligations.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "886ce18e-c813-43d4-b6ff-c2ca60fa4085",
+      "text": "Establish operational rhythm by defining fixed intervals for deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 33
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2fdda5cb-65d9-4a81-a2eb-dc450b912ff0",
+      "text": "Regain authority over communication by imposing work norms on others",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 33
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f02e288e-3063-4721-b85a-59546f3996ee",
+      "text": "Prioritize clarity in communication to reduce ambiguity and increase efficiency.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "06a279b8-17f4-4382-99d9-a08ef21d55cf",
+      "text": "Focus on proactive planning to manage cognitive load and decision-making.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "df570d82-d3f5-4b72-845f-7b059f26441f",
+      "text": "Balance responsiveness with minimal effort to optimize time allocation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "026613cb-78a4-45bf-80e7-3558e8514d7c",
+      "text": "Develop core capabilities through focused effort to achieve strategic objectives.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "112499a7-74f4-4e01-9fc6-d4905dfc60ef",
+      "text": "Prioritize sustained attention on high-value tasks to maximize outcomes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "592fd6ca-c847-427f-b8ab-70943a2b3869",
+      "text": "Master specialized skills to gain influence and achieve superior results.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "134099aa-ca78-47c8-af34-2dda5e57ed33",
+      "text": "Introduce artificial constraints to simulate busier conditions and maintain focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 36
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "382defc9-9de4-4e6d-85a6-e660b285c832",
+      "text": "Carefully block out deep work periods to protect time from interruptions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 36
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fd69918e-3376-49ed-9507-6b80e9d3d78d",
+      "text": "Leverage downtime (e.g., walks, commutes) for focused thinking.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 36
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "50d15a05-5295-469f-b06b-cfd12a22ba1f",
+      "text": "Use structured environments (e.g., specific locations) to enhance concentration.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 36
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "37390c9e-8cf9-4d1a-bf80-1095377084b5",
+      "text": "Balance deep focus with necessary breaks to maintain cognitive performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a5a4ffa5-2053-472c-8de1-439c0c639de6",
+      "text": "Schedule dedicated periods of uninterrupted work to achieve high-quality output.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "77a9655c-b061-41e1-bd97-85040356b88b",
+      "text": "Manage attentional resources by setting boundaries against frequent interruptions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1f860f55-646e-416b-aacb-cdcc5f64ad63",
+      "text": "Cognitive performance improves with strategic downtime.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "30f15082-b80d-488b-a262-bb38d398845d",
+      "text": "Attention restoration depends on environmental factors.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7abfcefa-ba09-47db-a917-5335a8f90831",
+      "text": "Work effectiveness is enhanced by scheduled focus periods.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f9c78ddc-eea0-46d5-856b-73bcc86e1d38",
+      "text": "Multitasking degrades cognitive output over time.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c877a8bb-86a6-4f8c-9248-5ae043203b8d",
+      "text": "Optimize high-value activities by prioritizing critical tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "14300f16-6764-4101-bc34-399d7d835f19",
+      "text": "Use time blocks to allocate specific periods for focused work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a9629002-df7a-4fa3-9143-aa61dc25a685",
+      "text": "Schedule energy-intensive tasks during peak energy periods.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4ffae6e6-c28f-4d6c-91e4-45734fbaa03a",
+      "text": "Optimize time allocation through fixed schedules",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1620884e-dfa7-440e-97db-ad83628aad58",
+      "text": "Validate productivity habits using empirical data",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fbe6152b-3a72-41c1-8c6d-77d37077e76f",
+      "text": "Prioritize uninterrupted focus periods",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1a0b82c4-8907-4061-9961-3f93f5e67a3b",
+      "text": "Create dedicated environments for deep cognitive effort",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f507d4d1-e09e-465d-bca7-82b94f688beb",
+      "text": "Schedule deep work sessions regularly",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fe93154b-9c2f-4663-b1ec-09e0e810cfa7",
+      "text": "Isolate work from immediate distractions",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "06bba75a-bbbf-4fbe-bc0f-bf2e770636f6",
+      "text": "Prioritize uninterrupted time for high-value cognitive tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "90280090-d7bf-494e-9e35-71f88bad85af",
+      "text": "Balance efficiency gains with the preservation of deep work capacity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b34741ba-3bbe-4cac-b9e8-9f80b39fb399",
+      "text": "Focus attention on tasks that require sustained cognitive effort.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a241abaf-5fbb-4835-a1f0-afa39afe99b8",
+      "text": "Value deep work as a competitive advantage in knowledge work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2d91cc89-5651-45f3-a5a5-a2b4c545bb85",
+      "text": "Adapt workflows to maintain focus in a digitally fragmented environment.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1de9296a-e66d-45b7-b9ce-920c1d2747e6",
+      "text": "Deep work requires eliminating distractions to achieve focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "23f972f7-67ce-4cfa-a85f-ba4c5c7babcf",
+      "text": "Mastering deep work enhances professional value in an information economy.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ccde7e2d-34e8-4534-b7e3-5723b7d449f0",
+      "text": "Prioritize deep work by structuring time around core activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "59777dc6-d3c9-4270-ae50-378c82704091",
+      "text": "Minimize distractions by limiting technology use outside of work hours.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a7eee6ba-df75-43c8-a579-66c05e35bb56",
+      "text": "Leverage technology to enhance productivity and competitive advantage.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "131df944-360c-476a-9ad4-ef09915cb528",
+      "text": "Adapt skills to align with technological advancements for economic benefit.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ef3c92b7-a746-4e10-8875-4e4b9ac91913",
+      "text": "Optimize resource allocation by focusing on high-value domains enabled by technology.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "390c2bd9-e9ef-40ba-bea2-cd08155a4ea3",
+      "text": "Master complex skills rapidly to stay competitive.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3bc13314-f28e-4842-8a68-85fbe33e0d29",
+      "text": "Elite output requires deep focus and sustained effort.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2b89dd72-a991-4beb-9d65-7d409021068b",
+      "text": "Adaptability to new challenges drives professional growth.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "be190aa5-499d-4634-9bed-0c3829ee0333",
+      "text": "Intentional focus is essential for mastery",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "61917018-95f2-4d1f-a0d3-4e02138db62b",
+      "text": "Consistent effort drives adaptation",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2c1f2886-7c24-4d85-8420-b546f06e8c0a",
+      "text": "Skill development requires deliberate practice",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "09bed8bf-e3b0-4268-b547-d81672701022",
+      "text": "Prioritize focused, uninterrupted work sessions to maximize output quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "93b106e5-df7c-4041-8c2e-7cf9be23e7bc",
+      "text": "Batch similar tasks to reduce cognitive load and improve efficiency.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7512b4eb-8e9f-4168-8813-ecf2522cec7d",
+      "text": "Schedule deep work periods to leverage high-intensity focus for better results.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f95a97a4-0ce4-4236-8f71-8875cc98aed2",
+      "text": "Evaluate job roles to determine the necessity of deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f03435ff-d77e-4691-8b1e-3974e170e5a6",
+      "text": "Balance distraction with strategic decision-making based on role-specific constraints.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1dc4e8aa-e679-4663-8ab1-f2008fef36ff",
+      "text": "Prioritize deep work over short-term business trends.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "63cea6bd-cc02-4f73-b0b4-f51a0f41f5bd",
+      "text": "Focus on measurable outcomes rather than abstract benefits.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9a6743f4-2956-45c7-8450-50573ea00797",
+      "text": "Prioritize long-term value over short-term ease in decision-making.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8c2519eb-3e57-4c84-8beb-0f132480f420",
+      "text": "Measure outcomes, not just activity, to avoid operational blindness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "856d2301-e676-4cab-846f-5c80a2681f2c",
+      "text": "Prioritize measurable outcomes over activity levels",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3cd79beb-a20e-44f8-9f7c-4f1e1b37fa9b",
+      "text": "Align productivity measures with strategic goals",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c5e6b0d4-3868-4964-91a6-5bea84ae6fd8",
+      "text": "Balance autonomy with accountability",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "109aaea5-fc2d-442d-9cf0-bb52848b5473",
+      "text": "Prioritize depth over novelty in work",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6f90f83f-d284-45d8-8bed-2c68bc50c71c",
+      "text": "Measure the impact of work styles on outcomes",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e47d0f2d-2add-423c-a200-ddef64307e14",
+      "text": "Deep work enhances psychological meaning through focused attention",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "741add80-2f88-4a30-bef3-d26c0e656f13",
+      "text": "Strategic risk management involves prioritizing depth over shallow activities",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "90ac8b74-2a41-4caf-be98-3be76febf759",
+      "text": "Focus shapes perception and emotional state.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "11ec9a03-eb5c-446c-b56a-550821a6f71c",
+      "text": "Attention management is a strategic cognitive resource.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "612456c9-e879-4950-8dd3-f97720014ee4",
+      "text": "Cognitive appraisal influences long-term adaptation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8a7d52fb-3a62-4b22-b513-01b8f78fa4dc",
+      "text": "Focus attention on challenging tasks to achieve deep engagement.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "acb802b1-679f-4c50-b1fa-ca99d0337c82",
+      "text": "Leverage technology to capture real-time psychological states.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f605858b-265a-4cef-b428-fcaf8d83ddf6",
+      "text": "Align professional activities with flow-inducing tasks for sustained satisfaction.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "492f4cd2-ad6b-4040-8bbc-830a76313b17",
+      "text": "Dedication to skill development enhances personal meaning.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f0afd942-c92e-4946-b268-e753d9519f43",
+      "text": "Deep work transforms routine tasks into sources of fulfillment.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2c438f63-9d03-4676-a8dd-e5cfe08e12a1",
+      "text": "Approach and method define value, not job description alone.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2b35fbd3-9f59-473c-81c9-9197209d48fa",
+      "text": "Willpower is a finite resource that depletes with use.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6bc06bcd-db91-4dc8-85fb-542f0af7fadc",
+      "text": "Deep work requires a structured environment to overcome distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b9ddfc28-409c-478f-bc9c-3301f637051c",
+      "text": "Distraction habits are strong and default to superficial tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fbc6d312-448a-4be1-a7ae-8b3e58322da8",
+      "text": "Habit formation requires adapting routines to conserve limited willpower.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3915c104-304e-4f88-80d6-a90406fc4d96",
+      "text": "Deep work effectiveness depends on aligning strategies with personal constraints.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9bd0fb72-6844-468b-a32b-a84a92b967dc",
+      "text": "Dedicate specific time periods for deep focus to achieve maximum cognitive output.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "29afc0dd-f9cc-4bdc-9974-d5d23227ed15",
+      "text": "Balance deep work with necessary interactions to maintain professional effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d47c8a9b-361c-4a00-9475-05b919a0d16c",
+      "text": "Consistency through habit formation",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cb8e9264-00e0-4d4d-9e9d-a43ad549f594",
+      "text": "Daily scheduling heuristic",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "81efbe34-c9e5-4a39-9638-39eb58dfa378",
+      "text": "Schedule deep work in available time slots",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0426458e-174f-4848-a484-63e8bba084d0",
+      "text": "Build structured rituals to minimize friction during deep work",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "abdfe611-47a7-409b-9cac-6fcbde6099c0",
+      "text": "Maintain confidence in the value of the work to sustain motivation",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "81983810-7c6d-4d66-ba65-cebf8158b32c",
+      "text": "Structure work environments to minimize distractions and maximize focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7935bb37-8e3c-4391-a2ef-4a95b66f3790",
+      "text": "Assign elevated importance to tasks to reduce procrastination.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "11a5700c-908f-4f4c-ae94-dcb0d86bc406",
+      "text": "Leverage time-bound commitments to enhance concentration and productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1668f317-a48b-4f43-b9dd-8d6ef113e399",
+      "text": "Balance focus and collaboration to optimize deep work outcomes",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "49749b18-b535-4500-ac95-3d0a80e56dd9",
+      "text": "Balance open collaboration (hubs) with focused deep work (spokes).",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cf19cdc8-2271-4bfb-a661-695afc83175c",
+      "text": "Structure work environments to facilitate both spontaneous interaction and sustained concentration. ",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3a2b2a8c-db01-4df2-b577-6a4c296b8a90",
+      "text": "Prioritize a limited number of key objectives to maintain focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f8932fb3-b10e-4c44-8bf9-df571edf6ae6",
+      "text": "Track immediate actions that directly influence long-term goals.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fa5d60cf-8c8b-4f34-af00-05331461e734",
+      "text": "Regularly review progress to sustain commitment to core objectives.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4406a43e-756b-4cd9-8ba6-4d21d854c20a",
+      "text": "Focus execution on measurable outcomes to drive progress.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "503f0e6b-9c8c-47e4-9d4d-8abfe8b12527",
+      "text": "Prioritize deep work through consistent scheduling.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c8b72f02-8b43-4883-acb8-02a9d3cf00ad",
+      "text": "Balance effort with intentional downtime to enhance effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "167b8500-4302-4514-91e7-4c04611d280d",
+      "text": "Allow periods of low-cognitive-demand activity to replenish directed attention.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "62ddcf0c-0a3d-4c10-bcda-13f9eb072db0",
+      "text": "Attention restoration is enhanced by exposure to inherently fascinating stimuli.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "20e14488-948d-456a-9ea4-b46d59ef8583",
+      "text": "Structured Closure: Perform a systematic daily review to clear incomplete tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "07cb348d-72cd-4279-9040-2fff371fa4d6",
+      "text": "Commitment to Plan: Dedicate time to plan next steps for unresolved tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6e94aa0d-80d6-4f2e-94c9-4f36cef906ba",
+      "text": "Cognitive Unburdening: Release mental load by resolving or tracking obligations.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1c39df23-05ff-4894-b7ef-409811e6d475",
+      "text": "Consistent Training",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ccb66093-3363-4601-aca4-fee83a518d91",
+      "text": "Scheduled Breaks",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "441dfd19-d078-4fff-999c-66332788a0ae",
+      "text": "Distraction Constraints",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "92fbc13e-3841-4655-b6fb-69ee5ee2e501",
+      "text": "Focus Habit",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "19276dfb-f04f-4304-a63e-767cc1e5d523",
+      "text": "Attention can be trained and strengthened through scheduled periods of focused work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "49fc3bad-514c-4e13-a318-b431d910be91",
+      "text": "Cognitive focus improves by intentionally limiting exposure to distractions during work periods.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7151a887-dded-4477-9177-ae3e6876ab87",
+      "text": "Convert fragmented time into high-intensity focus periods by establishing artificial deadlines.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ad1e31c3-c649-4c26-ac8d-85567328123f",
+      "text": "Use routine physical activities as conduits for focused problem-solving through structured attention.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "65af7d6c-f46b-4bca-bbf2-8a60c01d4dfd",
+      "text": "Systematically increase concentration levels through interval-based training of attention.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "43427b3a-0d84-4ded-b70d-df47c9e5545b",
+      "text": "Maintain focus by redirecting attention from distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "64845ee8-f225-4ecc-b78d-7cfcf07f924b",
+      "text": "Structure deep thinking through iterative cycles of review, question-solving, and consolidation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dc967657-cd0a-40b0-9dbd-0bf39bcf5b53",
+      "text": "Structured repetition enhances memory retention.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8135f388-cc3e-4383-aa32-8f31a4e2104b",
+      "text": "Focus training strengthens concentration capacity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "01d06073-a3c1-4262-9607-94a92a80ec20",
+      "text": "Digital habits impact cognitive performance thresholds.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "acd6332b-a4e0-4891-88bd-2ed96d1365e5",
+      "text": "Balance tool benefits against potential negative impacts on focus and productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9743c3fe-7606-463d-8b02-09cf9926aa92",
+      "text": "Evaluate tools based on their alignment with core objectives rather than surface-level advantages.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "69be3b35-e9d8-41ff-96e8-beebfa4201d0",
+      "text": "Evaluate tools by balancing trade-offs against core success factors.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dcee9514-b739-404e-8a8d-27eac1194793",
+      "text": "Consider secondary benefits and costs when assessing tool value.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3b623ec3-345c-47d2-baac-1ea1f0bf2ac7",
+      "text": "Assess high-level goals before tool selection.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1f5a61a5-7441-4123-9856-1f247de75090",
+      "text": "Evaluate tool impact on core activities before adoption.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1e4f63e1-d7d0-42b1-9894-8130444205af",
+      "text": "Focus on core activities to reduce complexity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "72d7a386-e53f-44c5-97e0-f4b3f30632d6",
+      "text": "Prioritize high-impact activities to maximize resource allocation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "94e31334-8ac2-4ba2-8642-ece8e9109d3a",
+      "text": "Balance trade-offs by focusing on key priorities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b2654d9c-1a96-4f97-bd16-8aa42d534374",
+      "text": "Time and attention are finite resources requiring strategic allocation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "edd2b7f9-6c28-4286-9deb-84240a06e9c9",
+      "text": "Evaluate necessity through experimentation",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0c742023-d5d6-4d55-8fd2-8fb78e090e8a",
+      "text": "Understand social validation mechanisms",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a0c5c19a-9cfc-458b-b5c7-b8924dbac4e3",
+      "text": "Prioritize focus over engagement metrics",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bc157e64-b398-414f-b27b-1f3c13ea0973",
+      "text": "Structured leisure activities enhance personal development.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "62b07125-4dc2-4352-a04c-7497a5ccde9a",
+      "text": "Proactive time allocation reduces susceptibility to digital distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e1928219-4b01-4708-859d-c2f088a7dcb1",
+      "text": "Intentional engagement with high-value activities strengthens cognitive focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2e420124-237b-4b2a-8e09-332e24015431",
+      "text": "Prioritize deep work over shallow tasks to maximize productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f9064238-76bb-4afb-b5c1-a2f96f875917",
+      "text": "Balance efficiency with cognitive capacity to avoid burnout.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cd6fd0f1-6aee-44f2-87fa-1567ee21c14b",
+      "text": "Schedule every minute of the day",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5d102ab6-fc33-4cea-9600-4d38e7d933d5",
+      "text": "Estimate time requirements conservatively",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f1d51fae-80ec-4782-9df8-0df31c0e2a16",
+      "text": "Prioritize deep work over shallow tasks",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "293162fc-fcf5-49b8-8d88-b811d08acf8a",
+      "text": "Evaluate task complexity by assessing the time required for training a novice.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "559d276c-3c85-450d-b488-3b03f8db12d3",
+      "text": "Balance structured planning with flexibility to accommodate new insights.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1803423e-0a20-49ca-ac66-49dff7e56c02",
+      "text": "Schedule time blocks intentionally to ensure focus on high-value activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bbdadeb2-1ba7-4626-8307-77c1747a00ba",
+      "text": "Quantify task depth through training requirements to prioritize high-value activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2e59cbd9-66a2-41f7-8802-ecca424c8264",
+      "text": "Allocate specific time budgets (e.g., 30-50%) for shallow versus deep work to optimize productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "df417f18-740b-40c5-9c08-c98f84124f88",
+      "text": "Balance psychological aversion to shallow tasks with the need to maintain essential communication.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d1196241-ca03-4ee5-be12-3e9e8774fbef",
+      "text": "Prioritize deep work by establishing clear time boundaries.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6e5a2682-2ba8-404f-a73e-79378bf53d7a",
+      "text": "Balance deep and shallow tasks through structured limits.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5d827650-0d62-4a28-a1f1-90ce2266abb7",
+      "text": "Define productivity by measurable constraints rather than effort.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "64070cf6-2e93-4a2c-a768-ab74a318c7f6",
+      "text": "Time limits shape focus by eliminating low-value tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4cc5b091-7fb7-4a13-95ec-12472235cfd9",
+      "text": "Fixed schedules create a scarcity mindset that prioritizes high-impact activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "32008d21-df4b-4aa1-82a9-6220d12db483",
+      "text": "Set clear communication boundaries to manage expectations.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7953ae09-1780-4e03-9bf9-ab993f3b9a28",
+      "text": "Prioritize efficiency by focusing on project outcomes rather than quick replies.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3a050304-e4c7-43ba-8282-c817b10e8359",
+      "text": "Manage response expectations to reduce time and attention drain.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "16a476b8-4c4e-4008-ab9f-c8c375db8743",
+      "text": "Proactive planning minimizes downstream communication overhead.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a9363644-22a8-45b6-b9a9-3aa9d79fd463",
+      "text": "Clear, structured communication reduces ambiguity and decision load.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "314cea3e-4796-42a3-8dae-9defd63b0638",
+      "text": "Maintain focus despite external pressures.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "40631f90-68fa-4141-835e-cdba93bd7c61",
+      "text": "Prioritize uninterrupted deep work sessions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "325f917b-3424-48fe-ae44-a767730dab00",
+      "text": "Adapt focus strategies to evolving constraints.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "752833fd-ec25-4529-98ee-5c4c93e73cfc",
+      "text": "Commit to consistent, high-concentration work",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "95e4a418-139d-403b-94bc-d72b2193bd08",
+      "text": "Evaluate tasks for strategic impact",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9ecd4672-da90-4f75-8118-798d7ce6d8f3",
+      "text": "Calculate risks before committing resources",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "df262c7d-93df-4999-b66c-caa44aec80a1",
+      "text": "Prioritize focused work over distractions to achieve expertise.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "72127eeb-365d-4487-886e-7a765df2f461",
+      "text": "Structured communication methods improve productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9235bda0-5cfb-4694-b741-8feae177749b",
+      "text": "Deep work requires sustained attention to develop skills.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d2e0317d-4a90-4223-ae83-3396710f715c",
+      "text": "Focus attention to achieve optimal performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "826502ef-472e-4c10-bdca-54c8ad63b7f9",
+      "text": "Break tasks into manageable components for sustained effort.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1566318d-7d2b-4410-8b4f-def11744d5ed",
+      "text": "Balance short-term rewards with long-term goals.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b3c7ab4f-36fe-4b40-8c58-cc8303088109",
+      "text": "Maintain focus to achieve productivity goals.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bb464950-e352-45e4-b706-5670a9a4249a",
+      "text": "Structure execution through defined frameworks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1a37f1e1-aad0-49c6-9a54-09531f198a71",
+      "text": "Design environments to support operational focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b348bda3-1ef8-4863-a258-cb4e3c8bffbf",
+      "text": "Maintain focus to optimize performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4baca93e-12b3-4868-9408-4fbd7c2e4964",
+      "text": "Prioritize tasks to reduce cognitive load.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4ddc206d-d3db-49fa-95c0-48851654a04f",
+      "text": "Schedule downtime to restore cognitive function.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a7b5e903-3eaf-45d3-badd-158257597f3f",
+      "text": "Prioritize high-impact activities to achieve maximum results.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "710781c7-50bf-4553-a203-8c97378089d9",
+      "text": "Focus attention on essential tasks to improve productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "63e2d193-768a-4b2b-b622-f103357a4b14",
+      "text": "Manage cognitive load by limiting communication channels.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "110823db-59ad-42c5-81ca-8d016e0ccdf7",
+      "text": "Focus effort on high-value, cognitively demanding tasks to achieve significant outcomes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dae6226e-d01f-4470-a756-18e2a61c49ec",
+      "text": "Prioritize essential activities to maximize impact, leveraging the Pareto principle (80/20 rule).",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1cf7abd0-3493-479b-a791-298b1a5008e9",
+      "text": "Strong and definite desires are foundational to achieving goals.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "53cc7fd3-94f1-409b-997c-6d2859a8675c",
+      "text": "Continuous learning and skill development enhance earning potential and personal power.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "368d630d-f7a9-4e67-a2ef-7bbafd195058",
+      "text": "Resources grow when wisely deployed",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e6cb627f-e062-4944-8d88-7f4b2bbfa36b",
+      "text": "Understanding the context is essential for effective action",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0ff72077-16c4-4a44-8ce9-95b69d507c14",
+      "text": "Compounding wealth over time is essential for long-term prosperity.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7d17e0e6-ee38-4375-b884-553252facdaf",
+      "text": "Earning gold through consistent effort and wisdom is foundational to success.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6382e287-7bae-4b92-8006-65af31389cb7",
+      "text": "Relationships require a foundation to be effective.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2280c40e-58ce-4930-ab5b-6caab4883633",
+      "text": "Foundational trust builds long-term success.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "73f31ce2-a7fa-4220-9852-89eed3298d4a",
+      "text": "Internal power enables clear perception of truth.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f5387883-6fa1-4085-b70c-b0b6c7e090a9",
+      "text": "Your environment shapes your character and growth.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bc86cb14-c3da-49cc-af78-bc996dc031cb",
+      "text": "Surround yourself with people who elevate your potential.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "52c4c4b4-2770-423e-83b4-c777d32f4b7a",
+      "text": "Resilience is derived from ancestral heritage and history.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 56
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "15d97e51-9629-47b2-a133-4cf515c607a9",
+      "text": "Capability is innate and capable of growth through experience.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 56
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c59fc5dd-0571-47cb-bf48-c419871fa171",
+      "text": "Commit to fulfilling responsibilities, regardless of circumstances or personal state.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 64
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8d79014a-0f17-437f-87e9-0ffb94d4942a",
+      "text": "True joy is an internal state, not dependent on external expressions.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 75
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d660eda1-70d5-4c08-bc8b-50f4cee365e6",
+      "text": "Joy is cultivated through purpose, excellence, and duty.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 75
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ee4720ba-b43c-4642-a34b-0057e9c155d9",
+      "text": "Cultivate mental resilience to maintain composure in uncertain times.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 95
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bdd38477-e7a7-47c6-93e5-7de549ab37a2",
+      "text": "Character development is essential for thriving regardless of external fortune.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 95
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a7561bb8-d221-45ca-a72c-4a2f1c9241dd",
+      "text": "Mental independence can be cultivated to withstand external pressures.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 97
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d5c02c3f-8584-4758-a842-51fb081a0311",
+      "text": "Philosophical thinking protects the mind from being compromised.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 97
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f74a0279-d8b0-4dd0-ba25-56c65be232ad",
+      "text": "Long-term planning and consistent effort lead to sustainable success.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 106
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "958a3289-498b-4e44-8b9a-95342e9f5436",
+      "text": "Character and integrity are foundational to achieving one's potential.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 106
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0711a4dd-01f1-4f08-a231-e768fb84a122",
+      "text": "Continuous self-improvement is essential for personal and professional growth.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 106
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8fec6ac8-7f79-4412-bd77-9996def44e33",
+      "text": "Focus on controllable factors to achieve effective outcomes.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 109
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8ab44402-e1c3-4937-b4a3-c3eabbc11fb5",
+      "text": "Acknowledge alignment with external forces for optimal functioning.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 109
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c6926d95-db26-469c-b1f6-e3df6df41d85",
+      "text": "Focus on controllable factors to avoid unnecessary suffering.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 113
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ed559adc-898e-46b2-ab8f-89d253790b99",
+      "text": "Direct attention inward to improve personal character rather than judging others.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 113
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ee8ff079-b394-4d94-938e-913f75e66b06",
+      "text": "Data ownership transforms from user-centric to system-centric, fundamentally altering the relationship between individuals and their information.",
+      "source": {
+        "book": "9780262353946_caa",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c68aff97-c414-4b61-9d7e-732b82ffbff3",
+      "text": "Power structures evolve by adapting their methods to changing circumstances.",
+      "source": {
+        "book": "9780262353946_caa",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e992dc8d-2e1e-4c6f-a445-32bc26531cff",
+      "text": "Control is maintained through the modification of human behavior rather than direct coercion.",
+      "source": {
+        "book": "9780262353946_caa",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dd056bb4-5cf2-4d3f-ad81-f05b59c50a89",
+      "text": "Focus on observable actions and behaviors to extract surplus.",
+      "source": {
+        "book": "9780262353946_caa",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f555835d-a1de-49ae-820c-282e54acd6ad",
+      "text": "Operationalize control through measurable data and reinforcement cycles.",
+      "source": {
+        "book": "9780262353946_caa",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "10d846ef-121f-41f3-befe-303284be644e",
+      "text": "Data-driven systems fundamentally reshape power dynamics by enabling granular control over human behavior.",
+      "source": {
+        "book": "9780262353946_caa",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "72ff969d-d7ab-417d-a7b7-588eabbf9fc0",
+      "text": "The strategic accumulation of behavioral data creates asymmetric advantages in commercial and social contexts.",
+      "source": {
+        "book": "9780262353946_caa",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3a94fc94-698d-4d6b-9f54-5803957eafa1",
+      "text": "Understand human behavior to predict and shape future needs",
+      "source": {
+        "book": "9780262353946_caa",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "845c9976-ca21-4a02-8853-0cf08c325140",
+      "text": "Behavioral patterns can be systematically analyzed and utilized",
+      "source": {
+        "book": "9780262353946_caa",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "df9b4a86-19c0-48be-9690-b21811aaf79d",
+      "text": "Self-revelation through philosophy reveals one's deepest impulses.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5b8caeae-87ad-475a-b9c8-264348adda60",
+      "text": "Morality serves as a test of one's foundational beliefs.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d45411a9-d7c3-4aae-9377-88df6642d103",
+      "text": "Seek environments that foster reflection and freedom from societal pressures to maintain authenticity.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ebb64f4c-46cd-4016-bc37-cf10bfca4420",
+      "text": "Understand individuals through observation rather than preconceived notions to grasp their true nature.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2559a355-247f-4f70-a6c4-3aca7f6bef95",
+      "text": "Fundamental truths shape reality and behavior.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1d8938c6-f20f-46b3-87a6-e9149e17f057",
+      "text": "Complex systems can be understood through hierarchical analysis.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a456f133-23fc-4fb3-9bf0-bce153c11615",
+      "text": "Religion serves as an adaptable tool for societal development and individual growth.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5f8b5957-db3d-4d63-b151-a222cfca216f",
+      "text": "Philosophy integrates religion into broader frameworks of education and discipline.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e698907a-9df5-4921-ac25-3bccc9adebb9",
+      "text": "Maintain established values even when they hinder progress.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ae251cb9-af59-4fdd-850e-f8a8b8147f3c",
+      "text": "Systematic inversion of natural instincts can lead to societal decline.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2c7b2116-43bd-488f-9e80-8bfc1c8c56c0",
+      "text": "Societal progress requires the absence of rigid, self-imposed limitations.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "74009bf8-6d51-42fa-aeb0-e4a4a0d47027",
+      "text": "Morals are often based on expediency and fear rather than intrinsic truth.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "256a1217-986b-4368-8d53-4a2ba0969e4a",
+      "text": "Adapt behaviors to perceived dangers in the environment.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1796207d-833d-4931-943f-490ae31dd14d",
+      "text": "Individuals inherently seek structure and guidance to satisfy their innate need for obedience.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "de7a07cc-111a-4eed-80e8-57c15d6d8ce8",
+      "text": "Adaptability is essential for navigating internal and external conflicts effectively.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "86db054c-0607-4d6e-92f5-58c0aa6b8e8d",
+      "text": "Strong willpower is foundational for leadership and achieving greatness.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ea82d871-c2a5-464a-89cd-903358b4bd42",
+      "text": "Strategic thinking enables dominance and long-term success in complex environments.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5782d4a0-b936-4e3c-b07c-e083cb8efd21",
+      "text": "Greatness requires comprehensive understanding and multifaceted capabilities.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5f1b46e5-dea4-492d-a91d-b3d732ce90e3",
+      "text": "Experience is fundamental for developing wisdom and insight.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "24c6f627-2e7c-4075-b19e-fbfa4a4275d0",
+      "text": "Cultural understanding is built upon historical awareness",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 31
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "39886cfe-4f77-4501-aa94-2086ecd08f13",
+      "text": "The ability to analyze past values aids in navigating contemporary challenges",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 31
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "92fd6a72-c722-41ca-9957-30c04dbfece1",
+      "text": "Truth is subjective and constructed through cultural and individual perspectives.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fe16bd4d-ddd2-4d06-9777-d0df38e63d24",
+      "text": "Cruelty is fundamental to human nature and underpins higher culture and spiritual intensity.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cced908e-47ea-4160-bce4-9676b9922840",
+      "text": "Identity is formed through societal constraints and male-defined roles.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "849875a6-b3a9-4ec1-9382-42d5aba13cea",
+      "text": "Societies benefit from assigning women to specific roles based on their perceived traits.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "23ac8888-7dad-4368-b744-a3f1852cf43a",
+      "text": "Societal structures must balance the granting of rights with the preservation of essential human traits.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 36
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3b0485c3-b1c3-4fcc-9136-c582723c3983",
+      "text": "Respect evolves with societal change and must be adapted to new contexts.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 36
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e437b3fb-95bb-4b2d-8187-f87c1b6dca61",
+      "text": "Societal adaptation to changing conditions is essential for individual and collective survival.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 37
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4cb9f83e-5c61-420a-8354-8fb690c96f85",
+      "text": "Understanding human nature is fundamental to navigating political and social transformations.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 37
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2c21ab2a-2d4e-4d17-a682-5e35c522f2ad",
+      "text": "Endurance and resilience are essential for long-term success and influence.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2d7fd0e2-1c78-49a2-baf6-a87d86c85e5b",
+      "text": "Strategic patience allows for gradual and effective conquest or assimilation.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "43ad0739-5a26-41e3-b372-88f501bec940",
+      "text": "Elevation requires foundational societal structures",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 39
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b5348cfb-35f8-4fd8-b814-f2f754416bd7",
+      "text": "Life is fundamentally about appropriation, injury, and dominance.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 40
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "338ead6c-7663-4ebf-8145-681e713d06c3",
+      "text": "Morality is a tool used by the powerful to elevate themselves above others.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 40
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ea6dcd59-3407-4823-82fb-fb4193029b41",
+      "text": "Moral frameworks are fundamentally shaped by power dynamics and social hierarchies.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5963035d-89d6-4bff-a7de-f6d7ef9b371f",
+      "text": "Equality and mutual recognition are essential for balanced moral judgments.",
+      "source": {
+        "book": "Beyond good and evil",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "34fdae72-0915-401f-9327-99d600b7d888",
+      "text": "Acceptance of circumstances leads to inner peace.",
+      "source": {
+        "book": "CAMUS, Albert - The Stranger",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ad729584-71a7-489e-a62f-14dfda519858",
+      "text": "Living fully in the present moment fosters contentment.",
+      "source": {
+        "book": "CAMUS, Albert - The Stranger",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c9656e71-adff-4c50-a355-0c8dc98bd9bf",
+      "text": "Release intense emotions to avoid internal turmoil.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3d37f038-bf63-4d63-b52c-d20fd1f70787",
+      "text": "Value presence over production in defining success.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "318c56f6-513c-4fdf-a02c-ba2ccd9b6a20",
+      "text": "Unconventional perspectives are essential for future understanding.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2bc2c6e5-56d4-4334-9aad-48d8021eea14",
+      "text": "Anticipating challenges makes them more bearable.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a2139a2b-3336-44d1-bdce-ca9af67b8195",
+      "text": "Directness reveals resolve and prevents disorientation.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4c1a2ee4-ae19-4c97-8324-a259833ff79a",
+      "text": "Embrace failure as essential to growth",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3ea71e47-de67-4896-af20-9ba1662ea8ad",
+      "text": "Understand that all phenomena are temporary manifestations",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "92d2862d-f867-4b51-a5b1-fd7465919c1b",
+      "text": "Recurring human illusions lead to predictable patterns in conflicts.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "21a09d8f-403c-427e-a027-7b1245482649",
+      "text": "Preparation and foresight are essential for long-term dominance and success.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "50495ef7-4895-4416-91f3-89a21fbe0173",
+      "text": "The right people are defined by character and capabilities, not specific knowledge or skills.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a5275cc2-91d7-4645-b9ca-d03b55e81069",
+      "text": "Sustainable organizational success requires embedding disciplined systems rather than relying on individual leadership.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2df92845-da1d-4e9f-90d7-ecfb27db922a",
+      "text": "Consistent effort, when sustained in a single direction, compounding over time, leads to exponential progress.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 46
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "85458990-a210-43e2-a489-ed4b7a5e0949",
+      "text": "Progress is built through cumulative actions, not dramatic shifts.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 46
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "82a6f7da-8e13-4fa3-8efb-f299e296f23d",
+      "text": "Organizations must evolve their standards over time to maintain relevance.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 58
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6e3644d9-1087-4e3d-9558-a4a2029d3afb",
+      "text": "True greatness requires sustained integration of multiple foundational elements working consistently together.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 58
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0627017b-064a-4ee2-89ca-772ad0ebd8c1",
+      "text": "Conviction in core values drives sustainable performance regardless of industry specifics.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 59
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "16816ecd-1eb6-4e65-9b07-9159cce3db86",
+      "text": "Unified strategic focus enables diverse operations while maintaining core direction",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 59
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6a093bcd-67e3-4b28-b9d6-b0028f4131c7",
+      "text": "Choose the right partner during transitions",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 64
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4848a40d-e61f-41fd-b1c2-f62270c850ac",
+      "text": "Open communication enhances decision-making by pooling diverse perspectives.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "691d01a2-5e5c-454b-aa3e-d397212f571c",
+      "text": "Handling disagreements directly builds trust and improves outcomes in high-stakes situations.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cc738cd6-b042-4a79-9745-21ddabbe4b17",
+      "text": "Focus on areas of agreement before addressing disagreements.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 42
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "24f947e5-037d-444c-a413-306da7d41692",
+      "text": "Address minor differences constructively to avoid escalation.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 42
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b9359544-a338-40c8-a4da-04f78430216d",
+      "text": "Be aware of how training shapes conflict resolution behaviors.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 42
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4e2c725a-d074-4364-b1cb-7110e7d6b808",
+      "text": "Decision-making processes should be established upfront to prevent stagnation and ambiguity.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 44
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c411ba7b-c6b4-4f6e-b910-a3c297b2b6b0",
+      "text": "Leadership entails defining and delegating authority to avoid operational inefficiencies.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 44
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0127c7a2-8378-4c15-bb1d-cdd391b52e3a",
+      "text": "Anticipate and address conflict early to prevent escalation.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 55
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1a26d53e-15ad-440e-908d-ea6499e91f69",
+      "text": "Dialogue skills are universally applicable to most problems.",
+      "source": {
+        "book": "Crucial Conversations",
+        "chapter": 55
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e29df3cb-8637-4a4c-b9e5-fa9881bcaa26",
+      "text": "Success requires motivation and persistent effort.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "45f223d8-b3dc-4fed-b00a-4eeabbec85a2",
+      "text": "Knowledge gained through practical experience is more reliable than theoretical knowledge.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1bbc9ba2-75bf-4d6d-a648-f404a35ef63a",
+      "text": "Wealth accumulation enhances personal freedom by enabling the pursuit of varied activities without financial limitations.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "af330573-76bc-44db-8063-b31a79556297",
+      "text": "Adaptation to changing circumstances is fundamental for organizational success.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8c09feef-71a7-4699-af9e-6a3d65ad94e5",
+      "text": "Strategic thinking should prioritize long-term goals over short-term operational details.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e1811d8a-2bcf-4858-be5d-a65ab0c052f0",
+      "text": "Control is a limited and temporary form of influence.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 46
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d4e817db-936f-45dd-b114-f53375ea53e3",
+      "text": "Wealth accumulation can be viewed as a game.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 46
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1533ac56-f910-4a19-84f2-27291f3c32cb",
+      "text": "Adapt your operational approach based on the ownership structure of the business (private vs. public).",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 48
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "26522cf3-9c63-42d1-a328-11957a9a47df",
+      "text": "Delegation is essential for personal and organizational growth, fostering a virtuous cycle of mutual benefit.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 49
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0d57039e-db8c-435b-bd59-8a24b1eda2fe",
+      "text": "Effective delegation and promotion foster loyalty and efficiency in teams.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9fa779a5-cd80-46d6-a58b-855ea5a7205f",
+      "text": "Observing individual strengths and weaknesses informs better team composition and growth.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f5fb50d2-f442-444d-8702-ee9d7ce09dea",
+      "text": "Competition is fundamental to the vitality of systems like capitalism.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ff0f600c-2819-4f4b-8d70-fbdfddf12354",
+      "text": "Thinking carefully before acting is crucial in competitive environments.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c7c13ceb-c659-493a-94f2-20c1c929d6c2",
+      "text": "Understanding the environment is crucial for effective decision-making.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 53
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c5fb28b7-adf5-4da8-80c5-32eb927ebc5a",
+      "text": "Alliances and partnerships are essential for navigating complex challenges.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 53
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1ebb133b-8353-4ca6-8b11-642078372e84",
+      "text": "Balance is crucial for long-term success and personal fulfillment.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 74
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6a3e2cfb-00ed-43fa-8fae-511792190d38",
+      "text": "Discipline enables sound decision-making and prevents impulsive actions.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 74
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "90b14207-7b5c-4513-a4be-a9ed4a572663",
+      "text": "Consistent effort and focus are essential for achieving desired outcomes.",
+      "source": {
+        "book": "Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "706016d6-8057-4ff4-98cb-3dbad3b331db",
+      "text": "Self-discipline is foundational for sustained action and personal growth.",
+      "source": {
+        "book": "Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f15b7d23-a35e-44ae-af2a-81f7eaa70f8e",
+      "text": "Embrace uncertainty and open-ended challenges to foster dynamic interaction and reciprocal growth.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e4b4e4a9-4a50-4365-87af-0b14283de3ad",
+      "text": "True engagement thrives in environments where outcomes are not predetermined, allowing for continuous learning and adaptation.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "483560ac-c700-4cce-942a-46a7d94d7bef",
+      "text": "Power is determined by past outcomes, while strength focuses on future potential.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "aecac1e9-1be5-4051-b041-eae8f2b3e604",
+      "text": "Infinite play requires forward-looking adaptability, not fixed assessments.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "36ea9222-ef4e-4ef7-81b5-a4bc2f356484",
+      "text": "Accept the inherent evil in situations and focus on self-awareness rather than eliminating it in others.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2543661f-42a9-4fd0-b278-2f9720257e90",
+      "text": "Power is expressed through mutual recognition and understanding, not through dominance or forced outcomes.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9e4874a3-35c0-4a41-865a-9f8b48f337fc",
+      "text": "Legitimacy of ownership is built through societal agreement and recognition.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e44cd857-f1fa-4045-a345-b8b914fd9615",
+      "text": "Titles symbolize past victories and must be visible to maintain ongoing engagement.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5c3063b4-d62e-4a3f-bc56-5fdb41e29cdd",
+      "text": "Authenticity is foundational to effective action",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "321a569c-1918-4e7e-8d7e-5f6a4a3c863f",
+      "text": "Ownership of actions and words is essential",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "98ec82f2-0295-48df-a66b-b2195caa2e5f",
+      "text": "Communication and thought involve a transfer of authority and ownership.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "07cfb2a9-f9ce-4d17-9e2f-27cc72b2737b",
+      "text": "Original action erases the self and connects to a broader vision.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a5b09f7e-6f81-438b-899b-4f0d345df4d3",
+      "text": "History is a dynamic narrative that requires self-aware engagement to avoid reduction.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fc326e89-e594-4e83-9d53-45b9aea1c32b",
+      "text": "Language enables the possibility of history by bridging the unspeakable nature.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3846ca8d-bdb5-4218-8fe5-635c271dd24e",
+      "text": "Authority is derived from compliance and obedience.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "20e30319-4231-46b4-bf29-aea3f5065314",
+      "text": "Communication shapes reality through dialogue and shared understanding.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "950651f1-27bc-446c-a791-edf37a9487b1",
+      "text": "Control of nature is achieved through prediction.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a4463d4b-6ba8-4408-99a1-923446d1643e",
+      "text": "Discipline and discernment of natural patterns enable effective adaptation.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "159b76bd-3deb-4b1b-a15f-4f28b3c58be8",
+      "text": "Foundational stories shape collective experience and legitimize beliefs.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "83a12b06-1f94-4dc5-a39b-8cf629fb843d",
+      "text": "Narratives enable exploration and understanding of the unknown.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "567c6bfd-35b4-44d2-8e28-c491ef9e124c",
+      "text": "Effective communication requires attentive listening to understand others fully.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f36f8d7d-1a16-4b79-8383-f9180e0372e1",
+      "text": "Truth is revealed through ongoing dialogue, not static pronouncements.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f20f9fb5-95cb-429e-b9aa-3b08ab5820fe",
+      "text": "Understand others' perspectives to build rapport.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "59543bb7-6aec-4cc0-8b01-9d8f82efabae",
+      "text": "Active listening fosters trust and connection.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "72292237-0cc3-4b5c-aea9-b8165d653cbd",
+      "text": "Honesty and humility enhance influence.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ff25dc2f-eb83-47be-892a-93da9359a5be",
+      "text": "Appreciation builds motivation and enthusiasm in others",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "843d57ff-9c7e-437c-be1a-446665007c38",
+      "text": "Contribution to society fosters a sense of personal significance",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1a832e2c-b775-448e-953e-2f6d60da98fa",
+      "text": "Show genuine interest in others to foster reciprocal relationships.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fd75a0b0-15ee-4eaa-a02d-5606a4a05721",
+      "text": "Actions should align with internal feelings to build trust.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3b58543f-cc7b-4f6d-ad72-fc34faf49c66",
+      "text": "Making others feel important is fundamental to positive human interaction.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "18cbfa36-dea6-401e-824e-4db120cb9a70",
+      "text": "Build rapport by showing genuine interest in others.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ca746c6b-e954-4f70-9f49-4e92faf3aac5",
+      "text": "Foster engagement through active listening and validation.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "357e3662-45f8-4f2c-9265-58bb0fad4fb4",
+      "text": "Enhance relationships by aligning communication with individual motivations.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1d15d4bc-eee3-41bb-98af-468ffc06d696",
+      "text": "Begin interactions by emphasizing areas of agreement to foster positive engagement.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 31
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "57b4a884-888e-48cc-a1ba-aeef1cb80896",
+      "text": "Dramatize ideas to enhance impact and engagement",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "021889e9-44fb-4a8e-9c7c-ca1bf4d1dc23",
+      "text": "Stimulate competition to foster excellence and performance",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c78b2997-7bee-4191-a150-3825c5fa6ad6",
+      "text": "Communicate ideas effectively by making them relatable and vivid",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 39
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "269fa24a-72d4-49aa-a378-02e43fa73d8f",
+      "text": "Engage others by initiating challenges or provocations",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 39
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ff644651-f436-4677-a55d-9a85f7196658",
+      "text": "Assume positive traits in others to enhance their performance.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 44
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "860dcce5-cb9d-4b55-ab07-97187794afde",
+      "text": "Reputations shape behavior and motivation.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 44
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "77b98db0-68d3-45ab-94c0-47fdb50592eb",
+      "text": "People are more responsive to tasks when they feel personally benefited or recognized.",
+      "source": {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 46
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "96a6ab9d-afd7-480d-aa43-53bd4fb19836",
+      "text": "Deliberate practice enhances performance by building skills incrementally.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4ab9109a-8911-46a4-82a7-5c8eed4688cc",
+      "text": "Early engagement reduces future difficulty by allowing for gradual adaptation.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8d43d8dc-0af5-4d9c-bd95-49c1c816d8ea",
+      "text": "Proactive planning mitigates future regret.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 71
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "37356668-7f36-4ead-95ed-b60a44dc5fe8",
+      "text": "Deep understanding of human behavior is fundamental to successful relationships",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 92
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "09a2d44f-d309-414a-8ced-32459acf57da",
+      "text": "Commitment and deliberate decision-making are foundational to relationship quality.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 105
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "be0f7153-5ac7-4390-adc4-b20d5b5577c7",
+      "text": "Operational success requires proactive engagement rather than passive drift.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 105
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1a97432f-0fd0-442e-9667-0fb745e283ff",
+      "text": "Technique operates autonomously, shaping its environment without external guidance.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "678a2c4d-9b75-45b7-b3cb-36eee2f7dc80",
+      "text": "Technique evolves to enhance its own capabilities and scope.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "86bf5325-01a3-443d-b9dc-34ee33fc7873",
+      "text": "Modern techniques function as interconnected systems, requiring integrated approaches.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fbb7de67-0437-4f3b-858c-0fa732fa9dcf",
+      "text": "Technological development shapes societal structures and political frameworks.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "40d12567-8881-4222-b9f9-6e1072d0733c",
+      "text": "Human adaptation to technology requires modifying environments, timeframes, and social organization.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d6a53f47-2044-4322-beed-1de01c6fe7cc",
+      "text": "Technique is a fundamental aspect of modern society, defined by rational methods and absolute efficiency.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c5c1472a-8bf1-4124-a322-94a70e8e59b9",
+      "text": "Sociological mechanisms shape individual actions and choices, influencing societal structures.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e257f95a-609a-46f6-8f06-c01e513c9067",
+      "text": "Technology reshapes societal operations and structures.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0e1e43be-9566-4cf9-a0a3-aad69654f084",
+      "text": "Adaptation to technological change is fundamental for societal progress.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ced2d93a-5303-4855-aeb4-a2291d90a723",
+      "text": "Technique fundamentally reshapes human environments to align with mechanical systems.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d4fcf7cf-529e-4704-8f2e-71fd082f2aa1",
+      "text": "Efficiency and rationalization are core tenets of technique, influencing all societal structures.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4b44baee-5908-4c78-adf8-8fa5b860ca82",
+      "text": "Understanding operational domains requires recognizing their broad application beyond traditional boundaries.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7d81da11-46c0-485b-a45a-d76466e11781",
+      "text": "Efficiency in operations relies on anticipating challenges and standardizing processes.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "563fbbec-ad98-459d-b2ff-c83369183594",
+      "text": "Prioritize practical outcomes over abstract ideals",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6d639923-fe2c-4c9b-ae93-27060fb6c3ff",
+      "text": "Surveillance technologies evolve to encompass all facets of society, fundamentally altering social structures.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f5f9171f-a675-4e40-9263-74989b5031bd",
+      "text": "Data collection and analysis are foundational to effective control and prediction in modern policing.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "817dd345-8f76-4585-bf95-67940c0a5e86",
+      "text": "Comprehensive systems can dominate and reshape everything they touch.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "80c8e39d-c42f-4a23-b704-d7b4b80f7c9f",
+      "text": "Specialized knowledge can reshape contexts by imposing its frameworks.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bc7baff1-97ee-49eb-9b7b-4944b794f5bc",
+      "text": "Technology fundamentally reshapes societal structures by prioritizing efficiency and systematization.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 33
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "758c5ec1-e3e7-428e-b283-4bf4f9d83893",
+      "text": "Cultural and social frameworks are secondary to technological advancement, leading to their transformation or dissolution.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 33
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "395100c6-79cd-432b-90d2-05868e275d70",
+      "text": "Autonomous systems operate according to their own internal rules and are self-sufficient.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4fa83f19-e0fa-4d4b-88e7-c43d4f82aa79",
+      "text": "Human judgment should not interfere with autonomous systems unless technically necessary.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "df81bbc2-7e9e-4cb4-8e17-f9f0647775ee",
+      "text": "Planning must be tied to coercion to achieve maximum efficiency.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 42
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "da5d491e-7cb1-492e-bb1b-c653034aa751",
+      "text": "Human nature requires psychological elements for smooth implementation of plans.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 42
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7cc0e601-d550-48b2-843c-feeb75009798",
+      "text": "Planning is fundamentally tied to state power for effective execution.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 43
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9f47a250-4efe-426e-8dd2-76719566c060",
+      "text": "Technique inherently drives the extension of planning through action and development.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 43
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "021f89cb-3f49-4acf-a3d0-7cd18fe60fa1",
+      "text": "Prioritize efficiency and technical effectiveness in decision-making.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 44
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "979c93bd-9552-4af9-8396-ea5f2eee5cd6",
+      "text": "Adapt systems to current circumstances rather than relying on past successes.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 44
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5097d32c-0110-4c93-8996-63648f2db822",
+      "text": "Operational effectiveness requires institutional endorsement and integration into broader systems.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 49
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4e2c8785-90c1-4978-8ce8-6da28b402b4f",
+      "text": "Technique thrives when it aligns with fundamental operational needs and evolves with context.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 49
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "88d523ea-780c-431b-b5dc-ea9050d74190",
+      "text": "Political doctrines must evolve to align with technological advancements.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 58
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5501ef64-20f3-48fa-aeed-02f37de175dd",
+      "text": "Efficiency should be prioritized over traditional ideals in political structures.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 58
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "58ca0233-dbd2-406e-af4c-386bfa47b275",
+      "text": "Operationalize theory into a method to resolve contradictions.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 59
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5d431e1f-d765-41de-9f1c-a8d4e42db1ee",
+      "text": "Coordination of diverse systems enhances overall effectiveness in complex operations.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 62
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8a9614a8-e69c-4a6b-9283-297a2301d34f",
+      "text": "Planning is essential for leveraging technological advancements on a large scale.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 62
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c1e1b63f-917e-4cb3-b4c0-269d7bcf97d0",
+      "text": "Align technology development with state objectives for comprehensive control.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 63
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "33db6b13-8acb-4b9c-977b-1b1c6a03fb26",
+      "text": "Subordinate scientific inquiry to utility-driven goals.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 63
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "663b50b1-996a-4805-9a32-b037f2767a51",
+      "text": "Techniques should align with societal needs to achieve widespread adoption.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 70
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e54bbad5-264c-4c5e-b124-35207f5d4f0a",
+      "text": "Art and entertainment must serve the sociological function of clouding consciousness in technical societies.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 70
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e744dbef-4931-4b52-93e7-75d3e3f63abe",
+      "text": "Operational efficiency requires specialized focus and limited scope.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 72
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5d4f15ac-c59b-402c-aff0-ca68f20c0818",
+      "text": "Techniques evolve to fit predetermined models, potentially altering human perception.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 72
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "43883211-7836-44e6-961c-712922927a2d",
+      "text": "Techniques must adapt to human limitations and societal needs to remain effective.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 83
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "12dd57dd-bb4d-49a8-8e70-c3c2402a50b6",
+      "text": "Organizational structures should balance efficiency with human creativity.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 83
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2123b20b-d58f-4b14-bfb4-887699855288",
+      "text": "Understanding foundational truths requires systematic study",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "256ebde1-1813-4f31-8cbf-f62e2afa7deb",
+      "text": "Philosophy provides a framework for decision-making",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a7649ff5-c4e6-4b0b-b239-d4d4841161d6",
+      "text": "Effective leadership balances authority with guidance",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3b94798e-24cc-4fa5-8179-04b652d264e0",
+      "text": "Understanding human nature improves decision-making",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ecfc8d9e-cbff-4caa-a9ca-d22dac49678a",
+      "text": "Reciprocity in relationships: Treat others as you wish to be treated.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a6455254-0abf-406f-b4d0-705fa056bfe1",
+      "text": "Shared humanity: Recognize the common experiences and dignity of all individuals regardless of status.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "820a06bd-1469-4f57-99cb-c50b742c323d",
+      "text": "Respect is foundational to effective leadership.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "440b3477-7a4b-4866-945f-4d683248486f",
+      "text": "Leadership is strengthened by understanding human nature.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4938af75-b400-4d0a-ae6d-99fd23c76068",
+      "text": "Maintain internal control to achieve freedom from external influences.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "37c8788d-9f29-4af7-b8cc-f134a125ec34",
+      "text": "Inner strength and spirit hold greater value than material possessions.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d07a0304-7471-4e59-82dd-6ec9a696b33b",
+      "text": "Life is complete and honorable when lived with integrity.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d6825982-6cc5-4570-a59a-06b8aece8ce2",
+      "text": "Confront challenges directly rather than avoiding them.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "615e99e5-2041-4d34-aab4-2a3bef41bada",
+      "text": "Focus on the present moment to reduce anxiety about the future.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "30e2da3c-288e-43d9-a734-67194485e394",
+      "text": "Direct your message with unwavering persistence.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 54
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ef626542-ec8f-4077-ac05-c46d624e9347",
+      "text": "Truth has greater impact when aligned with credible messengers.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 54
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f63ac98b-7465-4fcc-9537-d95ec3e86246",
+      "text": "Character is malleable and responsive to noble influences.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 54
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2bf0d041-c590-4c89-8872-f9299073bda9",
+      "text": "Prepare for adversity to maintain personal resilience.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 67
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e3f39918-e612-4189-b6f8-9b749e96a27d",
+      "text": "Base your legacy on consistent ethical behavior.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 67
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "86fd8c97-9a10-4f1b-8e53-9d17561dfa7f",
+      "text": "Maintain integrity and steadfastness in the face of adversity.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 68
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "31c8e6ec-b9da-4432-b129-cefc0b86c019",
+      "text": "Prioritize inner control and simplicity to achieve freedom from anxiety.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 68
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b2b6bdc5-33d4-47d6-96af-586a6e589a80",
+      "text": "Understanding the opponent is essential for effective action.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 69
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "590ef469-450f-4ac2-ac05-62e592542a65",
+      "text": "Flexibility in tactics can overcome numerical disadvantages.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 69
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "634aded7-8feb-43d3-944b-9aeab8ed45bd",
+      "text": "Effective communication requires balance and restraint.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 69
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "98d1175d-066c-4c48-bb70-df6e26469f2c",
+      "text": "Understand human nature to predict outcomes",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 71
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cc113f29-bd37-4284-ae77-c405e86f6a22",
+      "text": "Strategic planning requires empirical data",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 71
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a4e22e08-5429-40b0-a291-f1636528f254",
+      "text": "Understand and adapt to the nature of the state and its people to govern effectively.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6d75c165-08db-4b66-9b61-d4899bc0c4d8",
+      "text": "Balance between being feared and loved, with fear more reliable for maintaining power.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eb5824c1-cbaf-4a9b-bc13-863d916b1c7a",
+      "text": "Power dynamics are influenced by both human actions and fortune.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d8d38787-c856-4d9f-b447-5de7622763b9",
+      "text": "Understand cause and effect relationships",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4ae7a42a-dcc1-423a-b6e5-a67592bdb8c0",
+      "text": "Adapt to circumstances to ensure survival",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "01e4a4c5-0aed-4aee-87be-87afd17f9638",
+      "text": "Prioritize essentials over luxuries",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7abe781d-ad34-496d-8063-e7ea5bed5672",
+      "text": "Maintain equilibrium in power dynamics through continuous assessment and adaptation.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "089c3be1-3d89-4d28-873f-959573c9d73a",
+      "text": "Alliances are essential for stability in competitive environments.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c3899741-28b1-49c7-a2b1-d14d32469f24",
+      "text": "Prioritize decisive action over abstract concepts",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e2a33bfe-38dc-4173-8d96-45e0b8447827",
+      "text": "The effectiveness of military forces depends on their composition (citizen vs mercenary)",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "000e22bb-e253-4f9f-8d99-6c7afae443dd",
+      "text": "Effective power acquisition relies on capability rather than luck.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "840ac5a8-23d7-452f-8863-419788d87745",
+      "text": "Fear is more constant than love in maintaining control.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "537ed473-2467-4f3c-a841-b34ffe37b84f",
+      "text": "Understand the people to govern effectively.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7ee1afa5-bd9f-41e3-ab50-8683d3811910",
+      "text": "Learn from history and contemporary affairs to inform governance.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dc4d8a18-3db9-4b50-b1d2-3e915b361cc2",
+      "text": "Consolidate power through a balance of severity and leniency",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "87975c81-2c9f-4c5d-bdfa-310aa7270e06",
+      "text": "Power is built through decisive action and careful planning",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "31ab6652-37a8-447c-af9f-227bedf81e09",
+      "text": "Effective leadership involves taking decisive actions to overcome obstacles.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ba715c5a-1655-4422-ba00-29c20de8593b",
+      "text": "Power is gained through forceful measures and maintained by adaptability to challenges.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7015b6fd-3cb3-45ad-909b-4e92f057fb4c",
+      "text": "A ruler's foundation of power is built upon the loyalty and support of the governed.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1afec882-bd61-4281-98c7-fd7cf704d548",
+      "text": "Consistency in governance and leadership style fosters trust and long-term stability.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0de69bb9-0843-4c60-929d-1d3fa6721e7a",
+      "text": "Power is derived from legitimacy and institutional support rather than solely from force or personal ability.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "185601fe-2bad-487d-a5da-a4ce39e86832",
+      "text": "Security stems from alignment with foundational, enduring structures (e.g., religion).",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bed0f33d-9950-43a1-8907-4245c8726964",
+      "text": "State power relies on solid foundations, which include good laws and a strong military force.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "75bfe9cc-831a-45ab-8e3d-a95e4a7f511a",
+      "text": "The quality of military forces determines the quality of governance and state stability.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "777f21a8-d6fa-4d3f-9651-9eacf35e8799",
+      "text": "Leaders should balance ideal qualities with practical necessities to avoid failure.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a02d8fd8-abac-4c3b-a918-8feb5e8eb1d0",
+      "text": "Rulers must adapt their behavior based on circumstances to maintain control.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9f5c3bd4-9d0a-448b-b4bc-67fb6006d3ea",
+      "text": "Leaders must base their power on what they control, not on others' choices.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bf25dd05-853d-4b62-bfc6-959d1162333d",
+      "text": "Rulers should adapt to circumstances and appear virtuous to maintain authority.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "35fa6ad5-7ae3-4767-8845-1869c5e6a327",
+      "text": "Success requires understanding human nature and exploiting both lawful and forceful tactics.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ba7b2b55-6096-4246-9484-edf7b1c1774b",
+      "text": "Strategic alliances are fundamental to achieving political and military objectives.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "69914646-979c-455d-a606-ac030553ed01",
+      "text": "Effective leadership requires balancing short-term gains with long-term sustainability.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5610999f-d018-491c-9b2b-90cbde75752a",
+      "text": "Effective strategy requires balancing boldness with resource management.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "840d67e8-db4e-4203-bae2-31a12f0132c5",
+      "text": "Adaptability to changing circumstances is crucial for long-term success.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ee1f576d-d82f-4bc0-aff8-59bfe58ac2bc",
+      "text": "Political legitimacy can be leveraged to maintain power and influence.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c966b64d-6e3d-44cb-ba23-89df297eaa79",
+      "text": "Operate from unconscious motivations",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fa50f86f-325a-4759-a398-38a15a4754d1",
+      "text": "The mind develops autonomously through experience",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "78118395-9882-427f-b3fb-a7151c9f3749",
+      "text": "Symbols are crucial for integrating unconscious and conscious elements into societal structures.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4e7bedb7-68f2-420a-8c6c-27379e4620ed",
+      "text": "Archetypal images form the basis for cultural symbols that influence human behavior and society.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d096f9d4-2908-42d0-9513-03e7f0ab7726",
+      "text": "Each life stage involves a fundamental conflict between personal desires and a greater psychological reality.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b338865a-5938-468c-99c2-3e86359d895e",
+      "text": "Submission to an external power enables transformation and integration of the self.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "25b80879-1776-46d1-97ea-63750edd0992",
+      "text": "Objects can be imbued with symbolic or expressive power to represent abstract concepts beyond their physical form.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4fe76f0e-5853-4230-971b-4fe16053da0c",
+      "text": "The creation of symbolic objects involves projecting human experiences and emotions onto inanimate materials.",
+      "source": {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4023d50f-ae50-4a29-ad6d-af6b03b15952",
+      "text": "Embrace challenges as opportunities for growth.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "23be2e94-8e21-4e25-9a43-3bf746b90c52",
+      "text": "Focus on what is within your control during crises.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f6625d11-9628-4844-8b05-969aaedf2c3e",
+      "text": "Consistency in actions and study leads to excellence.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "afa84164-4ab6-4d02-b3cd-12861da10abb",
+      "text": "True leadership is marked by simplicity and directness in communication.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1e46fa1e-5808-46e0-b7bb-55aa6bbd1ce1",
+      "text": "Moderation in all things prevents excess and deficiency.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c5b896c3-090a-4613-9e4a-e8c98739e4a7",
+      "text": "Focus on what is within your control to maintain inner peace.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "14bddfb7-db43-4c26-ae2f-48bed7bcb87e",
+      "text": "Embrace change as a natural part of existence.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "18400a7a-363e-4136-8d91-bd8221626e5c",
+      "text": "Focus on internal factors, as external ones are neutral.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4d8ba00d-12ce-437f-b4ca-f1cd0b70e036",
+      "text": "Understand the hierarchy of control to make effective decisions.",
+      "source": {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "75975166-ab25-4af2-91b2-d1d904d0bbd2",
+      "text": "Change in one partner can catalyze change in the other (mutual transformation).",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7bb59db8-a04c-4919-80b5-e319eebedc98",
+      "text": "Self-worth influences relationship dynamics (higher self-worth leads to better outcomes).",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e32b4a40-4a04-4edf-9f0c-17fe3f5d9f31",
+      "text": "Readiness triggers reciprocal action (when one is prepared, the other responds).",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "65427d15-9d0a-4a5f-ac04-aea96d76af66",
+      "text": "Individuals may need private time to process emotions or solve problems.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0352328e-20b1-4794-9a6b-7b270d85bdec",
+      "text": "Communication styles must adapt to partners' preferences for relationships to thrive.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e76382a4-fb65-4e9b-900e-8edb702315c1",
+      "text": "Understand and adapt communication styles based on relationship dynamics.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1af82579-c9b9-46d8-ac03-ed43128a9e17",
+      "text": "Emotional support is essential for maintaining harmony in partnerships.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fecac935-230d-4f51-9dfa-14cdedaa7b6f",
+      "text": "Relationships thrive on consistent effort and attention to both big and small gestures.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 36
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b01a4fdf-96d0-460c-a334-47cbe3e72360",
+      "text": "Understanding and adapting to a partner's needs is fundamental to mutual satisfaction.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 36
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "baae780e-005d-4dde-a77c-1a049e791879",
+      "text": "Relationship dynamics require balanced giving and receiving.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "30868a01-15b6-4922-ad1b-cd7c5cce1e7a",
+      "text": "Emotional balance is foundational to healthy relationships",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f6738676-0485-419d-bdf4-53265164f5f7",
+      "text": "The medium of communication fundamentally shapes the form and content of public discourse.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "01675793-5fcc-40a5-a823-d8f80ce1d719",
+      "text": "Different communication technologies naturally favor distinct modes of expression and understanding.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b2859a08-22a9-45db-b3a4-a2ad22062a15",
+      "text": "Media fundamentally shapes how knowledge is defined and understood.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b68fa178-501b-467b-b748-e35a86bf644c",
+      "text": "Communication methods influence the perception and interpretation of truth.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7323e13c-d66a-49c6-9e2b-78d3e309e4ec",
+      "text": "Effective communication requires clarity, focus, and adherence to rational discourse.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9d567640-0986-4b47-a48f-d741c6936a0e",
+      "text": "Maintain disciplined focus to avoid diluting resources or compromising operational integrity.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c10e0b4b-e119-4f18-bf21-3e3ea99e6ebf",
+      "text": "The effective use of technology amplifies its impact on society and decision-making processes.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "39e0da45-243d-4056-8659-c23aac4c3e0e",
+      "text": "Entertainment serves as a foundational truth for shaping public discourse, influencing how information is received and interpreted in all contexts.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f63881a7-3937-4d33-b39c-939ad19bad7c",
+      "text": "Audiences' expectations are fundamentally altered by the entertainment-first approach, leading to a diminished tolerance for depth or seriousness.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "69254e54-b369-43c2-b5dc-9c3991e87611",
+      "text": "Effective communication balances entertainment with depth.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d5988db7-db7c-4844-afe2-6110d17c7c49",
+      "text": "Cultural adaptation requires maintaining core values while engaging audiences.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d2ffb4a5-96c6-4de9-a734-7fcb260af922",
+      "text": "Authentic religious practices must adapt to modern media to remain relevant.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 36
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9e7370dd-af9d-4ada-a01e-7f93c522926d",
+      "text": "Entertainment and enchantment are distinct goals; one distracts, the other elevates.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 36
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d0f500f7-f2f1-49c6-91c6-85df39faeab7",
+      "text": "Understanding the broader context is essential for effective decision-making",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d1b316bf-7ce9-42c9-a046-961808356f5b",
+      "text": "Continuous effort improves outcomes over time",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ec020b68-f5a0-4a6f-81fd-3c67dc6f024c",
+      "text": "Confronting fears reduces their impact on behavior",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b59c96b7-5fee-4a23-a210-17698cf948d7",
+      "text": "Consistency in effort leads to growth.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1a4b4f54-d6f7-4c34-a963-ce048f97aa85",
+      "text": "Start early to build momentum.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bf058f3f-8329-4f0a-9068-85a28700f58b",
+      "text": "Thinking before acting improves decision quality.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8bcdacac-e752-4d2a-8601-9ae9f054d49c",
+      "text": "Commitment is foundational to achieving personal and professional goals.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ae2f4b62-9a82-412b-b220-8405df49f4bd",
+      "text": "Long-term focus enables sustainable progress and development.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "079a4aba-bfa0-4eea-a078-c5e178d1a437",
+      "text": "Foundational development precedes achievement",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "76ffd64b-e0c4-4ae3-803f-99b555397402",
+      "text": "Personal transformation enables capability expansion",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "67810a01-af2f-4ef6-aa08-26c2774f98bb",
+      "text": "Self-discipline is foundational for achieving personal and professional potential.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0acc0bfa-75db-477e-902e-06860c2f53a3",
+      "text": "Mastering self-discipline enables control over personal development and emotions.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 14
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ab179596-cf9c-4525-abe8-7151d34b5fc0",
+      "text": "Consistent actions lead to predictable outcomes (Law of Cause and Effect).",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "894c7918-09df-4022-b051-e6156f0a21a5",
+      "text": "Success requires deliberate effort and sustained focus.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "00ce5f57-01e4-41c9-b0ff-b7c4425ee49a",
+      "text": "The quality of willingness determines the ability to achieve goals.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "91385c6c-5884-41b9-81a5-229447e069a9",
+      "text": "Character development is foundational to personal and professional advancement.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "353f6f73-0af1-49f3-af4c-ee5e7b365f13",
+      "text": "Consistent practice of values reinforces internal beliefs and behaviors.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "40593be9-87f6-4256-9459-a4c2d89a17e3",
+      "text": "Emotional regulation significantly influences physical health outcomes.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "24f02ae8-98f2-4a99-a583-210619d116c2",
+      "text": "Personal responsibility enhances control and positivity in life situations.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "30b77aa8-6263-4116-90c1-68d9d9989a44",
+      "text": "Continuous effort strengthens capabilities over time.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 39
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3502a5c0-f076-4867-a746-5cf934550f2b",
+      "text": "Highly effective individuals focus resources on areas of highest potential return.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 39
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f4c1e843-00e1-464e-b334-e53fa2078945",
+      "text": "Continuous development yields benefits.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 48
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f4940925-1be2-4b52-9f58-848638150644",
+      "text": "Applying knowledge enhances control and happiness.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 48
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d1589b37-e988-42f2-84a4-f168b10081b6",
+      "text": "Maintaining a positive mindset enhances resilience and problem-solving ability.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 55
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ff3de24c-dbde-49ca-9c0a-95791091184f",
+      "text": "Personal agency and responsibility are foundational to overcoming adversity.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 55
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4baf6a84-907d-4c8e-aa9b-7eac8b5827fe",
+      "text": "Leadership progress requires evolving responsibility and scope.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 65
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f8ed28c5-c42d-472c-bb96-e909235d6967",
+      "text": "Clarity of expectations is foundational for effective execution.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 65
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5a24ac76-9522-45cd-928b-bc67b54ca20b",
+      "text": "Prioritize activities based on their potential impact and return value",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 80
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "57c0e0a7-5508-469c-885b-9104e0ac4a46",
+      "text": "Feeling in control leads to happiness.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 86
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d020ffa1-a853-449f-852e-426be10153fb",
+      "text": "Happiness is a by-product of progress toward goals.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 86
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c082069a-0eee-4bad-b1fe-39724521af16",
+      "text": "Self-discipline enhances personal power and happiness through consistent action.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 90
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "57b71f43-1866-4b32-9da5-bdea5497deaa",
+      "text": "Personal control over habits determines long-term health outcomes.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 90
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f9c4bf3b-6a51-4934-ba40-80733e716f8c",
+      "text": "Beliefs must be adaptable to new circumstances and evidence",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 106
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "936fc1a7-f80e-4e1e-b39f-4a1b0bf586c3",
+      "text": "Effective leadership is demonstrated through consistent behavior",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 106
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "33c547b9-1323-40a1-8ea6-1c8f003ff2a8",
+      "text": "Forgiveness is a fundamental aspect of emotional resilience and well-being.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 109
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e3cb0e1b-ffe3-4f10-8f28-30dac469ced2",
+      "text": "Building relationships requires making others feel valued and important.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 112
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4191eeeb-dc28-45db-bc4e-e00c6a5ead68",
+      "text": "Unconditional acceptance enhances self-esteem and fosters positive interactions.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 112
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a125beef-b423-4c63-a003-9572a3228163",
+      "text": "Active listening and attention improve communication and rapport.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 112
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0b0d2df5-b049-4f20-8b1b-caf647924243",
+      "text": "Listen before acting",
+      "source": {
+        "book": "ClearThinking",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cc1bf5bf-b9bf-4b28-a450-46e304894afb",
+      "text": "Understand before deciding",
+      "source": {
+        "book": "ClearThinking",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a81d16c9-dfeb-41d4-ae06-7b0d523300b0",
+      "text": "Consistency in small daily actions leads to significant cumulative benefits over time.",
+      "source": {
+        "book": "Do It Today",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "338bed70-2523-4030-9297-6d79a5789299",
+      "text": "Mindset and sustained effort are foundational to achieving long-term success.",
+      "source": {
+        "book": "Do It Today",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "465fdf9a-9dd7-4827-b905-5c042a9d83aa",
+      "text": "Preparation is foundational to achieving desired outcomes in negotiations.",
+      "source": {
+        "book": "E001005",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "17654801-74b3-46d0-ac34-351b45cb5f6e",
+      "text": "Thorough understanding of tactics and strategies enhances collaborative problem-solving.",
+      "source": {
+        "book": "E001005",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "819d7e9a-4a83-462c-babe-bb265c656391",
+      "text": "Self-discovery is foundational for personal mastery by reconnecting with innate inclinations.",
+      "source": {
+        "book": "Mastery by Robert Greene",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "779f2029-8bfb-447d-bb32-c1167df4a10f",
+      "text": "Iterative learning through observation, practice, and experimentation enhances skill acquisition.",
+      "source": {
+        "book": "Mastery by Robert Greene",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "56b18086-d096-4ea4-b6c8-68c9f3e3efec",
+      "text": "Humility enables effective learning and growth from mentors and experiences.",
+      "source": {
+        "book": "Mastery by Robert Greene",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2bda9ddf-d533-4d83-ae2d-e87ca34a76e1",
+      "text": "Mastery is achieved through sustained effort and personal initiative.",
+      "source": {
+        "book": "Mastery by Robert Greene",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2f0f2ffa-1465-4ca7-990c-a591aaabbc4b",
+      "text": "Understanding one's inclinations and emotional connections drives effective action.",
+      "source": {
+        "book": "Mastery by Robert Greene",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5e4de246-e1e7-437b-a238-7922ead01708",
+      "text": "Value creation through skill development leads to desired outcomes.",
+      "source": {
+        "book": "Summary-of-SGTCIY-pdf",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3a576217-8bc4-4235-a358-38eaac3a5edf",
+      "text": "Continuous self-improvement is essential for career growth.",
+      "source": {
+        "book": "Summary-of-SGTCIY-pdf",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "42a7213b-9db7-427d-88f8-0d774ff28418",
+      "text": "Time is a finite resource that must be invested wisely.",
+      "source": {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6c74baa0-94a0-4972-a8b7-025a37fa2439",
+      "text": "Proactive effort leads to personal fulfillment and reduces regret.",
+      "source": {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "03702772-9104-41cc-8442-79425c30af56",
+      "text": "Heroism involves personal projects that transcend vulnerability.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 46
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "01b09eba-9c8c-4a6a-8c2f-d47c41614a88",
+      "text": "Genius requires unique burdens to justify personal value.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 46
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3ef09765-2864-4142-87f5-09623dade12f",
+      "text": "Individuals seek mastery and power as fundamental aspects of their psychological well-being.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 77
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "489d8282-b2d4-4755-8a5b-95eba7613a03",
+      "text": "The tension between expansion and surrender represents core human motivational dynamics.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 77
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f1799bf1-34c0-4182-b727-9e6fc9860544",
+      "text": "The purpose of giving should align with its intended use to maximize impact.",
+      "source": {
+        "book": "pathtowealthorli00hall",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0bd39705-d819-4a39-a9a8-7c3bce5a6b15",
+      "text": "Regular giving strengthens organizational capacity and sustainability.",
+      "source": {
+        "book": "pathtowealthorli00hall",
+        "chapter": 4
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 632,
+    "last_updated": "2026-02-13T16:34:57.453362Z",
+    "aggregated_from": [
+      {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 3
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 6
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 8
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 9
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 10
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 16
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 21
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 27
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 28
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 30
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 32
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 33
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 35
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 36
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 41
+      },
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 8
+      },
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 12
+      },
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 15
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 1
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 12
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 29
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 56
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 64
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 75
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 95
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 97
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 106
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 109
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 113
+      },
+      {
+        "book": "9780262353946_caa",
+        "chapter": 1
+      },
+      {
+        "book": "9780262353946_caa",
+        "chapter": 3
+      },
+      {
+        "book": "9780262353946_caa",
+        "chapter": 4
+      },
+      {
+        "book": "9780262353946_caa",
+        "chapter": 5
+      },
+      {
+        "book": "9780262353946_caa",
+        "chapter": 6
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 7
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 8
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 10
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 13
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 14
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 15
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 23
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 24
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 28
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 29
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 31
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 34
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 35
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 36
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 37
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 38
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 39
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 40
+      },
+      {
+        "book": "Beyond good and evil",
+        "chapter": 41
+      },
+      {
+        "book": "CAMUS, Albert - The Stranger",
+        "chapter": 8
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 9
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 17
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 20
+      },
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 22
+      },
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 21
+      },
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 38
+      },
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 46
+      },
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 58
+      },
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 59
+      },
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 64
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 9
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 42
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 44
+      },
+      {
+        "book": "Crucial Conversations",
+        "chapter": 55
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 5
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 7
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 41
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 46
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 48
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 49
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 50
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 52
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 53
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 74
+      },
+      {
+        "book": "Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action",
+        "chapter": 7
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 7
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 8
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 9
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 11
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 13
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 14
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 22
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 23
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 24
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 28
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 29
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 1
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 12
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 18
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 21
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 22
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 31
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 38
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 39
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 44
+      },
+      {
+        "book": "How To Win Friends And Influence People - Carnegie, Dale",
+        "chapter": 46
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 16
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 71
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 92
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 105
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 8
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 9
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 10
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 12
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 13
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 14
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 19
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 28
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 32
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 33
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 34
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 42
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 43
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 44
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 49
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 58
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 59
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 62
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 63
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 70
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 72
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 83
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 2
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 3
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 26
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 27
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 34
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 35
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 54
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 67
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 68
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 69
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 71
+      },
+      {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 2
+      },
+      {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 3
+      },
+      {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 4
+      },
+      {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 7
+      },
+      {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 8
+      },
+      {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 9
+      },
+      {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 10
+      },
+      {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 11
+      },
+      {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 12
+      },
+      {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 13
+      },
+      {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 14
+      },
+      {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 15
+      },
+      {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 16
+      },
+      {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 17
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 21
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 24
+      },
+      {
+        "book": "Man and his Symbols ( PDFDrive )",
+        "chapter": 34
+      },
+      {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 2
+      },
+      {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 4
+      },
+      {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 21
+      },
+      {
+        "book": "Marcus-Aurelius-Meditations",
+        "chapter": 28
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 16
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 21
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 23
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 36
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 41
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 7
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 9
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 17
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 23
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 24
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 27
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 36
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 47
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 2
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 4
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 6
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 11
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 14
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 18
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 23
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 30
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 39
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 48
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 55
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 65
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 80
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 86
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 90
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 106
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 109
+      },
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 112
+      },
+      {
+        "book": "ClearThinking",
+        "chapter": 5
+      },
+      {
+        "book": "Do It Today",
+        "chapter": 4
+      },
+      {
+        "book": "E001005",
+        "chapter": 10
+      },
+      {
+        "book": "Mastery by Robert Greene",
+        "chapter": 3
+      },
+      {
+        "book": "Mastery by Robert Greene",
+        "chapter": 8
+      },
+      {
+        "book": "Summary-of-SGTCIY-pdf",
+        "chapter": 3
+      },
+      {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 3
+      },
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 46
+      },
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 77
+      },
+      {
+        "book": "pathtowealthorli00hall",
+        "chapter": 4
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "domain": "Time Management & Scheduling",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "30f370c5-6154-49fa-86db-95f2e6a57067",
+      "text": "Partners must actively 'turn toward' their partner's emotional bids at least 86% of the time (Bid Responsiveness Rule).",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 89
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b653d6b9-66bd-4a1c-ba0f-e8149192e0ca",
+      "text": "Schedule and maintain regular one-on-one time together (Minimum Weekly Contact Rule).",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 89
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0daf9ee2-0218-45ba-9699-84fc98fc6631",
+      "text": "Schedule and maintain regular shared rituals (Ritual Scheduling Rule).",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 89
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7b409d61-0f89-4818-a412-0d6c8975298f",
+      "text": "Schedule and maintain specific special activities (Special Activity Scheduling Rule).",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 89
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e1ae6a26-619d-434e-9f6d-3df5537365f0",
+      "text": "Acknowledge and accommodate partner's needs for solo time (Solo Time Accommodation Rule).",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 89
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "15eb9cd5-8c1b-41b5-ae53-aeef29578b90",
+      "text": "Follow specific strategies to handle stress and provide support during stressful times (Stress Management Protocol).",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 89
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3eba674b-ca75-49a0-be4f-02749f3f334a",
+      "text": "Specifically address conflict using strategies to avoid the Four Horsemen (Conflict Resolution Rule).",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 89
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "80780c6e-c026-4b59-a0b3-af3ef0596345",
+      "text": "Maintain a specific approach to friends and family (Friendship/Family Integration Rule).",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 89
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 8,
+    "last_updated": "2026-02-12T21:57:41.657662Z",
+    "aggregated_from": [
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 89
+      }
+    ]
+  }
+}

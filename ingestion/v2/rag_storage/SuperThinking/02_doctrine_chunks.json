@@ -1,0 +1,30 @@
+{
+  "chapter_230e71cf46470f5324e1fa293c66192e1f53171058af80ab97a3426be76e8a44": {
+    "total_chunks": 1,
+    "completed": {
+      "0": {
+        "domains": [
+          "constraints"
+        ],
+        "principles": [
+          "Operational guidance requires explicit content for extraction.",
+          "Generalize examples to normalized principles during extraction."
+        ],
+        "rules": [
+          "Never extract verbatim; paraphrase and abstract operational content.",
+          "Domains must be inferred from the closest applicable category if text is empty.",
+          "Operational content must be explicit to avoid under-extraction."
+        ],
+        "claims": [
+          "Text emptiness directly impacts extraction effectiveness.",
+          "Operational content extraction prioritizes actionable guidance over literary elements."
+        ],
+        "warnings": [
+          "Inferred extraction content may lack verifiable source context.",
+          "Empty domains indicate potential under-extraction if guidance is absent.",
+          "Abstracted principles may lose specificity without original examples."
+        ]
+      }
+    }
+  }
+}

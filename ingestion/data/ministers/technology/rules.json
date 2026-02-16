@@ -1,0 +1,3447 @@
+{
+  "domain": "technology",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "ac5e9400-4bc4-4fdb-ac7f-24618da857e7",
+      "text": "Minimize electronic distractions during focused work periods.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2df28dfb-f2cb-4df0-bf8c-1769b781128d",
+      "text": "Schedule uninterrupted time for deep cognitive tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "560df416-cee0-4422-b020-1d9414617505",
+      "text": "Evaluate the opportunity cost of attention fragmentation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "98d4c500-f8b7-4bea-9f4b-3799d8834874",
+      "text": "When introducing new tools, reassess task prioritization.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1a40d6a0-3611-4f81-9468-13573212fa99",
+      "text": "Deep work capacity may be diminished by frequent distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c8a59875-6992-44a0-9494-fd35aa27803e",
+      "text": "Automation opportunities may exist for routine cognitive tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7fbfaff4-3b27-468e-987b-5c89da952c4b",
+      "text": "Failure to cultivate deep work capabilities leads to obsolescence in a rapidly changing economy.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bd9b4076-146a-4a48-94c2-6ee9d3fc804d",
+      "text": "Digital network effects amplify both rewards for excellence and risks for mediocrity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c6aae47f-6508-47a7-812d-3100759621c9",
+      "text": "Prioritize adaptation to rapidly evolving digital technologies.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f0d224f1-2efb-4eec-a28b-8a16aa055ac0",
+      "text": "Target high-value, non-automatable skill sets in the workforce.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b0f39eb8-b212-4513-965d-6489d2291cf7",
+      "text": "Allocate resources to sectors experiencing exponential growth due to technological adoption.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b8be1cad-43ce-4cf7-ad76-55e23f43d0a9",
+      "text": "Monitor economic shifts to capitalize on emerging winners in restructuring periods.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9328acbe-c377-40fc-937b-a93fd1e3a43f",
+      "text": "Visible busyness does not necessarily equate to productivity in knowledge work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a39c89a7-64c0-455d-b33b-9f06f0c200ed",
+      "text": "Anachronistic productivity measures persist due to the absence of metrics.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4b68203f-c39f-4cd1-aed6-338f039fb063",
+      "text": "Align strategies with tangible goals",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "28e55294-5668-477c-a8a3-46855281f183",
+      "text": "Redefine success metrics beyond digital engagement",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "490732ab-44aa-4772-8d26-adcb2b88e6cc",
+      "text": "Evaluate the necessity of optional tasks",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "780aef4a-97c0-4299-ac95-b59ba129cfad",
+      "text": "Implement a 30-day trial period for each service to assess its impact.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "adb299c5-56e1-45a0-b8c0-a46cdcad8309",
+      "text": "Use a binary evaluation: if a service doesn't improve outcomes or matter to others, discontinue it.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "194f7d67-3ee7-4282-949d-f42d7471fb00",
+      "text": "Maintain consistency in the evaluation process to avoid subjective bias.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0e58b7a9-e7a6-463b-8472-be7ef645b615",
+      "text": "Establish boundaries for technology usage",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9f49295e-6cb1-48af-bf18-dabb84f737c8",
+      "text": "Monitor attention investment against strategic priorities",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "910073c4-efb4-445e-8fd6-ad6cbe438e16",
+      "text": "Assess personal information exposure during technology adoption",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fd2ce5ec-8209-4eb9-8515-5909be2bb23d",
+      "text": "Deep work requires intentional scheduling",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "61c102f0-2429-4bfe-bf91-6ea12346400c",
+      "text": "Cognitive enhancement depends on sustained focus",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ece02142-3525-44f6-a1a7-99fa4a6a40a8",
+      "text": "High-value output necessitates deep work",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1dc4dfb0-d86c-455f-9733-c1070de6b8ac",
+      "text": "Schedule dedicated, distraction-free blocks for cognitively demanding tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "07adf8de-82e0-404d-a6dc-d23256a74bc8",
+      "text": "Minimize digital interruptions during periods of high concentration.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0aa8b583-95f6-4ac8-9cc8-ca864af9f520",
+      "text": "Evaluate tools based on their impact on attention and task quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9601f1a9-816e-459f-af38-23d428e182df",
+      "text": "Assess the opportunity cost of fragmented work on strategic outcomes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d998413a-9d11-443e-8bdc-14f4d962ac04",
+      "text": "Establish boundaries between different modes of work (deep/shallow).",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ff1a77a8-f8e4-4ecb-afeb-018c329b9679",
+      "text": "Define and remove environmental factors that interrupt concentration.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ea78bf69-9806-473d-8e30-67136886c53e",
+      "text": "Cultivate deep work as a core competency to maintain economic relevance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ca3d2d1c-0f30-4edb-8218-0291efc5b4e1",
+      "text": "Schedule uninterrupted blocks of time for complex tasks daily.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c9bdfaa7-243b-49ff-9bc9-8db156bcdc0a",
+      "text": "Batch unavoidable shallow tasks into short bursts.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "83368ddb-caea-4f62-81ce-edcde948204e",
+      "text": "Invest in skills that resist automation and outsourcing.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "20cc2bff-b4ab-4f70-8902-5633982bc995",
+      "text": "Use technology strategically to enhance productivity rather than distract.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "10783564-c07c-454f-8fc0-c5ea35d9767b",
+      "text": "Prioritize development of human capital that complements machine capabilities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "57ad772e-0fce-4891-b144-671820743add",
+      "text": "Embrace technological shifts to gain access to larger markets and reduce regional limitations.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "95373969-6066-4369-bf1b-7b2359370b34",
+      "text": "Monitor capital investment opportunities in emerging technologies to capture value creation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a28c9237-b16e-4766-8c32-a42ae66ff201",
+      "text": "Consistent practice is essential for skill acquisition.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "882c429e-50a5-466a-8a06-1b4a3a3dff28",
+      "text": "Efficiency in task execution determines professional impact.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "85190c64-0bcc-4e8a-b569-a347c4aea3b4",
+      "text": "Cognitive discipline shapes expertise and productivity levels.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dd57771e-b104-4d04-b7d4-ba81b85dda8c",
+      "text": "Prioritize deep work over multitasking",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "431c2409-8915-43cc-9f89-31db0ae51fe3",
+      "text": "Schedule focused attention blocks",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d61188b5-2e9f-4c69-8f5e-1fbc63455397",
+      "text": "Provide continuous feedback to maintain accuracy",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5da86816-6fc0-467f-8c45-c041f03e8628",
+      "text": "Minimize attention residue by avoiding task-switching during peak focus periods.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2bdd3fda-7f81-4830-ab54-10345f3fa5d9",
+      "text": "Maintain strict boundaries during deep work to prevent interruptions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ab49be5c-6d3b-4394-94e8-6bf8ababa5bb",
+      "text": "Balance the intensity of focus with the necessity of attention residue management.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7e2f9e34-17c0-43aa-840a-e608e0c64233",
+      "text": "Assess the level of automation possible in decision-making processes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6b41afd7-a13b-402f-b35f-147aee057a2d",
+      "text": "Prioritize deep work when it directly contributes to value creation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4019984d-ad9f-4bf7-a1e0-87f01454c009",
+      "text": "Delegate routine tasks to subordinates to free up time for high-level thinking.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5f51ac2d-801a-4d94-bccf-b6f4eab35aac",
+      "text": "Organizational strategies must account for the time consumed by distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1ad26d9b-6bd5-4888-9df1-3dce5492a6f8",
+      "text": "The value of deep work cannot be easily quantified using standard metrics.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "aa3f5711-c983-477a-915e-a2162780605d",
+      "text": "Avoid optimizing for immediate feedback when it distorts long-term goals.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7c6d1a3e-53e5-47df-8014-743d3c0e572c",
+      "text": "Establish clear metrics for behaviors that cannot be easily quantified.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0bd2a2c3-a6b3-4a6e-a51f-3fde101b4916",
+      "text": "Measure productivity through time-based metrics",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8dbddefa-7a24-4b1c-85f3-df211b338cd7",
+      "text": "Establish clear thresholds for acceptable busyness",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6e27701b-9498-46e1-a88e-10a40cf82b12",
+      "text": "Regularly review productivity measurement frameworks",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "34c7ee90-eb95-4ad9-9d2d-9ffb0486078e",
+      "text": "Adapt work methods to leverage technology without sacrificing depth",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4aaf8f09-7a2e-4495-8ce1-d56dbb4d16af",
+      "text": "Balance traditional values with technological innovation",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4d858c4b-f135-42a9-8713-6bcc38cfc1e7",
+      "text": "Attention allocation determines psychological reward in knowledge work",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fff166ce-84f5-41ab-9003-2f73a2ff4b77",
+      "text": "Systematic avoidance of distractions reduces susceptibility to cognitive overload",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "59b508f5-db7d-400d-a706-3f4f86a9d90d",
+      "text": "Attention allocation determines operational outcomes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8f0811bd-f8f3-4819-8bc6-67d2bf73d0c7",
+      "text": "Unmanaged attention leads to passive adaptation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1914c571-1f15-4939-8bfb-8777af3eb31f",
+      "text": "Proactive focus maintenance prevents negative cognitive bias.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e43fa89d-8fa7-4e38-acf6-6def7e3c2870",
+      "text": "Measure psychological states during active engagement to validate flow experiences.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f9da3f1b-da62-49c2-a3ed-e197333c265f",
+      "text": "Design work environments to incorporate structured goals and challenges.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1c2d2c36-235e-485b-886b-24c743754c01",
+      "text": "Prioritize depth over free time for greater life satisfaction.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "df680072-0dc7-45e0-9371-35b595ba2d58",
+      "text": "Consistent focus is required to achieve mastery in any field.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1d616f2e-293f-4d4a-a3d5-e42d41b62144",
+      "text": "Meaning is cultivated through sustained effort, not inherent in tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "51fcbd85-89c4-42a1-80b2-b81514990a6e",
+      "text": "Skill refinement requires prioritizing depth over convenience.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "90c160a9-fb93-4f91-aeda-3ebe428220bd",
+      "text": "Schedule deep work blocks in your day to protect focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "99f72fba-8d96-47e0-9517-1a77af05f2bb",
+      "text": "Take regular breaks to maintain concentration.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0d247a19-f21b-4878-8145-04656b1b8244",
+      "text": "Implement rituals to transition into deep work mode.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "73ab17a2-aa81-4371-80f1-a5f0fb35ef4f",
+      "text": "Develop rituals that minimize willpower expenditure during transitions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b18baf77-df7b-4817-a9d8-7f9459e90c3f",
+      "text": "Commit to a depth philosophy that fits individual circumstances and professional goals.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e1347104-1052-42b6-8df8-b77db9acaaec",
+      "text": "Schedule deep work sessions at consistent times to build sustainable discipline.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1082f49f-8df8-4c26-9a80-275b7970a355",
+      "text": "Deep work requires uninterrupted time to reach peak intensity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b15af76e-758c-4d61-81bf-d9620457a388",
+      "text": "Deep work periods must be clearly scheduled and protected from shallow interruptions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "619613dc-f4f4-46fc-bedf-023c1e1cd234",
+      "text": "Execute deep work sessions at fixed times daily",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "22d9e5e3-ba81-4939-855d-abbba3b82c51",
+      "text": "Maintain visual indicators of progress to reduce decision fatigue",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c6335b9a-fd48-4f4a-bc76-9d6b969f0eb9",
+      "text": "Deep work sessions should be time-boxed to maintain focus",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "89dba87c-9640-4313-af28-a4f7931f2c78",
+      "text": "Rituals must specify location, duration, and work processes",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "47d9d699-8bb5-444e-aa02-5469fc753040",
+      "text": "Deep work should be integrated gradually into the schedule",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8af716ae-2db2-457e-84b4-6443f6168ad1",
+      "text": "Implement constraints (e.g., location changes, time limits) to create focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "434e8baa-54ef-448a-b452-c8ee1c8d64bc",
+      "text": "Increase perceived stakes of tasks to motivate deeper engagement.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "662591cc-ff8b-4853-a46e-9698d4318a76",
+      "text": "Schedule deep work during high-concentration periods to maximize output.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5d84d0a2-4291-4927-a29b-0951566caa97",
+      "text": "Design environments to support both individual concentration and spontaneous interaction",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "10e13e39-30cb-4d2a-8066-a25d02db9b37",
+      "text": "Maintain distinct zones for collaboration and deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1b4e3553-8394-48a6-8d22-cedad63621eb",
+      "text": "Prioritize execution over strategy.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "262af637-0a9e-4c67-b184-0602d720e021",
+      "text": "Leverage collaborative deep work for complex problems.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "be305392-d73c-41e6-b892-afd2253633c7",
+      "text": "Limit attention to a small number of critical goals.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "02743568-f323-4f41-8262-51e519302b84",
+      "text": "Monitor lead indicators that directly control progress.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f09d2823-943a-40cd-bf6b-c9d79c646460",
+      "text": "Establish frequent accountability reviews to reinforce focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eef8fd41-2dee-4150-a7a8-6e867f6f5725",
+      "text": "Schedule uninterrupted deep work periods regularly.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "13398299-70a4-4b19-bc57-b0e94958d846",
+      "text": "Avoid over-scheduling by maintaining clear boundaries between work cycles.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "203cea22-11d7-4a42-a864-1d60601e7a81",
+      "text": "Designate specific time for reflection and problem-solving.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a48f5294-12d7-4024-bbb8-24bea4049284",
+      "text": "Cease high-cognitive-effort tasks at a predetermined time.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0cbf6aae-9e2d-4613-b1f6-c15c8044a6a6",
+      "text": "Prioritize activities that provide attention-restoring stimuli in the evening.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3f082e90-af55-4296-a444-2c3f1a640d0d",
+      "text": "Daily Shutdown Ritual: Execute a timed routine before ending workday.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f06c17aa-11a9-486e-beaa-b5d948c0c7ba",
+      "text": "Task Management: Capture incomplete tasks in a centralized system.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "91bb229c-a9ff-4e8f-a138-472e490419cc",
+      "text": "Consistency Enforcement: Maintain ritual for sustained cognitive benefits.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f4e588cf-6a21-40c1-a6f5-35d7f4ba6f5e",
+      "text": "Schedule focused periods",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0c02fc6f-29f8-4a6c-8fb2-1e8757f4a1f4",
+      "text": "Limit digital engagement outside designated times",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "82af598b-af3c-460b-b3af-4c462625ae24",
+      "text": "Designate distraction-free intervals",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8756c11f-485b-4b63-9784-b5caaa25485b",
+      "text": "Schedule regular intervals for internet use to create predictable breaks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1d4ba2cc-fe81-4b0c-8c7f-45f6af3db173",
+      "text": "Maintain uninterrupted offline periods between internet sessions to reinforce focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "378a7287-8d31-4f0e-855d-cb6b888f3930",
+      "text": "Extend scheduled internet breaks to personal time for consistent practice.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "492c6439-09d9-41f9-b827-5e8e717f6b01",
+      "text": "Define clear, time-bound objectives for high-priority tasks to maximize output within constrained timeframes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "95d0b46c-1def-4f58-8241-b8f755d0c829",
+      "text": "Schedule regular intervals of focused work (Roosevelt dashes) to train sustained attention.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b67e47c9-6f68-4c26-abfa-d6d15f305919",
+      "text": "Integrate focused thinking into habitual activities (productive meditation) by assigning specific cognitive tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9ddded0b-7b48-4310-bf3c-fe6d0f2e6399",
+      "text": "Maintain consistent practice to strengthen resistance to attentional distractions and improve concentration endurance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9d760b42-8812-413a-8286-a0166658652c",
+      "text": "Identify and eliminate recurring thoughts (looping) to maintain productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a384c6fe-d5c4-4c5b-8c3d-208c7e7e7056",
+      "text": "Prioritize attentional control over rote memorization for cognitive gains.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "497cacc4-b76d-48ab-a2c1-07e1fc4ace46",
+      "text": "Memorization requires sequential visualization and association.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b607c743-1b65-4260-866d-208281768f22",
+      "text": "Attention management involves prioritizing tasks over distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fc41cf9e-b1db-4f8e-9fcb-4de30b4370a3",
+      "text": "Deep work effectiveness depends on controlled digital interaction.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cf0898f0-60b7-40ad-89fe-fca3d07dbbb4",
+      "text": "Assess both the pros and cons of a tool before adoption.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "74ceca8a-73c3-44f2-ba45-7a2a70b3c8fd",
+      "text": "Set stricter thresholds for allowing tools access to significant time and attention.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5cd77ebc-c3ba-4f7f-8e91-3b2bfbc19dca",
+      "text": "Assess opportunity costs before implementing tools.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c15e67be-3037-49a7-951b-c4a12206d850",
+      "text": "Evaluate long-term impacts on baseline success metrics.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0eeba72b-c95e-48fb-ba36-a5fd1d21fe25",
+      "text": "Prioritize activities that align with high-level goals.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b901e146-e305-4e63-8d95-83781930f899",
+      "text": "Make trade-offs based on impact assessments.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6d8e0cbe-6700-4b64-b7f6-a89eb791332f",
+      "text": "Limit tool adoption to activities where impact is clearly positive.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2d63d6f8-2f44-4509-aa1d-23c1184999a8",
+      "text": "Concentrate resources on the top 20% of activities that yield 80% of results.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9dc31407-c696-4212-a1f1-79ba6336fa78",
+      "text": "Avoid spreading limited resources across low-impact activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6a95ec96-e34c-4aae-92f9-f1c0327127bb",
+      "text": "Evaluate tools and habits based on their alignment with core priorities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6b57d3e7-6968-4fa2-8203-072606927716",
+      "text": "Implement self-imposed constraints to test digital habits",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "56949457-09ec-41b3-96d8-23c2ca8f5159",
+      "text": "Use quantitative feedback to inform digital decisions",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "60b49b2b-63cf-485f-8419-dd9c7f4fe91b",
+      "text": "Maintain operational awareness during constraint periods",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e11b661e-f96c-447d-943c-f37f6862ea43",
+      "text": "Plan structured leisure activities in advance to limit reactive engagement with low-value digital content.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "734188fe-3437-4b18-b331-f97bb4496141",
+      "text": "Prioritize activities with demonstrable personal impact over passive entertainment.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "35041ca5-2fbe-471d-8be3-487295d6d8b1",
+      "text": "Schedule dedicated periods for high-focus tasks to mitigate the attention-grabbing nature of digital platforms.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c79af8db-0d65-4032-aa90-a92d2cdc4634",
+      "text": "Allocate time for deep work by reducing non-essential activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "058d51bc-0232-49b3-b3f2-91d11ba7968e",
+      "text": "Maintain essential shallow tasks to support core functions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0960faa5-7305-45ed-a158-9ffc1304b662",
+      "text": "Adjust daily schedules immediately upon disruption",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "36e26888-d944-4f10-9d95-9ea418e259d0",
+      "text": "Time estimates should account for worst-case scenarios",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "801ec6dd-6478-494a-9c1e-f0339a01644e",
+      "text": "Overflow blocks must be defined before scheduling begins",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "88322c66-4af5-46fb-bac5-9e4779a7bcac",
+      "text": "Assign tasks based on their time requirements to distinguish between shallow and deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f1d9e2db-19dc-4fe2-ae50-631d43222285",
+      "text": "Allow schedule modifications if unexpected insights demand attention.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "da690db4-89ff-4c20-b10b-a48ddf3b8c8d",
+      "text": "Maintain time blocks for deep work to prevent shallow activities from dominating the day.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7910e8cf-45c5-4744-a583-c032892b2fac",
+      "text": "Assess task depth by estimating training duration for hypothetical replacements.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "25a5e9c1-e7ed-4b89-b9ad-49c993f8a4a4",
+      "text": "Establish and adhere to a shallow/deep work ratio to ensure sustainable focus on high-impact activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3d0f4f03-84d7-418e-9eb0-42b946b70b0c",
+      "text": "Communicate time allocation decisions to stakeholders to secure implicit support and streamline workflows.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5082950a-3ebb-4d7d-881b-7be73beeca32",
+      "text": "Set hard time limits for work hours.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6316ae7e-c82c-4ef1-a9fc-dfa95aff3593",
+      "text": "Cap shallow activities to protect deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e2b650dc-ddaf-40e6-aa98-d1f16fe1d9b9",
+      "text": "Work backward from constraints to identify actionable strategies.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6fd8e236-1fcb-4288-8a3f-6853e650f53d",
+      "text": "Establish sender filters to control incoming communication.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d9617b9d-4acd-4d1c-b04a-7dc2aedf5593",
+      "text": "Prioritize deep work over shallow obligations in time-boxed sessions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a967d3ff-80d3-40dd-b117-1569a7c6d56a",
+      "text": "Implement sender filters to screen incoming requests based on predefined criteria.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b1f1ce8e-d89d-4ca6-9742-bedf646139da",
+      "text": "Adopt a process-centric approach to email responses by outlining steps and timelines.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7abf459f-3685-4a53-9b34-32daaf4c6703",
+      "text": "Enforce constraints on communication by requiring recipients to meet specific conditions before engaging.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d060a10f-5728-4464-af6b-afdfa32ae2ae",
+      "text": "Assess clarity and relevance before responding to correspondence.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4e7c7c58-4364-41ce-ba46-342e0cc9b23c",
+      "text": "Prioritize tasks that yield significant outcomes relative to effort expended.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "50fab30c-3ed5-4d8e-8ac5-1baae063ae58",
+      "text": "Schedule deep work blocks to minimize interruptions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c7ef29c2-65fd-4909-b5cc-11f8fe4db0fa",
+      "text": "Adjust focus environments based on available constraints.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "47899975-180e-4fae-b6eb-71276f16704c",
+      "text": "Integrate deep work into daily routines despite time limitations.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ea110a2b-553c-413f-96b4-4a4e3739ba7b",
+      "text": "Schedule dedicated periods for deep work",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2072cdd8-65f0-4614-aa2c-23708fe74a21",
+      "text": "Prioritize tasks that require sustained focus",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "61ce3de0-0f73-4f51-b626-5d3fb3be905f",
+      "text": "Assess trade-offs between comfort and productivity",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "007a5f75-31e7-45ae-a34d-a6b20a9da6ef",
+      "text": "Allocate specific time blocks for deep tasks to avoid attention residue.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5497d9bb-7b2f-4ade-944e-fe6bcc0d58c4",
+      "text": "Measure productivity through outcomes rather than communication volume.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "505337de-5be7-4009-862f-0822114537c5",
+      "text": "Balance open collaboration with periods of uninterrupted work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "aa5657ff-6dd1-4306-8677-1c42ebce7206",
+      "text": "Maintain consistent effort to avoid ego depletion.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dc6ec61b-ae89-4e92-a1ee-ef76ef0d842b",
+      "text": "Prioritize tasks based on value and impact.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "532b07ae-03b1-4a90-b8aa-fd618808e7eb",
+      "text": "Monitor attention to prevent burnout.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4a308b35-4fd7-4435-9727-2f4bda560b01",
+      "text": "Balance focus with necessary flexibility.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "56c6d3ad-8034-44bb-803c-ee318bf1de74",
+      "text": "Prioritize outcomes over process adherence.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9d4bc181-16c9-49e5-9240-cbb942fad84d",
+      "text": "Regularly assess environmental constraints on performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5cb93914-eea4-40ad-b231-d019fc001cb4",
+      "text": "Apply the Law of the Vital Few to digital habits by focusing on high-impact activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f7be71c5-46ad-4b18-86b6-7d3e95a6b517",
+      "text": "Avoid multitasking to maintain attention and decision quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "23ecd5e8-0060-4cb0-bf32-9262a85b4074",
+      "text": "Balance active engagement with periods of cognitive rest.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f8c44746-f5b3-47eb-94c0-fa22260f41fe",
+      "text": "Schedule dedicated time blocks for deep work to minimize distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eed97837-4167-42d8-8bed-f879e7d3cc62",
+      "text": "Implement sender filters to control incoming communication.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "aaedd91f-2938-4d65-af71-2db8a096f195",
+      "text": "Balance active engagement with periods of disconnection to maintain focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e5b95a7d-c389-4d6a-8fda-beea51e63361",
+      "text": "Dedicate consistent periods to deep work to develop expertise.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dc5dae7d-25ae-4692-8e5e-f8d53c25cff1",
+      "text": "Limit exposure to attention-draining activities to preserve focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c0e7d54c-011c-4fd9-8085-c8dea53d5ae1",
+      "text": "Establish routines that minimize distractions during focused work sessions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "251564a4-5bf9-4a2a-b7d0-02f30cfbbdef",
+      "text": "Always cross-reference translations with original texts to maintain consistency and avoid anachronisms.",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 131
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9298a9de-523a-4802-80a2-e091b5cb29a4",
+      "text": "Organizations must monitor and analyze behavioral data to predict and monetize user actions.",
+      "source": {
+        "book": "9780262353946_caa",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6f81edb1-e007-4cb9-a38c-f4cfeea46bf1",
+      "text": "Effective control requires replacing traditional human-centric interactions with algorithmic processes.",
+      "source": {
+        "book": "9780262353946_caa",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "607dea78-c737-42d7-bf0d-58acf1f44cdc",
+      "text": "Always link technological implementation to a well-defined strategy.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 43
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "850185d7-8a36-4c88-be74-411432534763",
+      "text": "Avoid complacency with existing technology; continuously innovate and adapt to follower status.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 43
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "34fd4313-34ee-4f9b-9d55-994590bbeba9",
+      "text": "Avoid fear-driven decision-making.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 44
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9c2171eb-6660-4b56-bd31-5ad9ed671e8c",
+      "text": "Fundamentals must be maintained even during periods of change.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 44
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bfc5f298-c292-44ea-8afa-b8d2aeb1ec4d",
+      "text": "Align technology directly with core organizational strategy before adoption.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 45
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "aed10457-2bac-474e-8a65-87764792d6b3",
+      "text": "Become a pioneer in applying technology only after mastering its integration with core principles.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 45
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "60c80b71-f21e-4300-af38-ea5aba56196b",
+      "text": "Analyze workforce changes as a deliberate tactic in performance improvement.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 69
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "37758271-1fc4-4c42-9af4-f625977a27ea",
+      "text": "Assess corporate ownership patterns before drawing conclusions on company stability.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 69
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "81a3316a-8ec6-484a-ad6e-b723df54531c",
+      "text": "Remove distractions by limiting electronic device usage during focused work sessions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7d0b0275-19b6-421b-9f0a-64664c8462eb",
+      "text": "Cultivate deep work habits by dedicating specific, uninterrupted time to cognitively demanding tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d437ef78-3544-4a4e-9131-33026cb9166f",
+      "text": "Automate routine tasks to enhance efficiency and focus on innovative problem-solving.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3c33705b-a057-4d0e-9d95-6ddecb48671a",
+      "text": "Develop expertise in areas where human skills cannot be easily replicated, such as complex data analysis.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "83d70597-1af3-4ad6-9769-dc8de03b697c",
+      "text": "Stay current with technological trends to avoid obsolescence in the workforce.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a7513795-360d-4c39-986d-f23ed5bf488e",
+      "text": "Prioritize focused, deep work over constant busyness to enhance productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "51731aaa-32f9-4dd9-beed-5d3c8b682f79",
+      "text": "Measure the effectiveness of technology adoption against clear, outcome-based metrics.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f01635d8-fb8e-41af-89b1-b48f0ae589e2",
+      "text": "Validate that a solution addresses a known problem before pursuing investment.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 37
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "54214dfe-ec32-4cca-97c2-410d99285ee8",
+      "text": "Prioritize solving real-world issues to ensure user engagement and success.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 37
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "038377e8-bc2a-467b-814c-a5181110a9a2",
+      "text": "Limit the use of technology to essential functions to avoid being controlled by it.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4026430b-9b13-4514-8dfc-39d614e4d654",
+      "text": "Design technology to be invisible and non-restrictive in daily operations.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "27cc1305-a353-40a8-8a1b-0dcd14c37821",
+      "text": "Ensure compatibility with system requirements for effective communication and collaboration.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8ec408b4-2fd6-4943-b0b0-8fcf4473b907",
+      "text": "Employ force strategically to conclude finite engagements, avoiding dominance.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2d6df262-4c25-4d18-8254-578234039b4a",
+      "text": "Assess individuals based on comprehensive data rather than limited, superficial information.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7a032d39-67ca-47e3-b353-9f4ef2b2751a",
+      "text": "Design decision-making interfaces to minimize bias and promote informed choices.",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "face91f0-cad1-4ab0-a2d1-3010240c5316",
+      "text": "Focus on core user needs when developing products",
+      "source": {
+        "book": "How to Not Die Alone",
+        "chapter": 94
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a4cc47d8-a733-44dd-a887-6a38a05091c1",
+      "text": "Prioritize standardized, optimized processes over organic, unstructured methods.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a7ca8d67-0506-43b8-b96a-7b25b8eaff40",
+      "text": "Evaluate systems primarily on their technical efficiency rather than moral or human factors.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b63337e7-f92a-4028-a36a-dde880b33fa2",
+      "text": "Constraints on technique's application are eroding due to increasing reliance on performance metrics.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b6b6cd46-c676-4738-ab79-2d0c7ab7659c",
+      "text": "Question technical solutions for long-term viability.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1769d2ca-8067-4527-949d-bdfa9ec5da66",
+      "text": "Consider traditional values in decision-making processes.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2542ccb6-e406-4837-974b-a43d9142a47d",
+      "text": "Always apply dialectical logic to avoid misinterpreting quantitative data as isolated facts.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "165e25c9-5cc3-4307-925f-03cdbfe99905",
+      "text": "Understand the context and whole experience to validate facts and avoid reductionism.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a6d74426-5b49-478f-8ed8-be808d303678",
+      "text": "Bear witness to both material and eternal realities through testimony",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "540dcb80-55c9-4820-adca-6262139d01c3",
+      "text": "Testify to truth to affirm freedom and resist technological determinism",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "168f9ceb-6a92-48ff-88e6-d525f0b28ea7",
+      "text": "Techniques must be clearly defined to avoid confusion and misalignment.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f4db9f18-1657-4b23-8203-e0f6cc3a6277",
+      "text": "Economic strategies must account for the pervasive influence of technique on decision-making.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b864e6f9-1bd2-47f9-9bc9-a2c338f2c7ae",
+      "text": "Avoid superficial judgments when evaluating technology to ensure accurate assessments.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0580ff58-565b-42bf-9e25-a5025f73643d",
+      "text": "Integrate technology into governance frameworks for effective societal management.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8b6b2b6d-4117-4cf9-b246-4b6c0df6ad15",
+      "text": "Prioritize technological innovation to maintain competitiveness.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5b2c619f-50df-4a2b-a45a-1b0d04715619",
+      "text": "Prioritize efficiency when selecting operational means",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7ba11ccf-eda1-488a-8fd9-293f1dfd23a0",
+      "text": "Systematically evaluate all available methods for effectiveness",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 15
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "62e392da-011a-4d7e-8cec-e5de8569176f",
+      "text": "Maintain strict consistency in established procedures to ensure reliability",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c20964cb-e37d-410a-b714-5b6bfc2dfde9",
+      "text": "Once an effective method is identified, do not alter it without cause",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a2e96ac9-d775-49ec-bf70-d9a7898c2b74",
+      "text": "Evaluate techniques based on their immediate and long-term effectiveness, considering both material and spiritual impacts.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f2c691f2-1d88-4c94-8d5d-e6737209f5e9",
+      "text": "Prioritize clear, measurable outcomes when selecting or developing techniques.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "745694f9-9c39-4be8-b513-d02af8f62746",
+      "text": "Evaluate any technological innovation by examining its relationship with society.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "31749742-e594-4952-8313-682e48f18f78",
+      "text": "Assess the societal consequences of a technique before considering it purely as a tool.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 20
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "663843ee-edc1-4377-ac7c-7498158d4ae5",
+      "text": "Integrate technology only when it does not exceed individual capacity to handle.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6afda83d-933e-41fa-a46e-89f59bcfec1e",
+      "text": "Maintain active human decision-making to sustain technological progress.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5e16ac02-f01c-4db3-8bc3-7047eaccebab",
+      "text": "Adopt technical methods to achieve superior results in competition.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d75aa946-05df-485f-b176-3da1ad35532b",
+      "text": "Only technical means should be used when a desired outcome is stipulated.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 24
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c23e2036-15d3-4ff8-89ac-51a83540585c",
+      "text": "Technical problems must be resolved through continuous advancement.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c0529a2b-4377-4230-b399-50292d81a731",
+      "text": "Organizational structures must adapt to integrate new techniques effectively.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a76499bb-cdcb-4172-a551-c9828d02054a",
+      "text": "Integrate with technological systems rather than attempting to control them.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e28201d9-3d6c-45d8-88c5-217321ead740",
+      "text": "Production and consumption are dictated by inherent technical requirements, not human decisions.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e5737c77-7208-4db3-b0a4-5a86cc243aa5",
+      "text": "To achieve technical perfection in surveillance, integrate data from administrative, organizational, and psychological domains.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c75c491c-d12b-437b-b593-504c64fc64a4",
+      "text": "Propaganda must be aligned with police power to ensure public acceptance and efficiency in maintaining order.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 28
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "45622902-2a91-41fb-a572-db0805298a63",
+      "text": "Technological systems must be fully integrated to maintain operational effectiveness.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2a0a5490-f9eb-4067-8490-065b6ecdc6fb",
+      "text": "Production planning must be systematic and adaptive to technological changes",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c1e86764-c74e-4cae-9ece-00a6da4bafbd",
+      "text": "Adapt social structures to enable technical progress, including modifying traditional habits and accepting authoritarian political systems.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 33
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cc81076a-801b-41ae-b606-3ba95afb811c",
+      "text": "Prioritize technical efficiency over human and community considerations in all operational domains.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 33
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9c1ae8a7-5450-4d26-b3a9-7c5280142d15",
+      "text": "Integrate decision-making processes with technological systems to achieve optimal outcomes.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 33
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c973d05b-adca-43f1-aefd-317c05601f13",
+      "text": "Interventions in autonomous systems must align with their technical criteria to avoid negative outcomes.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "807df516-0797-49a3-80a8-8417f73c2305",
+      "text": "Adapt operations to the constraints imposed by autonomous systems to ensure effectiveness.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "51bfcc2d-c348-4c28-b62c-c7f77774538b",
+      "text": "Eliminate human responsibility and emotional involvement in technical operations to ensure predictability.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fd3398e1-b32e-4916-90a3-ed49ac03270b",
+      "text": "Select and train individuals for technical roles based on specific physiological and psychological traits.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4acfe4ab-979c-4a5f-bf1b-b69b99d974f0",
+      "text": "Prioritize balanced technological development across all economic sectors to avoid systemic imbalances and ensure sustainable growth.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 37
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "330954d3-f3f5-4de7-9307-4a0882233fd7",
+      "text": "Continuously adapt economic structures to maintain flexibility and responsiveness to change.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 37
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bcbf02fb-c48e-4740-91a8-55d5110f4d2d",
+      "text": "Adapt to technical waves in economic planning.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "18aba01b-e9a0-4113-9e0a-46ae40951cc9",
+      "text": "State-level coordination is necessary for large-scale technological implementation.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "265b4f7d-3699-4ce3-8387-82f46ee06af1",
+      "text": "Economic analysis must be grounded in factual data and avoid dogmatic or random doctrines.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 39
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "31889749-a1a4-4278-813a-8cb7589b40bc",
+      "text": "Employ quantitative and exact methods, such as mathematics, to define and apply economic techniques.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 39
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1d2e967b-46cd-4e9d-96cf-769d9ed2af8c",
+      "text": "Distinguish between micro-level and macro-level economic analyses to ensure comprehensive understanding.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 39
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ae5c95ca-e952-468a-bd4d-1b2f1b7cbd3e",
+      "text": "Plans must incorporate sanctions and political authority to ensure implementation.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 43
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cb12f6c1-6bb7-4d10-b9b1-277fad8b7100",
+      "text": "Economic planning cannot exist in isolation; it requires alignment with broader state structures.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 43
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7f34fa4c-2796-4697-ae74-1fa5739095ea",
+      "text": "Economic planning requires fixing certain elements as stable to enable forecasting.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 45
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7b5fec03-4a7a-4325-b536-29e936403ebc",
+      "text": "Long-term technical progress depends on state intervention to guarantee stable monetary conditions.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 45
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d3d48e8f-1e64-423e-9132-14c08706219b",
+      "text": "Minimize costs to achieve economy of means.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5837fd85-d77d-4fd3-a388-fffcbfc76c90",
+      "text": "Employ the most efficient methods to maintain competitive advantage.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "81150b98-4060-44e2-baed-2f08aec7eb9b",
+      "text": "Integrate private sector innovations into state operations to enhance efficiency.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 51
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "91ed8d9a-fa5c-4592-a071-f8415c679b17",
+      "text": "Political decisions must be based on objective technical data and coordinated input from multiple sources.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8b4e0efb-2c22-48a0-a020-d4614ee6bdde",
+      "text": "Strategy and tactics must be differentiated, with tactics strictly adhering to technical requirements derived from strategy.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "332559c3-14f3-40d7-958e-8938335bbd40",
+      "text": "Evaluate governmental efficiency based on cost-effectiveness and productivity.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 53
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "862f89af-33ea-4e01-b653-b00fac48203b",
+      "text": "Technical decisions override political considerations in resource allocation.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 53
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9d8220bd-e77b-4813-8ff0-0f4bad2e32fb",
+      "text": "Immigration policies should be planned and subject to international agreements.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 54
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5ff3c662-4c6a-4d7a-9cff-c6468d8f08f3",
+      "text": "Planning must be comprehensive and applied across all societal sectors to avoid chaos.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 54
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e1a3377b-7e2d-44af-8c88-9478d1889a78",
+      "text": "International commerce requires adherence to creditor market regulations",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 55
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "651fa0b7-8cca-4f40-a5d9-d49a173c5131",
+      "text": "Market participation necessitates alignment with prevailing technical design standards",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 55
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "25f51fa3-b229-400f-a91a-7b5b8a0b6822",
+      "text": "Minimize over-reliance on specialized roles to avoid devaluing human labor.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 56
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "18da521f-aae2-4251-bc8b-68c5754539e3",
+      "text": "Be vigilant against the use of propaganda techniques in political contexts.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 56
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "96df32bc-f278-4f39-9598-fd3c83fbfe33",
+      "text": "Democratic states must provide justification for every technological measure",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 60
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e94080bb-2409-4629-ba3a-563ce35478e0",
+      "text": "Prioritize efficiency in deploying technology to achieve maximum profit",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 60
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "81b6aa0a-c659-42d3-ac32-ae1f2ee0eaac",
+      "text": "Separate the application of law from its pursuit of justice to focus on order and security.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 61
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5c7d22ff-b8ad-4023-886b-3639b039e1d9",
+      "text": "Design legal mechanisms to be technically based and mechanical for consistent enforcement.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 61
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2dab7baa-e875-4f23-9ee4-70c68dfcf471",
+      "text": "State involvement is required for integrating unrelated techniques in major projects.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 62
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "83754b68-9e35-42cf-a0ec-d279516ce92a",
+      "text": "Tangible deliverables must be provided to secure state funding and support.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 62
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ffa60c51-efcf-4cf3-9538-417b5d891924",
+      "text": "Prioritize state-imposed technical objectives in research projects.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 63
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "769fd350-3923-457c-9007-dfa9c3a51c37",
+      "text": "Direct scientific efforts to achieve predefined, utility-focused outcomes.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 63
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0424c943-517b-4149-a1ca-0d32bfa33d57",
+      "text": "Employ psychological strategies to maintain high levels of human effort in high-stress scenarios.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 64
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f781d04c-70db-46fb-a4c5-9e2a349b6a81",
+      "text": "Ensure continuous assessment and support of morale to prevent decline in productivity.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 64
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c882f99c-dc84-4231-a235-4e5d54e19009",
+      "text": "Evaluate human behavior through objective, quantifiable data.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 65
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "21f545ac-1ac2-4847-8799-5e28815163e5",
+      "text": "Do not overestimate current technology while ignoring its potential for abrupt reversals in human treatment.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 65
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ed5cc96a-19d0-46b3-b48d-1afaad23bb80",
+      "text": "Prioritize long-term system stability over short-term gains.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 65
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0f0b261a-c670-4d9a-92e5-6533fa41689e",
+      "text": "Human techniques must be validated through quantitative measurement and experimental testing.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 66
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3fef313d-8639-4520-bee1-fe6b4de387d8",
+      "text": "Techniques applied to human systems should be tested in controlled environments first.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 66
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8f43513f-f2f6-4a96-8626-845c127f0065",
+      "text": "Conditioned reflexes should be measured and produced to achieve desired outcomes.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 68
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "584e7321-3c81-4344-b961-aa5d530c5778",
+      "text": "Reduce complex political doctrines to simple slogans and images for effective communication.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 68
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a10edb97-5188-49b4-ad6c-f733076c32da",
+      "text": "Only apply human techniques to non-generalizable cases to avoid unnecessary degradation.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 71
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6f17aacd-37cd-48cc-9cb0-437fb32287db",
+      "text": "Prioritize simpler, direct methods over complex techniques when alternative means are available.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 71
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f0160717-5407-4113-9e35-da32bc6b2020",
+      "text": "Restrict the public's knowledge of human techniques to mitigate the risk of popular reaction.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 71
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5bf4bb10-41aa-4f32-83b7-b177db564841",
+      "text": "In technicized systems, adaptation should be systematically planned and controlled to ensure efficiency and conformity.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 73
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6b99a6cf-8b71-4884-be3d-c09ee7b4e9e7",
+      "text": "Individuals must comply with calculated adaptation protocols to remain functional within a biocratic framework, potentially sacrificing personal uniqueness.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 73
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e39e8665-e4df-42e6-8b78-1db96cc1c2e2",
+      "text": "Avoid dissociating cognitive and physical activities in work to prevent personality fragmentation.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 74
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5e0de60e-1949-4f49-82fa-f3d871c28eff",
+      "text": "Ensure leisure time is used authentically for self-education rather than as a mere compensation.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 74
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "73a57ea7-1659-40a9-8599-10a73d6e5a8d",
+      "text": "Evaluate technological advancements for their impact on human freedoms and emotional depth before adoption.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 76
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dc421f9d-5599-4255-b187-7b2b6bcb283c",
+      "text": "Balance instinctive passions with societal structures to maintain transformative potential.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 76
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b537e375-1136-45ee-81ff-b19b1d1815bb",
+      "text": "To disseminate ideas, conform to established technical communication channels and standards.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 77
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4fa200bb-7b5a-429f-9741-fffca0043f57",
+      "text": "Activities must be formatted to fit predefined technical protocols to avoid exclusion from society.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 77
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cac9b0e1-0221-4e40-853d-bf27cb150a9a",
+      "text": "Technical problems require technical solutions.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 78
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0f7382e0-e253-4fb5-9234-a642496df2fe",
+      "text": "Ends must be mathematically defined and calculated to align with means.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 78
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8cb90816-7f74-4c00-9902-8ca8ee4cfb33",
+      "text": "Implement genetic engineering based on idealized genetic stock to ensure population optimization.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 79
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cc82e3f6-16b3-4bd9-92f3-af3683edf7a3",
+      "text": "Transition to automated systems only after ensuring comprehensive social and economic stability.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 79
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6daae97e-6d65-435f-a4b4-c202445e8d5a",
+      "text": "Always inquire into the underlying motives and impacts of technological innovations before adoption.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 80
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eeeebacc-39c7-400e-af62-200cfb3a02eb",
+      "text": "Verify the necessity of technology for genuine human well-being rather than accepting it as automatic progress.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 80
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "64384a5c-f34d-432b-a332-35f423f4235d",
+      "text": "Prioritize comprehensive data collection and analysis before making strategic decisions.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 81
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "aaae8d59-3bf9-4734-b48c-915acb122892",
+      "text": "Integrating technological advancements with human-centered design ensures sustainable progress.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 81
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7d1ed32a-5760-4357-ba6b-c697e14afbf7",
+      "text": "Prioritize human needs and values when introducing technological innovations.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 82
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eda0ad44-09d6-4c3e-81cd-8356e23fc338",
+      "text": "Continuously evaluate the social and economic impacts of new technologies to ensure they align with societal goals.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 82
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eadcc881-63a8-4b7c-b817-cc5283b5d3f6",
+      "text": "Power distribution must align with societal goals to avoid collapse.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 83
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "517c8b8d-2f3c-4825-b06a-cf18ac4b252b",
+      "text": "Clear communication is essential for effective delegation in complex organizations.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 83
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f617f3b9-c258-40c7-b0cc-cf358f1854dc",
+      "text": "Adapt to the logic of technique by understanding its operational principles.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 85
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e5462114-4ddb-4816-82a9-659fd32e51b5",
+      "text": "Prioritize human values in the integration of technology to avoid alienation.",
+      "source": {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 85
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "298e3d3b-a7c8-421d-b92a-8f6284c9e50f",
+      "text": "Avoid attributing technological innovations solely to philosophy.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 44
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fc33c39f-43a9-472d-af81-b599406ca502",
+      "text": "Limit the use of complex tools and methods to essential tasks only.",
+      "source": {
+        "book": "Letters from a Stoic 1",
+        "chapter": 44
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fd16cc94-ab36-460b-a23c-510881765936",
+      "text": "Evaluate information sources based on their impact on cognition, not entertainment value.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9833a448-e6b8-4409-b1d1-f3f922d62506",
+      "text": "Prioritize understanding over engagement in public discourse.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d983068a-bff1-427f-a45f-ed674bf58e6c",
+      "text": "Evaluate the trade-offs between entertainment value and substantive engagement with content.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e9b5f6af-ba9f-4ad2-8b6c-7e9e8b2ef54c",
+      "text": "Maintain vigilance against the incremental erosion of critical thinking through media consumption.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "90b876d1-61d8-43e5-a94d-c38cb7e3fb30",
+      "text": "Maintain awareness of global political developments",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "91ee4401-f84f-49ce-a1a1-55afbd3666f8",
+      "text": "Evaluate the implications of adopting new technologies",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1af1411f-2016-41fc-8cfa-740cd74a0114",
+      "text": "Content must be adapted to the时报's inherent capabilities to effectively influence culture.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f4f5564c-b0fd-4a09-a3ec-1e52fffc1559",
+      "text": "Strategic selection of communication methods determines the persuasive power of a message.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "31b82750-3138-442a-8a26-a728a3734cf7",
+      "text": "Always analyze the metaphorical implications of tools and media when making decisions.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d5544be6-f433-4865-8bd3-e5d2489dcafe",
+      "text": "Consider how innovations in tools can challenge and transform existing cultural and cognitive frameworks.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5eb72a4a-b7a6-4e03-abfb-e854c08ca118",
+      "text": "Delay judgment until all relevant information is available.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a283c4df-cf36-4393-9e67-ecff7bb79bcc",
+      "text": "Apply personal experience as a counterargument to proposed ideas.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "339d3c00-23c0-497e-959c-c618304fe075",
+      "text": "Withhold knowledge that is irrelevant to the current discussion.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 10
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3a9161ad-496d-4a32-b92e-7f3e0b2b8cac",
+      "text": "Evaluate new technologies by examining their historical trade-offs, including potential benefits and drawbacks.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "91820f27-dfb5-4ce1-a1d4-cb6f4f3d3b05",
+      "text": "Adopt media changes with caution, considering their impact on the quality and value of public discourse.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f68c4d1d-4edb-48e5-b0de-a11ba89d1954",
+      "text": "Rely on clear, reasoned arguments to persuade and influence public opinion.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ea858196-96d5-4ab0-8468-c9bc6e6876b5",
+      "text": "Ensure broad access to education to foster an informed and engaged citizenry.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7ba2e58d-4926-4ab9-b0c0-fa51a8a49533",
+      "text": "When faced with limitations, repurpose available tools to meet immediate needs.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ee8fcf63-ac0b-4b9f-bbfa-9d43c7516e6c",
+      "text": "Assess the fundamental capabilities of a technology before expecting it to replace established practices.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "00ad0c98-3f14-4391-9a6e-c3e419d007ae",
+      "text": "Always analyze a technology's inherent predispositions and historical context before implementation",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "532e87d1-81c4-4ab8-aacb-30eeaa65f117",
+      "text": "Prioritize understanding the core purpose of a technology to maximize its potential benefits.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9a4319ae-750e-40a0-9ed0-68cd408500e5",
+      "text": "Align technological deployment with strategic objectives to avoid unintended negative consequences.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 23
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "888734a1-6941-4617-aa4b-34b40b5d6a3e",
+      "text": "Adapt rituals to maintain sacredness when translating experiences to new mediums.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1dce6662-835a-4d31-af35-706f41597bb8",
+      "text": "Maintain audience focus and ritualistic conduct to preserve experience depth.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 35
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "67f384eb-2a52-4b58-927f-ce889d22bc92",
+      "text": "Prioritize immediate impact over historical context when designing communication platforms.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e9a57e0e-a984-49db-9b47-f289d71120ae",
+      "text": "Information platforms must incorporate contextualization mechanisms to prevent decontextualization.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 38
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e5c5fdd8-ff40-4fc2-a695-3e633870d13e",
+      "text": "Societies must actively recognize the programmed social change inherent in new technologies.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 39
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a81e1fbb-f432-4f45-96b5-763034bed009",
+      "text": "Resistance to technological influence requires acknowledging its ideological nature",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 39
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 343,
+    "last_updated": "2026-02-13T02:42:26.938431Z",
+    "aggregated_from": [
+      {
+        "book": "Deep Work",
+        "chapter": 2
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 5
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 11
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 29
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 131
+      },
+      {
+        "book": "9780262353946_caa",
+        "chapter": 3
+      },
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 43
+      },
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 44
+      },
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 45
+      },
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 69
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 4
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 6
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 13
+      },
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 37
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 26
+      },
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 27
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 28
+      },
+      {
+        "book": "How to Not Die Alone",
+        "chapter": 94
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 2
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 3
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 4
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 6
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 7
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 8
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 11
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 12
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 15
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 16
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 18
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 20
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 22
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 24
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 26
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 27
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 28
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 30
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 33
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 34
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 35
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 37
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 38
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 39
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 43
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 45
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 50
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 51
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 52
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 53
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 54
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 55
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 56
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 60
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 61
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 62
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 63
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 64
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 65
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 66
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 68
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 71
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 73
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 74
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 76
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 77
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 78
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 79
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 80
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 81
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 82
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 83
+      },
+      {
+        "book": "Jacques Ellul - The Technological Society",
+        "chapter": 85
+      },
+      {
+        "book": "Letters from a Stoic 1",
+        "chapter": 44
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 1
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 3
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 4
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 7
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 8
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 10
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 11
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 16
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 21
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 22
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 23
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 35
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 38
+      },
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 39
+      }
+    ]
+  }
+}

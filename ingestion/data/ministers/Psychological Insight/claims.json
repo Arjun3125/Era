@@ -1,0 +1,38 @@
+{
+  "domain": "Psychological Insight",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "2f6484e3-943d-4059-8d92-f53b8a350606",
+      "text": "Kierkegaard's theological work gains deeper appreciation through its connection to scientific and clinical perspectives in psychology.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6914f51d-ece6-4118-91a3-18443ea550ed",
+      "text": "Death denial is a universal human phenomenon, deeply embedded in the psychological fabric of individuals and cultures.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 94
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T14:08:41.961041Z",
+    "aggregated_from": [
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 34
+      },
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 94
+      }
+    ]
+  }
+}

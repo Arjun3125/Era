@@ -1,0 +1,3547 @@
+[
+  {
+    "chapter_index": 1,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "optionality",
+      "registry"
+    ],
+    "principles": [
+      "Understand audience preferences to enhance engagement"
+    ],
+    "rules": [
+      "Verify subscriber details for accurate communication",
+      "Provide clear instructions for user participation"
+    ],
+    "claims": [
+      "Mailing lists facilitate personalized recommendations"
+    ],
+    "warnings": [
+      "Data inaccuracies may lead to misdirected communications",
+      "Unclear processes can hinder user engagement"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0594,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 2,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Building lasting relationships requires intentional decision-making rather than relying on chance.",
+      "Human behavior in relationships is often driven by irrational tendencies that can be understood and improved."
+    ],
+    "rules": [
+      "Always assess the consequences of your dating decisions before acting.",
+      "Apply behavioral science principles to overcome cognitive biases in relationship choices."
+    ],
+    "claims": [
+      "Behavioral science can effectively help individuals make better decisions in romantic relationships.",
+      "Intentional approaches to dating, based on psychological insights, lead to improved relationship outcomes."
+    ],
+    "warnings": [
+      "Failing to address irrational decision-making can lead to repeating harmful relationship patterns.",
+      "Without understanding one's biases, poor choices in dating may result in long-term failures."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0066,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 3,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Effective change requires conscious effort beyond mere awareness",
+      "Behavioral modification is foundational to achieving personal goals"
+    ],
+    "rules": [
+      "Commit decisively to avoid regrettable outcomes",
+      "Design structured systems to facilitate behavior change"
+    ],
+    "claims": [
+      "Certain choices can hinder long-term objectives despite initial appeal",
+      "Evidence-based methods are effective in guiding decision-making"
+    ],
+    "warnings": [
+      "Inertia from doubt can lead to missed opportunities and perpetuate suboptimal behaviors",
+      "Failure to act on awareness may reinforce negative patterns and limit progress"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0615,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 4,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Success in relationships requires intentional decision-making and strategic planning.",
+      "Freedom in personal choices brings uncertainty, which requires careful navigation."
+    ],
+    "rules": [
+      "Commit fully to a structured process to achieve relationship goals.",
+      "Overcome decision-making paralysis by focusing on the process rather than the outcome."
+    ],
+    "claims": [
+      "Modern dating is more challenging due to increased personal freedom and the abundance of choices.",
+      "Great relationships are built through intentional effort rather than being discovered."
+    ],
+    "warnings": [
+      "Too many options can lead to decision paralysis and dissatisfaction.",
+      "Social comparison via curated media can negatively impact relationship satisfaction."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0043,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 5,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Self-awareness improves decision-making in personal relationships"
+    ],
+    "rules": [
+      "Delay major life decisions until personal motivations are fully understood",
+      "Consider long-term implications before committing to relationship choices"
+    ],
+    "claims": [
+      "Behavioral science offers methods to better navigate relationship dynamics"
+    ],
+    "warnings": [
+      "Excessive focus on perfect outcomes can lead to decision paralysis",
+      "Societal pressures may distort judgment in critical life choices"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0204,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 6,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Self-identity is primarily constructed through individual experiences rather than communal definitions.",
+      "Abundance of choices in modern life increases decisional uncertainty and questioning."
+    ],
+    "rules": [
+      "Balance thorough research with decisive action to avoid paralysis in important decisions.",
+      "Utilize behavioral science to counteract cognitive biases in relationship formation."
+    ],
+    "claims": [
+      "Social media influences perceptions of relationship satisfaction by highlighting idealized scenarios.",
+      "The proliferation of relationship models complicates the process of finding a suitable one."
+    ],
+    "warnings": [
+      "Over-dependence on data and research can delay necessary commitments, leading to regret.",
+      "Inadequate role models for relationships may result in poor decision-making and lower satisfaction."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0571,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 7,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Self-awareness is crucial for identifying and overcoming personal barriers in relationships.",
+      "Balance idealism with practicality to achieve realistic outcomes in dating."
+    ],
+    "rules": [
+      "Evaluate potential partners based on compatibility and shared goals rather than perfection.",
+      "Assess your readiness for dating by considering current self-improvement progress.",
+      "Use a structured method, like a self-assessment quiz, to uncover hidden biases and expectations."
+    ],
+    "claims": [
+      "The best partner can be found through personal development and self-enhancement.",
+      "Love is often intuitive and can be recognized through gut feelings and natural connections."
+    ],
+    "warnings": [
+      "Unrealistic self-expectations may delay finding a partner indefinitely.",
+      "Overly selective decision-making can lead to missed opportunities in relationships."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0085,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 8,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Love is an active pursuit requiring effort, not a passive occurrence.",
+      "Mindset shapes relationship outcomes; expectations influence actions and interpretations."
+    ],
+    "rules": [
+      "Actively seek partners rather than waiting for fate.",
+      "Evaluate potential relationships based on compatibility, not solely on preconceived notions of a 'perfect' partner.",
+      "Assume relationships require ongoing effort to maintain and grow."
+    ],
+    "claims": [
+      "Historically, marriage was primarily an economic and political arrangement, not based on romantic love.",
+      "Love, as experienced in ancient times, was often seen as a temporary, ecstatic state rather than a lifelong commitment basis."
+    ],
+    "warnings": [
+      "Unrealistic fairy-tale expectations about love can lead to disappointment and premature abandonment of relationships.",
+      "High, unattainable standards for a partner can prevent individuals from forming meaningful connections with suitable matches."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0066,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 9,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "optionality",
+      "psychology"
+    ],
+    "principles": [
+      "Relationships are built on realistic expectations and shared values, not on idealized, unattainable perfection.",
+      "Love evolves and requires active effort, not passive waiting for fate."
+    ],
+    "rules": [
+      "Focus on shared values and mutual growth rather than seeking a 'perfect match'.",
+      "Communicate openly about needs and expectations to avoid misalignment in relationships."
+    ],
+    "claims": [
+      "Disney perpetuates the 'Prince Charming' narrative, convincing individuals to wait for a single perfect partner.",
+      "Good sex does not necessarily define the success of a relationship."
+    ],
+    "warnings": [
+      "Unrealistic soul mate beliefs lead to wasted time and missed opportunities for meaningful relationships.",
+      "Relying on infatuation rather than sustained effort can doom long-term relationships."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0289,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 10,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "constraints",
+      "risk"
+    ],
+    "principles": [
+      "Love requires sustained effort beyond initial attraction.",
+      "Real relationships are built on shared experiences, not fate or idealized moments."
+    ],
+    "rules": [
+      "Actively seek partners rather than waiting for a soul mate.",
+      "Adjust expectations based on reality, not curated social media images."
+    ],
+    "claims": [
+      "Disney and rom-coms perpetuate unrealistic soul mate beliefs.",
+      "Social media presents idealized, filtered versions of relationships."
+    ],
+    "warnings": [
+      "Unrealistic expectations lead to disappointment in relationships.",
+      "Passive approaches to love may result in missed opportunities."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0052,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 11,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Cultivate a flexible mindset to enhance success in relationships and decision-making.",
+      "Embrace realism in interpersonal dynamics to avoid disappointment."
+    ],
+    "rules": [
+      "Set clear, achievable expectations to guide actions in partnerships.",
+      "Commit decisively to opportunities to prevent regret."
+    ],
+    "claims": [
+      "Cultural narratives often promote unrealistic ideals that affect personal beliefs.",
+      "Decision-making can be influenced by cognitive biases like the maximizer tendency."
+    ],
+    "warnings": [
+      "Unrealistic optimism may lead to missed opportunities and relationship strain.",
+      "Overanalysis can result in delayed action, causing loss of potential partners."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0174,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 12,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Effective decision-making requires balancing thoroughness with efficiency to avoid unnecessary delays.",
+      "The fundamental trade-off in decision-making involves choosing between exhaustive exploration of options and settling for adequacy."
+    ],
+    "rules": [
+      "When faced with multiple choices, decision-makers must commit to either exploring all possibilities (Maximizer) or settling for a satisfactory option (Satisficer).",
+      "Decision-makers should set criteria for 'good enough' to prevent over-analysis paralysis."
+    ],
+    "claims": [
+      "Herbert A. Simon first identified the Maximizer and Satisficer decision styles in a 1956 academic paper."
+    ],
+    "warnings": [
+      "Overly ambitious exploration of all options can lead to decision paralysis and missed opportunities.",
+      "Relying solely on exhaustive analysis may prevent timely decision-making in time-sensitive situations."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0198,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 13,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Commit to decisions once standards are met to foster contentment.",
+      "Decision outcomes are influenced by subjective experiences rather than objective quality."
+    ],
+    "rules": [
+      "Define clear criteria for decision-making and cease evaluation upon meeting them.",
+      "Rationalize commitments to alleviate post-decision anxiety."
+    ],
+    "claims": [
+      "Satisficers report higher satisfaction with decisions compared to maximizers.",
+      "Maximizers experience increased anxiety due to fear of missing out and making imperfect choices."
+    ],
+    "warnings": [
+      "Over-analysis can lead to regret and missed opportunities.",
+      "Delaying decisions due to excessive exploration may result in lost chances."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0038,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 14,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "optionality",
+      "psychology"
+    ],
+    "principles": [
+      "Satisfaction derives from acceptance of a decision, not its perfection.",
+      "Happiness is linked to contentment with achieved outcomes, not exhaustive exploration."
+    ],
+    "rules": [
+      "Act decisively within biological constraints to optimize outcomes.",
+      "Evaluate decisions against personal criteria, then cease active search once met.",
+      "Consider proactive measures against time-sensitive biological factors."
+    ],
+    "claims": [
+      "Satisficers experience greater happiness than Maximizers.",
+      "Decision-making outcomes are influenced by biological constraints on fertility."
+    ],
+    "warnings": [
+      "Prolonged uncertainty in decision-making may lead to psychological distress.",
+      "Delaying commitment may result in missed opportunities due to changing circumstances."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.011,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 15,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Begin actions early to avoid missing learning opportunities.",
+      "Iterative processes improve outcomes through trial and error."
+    ],
+    "rules": [
+      "Do not postpone action indefinitely due to perceived imperfection.",
+      "Consider opportunity costs when evaluating mutually exclusive decisions."
+    ],
+    "claims": [
+      "Individuals can successfully form relationships despite imperfections.",
+      "The true cost of education includes forgone income opportunities."
+    ],
+    "warnings": [
+      "Delaying action prevents development of preferences and compatibility knowledge.",
+      "Inaction creates cumulative missed opportunities with measurable costs."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0059,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 16,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "optionality",
+      "power"
+    ],
+    "principles": [
+      "Deliberate practice enhances performance by building skills incrementally.",
+      "Early engagement reduces future difficulty by allowing for gradual adaptation."
+    ],
+    "rules": [
+      "Set a short, concrete deadline (e.g., 3 weeks) to initiate action.",
+      "Prioritize preparation over passive intention to achieve readiness.",
+      "Commit publicly to leverage social accountability and reputation management."
+    ],
+    "claims": [
+      "Behavioral science demonstrates that deadlines significantly increase task completion rates.",
+      "Structured preparation can overcome hesitation and accelerate skill development."
+    ],
+    "warnings": [
+      "Unmitigated intention-action gap leads to progressive neglect of important opportunities.",
+      "Insufficient preparation creates vulnerability to awkwardness in social interactions."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0036,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 17,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Commitment to decisions enhances satisfaction and reduces doubt over time.",
+      "Perfection is an illusion and should not be a barrier to action."
+    ],
+    "rules": [
+      "Set personal deadlines for major life changes to ensure timely commitment.",
+      "Block ex-partners completely to prevent ongoing engagement and facilitate moving on."
+    ],
+    "claims": [
+      "Exposure to ex-partners on social media can impede emotional healing.",
+      "Irrevocable commitments lead to better rationalization and decision acceptance."
+    ],
+    "warnings": [
+      "Sleeping with an ex after a breakup may prolong the process of recovery.",
+      "Ongoing hesitation and perfectionism can delay personal growth and opportunities."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0092,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 18,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Understanding one's psychological patterns improves relationship outcomes.",
+      "Self-awareness shapes how we attract and interact with partners"
+    ],
+    "rules": [
+      "Communicate actively to prevent feelings of abandonment.",
+      "Set clear relationship expectations to avoid disappointment.",
+      "Manage attachment behaviors through conscious practice"
+    ],
+    "claims": [
+      "Attachment theory has transformed dating approaches for many.",
+      "Avoidant attachment is a response to unreliable caregiving"
+    ],
+    "warnings": [
+      "Settling for superficial connections hinders authentic relationships.",
+      "Misinterpreting signals leads to relationship dissatisfaction"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0046,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 19,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Understanding relationship patterns is foundational to personal growth.",
+      "Self-awareness is key to identifying attachment styles and their impact on behavior."
+    ],
+    "rules": [
+      "Actively seek partners who demonstrate consistent communication and emotional availability.",
+      "Practice emotional regulation techniques to manage relationship anxieties.",
+      "Prioritize long-term compatibility over short-term attraction in committed relationships."
+    ],
+    "claims": [
+      "Approximately 50% of the population identifies as securely attached.",
+      "Attachment styles can change with conscious effort over time."
+    ],
+    "warnings": [
+      "Unresolved attachment issues may perpetuate cycles of relationship dissatisfaction.",
+      "Insecure attachment patterns can lead to misinterpreting relationship signals and missed opportunities.",
+      "Attempting to change attachment style without addressing underlying emotional needs may require professional support."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0061,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 20,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "timing"
+    ],
+    "principles": [
+      "Prioritize long-term compatibility and mutual adaptation over short-term attraction for sustainable relationships.",
+      "Focus on core values and enduring factors rather than fleeting desires in relationship formation."
+    ],
+    "rules": [
+      "Shift evaluation criteria for potential partners at least six years before major life events, such as having children, to emphasize long-term viability.",
+      "Be honest with yourself about whether a relationship is focused on short-term pleasure or long-term commitment to avoid future dissatisfaction."
+    ],
+    "claims": [
+      "Cognitive biases, such as the focusing illusion, cause individuals to overestimate the importance of transient factors in relationship success.",
+      "Financial stability significantly reduces relationship stress and increases overall satisfaction, but its impact is less than commonly perceived."
+    ],
+    "warnings": [
+      "Relying solely on short-term attraction or surface-level compatibility can lead to relationship failure if not balanced with long-term considerations.",
+      "Ignoring cognitive biases may result in poor decisions that underestimate the role of fundamental compatibility in maintaining long-term happiness."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0055,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 21,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Circumstances adapt over time, leading to acclimation and a reduction in the novelty and impact of positive changes.",
+      "Happiness from external factors is limited and depends on relative comparison with one's social or reference group.",
+      "Long-term success in relationships is not guaranteed by personality similarity and requires focus on intrinsic compatibility."
+    ],
+    "rules": [
+      "When making decisions, account for adaptation and evolving feelings to avoid misjudging long-term outcomes.",
+      "Prioritize intrinsic factors such as sustainability and compatibility over superficial attributes like wealth or appearance.",
+      "Consider the potential for adaptation diminishing initial advantages in favor of long-term stability."
+    ],
+    "claims": [
+      "People adapt to gains from decisions (e.g., wealth) over time, reducing their perceived benefits beyond a certain point.",
+      "Superficial attributes, such as physical appearance, are often perceived as enhancing qualities like intelligence and trustworthiness.",
+      "Psychological factors, such as lust, decline faster than intrinsic liking in relationships due to evolutionary and cognitive biases."
+    ],
+    "warnings": [
+      "Misjudging the long-term effects of decisions due to adaptation can lead to dissatisfaction and unmet expectations.",
+      "Over-reliance on short-term gains or attributes can obscure underlying compatibility issues, potentially resulting in relationship failure.",
+      "Adaptation can cause initial pleasures to fade, reducing overall satisfaction and requiring proactive management in decision-making."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0081,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 22,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Compatibility in relationships is enhanced by complementary traits rather than identical ones.",
+      "Genetic diversity can improve attraction and relationship outcomes.",
+      "Individual pursuits should be balanced with relationship investment to maintain satisfaction."
+    ],
+    "rules": [
+      "Prioritize finding partners who complement your personality over seeking similarity.",
+      "Allow partners the freedom to explore personal hobbies without imposing shared interests as a requirement.",
+      "Ensure that individual activities do not detract from relationship quality by maintaining open communication."
+    ],
+    "claims": [
+      "Relationship satisfaction is not significantly higher when partners share similar personalities.",
+      "Genetic dissimilarity is preferred in attraction based on empirical studies.",
+      "Shared hobbies are not essential for successful long-term relationships."
+    ],
+    "warnings": [
+      "Ignoring relationship needs in favor of personal hobbies can lead to dissatisfaction and conflict.",
+      "Mismatched expectations about hobbies or individual freedoms can strain a relationship over time."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0154,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 23,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Distributing emotional and social needs across multiple relationships enhances personal well-being."
+    ],
+    "rules": [
+      "Assign specific roles or responsibilities to different individuals to balance the demands placed on primary partners."
+    ],
+    "claims": [
+      "Studies show that relying on a diverse support network improves mental health outcomes."
+    ],
+    "warnings": [
+      "Over-reliance on a single partner for all needs can lead to relationship strain and decreased satisfaction."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0118,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 24,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Certain personal traits serve as a foundation for long-term relationship success.",
+      "Prioritizing emotional and cognitive flexibility enhances interpersonal outcomes."
+    ],
+    "rules": [
+      "Evaluate potential partners by assessing their emotional stability, kindness, loyalty, and growth mindset.",
+      "Focus on measurable indicators of commitment and resilience when forming relationships."
+    ],
+    "claims": [
+      "Emotionally stable and kind individuals contribute significantly to relationship satisfaction and stability.",
+      "A growth mindset facilitates adaptability and problem-solving in partnerships."
+    ],
+    "warnings": [
+      "Underestimating core traits like emotional stability can lead to relationship failure.",
+      "Neglecting qualities such as loyalty may result in diminished partnership longevity."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0063,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 25,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Compatibility is enhanced by partners who positively influence self-esteem and emotional well-being.",
+      "Relationships are built on mutual understanding and the ability to handle differences constructively."
+    ],
+    "rules": [
+      "Evaluate potential partners based on how they affect your emotional state and self-confidence.",
+      "Differentiate between resolvable and unresolvable issues in relationships to manage expectations effectively."
+    ],
+    "claims": [
+      "Approximately 69% of relationship conflicts are perpetual and cannot be fully resolved."
+    ],
+    "warnings": [
+      "Failing to address conflicts can lead to resentment, decreased commitment, and relationship breakdown.",
+      "Avoiding difficult decisions or suppressing emotions may strengthen initial attraction but weaken long-term compatibility."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0067,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 26,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Focus on core qualities like trust and reliability for long-term success.",
+      "Understand that initial attractions diminish over time due to adaptation."
+    ],
+    "rules": [
+      "Seek partners who demonstrate loyalty and emotional stability.",
+      "Prioritize clear communication to navigate relationship challenges."
+    ],
+    "claims": [
+      "Superficial traits have less impact in long-term relationships.",
+      "People adapt to their circumstances, reducing the novelty of initial connections."
+    ],
+    "warnings": [
+      "Relying on short-term fun can lead to disappointment if not aligned with deeper needs.",
+      "Lust fades, potentially resulting in relationship dissatisfaction if not built on fundamentals."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0055,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 27,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Expand incrementally to ensure long-term viability."
+    ],
+    "rules": [
+      "Assess the environment thoroughly before proceeding with expansion."
+    ],
+    "claims": [
+      "Consistent effort leads to incremental progress and success."
+    ],
+    "warnings": [
+      "Rushing can result in setbacks and inefficiencies."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.8,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 28,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "technology"
+    ],
+    "principles": [
+      "The environment in which decisions are made can alter preferences and outcomes.",
+      "Human judgments are influenced by how options are presented and displayed."
+    ],
+    "rules": [
+      "Assess individuals based on comprehensive data rather than limited, superficial information.",
+      "Design decision-making interfaces to minimize bias and promote informed choices."
+    ],
+    "claims": [
+      "Digital platforms have become a primary method for forming romantic relationships.",
+      "Behavioral factors significantly impact how people evaluate and select partners."
+    ],
+    "warnings": [
+      "Inaccurate conclusions can arise from relying on incomplete data or biased decision contexts.",
+      "Superficial judgments may lead to missed opportunities in personal and social interactions."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0125,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 29,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "The surrounding environment significantly influences human decision-making processes."
+    ],
+    "rules": [
+      "Design decision-making tools to align with desired outcomes by considering user context and behavior."
+    ],
+    "claims": [
+      "Dating platforms have facilitated numerous successful relationships for individuals who might not have connected otherwise."
+    ],
+    "warnings": [
+      "Inadequate design of decision-support systems can lead to suboptimal choices and missed opportunities."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0119,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 30,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Measuring specific traits amplifies their perceived importance in decision-making",
+      "Long-term compatibility depends on intangible qualities rather than superficial metrics"
+    ],
+    "rules": [
+      "Define clear, criteria-based filters before evaluating potential partners to avoid bias",
+      "Prioritize comprehensive evaluation over simplistic metrics in relationship-building"
+    ],
+    "claims": [
+      "There is a quantifiable correlation between certain physical traits and desirability in dating"
+    ],
+    "warnings": [
+      "Overemphasizing superficial traits can lead to poor long-term outcomes and dissatisfaction",
+      "Lack of experience in compatibility assessment may result in incorrect assumptions about ideal partners"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0045,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 31,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Take time to consider decisions carefully to avoid limiting outcomes.",
+      "Be aware of cognitive biases that influence behavior in social contexts."
+    ],
+    "rules": [
+      "Update preferences on dating apps to reflect changing circumstances.",
+      "Limit the number of options to reduce decision fatigue and improve satisfaction."
+    ],
+    "claims": [
+      "Human relationships are best evaluated through direct experience rather than objective attributes.",
+      "Cognitive biases, such as status quo bias, can significantly impact decision-making processes."
+    ],
+    "warnings": [
+      "Rushing decisions can lead to missed opportunities and future regret.",
+      "Excessive choices can cause decision paralysis and decrease overall happiness."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0043,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 32,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Open-mindedness leads to better identification of compatible partners by considering a wider range of individuals.",
+      "Focusing on core traits rather than surface-level characteristics improves relationship outcomes."
+    ],
+    "rules": [
+      "Adjust selection criteria on dating apps to be less restrictive and more inclusive.",
+      "Challenge assumptions about potential partners by questioning preconceived notions and seeking deeper understanding.",
+      "Look for positive attributes when evaluating candidates to increase the likelihood of successful matches.",
+      "Regularly review and update dating app filters to reflect evolving preferences and avoid bias."
+    ],
+    "claims": [
+      "Underlying traits like curiosity and values are more predictive of compatibility than superficial details provided in profiles.",
+      "Assessing individuals through app data alone is imprecise due to the limitations of digital information."
+    ],
+    "warnings": [
+      "Narrow filtering criteria can prevent the discovery of compatible partners, leading to missed opportunities.",
+      "Relying on limited information from app profiles may result in incorrect judgments and poor relationship decisions."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0138,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 33,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Assume individuals are more complex and potentially more compatible in person than their online profiles suggest.",
+      "Focus on quality interactions rather than the quantity of options in dating."
+    ],
+    "rules": [
+      "Limit the number of concurrent dates to maintain focus and avoid decision fatigue.",
+      "Pace app usage by setting time limits for swiping and responding to avoid addictive behaviors.",
+      "Select clear, unedited photos that accurately represent one's identity to facilitate genuine connections.",
+      "Accurately describe interests and intentions in profiles to align with authentic preferences."
+    ],
+    "claims": [
+      "Candid photos significantly increase the likelihood of profile engagement and match success on dating apps.",
+      "Dating apps are designed with features that mimic addictive patterns, such as variable reward systems."
+    ],
+    "warnings": [
+      "Rushing through dating can lead to superficial judgments and missed opportunities for meaningful relationships.",
+      "Oversampling too many options may result in decision paralysis and reduced satisfaction with potential partners."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0058,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 34,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Positivity and focus on personal interests attract like-minded individuals.",
+      "Attraction is influenced by one's attitude and energy in interactions."
+    ],
+    "rules": [
+      "Craft specific, engaging openers based on observed details to start conversations.",
+      "Follow up promptly and consistently to maintain momentum in relationships.",
+      "Avoid generic or negative content in profiles and communications to project a positive image."
+    ],
+    "claims": [
+      "Drama often increases when people claim to avoid it.",
+      "Proactive engagement improves connection-building in social interactions."
+    ],
+    "warnings": [
+      "Neglecting to respond to messages can lead to missed opportunities and disconnection.",
+      "Focusing on dislikes may attract negative experiences and detract from personal growth."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0273,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 35,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "constraints",
+      "psychology"
+    ],
+    "principles": [
+      "Direct engagement is more effective for building authentic relationships than prolonged virtual interaction."
+    ],
+    "rules": [
+      "Limit pre-meeting communication to avoid creating unrealistic expectations.",
+      "Propose specific dates and times to facilitate smooth transitions and reduce scheduling ambiguity."
+    ],
+    "claims": [
+      "Online chemistry does not guarantee success in face-to-face interactions."
+    ],
+    "warnings": [
+      "Delaying in-person meetings can lead to disappointment due to mismatched expectations.",
+      "Busy schedules may impede progress in establishing connections."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0151,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 36,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology"
+    ],
+    "principles": [
+      "Maintain engagement through enjoyable activities",
+      "Focus on positive experiences to sustain motivation"
+    ],
+    "rules": [
+      "Prioritize activities that foster connection and shared enjoyment",
+      "Select approaches that align with desired outcomes"
+    ],
+    "claims": [
+      "Engaging activities improve relational outcomes"
+    ],
+    "warnings": [
+      "Neglecting enjoyment may lead to diminished interest"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.375,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 37,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Intuition about long-term outcomes may be inaccurate.",
+      "Measurement can influence what is prioritized in decision-making."
+    ],
+    "rules": [
+      "Use broad criteria to evaluate options rather than relying on strict filters.",
+      "Limit the number of choices to avoid excessive comparison and indecision."
+    ],
+    "claims": [
+      "Quantifiable metrics can shape behavior by emphasizing superficial aspects.",
+      "Human intuition does not always align with long-term satisfaction."
+    ],
+    "warnings": [
+      "Over-reliance on easily measurable attributes can lead to superficial outcomes.",
+      "Abundance of choices may cause decision paralysis and hinder commitment."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0684,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 38,
+    "chapter_title": null,
+    "domains": [
+      "risk",
+      "strategy",
+      "timing"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 39,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Cultivating self-confidence improves social outcomes and relationship formation.",
+      "Gradual exposure to social interactions enhances skills and reduces anxiety in dating scenarios."
+    ],
+    "rules": [
+      "Maintain focus during social events by minimizing distractions from personal devices.",
+      "Select supportive companions who are independent and positive to facilitate networking and introductions.",
+      "Follow up with feedback after dates to refine future interactions and relationship-building strategies."
+    ],
+    "claims": [
+      "Kindness is an underrated quality that significantly contributes to successful partnerships.",
+      "Most individuals are receptive to initiating casual conversations that can lead to meaningful connections."
+    ],
+    "warnings": [
+      "Ignoring signs of disinterest can result in awkwardness and wasted social opportunities.",
+      "Overstepping boundaries in social interactions may lead to perceptions of creepiness and hinder relationship development."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0028,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 40,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "timing"
+    ],
+    "principles": [
+      "The environment and context surrounding decisions can significantly influence outcomes and perceptions.",
+      "Mindset and preparation play a critical role in the success of social and personal interactions."
+    ],
+    "rules": [
+      "Schedule important activities during optimal times to align with personal energy and focus levels.",
+      "Consider the setting and timing of engagements to maximize engagement and minimize negative outcomes."
+    ],
+    "claims": [
+      "Behavioral science demonstrates that environmental changes can alter decision-making processes.",
+      "Individuals can improve social experiences by consciously adjusting their approach and timing."
+    ],
+    "warnings": [
+      "Neglecting environmental factors may lead to suboptimal results in personal and social endeavors.",
+      "Acting without considering personal state and context can diminish the effectiveness of interactions."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0146,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 41,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "optionality",
+      "psychology"
+    ],
+    "principles": [
+      "Focus on the present moment to foster genuine connection.",
+      "Mindset shapes outcomes; expecting success increases likelihood."
+    ],
+    "rules": [
+      "Shift from evaluative to experiential mindset by focusing on feelings and curiosity.",
+      "Design pre-date rituals to prepare mentally and reduce anxiety.",
+      "Choose activities that promote spontaneity and reduce structured interaction."
+    ],
+    "claims": [
+      "A pre-date ritual can significantly improve mindset and dating outcomes."
+    ],
+    "warnings": [
+      "Evaluative dating leads to disconnection and missed opportunities.",
+      "Negative mindsets can cause self-sabotage and prevent recognizing potential matches."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.003,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 42,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Demonstrate effort to enhance appreciation in relationships",
+      "Play authentically to foster connection and bonding"
+    ],
+    "rules": [
+      "Use specific questions to deepen relationships during dates",
+      "Enter conversations mid-action to avoid small talk"
+    ],
+    "claims": [
+      "Deep questions promote vulnerability and connection between partners",
+      "Playful behavior enhances chemistry and trust in dating scenarios"
+    ],
+    "warnings": [
+      "Small talk can hinder genuine connection during dates",
+      "Robotic approaches to dating may lead to superficial interactions"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.007,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 43,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Prioritize active listening and empathy to build genuine connections in conversations.",
+      "Focus on the other person's experience to foster meaningful interactions."
+    ],
+    "rules": [
+      "Use support responses to encourage speakers and deepen engagement, while avoiding shift responses that self-centeredly redirect focus.",
+      "Limit phone use during social interactions to maintain conversation quality and empathetic connection.",
+      "End interactions positively to enhance overall experience and satisfaction."
+    ],
+    "claims": [
+      "The peak-end rule demonstrates that experiences are evaluated based on peak emotional intensity and the ending.",
+      "Effective communication relies on authentic connection rather than performative behavior."
+    ],
+    "warnings": [
+      "Phone use during conversations can diminish engagement, leading to shallower topics and reduced empathy.",
+      "Inadequate listening may result in misinterpretations and failed relational connections."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0078,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 44,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Focus on emotional and experiential outcomes rather than predefined criteria.",
+      "Prioritize presence and mindfulness during interactions to assess compatibility effectively."
+    ],
+    "rules": [
+      "Use a standardized framework (like the Post-Date Eight) to evaluate emotional and relational fit.",
+      "Shift from evaluative to experiential mindset by focusing on personal feelings and reactions during interactions."
+    ],
+    "claims": [
+      "Evaluative dating (based on checklists) can limit the discovery of authentic connections.",
+      "The experiential mindset improves the ability to identify compatible partners."
+    ],
+    "warnings": [
+      "Evaluative dating may lead to missed opportunities and dissatisfaction with relationships.",
+      "Relying solely on predefined criteria can overlook genuine emotional connections."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0158,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 45,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Attraction evolves through repeated exposure and familiarity."
+    ],
+    "rules": [
+      "Do not base relationship decisions solely on initial chemistry.",
+      "Allow sufficient time for feelings to develop before committing."
+    ],
+    "claims": [
+      "Initial chemistry assessments are unreliable predictors of long-term compatibility.",
+      "Familiarity increases attraction and liking over time."
+    ],
+    "warnings": [
+      "Obsession with the spark can lead to overlooking compatible partners.",
+      "Misjudging potential partners early can result in missed opportunities."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0104,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 46,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Over time, relationships shift from surface-level judgments to deeper emotional connections based on familiarity."
+    ],
+    "rules": [
+      "Take time to develop intimacy and understand each other's preferences in a relationship.",
+      "Communicate openly about differences to maintain compatibility."
+    ],
+    "claims": [
+      "Initial impressions are heavily influenced by physical appearance."
+    ],
+    "warnings": [
+      "Relying solely on initial attraction without addressing incompatibilities can lead to relationship dissatisfaction.",
+      "Ignoring warning signs such as unaddressed differences may result in disputes and breakdown."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0079,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 47,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "timing"
+    ],
+    "principles": [
+      "Focus on core relationship qualities like loyalty and kindness rather than initial attraction.",
+      "Long-term happiness in relationships depends on factors beyond immediate chemistry."
+    ],
+    "rules": [
+      "Avoid making relationship decisions based solely on initial spark or excitement.",
+      "Prioritize compatibility and enduring values over short-term chemistry."
+    ],
+    "claims": [
+      "The slow burn approach can lead to deep, lasting love.",
+      "Relationships can be successful without a strong initial spark."
+    ],
+    "warnings": [
+      "Relying on initial attraction may result in pursuing unsuitable partners.",
+      "Absence of initial spark does not predict relationship failure, nor does its presence guarantee success."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0256,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 48,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Relationships develop gradually through sustained interaction."
+    ],
+    "rules": [
+      "Prioritize long-term compatibility over immediate attraction.",
+      "Assess relationship viability based on clear communication and contextual factors."
+    ],
+    "claims": [
+      "Initial attraction does not guarantee relationship success.",
+      "Chemical feelings in relationships can be influenced by external circumstances."
+    ],
+    "warnings": [
+      "Relying on initial chemistry can lead to unrealistic expectations and unstable partnerships."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0368,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 49,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Focus on positive aspects to enhance decision quality and overcome inherent biases.",
+      "Develop a mindset that prioritizes strengths and opportunities in interactions."
+    ],
+    "rules": [
+      "Practice daily exercises to train the mind to notice and appreciate positive traits.",
+      "Override fundamental-attribution errors by providing alternative, compassionate explanations for behavior."
+    ],
+    "claims": [
+      "Humans exhibit an innate negativity bias, favoring negative information over positive in decision-making.",
+      "Cognitive defaults can be leveraged to improve social judgments."
+    ],
+    "warnings": [
+      "Neglecting positive aspects may lead to overlooking suitable partners or opportunities.",
+      "Cognitive biases can result in poor choices if not addressed through deliberate strategies."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0053,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 50,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "optionality",
+      "strategy"
+    ],
+    "principles": [
+      "Defaults can shape decision outcomes.",
+      "Cognitive load reduction through pre-set defaults improves adherence to behavioral goals."
+    ],
+    "rules": [
+      "Set a default for participation to increase uptake.",
+      "Establish a default behavior to reduce decision fatigue and improve consistency."
+    ],
+    "claims": [
+      "Defaults can significantly alter behavior across domains.",
+      "Consistent application of a default rule can lead to measurable behavioral change."
+    ],
+    "warnings": [
+      "Over-reliance on defaults may limit growth and adaptation to changing circumstances.",
+      "Unconsidered default settings can lead to unintended outcomes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0119,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 51,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Focus on core compatibility factors rather than superficial initial impressions."
+    ],
+    "rules": [
+      "Default to pursuing at least one additional date before making a relationship decision.",
+      "Distinguish between minor preferences (pet peeves) and fundamental incompatibilities (dealbreakers) before committing."
+    ],
+    "claims": [
+      "Cognitive biases can distort initial assessments of relationship potential."
+    ],
+    "warnings": [
+      "Misclassifying preferences as dealbreakers may lead to overlooking compatible partners.",
+      "Over-reliance on first impressions can result in missed opportunities for fulfilling relationships."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0068,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 52,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Honest self-assessment is essential for personal growth and decision-making.",
+      "Early evaluation of relationships can optimize long-term outcomes based on observable behaviors."
+    ],
+    "rules": [
+      "Disengage from relationships that are disrespectful or uncomfortable to avoid wasted time.",
+      "Always communicate clearly and intentionally when ending a relationship to prevent ghosting."
+    ],
+    "claims": [
+      "Cognitive biases, such as poor affective forecasting, commonly influence relationship decisions.",
+      "Ghosting is often perceived as less hurtful than direct rejection, but actually causes more harm due to emotional limbo."
+    ],
+    "warnings": [
+      "Inaction in communication can lead to prolonged uncertainty and emotional distress for both parties.",
+      "Relying on cognitive biases may result in suboptimal relationship choices if not addressed through self-reflection."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0147,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 53,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Actions shape self-concept through honest engagement.",
+      "Proactive communication enhances positive outcomes in relationships."
+    ],
+    "rules": [
+      "Always communicate clearly and politely when ending interactions.",
+      "Be explicit about intentions to avoid misunderstandings."
+    ],
+    "claims": [
+      "Volunteering correlates with higher happiness and self-esteem.",
+      "Ghosting often leads to negative self-evaluation and regret."
+    ],
+    "warnings": [
+      "Ghosting can amplify guilt and regret through self-reflection.",
+      "Ambiguous actions may worsen emotional outcomes in social contexts."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0129,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 54,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Be proactive in expressing genuine intentions to build trust.",
+      "Focus on positive aspects to mitigate the tendency to dwell on negatives.",
+      "Evaluate behaviors by considering contextual factors rather than inherent traits."
+    ],
+    "rules": [
+      "Seek out and acknowledge others' best qualities before offering unsolicited criticism.",
+      "Keep interactions concise unless necessary for clarity.",
+      "Distinguish between minor issues and dealbreakers when assessing compatibility.",
+      "Commit to pursuing relationships further, such as a second date, by default."
+    ],
+    "claims": [
+      "Humans naturally exhibit a negativity bias, favoring negative experiences over positive ones.",
+      "People commonly make the fundamental attribution error, assuming behaviors reflect character rather than circumstances."
+    ],
+    "warnings": [
+      "Ghosting can cause emotional harm and damage relationships.",
+      "Lack of patience or consideration in communication may lead to failed outcomes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0403,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 55,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Conscious decision-making enhances outcomes in relationships.",
+      "Pausing to reflect during transitions improves long-term results."
+    ],
+    "rules": [
+      "Identify relationship milestones and make deliberate choices.",
+      "Involve partners in defining relationship stages to ensure alignment."
+    ],
+    "claims": [
+      "Conscious progression through relationship stages leads to higher-quality outcomes."
+    ],
+    "warnings": [
+      "Failing to consciously engage in relationship transitions increases the risk of dissolution."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0095,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 56,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "timing"
+    ],
+    "principles": [
+      "Clear communication is essential for building trust in relationships."
+    ],
+    "rules": [
+      "Define the relationship before assuming exclusivity to avoid misunderstandings.",
+      "Discuss future intentions proactively to align expectations."
+    ],
+    "claims": [
+      "Unclear relationship boundaries can lead to misunderstandings and personal discomfort."
+    ],
+    "warnings": [
+      "Assuming exclusivity without explicit agreement can lead to emotional distress.",
+      "Inaction regarding relationship clarity can result in misaligned expectations and potential conflict."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0165,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 57,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "timing"
+    ],
+    "principles": [
+      "Act when prepared for important decisions rather than delaying indefinitely.",
+      "Acknowledge personal feelings to encourage empathetic communication in discussions."
+    ],
+    "rules": [
+      "Conduct critical conversations face-to-face to ensure clarity and empathy.",
+      "Define clear objectives before initiating sensitive talks to guide the discussion.",
+      "Respect the other person's responses and inputs to maintain positive relationship dynamics."
+    ],
+    "claims": [
+      "Properly managing relationship decisions influences future relationship outcomes."
+    ],
+    "warnings": [
+      "Anticipate that outcomes may not align with expectations in interpersonal decisions.",
+      "Failing to respect the other person's perspective can lead to relational complications."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0123,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 58,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Commitment in relationships requires careful evaluation to avoid negative outcomes.",
+      "Shared living arrangements can influence the trajectory of relationships if not approached strategically."
+    ],
+    "rules": [
+      "Delay major life decisions like cohabitation until comprehensive relationship readiness is assessed.",
+      "Consider long-term compatibility and goals before entering into shared living arrangements."
+    ],
+    "claims": [
+      "Cohabitation before marriage is associated with higher rates of dissatisfaction and divorce.",
+      "Shared living can lead to entanglements that complicate relationship dissolution."
+    ],
+    "warnings": [
+      "Underestimating the risks of cohabitation may result in failed relationships and increased conflict.",
+      "Rushing into shared living without full commitment can lead to regrettable outcomes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0211,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 59,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Ensure alignment on relationship goals before committing to significant changes.",
+      "Be aware of cognitive biases that can distort decision-making processes."
+    ],
+    "rules": [
+      "Have intentional discussions about future plans and expectations before making major life adjustments.",
+      "Discuss strategic and emotional aspects of a decision, not just logistical details."
+    ],
+    "claims": [
+      "Deciding to move in together increases the likelihood of a happy marriage compared to gradual approaches."
+    ],
+    "warnings": [
+      "Failing to address biases can lead to poor relationship outcomes and increased risk of conflict.",
+      "Misalignment in expectations can result in negative consequences after committing to shared living."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0064,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 60,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Deliberate decision-making at key points improves relationship outcomes by promoting careful reflection.",
+      "Intentional transitions in relationships lead to better long-term health and alignment."
+    ],
+    "rules": [
+      "Explicitly define relationship status before assuming it to avoid misaligned expectations.",
+      "Communicate thoroughly before major relationship milestones like cohabitation to ensure mutual understanding."
+    ],
+    "claims": [
+      "Couples who intentionally decide on relationship transitions tend to experience healthier dynamics.",
+      "Assumptions about relationship status can lead to misalignment if not clarified."
+    ],
+    "warnings": [
+      "Failing to communicate relationship boundaries may result in future conflicts or dissatisfaction.",
+      "Major relationship changes without clear discussion increase the risk of unintended negative outcomes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0253,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 61,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology"
+    ],
+    "principles": [
+      "Conscious decision-making is essential for navigating relationship dynamics"
+    ],
+    "rules": [
+      "Relationships should be periodically evaluated to avoid stagnation or premature dissolution"
+    ],
+    "claims": [
+      "Cognitive biases can significantly influence judgments about relationship satisfaction"
+    ],
+    "warnings": [
+      "Decisions about relationship longevity may be complex and require careful consideration of all variables"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0065,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 62,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "constraints",
+      "psychology"
+    ],
+    "principles": [
+      "Commitment requires patience to achieve long-term fulfillment",
+      "Initial excitement fades, requiring adaptation to sustained relationships"
+    ],
+    "rules": [
+      "Send weekly appreciations to maintain relationship satisfaction",
+      "Apply the Wardrobe Test before making relationship decisions",
+      "Assess relationship value against opportunity costs before acting"
+    ],
+    "claims": [
+      "The transition rule causes misjudgment of relationship longevity",
+      "The Wardrobe Test effectively reveals subconscious relationship dissatisfaction"
+    ],
+    "warnings": [
+      "Short-term focus in relationships leads to missed opportunities",
+      "Cognitive biases can distort satisfaction assessments in long-term commitments"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0055,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 63,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology"
+    ],
+    "principles": [
+      "Continuing an endeavor due to past investment is irrational.",
+      "Losses are psychologically weighted more heavily than equivalent gains."
+    ],
+    "rules": [
+      "Terminate involvement if initial conditions are not met.",
+      "Evaluate relationships using specific criteria (e.g., Wardrobe Test)."
+    ],
+    "claims": [
+      "Losses have twice the psychological impact of equivalent gains."
+    ],
+    "warnings": [
+      "Delaying exit decisions increases cumulative opportunity costs.",
+      "Underestimating partner's opportunity costs prolongs negative outcomes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0063,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 64,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Evaluate behavior in context, considering temporary factors rather than permanent character.",
+      "All individuals have imperfections and are subject to change over time."
+    ],
+    "rules": [
+      "Address issues through open communication before making irreversible decisions.",
+      "Allow for feedback and improvement opportunities before concluding problems."
+    ],
+    "claims": [
+      "Human beings are not flawless and exhibit flaws in various situations."
+    ],
+    "warnings": [
+      "Misinterpreting temporary behavior as indicative of long-term issues can lead to unnecessary conflict.",
+      "Overreacting to minor irritations may escalate relationship problems if not addressed properly."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0191,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 65,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Relationships evolve through predictable phases, and individuals must adapt to changing dynamics.",
+      "Commitment involves continuous personal effort and growth within partnerships."
+    ],
+    "rules": [
+      "Seek impartial external feedback when uncertain about a relationship's future.",
+      "Maintain confidentiality with advisors to encourage honest and open communication."
+    ],
+    "claims": [
+      "Early relationship stages are often driven by neurochemical factors that create infatuation."
+    ],
+    "warnings": [
+      "Ignoring external perspectives can lead to flawed decisions about relationship longevity.",
+      "Forcing advice discussions may impede the process of gaining valuable insights."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0095,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 66,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Relationship satisfaction fluctuates naturally over time.",
+      "Self-actualization enhances relational capacity by fostering personal completeness."
+    ],
+    "rules": [
+      "Revisit core relationship questions before deciding to leave.",
+      "Prioritize personal growth and self-focus before expecting relationship fulfillment.",
+      "Consider couples therapy as a viable option when facing relationship challenges."
+    ],
+    "claims": [
+      "Couples therapy has been validated to improve relationship outcomes.",
+      "Relationships experience periodic dips in satisfaction due to external demands."
+    ],
+    "warnings": [
+      "Ignoring personal depletion can hinder one's ability to invest in relationships.",
+      "Premature relationship endings may miss opportunities for improvement."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0061,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 67,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "strategy"
+    ],
+    "principles": [
+      "Decisiveness vs. Persistence: Balance the need to act decisively with the need to persist in worthwhile endeavors."
+    ],
+    "rules": [
+      "Decision Criterion: Evaluate a relationship by assessing if it has been given a fair chance against historical tendencies.",
+      "Seek External Input: Consult a trusted individual to inform relationship decisions."
+    ],
+    "claims": [
+      "Opportunity Cost: Ending a relationship early may prevent learning how to make it work.",
+      "Forgoing Satisfaction: Staying in relationships too long may prevent finding more satisfying partnerships."
+    ],
+    "warnings": [
+      "Cognitive Bias: The sunk-cost fallacy (continuing due to prior investment) can trap relationships.",
+      "Loss Aversion: Fear of loss may prevent ending relationships that no longer meet needs."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0383,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 68,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Act decisively during peak motivation to overcome resistance to difficult actions.",
+      "Planning serves as a foundation for maintaining resolve through changing circumstances."
+    ],
+    "rules": [
+      "Formally articulate reasons for ending a relationship before acting.",
+      "Breakup planning should include anticipating logistical challenges post-separation."
+    ],
+    "claims": [
+      "Structured planning significantly increases the likelihood of successfully implementing relationship-ending actions."
+    ],
+    "warnings": [
+      "Declining motivation post-decision may lead to regret if proper planning is not executed."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0086,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 69,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "strategy",
+      "timing"
+    ],
+    "principles": [
+      "Reflect deeply on major life decisions to ensure alignment with personal values and reduce regret.",
+      "Break down large goals into specific, actionable steps to increase the likelihood of successful outcomes."
+    ],
+    "rules": [
+      "Set short deadlines (e.g., within two weeks) for completing important tasks to maintain motivation and prevent procrastination.",
+      "Choose private, calm settings for sensitive conversations to minimize external disruptions and promote effective communication.",
+      "Be direct and compassionate in your delivery to avoid misunderstandings and maintain positive relationships."
+    ],
+    "claims": [
+      "Cognitive biases, such as the narrative fallacy, can distort how individuals perceive and focus on specific causes for events.",
+      "Planning specific actions, like setting deadlines or outlining conversation steps, enhances adherence and improves overall effectiveness."
+    ],
+    "warnings": [
+      "Delaying major decisions may lead to prolonged emotional distress or increased likelihood of regret.",
+      "Providing unsolicited reasons for decisions can create unnecessary obsession and focus in others, potentially hindering recovery or adaptation.",
+      "Breaking up during high-stress periods for the other person may result in unfair outcomes and slower emotional healing."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0049,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 70,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Emotional preparation enhances communication effectiveness by fostering empathy and reducing impulsive responses."
+    ],
+    "rules": [
+      "Establish a social accountability system by involving a trusted individual to hold you responsible for meeting deadlines and commitments."
+    ],
+    "claims": [
+      "Breakup sex can introduce confusing emotions and complicate the recovery process."
+    ],
+    "warnings": [
+      "High-stress situations during conversations can impair decision-making and listening abilities."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0069,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 71,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "power",
+      "strategy"
+    ],
+    "principles": [
+      "Proactive planning mitigates future regret."
+    ],
+    "rules": [
+      "Use precommitment devices to resist immediate temptations.",
+      "Formally document commitments to increase responsibility."
+    ],
+    "claims": [
+      "Structured agreements enhance relationship dissolution outcomes."
+    ],
+    "warnings": [
+      "Inadequate planning increases the likelihood of emotional setbacks.",
+      "Unclear commitments may lead to passive decision-making."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0058,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 72,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "constraints",
+      "optionality"
+    ],
+    "principles": [
+      "Replacing established habits with new activities is a fundamental strategy for personal adaptation."
+    ],
+    "rules": [
+      "Identify challenging situations and replace associated habits with positive alternatives."
+    ],
+    "claims": [
+      "Specific, tailored strategies can effectively replace difficult habits following a breakup."
+    ],
+    "warnings": [
+      "Failure to replace established habits may lead to backsliding during the recovery process."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0131,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 73,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "psychology",
+      "timing"
+    ],
+    "principles": [
+      "Manage emotional distress through external accountability and delayed gratification.",
+      "Focus long-term goals over immediate emotional relief during transitions"
+    ],
+    "rules": [
+      "Use an external accountability system to maintain commitment to change.",
+      "Delay emotional check-ins to avoid prolonging others' pain.",
+      "Structure post-transition activities to support others' adaptation"
+    ],
+    "claims": [
+      "Effective transitions require structured planning and execution.",
+      "Accountability systems improve behavioral consistency during emotional transitions"
+    ],
+    "warnings": [
+      "Over-apologizing or constant contact impedes others' recovery process.",
+      "Premature emotional check-ins increase regret for initiated transitions"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0188,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 74,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Reframing setbacks as opportunities can improve decision outcomes."
+    ],
+    "rules": [
+      "Evaluate situations by considering multiple perspectives to avoid bias.",
+      "Reframe negative experiences as potential gains to foster resilience."
+    ],
+    "claims": [
+      "Framing effect is a cognitive bias that alters how decisions are perceived and made."
+    ],
+    "warnings": [
+      "Over-reliance on default framing can lead to suboptimal choices and missed opportunities.",
+      "Neglecting alternative perspectives may result in biased decision-making."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0245,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 75,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology"
+    ],
+    "principles": [
+      "Reframing situations can fundamentally alter emotional responses and outcomes."
+    ],
+    "rules": [
+      "Overcoming adversity requires shifting focus from loss to potential gain.",
+      "Act with patience to navigate emotional recovery effectively."
+    ],
+    "claims": [
+      "The brain responds to emotional loss similarly to physical withdrawal."
+    ],
+    "warnings": [
+      "Heartbreak can cause significant physical and emotional distress.",
+      "Lack of perspective adjustment may prolong recovery periods."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0157,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 76,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology"
+    ],
+    "principles": [
+      "Anticipated losses are often magnified, leading to disproportionate fear of negative outcomes.",
+      "Cognitive processes are crucial for emotional recovery and rationalizing experiences."
+    ],
+    "rules": [
+      "Actively reframe negative thoughts by focusing on positive aspects to accelerate healing.",
+      "Employ structured writing exercises to gain perspective on challenging life events."
+    ],
+    "claims": [
+      "Breakups are linked to increased cortisol levels, which can impair cognitive and physical functions.",
+      "A significant portion of individuals perceive breakups less negatively than initially expected."
+    ],
+    "warnings": [
+      "Failure to address emotional responses can lead to prolonged distress and impaired decision-making.",
+      "Neglecting cognitive reframing may result in heightened anxiety and reduced coping effectiveness."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0073,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 77,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Reframe losses by focusing on opportunities for personal growth and identity renewal.",
+      "Engage in routine self-improvement to facilitate adaptation and reduce maladaptive coping."
+    ],
+    "rules": [
+      "Participate in activities that were previously sacrificed due to the relationship to rebuild identity.",
+      "Allocate sufficient time for reflection before initiating new relationships to avoid repeating patterns."
+    ],
+    "claims": [
+      "Rediscover activities enhance emotional well-being by restoring a sense of self and reducing loneliness.",
+      "Breakups follow a grieving timeline influenced by whether the individual initiated the separation."
+    ],
+    "warnings": [
+      "Rushing into rebound relationships may not worsen outcomes but can lead to decreased self-esteem if not reflective.",
+      "Failing to learn from past relationships can result in perpetuating unhealthy patterns and unfulfilled expectations."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0075,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 78,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "optionality",
+      "psychology"
+    ],
+    "principles": [
+      "Reframing negative experiences as opportunities for growth",
+      "Focusing on lessons learned to improve future outcomes"
+    ],
+    "rules": [
+      "Actively reflect on past relationships to identify areas for improvement",
+      "Reframe relationship endings as strategic opportunities rather than losses"
+    ],
+    "claims": [
+      "Meaning-making can transform suffering into growth",
+      "Heartbreak can be reframed as an opportunity for enhancement"
+    ],
+    "warnings": [
+      "Emotional pain during a breakup is temporary",
+      "Unprocessed relationship endings can hinder future growth"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0128,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 79,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "timing"
+    ],
+    "principles": [
+      "Emotional infatuation can impair rational decision-making in relationships.",
+      "Thorough self-reflection and evaluation of compatibility are essential for long-term relationship success."
+    ],
+    "rules": [
+      "Delay marriage decisions by waiting at least one to two years to allow for open assessment of compatibility.",
+      "Complete pre-marriage questionnaires and discussions before finalizing commitment."
+    ],
+    "claims": [
+      "Marriage positively influences happiness, health, and financial outcomes.",
+      "Delayed marriage is associated with lower divorce rates due to better compatibility evaluation."
+    ],
+    "warnings": [
+      "Relying solely on love may lead to overlooking fundamental incompatibilities in a partner.",
+      "Assuming shared values without explicit discussion can increase the risk of relationship failure."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0062,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 80,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "timing"
+    ],
+    "principles": [
+      "Self-reflection enhances decision-making by clarifying personal values and emotions",
+      "Curiosity in communication fosters alignment between partners' desires"
+    ],
+    "rules": [
+      "Allocate sufficient, spaced-out time for relationship discussions to avoid rushed conclusions",
+      "Delay major relationship milestones to allow for thorough evaluation and reduce risks"
+    ],
+    "claims": [
+      "Delaying significant relationship decisions by a defined period decreases the likelihood of negative outcomes"
+    ],
+    "warnings": [
+      "Inadequate self-reflection may lead to poor relationship decisions and regret",
+      "Rushing into commitments without proper preparation can increase the risk of conflict and failure"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0103,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 81,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "optionality",
+      "strategy"
+    ],
+    "principles": [
+      "Open communication builds trust and understanding in relationships.",
+      "Commitment is strengthened by aligning on future goals and expectations."
+    ],
+    "rules": [
+      "Discuss key life aspects like finances, children, and values before major commitments.",
+      "Engage in structured self-reflection to verify shared perspectives and preferences."
+    ],
+    "claims": [
+      "The false-consensus effect is a cognitive bias where individuals assume others share their viewpoints."
+    ],
+    "warnings": [
+      "Assuming similarities without discussion can lead to relationship conflicts and dissatisfaction.",
+      "Unaddressed differences in future preferences may result in relationship failure."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0063,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 82,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "constraints",
+      "optionality"
+    ],
+    "principles": [
+      "Long-term success requires consistent effort and commitment beyond initial stages.",
+      "Relationships evolve and require ongoing adaptation to maintain satisfaction."
+    ],
+    "rules": [
+      "Actively invest in the relationship to counteract natural declines in satisfaction.",
+      "Assume that relationships require continuous work unless explicitly maintained."
+    ],
+    "claims": [
+      "Long-term relationship satisfaction requires sustained effort and proactive engagement.",
+      "Statistical data indicates a decline in long-term relationship satisfaction over decades."
+    ],
+    "warnings": [
+      "Neglecting the relationship over time can lead to decreased satisfaction and eventual failure.",
+      "Relying solely on finding a partner ignores the ongoing work required for relationship longevity."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0421,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 83,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "conflict",
+      "risk"
+    ],
+    "principles": [
+      "Long-term success depends on adaptability to change.",
+      "Continuous growth and evolution are inherent to systems and relationships."
+    ],
+    "rules": [
+      "Treat relationships as dynamic entities that require ongoing attention, not static institutions.",
+      "Regularly assess and adapt to changing circumstances within relationships."
+    ],
+    "claims": [
+      "Human beings continue to grow and change throughout their lives.",
+      "The core aspects of identity are subject to change over time."
+    ],
+    "warnings": [
+      "Failing to adapt to change in relationships can lead to failure.",
+      "Treating relationships as static entities ignores their inherent dynamic nature."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.018,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 84,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "optionality",
+      "strategy"
+    ],
+    "principles": [
+      "Proactive planning is essential for long-term success.",
+      "Small, deliberate actions are more effective than passive agreements."
+    ],
+    "rules": [
+      "Formalize agreements in writing to enhance commitment.",
+      "Regularly review and update agreements to ensure relevance."
+    ],
+    "claims": [
+      "Partnerships must evolve with change."
+    ],
+    "warnings": [
+      "Neglecting proactive maintenance leads to relationship failure.",
+      "Inaction increases the risk of relationship breakdown."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0196,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 85,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "timing"
+    ],
+    "principles": [
+      "Consistent communication fosters relationship growth and understanding.",
+      "Structured agreements help clarify shared values and goals in relationships."
+    ],
+    "rules": [
+      "Schedule regular reviews of relationship contracts to adapt to changing needs.",
+      "Engage in weekly check-in discussions to maintain open communication.",
+      "Be honest, vulnerable, and value-focused when creating relationship agreements."
+    ],
+    "claims": [
+      "Couples who discuss major decisions openly experience higher relationship satisfaction.",
+      "Regular feedback mechanisms improve the quality and resilience of relationships."
+    ],
+    "warnings": [
+      "Unaddressed conflicts can lead to resentment and potential relationship breakdown.",
+      "Neglecting ongoing relationship maintenance increases the risk of unresolved issues."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0098,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 86,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Proactive communication and shared intentionality are foundational to sustaining meaningful relationships.",
+      "Relationships evolve through intentional effort and mutual understanding."
+    ],
+    "rules": [
+      "Establish recurring communication rituals (e.g., weekly check-ins) to maintain alignment.",
+      "Define expectations and boundaries through collaborative agreements (e.g., relationship contracts)."
+    ],
+    "claims": [
+      "Long-term relationship happiness is achievable through deliberate design and maintenance.",
+      "Individuals can intentionally shape their relationships to align with personal growth and fulfillment."
+    ],
+    "warnings": [
+      "Neglecting intentional relationship practices may lead to misalignment and eventual dissolution.",
+      "Failing to adapt to evolving needs can strain partnerships over time."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0089,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 87,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Collaboration with trusted individuals enhances outcomes",
+      "Relationship dynamics influence decision effectiveness"
+    ],
+    "rules": [
+      "Seek diverse perspectives before finalizing major decisions",
+      "Validate ideas through multiple viewpoints to mitigate bias"
+    ],
+    "claims": [
+      "Mentorship provides foundational knowledge in behavioral science",
+      "Accountability practices shape professional development"
+    ],
+    "warnings": [
+      "Unclear communication leads to suboptimal results",
+      "Insufficient feedback delays project refinement"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0098,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 88,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Define clear objectives and core messages to guide effective communication.",
+      "Understand diverse emotional needs to build stronger relationships."
+    ],
+    "rules": [
+      "Always prepare an opening and closing for conversations to structure dialogue.",
+      "Practice active listening to ensure mutual understanding during interactions."
+    ],
+    "claims": [
+      "Relationships can be enhanced through planned communication and self-reflection."
+    ],
+    "warnings": [
+      "Unclear communication may lead to misunderstandings and unresolved conflicts.",
+      "Failure to address concerns about reactions can worsen relationship dynamics."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.011,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 89,
+    "chapter_title": null,
+    "domains": [
+      "Conflict Resolution",
+      "Relationship Dynamics & Communication",
+      "Stress Management",
+      "Time Management & Scheduling"
+    ],
+    "principles": [
+      "Responding to partner's emotional needs by acknowledging bids (Principle of Bid Responsiveness).",
+      "Continuous effort and commitment are essential for maintaining a healthy relationship (Principle of Relational Investment).",
+      "Effective communication is fundamental to relationship satisfaction and longevity (Principle of Communicative Effectiveness)."
+    ],
+    "rules": [
+      "Partners must actively 'turn toward' their partner's emotional bids at least 86% of the time (Bid Responsiveness Rule).",
+      "Schedule and maintain regular one-on-one time together (Minimum Weekly Contact Rule).",
+      "Schedule and maintain regular shared rituals (Ritual Scheduling Rule).",
+      "Schedule and maintain specific special activities (Special Activity Scheduling Rule).",
+      "Acknowledge and accommodate partner's needs for solo time (Solo Time Accommodation Rule).",
+      "Follow specific strategies to handle stress and provide support during stressful times (Stress Management Protocol).",
+      "Specifically address conflict using strategies to avoid the Four Horsemen (Conflict Resolution Rule).",
+      "Maintain a specific approach to friends and family (Friendship/Family Integration Rule)."
+    ],
+    "claims": [
+      "Adherence to bid responsiveness rules significantly increases relationship trust, passion, and satisfaction.",
+      "Consistent scheduling of one-on-one time and shared rituals strengthens the relationship.",
+      "Regularly acknowledging and meeting partner's needs for solo time enhances well-being and relationship quality.",
+      "Following specific stress management protocols leads to better coping and relationship outcomes.",
+      "Successfully avoiding the Four Horsemen prevents relationship deterioration and breakup.",
+      "Commitment to specific principles and rules leads to a fulfilling and lasting relationship."
+    ],
+    "warnings": [
+      "Failure to respond appropriately to emotional bids can lead to misunderstandings, resentment, and decreased relationship satisfaction.",
+      "Insufficient scheduling of dedicated one-on-one time may lead to feelings of neglect and relationship strain.",
+      "Failure to maintain scheduled rituals may result in a lack of shared experiences and connection.",
+      "Neglecting special activities can diminish shared joy and commitment.",
+      "Inadequate attention to solo time needs can cause stress and conflict.",
+      "Ineffective stress management can impact individual well-being and relationship dynamics.",
+      "Allowing the Four Horsemen to dominate conflict can lead to unresolved issues, resentment, and potential breakup.",
+      "Failure to follow established principles and rules may compromise the overall health of the relationship."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0262,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 90,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "conflict",
+      "strategy"
+    ],
+    "principles": [
+      "Effective communication requires acknowledging feedback and perspectives.",
+      "Commitment to a relationship involves ongoing effort and adaptability."
+    ],
+    "rules": [
+      "Take breaks during conflicts to manage emotional flooding.",
+      "Adhere to regular reviews of relationship commitments.",
+      "Follow a structured approach to managing intimacy (e.g., Dan Savage's GGG policy).",
+      "Set clear expectations for communication methods."
+    ],
+    "claims": [
+      "Sex is an important aspect of the relationship.",
+      "Relationships require ongoing effort and flexibility.",
+      "A minimum frequency of intimacy should be maintained."
+    ],
+    "warnings": [
+      "Failing to address conflicts promptly may lead to escalation.",
+      "Emotional flooding can hinder productive communication.",
+      "Unmet needs or shifting priorities may strain the relationship."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0517,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 91,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "executor"
+    ],
+    "principles": [
+      "Structured processes build reliability"
+    ],
+    "rules": [
+      "Always follow instructions precisely",
+      "Execute tasks according to specified timelines"
+    ],
+    "claims": [
+      "Timely execution improves outcomes"
+    ],
+    "warnings": [
+      "Failure to adhere to deadlines may lead to negative consequences"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 1.6667,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 92,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Deep understanding of human behavior is fundamental to successful relationships"
+    ],
+    "rules": [
+      "Base relationship advice on empirical data and behavioral insights"
+    ],
+    "claims": [
+      "Behavioral science expertise can lead to effective relationship management"
+    ],
+    "warnings": [
+      "Ignoring evidence-based approaches may result in relationship failures"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0286,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 93,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "optionality",
+      "registry"
+    ],
+    "principles": [
+      "Respect user data privacy"
+    ],
+    "rules": [
+      "Use collected data to personalize offers"
+    ],
+    "claims": [
+      "Email marketing drives engagement"
+    ],
+    "warnings": [
+      "Be mindful of data privacy implications"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0482,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 94,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "strategy",
+      "technology"
+    ],
+    "principles": [
+      "User-centric design is key to success"
+    ],
+    "rules": [
+      "Focus on core user needs when developing products"
+    ],
+    "claims": [
+      "Technological innovation enhances user experience"
+    ],
+    "warnings": [],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.1071,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 95,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Abundance of options complicates commitment and reduces relationship satisfaction.",
+      "Decision-making requires focus to avoid overwhelm and ensure quality outcomes."
+    ],
+    "rules": [
+      "Limit choices when seeking long-term commitment to foster decisiveness.",
+      "Prioritize depth over breadth in relationship formation."
+    ],
+    "claims": [
+      "Increased dating options correlate with higher rates of divorce and relationship dissatisfaction.",
+      "More than 50% of marriages face significant challenges requiring intervention.",
+      "Dating apps emerged in the 1990s as a technological innovation in mate selection."
+    ],
+    "warnings": [
+      "Excessive choice delays relationship commitment and increases the likelihood of regret.",
+      "Over-reliance on quantity in dating reduces the quality of potential partners.",
+      "The pursuit of perfect matches through abundance creates psychological distress."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0345,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 96,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Relationship outcomes depend on evolving beliefs and contextual understanding.",
+      "Historical perspectives shape effective strategies for interpersonal dynamics."
+    ],
+    "rules": [
+      "Base advice on comprehensive historical and psychological analysis before implementation.",
+      "Continuously adapt relationship models based on empirical evidence and changing norms."
+    ],
+    "claims": [
+      "Romanticism has altered traditional relationship structures and expectations.",
+      "Implicit theories significantly influence relationship longevity and satisfaction."
+    ],
+    "warnings": [
+      "Ignoring historical context may lead to misguided relationship interventions.",
+      "Failing to adapt to evolving relationship theories can result in increased conflict and dissatisfaction."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0494,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 97,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Effective decision-making requires balancing thorough analysis with timely action.",
+      "Commitment to a decision is essential for effective action and progress."
+    ],
+    "rules": [
+      "Act decisively after committing to a choice.",
+      "Evaluate options based on opportunity costs and potential outcomes."
+    ],
+    "claims": [
+      "Maximizers tend to be happier when highly motivated.",
+      "Satisficing can be an effective decision strategy in certain contexts."
+    ],
+    "warnings": [
+      "Over-analysis may lead to missed opportunities.",
+      "Inaction due to indecision can hinder progress."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0556,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 98,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "optionality"
+    ],
+    "principles": [
+      "Decisions should be made with full awareness of their consequences and the value of alternative opportunities.",
+      "Commitment helps reduce cognitive load and aids in decision-making by narrowing focus."
+    ],
+    "rules": [
+      "Always calculate the opportunity cost before committing to a decision.",
+      "Set clear performance goals to increase effort and commitment.",
+      "Break down large decisions into smaller, manageable parts to avoid decision fatigue."
+    ],
+    "claims": [
+      "Procrastination occurs when the perceived benefits of delaying outweigh the immediate costs.",
+      "Decision-making is improved by reducing the number of active options through commitment."
+    ],
+    "warnings": [
+      "Failing to commit leads to decision paralysis and missed opportunities.",
+      "Ignoring the psychological burden of multiple options can result in regret and reduced satisfaction."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0252,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 99,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "optionality",
+      "psychology"
+    ],
+    "principles": [
+      "Self-awareness is foundational to effective relationship strategies.",
+      "Understanding psychological frameworks enhances relational navigation."
+    ],
+    "rules": [
+      "Assess attachment style before entering significant relationship decisions.",
+      "Evaluate communication patterns against attachment theory to improve outcomes."
+    ],
+    "claims": [
+      "Understanding adult attachment theory directly improves relationship longevity and satisfaction.",
+      "Psychological models provide measurable criteria for interpersonal effectiveness."
+    ],
+    "warnings": [
+      "Neglecting attachment dynamics leads to recurring relational conflicts.",
+      "Inaccurate self-perception in relationships creates predictable communication breakdowns."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.1053,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 100,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Focus on long-term compatibility and shared values when forming relationships, rather than immediate attractions.",
+      "Understand that emotional regulation and shared experiences contribute to relationship satisfaction."
+    ],
+    "rules": [
+      "Prioritize emotional connection and shared experiences over surface-level traits when selecting a partner.",
+      "Reframe relationship needs to avoid the 'M&M problem' of overestimating what matters."
+    ],
+    "claims": [
+      "Attractive individuals are initially preferred, but this effect diminishes over time.",
+      "Financial satisfaction in marriage depends on shared experiences, not individual income."
+    ],
+    "warnings": [
+      "Misjudging long-term happiness based on short-term gains (e.g., financial status) can lead to dissatisfaction.",
+      "Excessive choice in relationships may increase dissatisfaction due to comparison and unmet expectations."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0058,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 101,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Commitment to goals enhances persistence and success in achieving objectives."
+    ],
+    "rules": [
+      "Establish clear deadlines to improve task motivation and completion."
+    ],
+    "claims": [
+      "Digital interactions reveal patterns that influence real-world social behaviors."
+    ],
+    "warnings": [
+      "Prolonged isolation can negatively impact social functioning and mental well-being."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0282,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 102,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Authentic self-expression enhances relationship formation and trust.",
+      "Playful engagement improves social bonding and intrinsic motivation in interactions."
+    ],
+    "rules": [
+      "Utilize structured closeness-building procedures to foster interpersonal intimacy.",
+      "Incorporate eye contact and laughter to optimize cognitive and emotional connections during dates."
+    ],
+    "claims": [
+      "Self-disclosure increases liking and satisfaction in relationships.",
+      "Laughter releases endogenous opioids that promote trust and bonding."
+    ],
+    "warnings": [
+      "Neglecting the emotional peak-end of an interaction can lead to misremembered experiences.",
+      "Inadequate eye contact may disrupt cognitive control and hinder relationship development."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.014,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 103,
+    "chapter_title": null,
+    "domains": [
+      "psychology"
+    ],
+    "principles": [
+      "Attraction can develop through gradual exposure and familiarity.",
+      "Relationships are influenced by a balance of shared values and individual differences."
+    ],
+    "rules": [
+      "Take time to build familiarity before making relationship commitments.",
+      "Assess potential partners through repeated interactions to determine compatibility."
+    ],
+    "claims": [
+      "Mate selection involves both consensus-based evaluations and personal uniqueness factors."
+    ],
+    "warnings": [
+      "Inadequate assessment of relational dynamics can lead to relationship failures."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0714,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 104,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Perception is shaped by cognitive biases, such as negativity bias and fundamental attribution error.",
+      "Human behavior is influenced by brain's natural tendencies and defaults."
+    ],
+    "rules": [
+      "Seek positive information to counterbalance negative biases.",
+      "Define clear stopping points to avoid over-investing in suboptimal outcomes.",
+      "Actively look for the positives to overcome inherent biases."
+    ],
+    "claims": [
+      "Volunteering improves health and longevity.",
+      "Defaults significantly influence decision-making and outcomes."
+    ],
+    "warnings": [
+      "Misjudging others due to cognitive biases can lead to conflict and missed opportunities.",
+      "Over-reliance on defaults may prevent optimal choices."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.036,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 105,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "power",
+      "risk"
+    ],
+    "principles": [
+      "Commitment and deliberate decision-making are foundational to relationship quality.",
+      "Operational success requires proactive engagement rather than passive drift."
+    ],
+    "rules": [
+      "Make clear, intentional decisions about commitment before passive adaptation.",
+      "Evaluate incompatibilities before they become relationship-ending constraints."
+    ],
+    "claims": [
+      "Deliberate commitment correlates with relationship longevity and fidelity.",
+      "Status quo bias in relationships can lead to suboptimal outcomes."
+    ],
+    "warnings": [
+      "Indecisiveness in relationships increases the risk of dissolution due to unmet expectations.",
+      "Passive adaptation may create hidden incompatibilities that surface over time."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.03,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 106,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Decisions should be based on current value rather than past commitments.",
+      "Happiness is subjective and adjusts to baseline circumstances."
+    ],
+    "rules": [
+      "Do not persist in efforts based on initial losses or sunk costs.",
+      "Recalibrate expectations to avoid disappointment and foster realistic outcomes."
+    ],
+    "claims": [
+      "Human happiness adapts over time to new normal conditions.",
+      "Behavioral biases influence decision-making under uncertainty."
+    ],
+    "warnings": [
+      "Ignoring sunk costs can lead to escalating failures and wasted resources.",
+      "Lack of adaptation to changing situations may result in prolonged dissatisfaction."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0354,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 107,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Commitment serves as a foundational element for achieving long-term goals.",
+      "Planning enables effective goal pursuit and reduces decision fatigue.",
+      "Reframing challenges can transform negative experiences into positive ones."
+    ],
+    "rules": [
+      "Precommit to actions to overcome short-term temptations.",
+      "Use specific, action-oriented language when outlining plans.",
+      "Consider framing breakups as strategic gains to reduce emotional distress."
+    ],
+    "claims": [
+      "Implementation intentions significantly increase the likelihood of success.",
+      "The narrative fallacy often leads to oversimplified understanding of complex decisions.",
+      "Reframing relationship endings as strategic choices can mitigate negative psychological impacts."
+    ],
+    "warnings": [
+      "Neglecting emotional states can hinder effective decision-making.",
+      "Relying solely on anticipated outcomes may lead to misjudging emotional responses to change.",
+      "Framing biases can distort perception of losses and gains in relationships."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0137,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 108,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Use setbacks as opportunities for growth and self-improvement.",
+      "Acknowledge and mitigate cognitive biases that influence decision-making."
+    ],
+    "rules": [
+      "Take sufficient time before making significant relationship decisions.",
+      "Consider multiple factors (e.g., timing, compatibility) before committing to a long-term partnership."
+    ],
+    "claims": [
+      "Delayed marriage decisions lead to better long-term relationship outcomes.",
+      "Rapid rebounds after breakups are associated with poorer relationship quality."
+    ],
+    "warnings": [
+      "Hasty relationship decisions increase the risk of negative outcomes.",
+      "Overestimating one's own judgment can lead to suboptimal choices."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.019,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 109,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Proactive communication strengthens relationships over time",
+      "Understanding partner's emotional needs enhances connection"
+    ],
+    "rules": [
+      "Regular emotional check-ins prevent misunderstandings",
+      "Address conflicts promptly to maintain trust"
+    ],
+    "claims": [
+      "Specific communication techniques improve relationship outcomes",
+      "Intentional love practices increase long-term satisfaction"
+    ],
+    "warnings": [
+      "Neglecting emotional needs can lead to relationship breakdown",
+      "Unresolved conflicts escalate into larger problems"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0153,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  }
+]

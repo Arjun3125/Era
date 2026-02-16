@@ -1,0 +1,131 @@
+{
+  "domain": "Communication",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "d62d44c3-77a7-438a-abd9-fe3e88aa9e15",
+      "text": "Avoid Immediate Criticism of Partner's Feelings",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "018f50b5-4682-481e-8aef-175506badae7",
+      "text": "Acknowledge Processing Time for Emotional Impact",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e9b797ec-676c-4e8b-bf13-da01434b1e8e",
+      "text": "Maintain Non-Judgmental Stance During Vulnerability",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "98c60abe-0df6-4fda-a284-40714f52c0f5",
+      "text": "Persistent use of indirect language may lead to frustration and resentment.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1183d634-ef21-45bc-bd06-be9e546626dd",
+      "text": "Ambiguous requests can result in missed expectations and unfulfilled obligations.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e72d0b2c-fa68-4bfc-82c6-38f94a112c59",
+      "text": "Over-sharing or excessive speech may be inappropriate in certain contexts.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "316f6751-a76c-45db-8c47-f801b3c6b5a6",
+      "text": "Unclear or ambiguous communication can lead to misunderstanding or discomfort.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2096156e-b695-46be-a0f1-7622d786cf6c",
+      "text": "Failure to subscribe may result in missing valuable content",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e47c75c0-7ce4-4b9f-850a-ecfc921866a2",
+      "text": "Unclear subscription processes may deter community growth",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "646523fb-0d97-4586-80f6-98a29c9b9bd8",
+      "text": "Assumptions can block understanding.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a2b324e4-4940-4b0d-a8db-810219ebdc3b",
+      "text": "Lack of active listening leads to misinterpretation.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 21
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 11,
+    "last_updated": "2026-02-13T20:50:12.182684Z",
+    "aggregated_from": [
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 50
+      },
+      {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 50
+      },
+      {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 32
+      },
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 21
+      }
+    ]
+  }
+}

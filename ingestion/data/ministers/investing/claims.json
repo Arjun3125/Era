@@ -1,0 +1,47 @@
+{
+  "domain": "investing",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "296a4e7f-f144-4c0f-a979-a9fa21015441",
+      "text": "Anyone can own a home with creativity and common sense",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ed85ca39-591e-4ed0-a901-6e394e2ecbc9",
+      "text": "Financial success can be achieved through disciplined habits and planning",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a0ba0e2d-b45f-489a-9ef9-ceccbc500b0c",
+      "text": "Compound growth through disciplined saving and investing leads to financial freedom.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 5
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-14T19:55:37.051128Z",
+    "aggregated_from": [
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 5
+      }
+    ]
+  }
+}

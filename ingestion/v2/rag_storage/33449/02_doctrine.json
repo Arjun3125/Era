@@ -1,0 +1,131 @@
+[
+  {
+    "chapter_index": 1,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "constraints",
+      "strategy"
+    ],
+    "principles": [
+      "Embracing change as a tool for growth.",
+      "Understanding that change can lead to better opportunities."
+    ],
+    "rules": [
+      "Stay vigilant and anticipate changes in the environment.",
+      "Prepare thoroughly before change occurs to mitigate risks.",
+      "Adapt quickly to avoid being left behind."
+    ],
+    "claims": [
+      "Change is a critical element for navigating the modern world."
+    ],
+    "warnings": [
+      "Failure to adapt to change leads to obsolescence.",
+      "Neglecting small changes can result in significant setbacks."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0106,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 2,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "conflict",
+      "risk"
+    ],
+    "principles": [
+      "Balancing specialized and foundational education is essential for comprehensive intellectual development."
+    ],
+    "rules": [
+      "Educational institutions should prioritize core academic subjects before expanding specialized programs."
+    ],
+    "claims": [
+      "Business and management studies have become a dominant focus in higher education systems globally."
+    ],
+    "warnings": [
+      "Overemphasizing specialized fields can lead to deficiencies in fundamental knowledge, impairing long-term adaptability."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0105,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 3,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "strategy"
+    ],
+    "principles": [
+      "Integrating philosophical thinking into management enhances long-term outcomes and decision-making.",
+      "Business success should be connected to broader societal and civilizational progress."
+    ],
+    "rules": [
+      "Decision-making must consider long-term consequences beyond immediate practical problems.",
+      "Engage individuals with a philosophical perspective to enrich business strategy and execution."
+    ],
+    "claims": [
+      "Business education often neglects long-term consequences in favor of immediate practical solutions.",
+      "Corporate success requires integrating philosophical thinking to address societal challenges."
+    ],
+    "warnings": [
+      "Short-sighted growth strategies risk failure due to neglecting long-term sustainability.",
+      "Lack of philosophical engagement in business can limit innovation and societal impact."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0217,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 4,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "optionality",
+      "risk"
+    ],
+    "principles": [
+      "Anticipate change to avoid negative outcomes.",
+      "Early detection of change allows for proactive adaptation."
+    ],
+    "rules": [
+      "Monitor the environment and circumstances closely to identify potential changes.",
+      "Act swiftly on early warnings to mitigate risks.",
+      "Prepare for multiple possible futures to handle unexpected changes."
+    ],
+    "claims": [
+      "Change is an inevitable part of life and business.",
+      "Opportunities exist in adapting to change, leading to new beginnings."
+    ],
+    "warnings": [
+      "Complacency can lead to sudden failure without warning.",
+      "Ignoring early signs of change can result in significant losses or disaster.",
+      "Lack of foresight can prevent individuals and organizations from thriving in changing environments."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0083,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "domain": "Decision Making",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "7b316ef5-1a31-4ece-a31d-c1a29dc5c3d2",
+      "text": "Unclear boundaries or rigid rules may limit potential in dynamic environments.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8d5e2fcf-9f9d-4752-8331-58632834c760",
+      "text": "Debt accumulation can lead to chronic stress and limited opportunities",
+      "source": {
+        "book": "Crime",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "01a61e79-29d1-46d1-85d4-6545f2b9dd1f",
+      "text": "Procrastination due to anxiety may prevent necessary growth",
+      "source": {
+        "book": "Crime",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9dda5302-07b5-4697-a266-ef6d536da2d6",
+      "text": "Stereotypes can become increasingly inaccurate during conflicts and may require reevaluation.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 77
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "498d4489-72e8-4da9-a811-6f8f044148b5",
+      "text": "Unclear delegation or lack of established ground rules can lead to failure in negotiations or projects.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 77
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2f2db3ed-8a7b-49b0-895e-62f5cc33a0ac",
+      "text": "Overconfidence can be prevalent, particularly among high-performers in technical domains.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 81
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "78d0be3f-eef7-4d87-a74c-1a172e0a4be9",
+      "text": "Gender differences exist in how impostor syndrome affects performance and behavior (e.g., men compensate through collaboration).",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 81
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 7,
+    "last_updated": "2026-02-13T20:50:12.398529Z",
+    "aggregated_from": [
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 30
+      },
+      {
+        "book": "Crime",
+        "chapter": 2
+      },
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 77
+      },
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 81
+      }
+    ]
+  }
+}

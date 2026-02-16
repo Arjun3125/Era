@@ -1,0 +1,583 @@
+{
+  "domain": "execution",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "0029e00a-a7d8-42a1-8107-650df60579a8",
+      "text": "Schedule uninterrupted periods of low cognitive load to restore attentional resources.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "013a32e2-d71c-439f-82ac-660dc280363b",
+      "text": "Systematically test and refine deep work routines.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0efd9cb9-9ab7-4f6b-a1c1-7f6d6b368369",
+      "text": "Schedule deep work during high-concentration periods.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1acaf277-9a36-43fa-b8d9-5148390be01a",
+      "text": "Prioritize uninterrupted time for deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1fbc6862-d80a-43f8-a8d4-fcc3b281168e",
+      "text": "Structure physical and virtual spaces to encourage serendipitous interactions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2084b199-9463-4288-9818-8871271c70c4",
+      "text": "Maintain unbroken focus during deep work phases to avoid distraction.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "20ece22d-9b8b-4060-8b71-2f7ab0780490",
+      "text": "Separate environments for idea generation (collaborative hubs) and deep execution (focused spokes).",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "21a252dd-7b2b-4229-b76d-f509812383e8",
+      "text": "Establish clear boundaries during deep work sessions to prevent distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "236d7962-44e6-44d6-b8f5-921c373a7f2e",
+      "text": "Establish clear boundaries during deep work sessions to prevent distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2740f5b3-846a-4d6c-babb-c25ab132459b",
+      "text": "Prioritize execution over planning to achieve results.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2da503bf-9ee2-413b-8fa3-f13e90ce4c97",
+      "text": "Monitor lead indicators regularly to adjust actions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2f46302c-c6b8-4e1d-b602-90fb2c8f5890",
+      "text": "Balance active work with intentional periods of inactivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "386fa4f4-1dd8-468e-88a0-6a3a029a3e00",
+      "text": "Limit daily deep work sessions to avoid exceeding natural attentional capacity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3bcf7616-7ba3-48a7-af79-1eea620b81d7",
+      "text": "Systematically test and refine deep work routines.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3bd412d1-6ef6-4c1b-945c-893986475109",
+      "text": "Separate environments for idea generation (collaborative hubs) and deep execution (focused spokes).",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3c24fc8f-c379-4988-b43e-11ed3e6c7e01",
+      "text": "Define specific, ambitious goals before implementation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3ce54d4e-9a2d-4c88-8cda-9261b33a2899",
+      "text": "Balance active work with intentional periods of inactivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3d28e9d9-284d-4110-811b-e97d26d10403",
+      "text": "Foster environments that support both concentration and innovation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3eebb4b4-552f-4d17-b03e-7aeafe36b5da",
+      "text": "Allocate significant resources to signal task priority.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "41488810-6bfc-4e75-b47d-d322beb1e997",
+      "text": "Establish a consistent review cadence to maintain focus on key measures.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4c38d3cc-0eeb-464d-9fa3-e976a8c9ece7",
+      "text": "Prioritize uninterrupted time for deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "54aa6567-e66b-4e77-8e78-145aa66fa1ef",
+      "text": "Prioritize activities with low directed attention demands during downtime to facilitate recovery.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "55847f6f-590a-486a-9b35-bbeb01da40c9",
+      "text": "Prioritize activities with low directed attention demands during downtime to facilitate recovery.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5a4850ce-226a-4c26-9577-f687bfbf68eb",
+      "text": "Balance active work with intentional periods of inactivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5b45799a-4b34-49ef-a37d-e1018b15e888",
+      "text": "Leverage unconscious processing for complex tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5c8f0330-9aa8-4808-8a44-ae715985df0d",
+      "text": "Leverage unconscious processing for complex tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5cd4bb54-f13d-4e83-bdf0-03756a2701d0",
+      "text": "Build confidence through incremental practice of deep work techniques.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "63235e07-03c3-4027-9f92-e571996e4f27",
+      "text": "Separate environments for idea generation (collaborative hubs) and deep execution (focused spokes).",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6374887d-45f1-4584-9186-0cfef98fed2b",
+      "text": "Establish a consistent review cadence to maintain focus on key measures.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "67ad89b1-25ef-4453-801f-0ce95b629aa6",
+      "text": "Limit daily deep work sessions to avoid exceeding natural attentional capacity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6bedb0e4-6830-470e-8e6e-2fe0816a3a59",
+      "text": "Prioritize high-impact collaboration over solo work for breakthrough problems.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6ca6acee-1f04-4caf-a639-dad8fd63e935",
+      "text": "Allocate significant resources to signal task priority.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "73ece345-c3f1-4275-a880-e36f79434051",
+      "text": "Structure physical and virtual spaces to encourage serendipitous interactions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "748966d4-2482-42e7-9cc3-842f5d5aa8bf",
+      "text": "Schedule uninterrupted periods of low cognitive load to restore attentional resources.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "78bedffd-2dd8-4e33-827f-ce912ea16b52",
+      "text": "Structure physical and virtual spaces to encourage serendipitous interactions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7a285545-5cac-439b-9a72-0b97e006b9e0",
+      "text": "Define specific work locations and timeframes to maintain focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7db3b0ad-b712-4168-a26c-0fff6e0c790d",
+      "text": "Prioritize high-impact collaboration over solo work for breakthrough problems.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a038ed0f-ec23-4b8a-bda5-443c662f97a8",
+      "text": "Schedule deep work during high-concentration periods.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a3ec2b5d-6481-40e4-93a4-80eb48272ba2",
+      "text": "Define specific work locations and timeframes to maintain focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a971ad78-4a15-4520-95ca-2d1709975249",
+      "text": "Limit daily deep work sessions to avoid exceeding natural attentional capacity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "abd92b64-3240-4d77-a238-7fb704ffb9b9",
+      "text": "Maintain unbroken focus during deep work phases to avoid distraction.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ac4e92b5-5dc5-4f80-8556-73c5020782a4",
+      "text": "Maintain unbroken focus during deep work phases to avoid distraction.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "adee9521-50f4-425d-b6d1-ebd60f6e1263",
+      "text": "Prioritize high-impact collaboration over solo work for breakthrough problems.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b4f4d49e-93c5-434f-a6e4-6d3b5300a902",
+      "text": "Prioritize uninterrupted time for deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b648668b-a6e3-4e79-916a-b76d7e54a0a3",
+      "text": "Define specific, ambitious goals before implementation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b73fd47f-9b0b-4af0-bf77-6e32ad557734",
+      "text": "Allocate significant resources to signal task priority.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b78f978d-effb-4e91-b7ff-1c38297c8e30",
+      "text": "Monitor lead indicators regularly to adjust actions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b8ce330e-71fc-4fc2-a97c-235860d6dd66",
+      "text": "Build confidence through incremental practice of deep work techniques.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bffba33e-850f-4b00-a143-de97ba4c47f6",
+      "text": "Define specific, ambitious goals before implementation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c0c5f481-b1e2-4d8d-a037-806904e8ef9a",
+      "text": "Schedule uninterrupted periods of low cognitive load to restore attentional resources.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c12787e7-1494-48bb-8b11-9784fa019694",
+      "text": "Leverage unconscious processing for complex tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c5f458ae-05f2-46b9-afc3-7dd97e6768d2",
+      "text": "Prioritize activities with low directed attention demands during downtime to facilitate recovery.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c933cee4-e70a-4dd5-bc0e-f05d466859c8",
+      "text": "Schedule deep work during high-concentration periods.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ccc65189-956b-46cd-8eb8-f64bd0d987cd",
+      "text": "Prioritize execution over planning to achieve results.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d2230f04-abb3-4191-b871-cb26dc6fc92e",
+      "text": "Build confidence through incremental practice of deep work techniques.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d83c0dd9-84ff-401b-a928-e11ac0e4dbf9",
+      "text": "Establish a consistent review cadence to maintain focus on key measures.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dd03a41c-a10b-454d-b488-287d7b7cf7eb",
+      "text": "Prioritize execution over planning to achieve results.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e43502c9-6899-486c-93c7-e051f5ef3959",
+      "text": "Systematically test and refine deep work routines.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eb59479c-25c9-4afa-a29f-5af340d2cc4b",
+      "text": "Establish clear boundaries during deep work sessions to prevent distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ebda5a9b-5e68-4933-bde2-6610cdc45541",
+      "text": "Define specific work locations and timeframes to maintain focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f4ba0315-0773-4b7a-8071-cd84756649d2",
+      "text": "Monitor lead indicators regularly to adjust actions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f7d6fcc0-8d17-4874-a850-17764728be27",
+      "text": "Foster environments that support both concentration and innovation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f961ebfa-0291-4ee7-9611-178584a03c13",
+      "text": "Foster environments that support both concentration and innovation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 63,
+    "last_updated": "2026-02-11T08:14:26.406275Z",
+    "aggregated_from": [
+      {
+        "book": "Deep Work",
+        "chapter": 22
+      }
+    ]
+  }
+}

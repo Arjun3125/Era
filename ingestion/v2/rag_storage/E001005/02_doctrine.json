@@ -1,0 +1,1961 @@
+[
+  {
+    "chapter_index": 1,
+    "chapter_title": null,
+    "domains": [
+      "base",
+      "discipline",
+      "truth"
+    ],
+    "principles": [
+      "Diligence is foundational to achieving success.",
+      "Honesty forms the core of ethical conduct."
+    ],
+    "rules": [
+      "Consistently apply effort to overcome challenges.",
+      "Maintain truthful integrity in all interactions."
+    ],
+    "claims": [
+      "Diligence compounds over time to build capabilities.",
+      "Truthfulness establishes enduring trust."
+    ],
+    "warnings": [
+      "Neglecting foundational values can lead to failure.",
+      "Inconsistent honesty may damage relationships."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.381,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 2,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "legitimacy",
+      "psychology"
+    ],
+    "principles": [
+      "Understand others by reflecting their behavior to build rapport"
+    ],
+    "rules": [
+      "Mirror appropriately to build rapport",
+      "Only mirror when it enhances understanding",
+      "Ensure actions are perceived as legitimate"
+    ],
+    "claims": [
+      "Mirroring helps build rapport"
+    ],
+    "warnings": [
+      "Over-mirroring can seem insincere",
+      "Inappropriate mirroring may confuse"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0405,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 3,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "conflict",
+      "strategy"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "commentary",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 4,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Emotions significantly influence rational decision-making processes.",
+      "Cognitive biases can distort judgment and affect outcomes in negotiations."
+    ],
+    "rules": [
+      "Negotiators should incorporate emotional intelligence into their strategies to improve results.",
+      "Always separate emotional factors from rational analysis to avoid biases in decision-making."
+    ],
+    "claims": [
+      "Humans exhibit irrational behavior due to inherent cognitive biases.",
+      "System 1 (emotional) thinking can be manipulated to guide System 2 (rational) decisions."
+    ],
+    "warnings": [
+      "Failing to account for emotional influences can lead to suboptimal outcomes in negotiations.",
+      "Over-reliance on rational models without considering emotional underpinnings may result in ineffective strategies."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0087,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 5,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Understand others to build rapport and trust",
+      "Communication is enhanced by active listening and empathy"
+    ],
+    "rules": [
+      "Focus on emotional intelligence and empathy in all negotiations",
+      "Prioritize listening and self-reflection to clarify thoughts and feelings"
+    ],
+    "claims": [
+      "Life is fundamentally a series of negotiations",
+      "Tactical empathy is an effective approach to gaining access to others' minds"
+    ],
+    "warnings": [
+      "Relying solely on rational problem-solving can lead to failure in emotional or crisis situations",
+      "Neglecting emotional aspects may result in defensiveness and reduced willingness to collaborate"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0071,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 6,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Understanding and managing human emotions is foundational to effective negotiation.",
+      "Negotiation skills can be applied universally across personal and professional domains."
+    ],
+    "rules": [
+      "Always approach negotiations with a clear objective and strategic intent to achieve desired outcomes.",
+      "In critical engagements, avoid compromising terms and aim for complete agreements to maintain leverage."
+    ],
+    "claims": [
+      "Mastering negotiation can empower individuals to control and influence key conversations in their lives."
+    ],
+    "warnings": [
+      "Superficial or theoretical approaches to negotiation may fail in real-world applications, emphasizing the need for practical, deep understanding."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.012,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 7,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "data",
+      "strategy"
+    ],
+    "principles": [
+      "Gather information through active observation and listening to understand the other party.",
+      "Focus on the other party's perspective and needs to achieve mutual understanding.",
+      "Handle uncertainty and unpredictability by preparing for rare, impactful events."
+    ],
+    "rules": [
+      "Employ active listening techniques such as mirroring and labeling to build trust.",
+      "Slow down conversations to allow counterparts to feel safe and reveal their true needs.",
+      "Address negative dynamics by openly acknowledging and discussing them."
+    ],
+    "claims": [
+      "Active listening can replace blind assumptions and improve negotiation outcomes.",
+      "Labeling perspectives helps build trust and understanding.",
+      "The Black Swan concept represents a rare, high-impact event in negotiations."
+    ],
+    "warnings": [
+      "Blind assumptions can lead to failed negotiations.",
+      "Unaddressed negative dynamics can escalate during talks.",
+      "The Black Swan represents a significant risk requiring preparation."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.049,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 8,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "discipline",
+      "strategy"
+    ],
+    "principles": [
+      "Active listening and empathy are fundamental to building rapport and understanding counterparts.",
+      "Effective communication requires reframing responses to engage rather than default to agreement."
+    ],
+    "rules": [
+      "Always validate counterpart's perspective before presenting your own.",
+      "Employ calibrated questions to force detailed responses and uncover underlying needs.",
+      "Negotiate from the counterpart's worldview to increase agreement implementation."
+    ],
+    "claims": [
+      "Active listening significantly improves negotiation outcomes by building trust."
+    ],
+    "warnings": [
+      "Negotiating solely on 'Yes' can lead to superficial agreements that lack counterpart buy-in.",
+      "Uncalibrated questions may result in vague agreements or ignored terms."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0329,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 9,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Commitment requires detailed planning and understanding of implementation.",
+      "Effective negotiation hinges on asking probing questions to uncover underlying issues."
+    ],
+    "rules": [
+      "Always prepare a step-by-step process before entering negotiations.",
+      "Use structured questioning to guide counterpart responses and avoid superficial agreements."
+    ],
+    "claims": [
+      "Structured bargaining processes, such as the Ackerman system, enhance deal-making effectiveness."
+    ],
+    "warnings": [
+      "Neglecting implementation details can lead to failed negotiations despite initial agreements.",
+      "Inadequate preparation increases the risk of being outmaneuvered by aggressive counterparts."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0282,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 10,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Preparation is foundational to achieving desired outcomes in negotiations.",
+      "Thorough understanding of tactics and strategies enhances collaborative problem-solving."
+    ],
+    "rules": [
+      "Always use a structured tool or framework to plan and customize negotiation approaches.",
+      "Engage in negotiations only after comprehensive preparation and analysis."
+    ],
+    "claims": [
+      "Applying negotiation skills can lead to transformative personal and professional changes.",
+      "Negotiation is an essential process for resolving conflicts and achieving mutual benefits."
+    ],
+    "warnings": [
+      "Failing to prepare adequately may result in missed opportunities and unfavorable outcomes.",
+      "Without a clear grasp of the transformative potential, individuals may underutilize their abilities in negotiations."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.025,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 11,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Question assumptions in uncertain situations to remain open to all possibilities.",
+      "Use multiple hypotheses to navigate fluid and unpredictable scenarios effectively."
+    ],
+    "rules": [
+      "Maintain a buffer zone to reduce exposure to worst-case outcomes in high-stakes interactions.",
+      "Observe and test information thoroughly before making decisions to avoid overreliance on incomplete data."
+    ],
+    "claims": [
+      "Uncertain situations often involve deceptive elements that can be revealed through careful analysis.",
+      "Early intelligence in negotiations can be accurate or misleading, requiring verification over time."
+    ],
+    "warnings": [
+      "Overconfidence in initial assessments can lead to significant errors and stalling in dynamic scenarios.",
+      "Assuming counterparts' limitations without evidence may result in misjudgment and operational setbacks."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0011,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 12,
+    "chapter_title": null,
+    "domains": [
+      "Conflict",
+      "Diplomacy",
+      "Psychology"
+    ],
+    "principles": [
+      "Approach negotiation as a collaborative process of discovery rather than a competitive battle.",
+      "Focus entirely on the other party to understand their perspective and foster mutual understanding.",
+      "Pace interactions slowly to ensure deep comprehension and build rapport."
+    ],
+    "rules": [
+      "Treat assumptions as testable hypotheses during negotiations.",
+      "Employ specific communication techniques, such as the late-night FM DJ voice, to convey authority and trustworthiness without triggering defensiveness.",
+      "Use mirroring by repeating key phrases from the other person to enhance rapport and reduce resistance."
+    ],
+    "claims": [
+      "Great negotiators possess refined skills in communication and empathy, which can be learned and applied.",
+      "Mirroring is an effective technique that leverages similarity to build trust and defuse potential conflicts."
+    ],
+    "warnings": [
+      "Going too quickly can undermine rapport and trust, leading to misunderstandings.",
+      "Viewing negotiation as a battle can overwhelm internal decision-making processes and hinder collaborative outcomes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0078,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 13,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "optionality",
+      "psychology"
+    ],
+    "principles": [
+      "Emotional intelligence is a foundational skill for effective negotiation and de-escalation.",
+      "Communication adapts to context to foster understanding and reduce friction in interactions."
+    ],
+    "rules": [
+      "Label emotions in others and yourself to influence outcomes and maintain control.",
+      "Prioritize active listening over speaking to build rapport and gather accurate information.",
+      "Maintain composure during high-stakes interactions to avoid derailing communication."
+    ],
+    "claims": [
+      "Neural resonance enables deeper understanding through focused observation and empathy.",
+      "Tactical empathy increases influence by aligning with counterpart's perspective and needs."
+    ],
+    "warnings": [
+      "Ignoring emotional cues can lead to miscommunication and breakdowns in negotiation.",
+      "Rigid communication styles may alienate counterparts and limit potential outcomes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0023,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 14,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Acknowledge and articulate emotions to reduce their intensity and build trust.",
+      "Address underlying emotional drivers to resolve conflicts effectively."
+    ],
+    "rules": [
+      "Always interrupt amygdala-driven reactions by labeling and naming emotional threats.",
+      "Employ empathetic communication to uncover and validate counterpart's emotions."
+    ],
+    "claims": [
+      "Empathy is a powerful tool that enhances mood and facilitates positive outcomes in interactions."
+    ],
+    "warnings": [
+      "Fear and emotional obstacles can be multi-layered, requiring time and persistence to resolve.",
+      "Neglecting emotional processing may lead to prolonged conflicts or misunderstandings."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0094,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 15,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Anticipate and address potential concerns before they escalate during negotiation."
+    ],
+    "rules": [
+      "Systematically list all possible negative charges from your counterpart and practice preemptive responses."
+    ],
+    "claims": [
+      "The 'accusation audit' technique, when applied systematically, can lead to successful resolution of complex negotiations."
+    ],
+    "warnings": [
+      "Unaddressed fears and expectations can fragment relationships and lead to costly litigation."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.002,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 16,
+    "chapter_title": null,
+    "domains": [
+      "diplomacy",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Empathy is a foundation for building rapport in interactions.",
+      "Active listening and mirroring encourage counterpart to elaborate on their situation."
+    ],
+    "rules": [
+      "Use labeling and mirroring to validate counterpart's emotions and invite deeper conversation.",
+      "Employ tactical empathy by acknowledging counterpart's situation before making requests.",
+      "Maintain non-confrontational tone during heated exchanges to de-escalate."
+    ],
+    "claims": [
+      "Empathetic responses lead to better outcomes in negotiations.",
+      "Building rapport through empathy establishes a foundation for successful human interaction."
+    ],
+    "warnings": [
+      "Neglecting emotional cues can lead to breakdowns in communication.",
+      "Failing to acknowledge counterpart's situation may result in missed opportunities.",
+      "Inappropriate timing of requests during interactions can undermine rapport."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0146,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 17,
+    "chapter_title": null,
+    "domains": [
+      "diplomacy",
+      "power",
+      "psychology"
+    ],
+    "principles": [
+      "Perspective-taking is fundamental to building trust in relationships.",
+      "Internalizing communication techniques transforms them into habitual behaviors."
+    ],
+    "rules": [
+      "Always listen to understand before responding to convey genuine interest.",
+      "Pause strategically after key interactions to allow for reflection and absorption.",
+      "Address potential barriers and fears directly to facilitate agreement and reduce tension."
+    ],
+    "claims": [
+      "Empathy enhances interpersonal connections by fostering deeper understanding.",
+      "Proactive preparation for negative dynamics can mitigate risks in conversations."
+    ],
+    "warnings": [
+      "Rushing to agree can lead to regrettable commitments and missed opportunities.",
+      "Ignoring emotional responses may escalate conflicts and undermine trust."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0152,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 18,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Acknowledging opposition can open pathways to deeper collaboration and better outcomes.",
+      "Human autonomy is fundamental in decision-making, fostering control and reducing resistance."
+    ],
+    "rules": [
+      "Always grant permission to say 'No' at the outset of any negotiation to preserve autonomy and encourage constructive dialogue.",
+      "Use 'No' as a temporary checkpoint to adjust strategies and reexamine proposals, rather than as a final decision."
+    ],
+    "claims": [
+      "Fear of 'No' often hinders the exploration of emotional truths and leads to superficial agreements.",
+      "People instinctively value the right to say 'No' as a means of maintaining control and rational choice."
+    ],
+    "warnings": [
+      "Misinterpreting 'No' as a permanent rejection can escalate conflicts and block opportunities for agreement.",
+      "Not allowing counterpart to say 'No' can result in increased resistance, uncontrolled escalation, and failed negotiations."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.005,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 19,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Effective negotiation requires focusing on the counterpart's internal ownership of decisions to ensure genuine commitment.",
+      "Building rapport is a crucial step, but it must be balanced with empowering the other party to drive the conversation forward."
+    ],
+    "rules": [
+      "Always seek to create an environment where the counterpart feels responsible for the outcomes, rather than relying solely on the negotiator's influence.",
+      "Ensure that agreements are tied to the counterpart's own conclusions and actions to prevent superficial commitments."
+    ],
+    "claims": [
+      "Counterparties often use surface-level agreements to mask their lack of commitment or insecurity.",
+      "Human beings are naturally adept at creating false agreement without taking necessary actions in interactions."
+    ],
+    "warnings": [
+      "Over-investing in a negotiation can lead to the counterpart not feeling ownership, resulting in failure to act on agreed-upon steps.",
+      "Neglecting to balance rapport-building with counterpart responsibility can allow for counterfeit yeses that don't translate to real change."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0017,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 20,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Effective negotiation requires understanding the adversary's perspective and motivations.",
+      "Building trust and rapport through incremental stages leads to sustainable agreements."
+    ],
+    "rules": [
+      "Follow a structured process for negotiations: active listening, empathy, rapport-building, influence.",
+      "In hostage situations, ransom calculations should consider market rates and adversary psychology.",
+      "Counteroffers are a reliable tool for reducing ransom demands in kidnapping negotiations."
+    ],
+    "claims": [
+      "A significant majority of individuals fail to implement recommended changes even after receiving expert advice.",
+      "High-profile kidnappings often involve ransom demands influenced by media attention and geopolitical factors."
+    ],
+    "warnings": [
+      "Relying solely on verbal commitments without substantive change can lead to broken agreements.",
+      "Over-reliance on media attention can create vulnerabilities that adversaries exploit."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0018,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 21,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Negotiate creatively to achieve better outcomes than incremental compromise.",
+      "Understand counterpart's underlying needs to leverage variables in negotiation."
+    ],
+    "rules": [
+      "Never split the difference in high-stakes negotiations.",
+      "Use deadlines strategically to maintain control over negotiation timing."
+    ],
+    "claims": [
+      "Compromise often leads to suboptimal outcomes in negotiations."
+    ],
+    "warnings": [
+      "Rushing decisions due to deadlines can lead to outcomes that are against one's best interests.",
+      "Incremental agreements may appear cooperative but can result in worse outcomes than 'no deal'."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0024,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 22,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Fairness is a fundamental principle that fosters trust and compliance in interactions.",
+      "Human decision-making is often driven by emotional perceptions of fairness, which can lead to irrational outcomes."
+    ],
+    "rules": [
+      "When accused of unfairness, respond calmly by addressing the issue directly rather than conceding impulsively.",
+      "Proactively communicate a commitment to fairness early in negotiations to build trust and set expectations."
+    ],
+    "claims": [
+      "Fairness is a powerful word that significantly influences negotiation outcomes and emotional drivers.",
+      "The perception of fairness is critical in shaping behavioral responses in various contexts, including business dealings."
+    ],
+    "warnings": [
+      "Misusing fairness accusations can escalate conflicts and lead to suboptimal agreements due to emotional manipulation.",
+      "Failing to provide evidence for fairness claims can undermine trust and result in failed negotiations or lost opportunities."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0023,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 23,
+    "chapter_title": null,
+    "domains": [
+      "diplomacy",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Use specific, non-rounded numbers in negotiations to convey seriousness and reduce negotiability.",
+      "Leverage reciprocity by making unexpected gestures to foster goodwill and encourage counter-generosity."
+    ],
+    "rules": [
+      "Always start with an extreme anchor in negotiations to set the initial terms.",
+      "Avoid using round numbers in offers as they can be easily negotiated away.",
+      "Subtly question the fairness of the other party's demands to steer them towards compromise."
+    ],
+    "claims": [
+      "Reciprocity makes individuals feel obligated to repay acts of kindness, thereby influencing their decisions.",
+      "Surprise gestures, like gifts, can advance negotiations without requiring actual concessions."
+    ],
+    "warnings": [
+      "Failing to use precise numbers can lead to offers being easily negotiated off, undermining your position.",
+      "Neglecting to account for the other party's psychology may result in missed opportunities for reciprocity or breakdowns in trust."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0195,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 24,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Emotional anchoring fosters empathy and facilitates constructive negotiation.",
+      "Defining success metrics for a role aligns expectations and enables planned career advancement."
+    ],
+    "rules": [
+      "Persistently anchor non-monetary terms to leverage flexibility in salary negotiations.",
+      "Define success metrics for salary progression to secure structured raises."
+    ],
+    "claims": [
+      "Strategic persistence can yield significant salary increases.",
+      "Non-monetary variables influence monetary offers in negotiations."
+    ],
+    "warnings": [
+      "Negotiating salary without defining success metrics creates ambiguity for both parties.",
+      "Lack of clear anchors may lead to impulsive decisions with financial consequences."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.005,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 25,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Coaxing is more effective than confronting in negotiations.",
+      "Building rapport and trust enhances negotiation outcomes."
+    ],
+    "rules": [
+      "Verify counterpart changes to anticipate shifts in strategy.",
+      "Use intermediaries only when direct communication is unavailable, ensuring transparency."
+    ],
+    "claims": [
+      "Indirect influence (e.g., media) can escalate negotiation priorities.",
+      "Lack of coordination among teams can lead to deal failure."
+    ],
+    "warnings": [
+      "Turf wars and lack of coordination can undermine negotiation efforts.",
+      "Misinformation and broken communication chains create false hope for resolution."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0057,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 26,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Clear communication and coordination between agencies are fundamental to successful operations."
+    ],
+    "rules": [
+      "Verify information from other government agencies before initiating actions to prevent unintended escalation or friendly fire incidents.",
+      "Assume responsibility for verifying intelligence unless confirmed directly."
+    ],
+    "claims": [
+      "Friendly fire incidents can result in mission failure and significant loss of life."
+    ],
+    "warnings": [
+      "Relying on unverified intelligence from other agencies increases the risk of friendly fire and operational failure.",
+      "Indiscriminate use of force without situational awareness can have devastating consequences."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0218,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 27,
+    "chapter_title": null,
+    "domains": [
+      "data",
+      "diplomacy",
+      "truth"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 28,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Maintain emotional balance during conflict to achieve desired outcomes.",
+      "Step back to process emotions and frame responses before reacting impulsively."
+    ],
+    "rules": [
+      "Bite your tongue to avoid knee-jerk reactions during negotiations.",
+      "Use calibrated questions to disarm counterparts and shift conversation dynamics.",
+      "Lower your voice pitch slightly to reduce tension and regain control."
+    ],
+    "claims": [
+      "Negotiation scripts with emotional regulation have a 90% success rate.",
+      "The listener controls conversational dynamics through strategic questioning."
+    ],
+    "warnings": [
+      "Emotional escalation activates primal brain responses, disabling rational thought.",
+      "Hostage mentality emerges when power dynamics favor the dominant party.",
+      "Unregulated passion creates escalation cycles that benefit no party."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0088,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 29,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Leverage others' influence to achieve objectives indirectly.",
+      "Influence outcomes by shaping counterpart's perception of control."
+    ],
+    "rules": [
+      "Avoid direct confrontation; use calibrated questions to guide solutions.",
+      "Refrain from asking 'Why' unless it aligns with your goals.",
+      "Formulate questions that implicitly invite detailed responses."
+    ],
+    "claims": [
+      "Reciprocity triggers expectations for balanced exchange.",
+      "Counterparts respond better when they feel agency in dialogue."
+    ],
+    "warnings": [
+      "Aggressive tactics undermine constructive negotiation.",
+      "Neglecting hidden stakeholders creates vulnerability.",
+      "Over-reliance on yes/no questions limits information gathering."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0383,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 30,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Understand the motivations and perspectives of adversaries to achieve resolution in tense situations."
+    ],
+    "rules": [
+      "Ensure all communication tools are secure and functional before initiating critical operations.",
+      "Always verify that all necessary elements of a plan are in place and understood by all parties."
+    ],
+    "claims": [
+      "Creative negotiation strategies can effectively de-escalate high-stakes conflicts."
+    ],
+    "warnings": [
+      "Inadequate preparation or attention to detail can lead to operational failures and increased risks during hostilities."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0107,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 31,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Negotiators must structure agreements for implementation, not just consent.",
+      "Operational success depends on ensuring execution, not just reaching agreement."
+    ],
+    "rules": [
+      "Dynamically adapt negotiation tactics to ensure implementation.",
+      "Employ calibrated 'How' questions to shape negotiation outcomes and stall for time.",
+      "Never engage without understanding opponent's intentions and capabilities."
+    ],
+    "claims": [
+      "Calibrated 'How' questions can effectively reduce ransom demands and shape negotiation outcomes.",
+      "Negotiation success requires focusing on implementation, not just reaching agreement."
+    ],
+    "warnings": [
+      "Failure to ensure implementation leads to failed negotiations despite agreement.",
+      "Acting without understanding the opponent's perspective or capabilities can lead to failure."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0071,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 32,
+    "chapter_title": null,
+    "domains": [
+      "diplomacy",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Use indirect guidance to shape outcomes.",
+      "Collaborative questioning fosters ownership of solutions."
+    ],
+    "rules": [
+      "Always prioritize 'How' questions over direct 'No' responses.",
+      "Ensure counterpart defines success terms to secure buy-in."
+    ],
+    "claims": [
+      "Implementation is essential for deal viability.",
+      "Reciprocity can be leveraged through empathetic engagement."
+    ],
+    "warnings": [
+      "Unclear implementation leads to deal failure.",
+      "Vague counterpart commitment升至 'I'll try' signals lack of buy-in."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0027,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 33,
+    "chapter_title": null,
+    "domains": [
+      "diplomacy",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Iterative confirmation strengthens commitment.",
+      "Personalization increases persuasiveness."
+    ],
+    "rules": [
+      "Use iterative agreement to ensure commitment.",
+      "Introduce yourself by name to build rapport.",
+      "Strategically use pronouns to influence counterpart perception."
+    ],
+    "claims": [
+      "Pronoun usage affects perceived authority.",
+      "Iterative confirmation reduces risk of false commitments."
+    ],
+    "warnings": [
+      "Inadequate self-introduction reduces persuasiveness.",
+      "Over-reliance on indirect refusal increases negotiation duration.",
+      "Misjudging counterpart language use can escalate conflicts."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0031,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 34,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Patience and persistence lead to achieving desired outcomes.",
+      "Strategic planning and self-control enhance negotiation success."
+    ],
+    "rules": [
+      "Begin negotiations by offering below the asking price to create room for haggling.",
+      "Maintain composure and avoid emotional decision-making during negotiations."
+    ],
+    "claims": [
+      "Strategic silence can unsettle opponents and lead to concessions.",
+      "Preparation and understanding of the other party's limits are key to successful bargaining."
+    ],
+    "warnings": [
+      "Emotional decision-making can result in unfavorable terms during negotiations.",
+      "Underestimating the other party's flexibility may lead to prolonged haggling."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0108,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 35,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Psychological dynamics are essential for effective bargaining.",
+      "Self-awareness of one's negotiation style improves outcomes."
+    ],
+    "rules": [
+      "Mirror the counterpart's behavior to build rapport.",
+      "Use clear, data-driven arguments rather than ad-libbing.",
+      "Adapt tactics based on the identified negotiation style."
+    ],
+    "claims": [
+      "Approximately 65% of negotiation professionals use a cooperative style.",
+      "Most effective negotiators are not exclusively assertive but blend styles."
+    ],
+    "warnings": [
+      "Neglecting psychological factors can limit negotiation success.",
+      "Inadequate preparation or surprises may cause disengagement in Analysts.",
+      "Mishandling reciprocity can lead to loss of trust in collaborative settings."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0029,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 36,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Strategic use of emotions can shift dynamics in negotiation.",
+      "Understanding human psychology helps in anticipating counterpart behavior."
+    ],
+    "rules": [
+      "Express emotions strategically and with control during negotiations.",
+      "Maintain collaborative relationships even when setting boundaries.",
+      "Be willing to walk away from unfavorable deals.",
+      "Use 'I' messages to set boundaries without escalating conflict.",
+      "Employ 'Why?' questions to leverage counterpart's defensiveness for your benefit."
+    ],
+    "claims": [
+      "Real, controlled anger enhances negotiation advantage.",
+      "The 'Why?' question effectively engages counterparts in self-reflection.",
+      "Strategic umbrage can strengthen one's position in negotiation.",
+      "Clear boundaries are essential for effective collaboration."
+    ],
+    "warnings": [
+      "Misusing emotions may create personal enemies.",
+      "Failing to set boundaries risks being hostage to unfavorable outcomes.",
+      "Inauthentic emotional displays may undermine negotiation effectiveness.",
+      "Neglecting to walk away from bad deals perpetuates unfavorable outcomes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.005,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 37,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Understand the opponent's style to tailor your approach effectively.",
+      "Anticipate the worst-case scenario and plan accordingly to mitigate risks."
+    ],
+    "rules": [
+      "Prepare thoroughly for negotiations by defining clear objectives and rehearsing responses.",
+      "Set boundaries and manage emotions during high-stakes interactions to maintain control.",
+      "Always prepare for extreme outcomes before engaging in any strategic endeavor."
+    ],
+    "claims": [
+      "Thorough preparation significantly enhances performance in high-pressure situations.",
+      "Anticipating and planning for extreme scenarios improves resilience and decision-making."
+    ],
+    "warnings": [
+      "Inadequate preparation leads to failure in critical engagements.",
+      "Failing to manage emotions during conflict can exacerbate negative outcomes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0181,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 38,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Anticipate and adapt to unforeseen events in operational planning.",
+      "Understand that core objectives must be protected amidst uncertainty."
+    ],
+    "rules": [
+      "Always identify and monitor potential game-changing factors in negotiations.",
+      "Prioritize clear communication and risk assessment before engaging in high-stakes scenarios."
+    ],
+    "claims": [
+      "Black Swan events are unpredictable but identifiable through systematic analysis.",
+      "Known unknowns can be mitigated through proactive information gathering."
+    ],
+    "warnings": [
+      "Ignoring unknown unknowns can lead to catastrophic outcomes in operations.",
+      "Relying on past experiences without considering new variables can result in failure."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0086,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 39,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "constraints",
+      "risk"
+    ],
+    "principles": [
+      "Maintain flexibility to accommodate unforeseen changes in any situation.",
+      "Adopt a beginner's mindset to avoid biases and remain open to new information."
+    ],
+    "rules": [
+      "Always question the underlying assumptions in any scenario.",
+      "Prioritize active listening and detailed observation over preconceived notions."
+    ],
+    "claims": [
+      "Every negotiation involves multiple unknown factors (Black Swans) that can dramatically alter outcomes.",
+      "Black Swans serve as leverage multipliers in negotiation contexts."
+    ],
+    "warnings": [
+      "Over-reliance on known information can lead to missed opportunities and failure.",
+      "Neglecting intuitive and nuanced listening may result in poor decision-making."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0046,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 40,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Preserve opportunities by delaying commitments in negotiations to maintain leverage.",
+      "Build influence by understanding the counterpart's deeper motivations and worldview."
+    ],
+    "rules": [
+      "Listen actively and thoroughly before speaking to accurately assess the other party's perspective in negotiations.",
+      "Use psychological insights, such as loss aversion, strategically to shape outcomes."
+    ],
+    "claims": [
+      "Loss aversion is a cognitive bias where individuals prioritize avoiding losses over acquiring gains, influencing decision-making in negotiations."
+    ],
+    "warnings": [
+      "Relying on threats without comprehensive understanding can damage relationships and lead to long-term negative consequences.",
+      "In high-stakes negotiations, failing to listen adequately can result in miscommunication, escalation, and suboptimal outcomes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.003,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 41,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Understand counterparts' motivations and aspirations to influence outcomes.",
+      "Shared identity and belief systems can be leveraged to build rapport and achieve alignment.",
+      "People respond positively to clear reasons and structured frameworks."
+    ],
+    "rules": [
+      "Employ the 'because' framework to provide clear rationale for requests.",
+      "Investigate and address misinformation before labeling counterparts as irrational.",
+      "Leverage counterpart's religion or deeply held beliefs to frame proposals."
+    ],
+    "claims": [
+      "Understanding motivations is key to effective influence.",
+      "Providing reasons, even seemingly irrelevant ones, increases compliance.",
+      "Misinformation can create the perception of irrationality in negotiation."
+    ],
+    "warnings": [
+      "Mislabeling counterparts as 'crazy' without understanding their constraints can lead to missed opportunities.",
+      "Neglecting to understand the 'why' behind actions can result in failed negotiations.",
+      "Assuming counterpart irrationality without investigation can prevent discovery of leverage points."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0034,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 42,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Embrace thoughtful conflict to enhance problem-solving and relationships",
+      "Overcome innate fear to achieve personal and professional growth"
+    ],
+    "rules": [
+      "Use empathetic and information-driven approaches in negotiations to avoid personal battles",
+      "Address conflict directly by ignoring physiological fear responses"
+    ],
+    "claims": [
+      "Fear is a natural physiological response triggered by the amygdala during conflict",
+      "Genuine conflict over goals can energize collaborative problem-solving"
+    ],
+    "warnings": [
+      "Avoiding conflict can lead to resentment, separation, and failure in relationships",
+      "Neglecting to manage fear may result in poor outcomes in negotiations"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0156,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 43,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "strategy"
+    ],
+    "principles": [
+      "Collaboration requires active engagement in articulating and refining shared and individual goals.",
+      "Conflict can be transformed into a creative process that enhances outcomes through dialogue."
+    ],
+    "rules": [
+      "Embrace honest and clear conflict to achieve superior results in negotiations.",
+      "Be transparent about one's intentions, capabilities, and limitations in collaborative settings."
+    ],
+    "claims": [
+      "Uncertainty can lead to failure or suboptimal outcomes in various endeavors."
+    ],
+    "warnings": [
+      "Avoiding conflict may result in missed opportunities or inferior agreements.",
+      "Inadequate understanding of counterpart's needs can undermine successful collaboration."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0302,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 44,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "constraints",
+      "strategy"
+    ],
+    "principles": [
+      "Understand that each situation is unique and requires flexibility.",
+      "Acknowledge that foundational knowledge is incomplete and must be expanded through discovery."
+    ],
+    "rules": [
+      "Gather comprehensive information through multiple methods.",
+      "Maintain open communication channels to ensure alignment.",
+      "Build rapport by demonstrating shared understanding and values."
+    ],
+    "claims": [
+      "Black Swans can significantly amplify outcomes when leveraged effectively.",
+      "Direct engagement with counterparts yields valuable insights beyond formal discussions."
+    ],
+    "warnings": [
+      "Failing to grasp the counterpart's underlying beliefs can lead to strategic misalignment.",
+      "Inadequate information gathering can result in strategic disadvantages."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0159,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 45,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Continuous learning from experienced mentors improves operational effectiveness",
+      "Effective collaboration and communication are vital for success in high-stakes situations"
+    ],
+    "rules": [
+      "Understand the opponent's perspective before acting",
+      "Prioritize clear communication and teamwork in crisis negotiation"
+    ],
+    "claims": [
+      "Structured mentorship programs significantly enhance professional development",
+      "Hostage negotiation strategies can be effectively adapted to business contexts"
+    ],
+    "warnings": [
+      "Inadequate preparation in crisis situations can lead to operational failure",
+      "Overlooking interpersonal dynamics may compromise negotiation outcomes"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0119,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 46,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Focus on best-case outcomes to maintain psychological flexibility and motivation.",
+      "Preparation shapes performance under pressure by aligning actions with psychological readiness."
+    ],
+    "rules": [
+      "Define a specific, optimistic goal for each negotiation and write it down.",
+      "Prepare a concise summary of the negotiation context to enable tactical empathy.",
+      "Anticipate counterpart's accusations and translate them into actionable labels.",
+      "Avoid preordained scripts for negotiations to maintain agility and creativity."
+    ],
+    "claims": [
+      "Good initial preparation yields a 7:1 return on time saved by reducing renegotiation.",
+      "Goal-setting research demonstrates that specific, challenging goals improve negotiation outcomes."
+    ],
+    "warnings": [
+      "Aiming too low for BATNA can limit negotiation potential and affect creativity.",
+      "Negotiators who focus on modest goals may develop a 'wimp-win' mentality.",
+      "Scripted preparation makes negotiators more susceptible to manipulation."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.01,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 47,
+    "chapter_title": null,
+    "domains": [
+      "diplomacy",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Understanding the counterpart's underlying motivations is essential for effective negotiation.",
+      "Revealing and addressing hidden concerns can transform conflicts into opportunities for collaboration."
+    ],
+    "rules": [
+      "Prepare and use a set of calibrated questions tailored to the negotiation context to uncover true needs.",
+      "Develop fill-in-the-blank labels to quickly extract, validate, and expand on counterpart's responses during discussions."
+    ],
+    "claims": [
+      "Losses are perceived as having a greater negative impact on decision-making than equivalent gains.",
+      "Nonfinancial incentives, such as publishing stories or other symbolic offers, can be highly effective in negotiation."
+    ],
+    "warnings": [
+      "Assumptions about the other party's needs conflicting with one's own can limit negotiation outcomes.",
+      "Basic human biases, such as favoring financial aspects over emotions, can hinder the discovery of deal killers."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.008,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 48,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Understanding others' perspectives improves negotiation outcomes.",
+      "Cognitive processes influence decision-making in complex scenarios."
+    ],
+    "rules": [
+      "Always establish clear boundaries and walk-away points in negotiations.",
+      "Assess the other party's motivations before committing to an agreement."
+    ],
+    "claims": [
+      "Negotiation strategies can be learned and applied to achieve favorable outcomes.",
+      "Human cognition involves distinct fast and slow thinking systems."
+    ],
+    "warnings": [
+      "Failing to adapt to changing circumstances can lead to negotiation failure.",
+      "Inadequate risk assessment in interactions may escalate conflicts."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0552,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 49,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "data",
+      "psychology"
+    ],
+    "principles": [
+      "Understanding others' emotional states before responding improves communication outcomes.",
+      "Labeling emotions accurately influences perception and response to affective stimuli."
+    ],
+    "rules": [
+      "Always attempt to identify and label the emotional state of others before formulating a response.",
+      "Employ established negotiation strategies and techniques to achieve desired outcomes.",
+      "Clearly define and communicate boundaries to prevent scope creep."
+    ],
+    "claims": [
+      "Accurate affect labeling disrupts amygdala activity during emotional responses.",
+      "Effective negotiation techniques and tools are available and can be mastered."
+    ],
+    "warnings": [
+      "Failing to accurately label others' emotions may lead to miscommunication and suboptimal outcomes.",
+      "Inadequate preparation for negotiation can result in unfavorable agreements.",
+      "Misunderstanding or mislabeling emotional responses can escalate conflicts."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0559,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 50,
+    "chapter_title": null,
+    "domains": [
+      "power",
+      "strategy",
+      "timing"
+    ],
+    "principles": [
+      "Control perception by shaping the other party's understanding through consistent actions and communication.",
+      "Effective persuasion relies on understanding and influencing human psychology and emotional responses."
+    ],
+    "rules": [
+      "Control perception by shaping the other party's understanding through consistent actions and communication.",
+      "Commit to deadlines to ensure execution and leverage the psychological impact of time pressure."
+    ],
+    "claims": [
+      "Nonverbal communication significantly influences perception and credibility.",
+      "Strategic deception can be effective when executed consistently and aligned with the target's expectations."
+    ],
+    "warnings": [
+      "Inconsistencies between actions and communication can undermine credibility and control.",
+      "Unclear delegation or shifting priorities can lead to execution failures and loss of control."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0455,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 51,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Self-awareness improves interpersonal assertiveness",
+      "Understanding others' perspectives enhances decision-making"
+    ],
+    "rules": [
+      "Understand the other party's information needs before making decisions",
+      "Actively listen by focusing on the speaker, using minimal encouragers, and mirroring"
+    ],
+    "claims": [
+      "Highly improbable events significantly impact outcomes",
+      "Mindlessness in interactions leads to poor decision-making"
+    ],
+    "warnings": [
+      "Overconfidence can lead to failure in negotiations",
+      "Lack of self-awareness increases the risk of interpersonal misunderstandings"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.032,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 52,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Understand counterpart’s interests to uncover hidden factors",
+      "Focus on interests, not positions, to achieve mutually beneficial outcomes",
+      "Build trust through active listening and empathy",
+      "Adapt negotiation style to counterpart’s approach for better outcomes"
+    ],
+    "rules": [
+      "Always have a BATNA (Best Alternative To a Negotiated Agreement)",
+      "Ask 'How' questions to clarify needs and constraints",
+      "Use calibrated questions to analyze counterpart’s position",
+      "Never agree without understanding the underlying interests"
+    ],
+    "claims": [
+      "Negotiation success depends on BATNA preparation",
+      "Behavioral economics principles influence negotiation outcomes",
+      "Black Swan events can be anticipated through understanding counterpart’s 'religion'",
+      "Anchoring effect shapes perception and negotiation range"
+    ],
+    "warnings": [
+      "Mistaking constrained behavior for craziness leads to failed negotiations",
+      "Relying on incomplete information increases risk of bad deals",
+      "Ignoring emotional cues can escalate conflicts",
+      "Lack of BATNA exposes negotiators to unfavorable outcomes"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0229,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 53,
+    "chapter_title": null,
+    "domains": [
+      "Diplomacy",
+      "Psychology",
+      "Risk"
+    ],
+    "principles": [
+      "Effective communication builds trust and facilitates agreement.",
+      "Understanding others' perspectives enhances collaboration."
+    ],
+    "rules": [
+      "Always listen actively before responding to ensure comprehension.",
+      "Use 'I' messages to express views without defensiveness.",
+      "Avoid creating barriers by maintaining open dialogue."
+    ],
+    "claims": [
+      "Cognitive biases can distort interpretations of information.",
+      "Empathy is a critical factor in soft skills for interpersonal interactions."
+    ],
+    "warnings": [
+      "Over-reliance on literal meanings may lead to misinterpretation.",
+      "Failing to address 'no' responses can stall progress in negotiations.",
+      "Neglecting non-verbal cues can result in missed signals in communication."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0833,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 54,
+    "chapter_title": null,
+    "domains": [
+      "control",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Strategic patience yields control over outcomes.",
+      "Control is fundamental to effective influence and decision-making."
+    ],
+    "rules": [
+      "Use calibrated questions to maintain control in communication.",
+      "Compromise strategically to achieve win-win outcomes."
+    ],
+    "claims": [
+      "Control is a primal human urge.",
+      "Compromise enables mutually beneficial solutions."
+    ],
+    "warnings": [
+      "Lack of control can lead to hostage mentality.",
+      "Crisis situations amplify risks to negotiation outcomes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0606,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 55,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Emotional intelligence is foundational to effective negotiation.",
+      "Behavioral change occurs through gradual adaptation to new emotional responses."
+    ],
+    "rules": [
+      "Label emotions to de-escalate conflict during negotiations.",
+      "Use the Rule of Three to structure agreements and ensure compliance.",
+      "Prioritize fairness in negotiation to build sustainable agreements."
+    ],
+    "claims": [
+      "Emotion and reason are interdependent in human decision-making.",
+      "Fairness is a powerful predictor of agreement success in negotiations."
+    ],
+    "warnings": [
+      "Mishandling emotional cues can derail complex negotiations.",
+      "Over-reliance on pronouns may inadvertently reveal deception.",
+      "Neglecting to adapt emotional communication styles leads to failed outcomes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0186,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 56,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Understand human factors to improve decision outcomes.",
+      "Define clear objectives to guide actions effectively."
+    ],
+    "rules": [
+      "Always prepare an alternative course of action if negotiations fail.",
+      "Assess the opponent's perspective before making decisions."
+    ],
+    "claims": [
+      "Negotiation strategies can be learned and applied to achieve desired results."
+    ],
+    "warnings": [
+      "Inadequate preparation may lead to unfavorable agreements.",
+      "Misinterpreting information can result in poor outcomes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0526,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 57,
+    "chapter_title": null,
+    "domains": [
+      "Communication",
+      "Decision Making",
+      "Negotiation"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "narrative",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  },
+  {
+    "chapter_index": 58,
+    "chapter_title": null,
+    "domains": [
+      "diplomacy",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Building rapport through mirroring and matching behaviors fosters trust and effective communication in interactions.",
+      "Understanding non-verbal cues and voice tones enhances the ability to interpret and respond to counterpart's emotions and intentions."
+    ],
+    "rules": [
+      "Employ a structured four-step process for negotiations to ensure clarity and alignment.",
+      "Match voice tones and body language with the counterpart to build rapport and facilitate agreement."
+    ],
+    "claims": [
+      "Communication breakdowns can be mitigated by understanding and applying specific rules like the 7-38-55 Percent Rule.",
+      "Negotiation techniques, such as mirroring and using consent strategies, can be systematically taught and applied to achieve desired outcomes."
+    ],
+    "warnings": [
+      "Using 'Yes' too early may increase defensiveness and reduce effectiveness in negotiations.",
+      "Failing to analyze the entire negotiation space can lead to missed agreements or prolonged conflicts."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0204,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 59,
+    "chapter_title": null,
+    "domains": [
+      "constraints"
+    ],
+    "principles": [],
+    "rules": [
+      "Adhere strictly to reproduction permissions"
+    ],
+    "claims": [
+      "Author's opinions are solely their own"
+    ],
+    "warnings": [
+      "Unauthorized reproduction may lead to legal consequences"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0146,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 60,
+    "chapter_title": null,
+    "domains": [
+      "base"
+    ],
+    "principles": [],
+    "rules": [],
+    "claims": [],
+    "warnings": [],
+    "_status": "valid_empty",
+    "_meta": {
+      "status": "valid_empty",
+      "chapter_type": "introductory",
+      "reason": "No actionable doctrine present",
+      "doctrine_density": 0.0,
+      "extracted_chunks": 1,
+      "model_confidence": "high"
+    }
+  }
+]

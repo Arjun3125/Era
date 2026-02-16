@@ -1,0 +1,34 @@
+{
+  "domain": "Behavior",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "9573e34a-be11-4390-9711-6005c7d2f8cd",
+      "text": "Avoid public displays of wealth to prevent insecurity-driven financial behaviors",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c7c16635-07f0-4b9b-b4da-605418c59e40",
+      "text": "Set clear financial goals and diversify investments rather than hoarding cash",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 4
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T09:33:15.629026Z",
+    "aggregated_from": [
+      {
+        "book": "The_Psychology_of_Money",
+        "chapter": 4
+      }
+    ]
+  }
+}

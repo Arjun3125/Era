@@ -1,0 +1,61 @@
+{
+  "domain": "Mental Well-being",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "2a0211ad-bce5-4d99-aa7b-ee602eddef44",
+      "text": "{'domain': 'Existential Reflections', 'principle': \"Life's meaning can be found through confronting the 'terrible' unknown.\", 'generalized': 'Understanding existence requires facing the ultimate mysteries or challenges.'}",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7f842389-5988-4229-b91b-e9f53f7ce123",
+      "text": "{'domain': 'Mental Well-being', 'principle': \"Purposeful action defines wisdom; useful activities elevate one's status.\", 'generalized': 'Engaging in meaningful or useful tasks is a key component of wisdom and self-worth.'}",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e1ca0cc1-3326-4e9c-9937-2512a768379d",
+      "text": "{'domain': 'Creative Process', 'principle': 'True artistic endurance stems from embracing the process of becoming, not just the finished product.', 'generalized': 'Sustained creativity is linked to accepting the ongoing development and change inherent in existence.'}",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "88a3899e-2783-4878-8039-aad16ca33b69",
+      "text": "{'domain': 'Mental Well-being', 'principle': 'Mindfulness and self-awareness help manage anxiety and find inner peace.', 'generalized': \"Consciously observing one's inner state and experiences can alleviate distress.\"}",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "46f65229-b4a0-42f2-bc26-6ef0a1374e8d",
+      "text": "{'domain': 'Creative Process', 'principle': 'Breakthroughs often require stepping away from routine and embracing novelty.', 'generalized': 'Personal or creative growth can be stimulated by engaging with new experiences or perspectives.'}",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 8
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 5,
+    "last_updated": "2026-02-12T13:18:42.259763Z",
+    "aggregated_from": [
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 8
+      }
+    ]
+  }
+}

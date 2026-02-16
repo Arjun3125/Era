@@ -1,0 +1,65 @@
+{
+  "domain": "Narrative",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "be6ae50a-8629-4119-8a8b-c4e090a3b56f",
+      "text": "Establish clear boundaries for finite activities but remain flexible in infinite endeavors.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "91ac932e-37fa-4084-954d-4f340d71585c",
+      "text": "Adapt rules as needed to maintain relevance in evolving situations.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f0f0772b-b7df-47da-9fc1-44d58ebe82b6",
+      "text": "Prioritize playfulness and creativity over rigid adherence to established norms.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c539e2b2-550d-43ef-b361-ed6532c841e1",
+      "text": "Acknowledge mistakes to maintain relationships",
+      "source": {
+        "book": "Crime",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "26628710-37ba-4d7a-aba9-47900d6056fc",
+      "text": "Prioritize the well-being of dependents",
+      "source": {
+        "book": "Crime",
+        "chapter": 5
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 5,
+    "last_updated": "2026-02-13T05:32:31.687965Z",
+    "aggregated_from": [
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 30
+      },
+      {
+        "book": "Crime",
+        "chapter": 5
+      }
+    ]
+  }
+}

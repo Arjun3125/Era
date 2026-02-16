@@ -1,0 +1,122 @@
+{
+  "domain": "Communication",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "8ca91b86-dcba-4cec-8109-77c946bf93e4",
+      "text": "Read Love Letters Aloud for Full Engagement",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "34e7be39-68be-4c60-b0ff-2cf8ff596476",
+      "text": "Adopt Structured Intent Statements for Guided Dialogue",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5b93ecbd-7b6b-4bbc-8fe1-03558299f956",
+      "text": "Set Time Limits for Processing Complex Emotions",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d0476a4a-126e-4e81-ab1b-911da337b7bd",
+      "text": "Use 'would' instead of 'could' to convey willingness and commitment.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b338fcb7-c5d1-4814-abdd-a53ea6e21ccd",
+      "text": "Avoid indirect language to prevent misunderstandings and resentment.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "450541e5-cfe2-43e9-a3a2-8a790ab9a7ec",
+      "text": "Limit speech in the presence of the 'day' (perhaps representing a higher power or a moment of truth).",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f37f9879-4ac9-460c-9366-d2ae4ee04495",
+      "text": "Subscribers must provide clear subscription instructions",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ab1c950b-c402-4b99-9382-b11b23f285b3",
+      "text": "Direct communication with the author is required for subscription",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ced9e094-1166-492a-a89d-a57e368b5a7c",
+      "text": "Paraphrase to confirm understanding.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4fe63af6-c2ce-4885-b316-c633d439e445",
+      "text": "Assume positive intent initially.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 21
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 10,
+    "last_updated": "2026-02-13T20:50:12.087827Z",
+    "aggregated_from": [
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 50
+      },
+      {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 50
+      },
+      {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 32
+      },
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 21
+      }
+    ]
+  }
+}

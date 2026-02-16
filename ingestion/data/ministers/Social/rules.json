@@ -1,0 +1,34 @@
+{
+  "domain": "Social",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "fa895849-5677-4216-945d-dd2ebcd0d972",
+      "text": "Acknowledge mistakes to maintain relationships",
+      "source": {
+        "book": "Crime",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bc238e01-5336-4991-a628-6ffc58de6e13",
+      "text": "Prioritize the well-being of dependents",
+      "source": {
+        "book": "Crime",
+        "chapter": 5
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T05:32:31.768674Z",
+    "aggregated_from": [
+      {
+        "book": "Crime",
+        "chapter": 5
+      }
+    ]
+  }
+}

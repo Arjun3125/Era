@@ -1,0 +1,43 @@
+{
+  "domain": "rules",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "5910531a-a49d-41a2-8d1b-43f770dc5374",
+      "text": "A company must demonstrate a cumulative return shift relative to its industry index to be accepted.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 62
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3670073f-24dd-4ce8-802b-addbc06f6d02",
+      "text": "Comparison candidates must meet specific fit criteria in business, size, age, and stock performance.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 62
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9775f43e-3a17-40fa-866e-83ca0bcefe0d",
+      "text": "Elimination occurs if a company does not show a transition pattern compared to its industry peers.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 62
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-12T15:03:10.795294Z",
+    "aggregated_from": [
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 62
+      }
+    ]
+  }
+}

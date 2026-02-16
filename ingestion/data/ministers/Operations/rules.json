@@ -1,0 +1,25 @@
+{
+  "domain": "Operations",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "8035fad3-230a-4450-bc74-a810df6f7455",
+      "text": "Follow clear steps",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 11
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 1,
+    "last_updated": "2026-02-13T13:42:58.648725Z",
+    "aggregated_from": [
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 11
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "credibility",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "1639b3a3-a22c-4319-ab10-94b62bd20853",
+      "text": "Prioritize presenter likability and appearance over substantive expertise when selecting news figures.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d86ad189-36d8-4695-8267-4c3ff2452292",
+      "text": "News content should maximize entertainment value through musical accompaniment and emotional framing.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e590186f-9f08-4ae0-b953-8412351da965",
+      "text": "Assess credibility based on immediate visual appeal rather than factual accuracy.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 29
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T02:42:18.983824Z",
+    "aggregated_from": [
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 29
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+It is likely for a graduate student in that field than in other fields, then Bayes’s rule says you must believe that the probability that Tom W is a computer scientist is now 11%. If the base rate had been 80%, the new degree of belief would be 94.1%. And so on.
+
+The mathematical details are not relevant in this book. There are two ideas to keep in mind about Bayesian reasoning and how we tend to mess it up. The first is that base rates matter, even in the presence of evidence about the case at hand. This is often not intuitively obvious. The second is that intuitive impressions of the diagnosticity of evidence are often exaggerated. The combination of WY SIATI and associative coherence tends to make us believe in the stories we spin for ourselves.
+
+The essential keys to disciplined Bayesian reasoning can be simply summarized:
+
+1. Anchor your judgment of the probability of an outcome on a plausible base rate.
+2. Question the diagnosticity of your evidence.
+
+Both ideas are straightforward. It came as a shock to me when I realized that I was never taught how to implement them, and that even now I find it unnatural to do so.
+
+Speaking of Representativeness:
+
+"The lawn is well trimmed, the receptionist looks competent, and the furniture is attractive, but this doesn’t mean it is a well-managed company. I hope the board does not go by representativeness."
+
+"This start-up looks as if it could not fail, but the base rate of success in the industry is extremely low. How do we know this case is different?"
+
+"They keep making the same mistake: predicting rare events from weak evidence. When the evidence is weak, one should stick with the base rates."
+
+"I know this report is absolutely damning, and it may be based on solid evidence, but how sure are we? We must allow for that uncertainty in our thinking."
+
+---
+
+P
+
+Linda: Less Is More
+
+The best-known and most controversial of our experiments involved a fictitious lady called Linda. Amos and I made up the Linda problem to provide conclusive evidence of the role of heuristics in judgment and of their incompatibility with logic. This is how we described Linda:
+
+Linda is thirty-one years old, single, outspoken, and very bright. She majored in philosophy. As a student, she was deeply concerned with issues of discrimination and social justice, and also participated in antinuclear demonstrations.
+
+The audiences who heard this description in the 1980s always laughed because they immediately knew that Linda had attended the University of California at Berkeley, which was famous at the time for its radical, politically engaged students. In one of our experiments, we presented participants with a list of eight possible scenarios for Linda. As in the Tom W problem, some ranked the scenarios by representativeness, others by probability. The Linda problem is similar, but with a twist.
+
+Linda is a teacher in elementary school.
+Linda works in a bookstore and takes yoga classes.
+Linda is active in the feminist movement.
+Linda is a psychiatric social worker.
+Linda is a member of the League of Women Voters.
+Linda is a bank teller.
+Linda is an insurance salesperson.
+Linda is a bank teller and is active in the feminist movement.
+
+The problem shows its age in several ways. The League of Women Voters is no longer as prominent as it was, and the idea of a feminist “movement” sounds quaint, a testament to the change in the status of women over the last thirty years. Even in the Facebook era, however, it is still easy to guess the almost perfect consensus of judgments: Linda is a very good fit for an active feminist, a fairly good fit for someone who works in a bookstore and takes yoga classes—and a very poor fit for a bank teller or an insurance salesperson.
+
+Now focus on the critical items in the list: Does Linda look more like a bank teller, or more like a bank teller who is active in the feminist movement? Everyone agrees that Linda fits the idea of a “feminist bank teller” better than she fits the stereotype of bank tellers. The stereotypical bank teller is not a feminist activist, and adding that detail to the description makes for a more coherent story.
+
+The twist comes in the judgments of likelihood because there is a logical relation between the two scenarios. Think in terms of Venn diagrams. The set of feminist bank tellers is wholly included in the set of bank tellers, as every feminist bank teller is also a bank teller. Therefore, the probability that Linda is a feminist bank teller must be lower than the probability of her being a bank teller. When you specify a possible event in greater detail, you can only lower its probability. The problem therefore sets up a conflict between the intuition of representativeness and the logic of probability.
+
+Our initial experiment was between-subjects. Each participant saw a set of seven outcomes that included only one of the critical items (bank teller” or “feminist bank teller”). Some ranked the outcomes by resemblance, others by likelihood. As in the case of Tom W, the average rankings by resemblance and by likelihood were identical; “feminist bank teller” ranked higher than “bank teller” in both.
+
+Then we took the experiment further, using a within-subject design. We made up the questionnaire as you saw it, with “bank teller” in the sixth position in the list and “feminist bank teller” as the last item. We were convinced that subjects would notice the relation between the two outcomes, and that their rankings would be consistent with logic. Indeed, we were so certain of this that we did not think it worthwhile to conduct a special experiment. My assistant was running another experiment in the lab, and she asked the subjects to complete the new Linda questionnaire while signing out, just before they got paid.
+
+About ten questionnaires had accumulated on my assistant’s desk before I casually glanced at them and found that all the subjects had ranked “feminist bank teller” as more probable than “bank teller.” I was so surprised that I still retain a “flashbulb memory” of the gray color of the metal desk and of where everyone was when I made that discovery. I quickly called Amos in great excitement to tell him what we had found: we had pitted logic against representativeness, and representativeness had won!
+
+In the language of this book, we observed a failure of System 2: our participants had a fair opportunity to detect the relevance of the logical rule, since both outcomes were included in the same ranking. They did not take advantage of that opportunity. When we extended the experiment, we found that 89% of the undergraduates in our sample violated the logic of probability. We were convinced that statistically sophisticated respondents would do better, so we administered the same questionnaire to doctoral students in the decision-science program of the Stanford Graduate School of Business, all of whom had taken several advanced courses in probability, statistics, and decision theory. We were surprised again: 85% of these respondents also ranked “feminist bank teller” as more likely than “bank teller.”
+
+In what we later described as “increasingly desperate” attempts to eliminate the error, we introduced large groups of people to Linda and asked them this simple question:
+
+Which alternative is more probable?
+Linda is a bank teller.
+Linda is a bank teller and is active in the feminist movement.
+
+This stark version of the problem made Linda famous in some circles, and it earned us years of controversy. About 85% to 90% of undergraduates at several major universities chose the second option, contrary to logic. Remarkably, the sinners seemed to have no shame. When I asked my large undergraduate class in some indignation, "Do you realize that you have violated an elementary logical rule?" someone in the back row shouted, "So what?" and a graduate student who made the same mistake replied, "I’m just following my instincts."

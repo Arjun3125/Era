@@ -1,0 +1,43 @@
+{
+  "domain": "Mental Well-being",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "3770dca3-9626-4f82-8297-8cf5f0f44e33",
+      "text": "{'domain': 'Mental Well-being', 'rule': 'Consciously reflect on your inner state daily to manage anxieties.', 'generalized': \"Regularly examine one's thoughts and feelings is essential for emotional regulation.\"}",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d13ee3e6-4745-459b-a446-8bf54388ee21",
+      "text": "{'domain': 'Communication & Relationships', 'rule': 'Listen attentively and respond thoughtfully to those who depend on you.', 'generalized': 'When offering support or guidance, ensure active listening and considerate response.'}",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c64035a4-4964-40c9-88fc-5ac06f9b2f65",
+      "text": "{'domain': 'Creative Process', 'rule': 'Avoid rushing creative work; the quality of the output suffers when haste replaces careful consideration.', 'generalized': 'Creative endeavors thrive on deliberate pacing and attention to detail; haste compromises quality.'}",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 8
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-12T13:18:42.311851Z",
+    "aggregated_from": [
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 8
+      }
+    ]
+  }
+}

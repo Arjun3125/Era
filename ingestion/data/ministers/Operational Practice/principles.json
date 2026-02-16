@@ -1,0 +1,34 @@
+{
+  "domain": "Operational Practice",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "7876c9b0-495e-4aca-9550-db136a32b744",
+      "text": "The analytical approach to personal development is superior to suggestion-based methods.",
+      "source": {
+        "book": "modern-man-in-search-of-a-soul-stages-of-life-1",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0db7be1d-6328-498f-a1ca-621650cec8a9",
+      "text": "Dream interpretation should be patient-centered and collaborative.",
+      "source": {
+        "book": "modern-man-in-search-of-a-soul-stages-of-life-1",
+        "chapter": 5
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T15:10:58.242477Z",
+    "aggregated_from": [
+      {
+        "book": "modern-man-in-search-of-a-soul-stages-of-life-1",
+        "chapter": 5
+      }
+    ]
+  }
+}

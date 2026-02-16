@@ -1,0 +1,56 @@
+{
+  "domain": "Social Interaction",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "b1ff2f95-9cc7-4af5-9c9e-897ee48e27b4",
+      "text": "Alcoholism erodes personal dignity and leads to financial ruin",
+      "source": {
+        "book": "Crime",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "63c5c49c-34f4-4679-905a-2c2e76b216d6",
+      "text": "Financial mismanagement can lead to loss of social status",
+      "source": {
+        "book": "Crime",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c3b31622-0f29-49ec-a59d-e8ac288d6c25",
+      "text": "Debt accumulation can lead to chronic stress and limited opportunities",
+      "source": {
+        "book": "Crime",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e0d7c37d-cca1-4f5d-b120-ae2b5e463675",
+      "text": "Procrastination due to anxiety may prevent necessary growth",
+      "source": {
+        "book": "Crime",
+        "chapter": 2
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 4,
+    "last_updated": "2026-02-13T05:32:31.790084Z",
+    "aggregated_from": [
+      {
+        "book": "Crime",
+        "chapter": 4
+      },
+      {
+        "book": "Crime",
+        "chapter": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "domain": "investing",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "5896d08f-8b9b-4619-b16b-996a2ca782c9",
+      "text": "Lack of financial planning can lead to asset loss or insecurity",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "774fc844-0fea-4695-9412-1a637127d4b7",
+      "text": "Unallocated savings can lead to missed opportunities.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "71c71ae2-d528-4e86-b66a-e6958c9b6bbd",
+      "text": "Misguided investments can result in financial loss or stagnation.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 5
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-14T19:55:37.066105Z",
+    "aggregated_from": [
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "domain": "constraint",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "87c6a721-cbbd-410d-b9bc-27a131eb9979",
+      "text": "Delaying necessary actions can lead to stagnation.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bbd3b9ab-27b9-4244-af55-8d7770767151",
+      "text": "Inaction in the face of risk can result in financial decline.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 22
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T19:44:24.585750Z",
+    "aggregated_from": [
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 22
+      }
+    ]
+  }
+}

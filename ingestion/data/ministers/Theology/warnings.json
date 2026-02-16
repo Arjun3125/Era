@@ -1,0 +1,34 @@
+{
+  "domain": "Theology",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "40ef821b-4714-4069-8bbe-e4031e845b98",
+      "text": "Fragmentation of knowledge across disciplines leads to superficial understanding",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0d294aaf-b245-412f-ac23-08536ec72ffd",
+      "text": "Neglecting the synthesis of psychological and theological perspectives risks incomplete comprehension of human existence",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 2
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T13:42:59.261227Z",
+    "aggregated_from": [
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 2
+      }
+    ]
+  }
+}

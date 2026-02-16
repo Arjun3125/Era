@@ -1,0 +1,78 @@
+{
+  "domain": "Productivity",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "220d7f42-f9df-453b-9b91-793c6dd43512",
+      "text": "Unclear communication during delegation can lead to project failure.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b147525f-4d5b-415e-81a4-805351dfcdab",
+      "text": "Neglecting to treat people with respect can hinder professional and personal success.",
+      "source": {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e7f0f3e3-57c3-4df6-a156-1081779d3bdb",
+      "text": "Neglecting small tasks leads to accumulation and overwhelm.",
+      "source": {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8910736f-5a5d-45d2-a926-9f95c7f2d026",
+      "text": "Waiting on immediate tasks prevents momentum and wastes time.",
+      "source": {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 27
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f8b4530e-5eaa-498f-8033-26243fd46658",
+      "text": "Untracked activities prevent improvement and waste time",
+      "source": {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 25
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0afb79e3-cb88-48c8-8f76-c928b268ca02",
+      "text": "Excessive tasks reduce focus on valuable activities",
+      "source": {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 25
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 6,
+    "last_updated": "2026-02-13T12:25:58.360024Z",
+    "aggregated_from": [
+      {
+        "book": "No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy",
+        "chapter": 47
+      },
+      {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 27
+      },
+      {
+        "book": "_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset",
+        "chapter": 25
+      }
+    ]
+  }
+}

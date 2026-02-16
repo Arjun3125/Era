@@ -1,0 +1,43 @@
+{
+  "domain": "Behavioral Finance",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "ddb5fefd-85bf-424e-a81c-cc04b3abf2af",
+      "text": "Consistent saving is foundational to wealth accumulation",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a11e0d93-5a35-4e69-a83e-0e24a95ac8af",
+      "text": "Financial success comes from behavioral patterns, not intelligence alone",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "63b9fba8-4f15-4252-84a0-a6b744d98e70",
+      "text": "Emotional control is crucial for sound financial decision-making",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 5
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T09:33:15.464820Z",
+    "aggregated_from": [
+      {
+        "book": "The_Psychology_of_Money",
+        "chapter": 5
+      }
+    ]
+  }
+}

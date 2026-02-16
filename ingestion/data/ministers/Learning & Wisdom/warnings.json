@@ -1,0 +1,34 @@
+{
+  "domain": "Learning & Wisdom",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "72d57802-3bf8-42e6-a240-c546dac16e43",
+      "text": "Over-specialization can lead to loss of broader perspective.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 39
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "690909d2-016c-4339-9bc6-0bc10b7977b5",
+      "text": "Institutions may actively suppress authentic voices through filtering mechanisms.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 39
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T10:52:38.905796Z",
+    "aggregated_from": [
+      {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 39
+      }
+    ]
+  }
+}

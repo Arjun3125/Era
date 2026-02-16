@@ -1,0 +1,18 @@
+Phase 3.5 error: Extra data: line 10946 column 6 (char 318244)
+Traceback (most recent call last):
+  File "C:\era\ingestion\v2\src\ingest_pipeline.py", line 562, in run_full_ingest_with_resume
+    update_combined_vector_index(data_root=data_root)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\era\ingestion\v2\src\minister_converter.py", line 306, in update_combined_vector_index
+    category_data = json.load(f)
+  File "C:\Python314\Lib\json\__init__.py", line 298, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Python314\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Python314\Lib\json\decoder.py", line 348, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 10946 column 6 (char 318244)

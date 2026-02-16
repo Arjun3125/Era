@@ -1,0 +1,25 @@
+{
+  "domain": "Influence",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "e379f7a4-e261-4489-99a9-6f42224eb2b9",
+      "text": "Psychologists understand compliance principles well",
+      "source": {
+        "book": "The Psychology of Persuasion",
+        "chapter": 2
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 1,
+    "last_updated": "2026-02-13T08:54:08.326459Z",
+    "aggregated_from": [
+      {
+        "book": "The Psychology of Persuasion",
+        "chapter": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "Risk Management",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "9f71a555-0c93-41db-89d7-65f336f760a5",
+      "text": "Do not risk what you need for what you don't have.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e1885adf-ce18-4fcb-962c-2a7db9429813",
+      "text": "Be mindful of your financial limits and avoid the illusion of endless wealth.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 13
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "afbe8b36-d149-4d3e-af5a-07baa00791d3",
+      "text": "Prioritize financial stability over aggressive growth when necessary.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 13
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T09:33:15.984260Z",
+    "aggregated_from": [
+      {
+        "book": "The_Psychology_of_Money",
+        "chapter": 13
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "domain": "Philosophical Inquiry",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "f883bafb-4873-4e85-a4c0-65b6ccba85f2",
+      "text": "The greater good can justify individual sacrifice.",
+      "source": {
+        "book": "Crime",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "55986dc5-f7f5-412f-a9ee-c5540a007d9b",
+      "text": "Life should be valued based on its potential for societal contribution.",
+      "source": {
+        "book": "Crime",
+        "chapter": 11
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T05:32:32.412585Z",
+    "aggregated_from": [
+      {
+        "book": "Crime",
+        "chapter": 11
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "domain": "Social Influence",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "49e2f088-85f6-4dbd-9a60-147a068f95a2",
+      "text": "It can be difficult to resist the force of the gift once given.",
+      "source": {
+        "book": "The Psychology of Persuasion",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "366cc4a5-bdc2-44fb-8dae-b2cb7c96a18c",
+      "text": "Awareness of the tactic reduces its effectiveness over time.",
+      "source": {
+        "book": "The Psychology of Persuasion",
+        "chapter": 7
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T08:54:08.259900Z",
+    "aggregated_from": [
+      {
+        "book": "The Psychology of Persuasion",
+        "chapter": 7
+      }
+    ]
+  }
+}

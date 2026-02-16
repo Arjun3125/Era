@@ -1,0 +1,34 @@
+{
+  "domain": "emergency response",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "8faf49af-0a6c-4d86-b701-3c191f7bd445",
+      "text": "Fire behavior is influenced by terrain (e.g., uphill slopes increase fire speed).",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e19d06c3-fefc-4951-ae3f-8cba15043f32",
+      "text": "Resourcefulness involves using available materials creatively for immediate survival.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 5
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T21:29:40.983407Z",
+    "aggregated_from": [
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 5
+      }
+    ]
+  }
+}

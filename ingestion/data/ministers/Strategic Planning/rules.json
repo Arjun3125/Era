@@ -1,0 +1,34 @@
+{
+  "domain": "Strategic Planning",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "b3f09e15-7316-4aeb-95f0-23f381117fab",
+      "text": "Build foundational skills before pursuing major goals",
+      "source": {
+        "book": "Summary-of-SGTCIY-pdf",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9741ea54-e2ef-4f16-9666-4dae1397457e",
+      "text": "Cash in professional capital for increased control and flexibility",
+      "source": {
+        "book": "Summary-of-SGTCIY-pdf",
+        "chapter": 4
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T06:23:37.686030Z",
+    "aggregated_from": [
+      {
+        "book": "Summary-of-SGTCIY-pdf",
+        "chapter": 4
+      }
+    ]
+  }
+}

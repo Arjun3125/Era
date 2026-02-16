@@ -1,0 +1,34 @@
+{
+  "domain": "Existential",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "37a9ad02-6177-49b7-99d3-9c51d7f777e3",
+      "text": "Ignoring the reality of death leads to a life lived inauthenticity",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5eec7d78-31c4-430e-a13d-2c6b30aa618d",
+      "text": "Persistent denial of mortality can result in existential despair",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 7
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T13:42:58.738569Z",
+    "aggregated_from": [
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 7
+      }
+    ]
+  }
+}

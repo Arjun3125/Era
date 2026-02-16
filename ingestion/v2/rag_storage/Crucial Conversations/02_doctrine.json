@@ -1,0 +1,2410 @@
+[
+  {
+    "chapter_index": 1,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Effective communication builds and maintains relationships."
+    ],
+    "rules": [
+      "Practice active listening and clear expression in high-stakes conversations."
+    ],
+    "claims": [
+      "Crucial conversations improve organizational outcomes."
+    ],
+    "warnings": [
+      "Neglecting communication skills can lead to relationship breakdown."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0058,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 2,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "strategy"
+    ],
+    "principles": [
+      "Stay focused on core desires during interactions",
+      "Address underlying concerns promptly to maintain progress"
+    ],
+    "rules": [
+      "Engage with diverse perspectives to avoid misunderstandings",
+      "Establish clear communication norms to facilitate collaboration"
+    ],
+    "claims": [
+      "Effective dialogue can transform challenges into opportunities"
+    ],
+    "warnings": [
+      "Failure to address emotional barriers can derail constructive conversations"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0259,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 3,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "conflict",
+      "psychology"
+    ],
+    "principles": [
+      "Success in handling challenges depends on continuous adaptation to evolving circumstances.",
+      "Crucial conversations are essential for navigating high-stakes decisions and shaping outcomes."
+    ],
+    "rules": [
+      "Always assess and adapt responses to new levels of challenge to avoid failure.",
+      "Maintain flexibility in communication strategies during emotionally charged situations to ensure effective decision-making."
+    ],
+    "claims": [
+      "Crucial conversations play a pivotal role in defining life and career trajectories.",
+      "Adapting to higher-level challenges prevents the failure of previously successful approaches."
+    ],
+    "warnings": [
+      "Relying on past successes without adaptation can lead to failure when challenges evolve.",
+      "In emotionally charged conversations, inadequate preparation can result in suboptimal decisions."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0335,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 4,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "diplomacy",
+      "strategy"
+    ],
+    "principles": [
+      "Collaborative solutions yield better outcomes than individual approaches.",
+      "Genuine dialogue creates deeper connections and understanding."
+    ],
+    "rules": [
+      "Ensure active listening and clear expression in conversations.",
+      "Balance intellectual and emotional intelligence during crucial discussions."
+    ],
+    "claims": [
+      "Effective dialogue enables breakthroughs from past mistakes.",
+      "Synergy emerges from genuine collaboration rather than individual contributions."
+    ],
+    "warnings": [
+      "Failure to adapt dialogue approaches may perpetuate mediocrity.",
+      "Unclear communication can lead to misalignment and implementation challenges."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0128,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 5,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Effective communication in high-stakes situations requires emotional regulation.",
+      "Facing challenges directly establishes a pattern of effective behavior in all interactions."
+    ],
+    "rules": [
+      "When opinions vary and emotions run strong, pause and take a deep breath before responding.",
+      "Crucial conversations are defined by high stakes, differing opinions, and strong emotions.",
+      "Prefer face-to-face communication over indirect methods (e.g., email) for important discussions."
+    ],
+    "claims": [
+      "Avoiding crucial conversations leads to negative outcomes in personal and professional life.",
+      "Emotional intensity in conversations can alter the course of daily routines and relationships."
+    ],
+    "warnings": [
+      "Poor handling of crucial conversations reinforces ineffective communication patterns.",
+      "Unclear delegation or indirect communication can exacerbate conflicts in high-stakes settings."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0047,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 6,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Emotions significantly influence outcomes in high-stakes discussions.",
+      "Open communication is foundational for resolving issues effectively"
+    ],
+    "rules": [
+      "Address crucial conversations promptly to prevent escalation.",
+      "Express controversial opinions clearly while maintaining respect"
+    ],
+    "claims": [
+      "Mastering crucial conversations directly enhances professional influence and organizational health",
+      "Strong relationships and organizational success depend on effective communication"
+    ],
+    "warnings": [
+      "Unresolved conflicts can spiral into self-defeating cycles",
+      "Poor communication in crucial conversations risks damaging relationships and professional opportunities"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0031,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 7,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "risk"
+    ],
+    "principles": [
+      "Effective communication is fundamental to personal well-being and longevity"
+    ],
+    "rules": [
+      "Consistent practice of crucial conversations improves health outcomes"
+    ],
+    "claims": [
+      "Mastering crucial conversations significantly reduces mortality rates in certain health conditions"
+    ],
+    "warnings": [
+      "Neglecting high-stakes discussions can weaken the immune system and increase mortality"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0128,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 8,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Emotional suppression can lead to long-term negative effects on health and well-being.",
+      "Dialogue is a powerful tool for influencing various aspects of life."
+    ],
+    "rules": [
+      "Clarify all points and unsupported reasoning in conversations to avoid misunderstandings.",
+      "Handle crucial conversations with patience to mitigate risks of failure."
+    ],
+    "claims": [
+      "Mastering crucial conversations can significantly impact personal and professional domains.",
+      "Effective communication skills can be learned and applied to improve outcomes in various settings."
+    ],
+    "warnings": [
+      "Failing to address crucial conversations can result in severe personal and professional consequences.",
+      "Ignoring emotional pain from conversations may lead to compounded negative health effects."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0115,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 9,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "power",
+      "risk"
+    ],
+    "principles": [
+      "Open communication enhances decision-making by pooling diverse perspectives.",
+      "Handling disagreements directly builds trust and improves outcomes in high-stakes situations."
+    ],
+    "rules": [
+      "Ensure all relevant information is shared openly to avoid groupthink.",
+      "Admit mistakes promptly to foster a culture of candor and continuous improvement.",
+      "Prioritize the free exchange of ideas before finalizing decisions to mitigate risks."
+    ],
+    "claims": [
+      "Effective dialogue can be developed as a learnable skill for better communication.",
+      "The size of the shared meaning pool directly correlates with the quality of group decisions."
+    ],
+    "warnings": [
+      "Withholding information in crucial conversations can lead to catastrophic errors.",
+      "Fear of power dynamics may suppress honest feedback, increasing the likelihood of poor outcomes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.007,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 10,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "risk"
+    ],
+    "principles": [
+      "Shared understanding enhances collaboration and decision effectiveness by aligning perspectives."
+    ],
+    "rules": [
+      "Include all stakeholders in conversations to ensure buy-in and commitment to decisions.",
+      "Develop dialogue skills through continuous practice and observation to handle high-stakes interactions."
+    ],
+    "claims": [
+      "Dialogue skills are learnable and can be acquired through structured methods and observation."
+    ],
+    "warnings": [
+      "Ineffective communication and lack of shared meaning can lead to passive resistance, project failures, and repeated decision-making cycles.",
+      "Failing to address emotions and varying opinions in high-stakes discussions may result in unresolved conflicts and suboptimal outcomes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0062,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 11,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "diplomacy",
+      "optionality"
+    ],
+    "principles": [
+      "Self-awareness and self-reflection are fundamental to effective communication in resolving disputes.",
+      "Maintaining focus and clear motives is essential for navigating high-stakes interactions."
+    ],
+    "rules": [
+      "Prioritize personal improvement and self-assessment before engaging in critical discussions.",
+      "Always consider dialogue as an option, avoiding binary choices that limit outcomes."
+    ],
+    "claims": [
+      "Dialogue skills can be developed and enhanced through consistent practice and self-reflection.",
+      "Individuals have the capacity to change and improve their communication behaviors."
+    ],
+    "warnings": [
+      "Failing to address self-interest first can lead to unproductive conflicts and prolonged resolution times.",
+      "Neglecting self-reflection may result in unhealthy communication patterns and escalated disputes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0024,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 12,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Emotional escalation can distort initial goals from resolution to harm in interpersonal interactions.",
+      "Choosing safety over dialogue can shift focus from collaborative problem-solving to avoidance."
+    ],
+    "rules": [
+      "Prioritize honest communication in conflict to prevent escalation and maintain shared objectives.",
+      "Evaluate risks before opting for silence to avoid perpetuating unresolved issues."
+    ],
+    "claims": [
+      "Anger can impair rational decision-making by amplifying personal stakes in disputes."
+    ],
+    "warnings": [
+      "Ignoring early signs of emotional escalation may lead to damaged relationships and ongoing conflicts.",
+      "Avoiding dialogue to ensure safety can result in unresolved problems and continued stagnation."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0225,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 13,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "optionality",
+      "psychology"
+    ],
+    "principles": [
+      "Effective communication relies on creative thinking to resolve conflicts.",
+      "Dialogue is built on honesty and mutual respect to achieve desired outcomes."
+    ],
+    "rules": [
+      "When confronted with a dilemma, actively search for a third option that combines competing interests.",
+      "Prioritize clarity on desired results before engaging in any conversation to avoid missteps."
+    ],
+    "claims": [
+      "Sucker's Choices are common in human interactions and represent false dichotomies.",
+      "There exists viable alternatives to Sucker's Choices that promote productive dialogue."
+    ],
+    "warnings": [
+      "Neglecting Sucker's Choices can lead to repetitive unhealthy communication patterns.",
+      "Failing to clarify motives in conflicts may result in unproductive stalemates."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0055,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 14,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "optionality",
+      "strategy"
+    ],
+    "principles": [
+      "Avoid artificial constraints by recognizing false dichotomies.",
+      "Define complete requirements to solve problems holistically"
+    ],
+    "rules": [
+      "Identify and challenge artificial constraints in decision-making.",
+      "Break constraints by reframing problems to include multiple elements.",
+      "Clarify requirements before searching for solutions"
+    ],
+    "claims": [
+      "Artificial constraints exist in decision-making"
+    ],
+    "warnings": [
+      "Ignoring artificial constraints leads to internal conflict"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0787,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 15,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Understanding human behavior and motivations is crucial for effective communication.",
+      "Observing non-verbal cues and conversation dynamics provides insight into underlying issues."
+    ],
+    "rules": [
+      "Always monitor both the content and the conditions during crucial conversations.",
+      "Actively examine the 'why' behind people's reactions and behaviors in discussions."
+    ],
+    "claims": [
+      "Self-awareness is not common in individuals.",
+      "Defensiveness can be triggered by perceived pushback or aggressive communication."
+    ],
+    "warnings": [
+      "Failing to notice early warning signs in conversations can lead to escalation and failure.",
+      "Pushing a point too hard without considering others' perspectives can create defensiveness."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0155,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 16,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Proactive monitoring of context prevents escalation in high-stakes situations.",
+      "Dual-processing (simultaneously attending to content and conditions) is essential for effective outcomes."
+    ],
+    "rules": [
+      "Identify physical/emotional/behavioral cues during crucial conversations to initiate corrective actions.",
+      "Prioritize recognizing conversation escalation signs before emotional responses dominate."
+    ],
+    "claims": [
+      "Crucial conversations can be identified through observable physical, emotional, or behavioral indicators."
+    ],
+    "warnings": [
+      "Failure to recognize and address conversation escalation early can lead to irreversible damage.",
+      "Neglecting contextual awareness during high-stakes discussions may result in miscommunication and failed outcomes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0102,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 17,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Recognize that fear restricts effective communication.",
+      "Maintain a safe environment to foster open dialogue."
+    ],
+    "rules": [
+      "Watch for signs of fear in others to identify unsafe conversations.",
+      "Intervene early when safety is compromised to restore dialogue."
+    ],
+    "claims": [
+      "Fear narrows peripheral vision and limits perception.",
+      "Trust in others' motives creates a safe space for feedback absorption."
+    ],
+    "warnings": [
+      "Misinterpreting silence or violence as the issue may escalate conflict.",
+      "Allowing unsafe conversations reduces the ability to see beyond immediate points."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0036,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 18,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "optionality",
+      "strategy"
+    ],
+    "principles": [
+      "Effective communication requires ongoing self-assessment during conversations.",
+      "Understand that dialogue dynamics change based on the other party's responses."
+    ],
+    "rules": [
+      "Always begin discussions with observable facts rather than conclusions.",
+      "Adapt your approach based on real-time feedback from participants.",
+      "When anticipating resistance, offer specific examples to support your viewpoint.",
+      "When providing feedback, create safe speaking conditions for the recipient."
+    ],
+    "claims": [
+      "Individuals can develop heightened awareness of their conversational patterns.",
+      "Behavioral styles under stress can be measured and improved through self-assessment."
+    ],
+    "warnings": [
+      "Escalating arguments without considering impact can damage relationships.",
+      "Failing to adapt to conversational dynamics leads to ineffective outcomes.",
+      "Blaming others for conversational breakdowns prevents necessary self-reflection."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0081,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 19,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "discipline",
+      "psychology"
+    ],
+    "principles": [
+      "Behavioral adaptability can be developed through intentional effort and experience.",
+      "Skills are not fixed traits but can be cultivated over time."
+    ],
+    "rules": [
+      "Conduct regular self-assessments to identify and address areas of weakness in behavior.",
+      "Prioritize practice and application of learned skills to achieve behavioral change."
+    ],
+    "claims": [
+      "Assessment tools accurately reflect current behavioral patterns and their potential for modification."
+    ],
+    "warnings": [
+      "Inconsistent application of learned strategies may lead to sustained negative outcomes in high-stress situations."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0293,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 20,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "data",
+      "risk"
+    ],
+    "principles": [
+      "Monitor dialogue content and conditions to understand the context.",
+      "Observe for signs of safety issues to maintain productive conversations."
+    ],
+    "rules": [
+      "Identify when conversations become crucial by assessing stress levels.",
+      "Watch for indicators that others are moving toward silence or violence in dialogue."
+    ],
+    "claims": [
+      "Style Under Stress manifests as predictable patterns in communication."
+    ],
+    "warnings": [
+      "Neglecting to observe signs of Style Under Stress leads to escalation of conflict.",
+      "Failing to monitor safety in crucial conversations may result in breakdown of dialogue."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.027,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 21,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "conflict",
+      "discipline"
+    ],
+    "principles": [
+      "Long-term interactions can lead to miscommunication due to familiarity.",
+      "Safety in conversation allows for deeper exploration of topics."
+    ],
+    "rules": [
+      "Step out of conversations to build safety before addressing sensitive topics.",
+      "Assume that arguments may be misinterpreted as mere conversation."
+    ],
+    "claims": [
+      "Foundations of relationships are built on communication, not just shared activities."
+    ],
+    "warnings": [
+      "Prolonged unsafe conversations can prevent addressing delicate topics.",
+      "Misinterpreting disagreements as mere conversation can deepen divides."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0446,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 22,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Effective communication requires addressing underlying emotional safety before discussing content.",
+      "Dialogue thrives when participants feel secure in mutual respect and understanding."
+    ],
+    "rules": [
+      "Step out of the conversation's content to address emotional safety first.",
+      "Prioritize building trust and rapport before tackling sensitive topics."
+    ],
+    "claims": [
+      "Direct, unvarnished dialogue resolves conflicts more effectively than indirect communication.",
+      "Participants in crucial conversations must align on shared objectives to maintain productive dialogue."
+    ],
+    "warnings": [
+      "Ignoring emotional safety indicators leads to escalation of conflicts and breakdown of relationships.",
+      "Inadequate preparation for difficult conversations increases the likelihood of defensiveness and unresolved issues."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0084,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 23,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Shared goals are essential for effective communication.",
+      "Understanding and caring about others' interests is foundational to successful dialogue."
+    ],
+    "rules": [
+      "Assess whether others feel their goals are being considered in the conversation.",
+      "Avoid debate when mutual purpose is unclear; focus on shared outcomes instead."
+    ],
+    "claims": [
+      "Mutual purpose is the necessary condition for productive dialogue.",
+      "Defensiveness and hidden agendas are indicators of a lack of mutual purpose."
+    ],
+    "warnings": [
+      "Unilateral intentions lead to breakdowns in communication.",
+      "Debate, accusations, and circling back occur when mutual purpose is absent."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.023,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 24,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Align personal and others' objectives to foster collaboration.",
+      "Dialogue requires continuous mutual respect to remain productive."
+    ],
+    "rules": [
+      "Assess motives by evaluating impact on self, others, and the relationship.",
+      "Only approach conversations when mutual benefit can be established."
+    ],
+    "claims": [
+      "Respect is essential for maintaining dialogue."
+    ],
+    "warnings": [
+      "Disrespect triggers emotional escalation, leading to failed conversations.",
+      "Selfish motives in communication provoke defensiveness and hostility."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0108,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 25,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Focus on shared similarities to build connection and understanding.",
+      "Maintain dialogue by recognizing the basic humanity in others."
+    ],
+    "rules": [
+      "Step out of the conversation to rebuild safety when respect or purpose is at risk.",
+      "Actively seek common ground to restore mutual respect.",
+      "Employ specific dialogue skills (apologize, contrast, CRIB) to rebuild connections."
+    ],
+    "claims": [
+      "Feelings of disrespect often stem from dwelling on differences.",
+      "Honoring shared humanity can transform even tense conversations."
+    ],
+    "warnings": [
+      "Ignoring violated safety leads to escalating conflict.",
+      "Getting stuck in content without addressing emotional needs prolongs disputes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0072,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 26,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "conflict",
+      "psychology"
+    ],
+    "principles": [
+      "Sincere apologies are foundational to resolving misunderstandings.",
+      "Understanding others' perspectives is essential for effective communication."
+    ],
+    "rules": [
+      "Prioritize offering a sincere apology before addressing the core issue.",
+      "Only proceed with explanation after ensuring the apology has restored safety."
+    ],
+    "claims": [
+      "Sincere apologies can restore safety in crucial conversations."
+    ],
+    "warnings": [
+      "Unresolved misunderstandings can lead to recurring conflicts.",
+      "Inadequate apologies may prolong conversations without resolution."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0225,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 27,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Prioritize safety in conversations to prevent escalation of misunderstandings.",
+      "Rebuild mutual purpose before addressing contentious issues in dialogue."
+    ],
+    "rules": [
+      "Step out of arguments when intentions are misinterpreted to restore safety.",
+      "Use Contrasting to clarify what you do not intend versus what you do intend in communication."
+    ],
+    "claims": [
+      "Contrasting is a technique that ensures communication does not exceed its intended impact by addressing false assumptions."
+    ],
+    "warnings": [
+      "Unaddressed misunderstandings can lead to defensiveness, escalation of conflict, and failed outcomes in dialogue."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0014,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 28,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Emotions are self-generated and can be influenced through individual awareness.",
+      "Small, incremental improvements in communication lead to significant long-term benefits.",
+      "Communication effectiveness hinges on managing personal emotional responses."
+    ],
+    "rules": [
+      "Pause and restore safety in conversations when emotional escalation threatens dialogue.",
+      "Prepare for crucial conversations by identifying and focusing on key skills relevant to the context.",
+      "Prioritize gradual progress over perfection in high-stakes interactions to avoid burnout."
+    ],
+    "claims": [
+      "Emotions are not imposed by external factors but are internally created through cognitive and physiological processes.",
+      "Individuals have complete control over how they respond to emotions, with options to act proactively or reactively."
+    ],
+    "warnings": [
+      "Uncontrolled emotions can derail communication, leading to deteriorated relationships and missed opportunities.",
+      "Neglecting emotional management may result in suppressed emotions resurfacing during conversations, causing setbacks and tension."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0025,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 29,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Emotions are influenced by how individuals interpret and narrate events.",
+      "Self-awareness is foundational for resolving interpersonal issues."
+    ],
+    "rules": [
+      "Assume positive intent from others before assigning blame.",
+      "Verify facts and personal contributions before creating narratives about situations."
+    ],
+    "claims": [
+      "Victim narratives emphasize external causes while downplaying personal responsibility.",
+      "Helpless narratives limit perceived options for change in challenging scenarios."
+    ],
+    "warnings": [
+      "Over-reliance on self-serving stories can lead to recurring failures and unresolved conflicts.",
+      "Ignoring emotional and cognitive biases in conversations may escalate misunderstandings."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0077,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 30,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Self-reflection on personal narratives can clarify underlying motivations and behaviors.",
+      "Understanding how stories shape perceptions can improve decision-making in social interactions."
+    ],
+    "rules": [
+      "Always take responsibility for errors before seeking external justifications.",
+      "Address small issues promptly to prevent them from escalating into larger conflicts."
+    ],
+    "claims": [
+      "Clever stories often distort reality by emphasizing one's own correctness and others' flaws.",
+      "Helpless stories can limit proactive approaches by attributing problems to fixed, unchangeable factors."
+    ],
+    "warnings": [
+      "Ignoring minor failures can lead to increased resentment and unresolved issues in relationships.",
+      "Defensive story-telling may provide short-term comfort but can exacerbate long-term problems."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.008,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 31,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "conflict",
+      "strategy"
+    ],
+    "principles": [
+      "Emotions drive effective dialogue and action.",
+      "Acknowledging one's role is fundamental to resolving issues."
+    ],
+    "rules": [
+      "Identify and challenge incomplete or biased narratives.",
+      "Reframe perspectives to foster empathy and collaboration.",
+      "Systematically address perceived barriers to dialogue."
+    ],
+    "claims": [
+      "Dialogue effectiveness is directly influenced by emotional state.",
+      "Incomplete narratives lead to defensive and hurtful communication."
+    ],
+    "warnings": [
+      "Selective perception can lead to misattributing responsibility.",
+      "Unexamined narratives risk damaging relationships and collaboration.",
+      "Over-reliance on self-justification prevents effective problem-solving."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0079,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 32,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Emotional regulation is essential for effective communication.",
+      "Self-awareness improves decision-making in interpersonal interactions."
+    ],
+    "rules": [
+      "Question personal assumptions to avoid biased interpretations.",
+      "Identify and address emotions before proceeding with dialogue."
+    ],
+    "claims": [
+      "People in crucial conversations often have positive intentions.",
+      "Emotions can influence behavior and perception in interactions."
+    ],
+    "warnings": [
+      "Unmanaged emotions can lead to unresolved conflicts and negative outcomes.",
+      "Inadequate preparation may result in miscommunication and failed resolutions."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0109,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 33,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Effective communication in high-stakes conversations requires balancing candor with respect.",
+      "Emotional intelligence is crucial for navigating delicate discussions."
+    ],
+    "rules": [
+      "Maintain confidence, humility, and skill when sharing sensitive information.",
+      "Use a structured approach to blend confidence, humility, and communication skill for better outcomes in difficult conversations."
+    ],
+    "claims": [
+      "Three key ingredients (confidence, humility, skill) can be combined to facilitate honest dialogue without causing offense."
+    ],
+    "warnings": [
+      "Inadequate handling of sensitive conversations can lead to relationship damage.",
+      "Fear-driven communication often results in under-articulating opinions and stifling dialogue."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0074,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 34,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "data",
+      "psychology"
+    ],
+    "principles": [
+      "Sustained suspicion without verification can undermine trust and dialogue."
+    ],
+    "rules": [
+      "Communicate concerns using specific, verifiable evidence to facilitate resolution.",
+      "When addressing suspicion, focus on shared goals rather than personal accusations."
+    ],
+    "claims": [
+      "Quantifiable evidence can fuel suspicion even when context is missing."
+    ],
+    "warnings": [
+      "Unverified suspicion can escalate conflict and impede resolution.",
+      "Over-reliance on limited evidence may lead to misinterpretation."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0201,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 35,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "data",
+      "psychology"
+    ],
+    "principles": [
+      "Dialogue and respect are essential for resolving conflicts effectively.",
+      "Facts provide a foundation for building trust and rational persuasion."
+    ],
+    "rules": [
+      "Begin crucial conversations with observable facts to establish a safe and respectful dialogue.",
+      "Share stories tentatively to avoid imposing interpretations and allow for collaborative exploration."
+    ],
+    "claims": [
+      "Factsنى are less controversial and more persuasive than subjective conclusions or judgments."
+    ],
+    "warnings": [
+      "Hasty conclusions or jumping to interpretations can lead to defensiveness, self-destructive outcomes, and failed communication.",
+      "Starting conversations with stories or assumptions without grounding in facts may result in misunderstandings and conflict escalation."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.003,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 36,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "data",
+      "psychology"
+    ],
+    "principles": [
+      "Use tentative language to foster open dialogue and encourage others to challenge ideas.",
+      "Balance confidence and humility in communication to build trust and reduce defensiveness."
+    ],
+    "rules": [
+      "Always invite differing opinions using open-ended questions to ensure comprehensive understanding.",
+      "Share information with conditional language (e.g., 'In my opinion') rather than absolute statements to invite refinement."
+    ],
+    "claims": [
+      "Tentative communication can increase influence by making it safe for others to offer counterpoints.",
+      "Dialogue helps in verifying the accuracy and relevance of shared information by incorporating diverse perspectives."
+    ],
+    "warnings": [
+      "Being overly forceful in communication may reduce persuasiveness and lead to resistance from listeners.",
+      "Insufficient invitation of opinions can result in untested assumptions and incomplete decision-making."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0069,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 37,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Communicate uncertainty to build shared understanding and avoid confrontation",
+      "Adapt communication style based on the situation to foster collaboration"
+    ],
+    "rules": [
+      "Base opinions on evidence and share them tentatively in disagreements",
+      "Avoid forcefully pushing personal views when emotions are high"
+    ],
+    "claims": [
+      "Truth is a duty to be actively defended against opposing views"
+    ],
+    "warnings": [
+      "Emotional escalation can lead to miscommunication and breakdown in relationships",
+      "Overly assertive communication may result in no one listening or agreeing"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0111,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 38,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Effective persuasion requires active listening.",
+      "Communication should focus on shared understanding rather than winning arguments.",
+      "Emotional control is essential for productive dialogue."
+    ],
+    "rules": [
+      "Adjust communication style when encountering resistance.",
+      "Share perspectives tentatively to encourage open dialogue.",
+      "Prioritize relationship preservation over immediate conviction."
+    ],
+    "claims": [
+      "Emotions can hinder rational discussion.",
+      "Passion may contradict its own goals when expressed forcefully."
+    ],
+    "warnings": [
+      "Forcing opinions may lead to defensive responses.",
+      "Excessive advocacy can create resistance and damage relationships."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0099,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 39,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Prioritize safety to foster open communication",
+      "Emotions can be managed through patience and understanding"
+    ],
+    "rules": [
+      "Always invite others to share their thoughts and feelings when seeking dialogue",
+      "Approach emotional responses with genuine curiosity rather than defensiveness"
+    ],
+    "claims": [
+      "Emotional responses are influenced by physiological factors that linger after thoughts change"
+    ],
+    "warnings": [
+      "Overreacting to others' stories can pull you into your own narrative, hindering effective communication",
+      "Assigning negative motives to shared experiences may escalate conflicts"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0054,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 40,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Understand the other party's perspective before responding."
+    ],
+    "rules": [
+      "Step out of interactions to allow others to share their complete story.",
+      "Encourage others to articulate their thoughts and observations to resolve conflicts."
+    ],
+    "claims": [
+      "Crucial conversations can be frustrating due to misunderstandings."
+    ],
+    "warnings": [
+      "Defensive reactions in crucial conversations can escalate conflicts."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0088,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 41,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Creating a safe environment encourages open dialogue.",
+      "Active listening validates emotions and facilitates understanding."
+    ],
+    "rules": [
+      "Invite others to express themselves using clear, non-confrontational language.",
+      "Maintain a calm tone when paraphrasing to avoid defensiveness."
+    ],
+    "claims": [
+      "Structured listening techniques (AMPP) can resolve communication breakdowns."
+    ],
+    "warnings": [
+      "Unaddressed emotional triggers may escalate conflicts if not mirrored or acknowledged."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0021,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 42,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "power",
+      "strategy"
+    ],
+    "principles": [
+      "Focus on areas of agreement before addressing disagreements.",
+      "Address minor differences constructively to avoid escalation.",
+      "Be aware of how training shapes conflict resolution behaviors."
+    ],
+    "rules": [
+      "Always start discussions by identifying areas of agreement.",
+      "Address minor disagreements immediately to prevent escalation.",
+      "Avoid turning agreements into debates by focusing on differences first."
+    ],
+    "claims": [
+      "People are trained from an early age to look for errors in others' statements.",
+      "Skilled dialogue avoids turning agreements into debates.",
+      "The desire to be right can override the need for constructive dialogue."
+    ],
+    "warnings": [
+      "Starting with disagreements may escalate conflicts.",
+      "Minor differences can become major issues if not addressed properly.",
+      "Overly focusing on being right can undermine collaborative dialogue."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0379,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 43,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Focus on shared understanding to build collaborative outcomes",
+      "Dialogue is essential for effective decision-making"
+    ],
+    "rules": [
+      "Always invite others to compare perspectives before concluding",
+      "Clarify decision-making processes to avoid misunderstandings",
+      "Address incomplete information by expanding on agreements"
+    ],
+    "claims": [
+      "Collaborative dialogue leads to better outcomes than debate",
+      "Unclear decision-making processes hinder action"
+    ],
+    "warnings": [
+      "Unclear expectations about decision-making can lead to conflict",
+      "Unresolved differences can create unhealthy relationships"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0092,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 44,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "constraints",
+      "power"
+    ],
+    "principles": [
+      "Decision-making processes should be established upfront to prevent stagnation and ambiguity.",
+      "Leadership entails defining and delegating authority to avoid operational inefficiencies."
+    ],
+    "rules": [
+      "Clarify decision-making methods and authority before engaging in dialogue or action.",
+      "When authority is clear, leaders must prescribe specific decision-making protocols for subordinates or others."
+    ],
+    "claims": [
+      "There are multiple standard methods for making decisions, including command, consult, facilitate, and random approaches."
+    ],
+    "warnings": [
+      "Unclear decision authority can lead to disputes and escalate to adversarial resolutions, such as legal battles.",
+      "Failing to separate dialogue from decision-making may result in prolonged indecision and unresolved conflicts."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0106,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 45,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Choose decision-making methods based on context and stakes.",
+      "Balance involvement with efficiency to achieve quality outcomes."
+    ],
+    "rules": [
+      "Use voting when efficiency is prioritized and consensus is not required.",
+      "Employ consensus for high-stakes, complex issues or when universal support is essential."
+    ],
+    "claims": [
+      "Different decision-making methods can yield high-quality outcomes when appropriately applied.",
+      "Effective decision-making involves selecting from multiple approaches based on specific criteria."
+    ],
+    "warnings": [
+      "Misusing consensus can lead to excessive time consumption.",
+      "Failing to include necessary stakeholders can result in resistance to decisions."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0097,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 46,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "optionality",
+      "risk"
+    ],
+    "principles": [
+      "Effective decision-making involves empowering others by allowing autonomy where expertise exists.",
+      "Communication strategies should foster transparency to build trust and understanding."
+    ],
+    "rules": [
+      "When issuing directives, always provide clear reasons to facilitate compliance and reduce resistance.",
+      "In consultation, communicate decision authority explicitly to avoid misunderstandings about involvement.",
+      "Use voting only when options are clear and losers are unlikely to be affected significantly."
+    ],
+    "claims": [
+      "Employee or stakeholder involvement in decisions enhances their engagement and leverages contextual knowledge.",
+      "Decision-making processes that incorporate diverse perspectives improve information gathering and outcomes."
+    ],
+    "warnings": [
+      "Restricting decision freedom without justification can lead to decreased motivation and conflicts.",
+      "Inadequate explanation for decisions may result in resistance, blame, and prolonged disputes.",
+      "Improper voting without considering losers' perspectives can create winners and losers, leading to sustained conflict."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0106,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 47,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "constraints"
+    ],
+    "principles": [
+      "Effective decision-making relies on open communication and thorough analysis to build consensus."
+    ],
+    "rules": [
+      "Avoid using voting as the primary method for resolving group decisions when dialogue can be employed.",
+      "Only apply consensus-based approaches to decisions where all parties are affected and agreement is necessary."
+    ],
+    "claims": [
+      "Consensus decision-making enhances group buy-in and support for outcomes."
+    ],
+    "warnings": [
+      "Forcing consensus without genuine participation can lead to breakdowns in group dynamics.",
+      "Lack of patience in decision-making may result in superficial agreements and unresolved conflicts."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0194,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 48,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Effective decision-making prioritizes group welfare over individual preferences.",
+      "Collaborative processes involve mutual compromise and give-and-take."
+    ],
+    "rules": [
+      "Decisions should be based on objective merits rather than the sequence of proposals.",
+      "Avoid轮流 getting one's way; base choices on what best serves the collective."
+    ],
+    "claims": [
+      "Some situations necessitate authoritative, non-consensual decision-making."
+    ],
+    "warnings": [
+      "Postdecision lobbying undermines group efficiency and loyalty by fostering disloyalty.",
+      "Fair-weather members can damage long-term group relationships through inconsistent support."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0106,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 49,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Clear communication is essential for effective decision-making.",
+      "Structured processes improve the likelihood of achieving desired outcomes."
+    ],
+    "rules": [
+      "Assign specific responsibilities to individuals to avoid ambiguity.",
+      "Define precise deliverables before delegating tasks.",
+      "Follow up on assignments to ensure accountability."
+    ],
+    "claims": [
+      "Ambiguous task definitions can lead to failure."
+    ],
+    "warnings": [
+      "Unclear assignments may result in finger-pointing and lack of progress.",
+      "Vague expectations increase the likelihood of disappointment."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0142,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 50,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "constraints",
+      "risk"
+    ],
+    "principles": [
+      "Proactive communication prevents misunderstandings and conflicts.",
+      "Clear deliverables and deadlines foster unity and action."
+    ],
+    "rules": [
+      "Always define specific deliverables and deadlines for assignments.",
+      "Establish follow-up procedures to ensure accountability and progress."
+    ],
+    "claims": [
+      "Documentation enhances memory recall of commitments and decisions."
+    ],
+    "warnings": [
+      "Unclear expectations can lead to disputes and wasted resources.",
+      "Vague deadlines result in procrastination and forgotten obligations."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0095,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 51,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Consistent effort enhances mastery of communication skills.",
+      "Structured learning improves retention of complex concepts."
+    ],
+    "rules": [
+      "Regular practice reinforces the application of dialogue principles in real-time.",
+      "Organize key principles visually to facilitate quick recall during interactions."
+    ],
+    "claims": [
+      "Effective communication skills can be developed through dedicated training.",
+      "Dialogue principles, when applied systematically, lead to better outcomes in conversations."
+    ],
+    "warnings": [
+      "Inadequate preparation may result in ineffective performance during crucial exchanges.",
+      "Neglecting foundational skills can lead to breakdowns in high-stakes communication scenarios."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0523,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 52,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "conflict",
+      "optionality"
+    ],
+    "principles": [
+      "Self-awareness improves communication outcomes by recognizing shifts from dialogue.",
+      "Shared understanding is central to effective communication and conflict resolution."
+    ],
+    "rules": [
+      "Assess communication status by asking: 'Are we in dialogue or falling into silence/violence?'",
+      "Prioritize safety in conversations by focusing on shared meaning and emotional safety."
+    ],
+    "claims": [
+      "Proactive intervention in conversations prevents escalation of conflict.",
+      "Emotional regulation enables better decision-making during crucial conversations."
+    ],
+    "warnings": [
+      "Delayed recognition of deteriorating communication leads to increased costs.",
+      "Emotional escalation during conversations can derail progress and decision-making."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0067,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 53,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "data",
+      "psychology"
+    ],
+    "principles": [
+      "Understand others by gathering their perspectives and feelings.",
+      "Dialogue can transform perceptions and build shared understanding."
+    ],
+    "rules": [
+      "Use active listening and reflection techniques to uncover underlying concerns.",
+      "Ensure decisions are clearly linked to dialogue outcomes and include follow-up."
+    ],
+    "claims": [
+      "Dialogue can effectively resolve conflicts and foster collaboration.",
+      "Meaningful dialogue leads to concrete actions and desired outcomes."
+    ],
+    "warnings": [
+      "Failing to diagnose the current state of dialogue risks misalignment.",
+      "Neglecting follow-up after dialogue can undermine its effectiveness."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0449,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 54,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Prioritize emotional and relational well-being to foster productive dialogue.",
+      "Focus on mutual understanding and shared objectives to resolve differences effectively."
+    ],
+    "rules": [
+      "Always begin conversations by clarifying personal and relational desires before addressing the issue.",
+      "Use active listening and reflection techniques to꿔 explore others' perspectives and build consensus."
+    ],
+    "claims": [
+      "Structured dialogue principles can enhance the resolution of conflicts in various contexts."
+    ],
+    "warnings": [
+      "Neglecting emotional cues may lead to misunderstandings and escalation of conflict.",
+      "Failing to establish mutual purpose can result in unproductive and repetitive conversations."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0042,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 55,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "conflict",
+      "power"
+    ],
+    "principles": [
+      "Anticipate and address conflict early to prevent escalation.",
+      "Dialogue skills are universally applicable to most problems."
+    ],
+    "rules": [
+      "Address issues privately and firmly to resolve them effectively."
+    ],
+    "claims": [
+      "Most problems can be resolved through respectful discussion."
+    ],
+    "warnings": [
+      "Delaying resolution of issues leads to more negative interpretations."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0114,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 56,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "conflict",
+      "psychology"
+    ],
+    "principles": [
+      "Address issues promptly to maintain healthy relationships.",
+      "Understand the other person's perspective before communicating."
+    ],
+    "rules": [
+      "Be specific when describing problematic behaviors.",
+      "Check for understanding to ensure effective communication.",
+      "Make communication safe to encourage open dialogue."
+    ],
+    "claims": [
+      "Early intervention prevents problems from escalating.",
+      "Clear communication improves relationships."
+    ],
+    "warnings": [
+      "Unresolved issues can lead to bigger problems.",
+      "Lack of communication can cause relationships to suffer."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0148,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 57,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "constraints",
+      "risk"
+    ],
+    "principles": [
+      "Shared accountability strengthens team performance by ensuring collective responsibility.",
+      "Open communication is foundational for building and maintaining trust in team dynamics."
+    ],
+    "rules": [
+      "Team members must address failures to meet agreements immediately to prevent escalation.",
+      "Leaders should actively seek peer feedback to understand and address deference issues.",
+      "Trust issues should be handled by tentatively expressing concerns to avoid overgeneralization."
+    ],
+    "claims": [
+      "Deference often stems from fear of authority or disagreement.",
+      "Trust can be differentiated based on motive and ability in specific contexts."
+    ],
+    "warnings": [
+      "Delaying action on team problems can lead to financial loss and demotivation.",
+      "Inadequate management of deference may cause ongoing team disengagement and missed opportunities."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0082,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 58,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Consistency in positive interactions builds and maintains trust.",
+      "Gradual progression in challenges improves communication skills."
+    ],
+    "rules": [
+      "Separate intent from outcome in conversations to avoid misunderstandings.",
+      "Start with simple issues before addressing complex ones to build confidence."
+    ],
+    "claims": [
+      "Dialogue effectiveness is enhanced by making interactions safe and beneficial."
+    ],
+    "warnings": [
+      "Overgeneralizing negative experiences can lead to self-defeating cycles and worsened outcomes.",
+      "Ignoring withdrawal signals in conversations may result in unresolved issues and perpetuated problems."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0258,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 59,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "conflict",
+      "risk"
+    ],
+    "principles": [
+      "Start simple and gradually integrate communication tools into interactions."
+    ],
+    "rules": [
+      "Practice dialogue skills consistently.",
+      "Establish a mutual purpose before addressing difficult topics.",
+      "Avoid persistent fault-finding (nagging) in crucial conversations.",
+      "Invite partners to discuss communication patterns."
+    ],
+    "claims": [
+      "Building safety in a relationship increases the likelihood of positive change.",
+      "Crucial conversations can improve relationships when handled properly."
+    ],
+    "warnings": [
+      "Aggressive or insulting behavior in conversations reinforces negative outcomes.",
+      "Losing hope and escalating conflict can make resolution more difficult."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0283,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 60,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "discipline",
+      "risk"
+    ],
+    "principles": [
+      "Clarify facts before engaging in dialogue.",
+      "Focus on observable behaviors to avoid abstract complaints."
+    ],
+    "rules": [
+      "Identify specific behaviors before discussing them.",
+      "Retrace the Path to Action to its source to ensure dialogue relevance."
+    ],
+    "claims": [
+      "Abstract descriptions are ineffective in crucial conversations."
+    ],
+    "warnings": [
+      "Lack of clarity in communication can lead to unproductive dialogues."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0199,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 61,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Focus on both positive and negative behaviors to maintain balance.",
+      "Clear expectations are foundational for effective performance management."
+    ],
+    "rules": [
+      "Address both the absence of good performance and the presence of bad performance with equal rigor.",
+      "Raise expectations by providing specific, concrete examples of desired behavior and outcomes.",
+      "Communicate expectations explicitly and collaboratively to ensure mutual understanding."
+    ],
+    "claims": [
+      "Leaders tend to focus more on addressing negative behaviors than positive ones.",
+      "People are more responsive to specific examples than abstract expectations."
+    ],
+    "warnings": [
+      "Failing to address good performance can lead to ambiguous standards and inconsistent expectations.",
+      "Compensatory actions (e.g., micromanaging) can undermine initiative and create dependency."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0288,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 62,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Identify recurring issues to address fundamental problems.",
+      "Focus on systemic causes rather than isolated symptoms to improve decision-making."
+    ],
+    "rules": [
+      "Take breaks in conversations when emotional escalation occurs to prevent deterioration.",
+      "Address underlying commitments or patterns, not just single events, in discussions."
+    ],
+    "claims": [
+      "Emotional regulation improves by focusing on behavioral patterns.",
+      "Unattended issues tend to intensify over time without intervention."
+    ],
+    "warnings": [
+      "Neglecting patterns can lead to unresolved conflicts and escalating problems.",
+      "Building unaddressed frustrations may result in disproportionate reactions during interactions."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0058,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 63,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "risk",
+      "strategy"
+    ],
+    "principles": [
+      "Address issues early to prevent escalation",
+      "Structured communication minimizes misunderstandings"
+    ],
+    "rules": [
+      "Use contrasting to explain intent before addressing sensitive topics",
+      "Maintain consistency in communication expectations",
+      "Focus on patterns, not isolated incidents, when addressing recurring issues"
+    ],
+    "claims": [],
+    "warnings": [
+      "Delaying crucial conversations increases emotional pain",
+      "Inconsistent communication leads to frustration and resentment",
+      "Attempting to solve multiple issues at once with difficult individuals may lead to overwhelm"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0056,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 64,
+    "chapter_title": null,
+    "domains": [
+      "optionality",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Proactive awareness of context is essential for effective communication."
+    ],
+    "rules": [
+      "Prepare for high-stakes discussions despite their unpredictable nature."
+    ],
+    "claims": [
+      "Crucial conversations are often subtle and not immediately evident."
+    ],
+    "warnings": [
+      "Unpreparedness for high-risk discussions can lead to negative outcomes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.013,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 65,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Emotional regulation improves focus in decision-making processes.",
+      "Adaptability in responses counters the limitations of scripted behavior"
+    ],
+    "rules": [
+      "Prioritize emotional control to maintain effective conversation conduct.",
+      "Break from routine scripts to allow for innovative approaches in interactions."
+    ],
+    "claims": [
+      "Emotions and scripts are fundamental barriers to change in crucial conversations.",
+      "Scripts form the basis of social habits and constrain flexibility in communication."
+    ],
+    "warnings": [
+      "High emotional states can lead to default decision styles and poor outcomes.",
+      "Over-reliance on scripts increases the risk of forgetting important details or missing opportunities."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0127,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 66,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "constraints",
+      "optionality"
+    ],
+    "principles": [
+      "Understand the foundation (master the content) to enable change.",
+      "Integrate knowledge into practice (master the skills) to achieve desired outcomes.",
+      "Internal drive (enhance your motive) is necessary to initiate change.",
+      "Recognize triggers (watch for cues) to override automatic responses."
+    ],
+    "rules": [
+      "Consistently apply learned skills in relevant contexts.",
+      "Act decisively when appropriate cues are present."
+    ],
+    "claims": [
+      "Behavior change is possible when internal motivation is present.",
+      "Effective change requires both knowledge and consistent application."
+    ],
+    "warnings": [
+      "Lack of awareness of cues leads to missed opportunities.",
+      "Emotional responses can override rational decision-making."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0185,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 67,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "discipline",
+      "strategy"
+    ],
+    "principles": [
+      "Operational knowledge requires active application to become functional."
+    ],
+    "rules": [
+      "Practice newly learned concepts immediately to integrate them into functional knowledge.",
+      "Discuss material with others to solidify understanding.",
+      "Teach concepts to others to achieve mastery."
+    ],
+    "claims": [
+      "Proactive application of knowledge enhances its integration into functional capabilities."
+    ],
+    "warnings": [
+      "Failure to actively practice and integrate knowledge leads to unpreparedness when opportunities arise."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0185,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 68,
+    "chapter_title": null,
+    "domains": [
+      "discipline",
+      "psychology",
+      "timing"
+    ],
+    "principles": [
+      "Action and practice are more effective than mere mental preparation.",
+      "Consistent application of skills leads to improvement, regardless of immediate outcomes."
+    ],
+    "rules": [
+      "Practice skills with a partner who provides honest feedback.",
+      "Rehearse crucial conversations on low-risk occasions before applying to high-stakes situations.",
+      "Structure practice sessions to align with personal energy cycles (e.g., schedule difficult conversations when motivated)."
+    ],
+    "claims": [
+      "Incentives significantly improve performance in skill acquisition.",
+      "Delaying gratification improves long-term outcomes in personal and professional development."
+    ],
+    "warnings": [
+      "Perfectionism can hinder progress by delaying practice.",
+      "Motivation fluctuates; relying solely on commitment during low-energy periods is ineffective."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0048,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 69,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "legitimacy",
+      "strategy"
+    ],
+    "principles": [
+      "Continuous learning and practice enhance communication skills.",
+      "Building trust requires patience and focused effort.",
+      "Effective communication balances facts, stories, and emotions."
+    ],
+    "rules": [
+      "Start with one relationship or conversation to practice skills.",
+      "Set clear expectations for improvement and progress.",
+      "Admit mistakes and celebrate successes to foster growth."
+    ],
+    "claims": [
+      "Crucial conversations improve relationships and outcomes.",
+      "Practicing communication skills leads to better decision-making."
+    ],
+    "warnings": [
+      "Without preparation, crucial conversations can become difficult.",
+      "Failure to manage emotions during high-stakes discussions can escalate conflicts."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0372,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 70,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "risk"
+    ],
+    "principles": [
+      "Effective communication builds trust and resolves differences.",
+      "Understanding others' perspectives leads to better collaboration."
+    ],
+    "rules": [
+      "Decisions must be clearly categorized as command, consensus, or voting.",
+      "Self-awareness is required before engaging in conflict resolution."
+    ],
+    "claims": [
+      "Behavior modification techniques can effectively treat obesity.",
+      "Building consensus enhances decision outcomes."
+    ],
+    "warnings": [
+      "Inadequate self-monitoring leads to poor decision outcomes.",
+      "Avoid prolonged silence in conflict resolution."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0159,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 71,
+    "chapter_title": null,
+    "domains": [
+      "conflict",
+      "psychology",
+      "strategy"
+    ],
+    "principles": [
+      "Emotions significantly influence outcomes in interactions",
+      "Understanding multiple perspectives helps resolve disagreements",
+      "Clarity in choices reduces decision-making friction"
+    ],
+    "rules": [
+      "Set clear expectations before making decisions",
+      "Establish limits on control to avoid overstepping",
+      "Consider different viewpoints by playing devil's advocate"
+    ],
+    "claims": [
+      "Emotions are crucial to effective dialogue",
+      "Unclear delegation can lead to failure"
+    ],
+    "warnings": [
+      "Unclear delegation can lead to failure",
+      "Defensiveness can hinder productive conversations"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0235,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 72,
+    "chapter_title": null,
+    "domains": [
+      "psychology",
+      "risk",
+      "timing"
+    ],
+    "principles": [
+      "Collaboration improves outcomes by aligning shared goals.",
+      "Respectful communication reduces misunderstandings and builds trust."
+    ],
+    "rules": [
+      "Set clear conversation goals before starting dialogue.",
+      "Maintain active listening to fully understand perspectives."
+    ],
+    "claims": [
+      "Effective communication resolves conflicts faster.",
+      "Dialogue tools enhance understanding in complex situations."
+    ],
+    "warnings": [
+      "Ignoring early signs of conflict can lead to escalation.",
+      "Unresolved differences may result in failed outcomes."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0091,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 73,
+    "chapter_title": null,
+    "domains": [
+      "constraints",
+      "optionality",
+      "risk"
+    ],
+    "principles": [
+      "Effective communication requires understanding individual perspectives",
+      "Organizational change is iterative and requires continuous assessment"
+    ],
+    "rules": [
+      "Assess individual communication skills before implementing strategies",
+      "Provide clear expectations for team communication"
+    ],
+    "claims": [
+      "Proven communication strategies lead to measurable improvements in organizational results"
+    ],
+    "warnings": [
+      "Without understanding individual perspectives, communication strategies may fail",
+      "Unclear delegation leads to negative outcomes in team communication"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0141,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  },
+  {
+    "chapter_index": 74,
+    "chapter_title": null,
+    "domains": [
+      "adaptation",
+      "psychology"
+    ],
+    "principles": [
+      "Continuous learning and practice enhance communication abilities"
+    ],
+    "rules": [
+      "Engage with educational resources to develop effective communication skills"
+    ],
+    "claims": [
+      "Sharing personal experiences contributes to improving collective communication practices"
+    ],
+    "warnings": [
+      "Neglecting skill development may result in ineffective handling of critical situations"
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 0.0548,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  }
+]

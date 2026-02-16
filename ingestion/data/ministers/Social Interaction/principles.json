@@ -1,0 +1,56 @@
+{
+  "domain": "Social Interaction",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "ac05c770-43d2-44ad-b566-d8423839d78c",
+      "text": "Balance humility with maintaining self-respect",
+      "source": {
+        "book": "Crime",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9d10e1f5-89c5-4601-80d6-0e683983cc59",
+      "text": "Education enhances social standing",
+      "source": {
+        "book": "Crime",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "10376071-40b4-4e2b-8680-96ccbbe87dd1",
+      "text": "Self-awareness is crucial for personal growth",
+      "source": {
+        "book": "Crime",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "20b2b164-ef20-4721-adae-843c12569ba7",
+      "text": "Attention to detail influences self-perception",
+      "source": {
+        "book": "Crime",
+        "chapter": 2
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 4,
+    "last_updated": "2026-02-13T05:32:31.717565Z",
+    "aggregated_from": [
+      {
+        "book": "Crime",
+        "chapter": 4
+      },
+      {
+        "book": "Crime",
+        "chapter": 2
+      }
+    ]
+  }
+}

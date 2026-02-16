@@ -1,0 +1,34 @@
+{
+  "domain": "Urban Planning",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "e259a29c-5f96-4205-94d4-0c7717082d7c",
+      "text": "Effective resource management systems are essential for sustainable development.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4692e2e0-6ba7-4cf0-a90a-4dcb69805e43",
+      "text": "Long-term planning and governance contribute to the endurance of urban centers.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 30
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-14T19:55:37.116580Z",
+    "aggregated_from": [
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 30
+      }
+    ]
+  }
+}

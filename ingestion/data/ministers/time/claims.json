@@ -1,0 +1,34 @@
+{
+  "domain": "time",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "352ef1d6-d4f6-44e5-aa93-57311a53ecf8",
+      "text": "Finite games are characterized by fixed outcomes and predetermined temporal boundaries.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c9edb689-7469-4d06-8cc2-073e07c8c9f0",
+      "text": "Infinite play fundamentally alters the relationship between time and freedom.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 19
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T20:21:00.333990Z",
+    "aggregated_from": [
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 19
+      }
+    ]
+  }
+}

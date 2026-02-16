@@ -1,0 +1,38 @@
+{
+  "domain": "Existential Reflection",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "424c599b-6b2a-4418-978b-d4c7e9d08974",
+      "text": "Subjective human experience, particularly intense existential anguish, may resist complete objective understanding or resolution.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 34
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "31d8fa8b-3ac4-4e61-bef2-53002129718a",
+      "text": "Excessive reliance on denial can impede personal growth, lead to unresolved psychological conflicts, and hinder the processing of significant life events.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 94
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T14:08:41.893492Z",
+    "aggregated_from": [
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 34
+      },
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 94
+      }
+    ]
+  }
+}

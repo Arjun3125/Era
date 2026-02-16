@@ -1,0 +1,34 @@
+{
+  "domain": "Generosity",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "f8e203c3-3f2d-4fc9-b107-d79507eb2665",
+      "text": "Selfish motives in giving diminish its spiritual value.",
+      "source": {
+        "book": "pathtowealthorli00hall",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f8d81f10-dc5d-4c29-b660-90cfc8d2505a",
+      "text": "Giving based solely on financial gain misses the mark.",
+      "source": {
+        "book": "pathtowealthorli00hall",
+        "chapter": 3
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T16:08:04.262555Z",
+    "aggregated_from": [
+      {
+        "book": "pathtowealthorli00hall",
+        "chapter": 3
+      }
+    ]
+  }
+}

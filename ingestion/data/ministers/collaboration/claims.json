@@ -1,0 +1,1316 @@
+{
+  "domain": "collaboration",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "02023ae6-6b99-4835-a690-65776ab7d99d",
+      "text": "Deep work enhances cognitive capabilities",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "09bb6c07-88ff-4f95-ab9f-61d019dff8e0",
+      "text": "Strategic focus improves professional outcomes",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "67c630d5-c69e-42a7-8e35-d28a634ea37d",
+      "text": "Concentrated effort produces valuable results",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ec73c0cd-a1df-4b3d-856c-340174486bd5",
+      "text": "Digital tools inherently fragment attention, reducing the quality of complex tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "03f0ce09-a8e6-40ec-ae59-170ec3778cb1",
+      "text": "The shift toward shallow work creates a competitive disadvantage for individuals.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "43000e1f-bf30-4bb1-a339-e4a7d524d49f",
+      "text": "Network tools redistribute power in knowledge work by enabling automation of routine tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b916e0a2-cc09-4333-8d81-6141ee99cd2e",
+      "text": "Deep work capacity is a finite resource that degrades with prolonged shallow work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ff114d0d-09b1-4b7e-a61f-324fd11dd06c",
+      "text": "Automation enables knowledge workers to perform more strategic value-creation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a2dc3bea-d8c0-4f40-a8e6-2ff8b790096b",
+      "text": "Deep work is essential for innovation and competitive advantage.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d77b9498-a936-4107-b3c7-2118d0da99f7",
+      "text": "The ability to focus deeply is becoming increasingly rare and valuable.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e65ccdf5-01c3-4a12-8849-db93704d96dd",
+      "text": "Deep work produces more value than shallow activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c937cb5f-20d5-4f5d-aa13-12a29a8a6cca",
+      "text": "Digital technology creates a competitive advantage for those who adapt.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "72b7cdec-9438-4dc6-9dc9-bb60e7fceddb",
+      "text": "Automation increases value for specialized human-machine integration.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "603f1ef1-3940-4169-8a7d-a2813383c619",
+      "text": "Digital infrastructure enables global access to talent markets.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5830f4b3-84a5-4707-9d5a-f5659adcef6b",
+      "text": "Venture capital can generate disproportionate returns from minimal labor input.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "afdf3659-ba14-483d-aae9-35980185c074",
+      "text": "Deep work is foundational for mastering complex skills.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4b9bb9fd-c5c3-45bb-a64b-37882a0a6158",
+      "text": "Integrating scientific learning methods improves performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "83963f0d-93ad-4a89-bc11-6a0c253e5a24",
+      "text": "Psychological factors determine success in skill development.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "33bfd454-b63f-4373-8b28-66be0b6b9ccb",
+      "text": "Deliberate practice fundamentally changes neural pathways",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "74a4dd16-9080-47c5-a337-5a60551cbb1a",
+      "text": "Attentional control determines performance outcomes",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "405eb12a-2e8f-4539-b3c5-788bf1013bb5",
+      "text": "Mastery requires systematic repetition",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d4c3746c-c545-48ee-add5-735c9ed674b0",
+      "text": "High-quality work is directly proportional to the intensity of focus applied.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b1f19033-9988-4d46-843d-1c865663a590",
+      "text": "Attention residue significantly degrades performance on subsequent tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "84538aae-250c-45d7-a6de-5d3b20ddf88b",
+      "text": "Deep work is essential for achieving peak professional performance levels.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a56ce9aa-81cf-4676-931c-fb6ee8d26e3b",
+      "text": "Highly constrained roles may not require deep work, but opportunities for depth exist in most positions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6a59b7d1-92a4-4f1f-a05b-8cf39982d140",
+      "text": "Automation can replace certain decision-making tasks, making deep work more critical for human oversight.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b62c1385-dfa7-4c15-92f7-ad425fdbfd31",
+      "text": "Deep work is undervalued in business environments despite its economic benefits.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8ca0ee12-020c-484b-9070-c2a9131d4cdf",
+      "text": "Distractions fragment attention and reduce productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bef9d5d6-208e-4f8f-9ab2-3fc37c876559",
+      "text": "Operational focus can be obscured by measurement limitations.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bd10463d-1196-4323-a8b3-74122f3bdaf3",
+      "text": "Ease of execution often outweighs depth in organizational behavior.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3341ed1e-dd2f-4631-aa38-77361181638c",
+      "text": "Busyness correlates with productivity under certain conditions",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ec4db641-55b9-4f79-b62b-328f2f9192fd",
+      "text": "Effective productivity measurement requires contextual understanding",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a3fa34e4-65a1-4669-92db-d9c3e4169a7f",
+      "text": "Anachronistic metrics can misrepresent modern work value",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9ab7fe5c-df3f-4c24-891a-d09954844fdc",
+      "text": "Deep work enhances value production while shallow work distracts",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "87df53cf-3dde-4138-ad39-8a025d46a1bc",
+      "text": "Technology can become an ideology that overshadows other considerations",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "57509d7b-afc4-47dd-8365-18e36a0e4418",
+      "text": "Depth-focused activities generate sustainable psychological satisfaction",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0fb2ae57-fdf3-43bc-bd84-3dfb256af61d",
+      "text": "Concentrated effort reduces vulnerability to information overload risks",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a501fff0-fd22-463d-a474-d2024ab734f1",
+      "text": "Directed attention can reconfigure neural processing.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "72b7cc8e-cab2-442f-9e5c-91ba892af702",
+      "text": "Attentional discipline creates sustainable operational advantage.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3ddba957-7ced-4395-9f0b-f8066b2985b3",
+      "text": "Operational satisfaction correlates with attentional focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4f2406a4-d364-4ec5-8175-4bb861e31888",
+      "text": "Flow states significantly contribute to life satisfaction and happiness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "568ed955-05ef-4225-b249-9e479451288f",
+      "text": "Real-time data collection provides accurate insights into psychological experiences.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "56a12748-46ea-4f4a-b043-fc01b91db003",
+      "text": "Proactive job redesign can enhance flow and meaning in work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b0476e76-b9e2-4fc4-b11e-e799dec9493c",
+      "text": "Meaning in work arises from skillful execution, not job specifics.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8be5d524-c15e-4b64-948d-a499a754aab6",
+      "text": "Deep work connects modern cognitive tasks to traditional craftsmanship.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "21dd3a38-eba6-457b-be88-bd82ed8e303f",
+      "text": "Cognitive evolution favors depth, making shallow work obsolete.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0d7a8c22-ed0a-4ed4-840d-3354e5666a61",
+      "text": "Consistent deep work improves focus and productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eb0cf396-adb1-4476-bddc-d84c50b8de97",
+      "text": "Strategic breaks enhance cognitive performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "567511f5-8478-4b72-959b-61715f8cf249",
+      "text": "Willpower can be trained to sustain focus longer.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d22b1248-66cd-45cb-a459-48e8be1d38d1",
+      "text": "Deep work strategies can be tailored to different professional contexts.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "806db318-1b3d-4f37-8d79-71aa7aa2b202",
+      "text": "Adapting to a chosen philosophy increases the likelihood of long-term success.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0adab193-09f8-4acf-b8e1-fdda495a5927",
+      "text": "Deep work scheduling can produce extreme productivity and memorable career outcomes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d7531c8d-e950-4ef0-93ad-3838558783b8",
+      "text": "Deep work is essential for breakthroughs and significant professional impact.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1b6e1a3c-3c2b-4dc8-b8c7-9126a4893156",
+      "text": "Increased annual deep work hours through consistent scheduling",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4b12d3fa-5af4-4c56-b9e9-8011a820f8ab",
+      "text": "Productivity gains from regular habit implementation",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3baaf249-94b7-456d-b142-b4bf8171a354",
+      "text": "Deep work can be integrated into a busy schedule",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bf7d4ac2-2836-4afb-8fc9-8711bac9a838",
+      "text": "Rituals reduce the cognitive load of starting deep work",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "004bef7b-0b94-480e-987a-e9c3565de17d",
+      "text": "Confidence in the work's importance enhances persistence",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8c7fcd34-cba0-4d8a-ad45-a4846642e7fa",
+      "text": "Strategic constraints can significantly improve focus and work quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f49e198e-3632-48a7-b921-555e3aa24297",
+      "text": "Elevated task importance reduces procrastination and boosts motivation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "647ffd3c-aa40-4594-9a97-0552e5535351",
+      "text": "Time-bound commitments enhance focus and accelerate task completion.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "58f7f200-7992-4ca3-82c4-e49ba4b7d121",
+      "text": "Certain architectural designs enhance creative breakthroughs through controlled interaction",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "656738eb-0724-40bf-8c6d-1ca12cd50bbd",
+      "text": "Hub-and-spoke architecture optimizes both innovation and deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "709ba31c-d5a1-4281-ad77-041884e77afd",
+      "text": "Collaborative deep work produces better results than solo deep work for certain problems.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fde31c9b-a364-4d18-8cc4-a140d1a9e4ee",
+      "text": "Focusing on essential goals enables sustained high performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9f2679a7-120e-430c-9ba0-912382f81ae3",
+      "text": "Direct measurement of controllable actions improves execution.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a0aa5041-fed8-4656-acb0-62ada50efde9",
+      "text": "Consistent review mechanisms enhance long-term adherence to objectives.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d56cf92d-fcff-4936-8059-fb2f1476ba35",
+      "text": "Structured execution can significantly improve goal achievement.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "54f1a12b-b5c4-45d2-a6e5-699168ee915b",
+      "text": "Integrating downtime enhances decision-making capabilities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c1bd2ff4-d1a2-436f-9b74-553ed1f463a3",
+      "text": "Prioritizing deep work leads to superior output quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f5c245f2-5a27-4b17-b488-569f778b1209",
+      "text": "Scheduled downtime enhances sustained attention and performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "edf3822a-10f3-44b1-8f66-1b20edd29ab8",
+      "text": "Evening work reduces the potential for deep cognitive engagement.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "17750b43-56f7-447d-a649-8329e5d8795b",
+      "text": "Regular task resolution reduces persistent cognitive load from unfinished obligations.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5ffbefde-8e6f-4eba-bee1-e91bd2ac9bec",
+      "text": "Structured planning mitigates attentional drag from incomplete tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "65ee699a-067d-41c6-aafc-13bc1b821aeb",
+      "text": "Consistent discipline improves focus and deep work capacity over time.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f05321ce-a81d-4398-9bda-b2674b432499",
+      "text": "Digital habits rewire the brain",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f3f0ac06-75e8-40de-a44d-a07b791c08b6",
+      "text": "Scheduled breaks improve focus",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0d914e52-9b2e-411d-803b-ae44dd3eefcc",
+      "text": "Scheduled attention breaks effectively train the mind to resist distractions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e5209afe-f2c7-4ea8-8726-9320efbbed8e",
+      "text": "Consistent practice of scheduled focus periods builds cognitive control.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9cc71eb6-9eeb-4a23-8446-e3d28b25d2b3",
+      "text": "Strategic time management can achieve greater output quality within standard work hours.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a51a7d33-4422-4e41-ab55-69bc17700eea",
+      "text": "Focused work performance can be systematically improved through interval training of attention.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1968bc62-da7c-48e3-829e-3e2456ec288c",
+      "text": "Routine activities can be leveraged for creative problem-solving when attention is deliberately directed.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "56249990-9c94-4a80-a813-45434fb8928c",
+      "text": "Attentional control is a foundational cognitive ability for deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f834fd25-f99b-42bb-8931-5f4e2498274d",
+      "text": "Memory training techniques enhance general concentration abilities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "031a3a42-b9e4-4281-b443-03683c432c25",
+      "text": "Cognitive enhancement is achievable through disciplined practice.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0209efdc-fba3-4445-a9cf-628d684106c7",
+      "text": "Digital detox improves focus duration and quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7ee50562-ca98-4e27-b3b0-a6e20afd1de0",
+      "text": "Operational efficiency correlates with attention management.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a028f4ae-72b7-46c8-858d-85cccaba1db6",
+      "text": "Tools are neutral instruments that require careful evaluation before integration.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e23309b4-3062-4019-96eb-b58a69cf3fd9",
+      "text": "The 'any-benefit' approach to tool selection leads to diminished performance and well-being.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f2ab42c5-ee33-4826-b2cc-ebbfc5b44582",
+      "text": "Tool value depends on context-specific trade-offs.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "51254139-2a9f-4740-9d7e-c7f00c835bb9",
+      "text": "Direct benefits must outweigh indirect costs for tool adoption.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bd0a6d90-a10f-4497-99e9-f6ddaf2aef7e",
+      "text": "Tool selection should align with core activities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f012d245-a0d4-49a7-a679-f1d312c9385f",
+      "text": "Impact assessments should guide tool adoption decisions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0a3d5ede-6028-414b-a989-9b3dbceca06b",
+      "text": "Effective prioritization enhances overall effectiveness and reduces inefficiency.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2d842ea3-5b36-4988-a7a8-bda8c2218e53",
+      "text": "Time invested in high-impact activities generates greater returns than in low-impact ones.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bfd850be-8442-4d58-9b4b-025e0ad40922",
+      "text": "The 80/20 rule provides a heuristic for optimizing resource allocation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7bfc93f3-e01c-4194-b080-11e338f47752",
+      "text": "Digital minimalism improves cognitive focus",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "636fb446-fd10-4cd4-b203-cb43403127ba",
+      "text": "Social validation overestimates personal importance",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8e8e8d34-65e6-40c9-8408-83f85a2a6b7d",
+      "text": "Operational awareness reduces susceptibility to digital distraction",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "24d0d71d-4657-48df-bd0a-d67b2c859cd6",
+      "text": "Deliberate structuring of free time improves personal growth.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f0995a95-16cc-4a6c-bf9b-a3e10bdcacfa",
+      "text": "Digital tools designed for entertainment capture attention effectively.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f4b811d3-76ca-4c83-a9e4-331707a84b73",
+      "text": "Optimizing time allocation through strategic reduction of shallow work enhances overall output.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4056fc59-2507-4909-a705-4bd9f79fd5ea",
+      "text": "Deep work is the primary driver of significant results and innovation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "67a3a2df-9405-4a16-8299-4e05f8efdc87",
+      "text": "Inaccurate time estimates lead to reduced deep work capacity",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3b16ce11-0b50-4593-9826-cdbb5221eded",
+      "text": "Daily scheduling directly influences the balance between deep and shallow work",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8c319e60-8a71-4826-b5e4-8db79466f0f9",
+      "text": "Structured time allocation enhances creative output by prioritizing deep work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a83cf985-b922-43ec-93ff-b1fe81d0be7f",
+      "text": "Task categorization via time investment metrics improves decision-making efficiency.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1e218afb-1a1a-4dd5-80e7-67fd0ef93466",
+      "text": "Tasks requiring specialized expertise contribute disproportionately to value creation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "808e83f0-eeed-427b-bfed-ac01666fa17b",
+      "text": "Explicit time budgeting reduces the marginal cost of shallow work in knowledge-intensive roles.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e0443b1f-dd84-4214-9a89-236ba4788728",
+      "text": "Psychological barriers to rejecting low-value tasks can be overcome through data-driven prioritization.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "648b4f1f-9693-450c-acbf-4ae3472b0b09",
+      "text": "Fixed schedules improve professional outcomes by enabling focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b86d63e5-1b88-492c-b595-56797fe673ad",
+      "text": "Time-based constraints enhance productivity in knowledge work.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "aa2b6205-7a69-49d7-916e-1cd2ab764884",
+      "text": "Time constraints amplify focus by reducing decision fatigue.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "417c091b-6c22-4ca8-89ac-928ecb271ad5",
+      "text": "Sender filters increase productivity by eliminating inbox overload.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b033a954-a3b5-4b13-857b-7dbafaf09875",
+      "text": "Clear communication constraints improve focus and reduce unnecessary interactions.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d03e5e01-ca44-4a57-b167-bb3aa7f57f1b",
+      "text": "Process-centric responses minimize follow-up messages and mental clutter.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "45a20f30-aa81-40a4-91c5-34e9ba9cf613",
+      "text": "Managing response expectations frees up time and attention for higher-priority tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "76eb64bc-18a9-420c-bd95-437552d66fa2",
+      "text": "Systematic approaches to operational communication enhance efficiency.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4f777e6d-fae0-4577-9633-905e7010f0d3",
+      "text": "Defined processes reduce cognitive load associated with information management.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eb4bc19c-c75c-4381-a996-779befc6b07b",
+      "text": "Deep work is a skill that enhances productivity and outcomes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "86f5d0ec-11d3-4f53-b7ae-0b76921f0f93",
+      "text": "Focus enables the achievement of complex goals within limited timeframes.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "69fea476-7384-42a1-8b01-4b41d923e332",
+      "text": "Deep work is a measurable and improvable capability.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "92f665d0-c20d-4c5a-bed0-d3a2c9a86c42",
+      "text": "Deep work produces superior outcomes",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "220b5939-ccc6-4f1c-97ee-ce239cd4a5b9",
+      "text": "Disciplined focus creates competitive advantage",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c8f24147-0383-4b5c-82d4-7c8896f5232e",
+      "text": "Calculated risks yield transformative results",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0e0f8926-45a5-49e0-af81-2c76a8730a71",
+      "text": "Deliberate practice can be systematically cultivated to improve performance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "838bd8bc-7209-472f-8321-8238dac9eae4",
+      "text": "Open-plan offices may hinder deep cognitive tasks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "49b80349-a7f9-412e-99c9-7bab2309e8c7",
+      "text": "Digital tools can enhance or detract from focus depending on usage.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c1dab0d2-3ef3-4368-be15-af45fed19bfc",
+      "text": "Attention is a finite resource that can be depleted.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cdb024a5-270f-47f7-a311-da5f3fc3ed52",
+      "text": "Productivity is enhanced by structured workflows.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f9b87c14-513e-47c0-8d0b-d869d5b80f3e",
+      "text": "Emotional well-being influences decision-making capacity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "28ead304-7a12-4bb4-95d1-0544fe8d45a6",
+      "text": "Consistent routines enhance productivity.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "390e5e68-58fe-43d9-a0d5-ff73872fcb8c",
+      "text": "Effective execution requires clear frameworks.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0ac0c78d-b27a-4986-b3e1-4fe141b7a947",
+      "text": "Work environments significantly impact focus.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b61d2c08-c472-4209-97bc-60f0ee465759",
+      "text": "Downtime improves cognitive performance and decision-making.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "484e414a-8a01-4362-b080-3e0168442862",
+      "text": "Multitasking degrades focus and task completion quality.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3a9513d2-5c4a-4d3e-b625-8cdbf33f8d43",
+      "text": "Attention restoration through nature or deliberate practice enhances cognitive abilities.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ff1bf066-eb81-48dc-ae3a-e8afbc4d77f4",
+      "text": "Time management strategies can significantly reduce cognitive load.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ea45de58-b570-4862-b1fe-b88ba08bacb7",
+      "text": "The Pareto principle can be applied to optimize work-life balance.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "57951770-ed5b-4a08-a823-c6e797689591",
+      "text": "Digital habits shape attention spans and productivity patterns.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "092aaec0-7c37-45c3-b32c-b848a2d95d39",
+      "text": "Deep work is essential for achieving expertise and meaningful results.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1f1939bd-1a37-4acd-9b5e-14dae66bcfb0",
+      "text": "Attention is a finite resource requiring strategic allocation to prevent depletion.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c275e624-0a49-4326-bf56-57fa2e0baf9d",
+      "text": "Collaborative deep work yields better results, especially in innovation.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fcf4ea57-0da7-45bd-96c9-2e4159d90e63",
+      "text": "The 4DX framework effectively helps implement high-level strategies.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 144,
+    "last_updated": "2026-02-12T17:15:19.120780Z",
+    "aggregated_from": [
+      {
+        "book": "Deep Work",
+        "chapter": 1
+      },
+      {
+        "book": "Deep Work",
+        "chapter": 22
+      }
+    ]
+  }
+}

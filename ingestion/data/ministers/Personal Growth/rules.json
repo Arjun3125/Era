@@ -1,0 +1,56 @@
+{
+  "domain": "Personal Growth",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "915d559a-7920-4377-8fe1-297104ed6dce",
+      "text": "Financial considerations should be transparent and agreed upon before major commitments.",
+      "source": {
+        "book": "Crime",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ecb4b845-a90b-4f27-9630-ec7b534d4e17",
+      "text": "Decisions impact multiple stakeholders and require full disclosure.",
+      "source": {
+        "book": "Crime",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "56fedc7e-ce54-4f5f-aa47-397b31fde29b",
+      "text": "Always allocate a portion of income to savings before spending.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "38f4e055-19a7-4136-ab79-bc12772a25f6",
+      "text": "Avoid speculative investments that do not generate reliable returns.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 5
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 4,
+    "last_updated": "2026-02-14T19:55:37.115511Z",
+    "aggregated_from": [
+      {
+        "book": "Crime",
+        "chapter": 8
+      },
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 5
+      }
+    ]
+  }
+}

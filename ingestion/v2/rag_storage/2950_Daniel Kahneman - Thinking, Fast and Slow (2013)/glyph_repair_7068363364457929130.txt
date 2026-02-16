@@ -1,0 +1,50 @@
+n a coin toss? What possible gain do you require to offset it?
+What about a loss of $2,000?
+
+As you carried out this exercise, you probably found that your loss aversion coefficient tends to increase when the stakes rise, but not dramatically. All bets are off, of course, if the possible loss is potentially ruinous, or if your lifestyle is threatened. The loss aversion coefficient is very large in such cases and may even be infinite—there are risks that you will not accept, regardless of how many millions you might stand to win if you are lucky.
+
+Another look at figure 10 may help prevent a common confusion. In this chapter, I have made two claims, which some readers may view as contradictory:
+
+"In mixed gambles, where both a gain and a loss are possible, loss aversion causes extremely risk-averse choices."
+"In bad choices, where a sure loss is compared to a larger loss that is merely probable, diminishing sensitivity causes risk seeking."
+
+There is no contradiction. In the mixed case, the possible loss looms twice as large as the possible gain, as you can see by comparing the slopes of the value function for losses and gains. In the bad case, the bending of the value curve (diminishing sensitivity) causes risk seeking. The pain of losing $900 is more than 90% of the pain of losing $1,000. These two insights are the essence of prospect theory.
+
+Figure 10 shows an abrupt change in the slope of the value function where gains turn into losses, because there is considerable loss aversion even when the amount at risk is minuscule relative to your wealth. Is it plausible that attitudes to states of wealth could explain the extreme aversion to small risks? It is a striking example of theory-induced blindness that this obvious flaw in Bernoulli’s theory failed to attract scholarly notice for more than 250 years. In 2000, the behavioral economist Matthew Rabin finally proved mathematically that attempts to explain loss aversion by the utility of wealth are absurd and doomed to fail, and his proof attracted attention. Rabin’s theorem shows that anyone who rejects a favorable gamble with small stakes is mathematically committed to a foolish level of loss aversion for some larger gamble. For example, he notes that most humans reject the following gamble:
+
+50% chance to lose $100 and 50% chance to win $200
+
+He then shows that according to utility theory, an individual who rejects that gamble will also turn down the following gamble:
+
+50% chance to lose $200 and 50% chance to win $20,000
+
+But of course no one in his or her right mind will reject this gamble! In an exuberant article they wrote about Blth”ins>
+Perhaps carried away by their enthusiasm, they concluded their article by recalling the famous Monty Python sketch in which a frustrated customer attempts to return a dead parrot to a pet store. The customer uses a long series of phrases to describe the state of the bird, culminating in “this is an ex-parrot.” Rabin and Thaler went on to say that “it is time for economists to recognize that expected utility is an ex-hypothesis.” Many economists saw this flippant statement as little short of blasphemy. However, the theory-induced blindness of accepting the utility of wealth as an explanation of attitudes to small losses is a legitimate target for humorous comment.
+
+Blind Spots of Prospect Theory
+
+So far in this part of the book, I have extolled the virtues of prospect theory and criticized the rational model and expected utility theory. It is time for some balance.
+
+Most graduate students in economics have heard about prospect theory and loss aversion, but you are unlikely to find these terms in the index of an introductory text in economics. I am sometimes pained by this omission, but in fact it is quite reasonable, because of the central role of rationality in basic economic theory. The standard concepts and results that undergraduates are taught are most easily explained by assuming that Econs do not make foolish mistakes. This assumption is truly necessary, and it would be undermined by introducing the Humans of prospect theory, whose evaluations of outcomes are unreasonably short-sighted.
+
+There are good reasons for keeping prospect theory out of introductory texts. The basic concepts of economics are essential intellectual tools, which are not easy to grasp even with simplified and unrealistic assumptions about the nature of the economic agents who interact in markets. Raising questions about these assumptions even as they are introduced would be confusing, and perhaps demoralizing. It is reasonable to put priority on helping students acquire the basic tools of the discipline. Furthermore, the failure of rationality that is built into prospect theory is often irrelevant to the predictions of economic theory, which work out with great precision in some situations and provide good approximations in many others. In some contexts, however, the difference becomes significant: the Humans described by prospect theory are guided by the immediate emotional impact of gains and losses, not by long-term prospects of wealth and global utility.
+
+I emphasized theory-induced blindness in my discussion of flaws in Bernoulli’s model that remained unquestioned for more than two centuries. But of course theory-induced blindness is not restricted to expected utility theory. Prospect theory has flaws of its own, and theory-induced blindness to these flaws has contributed to its acceptance as the main alternative to utility theory.
+
+Consider the assumption of prospect theory, that the reference point, usually the status quo, has a value of zero. This assumption seems reasonable, but it leads to some absurd consequences. Have a good look at the following prospects. What would it be like to own them?
+
+A. One chance in a million to win $1 million
+B. 90% chance to win $12 and 10% chance to win nothing
+C. 90% chance to win $1 million and 10% chance to win nothing
+
+Winning nothing is a possible outcome in all three gambles, and prospect theory assigns the same value to that outcome in the three cases. Winning nothing is the reference point and its value is zero. Do these statements correspond to your experience? Of course not. Winning nothing is a nonevent in the first two cases, and assigning it a value of zero makes good sense. In contrast, failing to win in the third scenario is intensely disappointing. Like a salary increase that has been promised informally, the high probability of winning the large sum sets up a tentative new reference point. Relative to your expectations, winning nothing will be experienced as a large loss. Prospect theory cannot cope with this fact, because it does not allow the value of an outcome (in this case, winning nothing) to change when it is highly unlikely, or when the alternative is very valuable. In simple words, prospect theory cannot deal with disappointment.
+
+Disappointment and the anticipation of disappointment are real, however, and the failure to acknowledge them is as obvious a flow as the counterexamples that I invoked to criticize Bernoulli’s theory.
+
+Prospect theory and utility theory also fail to allow for regret. The two theories share the assumption that available options in a choice are evaluated separately and independently, and that the option with the highest value is selected. This assumption is certainly wrong, as the following example shows.
+
+Problem 6: Choose between 90% chance to win $1 million OR $50 with certainty.
+
+Problem 7: Choose between 90% chance to win $1 million OR $150,000 with certainty.
+
+Compare the anticipated pain of choosing the gamble and not winning in the two cases. Failing to win is a disappointment in both, but the potential pain is compounded in problem 7 by knowing that if you choose the gamble and lose, you will regret the “greedy” decision you made by spurning a sure gift

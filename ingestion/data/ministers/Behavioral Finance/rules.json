@@ -1,0 +1,43 @@
+{
+  "domain": "Behavioral Finance",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "89ed793c-ee8d-43c2-a9e1-26f298488584",
+      "text": "Save consistently, even in small amounts",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a9f39610-df41-4529-9363-fe0e1304e0c9",
+      "text": "Compound interest requires patience to yield substantial returns",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "236c1974-d0d7-4006-bd3f-f241fe4de44e",
+      "text": "Avoid high-interest debt during economic downturns",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 5
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T09:33:15.527311Z",
+    "aggregated_from": [
+      {
+        "book": "The_Psychology_of_Money",
+        "chapter": 5
+      }
+    ]
+  }
+}

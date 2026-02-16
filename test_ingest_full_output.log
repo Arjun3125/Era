@@ -1,0 +1,20 @@
+﻿[KIS] Adding to sys.path: C:\era
+Starting ingestion of 16-05-2021-070111The-Richest-Man-in-Babylon.pdf...
+[KIS] Enhancer initialized for doctrine synthesis
+[PHASE_0] Starting PDF extraction
+[PHASE_0] PDF extraction completed
+[PHASE_1] Chapter split (LLM) started
+[PHASE_1] Chapter split (LLM) completed (33/33)
+[PHASE_2] Doctrine extraction started (async)
+[Worker 0] chapter_queue_size=35 result_queue_size=0
+[Worker 0] Waiting for rate slot...
+[Worker 0] Acquired slot. Processing chapter 1
+[Worker 0] Calling LLM...
+[DOCTRINE] Chapter 1 total_chunks=1
+[Worker 1] chapter_queue_size=34 result_queue_size=0
+[Worker 1] Waiting for rate slot...
+[Worker 1] Acquired slot. Processing chapter 2
+[Worker 1] Calling LLM...
+[DOCTRINE] Chapter 2 total_chunks=1
+[PHASE_2] Extracting doctrine (chapter 1) (1/1)
+[PHASE_2] Extracting doctrine (chapter 2) (1/1)

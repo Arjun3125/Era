@@ -1,0 +1,122 @@
+{
+  "domain": "Communication",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "e05dbc01-33fb-44a7-af99-9e348dfe3193",
+      "text": "Love Letters Enhance Connection and Vulnerability",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "82eb4214-7947-41c8-a21c-d08efb963d0e",
+      "text": "Intent Statements Improve Communication Outcomes",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e68f145e-035b-4c11-9ea0-e0aec8c19b39",
+      "text": "Mini-Letters Address Urgent Emotional Needs",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "efce66a0-3f19-4e18-b7b3-c89379c46b6a",
+      "text": "Clear communication enhances relationship satisfaction.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "570da8ea-39bf-4dca-b567-171a18bd440b",
+      "text": "Assertive language leads to higher compliance with requests.",
+      "source": {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1b2a6057-cbde-4df1-bee1-c16fde57c534",
+      "text": "Human beings are metaphorical dice-players in the face of divine chances.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "287539e5-fe86-45a7-82a3-3ca540f2c2ba",
+      "text": "Weekly communications deliver curated content recommendations",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3e659a80-efa1-491b-8e44-96e87c3711ab",
+      "text": "Subscribers gain access to exclusive previews of upcoming materials",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 32
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5ed4b112-c139-49a4-a0dc-4c4ba402b04e",
+      "text": "Openness leads to better collaboration.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 21
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c4ef95db-0c13-40b6-877d-b202cf5e71c9",
+      "text": "Understanding builds trust.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 21
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 10,
+    "last_updated": "2026-02-13T20:50:12.132200Z",
+    "aggregated_from": [
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 47
+      },
+      {
+        "book": "Men-are-from-mars-women-are-from-venus",
+        "chapter": 50
+      },
+      {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 50
+      },
+      {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 32
+      },
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 21
+      }
+    ]
+  }
+}

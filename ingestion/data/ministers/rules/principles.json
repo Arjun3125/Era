@@ -1,0 +1,34 @@
+{
+  "domain": "rules",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "74a9145a-2ad6-4fe6-9e58-aedc9c987a73",
+      "text": "Relative performance to industry benchmarks is essential for identifying successful transitions.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 62
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "84fe2e63-63f9-4568-959e-5c3e97148e89",
+      "text": "Longitudinal data analysis can reveal patterns of change over time.",
+      "source": {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 62
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-12T15:03:10.751406Z",
+    "aggregated_from": [
+      {
+        "book": "Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_",
+        "chapter": 62
+      }
+    ]
+  }
+}

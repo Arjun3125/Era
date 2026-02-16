@@ -1,0 +1,60 @@
+{
+  "domain": "Mindset",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "d76d1d9c-3708-4564-9dda-fd3141189055",
+      "text": "Ignoring inner battles can prevent clarity and hinder progress.",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "649d1a3c-0354-4c37-b70b-6118e4dacd97",
+      "text": "Health setbacks can significantly impact momentum and overall well-being.",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 2
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d1d13330-36eb-414e-b0f2-85c3ed5574d6",
+      "text": "Failure to believe in oneself prevents the realization of ambitions.",
+      "source": {
+        "book": "the_magic_of_thinking_big",
+        "chapter": 1
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ae803858-1eaf-4058-8e06-d2eeea4f2b58",
+      "text": "Abandoning projects due to complacency can lead to missed opportunities",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 6
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 4,
+    "last_updated": "2026-02-13T20:50:12.101763Z",
+    "aggregated_from": [
+      {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 2
+      },
+      {
+        "book": "the_magic_of_thinking_big",
+        "chapter": 1
+      },
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 6
+      }
+    ]
+  }
+}

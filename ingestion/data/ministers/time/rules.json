@@ -1,0 +1,43 @@
+{
+  "domain": "time",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "585b3df9-2dfb-4d64-baba-5a692666e81d",
+      "text": "Measure progress by possibility created, not time elapsed.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "631d029b-8f73-4ed1-89f7-2c6134a32b40",
+      "text": "Choose to observe or participate in a 'game' based on whether you seek closure or generative potential.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 19
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4e591028-e855-4295-8869-30b870cfa936",
+      "text": "Structure work to engender possibility rather than merely fill allotted time.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 19
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-12T20:21:00.300563Z",
+    "aggregated_from": [
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 19
+      }
+    ]
+  }
+}

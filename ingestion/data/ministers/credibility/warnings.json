@@ -1,0 +1,43 @@
+{
+  "domain": "credibility",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "48bf8d41-41bd-4fb1-b6e5-80b1ed215853",
+      "text": "Over-reliance on visual credibility may obscure factual inaccuracy.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f31974cb-836a-440f-b867-09a382d27db8",
+      "text": "Entertainment-driven news consumption creates a false sense of understanding about complex issues.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 29
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a343be3a-fd44-411d-8742-115ee19e8902",
+      "text": "The fragmentation of attention in news consumption leads to superficial understanding of events.",
+      "source": {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 29
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T02:42:19.038134Z",
+    "aggregated_from": [
+      {
+        "book": "NeilPostman-AmusingOurselvesToDeath",
+        "chapter": 29
+      }
+    ]
+  }
+}

@@ -1,0 +1,826 @@
+# Section 1 — System Overview
+
+**System Name:** Knowledge Integration System (KIS)
+
+**Location:** `c:\Darbar\Sovereign\N\persona_agent\new\persona\knowledge_[engine.py](http://engine.py)` (~450 lines)
+
+**Data Path:** `c:\Darbar\Sovereign\data\memory\ministers\`
+
+**Role:** The KIS is the wisdom-retrieval and knowledge-scoring engine of the Ministerial Cognitive Architecture (MCA). It determines which stored knowledge entries are most relevant to a given situation, scoring them via a multi-weight formula and returning ranked results to the minister's cognitive pipeline.
+
+---
+
+## Core Formula
+
+$$
+KIS = domain\_weight \times type\_weight \times memory\_weight \times context\_weight \times goal\_weight
+$$
+
+Each weight is computed from a distinct dimension of relevance:
+
+- **Domain Weight (`dw`):** How well the knowledge entry's domain tags match the current situation's domain
+- **Type Weight (`tw`):** Boost/penalty based on knowledge type (fact, heuristic, principle, experience, etc.)
+- **Memory Weight (`mw`):** Based on `reinforcement_count` — how often this knowledge has been reinforced: `1 + ln(1 + reinforcement_count)`
+- **Context Weight (`cw`):** Similarity between the knowledge entry's context tags and the current conversational context
+- **Goal Weight (`gw`):** Alignment between the knowledge entry's goal tags and the minister's active goal
+
+---
+
+## 9-Stage Pipeline
+
+1. **Situation Intake** — Receive situation description from the minister
+2. **Domain Matching** — Score all entries by domain overlap
+3. **Type Weighting** — Apply type-based multipliers
+4. **Memory Weighting** — Apply reinforcement-based memory weight
+5. **Context Matching** — Score context tag similarity
+6. **Goal Matching** — Score goal alignment
+7. **Composite Scoring** — Multiply all five weights
+8. **Ranking & Filtering** — Sort by composite score, apply threshold cutoff
+9. **Return Top-K** — Return ranked knowledge entries to the minister
+
+---
+
+## Builtin Fallback Entries
+
+The KIS ships with a set of hardcoded fallback knowledge entries that ensure ministers always have baseline wisdom available, even with an empty knowledge store. These cover universal principles like "consider multiple perspectives" and "verify before acting."
+
+---
+
+# Section 2 — Full Exchange Timeline
+
+> Below is the verbatim exchange-by-exchange record of the KIS design and upgrade conversation, preserving all technical detail.
+> 
+
+---
+
+## Exchange 1 — Current KIS Architecture Audit
+
+**User Prompt (summarized):** "Here is my knowledge engine code. Audit the current KIS architecture — explain how each of the 5 weights works, the pipeline, and builtin fallbacks."
+
+**AI Response (verbatim essence):**
+
+The current KIS uses a 5-factor multiplicative scoring formula:
+
+```
+KIS_score = domain_weight × type_weight × memory_weight × context_weight × goal_weight
+```
+
+### Weight Breakdown:
+
+**1. Domain Weight (`domain_weight`):**
+
+- Compares the knowledge entry's `domain_tags` against the situation's detected domain
+- Uses keyword overlap ratio
+- Range: 0.0–1.0
+
+**2. Type Weight (`type_weight`):**
+
+- Fixed multiplier per knowledge type
+- Types: `fact` (1.0), `heuristic` (1.2), `principle` (1.3), `experience` (1.1), `rule` (1.0)
+- Heuristics and principles are boosted because they represent distilled wisdom
+
+**3. Memory Weight (`memory_weight`):**
+
+- Formula: `1 + ln(1 + reinforcement_count)`
+- Logarithmic growth — diminishing returns on repeated reinforcement
+- A knowledge entry reinforced 10 times gets weight ~3.4, not 10
+- This prevents runaway dominance of frequently-accessed entries
+
+**4. Context Weight (`context_weight`):**
+
+- Compares knowledge entry's `context_tags` against current conversation context
+- Keyword overlap scoring
+- Range: 0.0–1.0
+
+**5. Goal Weight (`goal_weight`):**
+
+- Compares knowledge entry's `goal_tags` against the minister's active goal
+- Keyword overlap scoring
+- Range: 0.0–1.0
+
+### Pipeline:
+
+The 9-stage pipeline processes all knowledge entries through each weight calculation sequentially, then multiplies them into a composite score, ranks, filters by threshold, and returns top-K results.
+
+### Builtin Fallbacks:
+
+- Hardcoded entries with universal domain/context/goal tags
+- Always score above zero to guarantee some knowledge is returned
+- Act as a safety net for empty or sparse knowledge stores
+
+---
+
+## Exchange 2 — Bidirectional Learning (Reward/Penalty)
+
+**User Prompt (summarized):** "The current memory weight only rewards reinforcement. What about knowledge that was wrong or unhelpful? Propose a penalty mechanism."
+
+**AI Response (verbatim essence):**
+
+### Problem:
+
+Current memory weight is unidirectional — it only grows with reinforcement. Knowledge that led to bad outcomes has no mechanism to be suppressed.
+
+### Proposed Upgrade — Bidirectional Memory Weight:
+
+**New formula:**
+
+```
+memory_weight = (1 + ln(1 + reinforcement_count)) × exp(-0.3 × penalty_count)
+```
+
+**New field:** `penalty_count` added to each knowledge entry
+
+**Mechanics:**
+
+- `penalty_count` increments when the minister or user flags a knowledge application as unhelpful/wrong
+- `exp(-0.3 × penalty_count)` is an exponential decay:
+    - 0 penalties → multiplier = 1.0 (no effect)
+    - 1 penalty → multiplier ≈ 0.74
+    - 2 penalties → multiplier ≈ 0.55
+    - 3 penalties → multiplier ≈ 0.41
+    - 5 penalties → multiplier ≈ 0.22
+    - 10 penalties → multiplier ≈ 0.05 (nearly suppressed)
+
+**Key Properties:**
+
+- Exponential decay is aggressive — a few penalties significantly suppress an entry
+- But the entry is never fully deleted, preserving institutional memory
+- Reinforcement and penalty interact multiplicatively — high reinforcement can partially offset penalties
+- This creates a natural "controversial knowledge" signal: high reinforcement + high penalty = contested wisdom
+
+---
+
+## Exchange 3 — Knowledge Aging / Temporal Decay
+
+**User Prompt (summarized):** "Knowledge should also age. Old knowledge that hasn't been reinforced recently should gradually fade. Propose a decay mechanism."
+
+**AI Response (verbatim essence):**
+
+### Proposed Upgrade — Knowledge Aging:
+
+**New component added to memory weight:**
+
+```
+memory_weight = (1 + ln(1 + reinforcement_count)) × exp(-0.3 × penalty_count) × exp(-age_days / 180)
+```
+
+**New field:** `last_reinforced_date` on each knowledge entry
+
+**`age_days`:** Days since `last_reinforced_date` (not creation date — reinforcement resets the clock)
+
+**Decay curve (`exp(-age_days / 180)`):**
+
+- 0 days → 1.0 (fresh)
+- 30 days → ~0.85
+- 90 days → ~0.61
+- 180 days → ~0.37 (half-life)
+- 365 days → ~0.13
+- 720 days → ~0.02 (nearly forgotten)
+
+**Key Properties:**
+
+- 180-day half-life chosen to model human institutional memory
+- Reinforcement resets the age clock — actively used knowledge stays fresh
+- Combined with penalty decay, this creates a natural knowledge lifecycle:
+    - New knowledge starts strong
+    - Useful knowledge stays strong via reinforcement
+    - Wrong knowledge decays fast via penalties
+    - Stale knowledge gradually fades via aging
+    - Nothing is ever deleted — just increasingly suppressed
+
+---
+
+## Exchange 4 — Semantic Concept Tags Replacing Keywords
+
+**User Prompt (summarized):** "Keyword matching is brittle. 'finance' won't match 'budgeting'. Propose a semantic matching upgrade."
+
+**AI Response (verbatim essence):**
+
+### Problem:
+
+Current domain/context/goal weights use keyword overlap — exact string matching. This misses semantic relationships.
+
+### Proposed Upgrade — Semantic Concept Tags:
+
+**Replace keyword tags with concept tags that include semantic embeddings:**
+
+```python
+# Old format
+entry.domain_tags = ["finance", "budgeting", "quarterly"]
+
+# New format
+entry.concept_tags = [
+    {"label": "finance", "embedding": [0.12, -0.34, ...]},
+    {"label": "budgeting", "embedding": [0.15, -0.31, ...]},
+    {"label": "quarterly_planning", "embedding": [0.08, -0.29, ...]}
+]
+```
+
+**Matching changes:**
+
+- Replace keyword overlap with cosine similarity between embeddings
+- Threshold-based matching: cosine > 0.75 counts as a match
+- This means "finance" matches "budgeting" (cosine ~0.82), "fiscal policy" (cosine ~0.78), etc.
+
+**Impact on weights:**
+
+- Domain, context, and goal weights all switch from binary overlap to cosine similarity
+- Scoring becomes continuous rather than discrete
+- Knowledge entries with semantically related (but not identical) tags now score appropriately
+
+---
+
+## Exchange 5 — Contradiction Detection
+
+**User Prompt (summarized):** "What if two knowledge entries contradict each other? The system should detect and handle contradictions."
+
+**AI Response (verbatim essence):**
+
+### Proposed Upgrade — Contradiction Detection Layer:
+
+**Mechanism:**
+
+1. After scoring and ranking, take top-K results
+2. Pairwise comparison of knowledge entries using semantic similarity of their *conclusions/actions*
+3. If two entries have high domain similarity but opposing conclusions (cosine similarity of conclusions < -0.5), flag as contradiction
+4. Surface contradictions to the minister with both entries and their scores
+
+**Contradiction Resolution Strategies:**
+
+- **Recency wins:** Prefer the more recently reinforced entry
+- **Score wins:** Prefer the higher-scoring entry
+- **Escalate:** Present both to the minister and ask for explicit resolution
+- **Synthesize:** Attempt to find a synthesis that accounts for both perspectives
+
+**New field:** `contradiction_flags` on knowledge entries — tracks known contradictions
+
+---
+
+## Exchange 6 — Decision Posture Inference
+
+**User Prompt (summarized):** "Different situations require different types of thinking — cautious vs. bold, analytical vs. creative. The KIS should adapt its scoring based on the decision posture."
+
+**AI Response (verbatim essence):**
+
+### Proposed Upgrade — Decision Posture Inference:
+
+**New concept: `POSTURE_TYPE_BIAS` mapping**
+
+Each decision posture biases toward certain knowledge types:
+
+```python
+POSTURE_TYPE_BIAS = {
+    "cautious": {"fact": 1.5, "rule": 1.4, "principle": 1.2, "heuristic": 0.8, "experience": 1.0},
+    "bold": {"fact": 0.8, "rule": 0.7, "principle": 1.0, "heuristic": 1.5, "experience": 1.3},
+    "analytical": {"fact": 1.5, "rule": 1.3, "principle": 1.4, "heuristic": 0.9, "experience": 0.8},
+    "creative": {"fact": 0.7, "rule": 0.6, "principle": 1.0, "heuristic": 1.4, "experience": 1.5},
+    "empathetic": {"fact": 0.9, "rule": 0.8, "principle": 1.3, "heuristic": 1.1, "experience": 1.5}
+}
+```
+
+**How posture is inferred:**
+
+- LLM analyzes the situation description and infers the appropriate decision posture
+- Posture modifies the `type_weight` by multiplying with the bias factor
+- This means cautious situations boost facts and rules, creative situations boost heuristics and experiences
+
+**New formula component: `posture_type_weight`**
+
+```
+type_weight_adjusted = base_type_weight × POSTURE_TYPE_BIAS[posture][knowledge_type]
+```
+
+---
+
+## Exchange 7 — Applicability Filtering (Situation Frame → Constraint Matching)
+
+**User Prompt (summarized):** "Before scoring, the system should check if knowledge is even applicable to the current situation. A finance principle shouldn't score in a purely social situation."
+
+**AI Response (verbatim essence):**
+
+### Proposed Upgrade — Applicability Filtering:
+
+**New concept: Situation Frame**
+
+The LLM extracts a structured situation frame:
+
+```python
+situation_frame = {
+    "domain": "interpersonal_conflict",
+    "stakes": "medium",
+    "time_pressure": "low",
+    "constraints": ["emotional_sensitivity", "relationship_preservation"],
+    "actors": ["colleague", "manager"]
+}
+```
+
+**New field on knowledge entries: `applicability_constraints`**
+
+```python
+entry.applicability_constraints = {
+    "required_domains": ["interpersonal", "conflict_resolution"],
+    "excluded_domains": ["technical", "financial"],
+    "min_stakes": "low",
+    "max_time_pressure": "high"
+}
+```
+
+**Filtering process:**
+
+1. Extract situation frame (LLM call)
+2. For each knowledge entry, check if situation frame satisfies applicability constraints
+3. Entries that fail constraint matching get `applicability_score = 0.0` (filtered out)
+4. Entries that pass get `applicability_score = 1.0` (or a graded score based on match quality)
+
+**This happens BEFORE the 5-weight scoring** — it's a pre-filter that prevents irrelevant knowledge from even entering the scoring pipeline.
+
+---
+
+## Exchange 8 — Diagnosis / Counterfactual / Synthesis Layers
+
+**User Prompt (summarized):** "Human wisdom isn't just retrieval — it's diagnosis (what's really going on), counterfactual (what could go wrong), and synthesis (integrating multiple perspectives). Add these layers."
+
+**AI Response (verbatim essence):**
+
+### Proposed Upgrade — Three Wisdom Layers:
+
+**Layer 1: Diagnosis**
+
+- After retrieving top-K knowledge, LLM synthesizes a *diagnosis*: "What is really going on in this situation?"
+- Uses the knowledge entries as context, not just raw retrieval
+- Output: `diagnosis_text` — a paragraph explaining the underlying dynamics
+
+**Layer 2: Counterfactual**
+
+- LLM generates counterfactuals: "What could go wrong if we follow the top-ranked knowledge?"
+- Specifically looks for:
+    - Edge cases the knowledge doesn't cover
+    - Assumptions the knowledge makes that might not hold
+    - Second-order effects
+- Output: `counterfactual_risks[]` — list of identified risks
+
+**Layer 3: Synthesis**
+
+- LLM synthesizes across all retrieved knowledge, diagnosis, and counterfactuals
+- Produces a unified wisdom output that integrates multiple perspectives
+- Output: `synthesis_text` — the final wisdom recommendation
+
+**These three layers use 3 of the 4 proposed LLM handshake calls:**
+
+1. Situation + Constraint extraction (Exchange 7)
+2. Counterfactual generation
+3. Intent/Bias detection (related to posture)
+4. (The 4th call is the synthesis itself)
+
+---
+
+## Exchange 9 — ML Judgment Prior
+
+**User Prompt (summarized):** "Can we add a machine learning layer that learns from past scoring outcomes to predict better scores?"
+
+**AI Response (verbatim essence):**
+
+### Proposed Upgrade — ML Judgment Prior:
+
+**Model:** Gradient Boosted Trees (lightweight, interpretable, fast inference)
+
+**Feature Schema:**
+
+```python
+features = {
+    # Situation features
+    "situation_domain_embedding": [...],  # 64-dim
+    "situation_stakes": float,  # 0-1
+    "situation_time_pressure": float,  # 0-1
+    
+    # Constraint features
+    "num_constraints": int,
+    "constraint_embeddings_mean": [...],  # 64-dim
+    
+    # Knowledge features
+    "knowledge_type_onehot": [...],  # 5-dim
+    "knowledge_reinforcement_count": int,
+    "knowledge_penalty_count": int,
+    "knowledge_age_days": int,
+    "knowledge_domain_similarity": float,
+    
+    # Action features
+    "action_was_helpful": bool  # label
+}
+```
+
+**Label Generation Logic:**
+
+- When a minister applies knowledge and the outcome is evaluated:
+    - Positive outcome → `action_was_helpful = True`
+    - Negative outcome → `action_was_helpful = False`
+- This creates a supervised learning dataset over time
+
+**ML Prior Application:**
+
+- Model predicts `P(helpful | situation, knowledge)`
+- This becomes `ml_prior` weight
+- Clamped to range `[0.7, 1.3]` — ML can boost or suppress by at most 30%
+- This prevents the ML from overriding the interpretable scoring system
+
+**Updated formula:**
+
+```
+KIS = dw × tw × mw × cw × gw × posture_type_weight × applicability_score × ml_prior
+```
+
+---
+
+## Exchange 10 — Wisdom Test Cases
+
+**User Prompt (summarized):** "Give me 7 test cases that validate the full upgraded KIS pipeline."
+
+**AI Response (verbatim essence):**
+
+### 7 Wisdom Test Cases:
+
+**Test 1: Basic Retrieval**
+
+- Situation: "How should I handle a budget overrun?"
+- Expected: Finance-domain knowledge ranked highest, with facts and rules boosted (analytical posture)
+
+**Test 2: Penalty Suppression**
+
+- Setup: Knowledge entry with `penalty_count = 5`
+- Expected: Entry score suppressed by ~78% (`exp(-0.3 × 5) ≈ 0.22`)
+
+**Test 3: Aging Decay**
+
+- Setup: Knowledge entry last reinforced 365 days ago
+- Expected: Memory weight reduced to ~13% of fresh entry
+
+**Test 4: Semantic Matching**
+
+- Situation: "budgeting concerns"
+- Knowledge tagged with "finance"
+- Expected: Cosine similarity > 0.75, entry scores well despite no keyword overlap
+
+**Test 5: Contradiction Detection**
+
+- Setup: Two entries — "always be transparent" vs. "protect sensitive information"
+- Situation: "colleague asks about confidential project"
+- Expected: Contradiction flagged, both entries surfaced with resolution options
+
+**Test 6: Posture Bias**
+
+- Situation: High-stakes emergency (bold posture)
+- Expected: Heuristics and experience boosted (1.5×, 1.3×), rules suppressed (0.7×)
+
+**Test 7: Applicability Filter**
+
+- Situation: Purely social dinner planning
+- Knowledge: Technical architecture principle with `excluded_domains: ["social"]`
+- Expected: Entry filtered out before scoring (`applicability_score = 0.0`)
+
+---
+
+## Exchange 11 — ML Validation Tests
+
+**User Prompt (summarized):** "Give me 8 test cases specifically for the ML judgment prior."
+
+**AI Response (verbatim essence):**
+
+### 8 ML Validation Tests:
+
+**Test 1: Cold Start** — No training data yet → `ml_prior = 1.0` (neutral)
+
+**Test 2: Positive Learning** — After 50 positive outcomes for finance-domain facts → ML boosts finance facts (`ml_prior ≈ 1.2`)
+
+**Test 3: Negative Learning** — After 30 negative outcomes for heuristics in high-stakes → ML suppresses (`ml_prior ≈ 0.75`)
+
+**Test 4: Clamp Check** — Even with extreme training signal → `ml_prior` never exceeds 1.3 or drops below 0.7
+
+**Test 5: Feature Importance** — Verify that `knowledge_domain_similarity` is top feature by importance score
+
+**Test 6: Incremental Update** — Add 10 new training examples → Model updates without catastrophic forgetting
+
+**Test 7: Cross-Domain Transfer** — Training on finance situations partially transfers to business strategy (related domains)
+
+**Test 8: Adversarial Robustness** — Inject 5 mislabeled examples → Model performance degrades by < 5%
+
+---
+
+## Exchange 12 — Efficiency Optimizations
+
+**User Prompt (summarized):** "This pipeline has 4 LLM calls. That's slow. Propose optimizations."
+
+**AI Response (verbatim essence):**
+
+### 4 Efficiency Optimizations:
+
+**1. Call Collapse**
+
+- Merge situation+constraint extraction and intent/bias detection into a single LLM call
+- One prompt that extracts: situation frame, constraints, AND decision posture
+- Reduces LLM calls from 4 to 3
+
+**2. Situation Fingerprint Cache**
+
+- Hash the situation description into a fingerprint
+- Cache the LLM extraction results (situation frame, constraints, posture) by fingerprint
+- If the same situation recurs within a session, skip the LLM call entirely
+- TTL: Session-scoped (cleared between conversations)
+
+**3. Two-Stage Retrieval**
+
+- Stage 1: Fast pre-filter using only domain similarity (cheap, no LLM needed)
+    - Eliminate entries with domain similarity < 0.3
+- Stage 2: Full scoring pipeline on remaining entries
+- Typical reduction: 80% of entries eliminated in Stage 1
+
+**4. Memoized ML Priors**
+
+- Cache ML predictions by (situation_fingerprint, knowledge_id) tuple
+- Same situation + same knowledge → same ML prior (deterministic)
+- Invalidate cache when model is retrained
+
+**Net effect:** 3 LLM calls instead of 4, ~80% fewer full scoring computations, cached ML inference.
+
+---
+
+## Exchange 13 — Meta-Improvements
+
+**User Prompt (summarized):** "What meta-level improvements would make the KIS smarter over time, beyond just scoring?"
+
+**AI Response (verbatim essence):**
+
+### 5 Meta-Improvements:
+
+**1. `judgment_uncertainty`**
+
+- Track confidence of the KIS output
+- When top-K scores are clustered (low spread), flag as "uncertain judgment"
+- Triggers more cautious minister behavior or escalation
+
+**2. Novelty Detection**
+
+- Detect situations that have low similarity to ALL stored knowledge
+- Flag as "novel situation" — minister should rely more on principles and less on experience
+- Over time, novel situations that recur become "emerging patterns"
+
+**3. Disagreement Awareness**
+
+- Track how often different knowledge entries are selected in similar situations
+- High disagreement = the domain has unresolved tensions
+- Surface this as meta-information to the minister
+
+**4. Time-to-Revisit**
+
+- Predict when a knowledge entry will need review based on its domain's rate of change
+- Fast-changing domains (technology) → shorter revisit intervals
+- Stable domains (ethics) → longer revisit intervals
+
+**5. Counterfactual Memory**
+
+- Store counterfactual analyses alongside knowledge entries
+- When the same counterfactual risk is identified repeatedly, elevate it to a first-class knowledge entry
+- This creates a "learned caution" mechanism — the system remembers what could have gone wrong
+
+---
+
+# Section 3 — Upgraded Formula Summary
+
+## Current Formula:
+
+$$
+KIS = dw \times tw \times mw \times cw \times gw
+$$
+
+## Fully Upgraded Formula:
+
+$$
+KIS = dw \times tw \times mw \times cw \times gw \times posture\_type\_weight \times applicability\_score \times ml\_prior
+$$
+
+Where:
+
+- `dw` = domain weight (semantic cosine similarity, not keyword overlap)
+- `tw` = type weight (base type multiplier)
+- `mw` = `(1 + ln(1 + reinforcement_count)) × exp(-0.3 × penalty_count) × exp(-age_days / 180)`
+- `cw` = context weight (semantic cosine similarity)
+- `gw` = goal weight (semantic cosine similarity)
+- `posture_type_weight` = `POSTURE_TYPE_BIAS[inferred_posture][knowledge_type]`
+- `applicability_score` = 0.0 (filtered) or 1.0 (passed constraint check)
+- `ml_prior` = gradient boosted tree prediction, clamped to `[0.7, 1.3]`
+
+---
+
+# Section 4 — Architecture Diagram (Upgraded Pipeline)
+
+```
+Situation Input
+      │
+      ▼
+┌─────────────────────────┐
+│  LLM Call 1 (Merged)    │
+│  • Situation Frame      │
+│  • Constraints          │
+│  • Decision Posture     │
+└───────────┬─────────────┘
+            │
+            ▼
+┌─────────────────────────┐
+│  Stage 1: Pre-Filter    │
+│  Domain similarity >0.3 │
+│  Applicability check    │
+└───────────┬─────────────┘
+            │
+            ▼
+┌─────────────────────────┐
+│  Stage 2: Full Scoring  │
+│  dw × tw × mw × cw × gw│
+│  × posture × ml_prior   │
+└───────────┬─────────────┘
+            │
+            ▼
+┌─────────────────────────┐
+│  Contradiction Detection│
+│  (pairwise on top-K)    │
+└───────────┬─────────────┘
+            │
+            ▼
+┌─────────────────────────┐
+│  LLM Call 2:            │
+│  Counterfactual Analysis│
+└───────────┬─────────────┘
+            │
+            ▼
+┌─────────────────────────┐
+│  LLM Call 3:            │
+│  Diagnosis + Synthesis  │
+└───────────┬─────────────┘
+            │
+            ▼
+    Wisdom Output
+    • Ranked knowledge
+    • Diagnosis
+    • Counterfactuals
+    • Synthesis
+    • Uncertainty flag
+```
+
+---
+
+# Section 5 — Data Structures
+
+## Knowledge Entry (Upgraded)
+
+```python
+@dataclass
+class KnowledgeEntry:
+    id: str
+    content: str
+    knowledge_type: str  # fact, heuristic, principle, experience, rule
+    
+    # Semantic concept tags (replacing keyword tags)
+    domain_concepts: List[ConceptTag]  # [{label, embedding}]
+    context_concepts: List[ConceptTag]
+    goal_concepts: List[ConceptTag]
+    
+    # Memory tracking
+    reinforcement_count: int = 0
+    penalty_count: int = 0
+    last_reinforced_date: datetime = None
+    created_date: datetime = None
+    
+    # Applicability constraints
+    applicability_constraints: ApplicabilityConstraints = None
+    
+    # Contradiction tracking
+    contradiction_flags: List[str] = []  # IDs of contradicting entries
+    
+    # Meta fields
+    counterfactual_memory: List[str] = []  # stored counterfactual risks
+    time_to_revisit: Optional[int] = None  # days until review
+```
+
+## Situation Frame
+
+```python
+@dataclass
+class SituationFrame:
+    domain: str
+    domain_embedding: List[float]
+    stakes: str  # low, medium, high
+    time_pressure: str  # low, medium, high
+    constraints: List[str]
+    constraint_embeddings: List[List[float]]
+    actors: List[str]
+    inferred_posture: str  # cautious, bold, analytical, creative, empathetic
+```
+
+## ML Feature Vector
+
+```python
+@dataclass
+class MLFeatureVector:
+    situation_domain_embedding: List[float]  # 64-dim
+    situation_stakes: float
+    situation_time_pressure: float
+    num_constraints: int
+    constraint_embeddings_mean: List[float]  # 64-dim
+    knowledge_type_onehot: List[int]  # 5-dim
+    knowledge_reinforcement_count: int
+    knowledge_penalty_count: int
+    knowledge_age_days: int
+    knowledge_domain_similarity: float
+    # Label
+    action_was_helpful: Optional[bool] = None
+```
+
+---
+
+# Section 6 — POSTURE_TYPE_BIAS Reference Table
+
+| **Posture  Type** | **Fact** | **Heuristic** | **Principle** | **Experience** | **Rule** |
+| --- | --- | --- | --- | --- | --- |
+| Cautious | 1.5 | 0.8 | 1.2 | 1.0 | 1.4 |
+| Bold | 0.8 | 1.5 | 1.0 | 1.3 | 0.7 |
+| Analytical | 1.5 | 0.9 | 1.4 | 0.8 | 1.3 |
+| Creative | 0.7 | 1.4 | 1.0 | 1.5 | 0.6 |
+| Empathetic | 0.9 | 1.1 | 1.3 | 1.5 | 0.8 |
+
+---
+
+# Section 7 — LLM Handshake Calls
+
+## Call 1 (Merged): Situation + Constraint + Posture Extraction
+
+**Input:** Raw situation description
+
+**Output:** `SituationFrame` (domain, stakes, time_pressure, constraints, actors, inferred_posture)
+
+**Caching:** Fingerprint-based, session-scoped
+
+## Call 2: Counterfactual Generation
+
+**Input:** Top-K ranked knowledge + situation frame
+
+**Output:** `counterfactual_risks[]` — list of identified risks per knowledge entry
+
+**Purpose:** Identify what could go wrong if we follow each piece of knowledge
+
+## Call 3: Diagnosis + Synthesis
+
+**Input:** Top-K knowledge + counterfactuals + situation frame
+
+**Output:** `diagnosis_text` + `synthesis_text`
+
+**Purpose:** Produce the final integrated wisdom output
+
+---
+
+# Section 8 — Test Case Reference
+
+## Wisdom Tests (7)
+
+| # | Name | Tests | Expected |
+| --- | --- | --- | --- |
+| 1 | Basic Retrieval | Domain matching, type weighting | Finance knowledge ranked first |
+| 2 | Penalty Suppression | Bidirectional memory | 5 penalties → ~78% suppression |
+| 3 | Aging Decay | Temporal decay | 365 days → ~13% weight |
+| 4 | Semantic Matching | Concept tag cosine | "budgeting" matches "finance" |
+| 5 | Contradiction Detection | Pairwise comparison | Conflicting entries flagged |
+| 6 | Posture Bias | Decision posture inference | Emergency boosts heuristics |
+| 7 | Applicability Filter | Pre-filter constraints | Social entry filtered from technical |
+
+## ML Tests (8)
+
+| # | Name | Tests | Expected |
+| --- | --- | --- | --- |
+| 1 | Cold Start | No training data | ml_prior = 1.0 |
+| 2 | Positive Learning | 50 positive outcomes | ml_prior ≈ 1.2 |
+| 3 | Negative Learning | 30 negative outcomes | ml_prior ≈ 0.75 |
+| 4 | Clamp Check | Extreme signals | 0.7 ≤ ml_prior ≤ 1.3 |
+| 5 | Feature Importance | Feature analysis | domain_similarity is top feature |
+| 6 | Incremental Update | 10 new examples | No catastrophic forgetting |
+| 7 | Cross-Domain Transfer | Related domains | Partial transfer works |
+| 8 | Adversarial Robustness | 5 mislabeled examples | < 5% degradation |
+
+---
+
+# Section 9 — Optimization Reference
+
+| Optimization | Mechanism | Impact |
+| --- | --- | --- |
+| **Call Collapse** | Merge 3 extractions into 1 LLM call | 4 → 3 LLM calls |
+| **Situation Fingerprint Cache** | Hash-based cache for LLM extractions | Skip LLM on repeat situations |
+| **Two-Stage Retrieval** | Pre-filter by domain similarity > 0.3 | ~80% entries eliminated early |
+| **Memoized ML Priors** | Cache by (fingerprint, knowledge_id) | Skip ML inference on repeats |
+
+---
+
+# Section 10 — Meta-Improvement Reference
+
+| Meta-Feature | Purpose | Trigger |
+| --- | --- | --- |
+| **judgment_uncertainty** | Flag low-confidence outputs | Top-K score spread is narrow |
+| **Novelty Detection** | Detect unprecedented situations | Low similarity to all knowledge |
+| **Disagreement Awareness** | Track unresolved domain tensions | High variance in entry selection |
+| **Time-to-Revisit** | Predict knowledge staleness | Domain change rate modeling |
+| **Counterfactual Memory** | Learn from recurring risks | Same counterfactual flagged 3+ times |

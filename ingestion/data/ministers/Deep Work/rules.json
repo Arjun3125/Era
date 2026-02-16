@@ -1,0 +1,43 @@
+{
+  "domain": "Deep Work",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "91a77122-1fe6-4e57-be93-9ccfeb142cc9",
+      "text": "Distinguish between deep work and serendipitous encounters in your schedule.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "37adf359-4dd6-49a9-8c99-735d84d76382",
+      "text": "Collaborate using the 'whiteboard effect' when solving complex problems.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7a4e9c10-f840-4ec7-8789-d2079d964381",
+      "text": "Avoid mixing different work modes to prevent reduced effectiveness.",
+      "source": {
+        "book": "Deep Work",
+        "chapter": 22
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-12T17:15:19.261589Z",
+    "aggregated_from": [
+      {
+        "book": "Deep Work",
+        "chapter": 22
+      }
+    ]
+  }
+}

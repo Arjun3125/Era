@@ -1,0 +1,65 @@
+{
+  "domain": "home ownership",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "ce105622-1990-4f45-9bcc-dfa7bccd4fac",
+      "text": "Establish long-term financial planning",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0742447f-431c-4343-8d06-6c696fe3480a",
+      "text": "Manage assets for security and inheritance benefits",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c523be53-e61f-4003-9636-ff9e91b07288",
+      "text": "Save before spending",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "58c14458-40af-48a0-9013-8b79701e8b77",
+      "text": "Financial success requires creativity and common sense",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "137b1228-116e-42f8-b162-2582aedf4d74",
+      "text": "Use creativity and common sense in financial planning",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 33
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 5,
+    "last_updated": "2026-02-14T19:55:36.880391Z",
+    "aggregated_from": [
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 16
+      },
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 33
+      }
+    ]
+  }
+}

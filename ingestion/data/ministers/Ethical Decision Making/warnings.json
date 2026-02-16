@@ -1,0 +1,34 @@
+{
+  "domain": "Ethical Decision Making",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "85b29b28-34f8-45a3-83a1-0c7b9d5d9feb",
+      "text": "Arbitrary judgments about the value of human life can lead to unforeseen consequences.",
+      "source": {
+        "book": "Crime",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ca1490cd-3947-41b1-9769-7e7a843fb887",
+      "text": "The justification of an action based solely on its perceived benefit may overlook intrinsic moral considerations.",
+      "source": {
+        "book": "Crime",
+        "chapter": 11
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T05:32:32.391033Z",
+    "aggregated_from": [
+      {
+        "book": "Crime",
+        "chapter": 11
+      }
+    ]
+  }
+}

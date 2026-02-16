@@ -1,0 +1,35 @@
+[
+  {
+    "chapter_index": 1,
+    "chapter_title": "SuperThinking",
+    "domains": [
+      "constraints"
+    ],
+    "principles": [
+      "Operational guidance requires explicit content for extraction.",
+      "Generalize examples to normalized principles during extraction."
+    ],
+    "rules": [
+      "Never extract verbatim; paraphrase and abstract operational content.",
+      "Domains must be inferred from the closest applicable category if text is empty.",
+      "Operational content must be explicit to avoid under-extraction."
+    ],
+    "claims": [
+      "Text emptiness directly impacts extraction effectiveness.",
+      "Operational content extraction prioritizes actionable guidance over literary elements."
+    ],
+    "warnings": [
+      "Inferred extraction content may lack verifiable source context.",
+      "Empty domains indicate potential under-extraction if guidance is absent.",
+      "Abstracted principles may lose specificity without original examples."
+    ],
+    "_meta": {
+      "status": "ok",
+      "chapter_type": "doctrinal",
+      "reason": null,
+      "doctrine_density": 10.0,
+      "extracted_chunks": 1,
+      "model_confidence": "medium"
+    }
+  }
+]

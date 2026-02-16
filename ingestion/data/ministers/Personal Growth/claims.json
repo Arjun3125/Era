@@ -1,0 +1,47 @@
+{
+  "domain": "Personal Growth",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "ed48a443-fd08-46c0-895c-aaf9d24a21f3",
+      "text": "Individuals may prioritize perceived benefits over potential long-term consequences.",
+      "source": {
+        "book": "Crime",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a3922b61-e6d3-4545-86b9-766b3445fd0f",
+      "text": "People often overlook warning signs in favor of immediate comfort or convenience.",
+      "source": {
+        "book": "Crime",
+        "chapter": 8
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "13df0b07-3ffe-4c3a-b83c-9245c05810bd",
+      "text": "Compound growth through disciplined saving and investing leads to financial freedom.",
+      "source": {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 5
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-14T19:55:37.123093Z",
+    "aggregated_from": [
+      {
+        "book": "Crime",
+        "chapter": 8
+      },
+      {
+        "book": "16-05-2021-070111The-Richest-Man-in-Babylon",
+        "chapter": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "domain": "Leadership",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "69748652-1235-4d5f-9fd5-8aced55e4d7c",
+      "text": "Excessive admiration can distract from necessary action",
+      "source": {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 46
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "91504e3a-fb36-46fd-827d-8286b901d671",
+      "text": "Hesitation can lead to missed opportunities",
+      "source": {
+        "book": "Crime",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2a9387d1-76c6-4e6b-ada5-0bc105e5b749",
+      "text": "Failure to act decisively may result in regret",
+      "source": {
+        "book": "Crime",
+        "chapter": 12
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "032d12cc-5a92-470a-b93e-2c8b05bbc2a3",
+      "text": "Underestimating one's influence can limit personal effectiveness.",
+      "source": {
+        "book": "Seamos_personas_de_Infliuencia",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e93051ad-dd85-4295-9fb9-6915f2e19e74",
+      "text": "Lack of awareness about one's influence does not negate its existence.",
+      "source": {
+        "book": "Seamos_personas_de_Infliuencia",
+        "chapter": 3
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e6864865-1503-47a2-8402-3e383174f6e5",
+      "text": "Rigid leadership styles hinder team performance",
+      "source": {
+        "book": "The Diary of a CEO_ 33 Laws of Business and Life (2023)",
+        "chapter": 82
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7c5de852-a129-4d80-baf8-8a8296bc71ba",
+      "text": "Overconfidence can lead to poor decision-making and ultimately, professional failure.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b28c4ec4-3a41-4a6c-b82b-dc4446e232bc",
+      "text": "Neglecting self-awareness can result in a gradual loss of perspective and critical judgment.",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 18
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e1a6b878-afff-4f9f-8b3c-a45e55bb5519",
+      "text": "Lack of commitment guarantees inaction and missed opportunities.",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "817035ef-7ae9-4d69-83c0-e92b57e94c04",
+      "text": "Fear persists in environments where control over one's life is absent.",
+      "source": {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 9
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "35b7699b-a267-42ad-b95b-6ee7f8665781",
+      "text": "Unquestioning loyalty to authority can lead to loss of individual freedom.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 52
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "03d9851d-7ed7-4751-8a60-e65c0c175eab",
+      "text": "Lack of critical thinking about leadership can perpetuate cycles of historical enslavement.",
+      "source": {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 52
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 12,
+    "last_updated": "2026-02-13T14:08:41.306327Z",
+    "aggregated_from": [
+      {
+        "book": "64b13492db952-the-daily-stoic",
+        "chapter": 46
+      },
+      {
+        "book": "Crime",
+        "chapter": 12
+      },
+      {
+        "book": "Seamos_personas_de_Infliuencia",
+        "chapter": 3
+      },
+      {
+        "book": "The Diary of a CEO_ 33 Laws of Business and Life (2023)",
+        "chapter": 82
+      },
+      {
+        "book": "The_Psychology_of_Money",
+        "chapter": 18
+      },
+      {
+        "book": "Win-Your-Inner-Battles",
+        "chapter": 9
+      },
+      {
+        "book": "ernest_becker_the_denial_of_deathbookfi-org",
+        "chapter": 52
+      }
+    ]
+  }
+}

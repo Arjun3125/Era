@@ -1,0 +1,43 @@
+{
+  "domain": "Reflection & Growth",
+  "category": "rules",
+  "entries": [
+    {
+      "id": "595b2b43-4564-4a97-a30c-11a6fb24f1f6",
+      "text": "Read books against their intended grain to derive maximum benefit.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "47acbe22-e1c6-42ee-b4a5-df97cebfde58",
+      "text": "Temporary restrictions are necessary for sustained intellectual vitality.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 11
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7cb9bc69-6ecc-4846-8d9c-7e190bf2a355",
+      "text": "When faced with criticism, consider your own faults before reacting.",
+      "source": {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 11
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-12T13:18:44.342485Z",
+    "aggregated_from": [
+      {
+        "book": "Cioran, E. M. - Trouble With Being Born (Seaver, 2011)",
+        "chapter": 11
+      }
+    ]
+  }
+}

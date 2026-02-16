@@ -1,0 +1,43 @@
+{
+  "domain": "dream interpretation",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "93687ebf-d762-48ae-8bd7-8ebc6eb23a89",
+      "text": "Over-reliance on fixed symbols can lead to routine and dogmatism in therapy.",
+      "source": {
+        "book": "modern-man-in-search-of-a-soul-stages-of-life-1",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d67627dd-bc27-4153-adf6-ef55c9f31656",
+      "text": "Interpreting dreams exhaustively may not address the patient's immediate needs.",
+      "source": {
+        "book": "modern-man-in-search-of-a-soul-stages-of-life-1",
+        "chapter": 7
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "46634c59-7bcd-4ac5-aa5c-b46c5d9110b0",
+      "text": "Ignoring the patient's current state may result in misdiagnosis or ineffective treatment.",
+      "source": {
+        "book": "modern-man-in-search-of-a-soul-stages-of-life-1",
+        "chapter": 7
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T15:10:58.544943Z",
+    "aggregated_from": [
+      {
+        "book": "modern-man-in-search-of-a-soul-stages-of-life-1",
+        "chapter": 7
+      }
+    ]
+  }
+}

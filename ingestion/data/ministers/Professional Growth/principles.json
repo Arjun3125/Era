@@ -1,0 +1,43 @@
+{
+  "domain": "Professional Growth",
+  "category": "principles",
+  "entries": [
+    {
+      "id": "401ba56b-3447-4a91-807d-5b24c766beea",
+      "text": "Focus on a core purpose for career direction",
+      "source": {
+        "book": "Summary-of-SGTCIY-pdf",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dd55e2a5-aecc-4ddb-b0ff-ac563f4ae19f",
+      "text": "Embrace gradual progress and skill development",
+      "source": {
+        "book": "Summary-of-SGTCIY-pdf",
+        "chapter": 4
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dcd11862-b01f-4a67-baf4-e267a34b7d25",
+      "text": "Test ideas incrementally through small experiments",
+      "source": {
+        "book": "Summary-of-SGTCIY-pdf",
+        "chapter": 4
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T06:23:37.549202Z",
+    "aggregated_from": [
+      {
+        "book": "Summary-of-SGTCIY-pdf",
+        "chapter": 4
+      }
+    ]
+  }
+}

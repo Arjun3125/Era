@@ -1,0 +1,43 @@
+{
+  "domain": "cash_flow",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "e6d75947-4b56-4993-b53b-00d248b23ff8",
+      "text": "Neglecting cash flow leads to loss of control and business failure.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "16647f2b-d016-420e-a3a6-af7340103501",
+      "text": "Factoring debt creates long-term financial penalties and dependency.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 26
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "53a1b03b-1213-4efd-a979-3441aa94bfa8",
+      "text": "Overoptimism about cash flow often masks underlying financial weaknesses.",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 26
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-12T19:44:27.376459Z",
+    "aggregated_from": [
+      {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 26
+      }
+    ]
+  }
+}

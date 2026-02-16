@@ -1,0 +1,56 @@
+{
+  "domain": "Learning",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "f0e42184-ad50-4244-945d-f5bde2f48977",
+      "text": "Over-sharing or excessive speech may be inappropriate in certain contexts.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a317b21e-0418-41a0-870a-cb2e4fedc25e",
+      "text": "Unclear or ambiguous communication can lead to misunderstanding or discomfort.",
+      "source": {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 50
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "982d9554-0265-4360-be1c-95f60f25bcc5",
+      "text": "Failure to foster psychological safety can lead to uncorrected errors.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 71
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "10467aae-0c24-4d53-a0ec-f7b5938038a3",
+      "text": "Leaders who prioritize results over psychological safety may miss critical input.",
+      "source": {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 71
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 4,
+    "last_updated": "2026-02-13T20:50:12.210355Z",
+    "aggregated_from": [
+      {
+        "book": "Thus spoke Zarathustra",
+        "chapter": 50
+      },
+      {
+        "book": "think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_",
+        "chapter": 71
+      }
+    ]
+  }
+}

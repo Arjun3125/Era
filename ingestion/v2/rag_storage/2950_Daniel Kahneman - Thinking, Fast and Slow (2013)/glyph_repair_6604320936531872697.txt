@@ -1,0 +1,54 @@
+It is easy to see that F dominates E. Indeed, all respondents chose accordingly.
+
+Problem 4 (N = 150): Imagine that you face the following pair of concurrent decisions.
+First examine both decisions, then indicate the options you prefer.
+
+Decision (i) Choose between:
+
+A. a sure gain of $240 (84%)
+B. 25% chance to gain $1,000 and 75% chance to gain nothing (16%)
+
+Decision (ii) Choose between:
+
+C. a sure loss of $750 (13%)
+D. 75% chance to lose $1,000 and 25% chance to lose nothing (87%)
+
+As expected from the previous analysis, a large majority of subjects made a risk-averse choice for the sure gain over the positive gamble in the first decision, and an even larger majority of subjects made a risk-seeking choice for the gamble over the sure loss in the second decision. In fact, 73% of the respondents chose A and D, and only 3% chose B and C. The same Cce f p pattern of results was observed in a modified version of the problem, with reduced stakes, in which undergraduates selected gambles that they would actually play.
+
+Because the subjects considered the two decisions in Problem 4 simultaneously, they expressed in effect a preference for A and D over B and C. The preferred conjunction, however, is actually dominated by the rejected one. Adding the sure gain of $240 (option A) to option D yields a 25% chance to win $240 and a 75% chance to lose $760. This is precisely option E in Problem 3. Similarly, adding the sure loss of $750 (option C) to option B yields a 25% chance to win $250 and a 75% chance to lose $750. This is precisely option F in Problem 3. Thus, the susceptibility to framing and the S-shaped value function produce a violation of dominance in a set of concurrent decisions.
+
+The moral of these results is disturbing: Invariance is normatively essential, intuitively compelling, and psychologically unfeasible. Indeed, we conceive only two ways of guaranteeing invariance. The first is to adopt a procedure that will transform equivalent versions of any problem into the same canonical representation. This is the rationale for the standard admonition to students of business, that they should consider each decision problem in terms of total assets rather than in terms of gains or losses (Schlaifer 1959). Such a representation would avoid the violations of invariance illustrated in the previous problems, but the advice is easier to give than to follow. Except in the context of possible ruin, it is more natural to consider financial outcomes as gains and losses rather than as states of wealth. Furthermore, a canonical representation of risky prospects requires a compounding of all outcomes of concurrent decisions (e.g., Problem 4) that exceeds the capabilities of intuitive computation even in simple problems. Achieving a canonical representation is even more difficult in other contexts such as safety, health, or quality of life.
+
+Should we advise people to evaluate the consequences of a public health policy (e.g., Problems 1 and 2) in terms of overall mortality, mortality due to diseases, or the number of deaths associated with the particular disease under study?
+
+Another approach that could guarantee invariance is the evaluation of options in terms of their actuarial rather than their psychological consequences. The actuarial criterion has some appeal in the context of human lives, but it is clearly inadequate for financial choices, as has been generally recognized at least since Bernoulli, and it is entirely inapplicable to outcomes that lack an objective metric. We conclude that frame invariance cannot be expected to hold and that a sense of confidence in a particular choice does not ensure that the same choice would be made in another frame. It is therefore good practice to test the robustness of preferences by deliberate attempts to frame a decision problem in more than one way (Fischhoff, Slovic, and Lichtenstein 1980).
+
+The Psychophysics of Chances
+
+Our discussion so far has assumed a Bernoullian expectation rule according to which the value, or utility, of an uncertain prospect is obtained by adding the utilities of the possible outcomes, each weighted by its probability. To examine this assumption, let us again consult psychophysical intuitions. Setting the value of the status quo at zero, imagine a cash gift, say of $300, and assign it a value of one. Now imagine that you are only given a ticket to a lottery that has a single prize of $300. How does the value of the ticket vary as a function of the probability of winning the prize? Barring utility for gambling, the value of such a prospect must vary between zero (when the chance of winning is nil) and one (when winning $300 is a certainty).
+
+Intuition suggests that the value of the ticket is not a linear function of the probability of winning, as entailed by the expectation rule. In particular, an increase from 0% to 5% appears to have a larger effect than an increase from 30% to 35%, which also appears smaller than an increase from 95% to 100%. These considerations suggest a category-boundary effect: A change from impossibility to possibility or from possibility to certainty has a bigger impact than a comparable change in the middle of the scale. This hypothesis is incorporated into the curve displayed in Figure 2, which plots the weight attached to an event as a function of its stated numerical probability. The most salient feature of Figure 2 is that decision weights are regressive with respect to stated probabilities. Except near the endpoints, an increase of .05 in the probability of winning increases the value of the prospect by less than 5% of the value of the prize.
+
+We next investigate the implications of these psychophysical hypotheses for preferences among risky options.
+
+Figure 2. A Hypothetical Weighting Function
+
+In Figure 2, decision weights are lower than the corresponding probabilities over most of the range. Underweighting of moderate and high probabilities relative to sure things contributes to risk aversion in gains by reducing the attractiveness of positive gambles. The same effect also contributes to risk seeking in losses by attenuating the aversiveness of negative gambles. Low probabilities, however, are overweighted, and very low probabilities are either overweighted quite grossly or neglected altogether, making the decision weights highly unstable in that region. The overweighting of low probabilities reverses the pattern described above: It enhances the value of long shots and amplifies the aversiveness of a small chance of a severe loss. Consequently, people are often risk seeking in dealing with improbable gains and risk averse in dealing with unlikely losses.
+
+Thus, the characteristics of decision weights contribute to the attractiveness of both lottery tickets and insurance policies.
+
+The nonlinearity of decision weights inevitably leads to violations of invariance, as illustrated in the following pair of problems:
+
+Problem 5 (N = 85): Consider the following two-stage game. In the first stage, there is a 75% chance to end the game without winning anything and a 25% chance to move into the second stage. If you reach the second stage you have a choice between:
+
+A. a sure win of $30 (74%)
+B. 80% chance to win $45 (26%)
+
+Your choice must be made before the game starts, i.e., before the outcome of the first stage is known. Please indicate the option you prefer.
+
+Problem 6 (N = 81): Which of the following options do you prefer?
+
+C. 25% chance to win $30 (42%)
+D. 20% chance to win $45 (58%)
+
+Because there is one chance in four to move into the second stage in Problem 5, prospect A offers a .25 probability of winning $30, and prospect B offers .25 × .80 = .20 probability of winning $45. Problems 5 and 6 are therefore identical in terms of probabilities and outcomes. However, the preferences are not the same in the two versions: A clear majority favored option A in Problem 5 but chose option D in Problem 6. This difference is a classic example of the framing effect, where the way information is presented can influence decision-making even when the underlying probabilities remain unchanged.

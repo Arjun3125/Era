@@ -1,0 +1,47 @@
+{
+  "domain": "Narrative",
+  "category": "warnings",
+  "entries": [
+    {
+      "id": "bd01904a-a5f7-4c93-87e9-e3d67013d7ae",
+      "text": "Unclear boundaries or rigid rules may limit potential in dynamic environments.",
+      "source": {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 30
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3012d2e5-52b8-4cff-9ede-a468e63b920d",
+      "text": "Neglecting family obligations can lead to social collapse",
+      "source": {
+        "book": "Crime",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "753aa18b-5f65-4d57-af64-23d7fa2c6a9a",
+      "text": "Unaddressed personal failings may attract societal judgment",
+      "source": {
+        "book": "Crime",
+        "chapter": 5
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 3,
+    "last_updated": "2026-02-13T05:32:31.722484Z",
+    "aggregated_from": [
+      {
+        "book": "Finite-and-Infinite-Games-by-James-Carse",
+        "chapter": 30
+      },
+      {
+        "book": "Crime",
+        "chapter": 5
+      }
+    ]
+  }
+}

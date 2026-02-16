@@ -1,0 +1,34 @@
+{
+  "domain": "Behavioral Finance",
+  "category": "claims",
+  "entries": [
+    {
+      "id": "3ac0243b-c52e-4b1e-aba5-b36062bf2cf6",
+      "text": "Behavioral finance principles can be learned through practice",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bdabb9ac-7b24-4fa6-8918-610cfe5b2fc9",
+      "text": "Compounding over time can turn small savings into significant wealth",
+      "source": {
+        "book": "The_Psychology_of_Money",
+        "chapter": 5
+      },
+      "weight": 1.0
+    }
+  ],
+  "meta": {
+    "total_entries": 2,
+    "last_updated": "2026-02-13T09:33:15.576231Z",
+    "aggregated_from": [
+      {
+        "book": "The_Psychology_of_Money",
+        "chapter": 5
+      }
+    ]
+  }
+}
