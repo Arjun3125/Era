@@ -13,7 +13,7 @@ pypdf>=3.3.0
 
 # Postgres client + pgvector support (optional; required for real DB)
 psycopg2-binary>=2.9.6
-pgvector>=0.6.0
+pgvector>=0.4.0
 
 # Utilities (typing, dataclasses are stdlib for supported Pythons)
 # Optional dev tools

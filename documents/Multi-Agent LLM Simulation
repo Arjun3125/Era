@@ -62,7 +62,7 @@ Two models (can be same or different)
 Python (or Node.js)
 Example models:
 User LLM: deepseek-r1:8b (creative, exploratory)
-Program LLM: qwen2.5:7b (structured, deterministic)
+Program LLM: qwen3:14b (structured, deterministic)
 Core Orchestrator (Python – Minimal, Clear)
 `import subprocess
 import time
@@ -75,7 +75,7 @@ capture_output=True
 )
 return result.stdout.strip()
 USER_MODEL = "deepseek-r1:8b"
-PROGRAM_MODEL = "qwen2.5:7b"
+PROGRAM_MODEL = "qwen3:14b"
 system_context_user = """
 You are a real human user.
 Behave naturally.
@@ -349,7 +349,7 @@ capture_output=True
 )
 return result.stdout.strip()
 USER_MODEL = "deepseek-r1:8b"
-PROGRAM_MODEL = "qwen2.5:7b"
+PROGRAM_MODEL = "qwen3:14b"
 system_context_user = """
 You are a real human user.
 Behave naturally.
@@ -463,7 +463,7 @@ Pick one number."
 "Two models (can be same or different)"
 "Python (or Node.js)"
 "deepseek-r1:8b"
-"qwen2.5:7b"
+"qwen3:14b"
 
 10. Appendix: Full Raw Conversation
 **You said:**Now can I let two models from my pc let talk one as user and other will be the program and the user llm will navigate like real human will do making up the situation and then the program will answer it and here I will be able to see the whole conversation
@@ -498,7 +498,7 @@ Two models (can be same or different)
 Python (or Node.js)
 Example models:
 User LLM: deepseek-r1:8b (creative, exploratory)
-Program LLM: qwen2.5:7b (structured, deterministic)
+Program LLM: qwen3:14b (structured, deterministic)
 Core Orchestrator (Python – Minimal, Clear)
 `import subprocess
 import time
@@ -511,7 +511,7 @@ capture_output=True
 )
 return result.stdout.strip()
 USER_MODEL = "deepseek-r1:8b"
-PROGRAM_MODEL = "qwen2.5:7b"
+PROGRAM_MODEL = "qwen3:14b"
 system_context_user = """
 You are a real human user.
 Behave naturally.

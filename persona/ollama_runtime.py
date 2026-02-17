@@ -17,9 +17,13 @@ executor = ThreadPoolExecutor(max_workers=4)
 
 
 class OllamaRuntime:
-    def __init__(self, speak_model="llama3.1:8b-instruct-q4_0", analyze_model="huihui_ai/deepseek-r1-abliterated:8b"):
-        self.speak_model = speak_model
-        self.analyze_model = analyze_model
+    def __init__(self, speak_model=None, analyze_model=None):
+        default_speak_model = os.getenv("USER_MODEL", "llama3.1:8b-instruct-q4_0")
+        default_analyze_model = os.getenv("PROGRAM_MODEL", "huihui_ai/deepseek-r1-abliterated:8b")
+
+        # Allow explicit args to override env; treat empty strings as "not provided".
+        self.speak_model = speak_model or default_speak_model
+        self.analyze_model = analyze_model or default_analyze_model
         self.messages = []
         self.max_pairs = 10  # keep last N user/assistant pairs
 

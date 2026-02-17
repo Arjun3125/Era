@@ -23,7 +23,7 @@ def call_model(model, prompt):
 
 
 USER_MODEL = "deepseek-r1:8b"
-PROGRAM_MODEL = "qwen2.5:7b"
+PROGRAM_MODEL = "qwen3:14b"
 
 # build managers
 pop = PopulationManager()

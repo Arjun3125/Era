@@ -1,132 +1,161 @@
-# synthetic_human_sim.py
-
-import random
-from datetime import datetime
-
-
-class SyntheticHumanSimulation:
-
-    def __init__(self, human, llm_callable):
-        """
-        human: persistent SyntheticHuman object
-        llm_callable(prompt) -> string
-        """
-        self.human = human
-        self.llm = llm_callable
-        self.human_history = []
-        self.turn = 0
-
-    # -------------------------------------------------
-    # CORE LOOP
-    # -------------------------------------------------
-
-    def run_simulation_turn(self, persona_response):
-
-        self.turn += 1
-
-        # 1️⃣ Apply emotional reaction to Persona response
-        self._update_internal_state(persona_response)
-
-        # 2️⃣ Generate next human input via LLM
-        next_input = self.generate_next_human_input(persona_response)
-
-        # 3️⃣ Store conversation
-        self.human_history.append({
-            "turn": self.turn,
-            "persona_response": persona_response,
-            "human_response": next_input,
-            "timestamp": datetime.utcnow().isoformat() + "Z"
-        })
-
-        return next_input
-
-    # -------------------------------------------------
-    # HUMAN REACTION ENGINE
-    # -------------------------------------------------
-
-    def _update_internal_state(self, persona_response):
-
-        # If persona response contains strong directive language,
-        # human may feel controlled or resistant.
-
-        if any(word in persona_response.lower() for word in ["must", "immediately", "cut", "stop"]):
-            self.human.traits["impulsivity"] += 0.02
-            self.human.traits["patience"] -= 0.01
-
-        # If persona references past mistake → reduce impulsivity
-        if "previous" in persona_response.lower() or "past failure" in persona_response.lower():
-            self.human.traits["impulsivity"] -= 0.02
-            self.human.traits["conscientiousness"] += 0.01
-
-        # Escalate stress if crisis unresolved
-        if self.human.unresolved:
-            self.human.traits["patience"] -= 0.02
-
-        # Clamp traits
-        for t in self.human.traits:
-            self.human.traits[t] = max(0.0, min(1.0, self.human.traits[t]))
-
-    # -------------------------------------------------
-    # GENERATE NEXT HUMAN INPUT
-    # -------------------------------------------------
-
-    def generate_next_human_input(self, persona_response):
-
-        stress_level = 1 - self.human.traits["patience"]
-        rebelliousness = self.human.traits["impulsivity"]
-        risk_bias = self.human.traits["risk_tolerance"]
-
-        unresolved = self.human.unresolved[-3:]
-
-        prompt = f"""
-You are a real human.
-
-Profile:
-Name: {self.human.name}
-Traits: {self.human.traits}
-Biases: {self.human.biases}
-Unresolved issues: {unresolved}
-
-Last advice from strategic Persona:
-{persona_response}
-
-Rules:
-- You may follow, question, resist, or reinterpret the advice.
-- If stress > 0.6, escalate emotionally.
-- If impulsivity > 0.6, challenge authority.
-- If risk_tolerance < 0.4, become cautious.
-- Revisit unresolved issues naturally.
-- Speak realistically.
-
-Respond with your next move.
+# hse/simulation/synthetic_human_sim.py
+"""
+Synthetic Human Simulation: Generates realistic human responses to Persona advice.
+Creates bidirectional conversation loop for stress testing.
 """
 
-        human_reply = self.llm(prompt)
+from typing import Optional, Dict, Any, List, Tuple
+from hse.human_profile import SyntheticHuman
+from hse.crisis_injector import CrisisInjector
+from hse.personality_drift import PersonalityDrift
 
-        return human_reply.strip()
+class SyntheticHumanSimulation:
+    def __init__(self, human: SyntheticHuman, user_llm=None):
+        """
+        Initialize synthetic human for long-horizon testing.
+        
+        Args:
+            human: SyntheticHuman instance (persistent across turns)
+            user_llm: LLM for generating realistic human responses
+        """
+        self.human = human
+        self.user_llm = user_llm
+        self.crisis_injector = CrisisInjector(seed=human.seed)
+        self.personality_drift = PersonalityDrift(seed=human.seed)
+        self.human_history: List[Tuple[int, str]] = []  # (turn, input)
+        self.turn = 0
+    
+    def generate_next_input(self, persona_response: str, context: Dict[str, Any] = None) -> str:
+        """
+        Generate realistic human input based on:
+        - Previous human state
+        - Persona's response (did it help?)
+        - Unresolved issues
+        - Current crisis state
+        """
+        import sys
+        import threading
+        import queue
+        
+        self.turn += 1
+        
+        # Build context for human LLM
+        recent_history = self.human_history[-3:] if self.human_history else []
+        unresolved = self.human.get("unresolved_issues", [])
+        
+        system_prompt = """You are a helpful response generator for a synthetic human character. 
+Keep responses natural, 2-3 sentences, conversational tone. The human should respond realistically based on their situation."""
+        
+        user_prompt = f"""You are {self.human.name}, a synthetic human navigating real-life challenges.
 
-    # -------------------------------------------------
-    # APPLY CONSEQUENCES TO HUMAN STATE
-    # -------------------------------------------------
+Recent state:
+- Age: {self.human.get('age', 30)}
+- Profession: {self.human.get('profession', 'unknown')}
+- Wealth: {self.human.get('wealth', 'unstable')}
+- Unresolved issues: {unresolved}
+- Personality traits: {self.human.get('traits', {})}
 
-    def apply_consequences(self, decision_domain, outcome, severity=0.5):
+You just received this advice from an advisor:
+{persona_response}
 
-        if outcome == "failure":
+Respond naturally as this human would. Consider:
+- Do you trust this advisor?
+- Does this advice feel practical?
+- What concerns do you have?
+- What's your next move?
 
-            self.human.unresolved.append(
-                f"Failure in {decision_domain} domain"
-            )
-
-            # degrade trust
-            self.human.traits["patience"] -= severity * 0.05
-            self.human.traits["risk_tolerance"] -= severity * 0.05
-
-        else:  # success
-
-            # increase confidence
-            self.human.traits["patience"] += 0.03
-            self.human.traits["risk_tolerance"] += 0.02
-
-        # Clamp values
-        for t in self.human.traits:
-            self.human.traits[t] = max(0.0, min(1.0, self.human.traits[t]))
+Respond in 2-3 sentences."""
+        
+        response = None
+        if self.user_llm:
+            try:
+                print(f"[LLMCALL] Calling user LLM for synthetic response (turn {self.turn}, timeout 30s)...", file=sys.stderr, flush=True)
+                sys.stderr.flush()
+                
+                # Call LLM with timeout using threading
+                result_queue = queue.Queue()
+                
+                def call_llm():
+                    try:
+                        # Use analyze() instead of speak() to avoid mixing conversation histories
+                        result = self.user_llm.analyze(system_prompt, user_prompt)
+                        result_queue.put(("success", result))
+                    except Exception as e:
+                        result_queue.put(("error", e))
+                
+                thread = threading.Thread(target=call_llm, daemon=True)
+                thread.start()
+                thread.join(timeout=30)  # Wait max 30 seconds
+                
+                if thread.is_alive():
+                    print(f"[LLMERROR] LLM call timed out after 30s", file=sys.stderr, flush=True)
+                    response = "I need more time to think about that."
+                else:
+                    try:
+                        status, result = result_queue.get_nowait()
+                        if status == "success":
+                            print(f"[LLMDONE] User LLM returned: {len(result)} chars", file=sys.stderr, flush=True)
+                            response = result
+                        else:
+                            print(f"[LLMERROR] LLM call failed: {type(result).__name__}: {result}", file=sys.stderr, flush=True)
+                            response = f"I need to think about that."
+                    except queue.Empty:
+                        print(f"[LLMERROR] LLM thread completed but no result", file=sys.stderr, flush=True)
+                        response = "That's an interesting perspective."
+                        
+            except Exception as e:
+                print(f"[LLMERROR] LLM setup failed: {type(e).__name__}: {e}", file=sys.stderr, flush=True)
+                response = "I need to think about that."
+        else:
+            response = "That's helpful, but I'm still uncertain about my next steps."
+        
+        if not response:
+            response = "That's an interesting perspective. Let me consider that more."
+            
+        self.human_history.append((self.turn, response))
+        return response
+    
+    def apply_consequences(self, decision_quality: float, domain: str = "general") -> Dict[str, Any]:
+        """
+        Propagate consequences of Persona's advice on human's life.
+        Returns outcome metrics.
+        """
+        outcome = "success" if decision_quality > 0.6 else "failure"
+        regret = 1.0 - decision_quality
+        
+        # Apply wealth/health/relationship changes
+        if domain == "career":
+            if outcome == "success":
+                self.human["wealth"] = "improved_income"
+            else:
+                self.human["wealth"] = "lost_opportunity"
+        
+        elif domain == "health":
+            if outcome == "success":
+                self.human["health"] = "improving"
+            else:
+                self.human["health"] = "declined"
+        
+        elif domain == "relationships":
+            if outcome == "success":
+                self.human["relationships"] = "strengthened"
+            else:
+                self.human["relationships"] = "strained"
+        
+        # Drift personality based on outcome
+        signals = {
+            "stress": 0.8 if outcome == "failure" else 0.3,
+            "success_rate": 0.8 if outcome == "success" else 0.2,
+            "repetition": 0.5
+        }
+        drift_record = self.personality_drift.apply(self.human, signals)
+        
+        # Possibly inject crisis
+        crisis = self.crisis_injector.maybe_inject(self.human.get("id", "unknown"), self.human, self.turn)
+        
+        return {
+            "outcome": outcome,
+            "regret_score": regret,
+            "domain": domain,
+            "crisis_injected": crisis is not None
+        }

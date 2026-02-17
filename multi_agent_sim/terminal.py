@@ -15,7 +15,7 @@ Or via the launcher:
 
 Configuration (via env vars):
   USER_MODEL: ollama user model name (default: deepseek-r1:8b)
-  PROGRAM_MODEL: ollama program model name (default: qwen2.5:7b)
+  PROGRAM_MODEL: ollama program model name (default: qwen3:14b)
   MAX_TURNS: number of turns to run (default: 15)
   PER_CALL_TIMEOUT: seconds to wait for each model call (default: 30)
   STREAMING: if True, stream model output line-by-line (default: False)
@@ -36,7 +36,7 @@ from datetime import datetime
 # Configuration
 # ---------------------------
 USER_MODEL = os.getenv("USER_MODEL", "deepseek-r1:8b")
-PROGRAM_MODEL = os.getenv("PROGRAM_MODEL", "qwen2.5:7b")
+PROGRAM_MODEL = os.getenv("PROGRAM_MODEL", "qwen3:14b")
 MAX_TURNS = 15
 PER_CALL_TIMEOUT = 30  # seconds per model call (timeout guard)
 STREAMING = False      # attempt to stream model output line-by-line

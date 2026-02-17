@@ -1,219 +1,132 @@
-# performance_metrics.py
+# persona/learning/performance_metrics.py
+"""
+Performance Metrics: Track decision quality, success rates, feature coverage.
+Identifies weak domains and improvement opportunities.
+"""
 
 import json
-import os
-from collections import defaultdict, Counter
-from statistics import mean, stdev
-
+from typing import Dict, List, Any
+from collections import defaultdict
+from datetime import datetime
 
 class PerformanceMetrics:
-
-    def __init__(self, storage_path="metrics_store"):
+    def __init__(self, storage_path: str = "data/memory/metrics.jsonl"):
         self.storage_path = storage_path
-        os.makedirs(self.storage_path, exist_ok=True)
-
-        # Core decision records
-        self.decisions = []  
-        # {turn, domain, stance, confidence, outcome, regret, quality_score}
-
-        # Coverage tracking
-        self.coverage = defaultdict(int)
-
-        # Success tracking
-        self.success_count = defaultdict(int)
-        self.failure_count = defaultdict(int)
-
-        # Failure clustering
-        self.failure_clusters = defaultdict(list)
-        # key: (domain, situation_type, confidence_bucket)
-
-        self._load()
-
-    # ------------------------------------------------------------
-    # DECISION RECORDING
-    # ------------------------------------------------------------
-
-    def record_decision(self, turn, domain, stance,
-                        confidence, outcome,
-                        regret_score=0.0,
-                        situation_type="general"):
-
-        quality = self.measure_decision_quality(
-            confidence, outcome, regret_score
-        )
-
-        record = {
+        self.decisions: List[Dict[str, Any]] = []
+        self.load_from_disk()
+    
+    def record_decision(self, turn: int, domain: str, recommendation: str, 
+                       confidence: float, outcome: str = None, regret: float = 0.0):
+        """Record a decision for metrics tracking."""
+        decision = {
             "turn": turn,
             "domain": domain,
-            "stance": stance,
+            "recommendation": recommendation,
             "confidence": confidence,
             "outcome": outcome,
-            "regret": regret_score,
-            "quality_score": quality,
-            "situation_type": situation_type
+            "regret": regret,
+            "timestamp": datetime.utcnow().isoformat()
         }
-
-        self.decisions.append(record)
-
-        # Coverage tracking
-        self.coverage[domain] += 1
-
-        # Success / failure tracking
-        if outcome == "success":
-            self.success_count[domain] += 1
-        else:
-            self.failure_count[domain] += 1
-            bucket = self._confidence_bucket(confidence)
-            cluster_key = (domain, situation_type, bucket)
-            self.failure_clusters[cluster_key].append(turn)
-
-        self._save()
-
-    # ------------------------------------------------------------
-    # QUALITY METRIC
-    # ------------------------------------------------------------
-
-    def measure_decision_quality(self, confidence, outcome, regret_score):
-        """
-        Quality = confidence * accuracy - regret
-        accuracy = 1 for success, 0 for failure
-        """
-
-        accuracy = 1 if outcome == "success" else 0
-        return (confidence * accuracy) - regret_score
-
-    # ------------------------------------------------------------
-    # SUCCESS RATE
-    # ------------------------------------------------------------
-
-    def success_rate(self, domain):
-        total = self.success_count[domain] + self.failure_count[domain]
-        if total == 0:
+        self.decisions.append(decision)
+        self._persist(decision)
+    
+    def _persist(self, decision: Dict[str, Any]):
+        """Append to disk."""
+        try:
+            with open(self.storage_path, "a", encoding="utf-8") as f:
+                f.write(json.dumps(decision) + "\n")
+        except Exception as e:
+            print(f"[WARNING] Failed to persist metric: {e}")
+    
+    def load_from_disk(self):
+        """Load metrics from disk."""
+        try:
+            with open(self.storage_path, "r", encoding="utf-8") as f:
+                for line in f:
+                    if line.strip():
+                        self.decisions.append(json.loads(line))
+        except FileNotFoundError:
+            pass
+    
+    def get_success_rate(self, domain: str = None, window: int = None) -> float:
+        """Success rate overall or for domain."""
+        decisions = self.decisions
+        if domain:
+            decisions = [d for d in decisions if d.get("domain") == domain]
+        if window:
+            decisions = decisions[-window:]
+        
+        if not decisions:
             return 0.0
-        return self.success_count[domain] / total
-
-    # ------------------------------------------------------------
-    # WEAK DOMAIN DETECTION
-    # ------------------------------------------------------------
-
-    def detect_weak_domains(self, threshold=0.5):
+        
+        outcomes = [d for d in decisions if d.get("outcome")]
+        if not outcomes:
+            return 0.0
+        
+        successes = sum(1 for d in outcomes if d.get("outcome") == "success")
+        return successes / len(outcomes)
+    
+    def get_feature_coverage(self) -> Dict[str, int]:
+        """How many times each domain was tested?"""
+        coverage = defaultdict(int)
+        for d in self.decisions:
+            coverage[d.get("domain", "unknown")] += 1
+        return dict(coverage)
+    
+    def detect_weak_domains(self, threshold: float = 0.5) -> List[str]:
+        """Which domains are underperforming?"""
         weak = []
-        for domain in self.coverage:
-            if self.success_rate(domain) < threshold:
-                weak.append({
-                    "domain": domain,
-                    "success_rate": self.success_rate(domain),
-                    "tested": self.coverage[domain]
-                })
+        coverage = self.get_feature_coverage()
+        for domain in coverage:
+            success_rate = self.get_success_rate(domain=domain)
+            if success_rate < threshold:
+                weak.append(domain)
         return weak
-
-    # ------------------------------------------------------------
-    # STABILITY METRIC
-    # ------------------------------------------------------------
-
-    def measure_stability(self, window=100):
-        """
-        Stability = inverse variance of quality scores
-        over last N turns.
-        """
-
-        if len(self.decisions) < window:
-            return None
-
+    
+    def measure_stability(self, window: int = 100) -> Dict[str, Any]:
+        """Check if recent decisions are consistent."""
         recent = self.decisions[-window:]
-        qualities = [d["quality_score"] for d in recent]
-
-        if len(qualities) < 2:
-            return None
-
-        variability = stdev(qualities)
-        stability_score = 1 / (1 + variability)
-
+        if not recent:
+            return {"stability_score": 0.0}
+        
+        # Consistency: low variance in confidence across domain
+        by_domain = defaultdict(list)
+        for d in recent:
+            by_domain[d.get("domain")].append(d.get("confidence", 0.0))
+        
+        # Calculate variance per domain
+        variances = {}
+        for domain, confidences in by_domain.items():
+            if len(confidences) > 1:
+                mean = sum(confidences) / len(confidences)
+                variance = sum((x - mean) ** 2 for x in confidences) / len(confidences)
+                variances[domain] = variance
+        
+        # Stability = inverse of mean variance (lower variance = more stable)
+        mean_variance = sum(variances.values()) / len(variances) if variances else 0.0
+        stability_score = max(0.0, 1.0 - mean_variance)
+        
         return {
-            "window": window,
-            "variability": variability,
-            "stability_score": stability_score
+            "stability_score": stability_score,
+            "by_domain": variances
         }
-
-    # ------------------------------------------------------------
-    # IMPROVEMENT TRAJECTORY
-    # ------------------------------------------------------------
-
-    def show_improvement_trajectory(self, window=100):
-
-        if len(self.decisions) < window * 2:
-            return None
-
+    
+    def show_improvement_trajectory(self, window: int = 100) -> Dict[str, Any]:
+        """Compare early vs. recent performance."""
+        total = len(self.decisions)
         early = self.decisions[:window]
-        late = self.decisions[-window:]
-
-        early_avg = mean([d["quality_score"] for d in early])
-        late_avg = mean([d["quality_score"] for d in late])
-
-        improvement = late_avg - early_avg
-
+        recent = self.decisions[-window:]
+        
+        early_success = sum(1 for d in early if d.get("outcome") == "success") / max(len(early), 1)
+        recent_success = sum(1 for d in recent if d.get("outcome") == "success") / max(len(recent), 1)
+        
+        improvement = recent_success - early_success
+        improvement_pct = (improvement / early_success * 100) if early_success > 0 else 0.0
+        
         return {
-            "early_avg_quality": early_avg,
-            "late_avg_quality": late_avg,
-            "delta": improvement
+            "early_success_rate": early_success,
+            "recent_success_rate": recent_success,
+            "absolute_improvement": improvement,
+            "percent_improvement": improvement_pct,
+            "total_turns": total
         }
-
-    # ------------------------------------------------------------
-    # FAILURE CLUSTER SUMMARY
-    # ------------------------------------------------------------
-
-    def failure_cluster_summary(self):
-        summary = []
-
-        for key, turns in self.failure_clusters.items():
-            domain, situation_type, confidence_bucket = key
-            summary.append({
-                "domain": domain,
-                "situation_type": situation_type,
-                "confidence_bucket": confidence_bucket,
-                "num_failures": len(turns)
-            })
-
-        return summary
-
-    # ------------------------------------------------------------
-    # COVERAGE REPORT
-    # ------------------------------------------------------------
-
-    def coverage_report(self):
-        return dict(self.coverage)
-
-    # ------------------------------------------------------------
-    # INTERNAL HELPERS
-    # ------------------------------------------------------------
-
-    def _confidence_bucket(self, confidence):
-        if confidence >= 0.75:
-            return "high"
-        elif confidence >= 0.5:
-            return "medium"
-        else:
-            return "low"
-
-    def _save(self):
-        with open(os.path.join(self.storage_path, "metrics.json"), "w") as f:
-            json.dump({
-                "decisions": self.decisions,
-                "coverage": dict(self.coverage),
-                "success_count": dict(self.success_count),
-                "failure_count": dict(self.failure_count),
-                "failure_clusters": {
-                    str(k): v for k, v in self.failure_clusters.items()
-                }
-            }, f, indent=2)
-
-    def _load(self):
-        file_path = os.path.join(self.storage_path, "metrics.json")
-        if os.path.exists(file_path):
-            with open(file_path, "r") as f:
-                data = json.load(f)
-
-            self.decisions = data.get("decisions", [])
-            self.coverage.update(data.get("coverage", {}))
-            self.success_count.update(data.get("success_count", {}))
-            self.failure_count.update(data.get("failure_count", {}))

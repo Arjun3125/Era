@@ -31,6 +31,18 @@ class SyntheticHuman:
             "repetition": self.repetition,
         }
 
+    def get(self, key, default=None):
+        """Dict-like access for attributes."""
+        return getattr(self, key, default)
+
+    def __getitem__(self, key):
+        """Dict-like getitem access."""
+        return getattr(self, key)
+
+    def __setitem__(self, key, value):
+        """Dict-like setitem access."""
+        setattr(self, key, value)
+
     def generate_context(self, domain: str) -> str:
         return f"""
 Name: {self.name}

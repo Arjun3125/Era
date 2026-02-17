@@ -1,0 +1,66 @@
+{
+  "simulation_metrics": {
+    "total_turns": 1,
+    "successful_turns": 1,
+    "failed_turns": 0,
+    "average_confidence": 0.7,
+    "mode_switches": 0,
+    "crises_triggered": 0
+  },
+  "conversation_history": [
+    [
+      "\"I've been thinking about what you said yesterday about my startup's financial projections, and I gotta admit it freaked me out a bit. The thought of burning through our seed funding in just 6 months is keeping me up at night. Can we revisit those numbers and see if there's anything we can tweak to get us on more solid ground?\"",
+      "Sure. Let\u2019s start by looking at your current assumptions. What\u2019s driving the 6-month runway? Is it high burn rate, low revenue projections, or both? Share the numbers, and we\u2019ll identify where we can adjust."
+    ]
+  ],
+  "episode_log": [
+    {
+      "turn": 1,
+      "timestamp": "2026-02-16T20:13:57.184315",
+      "user_input": "\"I've been thinking about what you said yesterday about my startup's financial projections, and I gotta admit it freaked me out a bit. The thought of burning through our seed funding in just 6 months is keeping me up at night. Can we revisit those numbers and see if there's anything we can tweak to get us on more solid ground?\"",
+      "persona_response": "Sure. Let\u2019s start by looking at your current assumptions. What\u2019s driving the 6-month runway? Is it high burn rate, low revenue projections, or both? Share the numbers, and we\u2019ll identify where we can adjust.",
+      "mode": "quick",
+      "council_involved": false,
+      "emotional_load": 0.3,
+      "crisis_triggered": false,
+      "confidence": 0.7,
+      "outcome": "success",
+      "domain": "general"
+    }
+  ],
+  "final_emotional_load": 0.3,
+  "human_final_state": {
+    "base_profile": {
+      "name": "Test Subject Alpha",
+      "age": 32,
+      "profession": "Software Engineer",
+      "wealth": "Unstable startup income",
+      "traits": {
+        "ambitious": 0.7975216463312597,
+        "impatient": 0.5970260580742979,
+        "analytical": 0.6980853671810362
+      },
+      "unresolved_issues": [],
+      "biases": [],
+      "repetition": 0.01
+    },
+    "runtime_profile": {
+      "name": "Test Subject Alpha",
+      "age": 32,
+      "profession": "Software Engineer",
+      "wealth": "Unstable startup income",
+      "traits": {
+        "ambitious": 0.7975216463312597,
+        "impatient": 0.5970260580742979,
+        "analytical": 0.6980853671810362
+      },
+      "unresolved_issues": [],
+      "biases": [],
+      "repetition": 0.01,
+      "id": "Test Subject Alpha",
+      "unresolved": []
+    },
+    "unresolved_issues": []
+  },
+  "timestamp": "2026-02-16T20:13:57.239279"
+}

@@ -4,7 +4,7 @@ import threading
 from datetime import datetime
 from copy import deepcopy
 
-from personality_drift import PersonalityDrift
+from .personality_drift import PersonalityDrift
 
 class SyntheticHuman:
     def __init__(self, name=None, seed=None):

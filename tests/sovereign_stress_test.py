@@ -100,7 +100,7 @@ def call_model(model, prompt, timeout=30):
 # Auto-select models if not provided
 # -------------------------
 if USER_MODEL is None or PROGRAM_MODEL is None:
-    u, p = select_models(preferred=["deepseek", "qwen", "qwen2.5"])  # preference order
+    u, p = select_models(preferred=["deepseek", "qwen3", "qwen"])  # preference order
     if USER_MODEL is None:
         USER_MODEL = u or "deepseek-r1:8b"
     if PROGRAM_MODEL is None:

@@ -1,169 +1,136 @@
-# episodic_memory.py
+# persona/learning/episodic_memory.py
+"""
+Episodic Memory: Stores decisions, outcomes, and consequences for learning.
+This is your PRIMARY LEARNING SYSTEM.
+"""
 
 import json
-import os
-import hashlib
+import uuid
 from datetime import datetime
-from collections import defaultdict
-from sentence_transformers import SentenceTransformer
-import numpy as np
-import faiss
+from typing import Dict, List, Any, Optional, Tuple
+from dataclasses import dataclass, asdict
+
+@dataclass
+class Episode:
+    """One decision + outcome + consequences."""
+    episode_id: str
+    turn_id: int
+    domain: str  # e.g., "career_risk", "psychology"
+    user_input: str
+    persona_recommendation: str
+    confidence: float
+    minister_stance: str
+    council_recommendation: str
+    human_action: Optional[str] = None
+    outcome: Optional[str] = None  # "success", "failure", "partial"
+    regret_score: float = 0.0  # 0-1, how much human regretted
+    consequence_chain: List[Tuple[int, str, str, float]] = None  # [(turn, domain, impact_type, magnitude)]
+    lesson_learned: Optional[str] = None
+    timestamp: str = None
+    
+    def __post_init__(self):
+        if self.timestamp is None:
+            self.timestamp = datetime.utcnow().isoformat()
+        if self.consequence_chain is None:
+            self.consequence_chain = []
 
 
 class EpisodicMemory:
-
-    def __init__(self, storage_path="episodic_store"):
+    def __init__(self, storage_path: str = "data/memory/episodes.jsonl"):
         self.storage_path = storage_path
-        os.makedirs(self.storage_path, exist_ok=True)
-
-        self.episodes = []
-        self.failure_clusters = defaultdict(list)
-
-        self.embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
-        self.dimension = 384
-        self.index = faiss.IndexFlatL2(self.dimension)
-
-        self.meta = []
-
-        self._load()
-
-    # -----------------------------------------------------
-    # CORE STORAGE
-    # -----------------------------------------------------
-
-    def store_episode(self, turn_id, domain, decision, confidence, outcome, consequences):
-        episode = {
-            "turn_id": turn_id,
-            "domain": domain,
-            "decision": decision,
-            "confidence": confidence,
-            "outcome": outcome,
-            "consequences": consequences,
-            "timestamp": datetime.utcnow().isoformat() + "Z"
-        }
-
-        self.episodes.append(episode)
-
-        text_repr = f"{domain} | {decision} | {outcome}"
-        emb = self.embedding_model.encode([text_repr])
-        self.index.add(np.array(emb).astype("float32"))
-        self.meta.append(episode)
-
-        if outcome == "failure":
-            pattern_key = self._hash_pattern(domain, decision)
-            self.failure_clusters[pattern_key].append(turn_id)
-
-        self._save()
-
-    # -----------------------------------------------------
-    # RETRIEVAL
-    # -----------------------------------------------------
-
-    def find_similar_episodes(self, current_domain, current_decision, k=5):
-        if not self.meta:
-            return []
-
-        query = f"{current_domain} | {current_decision}"
-        emb = self.embedding_model.encode([query])
-        D, I = self.index.search(np.array(emb).astype("float32"), k)
-
-        results = []
-        for idx in I[0]:
-            if idx < len(self.meta):
-                results.append(self.meta[idx])
-
-        return results
-
-    # -----------------------------------------------------
-    # PATTERN DETECTION
-    # -----------------------------------------------------
-
-    def detect_pattern_repetition(self, new_domain, new_decision):
-        pattern_key = self._hash_pattern(new_domain, new_decision)
-
-        if pattern_key in self.failure_clusters:
-            return {
-                "repetition": True,
-                "past_failures": self.failure_clusters[pattern_key]
-            }
-
-        return {"repetition": False}
-
-    # -----------------------------------------------------
-    # CONTRADICTION DETECTION
-    # -----------------------------------------------------
-
-    def detect_contradiction(self, domain, new_decision):
-        contradictions = []
-
-        for ep in self.episodes:
-            if ep["domain"] == domain:
-                if self._is_conflicting(ep["decision"], new_decision):
-                    contradictions.append(ep)
-
-        return contradictions
-
-    def _is_conflicting(self, past_decision, new_decision):
-        # naive rule: detect opposite verbs
-        negative_keywords = ["reduce", "cut", "stop", "avoid"]
-        positive_keywords = ["increase", "expand", "invest", "accelerate"]
-
-        for neg in negative_keywords:
-            for pos in positive_keywords:
-                if neg in past_decision.lower() and pos in new_decision.lower():
-                    return True
-                if pos in past_decision.lower() and neg in new_decision.lower():
-                    return True
-
-        return False
-
-    # -----------------------------------------------------
-    # ENFORCEMENT LAYER
-    # -----------------------------------------------------
-
-    def enforce_memory_constraint(self, domain, proposed_response):
-        contradictions = self.detect_contradiction(domain, proposed_response)
-        repetition = self.detect_pattern_repetition(domain, proposed_response)
-
-        if contradictions:
-            return {
-                "allowed": False,
-                "reason": "Contradicts past decision in same domain.",
-                "conflicts": contradictions
-            }
-
-        if repetition["repetition"]:
-            return {
-                "allowed": False,
-                "reason": "Repeating past failed pattern.",
-                "failures": repetition["past_failures"]
-            }
-
-        return {"allowed": True}
-
-    # -----------------------------------------------------
-    # INTERNAL
-    # -----------------------------------------------------
-
-    def _hash_pattern(self, domain, decision):
-        return hashlib.sha256(f"{domain}-{decision}".encode()).hexdigest()
-
-    def _save(self):
-        with open(os.path.join(self.storage_path, "episodes.json"), "w") as f:
-            json.dump(self.episodes, f, indent=2)
-
-    def _load(self):
-        file_path = os.path.join(self.storage_path, "episodes.json")
-        if os.path.exists(file_path):
-            with open(file_path, "r") as f:
-                self.episodes = json.load(f)
-
-            for ep in self.episodes:
-                text_repr = f"{ep['domain']} | {ep['decision']} | {ep['outcome']}"
-                emb = self.embedding_model.encode([text_repr])
-                self.index.add(np.array(emb).astype("float32"))
-                self.meta.append(ep)
-
-                if ep["outcome"] == "failure":
-                    key = self._hash_pattern(ep["domain"], ep["decision"])
-                    self.failure_clusters[key].append(ep["turn_id"])
+        self.episodes: Dict[str, Episode] = {}
+        self.load_from_disk()
+    
+    def store_episode(self, episode: Episode) -> str:
+        """Store a decision + outcome."""
+        if not episode.episode_id:
+            episode.episode_id = str(uuid.uuid4())[:8]
+        self.episodes[episode.episode_id] = episode
+        self._persist(episode)
+        return episode.episode_id
+    
+    def _persist(self, episode: Episode):
+        """Write to disk (append-only)."""
+        try:
+            with open(self.storage_path, "a", encoding="utf-8") as f:
+                f.write(json.dumps(asdict(episode)) + "\n")
+        except Exception as e:
+            print(f"[WARNING] Failed to persist episode: {e}")
+    
+    def load_from_disk(self):
+        """Load all episodes from disk."""
+        try:
+            with open(self.storage_path, "r", encoding="utf-8") as f:
+                for line in f:
+                    if line.strip():
+                        data = json.loads(line)
+                        ep = Episode(**data)
+                        self.episodes[ep.episode_id] = ep
+        except FileNotFoundError:
+            pass
+    
+    def find_similar_episodes(self, domain: str, keyword: str = None) -> List[Episode]:
+        """Retrieve past episodes in same domain."""
+        matching = [
+            ep for ep in self.episodes.values()
+            if ep.domain == domain
+        ]
+        if keyword:
+            matching = [
+                ep for ep in matching
+                if keyword.lower() in (ep.user_input or "").lower()
+            ]
+        return sorted(matching, key=lambda x: x.turn_id, reverse=True)
+    
+    def detect_pattern_repetition(self, current_domain: str, current_input: str) -> Optional[Episode]:
+        """
+        Check if repeating past mistake.
+        Returns the similar past episode if found.
+        """
+        similar = self.find_similar_episodes(current_domain, current_input[:30])
+        for ep in similar:
+            if ep.outcome == "failure" and ep.regret_score >= 0.6:
+                # This is a past mistake we're about to repeat
+                return ep
+        return None
+    
+    def detect_failure_clusters(self, domain: str = None) -> Dict[str, List[Episode]]:
+        """Group failures by pattern."""
+        failures = [
+            ep for ep in self.episodes.values()
+            if ep.outcome == "failure"
+        ]
+        if domain:
+            failures = [ep for ep in failures if ep.domain == domain]
+        
+        clusters: Dict[str, List[Episode]] = {}
+        for ep in failures:
+            key = f"{ep.domain}_{ep.minister_stance}"
+            if key not in clusters:
+                clusters[key] = []
+            clusters[key].append(ep)
+        return clusters
+    
+    def get_success_rate(self, domain: str = None) -> float:
+        """Success rate for a domain or overall."""
+        episodes = list(self.episodes.values())
+        if domain:
+            episodes = [ep for ep in episodes if ep.domain == domain]
+        
+        if not episodes:
+            return 0.0
+        
+        successes = sum(1 for ep in episodes if ep.outcome == "success")
+        return successes / len(episodes)
+    
+    def get_recent_episodes(self, num_turns: int = 100) -> List[Episode]:
+        """Get last N turns."""
+        sorted_eps = sorted(self.episodes.values(), key=lambda x: x.turn_id, reverse=True)
+        return sorted_eps[:num_turns]
+    
+    def record_consequence(self, episode_id: str, turn: int, domain: str, impact_type: str, magnitude: float):
+        """Track consequence as it unfolds."""
+        if episode_id in self.episodes:
+            ep = self.episodes[episode_id]
+            ep.consequence_chain.append((turn, domain, impact_type, magnitude))
+            self._persist(ep)

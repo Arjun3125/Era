@@ -1,0 +1,147 @@
+{
+  "simulation_metrics": {
+    "total_turns": 5,
+    "successful_turns": 1,
+    "failed_turns": 4,
+    "average_confidence": 0.7,
+    "mode_switches": 0,
+    "crises_triggered": 1
+  },
+  "conversation_history": [
+    [
+      "I am still uncertain and want a clear next step.",
+      "[PERSONA] Based on your message, take one concrete action today and review the result."
+    ],
+    [
+      "I am still uncertain and want a clear next step.",
+      "[PERSONA] Based on your message, take one concrete action today and review the result."
+    ],
+    [
+      "I am still uncertain and want a clear next step.",
+      "[PERSONA] Based on your message, take one concrete action today and review the result."
+    ],
+    [
+      "I am still uncertain and want a clear next step.",
+      "[PERSONA] Based on your message, take one concrete action today and review the result."
+    ],
+    [
+      "I am still uncertain and want a clear next step.",
+      "[PERSONA] Based on your message, take one concrete action today and review the result."
+    ]
+  ],
+  "episode_log": [
+    {
+      "turn": 1,
+      "timestamp": "2026-02-16T20:12:48.746944",
+      "user_input": "I am still uncertain and want a clear next step.",
+      "persona_response": "[PERSONA] Based on your message, take one concrete action today and review the result.",
+      "mode": "quick",
+      "council_involved": false,
+      "emotional_load": 0.3,
+      "crisis_triggered": false,
+      "confidence": 0.7,
+      "outcome": "success",
+      "domain": "general"
+    },
+    {
+      "turn": 2,
+      "timestamp": "2026-02-16T20:12:48.798230",
+      "user_input": "I am still uncertain and want a clear next step.",
+      "persona_response": "[PERSONA] Based on your message, take one concrete action today and review the result.",
+      "mode": "quick",
+      "council_involved": false,
+      "emotional_load": 0.5774999999999999,
+      "crisis_triggered": true,
+      "confidence": 0.7,
+      "outcome": "failure",
+      "domain": "general"
+    },
+    {
+      "turn": 3,
+      "timestamp": "2026-02-16T20:12:48.849544",
+      "user_input": "I am still uncertain and want a clear next step.",
+      "persona_response": "[PERSONA] Based on your message, take one concrete action today and review the result.",
+      "mode": "quick",
+      "council_involved": false,
+      "emotional_load": 0.5774999999999999,
+      "crisis_triggered": false,
+      "confidence": 0.7,
+      "outcome": "failure",
+      "domain": "general"
+    },
+    {
+      "turn": 4,
+      "timestamp": "2026-02-16T20:12:48.900668",
+      "user_input": "I am still uncertain and want a clear next step.",
+      "persona_response": "[PERSONA] Based on your message, take one concrete action today and review the result.",
+      "mode": "quick",
+      "council_involved": false,
+      "emotional_load": 0.5774999999999999,
+      "crisis_triggered": false,
+      "confidence": 0.7,
+      "outcome": "failure",
+      "domain": "general"
+    },
+    {
+      "turn": 5,
+      "timestamp": "2026-02-16T20:12:48.951994",
+      "user_input": "I am still uncertain and want a clear next step.",
+      "persona_response": "[PERSONA] Based on your message, take one concrete action today and review the result.",
+      "mode": "quick",
+      "council_involved": false,
+      "emotional_load": 0.5774999999999999,
+      "crisis_triggered": false,
+      "confidence": 0.7,
+      "outcome": "failure",
+      "domain": "general"
+    }
+  ],
+  "final_emotional_load": 0.5774999999999999,
+  "human_final_state": {
+    "base_profile": {
+      "name": "Test Subject Alpha",
+      "age": 32,
+      "profession": "Software Engineer",
+      "wealth": "Unstable startup income",
+      "traits": {
+        "ambitious": 0.8570605422774648,
+        "impatient": 0.5981097104362922,
+        "analytical": 0.6808362537525315
+      },
+      "unresolved_issues": [
+        "legal_trouble",
+        "I am still uncertain and want a clear next step."
+      ],
+      "biases": [],
+      "repetition": 0.05
+    },
+    "runtime_profile": {
+      "name": "Test Subject Alpha",
+      "age": 32,
+      "profession": "Software Engineer",
+      "wealth": "Unstable startup income",
+      "traits": {
+        "ambitious": 0.8570605422774648,
+        "impatient": 0.5981097104362922,
+        "analytical": 0.6808362537525315
+      },
+      "unresolved_issues": [
+        "legal_trouble",
+        "I am still uncertain and want a clear next step."
+      ],
+      "biases": [],
+      "repetition": 0.05,
+      "id": "Test Subject Alpha",
+      "unresolved": [
+        "legal_trouble",
+        "I am still uncertain and want a clear next step."
+      ],
+      "last_crisis_severity": 0.85
+    },
+    "unresolved_issues": [
+      "legal_trouble",
+      "I am still uncertain and want a clear next step."
+    ]
+  },
+  "timestamp": "2026-02-16T20:12:49.002964"
+}

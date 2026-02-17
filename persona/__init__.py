@@ -8,4 +8,9 @@ __all__ = [
     "main",
     "brain",
     "knowledge_engine",
+    "council",
+    "ministers",
+    "modes",
+    "learning",
+    "validation",
 ]
