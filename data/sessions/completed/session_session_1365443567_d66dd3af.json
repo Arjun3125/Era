@@ -1,0 +1,19 @@
+{
+  "session_id": "session_1365443567_d66dd3af",
+  "started_at": "2026-02-17T21:57:23.567599",
+  "problem_statement": "Test problem 3 with domains ['psychology', 'relationship']",
+  "domains": [
+    "psychology",
+    "relationship"
+  ],
+  "domain_confidence": 0.8,
+  "stakes": "medium",
+  "reversibility": "partially_reversible",
+  "turns": [],
+  "final_conclusion": "Conclusion for session 3",
+  "final_satisfaction": true,
+  "final_confidence": 0.8,
+  "ended_at": "2026-02-17T21:57:23.567762",
+  "parent_session_id": null,
+  "turn_count": 0
+}

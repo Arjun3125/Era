@@ -265,8 +265,106 @@ drift = drift_engine.apply(human_profile, signals)
 | `sovereign/ministers/{domain}.py` | Domain-bounded advisor | Implement `.analyze()` returning `MinisterModuleOutput` |
 | `ml/ml_orchestrator.py` | Learning pipeline | Call `.process_decision()` with outcomes |
 | `persona/knowledge_engine.py` | KIS generation | `synthesize_knowledge(input, domains)` |
+| `persona/domain_detector.py` | Auto domain detection | `analyze_situation(problem_statement)` |
+| `persona/session_manager.py` | Session lifecycle | `start_session()`, `add_turn()`, `end_session()` |
 | `tests/run_tests.py` | Test runner | Use `pytest.ini` markers: `@pytest.mark.integration` |
 | `hse/population_manager.py` | Synthetic humans | `.create(n=3)` for multi-agent stress tests |
+
+---
+
+## Session-Based Problem Solving (NEW)
+
+**Location**: `persona/domain_detector.py`, `persona/session_manager.py`, `run_session_conversation.py`
+
+Implements multi-turn problem-solving sessions with automatic domain detection, mode escalation, and consequence tracking.
+
+### Domain Auto-Detection
+
+```python
+from persona.domain_detector import analyze_situation
+
+analysis = analyze_situation(problem_statement, llm_adapter=llm)
+# Returns: domains, domain_confidence, stakes, reversibility
+```
+
+### Session Management
+
+```python
+from persona.session_manager import SessionManager
+
+manager = SessionManager(storage_dir="data/sessions")
+
+# Start session with auto-detected parameters
+session = manager.start_session(
+    problem_statement="I'm overwhelmed at work",
+    domains=["career", "psychology"],
+    domain_confidence=0.85,
+    stakes="high",
+    reversibility="partially_reversible"
+)
+
+# Record turns, mode escalates automatically
+turn = manager.add_turn(
+    mode=manager.should_escalate_mode(),  # QUICK → MEETING → WAR → DARBAR
+    user_input="...",
+    council_positions=[...],
+    prime_decision="...",
+    kis_items=[...]
+)
+
+# End session and save
+manager.record_satisfaction(satisfied=True, confidence=0.85)
+session = manager.end_session(conclusion="...", satisfaction=True, confidence=0.85)
+```
+
+### Consequence Tracking
+
+Record what happened after a session concluded (enables learning from outcomes):
+
+```python
+manager.record_consequence(
+    session_id="session_12345_abc",
+    followup="User negotiated with manager",
+    outcome="30% workload reduction achieved"
+)
+
+consequences = manager.load_consequences_for_session(session_id)
+```
+
+### Session Continuity & Replay
+
+Find and reference related previous sessions:
+
+```python
+# Related sessions auto-suggest context
+related = manager.find_related_sessions(
+    current_domains=["career", "psychology"],
+    limit=3
+)
+
+# Get formatted context for LLM
+context = manager.get_session_context_for_continuity(current_domains)
+
+# Explicitly link follow-ups to previous sessions
+follow_up = manager.create_followup_session(
+    parent_session_id=prev_session.session_id,
+    followup_problem="Follow-up: negotiation didn't work"
+)
+```
+
+### Key Patterns
+
+**Pattern: Automatic Mode Escalation**
+- Turns 1-2: `QUICK` mode (direct LLM, no council)
+- Turns 3-5: `MEETING` mode (3-5 relevant ministers)
+- Turns 6-8: `WAR` mode (aggressive assessment)
+- Turns 9+: `DARBAR` mode (all 18 ministers)
+
+**Pattern: Session Storage & Learning**
+- Sessions persisted to `data/sessions/completed/*.json`
+- Consequences logged to `data/sessions/consequences.jsonl`
+- Integrated with episodic memory for pattern extraction
+- Statistics tracked: satisfaction_rate, avg_turns, domain_frequency
 
 ---
 
@@ -274,6 +372,7 @@ drift = drift_engine.apply(human_profile, signals)
 
 - **Architecture questions**: [SOVEREIGN_ORCHESTRATOR_GUIDE.md](../SOVEREIGN_ORCHESTRATOR_GUIDE.md)
 - **Mode selection logic**: [MODE_SELECTION_GUIDE.md](../MODE_SELECTION_GUIDE.md)
+- **Session features**: [SESSION_FEATURES_GUIDE.md](SESSION_FEATURES_GUIDE.md)
 - **ML wisdom system**: [ml/README.md](ml/README.md)
 - **Minister patterns**: [sovereign/ministers/README.md](sovereign/ministers/README.md)
 - **Test suite**: [tests/README.md](tests/README.md)

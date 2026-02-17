@@ -1,0 +1,19 @@
+{
+  "session_id": "session_1365443566_44a8b8b1",
+  "started_at": "2026-02-17T21:57:23.566596",
+  "problem_statement": "Test problem 2 with domains ['career', 'psychology']",
+  "domains": [
+    "career",
+    "psychology"
+  ],
+  "domain_confidence": 0.8,
+  "stakes": "medium",
+  "reversibility": "partially_reversible",
+  "turns": [],
+  "final_conclusion": "Conclusion for session 2",
+  "final_satisfaction": true,
+  "final_confidence": 0.8,
+  "ended_at": "2026-02-17T21:57:23.566750",
+  "parent_session_id": null,
+  "turn_count": 0
+}

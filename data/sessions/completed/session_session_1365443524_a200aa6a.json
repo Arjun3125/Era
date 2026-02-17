@@ -1,0 +1,81 @@
+{
+  "session_id": "session_1365443524_a200aa6a",
+  "started_at": "2026-02-17T21:57:23.524985",
+  "problem_statement": "I'm overwhelmed at work and considering leaving",
+  "domains": [
+    "career",
+    "psychology",
+    "risk"
+  ],
+  "domain_confidence": 0.85,
+  "stakes": "high",
+  "reversibility": "partially_reversible",
+  "turns": [
+    {
+      "turn_num": 1,
+      "mode": "QUICK",
+      "user_input": "How should I handle my workplace stress?",
+      "council_positions": [
+        "Minister 0",
+        "Minister 1"
+      ],
+      "prime_decision": "Turn 1: Consider negotiating workload first, then evaluate long-term fit",
+      "kis_items": [
+        "KIS Item 0",
+        "KIS Item 1",
+        "KIS Item 2",
+        "KIS Item 3",
+        "KIS Item 4"
+      ],
+      "user_satisfaction": null,
+      "confidence": 0.65
+    },
+    {
+      "turn_num": 2,
+      "mode": "MEETING",
+      "user_input": "How should I handle my workplace stress?",
+      "council_positions": [
+        "Minister 0",
+        "Minister 1",
+        "Minister 2"
+      ],
+      "prime_decision": "Turn 2: Consider negotiating workload first, then evaluate long-term fit",
+      "kis_items": [
+        "KIS Item 0",
+        "KIS Item 1",
+        "KIS Item 2",
+        "KIS Item 3",
+        "KIS Item 4"
+      ],
+      "user_satisfaction": null,
+      "confidence": 0.8
+    },
+    {
+      "turn_num": 3,
+      "mode": "DARBAR",
+      "user_input": "How should I handle my workplace stress?",
+      "council_positions": [
+        "Minister 0",
+        "Minister 1",
+        "Minister 2",
+        "Minister 3"
+      ],
+      "prime_decision": "Turn 3: Consider negotiating workload first, then evaluate long-term fit",
+      "kis_items": [
+        "KIS Item 0",
+        "KIS Item 1",
+        "KIS Item 2",
+        "KIS Item 3",
+        "KIS Item 4"
+      ],
+      "user_satisfaction": true,
+      "confidence": 0.85
+    }
+  ],
+  "final_conclusion": "User should attempt workload negotiation before considering departure",
+  "final_satisfaction": true,
+  "final_confidence": 0.85,
+  "ended_at": "2026-02-17T21:57:23.525700",
+  "parent_session_id": null,
+  "turn_count": 3
+}

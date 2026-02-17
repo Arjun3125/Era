@@ -9,7 +9,7 @@ from typing import Dict, List, Any, Optional, Tuple
 # -----------------------------
 # CONFIG
 # -----------------------------
-BASE_PATH = r"C:\Darbar\Sovereign\data\memory\ministers"
+BASE_PATH = r"C:\era\data\ministers"
 
 KNOWLEDGE_TYPES = ["principle", "rule", "warning", "claim", "advice"]
 
@@ -240,10 +240,29 @@ def load_domain_knowledge(domain: str) -> List[Dict[str, Any]]:
 
     for ktype in KNOWLEDGE_TYPES:
         file_path = os.path.join(domain_path, f"{ktype}s.json")
-        entries = load_json_safe(file_path)
+        data = load_json_safe(file_path)
+        
+        # Handle nested structure: data might be {domain, category, entries: [...]}
+        if isinstance(data, dict) and "entries" in data:
+            entries = data.get("entries", [])
+        elif isinstance(data, list):
+            entries = data
+        else:
+            entries = []
+        
         for e in entries:
-            e["_domain"] = domain
-            knowledge.append(e)
+            # Normalize field names to match what compute_kis expects
+            normalized = {
+                "aku_id": e.get("id", ""),
+                "content": e.get("text", ""),
+                "type": ktype.rstrip("s"),  # "principles" -> "principle"
+                "_domain": domain,
+                "source": e.get("source", {}),
+                "memory": {
+                    "reinforcement_count": int(e.get("weight", 1.0) * 10) if e.get("weight") else 1
+                }
+            }
+            knowledge.append(normalized)
 
     return knowledge
 

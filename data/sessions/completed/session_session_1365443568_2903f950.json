@@ -1,0 +1,20 @@
+{
+  "session_id": "session_1365443568_2903f950",
+  "started_at": "2026-02-17T21:57:23.568499",
+  "problem_statement": "Test problem 4 with domains ['career', 'strategy', 'power']",
+  "domains": [
+    "career",
+    "strategy",
+    "power"
+  ],
+  "domain_confidence": 0.8,
+  "stakes": "medium",
+  "reversibility": "partially_reversible",
+  "turns": [],
+  "final_conclusion": "Conclusion for session 4",
+  "final_satisfaction": true,
+  "final_confidence": 0.8,
+  "ended_at": "2026-02-17T21:57:23.568660",
+  "parent_session_id": null,
+  "turn_count": 0
+}
