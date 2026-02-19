@@ -1,0 +1,35 @@
+{
+  "conversation_id": "uc_20260218_220942_s74",
+  "session_number": 74,
+  "timestamp": "2026-02-18T22:09:42.468386",
+  "problem_statement": "",
+  "domains": [
+    "strategy"
+  ],
+  "stakes": "low",
+  "turns": 1,
+  "user_satisfied": false,
+  "final_recommendation": "**Clarifying Questions:**  \n1. **What specific challenge or decision are you currently facing that you’d like to explore?**  \n   - *Example:* Are you struggling with time management, unclear prioritie",
+  "final_confidence": 0.8,
+  "kis_items_count": 5,
+  "exchanges": [
+    {
+      "speaker": "user",
+      "text": "",
+      "turn": 0,
+      "role": "Problem Statement"
+    },
+    {
+      "speaker": "persona",
+      "text": "**Clarifying Questions:**  \n1. **What specific challenge or decision are you currently facing that you’d like to explore?**  \n   - *Example:* Are you struggling with time management, unclear priorities, or a lack of direction in a particular area of your life or work?  \n\n2. **What outcome or result are you hoping to achieve by addressing this challenge?**  \n   - *Example:* Do you want to feel more in control of your time, make better decisions, or align your efforts with your long-term goals?  \n\n---  \n**Why These Questions Matter (Strategy Lens):**  \n- Without a clear problem statement, it’s difficult to identify the root cause or design a solution. This helps ensure we’re addressing the *right* challenge and aligning your efforts with your *true* goals.  \n- Strategic clarity begins with **defining the problem**—not just solving it. This step ensures we’re working toward outcomes that matter to you.  \n\n**Next Step:**  \nPlease share the specific challenge or question you’d like to explore. I’ll help you break it down and design a focused, actionable plan.",
+      "turn": 1,
+      "role": "Decision Authority"
+    },
+    {
+      "speaker": "user",
+      "text": "I'm feeling overwhelmed by too many competing goals and priorities, leaving me drained and unsure of what truly matters. I lack the clarity to focus my energy effectively, so I'm often juggling tasks without making consistent progress toward what I care about most.  \n\nI want to feel more in control of my time and energy, make better decisions about where to focus, and align my efforts with my long-term goals. I'm hoping to reduce the feeling of scatteredness and find a sustainable way to prioritize without guilt or burnout.",
+      "turn": 1,
+      "role": "Seeking Guidance"
+    }
+  ]
+}

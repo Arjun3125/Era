@@ -1,0 +1,35 @@
+{
+  "conversation_id": "uc_20260218_223309_s79",
+  "session_number": 79,
+  "timestamp": "2026-02-18T22:33:09.580478",
+  "problem_statement": "I feel overwhelmed by multiple competing goals and commitments, making it difficult to focus my energy effectively and stay aligned with my priorities. I often struggle to determine what truly matters, leading to scattered efforts and a lack of progress.",
+  "domains": [
+    "strategy"
+  ],
+  "stakes": "low",
+  "turns": 1,
+  "user_satisfied": true,
+  "final_recommendation": "**Clarifying Questions:**  \n1. **How do you currently decide which goals or commitments to prioritize when they seem equally important or urgent?**  \n   - *Example:* Do you use a framework (e.g., “Wha",
+  "final_confidence": 0.9,
+  "kis_items_count": 5,
+  "exchanges": [
+    {
+      "speaker": "user",
+      "text": "I feel overwhelmed by multiple competing goals and commitments, making it difficult to focus my energy effectively and stay aligned with my priorities. I often struggle to determine what truly matters, leading to scattered efforts and a lack of progress.",
+      "turn": 0,
+      "role": "Problem Statement"
+    },
+    {
+      "speaker": "persona",
+      "text": "**Clarifying Questions:**  \n1. **How do you currently decide which goals or commitments to prioritize when they seem equally important or urgent?**  \n   - *Example:* Do you use a framework (e.g., “What would I do if I had unlimited time?” or “Which goal aligns with my long-term vision?”), or do you often feel stuck in a cycle of reactive decision-making?  \n\n2. **What would be the most meaningful outcome if you could fully commit to one goal for the next 30 days, without distraction or compromise?**  \n   - *Example:* If you focused exclusively on a single priority (e.g., health, relationships, career growth), what specific result would feel like a “win” for you, and how would it impact your other goals?  \n\n---\n\n**Why These Questions Matter (Strategy Lens):**  \n- **Decision-making frameworks are essential.** Without a clear method to evaluate priorities, efforts remain scattered. This step helps you build a **mental model** for choosing where to invest energy, turning overwhelm into clarity.  \n- **Focusing on outcomes, not tasks.** Sustainable progress requires **defining what success looks like** for your top priority. This shifts the focus from “what to do” to “why it matters,” aligning actions with purpose.  \n\n---\n\n**Next Step:**  \nIf you’re ready, share your answers to these questions. From there, we can:  \n- Create a **custom prioritization framework** to filter competing goals,  \n- Design a **30-day focus experiment** to test progress toward one key outcome,  \n- Identify **non-essential commitments** that drain your energy and prevent alignment.  \n\nIf you’re unsure, I’ll guide you through a simple exercise to map out your goals and their potential impact.  \n\nLet me know how you’d like to proceed.",
+      "turn": 1,
+      "role": "Decision Authority"
+    },
+    {
+      "speaker": "user",
+      "text": "**1. How do you currently decide which goals or commitments to prioritize when they seem equally important or urgent?**  \nI often rely on a gut feeling or a sense of urgency, but I rarely take the time to assess the long-term impact of each task. I end up juggling multiple things without a clear framework, which leads to scattered efforts and frustration. For example, I might prioritize a task that feels immediate but doesn’t align with my core values or long-term goals.\n\n**2. What would be the most meaningful outcome if you could fully commit to one goal for the next 30 days, without distraction or compromise?**  \nIf I could focus exclusively on one priority, like building a sustainable career path aligned with my values, the outcome would be feeling a sense of progress and alignment with my long-term vision. This would allow me to reduce the mental load of juggling multiple competing demands and create momentum toward something meaningful.\n\n**Reflection on the guidance:**  \nI appreciate how this approach shifts the focus from feeling overwhelmed to taking intentional action. I’m ready to try building a prioritization framework, but I’d like some help tailoring it to my specific situation.",
+      "turn": 1,
+      "role": "Seeking Guidance"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "conversation_id": "uc_20260218_205621_s57",
+  "session_number": 57,
+  "timestamp": "2026-02-18T20:56:21.166878",
+  "problem_statement": "I'm struggling to balance the need for financial stability with the desire to pursue a career path that aligns with my long-term values and purpose, even though I feel increasingly disconnected from my current role and uncertain about my future direction.",
+  "domains": [
+    "strategy",
+    "risk"
+  ],
+  "stakes": "low",
+  "turns": 1,
+  "user_satisfied": true,
+  "final_recommendation": "**Clarifying Questions:**  \n1. **What specific elements of your current role or daily tasks contribute to your sense of disconnection?** Could you reframe your responsibilities, negotiate a role adjus",
+  "final_confidence": 0.9,
+  "kis_items_count": 5,
+  "exchanges": [
+    {
+      "speaker": "user",
+      "text": "I'm struggling to balance the need for financial stability with the desire to pursue a career path that aligns with my long-term values and purpose, even though I feel increasingly disconnected from my current role and uncertain about my future direction.",
+      "turn": 0,
+      "role": "Problem Statement"
+    },
+    {
+      "speaker": "persona",
+      "text": "**Clarifying Questions:**  \n1. **What specific elements of your current role or daily tasks contribute to your sense of disconnection?** Could you reframe your responsibilities, negotiate a role adjustment, or seek mentorship to align your work more closely with your values without leaving your job?  \n   - *Example:* If you value impact but feel stuck in repetitive tasks, could you propose leading a small initiative or volunteering within your organization to apply your skills in a more meaningful way?  \n\n2. **How much financial flexibility do you currently have (e.g., savings, emergency fund, passive income)?** If the stakes are low, could you test a hybrid approach (e.g., part-time work in your current role + freelancing, consulting, or side projects in your desired field) to explore your new path while maintaining stability?  \n   - *Example:* Dedicate 10–20 hours/week to a passion project or industry-related networking while keeping your current income as a backup.  \n\n---  \n**Why these questions matter (strategy + risk domain):**  \n- The first question focuses on **strategic alignment** by identifying actionable steps to bridge the gap between your current role and your values, reducing the need for a drastic career pivot.  \n- The second question emphasizes **risk mitigation** by testing new opportunities incrementally, ensuring financial stability while exploring growth.  \n\n**Next Step:**  \nWhat is one *specific experiment* you could try in the next 30 days to:  \n- Address a source of disconnection in your current role (e.g., proposing a new project, seeking mentorship), or  \n- Test a low-risk step toward your desired career (e.g., starting a side hustle, attending industry events, building a portfolio)?",
+      "turn": 1,
+      "role": "Decision Authority"
+    },
+    {
+      "speaker": "user",
+      "text": "**Response:**  \nI'm struggling to balance the need for financial stability with the desire to pursue a career path that aligns with my long-term values and purpose. I feel increasingly disconnected from my current role, particularly because it lacks the creativity and impact I seek. I'm concerned about the risks of leaving my job entirely, but I'm also worried about staying in a role that doesn't align with my values long-term. I'm looking for guidance on how to bridge this gap—whether through incremental changes in my current role or exploring hybrid models that allow me to test a new path while maintaining financial security.",
+      "turn": 1,
+      "role": "Seeking Guidance"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "session_id": "session_1366395533_5de42df2",
+  "started_at": "2026-02-17T22:13:15.533304",
+  "problem_statement": "i'm feeling burned out at work with constant deadlines",
+  "domains": [
+    "strategy"
+  ],
+  "domain_confidence": 0.045454545454545456,
+  "stakes": "low",
+  "reversibility": "partially_reversible",
+  "turns": [
+    {
+      "turn_num": 1,
+      "mode": "QUICK",
+      "user_input": "i'm feeling burned out at work with constant deadlines",
+      "council_positions": [],
+      "prime_decision": "No clear recommendation at this time",
+      "kis_items": [
+        "Accept unavoidable outcomes and focus energy on influencing factors within one's control.",
+        "Accept unavoidable outcomes and focus energy on influencing factors within one's control.",
+        "Prioritize what is within your control in decision-making.",
+        "Focus on what is within control",
+        "Prioritize what is within your control in decision-making."
+      ],
+      "user_satisfaction": true,
+      "confidence": 0.85
+    }
+  ],
+  "final_conclusion": "Decision: No clear recommendation at this time | Domains addressed: strategy | Decision reached after 1 turn(s) of analysis | Overall confidence: 0.85 | User expressed satisfaction with the decision.",
+  "final_satisfaction": true,
+  "final_confidence": 0.5,
+  "ended_at": "2026-02-17T22:13:22.488192",
+  "parent_session_id": "session_1365943051_5de42df2",
+  "turn_count": 1
+}

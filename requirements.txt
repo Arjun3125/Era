@@ -1,33 +1,85 @@
-# Minimal reproducible environment for ingestion pipeline (Windows)
-# Install with: python -m pip install -r requirements.txt
+# ERA - Sovereign Decision Governance System - Python 3.12+ requirements
+# Updated: February 19, 2026
+# Installation: pip install -r requirements.txt
+# Development: pip install -r requirements.txt[dev]
 
-# HTTP client + Ollama interactions
+### CORE DEPENDENCIES ###
+
+# LLM & Language Models
+ollama>=0.1.0
+httpx>=0.24.0
+aiohttp>=3.8.1,<4
 requests>=2.28.0,<3
 
-# Async + HTTP
-aiohttp>=3.8.1,<4
+# Async & Concurrency
 asyncpg>=0.27.0
 
-# PDF extraction
-pypdf>=3.3.0
-
-# Postgres client + pgvector support (optional; required for real DB)
+# Data & Storage
+sqlalchemy>=2.0.0
 psycopg2-binary>=2.9.6
 pgvector>=0.4.0
 
-# Utilities (typing, dataclasses are stdlib for supported Pythons)
-# Optional dev tools
+# Data Processing & Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Configuration & Validation
 python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
 
-# Pin a conservative requests dependency for Windows environments
-certifi>=2023.5.7
-
-# Vector memory
-faiss-cpu>=1.7.4
-sentence-transformers>=2.2.2
- 
-# HSE analytics
+# Web & API
+fastapi>=0.104.0
+uvicorn>=0.24.0
 Flask>=2.0.0
 Flask-Cors>=3.0.10
 gunicorn>=20.1.0
+python-multipart>=0.0.6
+
+# Vector Search & RAG
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+
+# Document Processing
+pypdf>=3.3.0
+
+# Logging & Utilities
 rich>=13.0.0
+structlog>=23.0.0
+loguru>=0.7.0
+python-dateutil>=2.8.0
+pytz>=2023.0
+tqdm>=4.66.0
+cachetools>=5.3.0
+diskcache>=5.6.0
+certifi>=2023.5.7
+
+### TESTING & DEVELOPMENT ###
+
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+isort>=5.12.0
+ipython>=8.0.0
+jupyter>=1.0.0
+notebook>=7.0.0
+ipdb>=0.13.0
+
+### SECURITY & PRODUCTION ###
+
+cryptography>=41.0.0
+pyjwt>=2.8.0
+
+### OPTIONAL (uncomment as needed) ###
+
+# sphinx>=7.0.0
+# sphinx-rtd-theme>=1.3.0
+# autopep8>=2.0.0
+# pylint>=3.0.0
+# bandit>=1.7.0
+# safety>=2.3.0
+# prometheus-client>=0.17.0

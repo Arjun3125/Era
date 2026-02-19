@@ -1,0 +1,35 @@
+{
+  "conversation_id": "uc_20260218_182116_s12",
+  "session_number": 12,
+  "timestamp": "2026-02-18T18:21:16.930504",
+  "problem_statement": "I feel stuck in my current job because it offers financial stability but is emotionally draining and doesn't align with my long-term goals or values. I'm not actively unhappy, but the lack of fulfillment is growing, and I'm questioning whether this path is sustainable or true to who I am.",
+  "domains": [
+    "strategy"
+  ],
+  "stakes": "low",
+  "turns": 1,
+  "user_satisfied": true,
+  "final_recommendation": "**Clarifying Questions:**  \n1. **What specific aspects of your current role (e.g., tasks, relationships, or outcomes) feel most misaligned with your values or long-term goals, and how might you begin ",
+  "final_confidence": 0.9,
+  "kis_items_count": 5,
+  "exchanges": [
+    {
+      "speaker": "user",
+      "text": "I feel stuck in my current job because it offers financial stability but is emotionally draining and doesn't align with my long-term goals or values. I'm not actively unhappy, but the lack of fulfillment is growing, and I'm questioning whether this path is sustainable or true to who I am.",
+      "turn": 0,
+      "role": "Problem Statement"
+    },
+    {
+      "speaker": "persona",
+      "text": "**Clarifying Questions:**  \n1. **What specific aspects of your current role (e.g., tasks, relationships, or outcomes) feel most misaligned with your values or long-term goals, and how might you begin to reframe or redirect those elements in small, sustainable ways?** This helps identify *actionable, low-risk adjustments* (e.g., shifting focus areas, setting personal boundaries, or seeking mentorship) that can gradually align your work with your values.  \n\n2. **If you had to choose *one* small step you could take this week to move closer to your long-term goals or values—without compromising financial stability—what would it be?** This frames the challenge as a *practical, incremental process*, ensuring progress feels achievable and aligned with your current capacity.  \n\n---  \n**Why these questions matter (strategy domain):**  \n- The first question emphasizes **identifying actionable, low-effort changes** that can create momentum toward alignment, even in a stable role.  \n- The second question focuses on **building habits and momentum**, ensuring that progress feels tangible and sustainable over time.  \n\nLet me know your answers, and I’ll help you design a plan that bridges your current role with your long-term vision.",
+      "turn": 1,
+      "role": "Decision Authority"
+    },
+    {
+      "speaker": "user",
+      "text": "1. **What specific aspects of your current role feel most misaligned with your values or long-term goals, and how might you begin to reframe or redirect those elements in small, sustainable ways?**  \n   The emotional labor in my role feels misaligned with my value of authenticity, and the lack of autonomy prevents me from aligning with my goal of professional growth. I could start by requesting more varied projects to reduce monotony and exploring small-scale mentorship opportunities to gradually integrate my long-term vision into daily tasks.  \n\n2. **If you had to choose one small step you could take this week to move closer to your long-term goals or values—without compromising financial stability—what would it be?**  \n   I’d prioritize setting boundaries with my workload to protect my energy, even if it means politely declining tasks that don’t align with my values. This small step could help me reclaim a sense of control and reduce emotional drain.  \n\n---\n\n**Concerns and uncertainties**:  \nI worry that focusing on small steps might feel insufficient or like a temporary fix rather than a long-term solution. I’m also unsure how to balance boundary-setting with maintaining professional relationships without appearing uncooperative.  \n\n---\n\n**Reaction to the guidance**:  \nThis feels empowering because it shifts the focus from feeling stuck to taking actionable steps. The emphasis on small, sustainable changes makes the process less intimidating and more achievable. I appreciate the practicality—it gives me permission to start aligning my daily work with my values without overwhelming myself.",
+      "turn": 1,
+      "role": "Seeking Guidance"
+    }
+  ]
+}

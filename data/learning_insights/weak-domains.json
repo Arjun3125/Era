@@ -1,0 +1,12 @@
+{
+  "weak_domains": [
+    {
+      "domain": "psychology",
+      "success_rate": "50%",
+      "conversations": 2,
+      "avg_turns": "1.5"
+    }
+  ],
+  "total_domains_tracked": 4,
+  "recommendation": "Focus next improvements on domains with <60% success rate"
+}

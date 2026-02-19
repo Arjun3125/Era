@@ -1,0 +1,550 @@
+================================================================================
+  ADVANCED DECISION GUIDANCE SYSTEM
+================================================================================
+
+WHAT IS IT?
+-----------
+A sophisticated decision guidance system with integrated machine learning.
+
+Provides intelligent problem-solving through:
+  ✓ Automatic or manual problem intake
+  ✓ Domain detection (15 domains, stakes, reversibility)
+  ✓ KIS synthesis (Knowledge Integration System - 40K+ items)
+  ✓ Multi-turn dialogue with intelligent mode escalation
+  ✓ Dynamic council invocation (QUICK/MEETING/WAR/DARBAR modes)
+  ✓ Prime Confident final authority
+  ✓ Episodic learning and memory
+  ✓ Continuous system improvement
+  ✓ Session continuity and consequence tracking
+  ✓ ML analysis and pattern extraction
+
+SINGLE UNIFIED SYSTEM:
+  system_main.py (600+ lines of integrated code)
+
+
+SYSTEM ARCHITECTURE
+-------------------
+
+USER PROBLEM
+     ↓
+DOMAIN DETECTION (auto-classify 15 domains)
+     ↓
+SESSION START (with mode QUICK)
+     ↓
+LOOP (up to 10 turns):
+  ├─ KIS SYNTHESIS (retrieve knowledge items)
+  ├─ DYNAMIC COUNCIL (convene relevant ministers)
+  ├─ PRIME CONFIDENT (final decision authority)
+  ├─ SATISFACTION CHECK (user satisfied?)
+  └─ MODE ESCALATION (QUICK→MEETING→WAR→DARBAR)
+     ↓
+EPISODE STORAGE (episodic memory)
+     ↓
+METRICS RECORDING (performance tracking)
+     ↓
+ML ANALYSIS (pattern extraction, weak domain detection)
+     ↓
+LEARNING INSIGHTS (printed & stored)
+     ↓
+NEXT SESSION USES LEARNED PATTERNS → SYSTEM IMPROVES
+
+
+TWO OPERATING MODES
+-------------------
+
+Auto Mode (LLM-Generated Problems):
+  Command: python system_main.py
+  Behavior:
+    - System generates realistic problems via User LLM (deepseek-r1:8b)
+    - Runs continuous sessions automatically
+    - Press Ctrl+C to stop
+    - System learns and improves over sessions
+
+Manual Mode (User-Provided Problems):
+  Command: python system_main.py --mode manual
+  Behavior:
+    - Accept problems from user input
+    - Run one session per user request
+    - Show statistics on command
+    - Manual control (type 'exit' to quit)
+
+
+QUICK START (30 seconds)
+------------------------
+
+1. Ensure Ollama is running:
+   ollama serve
+   (in separate terminal)
+
+2. Check models available:
+   ollama list
+   Should show: deepseek-r1:8b, qwen3:14b
+
+3. Run the system (automatic mode):
+   python system_main.py
+
+4. Watch the system:
+   - Generate problem
+   - Analyze domains
+   - Run multi-turn dialogue
+   - Store learning
+   - Repeat until Ctrl+C
+
+
+COMMAND-LINE OPTIONS
+---------------------
+
+Automatic Mode (LLM generates problems):
+  python system_main.py
+  python system_main.py --mode auto
+
+Interactive Mode (user inputs problems):
+  python system_main.py --mode interactive
+
+Verbose output:
+  python system_main.py --verbose
+
+
+WHAT HAPPENS DURING A SESSION
+------------------------------
+
+SESSION 1: Learning Phase
+  Problem generated: "Should I change careers?"
+  Domains detected: career, finance, psychology
+  Turn 1 (QUICK mode): Prime asks clarification → User shares context
+  Turn 2 (QUICK mode): Prime offers perspective → Check satisfaction
+  Turn 3 (MEETING mode): Council debate → Prime decision
+  Result: SATISFIED in 3 turns, 85% confidence
+  Learning: "Career domain works well"
+
+SESSION 2: Pattern Recognition
+  Problem generated: "Should I relocate?"
+  Domains detected: career, relationships, finance
+  Turn 1 (QUICK mode): Prime asks clarification → User responds
+  Turn 2 (QUICK mode): Prime offers guidance → Check satisfaction
+  Result: SATISFIED in 2 turns, 90% confidence
+  Learning: "Quick resolution pattern continues"
+
+SESSION 3+: Progressive Improvement
+  System recognizes patterns from previous sessions
+  Applies successful strategies
+  Identifies weak domains needing special handling
+  Tracks effectiveness
+  Continuous improvement over many sessions
+
+
+KEY COMPONENTS
+--------------
+
+1. USER LLM (deepseek-r1:8b)
+   - Generates realistic problems
+   - Responds from user perspective
+   - Evaluates satisfaction
+
+2. PROGRAM LLM (qwen3:14b)
+   - Domain detection and analysis
+   - KIS synthesis guidance
+   - Council recommendations
+   - Prime confident decisions
+
+3. DOMAIN DETECTOR
+   - 15 domain keywords
+   - Stakes assessment (low/medium/high)
+   - Reversibility classification
+
+4. SESSION MANAGER
+   - Session lifecycle (start, turn, end)
+   - Mode escalation (QUICK→MEETING→WAR→DARBAR)
+   - Session persistence
+   - Consequence tracking
+
+5. KNOWLEDGE INTEGRATION SYSTEM (KIS)
+   - Retrieves relevant knowledge items
+   - 40,162+ doctrine entries
+   - Domain-weighted scoring
+
+6. DYNAMIC COUNCIL
+   - Selects relevant ministers per mode
+   - Synthesizes positions
+   - Provides structured advice
+
+7. PRIME CONFIDENT
+   - Makes final decision
+   - Integrates council input
+   - Provides reasoning and confidence
+
+8. EPISODIC MEMORY
+   - Stores episodes of decision-making
+   - Records outcomes
+   - Enables learning from experience
+
+9. PERFORMANCE METRICS
+   - Tracks success by domain
+   - Records turns needed
+   - Identifies weak domains
+
+10. ML ORCHESTRATOR
+    - Analyzes conversation patterns
+    - Extracts learning insights
+    - Generates recommendations
+
+
+DATA GENERATED DURING EXECUTION
+--------------------------------
+
+Session Data:
+  data/sessions/completed/*.json
+    - Full session metadata
+    - Problem statement
+    - Domains, stakes, turns
+    - Final satisfaction level
+
+Episodic Memory:
+  data/memory/episodes.jsonl
+    - Each decision stored as episode
+    - Outcome and regret scoring
+    - Used for pattern learning
+
+Metrics:
+  data/memory/metrics.jsonl
+    - Turn count per domain
+    - Success rates
+    - Confidence levels
+    - Weak domain identification
+
+Conversations:
+  data/conversations/
+    - Full dialogue transcripts
+    - Turn-by-turn exchange details
+
+
+LEARNING INSIGHTS OUTPUT
+------------------------
+
+After each session, you'll see:
+
+╔════════════════════════════════════════════════════════════╗
+║           ML LEARNING ANALYSIS                            ║
+╚════════════════════════════════════════════════════════════╝
+
+[Metrics]
+  • Turns: 3
+  • Satisfied: YES
+  • Confidence: 87%
+  • Domains: career, finance
+
+[Learning]
+  • Success Pattern: satisfied
+  • Weak Domains: (none)
+  • Pattern: Quick resolution - this domain works well
+
+[Data persisted to]
+  → data/sessions/completed/
+  → data/memory/episodes.jsonl
+  → data/memory/metrics.jsonl
+
+
+UNDERSTANDING MODE ESCALATION
+------------------------------
+
+The system automatically escalates decision-making complexity:
+
+TURN 1-2: QUICK Mode
+  - Direct LLM response
+  - No council consultation
+  - Fastest, for simple decisions
+  - Single perspective
+
+TURN 3-4: MEETING Mode  
+  - 3-5 relevant ministers consulted
+  - Balanced debate
+  - Moderate complexity
+  - Multiple perspectives
+
+TURN 5-7: WAR Mode
+  - Risk/Power/Intelligence always included
+  - Victory-focused analysis
+  - Assertive recommendations
+  - Aggressive perspective
+
+TURN 8+: DARBAR Mode
+  - All 19 ministers voting
+  - Full wisdom council
+  - Consensus-seeking
+  - Comprehensive analysis
+  - Judicial oversight
+
+
+WHAT HAPPENS ACROSS MULTIPLE SESSIONS
+--------------------------------------
+
+Session 1-2: Baseline
+  → System learns what works for each domain
+  → Records successful patterns
+  → Identifies difficult areas
+
+Session 3-4: Pattern Application
+  → System recognizes similar problems
+  → Applies learned strategies
+  → Asks: "Did this pattern work before?"
+
+Session 5+: Optimization
+  → System increasingly effective
+  → Weak domains flagged for special handling
+  → Success rate trends upward
+  → Average turns needed decreases
+
+
+STATISTICS & ANALYTICS
+-----------------------
+
+After running multiple sessions, you can analyze:
+
+Session Statistics:
+  - Total sessions completed
+  - Average turns per session
+  - User satisfaction rate
+  - Domain effectiveness ratings
+  - Weak domain identification
+  - Learning pattern recognition
+
+Domain Performance:
+  - Success rate by domain
+  - Average turns needed
+  - Confidence levels achieved
+  - Weak vs strong domains
+
+System Improvement:
+  - Session 1-3 vs Session 4+
+  - Turn reduction over time
+  - Satisfaction rate trends
+  - Pattern recognition effectiveness
+
+
+TROUBLESHOOTING
+---------------
+
+Issue: "You must be using an unsupported Terminal Renderer"
+Fix: Update Ollama, or use simpler terminal
+
+Issue: Models not found
+Fix: ollama pull deepseek-r1:8b
+     ollama pull qwen3:14b
+
+Issue: Connection refused
+Fix: Make sure Ollama is running (ollama serve)
+
+Issue: Slow responses
+Fix: More VRAM helps, or use smaller models
+     deepseek-r1:8b, qwen3:14b are optimal balance
+
+Issue: Empty responses
+Fix: Check LLM is running, verify model installation
+
+
+FILE ORGANIZATION
+-----------------
+
+Root Directory:
+  system_main.py - UNIFIED SYSTEM (runs everything)
+
+Supporting Modules:
+  persona/ - Agent system, domains, sessions, council, learning
+  ml/ - ML orchestrator, pattern extraction, KIS synthesis
+  sovereign/ - Prime Confident, minister coordination
+  hse/ - Human simulation, personality, stress
+  llm/ - LLM interfaces and adapters
+  multi_agent_sim/ - Multi-agent orchestration
+  tests/ - Verification and integration tests
+  scripts/ - Utilities and helpers
+
+Data Directories:
+  data/sessions/ - Session storage and consequences
+  data/memory/ - Episodic memory and metrics
+  data/conversations/ - Dialogue transcripts
+
+
+NEXT STEPS
+----------
+
+1. Start Ollama:
+   ollama serve
+
+2. Run the system:
+   python system_main.py
+
+3. Watch output showing:
+   - Problem generation
+   - Domain detection
+   - Multi-turn dialogue
+   - Learning analysis
+
+4. After 5+ sessions:
+   - View learning patterns
+   - Check weak domains
+   - Analyze improvement trends
+
+5. Experiment with modes:
+   python system_main.py --mode interactive
+   (This lets you type problems manually)
+
+
+ADVANCED: USING SESSION CONTINUITY
+-----------------------------------
+
+The system tracks related sessions:
+
+Example workflow:
+  Session 1: "Should I change careers?" → SATISFIED
+  Session 2: "How do I negotiate better at work?" → PARTIAL
+  Session 3: "Should I freelance?" (detected as related to Session 1)
+    → System: "Found related session about careers"
+    → Applied successful pattern from Session 1
+    → Improved result using learned knowledge
+
+This automatic continuity = progressive improvement
+
+
+FILE CLEANUP
+-----------
+
+Old redundant files have been removed:
+  ✓ ml/ml_integrated_conversation.py - CONSOLIDATED into system_main.py
+  ✓ ml/ML_INTEGRATED_GUIDE.py - Replaced with UNIFIED_SYSTEM_GUIDE.txt
+  ✓ persona/run_session_conversation.py - Consolidated into system_main.py
+  ✓ persona/user_persona_conversation.py - Removed (unused variant)
+  ✓ persona/user_persona_multi_session.py - Removed (unused variant)
+  ✓ Multiple test variants - Cleaned up
+
+Single entrypoint: system_main.py
+
+
+KEY DIFFERENCES FROM OLD SYSTEM
+--------------------------------
+
+OLD (Two separate files):
+  - ml_integrated_conversation.py (auto problem generation, ML learning)
+  - run_session_conversation.py (user input, council, prime decisions)
+  - Redundancy and code duplication
+  - Hard to maintain consistency
+  - No unified experience
+
+NEW (Unified system_main.py):
+  ✓ Single entrypoint
+  ✓ One codebase (600+ integrated lines)
+  ✓ Auto-generation + core decision logic
+  ✓ No duplication
+  ✓ Consistent API
+  ✓ Both modes: auto and interactive
+  ✓ Complete learning pipeline
+  ✓ Easy to maintain and extend
+
+
+EXAMPLE SESSION OUTPUT
+---------------------
+
+[Init] System fully initialized
+
+======================================================================
+SESSION 1 - Unified Problem Solving
+======================================================================
+
+[Problem Generation] Creating realistic problem...
+[Problem]
+I've been offered a promotion but it requires relocating to a city where 
+I have no connections. My spouse is nervous about the move. Should I take it?
+
+[Phase 2] Analyzing problem for domains...
+  → Domains: career, finance, relationships
+  → Stakes: high | Reversibility: partially_reversible
+  → Confidence: 87%
+
+[Phase 3] Checking related previous sessions...
+  No related previous sessions
+
+[Phase 4] Starting session management...
+  → Session ID: abc123xyz
+
+[Phase 5] Starting multi-turn dialogue...
+
+----------------------------------------------------------------------
+TURN 1
+----------------------------------------------------------------------
+[Mode] QUICK (turn 1)
+[KIS] Synthesizing knowledge...
+  ✓ Retrieved 5 knowledge items
+
+[Council] Invoking QUICK mode...
+  ✓ 1 ministers consulted
+
+[Prime] Making final decision...
+
+[Decision]
+To make this decision, consider: 1) Career advancement impact 2) Financial 
+implications 3) Family dynamics. First, quantify the salary increase and cost 
+of living changes. Next, have a detailed conversation with your spouse about 
+her specific concerns...
+
+Confidence: 78%
+
+[Satisfaction] Checking user satisfaction...
+  ⚠️ PARTIAL
+  Reason: Good guidance but need more on family impact...
+
+---------|--------|--------|---------|
+
+[Phase 6] Recording session completion...
+[Phase 7] Storing episode and metrics...
+  ✓ Episode stored
+  ✓ Metrics recorded
+
+[Phase 8] Running ML analysis...
+
+======================================================================
+ML LEARNING ANALYSIS
+======================================================================
+
+[Metrics]
+  • Turns: 3
+  • Satisfied: NO
+  • Confidence: 72%
+  • Domains: career, finance, relationships
+
+[Learning]
+  • Success Pattern: needs_improvement
+  • Pattern: Extended dialogue needed - consider multi-perspective approach
+
+💾 Data persisted to:
+  → data/sessions/completed/
+  → data/memory/episodes.jsonl
+  → data/memory/metrics.jsonl
+
+======================================================================
+
+[Session 1] Complete
+[Session 1] Starting next session in 1 second...
+
+
+READY TO RUN
+------------
+
+You now have one unified, clean, powerful system:
+
+  python system_main.py
+
+All features:
+  ✓ Automatic problem generation
+  ✓ Multi-turn dialogue with escalation
+  ✓ KIS synthesis
+  ✓ Dynamic council
+  ✓ Prime confident decisions
+  ✓ Episodic learning
+  ✓ ML analysis
+  ✓ Continuous improvement
+  ✓ Session continuity
+  ✓ Consequence tracking
+  ✓ Data persistence
+
+One file. Clean. Powerful. Ready.
+
+================================================================================

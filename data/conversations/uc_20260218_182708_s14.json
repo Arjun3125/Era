@@ -1,0 +1,35 @@
+{
+  "conversation_id": "uc_20260218_182708_s14",
+  "session_number": 14,
+  "timestamp": "2026-02-18T18:27:08.537238",
+  "problem_statement": "**I feel stuck in my current job because it offers financial stability but doesn't align with my long-term career goals or values, leaving me feeling unfulfilled and questioning the sustainability of this path.**",
+  "domains": [
+    "strategy"
+  ],
+  "stakes": "low",
+  "turns": 1,
+  "user_satisfied": true,
+  "final_recommendation": "**Clarifying Questions:**  \n1. **What specific aspects of your current job (e.g., responsibilities, company culture, or career trajectory) feel most misaligned with your long-term goals or values, and",
+  "final_confidence": 0.9,
+  "kis_items_count": 5,
+  "exchanges": [
+    {
+      "speaker": "user",
+      "text": "**I feel stuck in my current job because it offers financial stability but doesn't align with my long-term career goals or values, leaving me feeling unfulfilled and questioning the sustainability of this path.**",
+      "turn": 0,
+      "role": "Problem Statement"
+    },
+    {
+      "speaker": "persona",
+      "text": "**Clarifying Questions:**  \n1. **What specific aspects of your current job (e.g., responsibilities, company culture, or career trajectory) feel most misaligned with your long-term goals or values, and how might you begin to address those gaps in small, sustainable ways (e.g., skill development, networking, or role adjustments)?** This helps identify *low-risk, high-impact actions* that can create momentum toward alignment without requiring a major pivot.  \n\n2. **If you had to prioritize *one* long-term goal or value (e.g., purpose, growth, or impact) that feels most out of reach in your current role, what is one small, concrete step you could take this month to move closer to it—while still maintaining financial stability?** This frames the challenge as a *practical experiment*, ensuring progress feels achievable and tied to your values.  \n\n---  \n**Why these questions matter (strategy domain):**  \n- The first question focuses on **identifying actionable, low-effort changes** that can create momentum toward alignment, even in a stable role.  \n- The second question emphasizes **experimentation and alignment**, ensuring that small steps feel purposeful and tied to long-term goals, even if the broader context remains unchanged.  \n\nLet me know your answers, and I’ll help you design a plan that builds momentum toward alignment without compromising stability.",
+      "turn": 1,
+      "role": "Decision Authority"
+    },
+    {
+      "speaker": "user",
+      "text": "**1. What specific aspects of your current job feel most misaligned with your long-term goals or values, and how might you begin addressing those gaps in small, sustainable ways (e.g., skill development, networking, or role adjustments)?**  \n\nTasks like endless meetings and repetitive revisions feel misaligned with my goal of meaningful impact. I could start by documenting my contributions and seeking feedback to align my work with my value of purpose.  \n\n**2. If you had to prioritize one long-term goal or value (e.g., purpose, growth, or impact) that feels most out of reach in your current role, what is one small, concrete step you could take this month to move closer to it while maintaining financial stability?**  \n\nI’d prioritize building a side project aligned with my values, even if it’s small, to experiment with growth and purpose outside my current role.  \n\n---\n\n**Concerns and uncertainties**:  \nI worry that focusing on small changes might feel insufficient or like a temporary fix rather than a long-term solution. I’m also unsure how to balance boundary-setting with maintaining professional relationships without appearing uncooperative.  \n\n---\n\n**Reaction to the guidance**:  \nThis feels empowering because it shifts the focus from feeling stuck to taking actionable steps. The emphasis on small, sustainable changes makes the process less overwhelming and more achievable. I appreciate how the guidance acknowledges the tension between stability and alignment, offering a practical way to bridge that gap.",
+      "turn": 1,
+      "role": "Seeking Guidance"
+    }
+  ]
+}
