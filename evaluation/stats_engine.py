@@ -175,6 +175,100 @@ class StatsEngine:
             "low_confidence_accuracy": float(low_conf_accuracy) if np.sum(low_conf) > 0 else None
         }
     
+    def calibration_diagnostics(
+        self,
+        predicted_scores: List[float],
+        actual_outcomes: List[int],
+        n_bins: int = 10
+    ) -> Dict:
+        """
+        Advanced calibration analysis with confidence binning and reliability diagram.
+        
+        PUBLISHABLE STANDARD: Reliability diagram, ECE, per-bin accuracy.
+        
+        Args:
+            predicted_scores: Model confidence (0-1)
+            actual_outcomes: Actual outcomes (0/1)
+            n_bins: Number of confidence bins (default 10 for deciles)
+        
+        Returns:
+            Dict with ECE, reliability diagram data, and per-bin metrics
+        """
+        
+        predicted = np.array(predicted_scores)
+        actual = np.array(actual_outcomes)
+        
+        # Create confidence bins
+        bin_edges = np.linspace(0, 1.0, n_bins + 1)
+        bin_centers = (bin_edges[:-1] + bin_edges[1:]) / 2
+        
+        bin_metrics = []
+        total_ece = 0.0
+        
+        for i in range(n_bins):
+            # Get predictions in this bin
+            mask = (predicted >= bin_edges[i]) & (predicted < bin_edges[i+1])
+            
+            if np.sum(mask) == 0:
+                # Empty bin
+                bin_metrics.append({
+                    "bin_center": float(bin_centers[i]),
+                    "bin_range": [float(bin_edges[i]), float(bin_edges[i+1])],
+                    "count": 0,
+                    "avg_confidence": None,
+                    "actual_accuracy": None,
+                    "calibration_gap": None
+                })
+                continue
+            
+            bin_predictions = predicted[mask]
+            bin_actual = actual[mask]
+            
+            avg_confidence = np.mean(bin_predictions)
+            actual_accuracy = np.mean(bin_actual)
+            calibration_gap = abs(avg_confidence - actual_accuracy)
+            
+            bin_count = np.sum(mask)
+            bin_weight = bin_count / len(actual)
+            
+            # Weighted ECE contribution
+            total_ece += bin_weight * calibration_gap
+            
+            bin_metrics.append({
+                "bin_center": float(bin_centers[i]),
+                "bin_range": [float(bin_edges[i]), float(bin_edges[i+1])],
+                "count": int(bin_count),
+                "avg_confidence": float(avg_confidence),
+                "actual_accuracy": float(actual_accuracy),
+                "calibration_gap": float(calibration_gap),
+                "perfectly_calibrated": abs(calibration_gap) < 0.05
+            })
+        
+        # Interpretation
+        if total_ece < 0.05:
+            calibration_quality = "EXCELLENT - Well-calibrated confidence"
+        elif total_ece < 0.10:
+            calibration_quality = "GOOD - Reasonably calibrated"
+        elif total_ece < 0.15:
+            calibration_quality = "ACCEPTABLE - Slight miscalibration"
+        else:
+            calibration_quality = "POOR - Significant miscalibration"
+        
+        return {
+            "expected_calibration_error": float(total_ece),
+            "calibration_quality": calibration_quality,
+            "brier_score": float(np.mean((predicted - actual) ** 2)),
+            "n_bins": n_bins,
+            "bin_metrics": bin_metrics,
+            "overconfident": float(np.mean(predicted)) > float(np.mean(actual)),
+            "overconfidence_margin": float(np.mean(predicted) - np.mean(actual)),
+            "reliability_diagram_data": {
+                "bin_confidences": [m["avg_confidence"] for m in bin_metrics if m["avg_confidence"] is not None],
+                "bin_accuracies": [m["actual_accuracy"] for m in bin_metrics if m["actual_accuracy"] is not None],
+                "ideal_diagonal": [0.0, 1.0]  # Perfect calibration line
+            }
+        }
+    
     def ablation_effect_size(self, baseline_scores: List[float], ablated_scores: List[float]) -> Dict:
         """
         Compute effect size delta for an ablation.
@@ -226,3 +320,132 @@ class StatsEngine:
             "n_seeds": len(seed_results),
             "n_total_scenarios": len(all_scores)
         }
+    
+    def compute_power_analysis(
+        self,
+        effect_size: float = 0.8,
+        alpha: float = 0.05,
+        n_seeds: int = 5,
+        scenarios_per_seed: int = 20
+    ) -> Dict:
+        """
+        Compute statistical power for paired t-test with given parameters.
+        
+        Power = Probability of detecting true effect if it exists
+        
+        Args:
+            effect_size: Cohen's d (0.2=small, 0.5=medium, 0.8=large)
+            alpha: Significance level (typically 0.05)
+            n_seeds: Number of seeds (repeated measures)
+            scenarios_per_seed: Scenarios per seed
+        
+        Returns:
+            Dict with power, required_n, and interpretation
+        """
+        from scipy.stats import nct
+        
+        n_total = n_seeds * scenarios_per_seed
+        
+        # For paired t-test: df = n - 1
+        df = n_total - 1
+        
+        # Non-centrality parameter
+        # t_critical ≈ 1.96 for α=0.05 (two-tailed)
+        t_critical = stats.t.ppf(1 - alpha/2, df)
+        
+        # Non-centrality parameter λ = effect_size * sqrt(n)
+        lambda_nc = effect_size * np.sqrt(n_total)
+        
+        # Power = P(t > t_critical | λ)
+        # Using non-central t distribution
+        power = 1 - nct.cdf(t_critical, df, lambda_nc)
+        
+        # Calculate required sample size for target power
+        # Iterative search for n where power >= target (e.g., 0.8)
+        target_power = 0.8
+        required_n = n_total
+        
+        for test_n in range(10, 1000):
+            test_df = test_n - 1
+            test_t_critical = stats.t.ppf(1 - alpha/2, test_df)
+            test_lambda = effect_size * np.sqrt(test_n)
+            test_power = 1 - nct.cdf(test_t_critical, test_df, test_lambda)
+            
+            if test_power >= target_power:
+                required_n = test_n
+                break
+        
+        # Interpretation
+        if power >= 0.90:
+            power_interpretation = "EXCELLENT - High probability of detecting effect"
+        elif power >= 0.80:
+            power_interpretation = "GOOD - Standard statistical power"
+        elif power >= 0.70:
+            power_interpretation = "ACCEPTABLE - Moderate probability of detection"
+        else:
+            power_interpretation = "INSUFFICIENT - Risk of Type II error (false negative)"
+        
+        return {
+            "effect_size": effect_size,
+            "effect_size_interpretation": {
+                0.2: "small",
+                0.5: "medium",
+                0.8: "large"
+            }.get(effect_size, "custom"),
+            "alpha": alpha,
+            "n_total": n_total,
+            "n_seeds": n_seeds,
+            "scenarios_per_seed": scenarios_per_seed,
+            "statistical_power": float(power),
+            "power_interpretation": power_interpretation,
+            "required_n_for_80_power": required_n,
+            "required_scenario_increase": max(0, required_n - n_total),
+            "is_adequately_powered": power >= 0.80
+        }
+    
+    def power_grid_analysis(self) -> Dict:
+        """
+        Generate power analysis grid across common effect sizes.
+        
+        Helps determine if 100 scenarios (5 seeds × 20 scenarios) is sufficient.
+        
+        Returns:
+            Grid of power values for different effect sizes
+        """
+        
+        effect_sizes = [0.2, 0.5, 0.8, 1.0, 1.2]
+        n_total = 100  # 5 seeds × 20 scenarios
+        
+        grid = {}
+        
+        for es in effect_sizes:
+            analysis = self.compute_power_analysis(
+                effect_size=es,
+                alpha=0.05,
+                n_seeds=5,
+                scenarios_per_seed=20
+            )
+            grid[es] = {
+                "power": analysis["statistical_power"],
+                "interpretation": analysis["power_interpretation"],
+                "adequately_powered": analysis["is_adequately_powered"]
+            }
+        
+        return {
+            "n_total": n_total,
+            "power_grid": grid,
+            "recommendation": self._interpret_power_grid(grid)
+        }
+    
+    def _interpret_power_grid(self, grid: Dict) -> str:
+        """Interpret power grid and provide recommendation."""
+        
+        # Check worst case (smallest effect size)
+        if grid[0.2]["adequately_powered"]:
+            return "✅ EXCELLENT: Powered to detect even small effects"
+        elif grid[0.5]["adequately_powered"]:
+            return "✅ GOOD: Powered to detect medium effects (most relevant)"
+        elif grid[0.8]["adequately_powered"]:
+            return "✓ ACCEPTABLE: Powered for large effects, may miss medium effects"
+        else:
+            return "⚠️  UNDERPOWERED: Consider increasing sample size"

@@ -1,6 +1,9 @@
 {
   "model_version": "v1.0.0-baseline",
   "evaluation_mode": true,
+  "eval_dataset_version": "v1.0",
+  "eval_dataset_rotation_date": "2026-02-19",
+  "next_rotation_date": "2026-05-19",
   "dataset_hash": "placeholder_sha256",
   "ml_prior_hash": "placeholder_sha256",
   "kis_weights_hash": "placeholder_sha256",
@@ -11,12 +14,39 @@
     "n_seeds": 5,
     "n_bootstrap": 1000,
     "scenarios_per_category": 20,
-    "total_scenarios": 100
+    "total_scenarios": 100,
+    "effect_size_target": 0.8,
+    "power_target": 0.8,
+    "alpha": 0.05
   },
   "isolation_guarantees": {
     "episodic_memory_frozen": true,
     "pwm_disabled": true,
     "retraining_disabled": true,
-    "live_metrics_disabled": true
+    "live_metrics_disabled": true,
+    "llm_temperature_locked": 0.0,
+    "llm_top_p_locked": 1.0,
+    "scoring_deterministic": true,
+    "scoring_no_llm_calls": true
+  },
+  "dataset_versions": {
+    "v1.0": {
+      "created": "2026-02-19",
+      "scenarios": 100,
+      "categories": ["irreversible", "emotional", "strategic", "long_horizon"],
+      "status": "active",
+      "sha256_hash": "placeholder_v1"
+    }
+  },
+  "version_history": {
+    "v1.0.0-baseline": {
+      "date": "2026-02-19",
+      "changes": [
+        "Initial evaluation framework",
+        "LLM temperature=0, seed injection",
+        "Rule-based deterministic scoring",
+        "Dataset versioning support"
+      ]
+    }
   }
 }
