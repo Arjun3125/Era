@@ -1,0 +1,22 @@
+{
+  "model_version": "v1.0.0-baseline",
+  "evaluation_mode": true,
+  "dataset_hash": "placeholder_sha256",
+  "ml_prior_hash": "placeholder_sha256",
+  "kis_weights_hash": "placeholder_sha256",
+  "minister_hash": "placeholder_sha256",
+  "timestamp": "2026-02-19T00:00:00Z",
+  "seed_list": [42, 99, 123, 7, 314],
+  "evaluation_config": {
+    "n_seeds": 5,
+    "n_bootstrap": 1000,
+    "scenarios_per_category": 20,
+    "total_scenarios": 100
+  },
+  "isolation_guarantees": {
+    "episodic_memory_frozen": true,
+    "pwm_disabled": true,
+    "retraining_disabled": true,
+    "live_metrics_disabled": true
+  }
+}

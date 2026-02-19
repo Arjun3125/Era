@@ -1,0 +1,20 @@
+{
+  "datasets": ["irreversible.json", "emotional.json", "strategic.json", "long_horizon.json"],
+  "version": "1.0",
+  "description": "Benchmark dataset manifest with integrity verification",
+  "file_hashes": {
+    "irreversible.json": "placeholder_sha256_irr",
+    "emotional.json": "placeholder_sha256_emo",
+    "strategic.json": "placeholder_sha256_str",
+    "long_horizon.json": "placeholder_sha256_lhr"
+  },
+  "creation_date": "2026-02-19",
+  "scenario_count": {
+    "irreversible": 25,
+    "emotional": 25,
+    "strategic": 25,
+    "long_horizon": 25,
+    "total": 100
+  },
+  "hard_rule": "No hash match → abort evaluation. Evaluation must verify integrity before running."
+}

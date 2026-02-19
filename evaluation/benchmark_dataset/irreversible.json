@@ -1,0 +1,67 @@
+[
+  {
+    "id": "IRR_001",
+    "category": "irreversible",
+    "input": "Should I sell my company now or wait?",
+    "context": "Your company is valued at $10M. 80% of revenue comes from one customer. Market conditions are uncertain but could improve next year. You have received an offer to sell.",
+    "ground_truth_rubric": {
+      "principles_required": ["optionality", "downside_asymmetry", "time_value"],
+      "critical_failure_modes": ["ignoring_cashflow", "missing_customer_concentration", "overestimating_timing"],
+      "acceptable_paths": [
+        "sell_with_downside_protection",
+        "negotiate_earnout",
+        "wait_for_customer_clarity"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.1
+    },
+    "outcome_truth": {
+      "decision": "wait_for_customer_clarity",
+      "reasoning": "Customer announced 10-year contract extension before year ended; option value of waiting was high. Selling would have been 30% suboptimal.",
+      "regret_magnitude": "minimal"
+    }
+  },
+  {
+    "id": "IRR_002",
+    "category": "irreversible",
+    "input": "Should I start my PhD or take a lucrative job offer?",
+    "context": "Acceptance to top PhD program. Job offer from well-known company at $200k/year. PhD is 5-6 years. Window to join PhD program closes in 2 weeks.",
+    "ground_truth_rubric": {
+      "principles_required": ["reversibility", "optionality_timing", "long_term_impact"],
+      "critical_failure_modes": ["ignoring_career_capital", "overweighting_short_term_cash"],
+      "acceptable_paths": [
+        "do_phd_now",
+        "work_2_years_then_phd",
+        "negotiate_phd_sponsorship"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "IRR_003",
+    "category": "irreversible",
+    "input": "Should I move countries for a relationship?",
+    "context": "In long-distance relationship for 2 years. Partner's visa applications are failing. Could move to their country, but it would mean leaving job, family, and professional network you've built over 10 years.",
+    "ground_truth_rubric": {
+      "principles_required": ["reversibility", "relationship_stability_verification", "network_rebuilding_capacity"],
+      "critical_failure_modes": ["ignoring_sunk_cost_fallacy", "overestimating_relationship_resilience"],
+      "acceptable_paths": [
+        "wait_for_immigration_resolution",
+        "move_with_remote_work_option",
+        "relationship_pause_for_clarity"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.1
+    }
+  }
+]

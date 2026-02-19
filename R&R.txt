@@ -1,0 +1,377 @@
+🔒 INTERNAL DECISION: CONDITIONAL ACCEPTANCE
+
+Project: Era / Ministerial Cognitive Architecture
+Status: Revise & Resubmit (R&R)
+Track: Cognitive Governance & Structured Deliberation
+Resubmission Window: 6–9 months
+
+Executive Summary
+
+Era demonstrates:
+
+Structured multi-perspective reasoning
+
+Clear separation of governance layers
+
+Outcome-linked adaptation loop
+
+Interpretability uncommon in modern AI systems
+
+However, it currently lacks:
+
+Formal evaluation methodology
+
+Learned routing and aggregation
+
+Statistical calibration
+
+Robust adversarial validation
+
+Approval is contingent on completing the following milestones.
+
+🔵 MILESTONE 1 — Formal Evaluation Framework
+
+Priority: Critical
+Time Horizon: 6–8 weeks
+
+Problem
+
+Current performance claims (e.g., 45% → 82%) lack:
+
+Defined benchmark set
+
+Blind evaluation
+
+Statistical confidence intervals
+
+Ablation controls
+
+This prevents scientific validation.
+
+Required Deliverables
+1.1 Benchmark Suite (Minimum 100 Scenarios)
+
+Construct:
+
+25 irreversible decision cases
+
+25 high-emotional-load cases
+
+25 strategic competition cases
+
+25 long-horizon tradeoff cases
+
+Each must include:
+
+Ground-truth rubric
+
+Multiple valid solution paths
+
+Outcome scoring schema
+
+Regret scoring rubric
+
+Freeze the dataset.
+
+No post-hoc modification.
+
+1.2 Statistical Evaluation Protocol
+
+For each release:
+
+5 random seeds
+
+95% confidence intervals
+
+Baseline comparison (LLM-only, no council)
+
+Paired t-test or bootstrap significance
+
+Report:
+
+Mean success rate
+
+Variance
+
+Effect size
+
+Calibration curve
+
+No claims without statistical backing.
+
+1.3 Ablation Study Matrix
+
+Run controlled experiments removing:
+
+Ministers
+
+KIS weighting
+
+ML prior
+
+PWM memory
+
+Mode escalation
+
+Quantify delta performance.
+
+Interpretability without ablation is narrative, not science.
+
+🔵 MILESTONE 2 — Replace Heuristic Learning with Parametric Learning
+
+Priority: Critical
+Time Horizon: 8–12 weeks
+
+Problem
+
+Current learning:
+
+Outcome → rule-based weight adjustment
+
+This is heuristic reward shaping, not learning.
+
+Required Upgrades
+2.1 Learnable Minister Weighting
+
+Replace fixed aggregation logic with:
+
+Learned minister gating network
+
+Context-conditioned expert weighting
+
+Trainable softmax routing
+
+Inputs:
+
+Feature vector (41-dim)
+
+Disagreement entropy
+
+Irreversibility score
+
+Output:
+
+Minister weight distribution
+
+Ministers remain interpretable, but influence becomes data-driven.
+
+2.2 Replace KIS Multiplicative Formula
+
+Current:
+
+domain × type × memory × context × goal
+
+
+Upgrade to:
+
+Embedding-based retrieval
+
+Learned re-ranking head
+
+Trainable weight interaction
+
+Goal:
+Retain interpretability, eliminate hard-coded bounds.
+
+2.3 Value Model for Decision Quality
+
+Train:
+
+A scalar value head predicting expected success
+
+Calibrated to regret-adjusted reward
+
+Use this to:
+
+Gate council recommendations
+
+Trigger mode escalation
+
+Flag high-risk outputs
+
+🔵 MILESTONE 3 — Confidence Calibration & Uncertainty Modeling
+
+Priority: High
+Time Horizon: 6 weeks
+
+Problem
+
+Confidence values are symbolic, not calibrated.
+
+Required Deliverables
+3.1 Reliability Diagrams
+
+For 1000+ decisions:
+
+Plot predicted confidence vs empirical success
+
+Compute Brier score
+
+Measure overconfidence bias
+
+Target:
+< 5% miscalibration error.
+
+3.2 Disagreement-Aware Uncertainty
+
+Compute:
+
+Minister vote entropy
+
+KIS variance
+
+ML prior variance
+
+Use combined uncertainty score to:
+
+Trigger DARBAR automatically
+
+Issue caution flags
+
+Increase deliberation depth
+
+🔵 MILESTONE 4 — Adversarial & Stress Evaluation
+
+Priority: High
+Time Horizon: 8 weeks
+
+Problem
+
+Synthetic human simulation is cooperative, not adversarial.
+
+Required Enhancements
+4.1 Adversarial User Simulator
+
+Train a synthetic user to:
+
+Maximize regret
+
+Induce contradiction
+
+Exploit blind spots
+
+Use self-play loops.
+
+Measure system degradation.
+
+4.2 Distribution Shift Testing
+
+Test on:
+
+Out-of-domain cases
+
+Extreme time pressure
+
+Conflicting value systems
+
+Sparse-information decisions
+
+Report performance delta.
+
+4.3 Red-Team Governance Testing
+
+Attempt to break:
+
+Red-line enforcement
+
+Identity consistency
+
+Mode isolation
+
+Ministerial coherence
+
+Track failure frequency.
+
+🔵 MILESTONE 5 — Automatic Mode Escalation
+
+Priority: Medium
+Time Horizon: 4 weeks
+
+Replace manual mode selection with learned escalation.
+
+Escalation triggers should include:
+
+High irreversibility score
+
+High disagreement entropy
+
+Low value-model confidence
+
+High regret prediction
+
+Compute-budget optimization must be measurable.
+
+🔵 MILESTONE 6 — Formal Research Framing
+
+Era must transition from “system” to “research contribution.”
+
+Draft paper structure:
+
+Problem: Lack of interpretable governance layers in LLM systems
+
+Approach: Modular ministerial architecture
+
+Learning upgrade: Parametric routing + calibrated uncertainty
+
+Evaluation: 100+ benchmark scenarios
+
+Ablation results
+
+Failure analysis
+
+Governance implications
+
+Without formal framing, this remains engineering.
+
+Acceptance Criteria for Resubmission
+
+The project will be reconsidered if:
+
+Performance improvement survives ablation
+
+Confidence is statistically calibrated
+
+Minister weighting is learned
+
+Escalation is automatic
+
+Adversarial degradation <20%
+
+Benchmark results reproducible across seeds
+
+If met:
+
+Project moves to exploratory collaboration track.
+
+If not:
+
+Project remains engineering prototype, not research-grade.
+
+Strategic Advisory
+
+Do not attempt to:
+
+Increase conceptual complexity
+
+Add more ministers
+
+Add more modes
+
+Add more symbolic heuristics
+
+The path forward is:
+
+Fewer heuristics.
+More learning.
+More measurement.
+More uncertainty modeling.
+
+Final Institutional Comment
+
+Era’s strongest property is interpretability.
+
+Do not sacrifice it.
+
+Convert heuristics into learnable parameters while preserving structural transparency.
+
+That is the research edge.
