@@ -39,10 +39,14 @@ class EpisodicMemory:
     def __init__(self, storage_path: str = "data/memory/episodes.jsonl"):
         self.storage_path = storage_path
         self.episodes: Dict[str, Episode] = {}
+        self.evaluation_mode = False  # Added: disable episode storage during evaluation
         self.load_from_disk()
     
     def store_episode(self, episode: Episode) -> str:
-        """Store a decision + outcome."""
+        """Store a decision + outcome. (Disabled in evaluation mode)"""
+        if self.evaluation_mode:
+            return "eval_mode_disabled"  # No-op during evaluation
+        
         if not episode.episode_id:
             episode.episode_id = str(uuid.uuid4())[:8]
         self.episodes[episode.episode_id] = episode

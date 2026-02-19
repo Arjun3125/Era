@@ -28,6 +28,7 @@ class DynamicCouncil:
         self.mode_orchestrator = ModeOrchestrator()
         self.current_mode = "meeting"  # Default mode
         self.llm = llm
+        self.disabled = False  # Added: ablation flag for evaluation mode
     
     def set_mode(self, mode: str) -> bool:
         """
@@ -62,6 +63,16 @@ class DynamicCouncil:
         Returns:
             Dict with council results, minister positions, recommendations
         """
+        # DISABLED IN EVALUATION MODE (ablation: no_ministers)
+        if self.disabled:
+            return {
+                "outcome": "council_disabled_ablation",
+                "recommendation": "no_council_response",
+                "mode": mode,
+                "ministers_involved": [],
+                "reasoning": "Council disabled for ablation study",
+            }
+        
         self.current_mode = mode
         
         # Quick mode: No council needed

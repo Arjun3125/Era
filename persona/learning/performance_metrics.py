@@ -13,11 +13,15 @@ class PerformanceMetrics:
     def __init__(self, storage_path: str = "data/memory/metrics.jsonl"):
         self.storage_path = storage_path
         self.decisions: List[Dict[str, Any]] = []
+        self.evaluation_mode = False  # Added: disable metrics recording during evaluation
         self.load_from_disk()
     
     def record_decision(self, turn: int, domain: str, recommendation: str, 
                        confidence: float, outcome: str = None, regret: float = 0.0):
-        """Record a decision for metrics tracking."""
+        """Record a decision for metrics tracking. (Disabled in evaluation mode)"""
+        if self.evaluation_mode:
+            return  # No-op during evaluation
+        
         decision = {
             "turn": turn,
             "domain": domain,

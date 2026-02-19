@@ -80,6 +80,10 @@ class SovereignOrchestrator:
         self.call_model = call_model
         self.user_llm = user_llm
         
+        # Evaluation mode flags (isolation during benchmarking)
+        self.evaluation_mode = False
+        self.isolation_mode = False
+        
         print("[✓] Orchestrator initialized")
 
     def initialize_synthetic_human(self, synthetic_human):
@@ -94,6 +98,39 @@ class SovereignOrchestrator:
         """Attach Personal World Model for validated fact storage"""
         self.pwm_bridge.pwm = pwm
         print("[✓] PWM attached to orchestrator")
+
+    def enable_evaluation_mode(self, mode_name: str = "baseline"):
+        """
+        Enable isolation mode for research-grade benchmarking.
+        
+        When enabled:
+        - episodic_memory.store_episode() becomes no-op
+        - performance_metrics.record_decision() becomes no-op
+        - ml retraining is disabled
+        - pwm_sync is disabled
+        - ml weights are locked
+        - kis weights are locked
+        
+        Args:
+            mode_name: e.g., "baseline", "council", "ablation_no_ministers"
+        """
+        self.evaluation_mode = True
+        self.isolation_mode = True
+        
+        # Propagate to child systems
+        self.memory.evaluation_mode = True
+        self.metrics.evaluation_mode = True
+        self.retrainer.evaluation_mode = True
+        if self.pwm_bridge:
+            self.pwm_bridge.evaluation_mode = True
+        
+        print(f"[🔒] EVALUATION MODE ENABLED: {mode_name}")
+        print("   ✓ Episodic memory frozen")
+        print("   ✓ Performance metrics frozen")
+        print("   ✓ Retraining disabled")
+        print("   ✓ PWM sync disabled")
+        print("   ✓ ML weights locked")
+        print("   ✓ KIS weights locked")
 
     # ================================================================
     # MAIN SIMULATION TURN
@@ -261,7 +298,7 @@ class SovereignOrchestrator:
         
         # Queue metric insights to PWM bridge for validation at next sync
         # (EpisodicMemory handles decision logging; PWM only stores stable facts)
-        if self.pwm_bridge:
+        if self.pwm_bridge and not self.evaluation_mode:
             quality_score = self.metrics.get_domain_quality_score(current_domain)
             # If domain performing well, queue observation about domain capability
             if quality_score > 0.7:
@@ -273,17 +310,19 @@ class SovereignOrchestrator:
                     source="metrics"
                 )
         
-        # Store in episodic memory
-        self.memory.store_episode(
-            turn, current_domain, persona_response,
-            self.confidence.get_confidence(current_domain),
-            outcome,
-            f"Severity: {severity}"
-        )
+        # Store in episodic memory (DISABLED IN EVALUATION MODE)
+        if not self.evaluation_mode:
+            self.memory.store_episode(
+                turn, current_domain, persona_response,
+                self.confidence.get_confidence(current_domain),
+                outcome,
+                f"Severity: {severity}"
+            )
         
         # Queue episodic outcome to PWM bridge for validation at next sync
         # (EpisodicMemory itself handles the decision log; PWM just validates and stores facts)
-        if self.pwm_bridge and outcome == "failure":
+        # DISABLED IN EVALUATION MODE
+        if self.pwm_bridge and outcome == "failure" and not self.evaluation_mode:
             # High-failure episodes warrant observation about entity understanding
             self.pwm_bridge.queue_entity_observation(
                 turn=turn,
@@ -294,16 +333,18 @@ class SovereignOrchestrator:
             )
         
         # Record outcome feedback (drives minister retraining & KIS reweighting)
-        self.feedback_loop.record_decision_outcome(
-            decision_id=turn,
-            domain=current_domain,
-            recommended_stance=persona_response,
-            minister_votes=minister_votes,
-            knowledge_items_used=knowledge_items_used,
-            doctrine_applied=doctrine_applied,
-            actual_outcome=outcome,
-            regret_score=regret_score
-        )
+        # DISABLED IN EVALUATION MODE
+        if not self.evaluation_mode:
+            self.feedback_loop.record_decision_outcome(
+                decision_id=turn,
+                domain=current_domain,
+                recommended_stance=persona_response,
+                minister_votes=minister_votes,
+                knowledge_items_used=knowledge_items_used,
+                doctrine_applied=doctrine_applied,
+                actual_outcome=outcome,
+                regret_score=regret_score
+            )
         
         # ================================================================
         # PHASE 6: FAILURE ANALYSIS (If outcome is failure)
