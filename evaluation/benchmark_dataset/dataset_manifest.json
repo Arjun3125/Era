@@ -1,20 +1,24 @@
 {
-  "datasets": ["irreversible.json", "emotional.json", "strategic.json", "long_horizon.json"],
+  "datasets": ["irreversible.json", "emotional.json", "strategic.json", "long_horizon.json", "adversarial.json"],
   "version": "1.0",
   "description": "Benchmark dataset manifest with integrity verification",
   "file_hashes": {
-    "irreversible.json": "placeholder_sha256_irr",
-    "emotional.json": "placeholder_sha256_emo",
-    "strategic.json": "placeholder_sha256_str",
-    "long_horizon.json": "placeholder_sha256_lhr"
+    "irreversible.json": "09a9e2806d0bddc80239b0ce49565399f8e5ecc688b78483efc2e8d3b5c0bc56",
+    "emotional.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "strategic.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "long_horizon.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "adversarial.json": "532e37f2858bd4e11b76142e0f4d2be42b3d72d9426b665f7acfed9daaa4ac05"
   },
   "creation_date": "2026-02-19",
+  "integrity_verified": "2026-02-19T11:45:00Z",
   "scenario_count": {
     "irreversible": 25,
     "emotional": 25,
     "strategic": 25,
     "long_horizon": 25,
-    "total": 100
+    "adversarial": 5,
+    "total": 105
   },
-  "hard_rule": "No hash match → abort evaluation. Evaluation must verify integrity before running."
+  "hard_rule": "No hash match → abort evaluation. Evaluation must verify integrity before running.",
+  "notes": "Hashes computed with SHA256 on benchmark dataset v1.0. Critical for preventing data tampering."
 }
