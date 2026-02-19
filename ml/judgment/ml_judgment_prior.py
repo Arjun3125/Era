@@ -55,6 +55,9 @@ class MLJudgmentPrior:
         # Simple in-memory learned priors
         self.learned_priors: Dict[str, Dict[str, float]] = {}
         
+        # Evaluation mode flag - disables ML prior for ablation studies
+        self.disabled = False
+        
         os.makedirs(model_path, exist_ok=True)
     
     def compute_situation_hash(self, situation_features: Dict[str, float]) -> str:
@@ -149,7 +152,19 @@ class MLJudgmentPrior:
         
         prior_weights: type -> weight adjustment [0.7, 1.3]
         confidence: how confident the model is in this prediction
+        
+        (Disabled in evaluation mode - ablation study for ML prior importance)
         """
+        
+        # Return neutral weights if disabled
+        if self.disabled:
+            return {
+                "principle_weight": 1.0,
+                "rule_weight": 1.0,
+                "warning_weight": 1.0,
+                "claim_weight": 1.0,
+                "advice_weight": 1.0,
+            }, 0.0
         
         situation_hash = self.compute_situation_hash(situation_features)
         
@@ -190,7 +205,13 @@ class MLJudgmentPrior:
         
         KIS adjustment:
             adjusted_KIS = KIS × ml_prior_weight
+        
+        (Disabled in evaluation mode - ablation study for ML prior importance)
         """
+        
+        # Return unchanged if disabled
+        if self.disabled:
+            return kis_scores
         
         ml_prior, confidence = self.predict_prior(situation_features, ml_confidence_threshold)
         

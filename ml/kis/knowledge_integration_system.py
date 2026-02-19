@@ -356,6 +356,9 @@ class KnowledgeIntegrationSystem:
     
     def __init__(self, base_path: str = "data/ministers"):
         self.base_path = base_path
+        
+        # Evaluation mode flag - uses uniform weights when True for ablation studies
+        self.weights_neutralized = False
     
     def synthesize_knowledge(self, request: KISRequest) -> KISResult:
         """
@@ -385,14 +388,18 @@ class KnowledgeIntegrationSystem:
         # Stage 3–4: Enumerate and score
         scored_entries = []
         for entry in entries:
-            dw = compute_domain_weight(entry.domain, request.active_domains, request.domain_confidence)
-            tw = compute_type_weight(entry.type)
-            mw = compute_memory_weight(
-                entry.memory.get("reinforcement_count", 0),
-                entry.memory.get("penalty_count", 0)
-            )
-            cw = compute_context_weight(entry.content, request.user_input)
-            gw = compute_goal_weight(entry.content)
+            # Use uniform weights if neutralized (ablation for KIS weighting)
+            if self.weights_neutralized:
+                dw = tw = mw = cw = gw = 1.0
+            else:
+                dw = compute_domain_weight(entry.domain, request.active_domains, request.domain_confidence)
+                tw = compute_type_weight(entry.type)
+                mw = compute_memory_weight(
+                    entry.memory.get("reinforcement_count", 0),
+                    entry.memory.get("penalty_count", 0)
+                )
+                cw = compute_context_weight(entry.content, request.user_input)
+                gw = compute_goal_weight(entry.content)
             
             # Composite KIS score
             entry.kis_score = dw * tw * mw * cw * gw

@@ -66,6 +66,9 @@ class PWMIntegrationBridge:
         # Validation failures (what didn't make the cut)
         self.validation_failures = []
         
+        # Evaluation mode flag - disables PWM sync for ablation studies
+        self.disabled = False
+        
         print("[PWM] Bridge initialized: Slow fact validator")
 
     # ========================================================================
@@ -78,6 +81,8 @@ class PWMIntegrationBridge:
         
         IMPORTANT: This does NOT validate or commit to PWM yet.
         Just records what we observed.
+        
+        (Disabled in evaluation mode - ablation study for PWM importance)
         
         Args:
             entity_id: "john", "alice", "bob" — who are we learning about?
@@ -95,6 +100,10 @@ class PWMIntegrationBridge:
                 source="consequence"
             )
         """
+        # Return early if disabled
+        if self.disabled:
+            return
+        
         observation = {
             "turn": turn,
             "entity_id": entity_id,
@@ -123,6 +132,8 @@ class PWMIntegrationBridge:
         4. Commit only >75% confidence facts to PWM
         5. Generate audit trail
         
+        (Disabled in evaluation mode - ablation study for PWM importance)
+        
         Args:
             turn: Current turn number
             metrics_snapshot: Optional performance metrics for this period
@@ -135,6 +146,15 @@ class PWMIntegrationBridge:
                 "confidence_threshold": 0.75
             }
         """
+        
+        # Return early if disabled
+        if self.disabled:
+            return {
+                "committed_facts": [],
+                "validation_failures": [],
+                "entities_updated": [],
+                "confidence_threshold": 0.75
+            }
         
         print(f"\n{'='*70}")
         print(f"PWM VALIDATION CHECKPOINT (Turn {turn})")
