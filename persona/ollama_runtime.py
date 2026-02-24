@@ -18,6 +18,8 @@ executor = ThreadPoolExecutor(max_workers=4)
 
 
 class OllamaRuntime:
+    _host_debug_logged = False
+
     def __init__(self, speak_model=None, analyze_model=None, global_seed=None):
         default_speak_model = os.getenv("USER_MODEL", "llama3.1:8b-instruct-q4_0")
         default_analyze_model = os.getenv("PROGRAM_MODEL", "huihui_ai/deepseek-r1-abliterated:8b")
@@ -32,6 +34,19 @@ class OllamaRuntime:
         # EVALUATION MODE: Lock temperature for reproducibility
         self.eval_temperature = 0.0
         self.eval_top_p = 1.0
+        self.eval_num_predict = os.getenv("EVAL_NUM_PREDICT", None)
+        # For reasoning models (e.g., deepseek-r1), force final answer into `content`
+        # during evaluation so downstream parsing is model-agnostic.
+        self.eval_think_off = os.getenv("EVAL_THINK_OFF", "1").lower() in {"1", "true", "yes"}
+        self.ollama_host = os.getenv("OLLAMA_HOST")
+        resolved_host = (self.ollama_host or "http://127.0.0.1:11434").rstrip("/")
+        self.ollama_tags_endpoint = f"{resolved_host}/api/tags"
+        self.ollama_chat_endpoint = f"{resolved_host}/api/chat"
+        if not OllamaRuntime._host_debug_logged:
+            print("OLLAMA_HOST:", self.ollama_host)
+            print("OLLAMA_ENDPOINT_TAGS:", self.ollama_tags_endpoint)
+            print("OLLAMA_ENDPOINT_CHAT:", self.ollama_chat_endpoint)
+            OllamaRuntime._host_debug_logged = True
         
         # Boot-time handshake: verify Ollama daemon reachable.
         # Honor environment override SKIP_OLLAMA_CHECK to allow development without daemon.
@@ -63,16 +78,24 @@ class OllamaRuntime:
             # Inject seed if available
             if self.global_seed is not None:
                 options["seed"] = int(self.global_seed)
+            if self.eval_num_predict is not None:
+                options["num_predict"] = int(self.eval_num_predict)
             
-            response = ollama.chat(
-                model=self.analyze_model,
-                messages=[
+            chat_kwargs = {
+                "model": self.analyze_model,
+                "messages": [
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt},
                 ],
-                options=options,
+                "options": options,
+            }
+            if self.eval_think_off:
+                chat_kwargs["think"] = False
+
+            response = ollama.chat(
+                **chat_kwargs,
             )
-            return response["message"]["content"]
+            return self._extract_text(response)
         except Exception as e:
             return f"[LLM analyze error: {e}]"
 
@@ -112,13 +135,19 @@ class OllamaRuntime:
             # Inject seed if available
             if self.global_seed is not None:
                 options["seed"] = int(self.global_seed)
+            if self.eval_num_predict is not None:
+                options["num_predict"] = int(self.eval_num_predict)
             
-            response = ollama.chat(
-                model=self.speak_model,
-                messages=self.messages,
-                options=options,
-            )
-            assistant_text = response["message"]["content"]
+            chat_kwargs = {
+                "model": self.speak_model,
+                "messages": self.messages,
+                "options": options,
+            }
+            if self.eval_think_off:
+                chat_kwargs["think"] = False
+
+            response = ollama.chat(**chat_kwargs)
+            assistant_text = self._extract_text(response)
         except Exception as e:
             assistant_text = f"[LLM speak error: {e}]"
 
@@ -129,6 +158,27 @@ class OllamaRuntime:
             self.messages = [self.messages[0]] + tail
 
         return assistant_text
+
+    def _extract_text(self, response) -> str:
+        """
+        Normalize model output into unified assistant text.
+
+        Priority:
+        1) message.content
+        2) message.thinking (fallback when content is empty)
+        """
+        payload = response.model_dump() if hasattr(response, "model_dump") else response
+        message = payload.get("message", {}) if isinstance(payload, dict) else {}
+
+        content = (message.get("content") or "").strip()
+        if content:
+            return content
+
+        thinking = (message.get("thinking") or "").strip()
+        if thinking:
+            return thinking
+
+        return ""
 
     def speak_async(self, system_context, user_input):
         """Return a Future wrapping speak() so callers can run it in the threadpool."""

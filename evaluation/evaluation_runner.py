@@ -5,6 +5,7 @@ Evaluation Runner - Main orchestration for research-grade benchmarking
 """
 
 import json
+import os
 from pathlib import Path
 from typing import Dict, List, Callable, Optional
 import logging
@@ -53,6 +54,10 @@ class EvaluationRunner:
         "no_pwm": "persona.pwm_integration.pwm_bridge.disable_pwm",
         "no_mode_escalation": "persona.modes.mode_orchestrator.force_meeting_mode"
     }
+    CORE_CATEGORIES = {"irreversible", "emotional", "strategic", "long_horizon"}
+    EXPECTED_CORE_TOTAL = 100
+    EXPECTED_ADVERSARIAL_TOTAL = 5
+    EXPECTED_OOD_TOTAL = 25
     
     def __init__(self, benchmark_dir: str = "evaluation/benchmark_dataset"):
         self.config = EvaluationConfig()
@@ -127,7 +132,10 @@ class EvaluationRunner:
     def run_evaluation(
         self,
         decision_engine: Callable,
-        run_name: str = "baseline"
+        run_name: str = "baseline",
+        scenario_limit: Optional[int] = None,
+        dataset: str = "core",
+        scenario_ids: Optional[List[str]] = None,
     ) -> Dict:
         """
         Run full evaluation with multiple seeds.
@@ -135,6 +143,8 @@ class EvaluationRunner:
         Args:
             decision_engine: Function that takes scenario and returns (decision_path, rationale)
             run_name: Name for this evaluation run (e.g., "baseline", "council", "no_ministers")
+            dataset: Dataset split to evaluate (core | adversarial | ood | all)
+            scenario_ids: Optional explicit scenario-id allowlist (after dataset filtering)
         
         Returns:
             Aggregated results across all seeds
@@ -144,6 +154,10 @@ class EvaluationRunner:
         logger.info(f"Starting evaluation: {run_name}")
         logger.info(f"{'='*60}")
         
+        # Reset per-run state to avoid cross-run contamination in summaries.
+        self.outcome_scorer = OutcomeScorer()
+        self.regret_scorer = RegretScorer()
+
         # Step 1: Verify integrity (hard rule)
         if not self.verify_dataset_integrity():
             return {"status": "ABORTED", "reason": "Dataset integrity check failed"}
@@ -153,15 +167,75 @@ class EvaluationRunner:
         
         # Step 3: Load all scenarios
         logger.info("\n📂 Loading scenarios...")
-        scenarios = self.rubric_engine.load_all_scenarios()
+        all_scenarios = self.rubric_engine.load_all_scenarios()
+        dataset = (dataset or "core").lower()
+        if dataset == "core":
+            scenarios = {
+                scenario_id: scenario
+                for scenario_id, scenario in all_scenarios.items()
+                if scenario.get("category") in self.CORE_CATEGORIES
+            }
+            expected_total = self.EXPECTED_CORE_TOTAL
+        elif dataset == "adversarial":
+            scenarios = {
+                scenario_id: scenario
+                for scenario_id, scenario in all_scenarios.items()
+                if scenario.get("category") == "adversarial"
+            }
+            expected_total = self.EXPECTED_ADVERSARIAL_TOTAL
+        elif dataset == "ood":
+            scenarios = {
+                scenario_id: scenario
+                for scenario_id, scenario in all_scenarios.items()
+                if scenario.get("category") == "out_of_distribution"
+            }
+            expected_total = self.EXPECTED_OOD_TOTAL
+        elif dataset == "all":
+            scenarios = all_scenarios
+            expected_total = len(all_scenarios)
+        else:
+            raise ValueError(f"Unknown dataset '{dataset}'. Use: core, adversarial, ood, all.")
+        if len(scenarios) != expected_total:
+            raise ValueError(
+                f"Dataset size invalid: expected {expected_total}, got {len(scenarios)}"
+            )
+        if scenario_ids is not None:
+            allowlist = set(scenario_ids)
+            scenarios = {
+                scenario_id: scenario
+                for scenario_id, scenario in scenarios.items()
+                if scenario_id in allowlist
+            }
+            if not scenarios:
+                raise ValueError(
+                    f"scenario_ids filter removed all scenarios for dataset '{dataset}'."
+                )
+            logger.info(f"   Applying scenario-id filter: {len(scenarios)} scenarios")
+        if scenario_limit is not None:
+            if scenario_limit <= 0:
+                raise ValueError(f"scenario_limit must be positive, got {scenario_limit}")
+            scenarios = dict(list(scenarios.items())[:scenario_limit])
+            logger.info(f"   Applying scenario limit: {scenario_limit}")
         logger.info(f"   Loaded {len(scenarios)} scenarios")
         
         # Step 4: Run with multiple seeds
         seed_results = {}
+        seed_scenario_scores = {}
+        seed_scenario_confidences = {}
+        seed_scenario_outcomes = {}
         
         for seed in self.config.seed_list:
             logger.info(f"\n🌱 Running seed {seed}...")
-            self._run_seed(seed, scenarios, decision_engine, run_name, seed_results)
+            self._run_seed(
+                seed,
+                scenarios,
+                decision_engine,
+                run_name,
+                seed_results,
+                seed_scenario_scores,
+                seed_scenario_confidences,
+                seed_scenario_outcomes,
+            )
         
         # Step 5: Compute statistics
         logger.info(f"\n📊 Computing statistics...")
@@ -170,6 +244,39 @@ class EvaluationRunner:
         # Step 6: Compute confidence intervals
         all_scores = [s for scores in seed_results.values() for s in scores]
         ci = self.stats_engine.compute_confidence_intervals(all_scores)
+        
+        scenario_scores_mean = {}
+        scenario_confidence_mean = {}
+        scenario_outcome_mean = {}
+        scenario_outcome_binary = {}
+        if seed_scenario_scores:
+            scenario_ids = sorted(next(iter(seed_scenario_scores.values())).keys())
+            for scenario_id in scenario_ids:
+                scenario_scores = [
+                    seed_scenario_scores[seed][scenario_id]
+                    for seed in seed_scenario_scores
+                    if scenario_id in seed_scenario_scores[seed]
+                ]
+                if scenario_scores:
+                    scenario_scores_mean[scenario_id] = float(sum(scenario_scores) / len(scenario_scores))
+                scenario_confidences = [
+                    seed_scenario_confidences[seed][scenario_id]
+                    for seed in seed_scenario_confidences
+                    if scenario_id in seed_scenario_confidences[seed]
+                ]
+                if scenario_confidences:
+                    scenario_confidence_mean[scenario_id] = float(
+                        sum(scenario_confidences) / len(scenario_confidences)
+                    )
+                scenario_outcomes = [
+                    seed_scenario_outcomes[seed][scenario_id]
+                    for seed in seed_scenario_outcomes
+                    if scenario_id in seed_scenario_outcomes[seed]
+                ]
+                if scenario_outcomes:
+                    mean_outcome = float(sum(scenario_outcomes) / len(scenario_outcomes))
+                    scenario_outcome_mean[scenario_id] = mean_outcome
+                    scenario_outcome_binary[scenario_id] = int(mean_outcome >= 0.5)
         
         result = {
             "run_name": run_name,
@@ -192,6 +299,19 @@ class EvaluationRunner:
                 "upper_95": ci.upper,
                 "effect_size": ci.effect_size
             },
+            "scenario_scores_by_seed": {
+                f"seed_{seed}": scores for seed, scores in seed_scenario_scores.items()
+            },
+            "scenario_scores_mean": scenario_scores_mean,
+            "scenario_confidence_by_seed": {
+                f"seed_{seed}": scores for seed, scores in seed_scenario_confidences.items()
+            },
+            "scenario_confidence_mean": scenario_confidence_mean,
+            "scenario_outcome_by_seed": {
+                f"seed_{seed}": scores for seed, scores in seed_scenario_outcomes.items()
+            },
+            "scenario_outcome_mean": scenario_outcome_mean,
+            "scenario_outcome_binary": scenario_outcome_binary,
             "outcome_summary": self.outcome_scorer.get_results_summary(),
             "regret_summary": self.regret_scorer.get_summary()
         }
@@ -209,7 +329,10 @@ class EvaluationRunner:
         scenarios: Dict,
         decision_engine: Callable,
         run_name: str,
-        seed_results: Dict
+        seed_results: Dict,
+        seed_scenario_scores: Dict,
+        seed_scenario_confidences: Dict,
+        seed_scenario_outcomes: Dict,
     ):
         """Run evaluation with a single seed"""
         
@@ -219,13 +342,23 @@ class EvaluationRunner:
         # Set seeds for reproducibility
         random.seed(seed)
         np.random.seed(seed)
+        os.environ["EVAL_SEED"] = str(seed)
         
         seed_scores = []
+        scenario_scores = {}
+        scenario_confidences = {}
+        scenario_outcomes = {}
         
         for scenario_id, scenario in scenarios.items():
             try:
                 # Get decision from engine
-                decision_path, rationale = decision_engine(scenario)
+                decision_output = decision_engine(scenario)
+                if len(decision_output) == 3:
+                    decision_path, rationale, confidence = decision_output
+                else:
+                    decision_path, rationale = decision_output
+                    confidence = 0.5
+                confidence = float(max(0.0, min(1.0, confidence)))
                 
                 # Score outcome
                 rubric = scenario.get("ground_truth_rubric", {})
@@ -238,12 +371,21 @@ class EvaluationRunner:
                 )
                 
                 seed_scores.append(evaluation.score)
+                scenario_scores[scenario_id] = evaluation.score
+                scenario_confidences[scenario_id] = confidence
+                scenario_outcomes[scenario_id] = 1 if evaluation.success else 0
                 
             except Exception as e:
                 logger.warning(f"   Error evaluating {scenario_id}: {e}")
                 seed_scores.append(0.0)
+                scenario_scores[scenario_id] = 0.0
+                scenario_confidences[scenario_id] = 0.0
+                scenario_outcomes[scenario_id] = 0
         
         seed_results[seed] = seed_scores
+        seed_scenario_scores[seed] = scenario_scores
+        seed_scenario_confidences[seed] = scenario_confidences
+        seed_scenario_outcomes[seed] = scenario_outcomes
         logger.info(f"   Completed seed {seed}: {len(seed_scores)} scenarios, mean={sum(seed_scores)/len(seed_scores):.3f}")
     
     def compare_runs(self, run1: str, run2: str) -> Dict:

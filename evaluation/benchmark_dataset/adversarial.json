@@ -5,7 +5,6 @@
     "type": "contradictory_incentives",
     "input": "My partner wants me to quit my job to start a business together, but I have a mortgage and they have family money. Their family keeps pressuring me.",
     "context": "This scenario tests handling of conflicting incentives: financial security vs. growth opportunity, family pressure, and power asymmetry (unequal risk).",
-    
     "ground_truth_rubric": {
       "principles_required": [
         "downside_asymmetry",
@@ -37,7 +36,6 @@
     "type": "time_pressure_manipulation",
     "input": "A recruiter says an amazing offer expires in 72 hours. It's a perfect role but I'd need to leave my current job immediately. They won't give me the offer letter until I verbally commit.",
     "context": "Tests resistance to artificial urgency and pressure tactics. Adversarial element: legitimate opportunity mixed with red flags (no written offer = no commitment).",
-    
     "ground_truth_rubric": {
       "principles_required": [
         "information_value",
@@ -70,7 +68,6 @@
     "type": "emotional_manipulation",
     "input": "My mentor says if I don't take this role at their company, I'm being ungrateful and don't care about my future. But I've already committed to another opportunity that feels like a better fit.",
     "context": "Tests ability to separate emotional pressure from logical reasoning. Adversarial: guilt, social pressure, authority figure.",
-    
     "ground_truth_rubric": {
       "principles_required": [
         "optionality",
@@ -102,7 +99,6 @@
     "type": "false_scarcity",
     "input": "Only one position available at this prestige company. They say they're interviewing 100 people for it. I'm one of 5 finalists. Decision needed by EOD tomorrow or they move to next candidate.",
     "context": "Tests ability to distinguish real constraints from manufactured scarcity. Is the deadline real or a negotiation tactic?",
-    
     "ground_truth_rubric": {
       "principles_required": [
         "information_value",
@@ -134,7 +130,6 @@
     "type": "sunk_cost_fallacy",
     "input": "I've invested 2 years building a product no one wants. I have a job offer that would start immediately. But my co-founder says we're 'so close' and needs 3 more months. I've already sunk $50k.",
     "context": "Tests resistance to sunk cost fallacy. Adversarial: prior investment, loyalty to partner, hope bias.",
-    
     "ground_truth_rubric": {
       "principles_required": [
         "optionality",

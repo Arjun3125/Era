@@ -1,24 +1,33 @@
 {
-  "datasets": ["irreversible.json", "emotional.json", "strategic.json", "long_horizon.json", "adversarial.json"],
+  "datasets": [
+    "irreversible.json",
+    "emotional.json",
+    "strategic.json",
+    "long_horizon.json",
+    "adversarial.json",
+    "ood.json"
+  ],
   "version": "1.0",
   "description": "Benchmark dataset manifest with integrity verification",
   "file_hashes": {
-    "irreversible.json": "09a9e2806d0bddc80239b0ce49565399f8e5ecc688b78483efc2e8d3b5c0bc56",
-    "emotional.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "strategic.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "long_horizon.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "adversarial.json": "532e37f2858bd4e11b76142e0f4d2be42b3d72d9426b665f7acfed9daaa4ac05"
+    "irreversible.json": "2292d3abd4a1f28d3f405ab026bf1ce8a05a0679ecdb6905cf243c505f6e84c4",
+    "emotional.json": "1b468b968fe3b5843f43cc2e967738af44f68b1afa4ae3dad9ff3fd8e623bf12",
+    "strategic.json": "82be874871eee270a3e0cf1a2223247b93ea75484eedb198d7d953108b3006b6",
+    "long_horizon.json": "7dcca67242fdd27952147cedac45fd6d749af577ac67756709d916bf73ceae75",
+    "adversarial.json": "61d1fd90d3873babe5e2be1bb254b7b52a5b5d50cea3b2f1d416358dce2d0194",
+    "ood.json": "f84001193f75dbe6ba4da89781383a869d8933d94c8dde16ca921ef5a2900ee6"
   },
   "creation_date": "2026-02-19",
-  "integrity_verified": "2026-02-19T11:45:00Z",
+  "integrity_verified": "2026-02-21T02:23:43Z",
   "scenario_count": {
     "irreversible": 25,
     "emotional": 25,
     "strategic": 25,
     "long_horizon": 25,
     "adversarial": 5,
-    "total": 105
+    "ood": 25,
+    "total": 130
   },
-  "hard_rule": "No hash match → abort evaluation. Evaluation must verify integrity before running.",
+  "hard_rule": "No hash match -> abort evaluation. Evaluation must verify integrity before running.",
   "notes": "Hashes computed with SHA256 on benchmark dataset v1.0. Critical for preventing data tampering."
 }

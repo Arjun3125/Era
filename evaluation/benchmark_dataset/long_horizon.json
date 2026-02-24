@@ -1,1 +1,702 @@
-[]
+[
+  {
+    "id": "LHZ_001",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #1 with delayed payoff?",
+    "context": "Long-horizon case 1 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "downside_asymmetry",
+        "feedback_loops",
+        "time_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_downside_asymmetry",
+        "ignoring_feedback_loops",
+        "ignoring_time_value"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_001",
+        "long_horizon_path_b_001",
+        "long_horizon_path_c_001"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "LHZ_002",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #2 with delayed payoff?",
+    "context": "Long-horizon case 2 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "reversibility",
+        "systemic_barriers",
+        "information_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_reversibility",
+        "ignoring_systemic_barriers",
+        "ignoring_information_value"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_002",
+        "long_horizon_path_b_002",
+        "long_horizon_path_c_002"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "LHZ_003",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #3 with delayed payoff?",
+    "context": "Long-horizon case 3 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "feedback_loops",
+        "time_value",
+        "optionality"
+      ],
+      "critical_failure_modes": [
+        "ignoring_feedback_loops",
+        "ignoring_time_value",
+        "ignoring_optionality"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_003",
+        "long_horizon_path_b_003",
+        "long_horizon_path_c_003"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "LHZ_004",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #4 with delayed payoff?",
+    "context": "Long-horizon case 4 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "systemic_barriers",
+        "information_value",
+        "downside_asymmetry"
+      ],
+      "critical_failure_modes": [
+        "ignoring_systemic_barriers",
+        "ignoring_information_value",
+        "ignoring_downside_asymmetry"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_004",
+        "long_horizon_path_b_004",
+        "long_horizon_path_c_004"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "LHZ_005",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #5 with delayed payoff?",
+    "context": "Long-horizon case 5 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "time_value",
+        "optionality",
+        "reversibility"
+      ],
+      "critical_failure_modes": [
+        "ignoring_time_value",
+        "ignoring_optionality",
+        "ignoring_reversibility"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_005",
+        "long_horizon_path_b_005",
+        "long_horizon_path_c_005"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "LHZ_006",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #6 with delayed payoff?",
+    "context": "Long-horizon case 6 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "information_value",
+        "downside_asymmetry",
+        "feedback_loops"
+      ],
+      "critical_failure_modes": [
+        "ignoring_information_value",
+        "ignoring_downside_asymmetry",
+        "ignoring_feedback_loops"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_006",
+        "long_horizon_path_b_006",
+        "long_horizon_path_c_006"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "LHZ_007",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #7 with delayed payoff?",
+    "context": "Long-horizon case 7 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "optionality",
+        "reversibility",
+        "systemic_barriers"
+      ],
+      "critical_failure_modes": [
+        "ignoring_optionality",
+        "ignoring_reversibility",
+        "ignoring_systemic_barriers"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_007",
+        "long_horizon_path_b_007",
+        "long_horizon_path_c_007"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "LHZ_008",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #8 with delayed payoff?",
+    "context": "Long-horizon case 8 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "downside_asymmetry",
+        "feedback_loops",
+        "time_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_downside_asymmetry",
+        "ignoring_feedback_loops",
+        "ignoring_time_value"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_008",
+        "long_horizon_path_b_008",
+        "long_horizon_path_c_008"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "LHZ_009",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #9 with delayed payoff?",
+    "context": "Long-horizon case 9 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "reversibility",
+        "systemic_barriers",
+        "information_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_reversibility",
+        "ignoring_systemic_barriers",
+        "ignoring_information_value"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_009",
+        "long_horizon_path_b_009",
+        "long_horizon_path_c_009"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "LHZ_010",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #10 with delayed payoff?",
+    "context": "Long-horizon case 10 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "feedback_loops",
+        "time_value",
+        "optionality"
+      ],
+      "critical_failure_modes": [
+        "ignoring_feedback_loops",
+        "ignoring_time_value",
+        "ignoring_optionality"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_010",
+        "long_horizon_path_b_010",
+        "long_horizon_path_c_010"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "LHZ_011",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #11 with delayed payoff?",
+    "context": "Long-horizon case 11 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "systemic_barriers",
+        "information_value",
+        "downside_asymmetry"
+      ],
+      "critical_failure_modes": [
+        "ignoring_systemic_barriers",
+        "ignoring_information_value",
+        "ignoring_downside_asymmetry"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_011",
+        "long_horizon_path_b_011",
+        "long_horizon_path_c_011"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "LHZ_012",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #12 with delayed payoff?",
+    "context": "Long-horizon case 12 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "time_value",
+        "optionality",
+        "reversibility"
+      ],
+      "critical_failure_modes": [
+        "ignoring_time_value",
+        "ignoring_optionality",
+        "ignoring_reversibility"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_012",
+        "long_horizon_path_b_012",
+        "long_horizon_path_c_012"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "LHZ_013",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #13 with delayed payoff?",
+    "context": "Long-horizon case 13 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "information_value",
+        "downside_asymmetry",
+        "feedback_loops"
+      ],
+      "critical_failure_modes": [
+        "ignoring_information_value",
+        "ignoring_downside_asymmetry",
+        "ignoring_feedback_loops"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_013",
+        "long_horizon_path_b_013",
+        "long_horizon_path_c_013"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "LHZ_014",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #14 with delayed payoff?",
+    "context": "Long-horizon case 14 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "optionality",
+        "reversibility",
+        "systemic_barriers"
+      ],
+      "critical_failure_modes": [
+        "ignoring_optionality",
+        "ignoring_reversibility",
+        "ignoring_systemic_barriers"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_014",
+        "long_horizon_path_b_014",
+        "long_horizon_path_c_014"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "LHZ_015",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #15 with delayed payoff?",
+    "context": "Long-horizon case 15 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "downside_asymmetry",
+        "feedback_loops",
+        "time_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_downside_asymmetry",
+        "ignoring_feedback_loops",
+        "ignoring_time_value"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_015",
+        "long_horizon_path_b_015",
+        "long_horizon_path_c_015"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "LHZ_016",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #16 with delayed payoff?",
+    "context": "Long-horizon case 16 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "reversibility",
+        "systemic_barriers",
+        "information_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_reversibility",
+        "ignoring_systemic_barriers",
+        "ignoring_information_value"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_016",
+        "long_horizon_path_b_016",
+        "long_horizon_path_c_016"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "LHZ_017",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #17 with delayed payoff?",
+    "context": "Long-horizon case 17 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "feedback_loops",
+        "time_value",
+        "optionality"
+      ],
+      "critical_failure_modes": [
+        "ignoring_feedback_loops",
+        "ignoring_time_value",
+        "ignoring_optionality"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_017",
+        "long_horizon_path_b_017",
+        "long_horizon_path_c_017"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "LHZ_018",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #18 with delayed payoff?",
+    "context": "Long-horizon case 18 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "systemic_barriers",
+        "information_value",
+        "downside_asymmetry"
+      ],
+      "critical_failure_modes": [
+        "ignoring_systemic_barriers",
+        "ignoring_information_value",
+        "ignoring_downside_asymmetry"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_018",
+        "long_horizon_path_b_018",
+        "long_horizon_path_c_018"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "LHZ_019",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #19 with delayed payoff?",
+    "context": "Long-horizon case 19 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "time_value",
+        "optionality",
+        "reversibility"
+      ],
+      "critical_failure_modes": [
+        "ignoring_time_value",
+        "ignoring_optionality",
+        "ignoring_reversibility"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_019",
+        "long_horizon_path_b_019",
+        "long_horizon_path_c_019"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "LHZ_020",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #20 with delayed payoff?",
+    "context": "Long-horizon case 20 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "information_value",
+        "downside_asymmetry",
+        "feedback_loops"
+      ],
+      "critical_failure_modes": [
+        "ignoring_information_value",
+        "ignoring_downside_asymmetry",
+        "ignoring_feedback_loops"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_020",
+        "long_horizon_path_b_020",
+        "long_horizon_path_c_020"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "LHZ_021",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #21 with delayed payoff?",
+    "context": "Long-horizon case 21 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "optionality",
+        "reversibility",
+        "systemic_barriers"
+      ],
+      "critical_failure_modes": [
+        "ignoring_optionality",
+        "ignoring_reversibility",
+        "ignoring_systemic_barriers"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_021",
+        "long_horizon_path_b_021",
+        "long_horizon_path_c_021"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "LHZ_022",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #22 with delayed payoff?",
+    "context": "Long-horizon case 22 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "downside_asymmetry",
+        "feedback_loops",
+        "time_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_downside_asymmetry",
+        "ignoring_feedback_loops",
+        "ignoring_time_value"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_022",
+        "long_horizon_path_b_022",
+        "long_horizon_path_c_022"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "LHZ_023",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #23 with delayed payoff?",
+    "context": "Long-horizon case 23 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "reversibility",
+        "systemic_barriers",
+        "information_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_reversibility",
+        "ignoring_systemic_barriers",
+        "ignoring_information_value"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_023",
+        "long_horizon_path_b_023",
+        "long_horizon_path_c_023"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "LHZ_024",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #24 with delayed payoff?",
+    "context": "Long-horizon case 24 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "feedback_loops",
+        "time_value",
+        "optionality"
+      ],
+      "critical_failure_modes": [
+        "ignoring_feedback_loops",
+        "ignoring_time_value",
+        "ignoring_optionality"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_024",
+        "long_horizon_path_b_024",
+        "long_horizon_path_c_024"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "LHZ_025",
+    "category": "long_horizon",
+    "input": "Should I commit to long-horizon plan #25 with delayed payoff?",
+    "context": "Long-horizon case 25 has delayed feedback, compounding effects, and opportunity-cost tradeoffs over several years.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "systemic_barriers",
+        "information_value",
+        "downside_asymmetry"
+      ],
+      "critical_failure_modes": [
+        "ignoring_systemic_barriers",
+        "ignoring_information_value",
+        "ignoring_downside_asymmetry"
+      ],
+      "acceptable_paths": [
+        "long_horizon_path_a_025",
+        "long_horizon_path_b_025",
+        "long_horizon_path_c_025"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.2
+    }
+  }
+]

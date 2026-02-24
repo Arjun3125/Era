@@ -16,6 +16,20 @@ from dataclasses import dataclass, field
 
 
 @dataclass
+class ExecutionConfig:
+    """
+    Hard structural toggles for evaluation ablations.
+
+    These flags are intended to be set by orchestration code, not by prompts.
+    """
+    disable_ministers: bool = False
+    disable_kis: bool = False
+    disable_ml_prior: bool = False
+    disable_pwm: bool = False
+    disable_mode_escalation: bool = False
+
+
+@dataclass
 class ModeResponse:
     """Response with mode metadata."""
     text: str
@@ -328,9 +342,12 @@ class ModeOrchestrator:
     This is the critical control layer that shapes how Persona reasons.
     """
     
-    def __init__(self):
+    BASELINE_MODE = "baseline"
+
+    def __init__(self, config: Optional[ExecutionConfig] = None):
         """Initialize all mode strategies."""
         self.strategies: Dict[str, ModeStrategy] = {
+            self.BASELINE_MODE: QuickModeStrategy(),
             "quick": QuickModeStrategy(),
             "war": WarModeStrategy(),
             "meeting": MeetingModeStrategy(),
@@ -339,6 +356,7 @@ class ModeOrchestrator:
         
         # Default mode
         self.current_mode = "meeting"
+        self.config = config or ExecutionConfig()
     
     def set_mode(self, mode: str) -> bool:
         """Set the current mode. Returns True if valid."""
@@ -394,10 +412,62 @@ class ModeOrchestrator:
     def list_modes(self) -> List[str]:
         """List all available modes."""
         return list(self.strategies.keys())
+
+    def is_baseline_mode(self, mode: Optional[str] = None) -> bool:
+        """Whether baseline mode is active."""
+        return (mode or self.current_mode) == self.BASELINE_MODE
+
+    def get_execution_plan(self, mode: Optional[str] = None) -> Dict[str, bool]:
+        """
+        Execution flags for auditable component toggles.
+
+        BASELINE_MODE explicitly bypasses:
+        - dynamic_council
+        - ML prior
+        - KIS
+        - PWM
+        - memory writes
+        """
+        if self.is_baseline_mode(mode):
+            return {
+                "use_dynamic_council": False,
+                "use_ml_prior": False,
+                "use_kis": False,
+                "use_pwm": False,
+                "use_memory": False,
+            }
+
+        if self.config.disable_mode_escalation:
+            mode = "meeting"
+
+        return {
+            "use_dynamic_council": not self.config.disable_ministers,
+            "use_ml_prior": not self.config.disable_ml_prior,
+            "use_kis": not self.config.disable_kis,
+            "use_pwm": not self.config.disable_pwm,
+            "use_memory": True,
+        }
+
+    def set_ablation_config(
+        self,
+        *,
+        disable_ministers: bool = False,
+        disable_kis: bool = False,
+        disable_ml_prior: bool = False,
+        disable_pwm: bool = False,
+        disable_mode_escalation: bool = False,
+    ) -> None:
+        """Apply hard structural ablation toggles."""
+        self.config.disable_ministers = disable_ministers
+        self.config.disable_kis = disable_kis
+        self.config.disable_ml_prior = disable_ml_prior
+        self.config.disable_pwm = disable_pwm
+        self.config.disable_mode_escalation = disable_mode_escalation
     
     def get_mode_description(self, mode: str) -> str:
         """Get human-readable description of a mode."""
         descriptions = {
+            self.BASELINE_MODE: "Baseline mode - direct output, bypass council/ML/KIS/PWM/memory",
             "quick": "1:1 mentoring - intuitive, personal, no council",
             "war": "Victory-focused - aggressive, rapid, Risk/Power/Strategy focus",
             "meeting": "Structured debate - balanced, 3-5 relevant ministers",

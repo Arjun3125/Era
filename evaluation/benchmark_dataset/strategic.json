@@ -1,1 +1,702 @@
-[]
+[
+  {
+    "id": "STR_001",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #1?",
+    "context": "Strategic case 1 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "downside_asymmetry",
+        "feedback_loops",
+        "time_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_downside_asymmetry",
+        "ignoring_feedback_loops",
+        "ignoring_time_value"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_001",
+        "strategic_path_b_001",
+        "strategic_path_c_001"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "STR_002",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #2?",
+    "context": "Strategic case 2 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "reversibility",
+        "systemic_barriers",
+        "information_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_reversibility",
+        "ignoring_systemic_barriers",
+        "ignoring_information_value"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_002",
+        "strategic_path_b_002",
+        "strategic_path_c_002"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "STR_003",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #3?",
+    "context": "Strategic case 3 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "feedback_loops",
+        "time_value",
+        "optionality"
+      ],
+      "critical_failure_modes": [
+        "ignoring_feedback_loops",
+        "ignoring_time_value",
+        "ignoring_optionality"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_003",
+        "strategic_path_b_003",
+        "strategic_path_c_003"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "STR_004",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #4?",
+    "context": "Strategic case 4 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "systemic_barriers",
+        "information_value",
+        "downside_asymmetry"
+      ],
+      "critical_failure_modes": [
+        "ignoring_systemic_barriers",
+        "ignoring_information_value",
+        "ignoring_downside_asymmetry"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_004",
+        "strategic_path_b_004",
+        "strategic_path_c_004"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "STR_005",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #5?",
+    "context": "Strategic case 5 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "time_value",
+        "optionality",
+        "reversibility"
+      ],
+      "critical_failure_modes": [
+        "ignoring_time_value",
+        "ignoring_optionality",
+        "ignoring_reversibility"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_005",
+        "strategic_path_b_005",
+        "strategic_path_c_005"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "STR_006",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #6?",
+    "context": "Strategic case 6 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "information_value",
+        "downside_asymmetry",
+        "feedback_loops"
+      ],
+      "critical_failure_modes": [
+        "ignoring_information_value",
+        "ignoring_downside_asymmetry",
+        "ignoring_feedback_loops"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_006",
+        "strategic_path_b_006",
+        "strategic_path_c_006"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "STR_007",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #7?",
+    "context": "Strategic case 7 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "optionality",
+        "reversibility",
+        "systemic_barriers"
+      ],
+      "critical_failure_modes": [
+        "ignoring_optionality",
+        "ignoring_reversibility",
+        "ignoring_systemic_barriers"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_007",
+        "strategic_path_b_007",
+        "strategic_path_c_007"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "STR_008",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #8?",
+    "context": "Strategic case 8 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "downside_asymmetry",
+        "feedback_loops",
+        "time_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_downside_asymmetry",
+        "ignoring_feedback_loops",
+        "ignoring_time_value"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_008",
+        "strategic_path_b_008",
+        "strategic_path_c_008"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "STR_009",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #9?",
+    "context": "Strategic case 9 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "reversibility",
+        "systemic_barriers",
+        "information_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_reversibility",
+        "ignoring_systemic_barriers",
+        "ignoring_information_value"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_009",
+        "strategic_path_b_009",
+        "strategic_path_c_009"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "STR_010",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #10?",
+    "context": "Strategic case 10 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "feedback_loops",
+        "time_value",
+        "optionality"
+      ],
+      "critical_failure_modes": [
+        "ignoring_feedback_loops",
+        "ignoring_time_value",
+        "ignoring_optionality"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_010",
+        "strategic_path_b_010",
+        "strategic_path_c_010"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "STR_011",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #11?",
+    "context": "Strategic case 11 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "systemic_barriers",
+        "information_value",
+        "downside_asymmetry"
+      ],
+      "critical_failure_modes": [
+        "ignoring_systemic_barriers",
+        "ignoring_information_value",
+        "ignoring_downside_asymmetry"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_011",
+        "strategic_path_b_011",
+        "strategic_path_c_011"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "STR_012",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #12?",
+    "context": "Strategic case 12 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "time_value",
+        "optionality",
+        "reversibility"
+      ],
+      "critical_failure_modes": [
+        "ignoring_time_value",
+        "ignoring_optionality",
+        "ignoring_reversibility"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_012",
+        "strategic_path_b_012",
+        "strategic_path_c_012"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "STR_013",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #13?",
+    "context": "Strategic case 13 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "information_value",
+        "downside_asymmetry",
+        "feedback_loops"
+      ],
+      "critical_failure_modes": [
+        "ignoring_information_value",
+        "ignoring_downside_asymmetry",
+        "ignoring_feedback_loops"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_013",
+        "strategic_path_b_013",
+        "strategic_path_c_013"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "STR_014",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #14?",
+    "context": "Strategic case 14 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "optionality",
+        "reversibility",
+        "systemic_barriers"
+      ],
+      "critical_failure_modes": [
+        "ignoring_optionality",
+        "ignoring_reversibility",
+        "ignoring_systemic_barriers"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_014",
+        "strategic_path_b_014",
+        "strategic_path_c_014"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "STR_015",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #15?",
+    "context": "Strategic case 15 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "downside_asymmetry",
+        "feedback_loops",
+        "time_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_downside_asymmetry",
+        "ignoring_feedback_loops",
+        "ignoring_time_value"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_015",
+        "strategic_path_b_015",
+        "strategic_path_c_015"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "STR_016",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #16?",
+    "context": "Strategic case 16 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "reversibility",
+        "systemic_barriers",
+        "information_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_reversibility",
+        "ignoring_systemic_barriers",
+        "ignoring_information_value"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_016",
+        "strategic_path_b_016",
+        "strategic_path_c_016"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "STR_017",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #17?",
+    "context": "Strategic case 17 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "feedback_loops",
+        "time_value",
+        "optionality"
+      ],
+      "critical_failure_modes": [
+        "ignoring_feedback_loops",
+        "ignoring_time_value",
+        "ignoring_optionality"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_017",
+        "strategic_path_b_017",
+        "strategic_path_c_017"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "STR_018",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #18?",
+    "context": "Strategic case 18 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "systemic_barriers",
+        "information_value",
+        "downside_asymmetry"
+      ],
+      "critical_failure_modes": [
+        "ignoring_systemic_barriers",
+        "ignoring_information_value",
+        "ignoring_downside_asymmetry"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_018",
+        "strategic_path_b_018",
+        "strategic_path_c_018"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "STR_019",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #19?",
+    "context": "Strategic case 19 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "time_value",
+        "optionality",
+        "reversibility"
+      ],
+      "critical_failure_modes": [
+        "ignoring_time_value",
+        "ignoring_optionality",
+        "ignoring_reversibility"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_019",
+        "strategic_path_b_019",
+        "strategic_path_c_019"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "STR_020",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #20?",
+    "context": "Strategic case 20 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "information_value",
+        "downside_asymmetry",
+        "feedback_loops"
+      ],
+      "critical_failure_modes": [
+        "ignoring_information_value",
+        "ignoring_downside_asymmetry",
+        "ignoring_feedback_loops"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_020",
+        "strategic_path_b_020",
+        "strategic_path_c_020"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "STR_021",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #21?",
+    "context": "Strategic case 21 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "optionality",
+        "reversibility",
+        "systemic_barriers"
+      ],
+      "critical_failure_modes": [
+        "ignoring_optionality",
+        "ignoring_reversibility",
+        "ignoring_systemic_barriers"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_021",
+        "strategic_path_b_021",
+        "strategic_path_c_021"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "STR_022",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #22?",
+    "context": "Strategic case 22 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "downside_asymmetry",
+        "feedback_loops",
+        "time_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_downside_asymmetry",
+        "ignoring_feedback_loops",
+        "ignoring_time_value"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_022",
+        "strategic_path_b_022",
+        "strategic_path_c_022"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "STR_023",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #23?",
+    "context": "Strategic case 23 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "reversibility",
+        "systemic_barriers",
+        "information_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_reversibility",
+        "ignoring_systemic_barriers",
+        "ignoring_information_value"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_023",
+        "strategic_path_b_023",
+        "strategic_path_c_023"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "STR_024",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #24?",
+    "context": "Strategic case 24 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "feedback_loops",
+        "time_value",
+        "optionality"
+      ],
+      "critical_failure_modes": [
+        "ignoring_feedback_loops",
+        "ignoring_time_value",
+        "ignoring_optionality"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_024",
+        "strategic_path_b_024",
+        "strategic_path_c_024"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "STR_025",
+    "category": "strategic",
+    "input": "What is the best 3-5 year strategic choice for initiative #25?",
+    "context": "Strategic case 25 requires resource allocation, sequencing bets, and managing uncertainty across multiple stakeholders.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "systemic_barriers",
+        "information_value",
+        "downside_asymmetry"
+      ],
+      "critical_failure_modes": [
+        "ignoring_systemic_barriers",
+        "ignoring_information_value",
+        "ignoring_downside_asymmetry"
+      ],
+      "acceptable_paths": [
+        "strategic_path_a_025",
+        "strategic_path_b_025",
+        "strategic_path_c_025"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.2
+    }
+  }
+]

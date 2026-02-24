@@ -19,6 +19,7 @@ from hse.simulation.stress_orchestrator import StressScenarioOrchestrator
 from hse.simulation.human_persona_adapter import HumanPersonaAdaptation
 from ml.system_retraining import SystemRetraining
 from analytics.dashboard import PerformanceDashboard
+from persona.modes.mode_orchestrator import ExecutionConfig
 
 
 class SovereignOrchestrator:
@@ -83,6 +84,7 @@ class SovereignOrchestrator:
         # Evaluation mode flags (isolation during benchmarking)
         self.evaluation_mode = False
         self.isolation_mode = False
+        self.config = ExecutionConfig()
         
         print("[✓] Orchestrator initialized")
 
@@ -131,6 +133,35 @@ class SovereignOrchestrator:
         print("   ✓ PWM sync disabled")
         print("   ✓ ML weights locked")
         print("   ✓ KIS weights locked")
+
+    def apply_ablation_config(
+        self,
+        *,
+        disable_ministers: bool = False,
+        disable_kis: bool = False,
+        disable_ml_prior: bool = False,
+        disable_pwm: bool = False,
+        disable_mode_escalation: bool = False,
+    ):
+        """
+        Apply hard structural ablation toggles at orchestrator level.
+        """
+        self.config.disable_ministers = disable_ministers
+        self.config.disable_kis = disable_kis
+        self.config.disable_ml_prior = disable_ml_prior
+        self.config.disable_pwm = disable_pwm
+        self.config.disable_mode_escalation = disable_mode_escalation
+
+        if hasattr(self.council, "disabled"):
+            self.council.disabled = disable_ministers
+        if hasattr(self.kis_engine, "weights_neutralized"):
+            self.kis_engine.weights_neutralized = disable_kis
+        if hasattr(self.kis_engine, "disabled"):
+            self.kis_engine.disabled = disable_kis
+        if hasattr(self, "ml_prior") and self.ml_prior is not None and hasattr(self.ml_prior, "disabled"):
+            self.ml_prior.disabled = disable_ml_prior
+        if self.pwm_bridge and hasattr(self.pwm_bridge, "disabled"):
+            self.pwm_bridge.disabled = disable_pwm
 
     # ================================================================
     # MAIN SIMULATION TURN

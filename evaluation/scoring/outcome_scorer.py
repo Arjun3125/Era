@@ -12,6 +12,9 @@ from typing import Dict, List, Tuple
 from dataclasses import dataclass
 import json
 import re
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 @dataclass
@@ -22,7 +25,10 @@ class RubricEvaluation:
     success: bool
     principles_satisfied: List[str]
     principles_violated: List[str]
+    failure_modes_matched: List[str]
+    failure_modes_avoided: List[str]
     acceptable_path_matched: str
+    path_matched: bool
     score: float  # 0.0-1.0
     justification: str
 
@@ -121,6 +127,11 @@ class OutcomeScorer:
             required_principles
         )
         principles_violated = [p for p in required_principles if p not in principles_satisfied]
+        critical_failure_modes = ground_truth_rubric.get("critical_failure_modes", [])
+        failure_modes_matched = self._match_failure_modes(
+            decision_rationale, critical_failure_modes
+        )
+        failure_modes_avoided = [m for m in critical_failure_modes if m not in failure_modes_matched]
         
         # Rule 3: Compute score using explicit weighted formula
         path_score = 1.0 if path_matched else 0.5
@@ -142,13 +153,23 @@ class OutcomeScorer:
             success=success,
             principles_satisfied=principles_satisfied,
             principles_violated=principles_violated,
+            failure_modes_matched=failure_modes_matched,
+            failure_modes_avoided=failure_modes_avoided,
             acceptable_path_matched=matched_path_name,
+            path_matched=path_matched,
             score=final_score,
             justification=self._build_justification(
                 path_matched, 
                 len(principles_satisfied), 
                 len(required_principles)
             )
+        )
+        logger.info(
+            "SCORER scenario=%s path_matched=%s principles_matched=%s failure_modes_matched=%s",
+            scenario_id,
+            path_matched,
+            principles_satisfied,
+            failure_modes_matched,
         )
         
         self.results.append(evaluation)
@@ -225,6 +246,22 @@ class OutcomeScorer:
         principle_status = f"{principles_count}/{required_count}"
         
         return f"Path: {path_status}, Principles: {principle_status}"
+
+    def _match_failure_modes(self, text: str, failure_modes: List[str]) -> List[str]:
+        """
+        Match critical failure mode mentions in rationale text.
+        Rule-based only: string containment after underscore->space normalization.
+        """
+        if not text or not failure_modes:
+            return []
+        text_lower = text.lower()
+        matched = []
+        for mode in failure_modes:
+            mode_variant = mode.lower()
+            mode_spaced = mode_variant.replace("_", " ")
+            if mode_variant in text_lower or mode_spaced in text_lower:
+                matched.append(mode)
+        return matched
     
     def get_results_summary(self) -> Dict:
         """Aggregate scoring results"""
@@ -234,6 +271,14 @@ class OutcomeScorer:
         total = len(self.results)
         passed = sum(1 for r in self.results if r.success)
         avg_score = sum(r.score for r in self.results) / total
+        path_detected = sum(1 for r in self.results if r.path_matched)
+        total_failure_modes = sum(
+            len(r.failure_modes_matched) + len(r.failure_modes_avoided) for r in self.results
+        )
+        matched_failure_modes = sum(len(r.failure_modes_matched) for r in self.results)
+        failure_mode_match_rate = (
+            matched_failure_modes / total_failure_modes if total_failure_modes > 0 else 0.0
+        )
         
         by_category = {}
         for result in self.results:
@@ -257,13 +302,18 @@ class OutcomeScorer:
             "total_scenarios": total,
             "pass_rate": passed / total,
             "mean_score": avg_score,
+            "decision_path_detection_success_rate": path_detected / total,
+            "failure_mode_match_rate": failure_mode_match_rate,
             "by_category": category_summary,
             "results": [
                 {
                     "id": r.scenario_id,
                     "success": r.success,
                     "score": r.score,
-                    "category": r.category
+                    "category": r.category,
+                    "path_matched": r.path_matched,
+                    "principles_satisfied": r.principles_satisfied,
+                    "failure_modes_matched": r.failure_modes_matched,
                 }
                 for r in self.results
             ]

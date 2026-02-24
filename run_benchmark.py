@@ -21,6 +21,7 @@ import os
 import sys
 import json
 import logging
+import re
 from pathlib import Path
 from typing import Dict, Tuple
 
@@ -29,6 +30,7 @@ os.environ["SKIP_OLLAMA_CHECK"] = "1"  # Allow running without Ollama for now
 
 from evaluation.evaluation_runner import EvaluationRunner
 from evaluation.stats_engine import StatsEngine
+from evaluation.metrics.evaluation_metrics import EvaluationMetrics
 from persona.ollama_runtime import OllamaRuntime
 
 logging.basicConfig(
@@ -45,21 +47,64 @@ class BenchmarkRunner:
         self.runner = EvaluationRunner()
         self.stats_engine = StatsEngine()
         self.all_runs = {}
+
+    def _parse_model_response(
+        self,
+        response: str,
+        fallback_decision: str,
+        acceptable_paths: list[str] | None = None,
+    ) -> Tuple[str, float]:
+        """Extract decision path and confidence from model output."""
+        text = response or ""
+        decision_match = re.search(
+            r"(?im)^[>\s`*_:-]*\*{0,2}decision\*{0,2}\s*[:\-]\s*(.+)$",
+            text,
+        )
+        confidence_match = re.search(
+            r"(?im)^[>\s`*_:-]*\*{0,2}confidence\*{0,2}\s*[:\-]\s*([0-9]*\.?[0-9]+)\s*%?\s*$",
+            text,
+        )
+
+        decision = fallback_decision
+        if decision_match:
+            decision_line = decision_match.group(1).strip().splitlines()[0].strip()
+            decision = re.sub(r"[^a-z0-9_ -]", "", decision_line.lower()).replace("-", "_").replace(" ", "_")
+            if acceptable_paths:
+                normalized_paths = {
+                    p.lower().replace("-", "_").replace(" ", "_")
+                    for p in acceptable_paths
+                }
+                if decision not in normalized_paths:
+                    for normalized in normalized_paths:
+                        if normalized in decision:
+                            decision = normalized
+                            break
+
+        confidence = 0.5
+        if confidence_match:
+            raw = float(confidence_match.group(1))
+            confidence = raw / 100.0 if raw > 1.0 else raw
+            confidence = max(0.0, min(1.0, confidence))
+
+        return decision, confidence
     
-    def baseline_decision_engine(self, scenario: Dict) -> Tuple[str, str]:
+    def baseline_decision_engine(self, scenario: Dict) -> Tuple[str, str, float]:
         """
         Direct LLM approach - no council, no orchestration
         
         Returns: (decision_path, rationale)
         """
         try:
+            acceptable_paths = scenario.get("ground_truth_rubric", {}).get("acceptable_paths", [])
             prompt = f"""Analyze this decision scenario and provide your recommendation.
 
 Scenario: {scenario.get('input', 'No input')[:200]}
+Acceptable decision paths (choose exactly one): {acceptable_paths}
 
-Provide your decision in this format:
+Provide your final answer in exactly this format:
 DECISION: [choose one of the acceptable paths]
-RATIONALE: [explain your reasoning]"""
+RATIONALE: [explain your reasoning]
+CONFIDENCE: [0.00 to 1.00]"""
             
             try:
                 # Attempt to use OllamaRuntime if available
@@ -70,31 +115,38 @@ RATIONALE: [explain your reasoning]"""
                 response = "DECISION: conservative_approach\nRATIONALE: Unclear information requires further investigation."
             
             # Parse response
-            decision_path = "baseline_decision"
+            decision_path, confidence = self._parse_model_response(
+                response,
+                fallback_decision="baseline_decision",
+                acceptable_paths=acceptable_paths,
+            )
             rationale = response if response else "No response"
             
-            return decision_path, rationale
+            return decision_path, rationale, confidence
         
         except Exception as e:
             logger.warning(f"  Baseline engine error: {e}")
-            return "error_response", str(e)
+            return "error_response", str(e), 0.0
     
-    def council_decision_engine(self, scenario: Dict) -> Tuple[str, str]:
+    def council_decision_engine(self, scenario: Dict) -> Tuple[str, str, float]:
         """
         Full council approach with all components
         
         Returns: (decision_path, rationale)
         """
         try:
+            acceptable_paths = scenario.get("ground_truth_rubric", {}).get("acceptable_paths", [])
             prompt = f"""As a decision council with multiple perspectives, analyze this scenario.
 
 Scenario: {scenario.get('input', 'No input')[:200]}
+Acceptable decision paths (choose exactly one): {acceptable_paths}
 
 Consider risk, optionality, information value, and timing.
 
-Provide your decision in this format:
+Provide your final answer in exactly this format:
 DECISION: [choose one of the acceptable paths]
-RATIONALE: [explain your reasoning as a council]"""
+RATIONALE: [explain your reasoning as a council]
+CONFIDENCE: [0.00 to 1.00]"""
             
             try:
                 # Attempt to use OllamaRuntime if available
@@ -107,16 +159,20 @@ RATIONALE: [explain your reasoning as a council]"""
                 # Fallback to mock response if Ollama unavailable
                 response = "DECISION: balanced_approach\nRATIONALE: Council recommends maintaining flexibility while gathering more information."
             
-            decision_path = "council_decision"
+            decision_path, confidence = self._parse_model_response(
+                response,
+                fallback_decision="council_decision",
+                acceptable_paths=acceptable_paths,
+            )
             rationale = response if response else "No response"
             
-            return decision_path, rationale
+            return decision_path, rationale, confidence
         
         except Exception as e:
             logger.warning(f"  Council engine error: {e}")
-            return "error_response", str(e)
+            return "error_response", str(e), 0.0
     
-    def run_benchmark(self, quick: bool = False):
+    def run_benchmark(self, quick: bool = False, limit: int = None):
         """
         Run complete benchmark comparing baseline vs council
         
@@ -152,7 +208,8 @@ RATIONALE: [explain your reasoning as a council]"""
         
         baseline_results = self.runner.run_evaluation(
             decision_engine=self.baseline_decision_engine,
-            run_name="baseline"
+            run_name="baseline",
+            scenario_limit=limit
         )
         
         self.all_runs["baseline"] = baseline_results
@@ -163,7 +220,8 @@ RATIONALE: [explain your reasoning as a council]"""
         
         council_results = self.runner.run_evaluation(
             decision_engine=self.council_decision_engine,
-            run_name="council"
+            run_name="council",
+            scenario_limit=limit
         )
         
         self.all_runs["council"] = council_results
@@ -172,22 +230,34 @@ RATIONALE: [explain your reasoning as a council]"""
         logger.info("\n[STEP 5] Statistical Comparison")
         logger.info("-" * 70)
         
-        baseline_scores = [
-            s for scores in baseline_results.get("seed_results", {}).values()
-            for s in [scores.get("mean", 0)]
-        ]
+        baseline_map = baseline_results.get("scenario_scores_mean", {})
+        council_map = council_results.get("scenario_scores_mean", {})
+        shared_ids = sorted(set(baseline_map.keys()) & set(council_map.keys()))
         
-        council_scores = [
-            s for scores in council_results.get("seed_results", {}).values()
-            for s in [scores.get("mean", 0)]
-        ]
+        baseline_scores = [baseline_map[sid] for sid in shared_ids]
+        council_scores = [council_map[sid] for sid in shared_ids]
         
         if baseline_scores and council_scores:
-            comparison = self.stats_engine.paired_t_test(baseline_scores, council_scores)
+            metrics = EvaluationMetrics(
+                scenario_scores_baseline=baseline_scores,
+                scenario_scores_council=council_scores,
+            )
+            ttest = metrics.compute_paired_ttest()
+            effect_size = metrics.compute_effect_size()
+            comparison = {
+                "baseline_mean": metrics.compute_mean(baseline_scores),
+                "council_mean": metrics.compute_mean(council_scores),
+                "mean_difference": metrics.compute_mean(council_scores) - metrics.compute_mean(baseline_scores),
+                "t_statistic": ttest["t_statistic"],
+                "p_value": ttest["p_value"],
+                "significant_at_005": ttest["significant_at_005"],
+                "cohens_d": effect_size,
+            }
             
             logger.info(f"\n  Baseline mean: {comparison['baseline_mean']:.3f}")
             logger.info(f"  Council mean: {comparison['council_mean']:.3f}")
             logger.info(f"  Mean difference: {comparison['mean_difference']:.3f}")
+            logger.info(f"  Paired scenarios: {len(shared_ids)}")
             logger.info(f"  t-statistic: {comparison['t_statistic']:.2f}")
             logger.info(f"  p-value: {comparison['p_value']:.4f}")
             logger.info(f"  Cohen's d: {comparison['cohens_d']:.2f}")
@@ -221,21 +291,72 @@ RATIONALE: [explain your reasoning as a council]"""
         logger.info("\n[STEP 7] Calibration Diagnostics")
         logger.info("-" * 70)
         
-        # Generate synthetic confidence scores for demo
-        import numpy as np
-        n_scenarios = len(baseline_scores) if baseline_scores else 100
-        predicted_scores = np.random.uniform(0.5, 0.95, n_scenarios)
-        actual_outcomes = np.random.randint(0, 2, n_scenarios)
-        
-        calibration = self.stats_engine.calibration_diagnostics(
-            predicted_scores.tolist(),
-            actual_outcomes.tolist()
+        council_conf = council_results.get("scenario_confidence_mean", {})
+        council_outcomes = council_results.get("scenario_outcome_binary", {})
+        shared_cal_ids = sorted(set(council_conf.keys()) & set(council_outcomes.keys()))
+
+        predicted_scores = [float(council_conf[sid]) for sid in shared_cal_ids]
+        actual_outcomes = [int(council_outcomes[sid]) for sid in shared_cal_ids]
+
+        calibration_metrics = EvaluationMetrics()
+        ece = calibration_metrics.compute_ece(predicted_scores, actual_outcomes)
+        brier = calibration_metrics.compute_brier(predicted_scores, actual_outcomes)
+
+        isotonic = calibration_metrics.apply_isotonic_regression_crossfit(
+            predicted_scores, actual_outcomes, n_folds=5, random_seed=42
         )
+        calibrated_scores = isotonic["calibrated_probabilities"]
+        calibrated_ece = calibration_metrics.compute_ece(calibrated_scores, actual_outcomes)
+        calibrated_brier = calibration_metrics.compute_brier(calibrated_scores, actual_outcomes)
+
+        if ece < 0.05:
+            calibration_quality = "EXCELLENT - Well-calibrated confidence"
+        elif ece < 0.10:
+            calibration_quality = "GOOD - Reasonably calibrated"
+        elif ece < 0.15:
+            calibration_quality = "ACCEPTABLE - Slight miscalibration"
+        else:
+            calibration_quality = "POOR - Significant miscalibration"
+
+        if calibrated_ece < 0.05:
+            calibrated_quality = "EXCELLENT - Well-calibrated confidence"
+        elif calibrated_ece < 0.10:
+            calibrated_quality = "GOOD - Reasonably calibrated"
+        elif calibrated_ece < 0.15:
+            calibrated_quality = "ACCEPTABLE - Slight miscalibration"
+        else:
+            calibrated_quality = "POOR - Significant miscalibration"
+
+        calibration = {
+            "expected_calibration_error": ece,
+            "brier_score": brier,
+            "calibration_quality": calibration_quality,
+            "overconfident": (
+                (sum(predicted_scores) / len(predicted_scores)) >
+                (sum(actual_outcomes) / len(actual_outcomes))
+            ) if predicted_scores else False,
+            "n_scenarios": len(shared_cal_ids),
+            "source": "council_scenario_confidence_vs_binary_outcome",
+            "isotonic_regression": {
+                "method": "pair_adjacent_violators_crossfit",
+                "crossfit_folds": isotonic["folds"],
+                "expected_calibration_error": calibrated_ece,
+                "brier_score": calibrated_brier,
+                "calibration_quality": calibrated_quality,
+                "ece_improvement": ece - calibrated_ece,
+                "brier_improvement": brier - calibrated_brier,
+                "model": isotonic["global_model"],
+            },
+        }
         
         logger.info(f"\n  Expected Calibration Error (ECE): {calibration['expected_calibration_error']:.3f}")
         logger.info(f"  Brier Score: {calibration['brier_score']:.3f}")
         logger.info(f"  Calibration Quality: {calibration['calibration_quality']}")
         logger.info(f"  Overconfident: {calibration['overconfident']}")
+        logger.info(f"  Isotonic ECE: {calibration['isotonic_regression']['expected_calibration_error']:.3f}")
+        logger.info(f"  Isotonic Brier: {calibration['isotonic_regression']['brier_score']:.3f}")
+        logger.info(f"  ECE Improvement: {calibration['isotonic_regression']['ece_improvement']:.3f}")
+        logger.info(f"  Brier Improvement: {calibration['isotonic_regression']['brier_improvement']:.3f}")
         
         self.all_runs["calibration"] = calibration
         
@@ -293,11 +414,12 @@ def main():
     parser = argparse.ArgumentParser(description="ERA Evaluation Benchmark")
     parser.add_argument("--quick", action="store_true", help="Quick test mode")
     parser.add_argument("--ablations", action="store_true", help="Include ablation studies")
+    parser.add_argument("--limit", type=int, default=None, help="Limit core benchmark scenarios after integrity validation")
     
     args = parser.parse_args()
     
     runner = BenchmarkRunner()
-    runner.run_benchmark(quick=args.quick)
+    runner.run_benchmark(quick=args.quick, limit=args.limit)
 
 
 if __name__ == "__main__":

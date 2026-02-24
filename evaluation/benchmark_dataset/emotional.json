@@ -1,1 +1,702 @@
-[]
+[
+  {
+    "id": "EMO_001",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #1 without burning trust?",
+    "context": "Scenario 1 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "downside_asymmetry",
+        "feedback_loops",
+        "time_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_downside_asymmetry",
+        "ignoring_feedback_loops",
+        "ignoring_time_value"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_001",
+        "emotional_path_b_001",
+        "emotional_path_c_001"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "EMO_002",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #2 without burning trust?",
+    "context": "Scenario 2 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "reversibility",
+        "systemic_barriers",
+        "information_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_reversibility",
+        "ignoring_systemic_barriers",
+        "ignoring_information_value"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_002",
+        "emotional_path_b_002",
+        "emotional_path_c_002"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "EMO_003",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #3 without burning trust?",
+    "context": "Scenario 3 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "feedback_loops",
+        "time_value",
+        "optionality"
+      ],
+      "critical_failure_modes": [
+        "ignoring_feedback_loops",
+        "ignoring_time_value",
+        "ignoring_optionality"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_003",
+        "emotional_path_b_003",
+        "emotional_path_c_003"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "EMO_004",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #4 without burning trust?",
+    "context": "Scenario 4 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "systemic_barriers",
+        "information_value",
+        "downside_asymmetry"
+      ],
+      "critical_failure_modes": [
+        "ignoring_systemic_barriers",
+        "ignoring_information_value",
+        "ignoring_downside_asymmetry"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_004",
+        "emotional_path_b_004",
+        "emotional_path_c_004"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "EMO_005",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #5 without burning trust?",
+    "context": "Scenario 5 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "time_value",
+        "optionality",
+        "reversibility"
+      ],
+      "critical_failure_modes": [
+        "ignoring_time_value",
+        "ignoring_optionality",
+        "ignoring_reversibility"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_005",
+        "emotional_path_b_005",
+        "emotional_path_c_005"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "EMO_006",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #6 without burning trust?",
+    "context": "Scenario 6 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "information_value",
+        "downside_asymmetry",
+        "feedback_loops"
+      ],
+      "critical_failure_modes": [
+        "ignoring_information_value",
+        "ignoring_downside_asymmetry",
+        "ignoring_feedback_loops"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_006",
+        "emotional_path_b_006",
+        "emotional_path_c_006"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "EMO_007",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #7 without burning trust?",
+    "context": "Scenario 7 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "optionality",
+        "reversibility",
+        "systemic_barriers"
+      ],
+      "critical_failure_modes": [
+        "ignoring_optionality",
+        "ignoring_reversibility",
+        "ignoring_systemic_barriers"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_007",
+        "emotional_path_b_007",
+        "emotional_path_c_007"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "EMO_008",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #8 without burning trust?",
+    "context": "Scenario 8 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "downside_asymmetry",
+        "feedback_loops",
+        "time_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_downside_asymmetry",
+        "ignoring_feedback_loops",
+        "ignoring_time_value"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_008",
+        "emotional_path_b_008",
+        "emotional_path_c_008"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "EMO_009",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #9 without burning trust?",
+    "context": "Scenario 9 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "reversibility",
+        "systemic_barriers",
+        "information_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_reversibility",
+        "ignoring_systemic_barriers",
+        "ignoring_information_value"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_009",
+        "emotional_path_b_009",
+        "emotional_path_c_009"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "EMO_010",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #10 without burning trust?",
+    "context": "Scenario 10 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "feedback_loops",
+        "time_value",
+        "optionality"
+      ],
+      "critical_failure_modes": [
+        "ignoring_feedback_loops",
+        "ignoring_time_value",
+        "ignoring_optionality"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_010",
+        "emotional_path_b_010",
+        "emotional_path_c_010"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "EMO_011",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #11 without burning trust?",
+    "context": "Scenario 11 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "systemic_barriers",
+        "information_value",
+        "downside_asymmetry"
+      ],
+      "critical_failure_modes": [
+        "ignoring_systemic_barriers",
+        "ignoring_information_value",
+        "ignoring_downside_asymmetry"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_011",
+        "emotional_path_b_011",
+        "emotional_path_c_011"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "EMO_012",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #12 without burning trust?",
+    "context": "Scenario 12 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "time_value",
+        "optionality",
+        "reversibility"
+      ],
+      "critical_failure_modes": [
+        "ignoring_time_value",
+        "ignoring_optionality",
+        "ignoring_reversibility"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_012",
+        "emotional_path_b_012",
+        "emotional_path_c_012"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "EMO_013",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #13 without burning trust?",
+    "context": "Scenario 13 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "information_value",
+        "downside_asymmetry",
+        "feedback_loops"
+      ],
+      "critical_failure_modes": [
+        "ignoring_information_value",
+        "ignoring_downside_asymmetry",
+        "ignoring_feedback_loops"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_013",
+        "emotional_path_b_013",
+        "emotional_path_c_013"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "EMO_014",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #14 without burning trust?",
+    "context": "Scenario 14 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "optionality",
+        "reversibility",
+        "systemic_barriers"
+      ],
+      "critical_failure_modes": [
+        "ignoring_optionality",
+        "ignoring_reversibility",
+        "ignoring_systemic_barriers"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_014",
+        "emotional_path_b_014",
+        "emotional_path_c_014"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "EMO_015",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #15 without burning trust?",
+    "context": "Scenario 15 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "downside_asymmetry",
+        "feedback_loops",
+        "time_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_downside_asymmetry",
+        "ignoring_feedback_loops",
+        "ignoring_time_value"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_015",
+        "emotional_path_b_015",
+        "emotional_path_c_015"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "EMO_016",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #16 without burning trust?",
+    "context": "Scenario 16 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "reversibility",
+        "systemic_barriers",
+        "information_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_reversibility",
+        "ignoring_systemic_barriers",
+        "ignoring_information_value"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_016",
+        "emotional_path_b_016",
+        "emotional_path_c_016"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "EMO_017",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #17 without burning trust?",
+    "context": "Scenario 17 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "feedback_loops",
+        "time_value",
+        "optionality"
+      ],
+      "critical_failure_modes": [
+        "ignoring_feedback_loops",
+        "ignoring_time_value",
+        "ignoring_optionality"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_017",
+        "emotional_path_b_017",
+        "emotional_path_c_017"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "EMO_018",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #18 without burning trust?",
+    "context": "Scenario 18 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "systemic_barriers",
+        "information_value",
+        "downside_asymmetry"
+      ],
+      "critical_failure_modes": [
+        "ignoring_systemic_barriers",
+        "ignoring_information_value",
+        "ignoring_downside_asymmetry"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_018",
+        "emotional_path_b_018",
+        "emotional_path_c_018"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "EMO_019",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #19 without burning trust?",
+    "context": "Scenario 19 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "time_value",
+        "optionality",
+        "reversibility"
+      ],
+      "critical_failure_modes": [
+        "ignoring_time_value",
+        "ignoring_optionality",
+        "ignoring_reversibility"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_019",
+        "emotional_path_b_019",
+        "emotional_path_c_019"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "EMO_020",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #20 without burning trust?",
+    "context": "Scenario 20 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "information_value",
+        "downside_asymmetry",
+        "feedback_loops"
+      ],
+      "critical_failure_modes": [
+        "ignoring_information_value",
+        "ignoring_downside_asymmetry",
+        "ignoring_feedback_loops"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_020",
+        "emotional_path_b_020",
+        "emotional_path_c_020"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "EMO_021",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #21 without burning trust?",
+    "context": "Scenario 21 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "optionality",
+        "reversibility",
+        "systemic_barriers"
+      ],
+      "critical_failure_modes": [
+        "ignoring_optionality",
+        "ignoring_reversibility",
+        "ignoring_systemic_barriers"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_021",
+        "emotional_path_b_021",
+        "emotional_path_c_021"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "EMO_022",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #22 without burning trust?",
+    "context": "Scenario 22 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "downside_asymmetry",
+        "feedback_loops",
+        "time_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_downside_asymmetry",
+        "ignoring_feedback_loops",
+        "ignoring_time_value"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_022",
+        "emotional_path_b_022",
+        "emotional_path_c_022"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "EMO_023",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #23 without burning trust?",
+    "context": "Scenario 23 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "reversibility",
+        "systemic_barriers",
+        "information_value"
+      ],
+      "critical_failure_modes": [
+        "ignoring_reversibility",
+        "ignoring_systemic_barriers",
+        "ignoring_information_value"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_023",
+        "emotional_path_b_023",
+        "emotional_path_c_023"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.6,
+      "minimal": 0.2
+    }
+  },
+  {
+    "id": "EMO_024",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #24 without burning trust?",
+    "context": "Scenario 24 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "feedback_loops",
+        "time_value",
+        "optionality"
+      ],
+      "critical_failure_modes": [
+        "ignoring_feedback_loops",
+        "ignoring_time_value",
+        "ignoring_optionality"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_024",
+        "emotional_path_b_024",
+        "emotional_path_c_024"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.4,
+      "minimal": 0.1
+    }
+  },
+  {
+    "id": "EMO_025",
+    "category": "emotional",
+    "input": "How should I handle a high-emotion conflict decision #25 without burning trust?",
+    "context": "Scenario 25 includes conflicting values, reputational risk, and long-term relationship impact under emotional pressure.",
+    "ground_truth_rubric": {
+      "principles_required": [
+        "systemic_barriers",
+        "information_value",
+        "downside_asymmetry"
+      ],
+      "critical_failure_modes": [
+        "ignoring_systemic_barriers",
+        "ignoring_information_value",
+        "ignoring_downside_asymmetry"
+      ],
+      "acceptable_paths": [
+        "emotional_path_a_025",
+        "emotional_path_b_025",
+        "emotional_path_c_025"
+      ]
+    },
+    "regret_scale": {
+      "catastrophic": 1.0,
+      "moderate": 0.5,
+      "minimal": 0.2
+    }
+  }
+]

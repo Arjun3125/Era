@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "evaluated_utc": "2026-02-23T06:00:32Z",
+    "candidate_phase_timestamp": "2026-02-23T04:55:00Z"
+  },
+  "checks": [
+    {
+      "name": "core_lift_absolute",
+      "threshold": 0.05,
+      "actual": 0.041066666666666696,
+      "passed": false,
+      "reason": "Core lift must improve by at least +5% absolute."
+    },
+    {
+      "name": "ood_negative_lift_eliminated",
+      "threshold": 0.0,
+      "actual": -0.03200000000000014,
+      "passed": false,
+      "reason": "OOD lift must be non-negative."
+    },
+    {
+      "name": "core_effect_size",
+      "threshold": 0.5,
+      "actual": 0.35010490251536486,
+      "passed": false,
+      "reason": "Core effect size must be at least 0.5."
+    },
+    {
+      "name": "no_calibration_collapse",
+      "threshold": "candidate <= baseline(+tol) or <= raw(+tol)",
+      "actual": {
+        "mode": "self_sanity_vs_raw",
+        "candidate_ece": 0.054322278627588344,
+        "candidate_brier": 0.0854207688319255,
+        "raw_ece": 0.7298,
+        "raw_brier": 0.6134679999999999,
+        "tolerance": 0.0
+      },
+      "passed": true,
+      "reason": "Calibrated reliability must not regress."
+    }
+  ],
+  "summary": {
+    "decision": "REVERT",
+    "all_passed": false,
+    "failed_checks": [
+      "core_lift_absolute",
+      "ood_negative_lift_eliminated",
+      "core_effect_size"
+    ]
+  }
+}
