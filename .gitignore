@@ -46,3 +46,19 @@ logs/
 
 # Data files - large PDFs
 data/books/*.pdf
+
+# Local test temp dirs
+.pytest_tmp/
+.pytest_tmp_run/
+
+# Evaluation-generated artifacts
+evaluation/results/
+evaluation/models/
+evaluation/baselines/
+
+# Local analysis/output artifacts
+audit_temp/
+milestone3_gate_report*.json
+phase2_robustness_results*.json
+uncertainty_analysis*.json
+data/sessions_test_tmp*/
