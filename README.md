@@ -1,393 +1,137 @@
-# ERA - Excellent Reasoning Architecture
+# ERA
 
-**A sovereign decision governance system with ministerial councils, ML wisdom, and interactive dialogue engines.**
+ERA is a refactored, local decision-governance pipeline built around a single staged orchestrator. The active repository is the lean refactor path, not the older multi-subsystem platform that some retained docs still describe.
 
----
+## What It Does
 
-## 🚀 Quick Start
+Given a user prompt, ERA:
 
-### Installation (5 minutes)
+1. normalizes the request and routing context
+2. resolves runtime settings
+3. analyzes the problem domain
+4. selects a reasoning mode
+5. synthesizes local knowledge
+6. runs a minister-style council when needed
+7. normalizes council output
+8. produces a final decision
+9. packages the result
+10. validates inter-stage contracts and emits telemetry
+
+The main runtime is CLI-first and returns structured JSON.
+
+## Current Entry Points
+
+- [`run_refactored.py`](c:\era\run_refactored.py): primary CLI entrypoint
+- [`system_main.py`](c:\era\system_main.py): compatibility shim that delegates to `run_refactored.py`
+
+## Quick Start
 
 ```bash
-# 1. Clone or navigate to ERA directory
 cd c:\era
-
-# 2. (Optional) Create virtual environment
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-
-# 3. Install dependencies
+.\.venv\Scripts\activate
 pip install -r requirements.txt
-
-# 4. Start Ollama (separate terminal)
-ollama serve
-
-# 5. Pull LLM models (one-time)
-ollama pull deepseek-r1:8b
-ollama pull qwen3:14b
+python run_refactored.py --input "Should we delay the release for compliance review?"
 ```
 
-### Run ERA (Choose Your Path)
+Interactive mode:
 
-**Path 1: LLM Dialogue Engine** (Easiest - 30 seconds)
-```bash
-python run_refactored.py --input "Need help deciding next step"
-```
-
-**Path 2: Decision Guidance System** (10-20 minutes)
 ```bash
 python run_refactored.py
 ```
 
-**Path 3: Multi-Session Problem Solving** (Variable)
+Compatibility entrypoint:
+
 ```bash
-python run_session_conversation.py
+python system_main.py --input "Need a decision on vendor risk"
 ```
 
-**Path 4: Ministerial Council Simulation** (Variable)
+## Supported Modes
+
+- `quick`
+- `meeting`
+- `war`
+- `darbar`
+
+Example:
+
 ```bash
-python sovereign_main.py
+python run_refactored.py --input "We need a final high-stakes ruling" --mode darbar
 ```
 
----
+## Repository Layout
 
-## 📚 What is ERA?
+- [`config/`](c:\era\config): runtime settings and override normalization
+- [`core/`](c:\era\core): contracts, orchestrator, observability primitives
+- [`modules/`](c:\era\modules): pipeline stage implementations
+- [`data/`](c:\era\data): retained local data and artifacts
+- [`knowledge/`](c:\era\knowledge): principle corpus used by knowledge synthesis
+- [`tests/`](c:\era\tests): unit and integration coverage for the refactored runtime
+- [`documentation/`](c:\era\documentation): technical docs, retained audits, cleanup notes
 
-ERA is a **Ministerial Cognitive Architecture (MCA)** that combines:
+## Key Files
 
-| Component | Purpose |
-|-----------|---------|
-| **Mode Orchestrator** | Routes decisions through 4 complexity levels (QUICK → MEETING → WAR → DARBAR) |
-| **19 Ministers** | Domain-bounded advisors giving perspectives (Risk, Data, Diplomacy, etc.) |
-| **KIS Engine** | Knowledge Integration System scoring knowledge across 5 factors |
-| **ML Wisdom** | Learns from episodes to improve future decisions |
-| **LLM Integration** | Direct dialogue with deepseek-r1:8b and qwen3:14b models |
-| **Session Management** | Multi-turn problem solving with automatic escalation |
+- [`modules/decision_pipeline/engine.py`](c:\era\modules\decision_pipeline\engine.py): central 10-stage pipeline composition
+- [`core/orchestrator/runtime.py`](c:\era\core\orchestrator\runtime.py): generic synchronous stage runner
+- [`core/contracts/io.py`](c:\era\core\contracts\io.py): typed contracts for inter-stage data flow
+- [`config/settings.py`](c:\era\config\settings.py): environment settings and invariants
 
----
+## Observability
 
-## 🎯 Core Features
+Observability is optional and controlled by environment variables:
 
-### ✅ 1. Refactored Decision Pipeline
-- Interactive (choose any topic)
-- Demo mode (pre-built conversations)
-- Topic mode (specify custom topics)
-- Full persistence (JSON transcripts)
+- `ERA_OBS_ENABLED`
+- `ERA_OBS_EMIT_EVENTS`
+- `ERA_OBS_EMIT_SUMMARY`
+- `ERA_OBS_WRITE_FILE`
+- `ERA_OBS_STDERR`
+- `ERA_OBS_FILE`
 
-### ✅ 2. Decision Guidance System  
-- 9-phase dialogue pipeline
-- Auto-domain detection (15 domains)
-- 3 rounds of clarifying questions
-- Council of relevant ministers
-- Prime Confident final decision authority
-- User feedback loop
-- Satisfaction assessment
+Default file target:
 
-### ✅ 3. Session-Based Problem Solving
-- Multi-session continuity
-- Auto-mode escalation (QUICK → DARBAR)
-- Consequence tracking
-- Related session discovery
-- Session statistics
+- `logs/orchestration_events.jsonl`
 
-### ✅ 4. Ministerial Council
-- 19 domain specialists
-- Mode-specific voting (QUICK/MEETING/WAR/DARBAR)
-- KIS-driven recommendations
-- Judge observing outcomes
+## Testing
 
-### ✅ 5. Machine Learning Wisdom
-- Judgment priors from past decisions
-- Feature extraction from decision state
-- KIS scoring (5-factor: domain × type × memory × context × goal)
-- Episodic memory persistence
+Focused smoke:
 
-### ✅ 6. System Simulation
-- Synthetic human generation
-- Multi-agent scenarios
-- Crisis simulation
-- Population dynamics
-
----
-
-## 📁 Project Structure
-
-```
-C:\era\
-├── run_refactored.py           # LLM dialogue engine
-├── run_refactored.py             # Refactored decision pipeline entrypoint
-├── system_main.py                # Compatibility shim to run_refactored
-├── run_session_conversation.py    # Session-based problem solving
-├── sovereign_main.py              # Ministerial council simulation
-├── requirements.txt               # Python dependencies
-├── START_HERE.md                  # Installation guide
-├── README.md                      # This file
-├── CHANGELOG.md                   # Version history
-├── DEPENDENCIES.md                # System requirements
-│
-├── persona/                       # Interactive persona system
-│   ├── main.py
-│   ├── modes/                     # Mode orchestration
-│   ├── ministers/                 # Individual minister implementations
-│   ├── knowledge_engine.py        # KIS (Knowledge Integration System)
-│   ├── domain_detector.py         # Auto-detect problem domains
-│   ├── session_manager.py         # Session lifecycle management
-│   ├── cache_manager.py           # Automatic cache cleanup
-│   └── ... (15+ submodules)
-│
-├── sovereign/                     # Ministerial council system
-│   ├── ministers/                 # 19 domain specialists
-│   ├── dynamic_council.py         # Council selection logic
-│   ├── prime_confident.py         # Decision authority
-│   └── minister_factory.py        # Minister instantiation
-│
-├── ml/                            # Machine learning wisdom layer
-│   ├── llm_handshakes/            # LLM interface (structured calls)
-│   ├── kis/                       # Knowledge Integration System
-│   ├── judgment_priors.py         # ML judgment learning
-│   ├── ml_orchestrator.py         # ML pipeline
-│   └── ... (learning components)
-│
-├── hse/                           # Human Simulation Engine
-│   ├── population_manager.py      # Synthetic human generation
-│   ├── human_profile.py           # Individual profiles
-│   ├── crisis_injector.py         # Stress/crisis scenarios
-│   └── analytics_server.py        # Performance tracking
-│
-├── ingestion/                     # Knowledge ingestion pipeline
-│   ├── v2/                        # Async ingestion pipeline
-│   │   └── run_all_v2_ingest.py   # Process PDFs to embeddings
-│   └── ... (v1 legacy)
-│
-├── data/                          # All data storage
-│   ├── doctrine/                  # Minister decision rules (YAML)
-│   ├── books/                     # Ingested knowledge (61 PDFs)
-│   ├── sessions/                  # Session records
-│   ├── conversations/             # LLM dialogue transcripts
-│   ├── memory/                    # Episodic learning storage
-│   └── ... (RAG, memory, etc.)
-│
-├── tests/                         # Test suite (27 test files)
-├── documentation/                 # 50+ comprehensive guides
-├── archive/                       # Deprecated modules
-│   ├── integrations_old/          # (Archived: unused)
-│   └── runtime_old/               # (Archived: experimental)
-└── logs/                          # Runtime logs
-```
-
----
-
-## 🔧 Configuration
-
-### Environment Variables (.env)
-
-Create `.env` file in `C:\era\`:
-
-```env
-# Ollama Configuration
-OLLAMA_HOST=http://localhost:11434
-OLLAMA_MODEL_USER=deepseek-r1:8b
-OLLAMA_MODEL_PROGRAM=qwen3:14b
-OLLAMA_TIMEOUT=300
-
-# System Paths
-ERA_ROOT=c:\era
-DATA_ROOT=c:\era\data
-
-# Logging
-LOG_LEVEL=INFO
-
-# ML Configuration
-ML_BATCH_SIZE=32
-ML_LEARNING_RATE=0.001
-```
-
-See `.env.example` for all options.
-
----
-
-## 📖 Documentation
-
-### Getting Started
-- **[START_HERE.md](START_HERE.md)** - Installation & quick start (5 min)
-- **[DEPENDENCIES.md](DEPENDENCIES.md)** - System requirements (2 min)
-
-### Understanding the System
-- **[SYSTEM_ARCHITECTURE.md](documentation/SYSTEM_ARCHITECTURE.md)** - Full architecture (20 min)
-- **[MODE_SELECTION_GUIDE.md](documentation/MODE_SELECTION_GUIDE.md)** - When to use which mode (5 min)
-- **[SESSION_FEATURES_GUIDE.md](documentation/SESSION_FEATURES_GUIDE.md)** - Multi-session workflows (10 min)
-
-### Reference
-- **[CHANGELOG.md](CHANGELOG.md)** - Version history
-- **[DEAD_ENDS_RESOLUTION.md](DEAD_ENDS_RESOLUTION.md)** - Cleanup decisions
-- **[documentation/](documentation/)** - 50+ comprehensive guides
-
----
-
-## 🎓 Learning Paths
-
-### For New Users (30 minutes)
-1. Read [START_HERE.md](START_HERE.md)
-2. Install dependencies
-3. Run: `python run_refactored.py --input "Need help deciding next step"`
-
-### For Decision Makers (1-2 hours)
-1. Read [MODE_SELECTION_GUIDE.md](documentation/MODE_SELECTION_GUIDE.md)
-2. Run: `python run_refactored.py`
-3. Try different scenarios
-
-### For Developers (2-4 hours)
-1. Read [SYSTEM_ARCHITECTURE.md](documentation/SYSTEM_ARCHITECTURE.md)
-2. Study `persona/`, `sovereign/`, `ml/` modules
-3. Review test suite in `tests/`
-
-### For System Administrators
-1. Check [DEPENDENCIES.md](DEPENDENCIES.md)
-2. Run: `python persona/cache_manager.py`
-3. Monitor logs in `logs/`
-
----
-
-## 🚀 Common Workflows
-
-### Workflow 1: Quick LLM Dialogue
 ```bash
-python run_refactored.py --input "Need help deciding next step"
+python run_refactored.py --input "Need a release decision"
 ```
-⏱️ **Time:** 1-2 minutes | 💬 **Output:** Conversation transcript
 
-### Workflow 2: Get Decision Guidance
+Focused runtime tests:
+
 ```bash
-python run_refactored.py
+pytest tests/test_decision_pipeline_engine.py tests/test_no_legacy_pipeline_imports.py -q
 ```
-⏱️ **Time:** 10-20 minutes | 📋 **Output:** 9-phase guidance with council input
 
-### Workflow 3: Multi-Session Problem Solving
+Broader refactor-era suite:
+
 ```bash
-python run_session_conversation.py
-```
-⏱️ **Time:** Variable | 🔄 **Output:** Multiple sessions with continuity
-
-### Workflow 4: Run Ministerial Simulation
-```bash
-python sovereign_main.py
-```
-⏱️ **Time:** Variable | 🎭 **Output:** Full council voting & outcomes
-
-### Workflow 5: Cleanup Cache
-```bash
-python persona/cache_manager.py
-```
-⏱️ **Time:** 1 second | 🧹 **Output:** Cache report & cleanup
-
----
-
-## ⚙️ System Requirements
-
-| Component | Minimum | Recommended |
-|-----------|---------|-------------|
-| **CPU** | 4 cores | 8+ cores |
-| **RAM** | 4 GB | 8+ GB |
-| **Disk** | 5 GB | 10+ GB |
-| **Python** | 3.10 | 3.12+ |
-| **Ollama** | Latest | Latest |
-
----
-
-## 🧠 Decision Modes
-
-| Mode | Use Case | Ministers | Speed |
-|------|----------|-----------|-------|
-| **QUICK** | Mentoring, direct advice | None (LLM only) | Fast |
-| **MEETING** | Balanced perspective | 3-5 relevant | Medium |
-| **WAR** | Victory-focused strategy | 5 specific | Medium |
-| **DARBAR** | Full wisdom council | All 19 | Slow |
-
-Auto-escalates: QUICK (1-2) → MEETING (3-5) → WAR (6-8) → DARBAR (9+)
-
----
-
-## 🛠️ Troubleshooting
-
-### "Ollama not running"
-```bash
-ollama serve  # In separate terminal
+pytest tests/test_config_settings.py tests/test_contracts_*.py tests/test_domain_analysis.py tests/test_knowledge_synthesis.py tests/test_council_execution.py tests/test_council_normalization.py tests/test_prime_decision.py tests/test_decision_pipeline_engine.py -q
 ```
 
-### "Module not found"
-```bash
-pip install -r requirements.txt
-```
+## Documentation
 
-### "Connection refused"
-```bash
-# Check Ollama is running on port 11434
-netstat -ano | findstr :11434
-```
+Start here for the current repository:
 
-### Cache taking too much space
-```bash
-python persona/cache_manager.py
-```
+- [`documentation/REPOSITORY_TECHNICAL_GUIDE.md`](c:\era\documentation\REPOSITORY_TECHNICAL_GUIDE.md)
 
-See [DEPENDENCIES.md](DEPENDENCIES.md) for more troubleshooting.
+Important note:
 
----
+- Several older docs in [`documentation/`](c:\era\documentation) and [`tests/README.md`](c:\era\tests\README.md) still describe removed legacy subsystems. Treat the technical guide above plus `config/`, `core/`, `modules/`, and current tests as the source of truth.
 
-## 📊 System Status
+## Current Limitations
 
-**Last Updated:** February 19, 2026  
-**Version:** 1.2.0  
-**Status:** ✅ OPERATIONAL
+- `requirements.txt` still contains more dependencies than the active runtime needs
+- some retained docs are stale
+- the active runtime is CLI and Python API only; there is no current web UI or active HTTP API path on `main`
 
-All systems verified and tested:
-- ✅ LLM integration (deepseek-r1:8b + qwen3:14b)
-- ✅ Decision guidance (9-phase pipeline)
-- ✅ Ministerial councils (19 ministers)
-- ✅ ML learning (judgment priors)
-- ✅ Session management (multi-turn)
-- ✅ Cache cleanup (automatic)
-- ✅ Documentation (50+ guides)
+## Development
 
----
+If you extend the system:
 
-## 🤝 Contributing
-
-### Reporting Issues
-Use [DEAD_ENDS_RESOLUTION.md](DEAD_ENDS_RESOLUTION.md) format for cleanup issues.
-
-### Code Changes
-1. Create feature branch
-2. Update relevant tests
-3. Run: `pytest tests/ -v`
-4. Update documentation
-
----
-
-## 📜 License & Attribution
-
-**Creator:** Alfred (Stabilizing Intelligence)  
-**Project Motto:** "Power that costs identity is rejected."  
-**License:** Internal use (Detailed terms in LICENSE if applicable)
-
----
-
-## 🔗 Quick Links
-
-| What | Where |
-|------|-------|
-| Installation | [START_HERE.md](START_HERE.md) |
-| Architecture | [documentation/SYSTEM_ARCHITECTURE.md](documentation/SYSTEM_ARCHITECTURE.md) |
-| Mode Guide | [documentation/MODE_SELECTION_GUIDE.md](documentation/MODE_SELECTION_GUIDE.md) |
-| Sessions | [documentation/SESSION_FEATURES_GUIDE.md](documentation/SESSION_FEATURES_GUIDE.md) |
-| Requirements | [DEPENDENCIES.md](DEPENDENCIES.md) |
-| Changes | [CHANGELOG.md](CHANGELOG.md) |
-| Cleanup | [DEAD_ENDS_RESOLUTION.md](DEAD_ENDS_RESOLUTION.md) |
-
----
-
-**Status:** ✅ Ready to Use  
-**Next Step:** Read [START_HERE.md](START_HERE.md)  
-**Questions?** Check [documentation/](documentation/) folder (50+ guides)
-
-
+1. work inside `config/`, `core/`, or `modules/`
+2. prefer adding behavior as a pipeline stage or extension stage
+3. update tests with the change
+4. update the technical guide when architecture or usage changes
