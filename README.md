@@ -31,12 +31,12 @@ ollama pull qwen3:14b
 
 **Path 1: LLM Dialogue Engine** (Easiest - 30 seconds)
 ```bash
-python llm_conversation.py --mode demo --rounds 1
+python run_refactored.py --input "Need help deciding next step"
 ```
 
 **Path 2: Decision Guidance System** (10-20 minutes)
 ```bash
-python system_main.py
+python run_refactored.py
 ```
 
 **Path 3: Multi-Session Problem Solving** (Variable)
@@ -68,7 +68,7 @@ ERA is a **Ministerial Cognitive Architecture (MCA)** that combines:
 
 ## 🎯 Core Features
 
-### ✅ 1. LLM Conversation Engine
+### ✅ 1. Refactored Decision Pipeline
 - Interactive (choose any topic)
 - Demo mode (pre-built conversations)
 - Topic mode (specify custom topics)
@@ -114,8 +114,9 @@ ERA is a **Ministerial Cognitive Architecture (MCA)** that combines:
 
 ```
 C:\era\
-├── llm_conversation.py           # LLM dialogue engine
-├── system_main.py                # Decision guidance system  
+├── run_refactored.py           # LLM dialogue engine
+├── run_refactored.py             # Refactored decision pipeline entrypoint
+├── system_main.py                # Compatibility shim to run_refactored
 ├── run_session_conversation.py    # Session-based problem solving
 ├── sovereign_main.py              # Ministerial council simulation
 ├── requirements.txt               # Python dependencies
@@ -228,11 +229,11 @@ See `.env.example` for all options.
 ### For New Users (30 minutes)
 1. Read [START_HERE.md](START_HERE.md)
 2. Install dependencies
-3. Run: `python llm_conversation.py --mode demo --rounds 1`
+3. Run: `python run_refactored.py --input "Need help deciding next step"`
 
 ### For Decision Makers (1-2 hours)
 1. Read [MODE_SELECTION_GUIDE.md](documentation/MODE_SELECTION_GUIDE.md)
-2. Run: `python system_main.py`
+2. Run: `python run_refactored.py`
 3. Try different scenarios
 
 ### For Developers (2-4 hours)
@@ -251,13 +252,13 @@ See `.env.example` for all options.
 
 ### Workflow 1: Quick LLM Dialogue
 ```bash
-python llm_conversation.py --mode demo --rounds 2
+python run_refactored.py --input "Need help deciding next step"
 ```
 ⏱️ **Time:** 1-2 minutes | 💬 **Output:** Conversation transcript
 
 ### Workflow 2: Get Decision Guidance
 ```bash
-python system_main.py
+python run_refactored.py
 ```
 ⏱️ **Time:** 10-20 minutes | 📋 **Output:** 9-phase guidance with council input
 
@@ -388,3 +389,5 @@ Use [DEAD_ENDS_RESOLUTION.md](DEAD_ENDS_RESOLUTION.md) format for cleanup issues
 **Status:** ✅ Ready to Use  
 **Next Step:** Read [START_HERE.md](START_HERE.md)  
 **Questions?** Check [documentation/](documentation/) folder (50+ guides)
+
+

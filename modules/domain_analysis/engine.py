@@ -3,15 +3,16 @@
 from __future__ import annotations
 
 from collections.abc import Iterable
+from collections import Counter
 from dataclasses import dataclass
 from datetime import date, datetime
 import json
 import math
 from pathlib import Path
+import re
 from typing import Any, Dict, List, Mapping, Optional
 
 from core.contracts import DomainAnalysisContract
-from persona.domain_detector import analyze_situation
 
 _VALID_STAKES = {"low", "medium", "high"}
 _VALID_REVERSIBILITY = {
@@ -488,3 +489,202 @@ class DomainAnalysisEngine:
         if isinstance(value, (bytes, bytearray)):
             return bytes(value).decode("utf-8", errors="replace").strip()
         return str(value).strip()
+
+
+_NATIVE_DOMAIN_KEYWORDS: Mapping[str, tuple[str, ...]] = {
+    "strategy": ("strategy", "plan", "position", "advantage", "roadmap"),
+    "risk": ("risk", "downside", "loss", "failure", "uncertain", "uncertainty"),
+    "career": ("career", "job", "role", "manager", "promotion", "team"),
+    "financial": ("money", "budget", "income", "expense", "investment", "cash"),
+    "relationships": ("relationship", "partner", "family", "friend", "trust"),
+    "health": ("health", "sleep", "stress", "exercise", "medical", "wellbeing"),
+    "technology": ("technology", "system", "platform", "software", "engineering"),
+    "operations": ("process", "operations", "execution", "workflow", "delivery"),
+}
+_NATIVE_HIGH_STAKES = (
+    "irreversible",
+    "bankrupt",
+    "bankruptcy",
+    "critical",
+    "urgent",
+    "legal",
+    "lawsuit",
+    "fatal",
+)
+_NATIVE_LOW_STAKES = ("experiment", "draft", "try", "prototype", "optional")
+_NATIVE_IRREVERSIBLE = ("irreversible", "permanent", "one-way", "cannot undo")
+_NATIVE_REVERSIBLE = ("reversible", "trial", "pilot", "rollback")
+
+
+def analyze_situation(user_input: str, llm_adapter: Any = None) -> Dict[str, Any]:
+    """Compatibility wrapper retained for test monkeypatching and adapters."""
+    return _native_analyze_situation(user_input, llm_adapter=llm_adapter)
+
+
+def _native_analyze_situation(user_input: str, llm_adapter: Any = None) -> Dict[str, Any]:
+    text = str(user_input or "").strip() or "No user input provided."
+    llm_result = _native_attempt_llm_analysis(llm_adapter=llm_adapter, user_input=text)
+    if isinstance(llm_result, Mapping):
+        merged = _native_merge_llm(text=text, llm_result=llm_result)
+        if merged:
+            return merged
+
+    tokens = _native_tokenize(text)
+    counter = Counter(tokens)
+    scores: Dict[str, float] = {}
+    for domain, keywords in _NATIVE_DOMAIN_KEYWORDS.items():
+        matches = sum(counter.get(term, 0) for term in keywords)
+        if matches <= 0:
+            continue
+        scores[domain] = round(min(1.0, matches / 3.0), 3)
+
+    if not scores:
+        scores = {"strategy": 0.35}
+
+    ranked = sorted(scores.items(), key=lambda item: item[1], reverse=True)
+    domains = [domain for domain, _ in ranked[:3]]
+    confidence = float(ranked[0][1]) if ranked else 0.0
+    lowered = text.lower()
+    return {
+        "problem": text,
+        "domains": domains,
+        "domain_scores": scores,
+        "domain_confidence": confidence,
+        "stakes": _native_derive_stakes(lowered),
+        "reversibility": _native_derive_reversibility(lowered),
+        "key_entities": _native_extract_entities(text),
+        "source": "native_domain_detector",
+    }
+
+
+def _native_attempt_llm_analysis(*, llm_adapter: Any, user_input: str) -> Dict[str, Any] | None:
+    if llm_adapter is None:
+        return None
+    try:
+        if hasattr(llm_adapter, "analyze_situation") and callable(llm_adapter.analyze_situation):
+            result = llm_adapter.analyze_situation(user_input)  # type: ignore[call-arg]
+            return dict(result) if isinstance(result, Mapping) else None
+        if hasattr(llm_adapter, "analyze") and callable(llm_adapter.analyze):
+            prompt = (
+                "Extract domains, confidence, stakes, reversibility, and key_entities "
+                "for this decision problem."
+            )
+            result = llm_adapter.analyze(prompt=prompt, user_input=user_input)  # type: ignore[call-arg]
+            return dict(result) if isinstance(result, Mapping) else None
+    except Exception:
+        return None
+    return None
+
+
+def _native_merge_llm(*, text: str, llm_result: Mapping[str, Any]) -> Dict[str, Any] | None:
+    try:
+        llm_domains = _native_coerce_list(llm_result.get("domains"))
+        if not llm_domains:
+            return None
+        llm_scores = _native_coerce_scores(llm_result.get("domain_scores"))
+        if not llm_scores:
+            llm_scores = {domain: 1.0 / max(len(llm_domains), 1) for domain in llm_domains}
+        llm_conf = _native_safe_float(llm_result.get("domain_confidence"), default=max(llm_scores.values()))
+        stakes = str(llm_result.get("stakes") or _native_derive_stakes(text.lower())).strip().lower() or "medium"
+        reversibility = (
+            str(llm_result.get("reversibility") or _native_derive_reversibility(text.lower()))
+            .strip()
+            .lower()
+            or "partially_reversible"
+        )
+        entities = _native_coerce_list(llm_result.get("key_entities")) or _native_extract_entities(text)
+        return {
+            "problem": text,
+            "domains": llm_domains[:3],
+            "domain_scores": llm_scores,
+            "domain_confidence": max(0.0, min(1.0, llm_conf)),
+            "stakes": stakes,
+            "reversibility": reversibility,
+            "key_entities": entities[:20],
+            "source": "native_domain_detector_llm",
+        }
+    except Exception:
+        return None
+
+
+def _native_coerce_scores(value: Any) -> Dict[str, float]:
+    if not isinstance(value, Mapping):
+        return {}
+    normalized: Dict[str, float] = {}
+    for raw_key, raw_val in value.items():
+        key = str(raw_key).strip().lower()
+        if not key:
+            continue
+        numeric = _native_safe_float(raw_val, default=None)
+        if numeric is None:
+            continue
+        normalized[key] = max(0.0, min(1.0, numeric))
+    return normalized
+
+
+def _native_coerce_list(value: Any) -> List[str]:
+    if value is None:
+        return []
+    if isinstance(value, str):
+        raw = [part.strip() for part in value.split(",")]
+    elif isinstance(value, (list, tuple, set)):
+        raw = [str(item).strip() for item in value]
+    else:
+        return []
+    result: List[str] = []
+    seen = set()
+    for item in raw:
+        if not item:
+            continue
+        lowered = item.lower()
+        if lowered in seen:
+            continue
+        seen.add(lowered)
+        result.append(lowered)
+    return result
+
+
+def _native_tokenize(text: str) -> List[str]:
+    return re.findall(r"[a-zA-Z][a-zA-Z\-]+", text.lower())
+
+
+def _native_derive_stakes(lowered_text: str) -> str:
+    if any(token in lowered_text for token in _NATIVE_HIGH_STAKES):
+        return "high"
+    if any(token in lowered_text for token in _NATIVE_LOW_STAKES):
+        return "low"
+    return "medium"
+
+
+def _native_derive_reversibility(lowered_text: str) -> str:
+    if any(token in lowered_text for token in _NATIVE_IRREVERSIBLE):
+        return "irreversible"
+    if any(token in lowered_text for token in _NATIVE_REVERSIBLE):
+        return "fully_reversible"
+    return "partially_reversible"
+
+
+def _native_extract_entities(text: str) -> List[str]:
+    matches = re.findall(r"\b[A-Z][a-zA-Z0-9_]+(?:\s+[A-Z][a-zA-Z0-9_]+)*\b", text)
+    entities: List[str] = []
+    seen = set()
+    for candidate in matches:
+        item = candidate.strip()
+        if len(item) < 2:
+            continue
+        key = item.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        entities.append(item)
+    return entities[:20]
+
+
+def _native_safe_float(value: Any, *, default: float | None) -> float | None:
+    try:
+        numeric = float(value)
+    except Exception:
+        return default
+    if not math.isfinite(numeric):
+        return default
+    return numeric

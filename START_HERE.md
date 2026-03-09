@@ -46,19 +46,19 @@ ollama pull qwen3:14b
 
 ## Running ERA
 
-### ✅ Option 1: LLM Conversation (Easiest - Start Here!)
+### ✅ Option 1: Refactored Decision Pipeline (Easiest - Start Here!)
 
 Have two LLMs discuss any topic:
 
 ```bash
 # Interactive mode - you choose topics
-python llm_conversation.py
+python run_refactored.py
 
 # Demo mode - pre-built conversation
-python llm_conversation.py --mode demo --rounds 3
+python run_refactored.py --input "Need help deciding next step"
 
 # Specific topic
-python llm_conversation.py --mode topic --topic "AI ethics in healthcare" --rounds 5
+python run_refactored.py --input "AI ethics in healthcare"
 ```
 
 **What you'll see:**
@@ -81,7 +81,7 @@ Get guidance on a problem through the 9-phase dialogue pipeline:
 
 ```bash
 # Run the main system
-python system_main.py
+python run_refactored.py
 
 # Or use interactive conversation with sessions
 python run_session_conversation.py
@@ -163,8 +163,8 @@ All paths are validated on startup. Missing directories will error with clear me
 
 | File | Purpose | Command |
 |------|---------|---------|
-| `llm_conversation.py` | LLM dialogue engine | `python llm_conversation.py` |
-| `system_main.py` | Decision guidance (9-phase) | `python system_main.py` |
+| `run_refactored.py` | LLM dialogue engine | `python run_refactored.py` |
+| `run_refactored.py` | Decision guidance (refactored pipeline) | `python run_refactored.py` |
 | `run_session_conversation.py` | Multi-session problem solving | `python run_session_conversation.py` |
 | `sovereign_main.py` | Ministerial council simulation | `python sovereign_main.py` |
 | `test_ml_layer.py` | ML wisdom system validation | `python test_ml_layer.py` |
@@ -242,13 +242,13 @@ pip install -r requirements.txt
 
 ### Example 1: Quick LLM Demo (2 minutes)
 ```bash
-python llm_conversation.py --mode demo --rounds 2
+python run_refactored.py --input "Need help deciding next step"
 ```
 → See a 2-round conversation on intelligent decision systems
 
 ### Example 2: Interactive Topic Exploration (5-10 minutes)
 ```bash
-python llm_conversation.py
+python run_refactored.py
 # Topic: AI ethics in healthcare
 # Rounds: 3
 ```
@@ -256,7 +256,7 @@ python llm_conversation.py
 
 ### Example 3: Full Decision Guidance (10-20 minutes)
 ```bash
-python system_main.py
+python run_refactored.py
 # Problem: "I'm overwhelmed at work and considering changing careers"
 ```
 → Get 9-phase guidance with clarifying questions, council input, and satisfaction assessment
@@ -289,17 +289,17 @@ python run_session_conversation.py
 
 1. **First Time?** Run a demo:
    ```bash
-   python llm_conversation.py --mode demo --rounds 1
+   python run_refactored.py --input "Need help deciding next step"
    ```
 
 2. **Want to Explore Topics?** Go interactive:
    ```bash
-   python llm_conversation.py
+   python run_refactored.py
    ```
 
-3. **Need Real Decision Guidance?** Use system_main:
+3. **Need Real Decision Guidance?** Use the refactored entrypoint:
    ```bash
-   python system_main.py
+   python run_refactored.py
    ```
 
 4. **Want to See Full Capabilities?** Check documentation:
@@ -313,8 +313,9 @@ python run_session_conversation.py
 
 ```
 c:\era\
-├── llm_conversation.py          # LLM dialogue engine (START HERE!)
-├── system_main.py               # Decision guidance system
+├── run_refactored.py          # LLM dialogue engine (START HERE!)
+├── run_refactored.py            # Refactored decision guidance entrypoint
+├── system_main.py               # Compatibility shim
 ├── run_session_conversation.py   # Session-based problem solving
 ├── sovereign_main.py             # Ministerial council simulation
 ├── START_HERE.md                # This file
@@ -349,3 +350,5 @@ See [CHANGELOG.md](CHANGELOG.md) for complete version history and changes.
 
 **Last Updated:** February 19, 2026
 **Status:** ✅ System Operational - All core features verified and tested
+
+

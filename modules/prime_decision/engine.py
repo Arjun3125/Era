@@ -1,4 +1,4 @@
-﻿"""Normalized Prime decision engine over ``PrimeConfident``."""
+"""Normalized prime decision engine over native decision authority."""
 
 from __future__ import annotations
 
@@ -14,10 +14,105 @@ from core.contracts import DecisionContract
 PrimeFactory = Callable[[float, Optional[Any]], Any]
 
 
-def _default_prime_factory(risk_threshold: float, llm_adapter: Optional[Any]) -> Any:
-    from sovereign.prime_confident import PrimeConfident
+class NativePrimeDecider:
+    """Deterministic prime decider that does not depend on legacy sovereign runtime."""
 
-    return PrimeConfident(risk_threshold=risk_threshold, llm_adapter=llm_adapter)
+    def __init__(self, risk_threshold: float = 0.7, llm_adapter: Any = None):
+        self.risk_threshold = self._safe_float(risk_threshold, default=0.7)
+        self.llm_adapter = llm_adapter
+
+    def decide(
+        self,
+        council_payload: Mapping[str, Any],
+        minister_outputs: Mapping[str, Mapping[str, Any]],
+    ) -> Dict[str, Any]:
+        outcome = str(council_payload.get("outcome", "")).strip().lower()
+        recommendation = str(council_payload.get("recommendation", "")).strip().lower()
+        avg_confidence = self._safe_float(council_payload.get("avg_confidence"), default=0.0)
+        consensus = self._safe_float(council_payload.get("consensus_strength"), default=avg_confidence)
+
+        support = 0
+        oppose = 0
+        neutral = 0
+        red_line_count = 0
+        for payload in minister_outputs.values():
+            stance = str(payload.get("stance", "neutral")).strip().lower()
+            if stance == "support":
+                support += 1
+            elif stance == "oppose":
+                oppose += 1
+            else:
+                neutral += 1
+            if bool(payload.get("red_line_triggered", False)):
+                red_line_count += 1
+
+        if outcome == "quick_mode_direct_response":
+            return {
+                "final_outcome": "direct_response",
+                "reason": "quick_mode_bypass",
+                "confidence": max(avg_confidence, consensus),
+            }
+        if outcome == "council_disabled_ablation":
+            return {
+                "final_outcome": "defer",
+                "reason": "council_disabled_ablation",
+                "confidence": max(avg_confidence, consensus),
+            }
+
+        if red_line_count > 0 and oppose >= support:
+            final_outcome = "reject"
+            reason = "red_line_blocked_by_risk"
+        elif recommendation in {"support", "strong_consensus_support", "aggressive_proceed"}:
+            final_outcome = "accept_with_mitigation" if red_line_count > 0 else "accept"
+            reason = "council_support"
+        elif recommendation in {"oppose", "strong_consensus_oppose", "red_line_blocks_recommendation"}:
+            final_outcome = "reject"
+            reason = "council_oppose"
+        else:
+            split = abs(support - oppose)
+            if split == 0 or neutral > 0:
+                final_outcome = "defer"
+                reason = "insufficient_consensus"
+            elif support > oppose:
+                final_outcome = "accept_with_mitigation"
+                reason = "weak_support_consensus"
+            else:
+                final_outcome = "reject"
+                reason = "weak_oppose_consensus"
+
+        confidence = max(consensus, avg_confidence)
+        if final_outcome == "defer":
+            confidence = min(confidence, self.risk_threshold)
+        return {
+            "final_outcome": final_outcome,
+            "reason": reason,
+            "confidence": max(0.0, min(1.0, confidence)),
+            "details": {
+                "support_count": support,
+                "oppose_count": oppose,
+                "neutral_count": neutral,
+                "red_line_count": red_line_count,
+                "recommendation": recommendation,
+            },
+        }
+
+    @staticmethod
+    def _safe_float(value: Any, *, default: float) -> float:
+        try:
+            numeric = float(value)
+        except Exception:
+            return default
+        if not math.isfinite(numeric):
+            return default
+        if numeric < 0.0:
+            return 0.0
+        if numeric > 1.0:
+            return 1.0
+        return numeric
+
+
+def _default_prime_factory(risk_threshold: float, llm_adapter: Optional[Any]) -> Any:
+    return NativePrimeDecider(risk_threshold=risk_threshold, llm_adapter=llm_adapter)
 
 
 _VALID_MODES = {"baseline", "quick", "meeting", "war", "darbar"}
@@ -105,7 +200,7 @@ class PrimeDecisionResult:
 
 @dataclass
 class PrimeDecisionEngine:
-    """Adapter that normalizes council outputs before PrimeConfident execution."""
+    """Adapter that normalizes council outputs before prime decision execution."""
 
     risk_threshold: float = 0.7
     llm_adapter: Optional[Any] = None
@@ -812,3 +907,4 @@ class PrimeDecisionEngine:
             seen.add(warning)
             deduped.append(warning)
         return deduped
+

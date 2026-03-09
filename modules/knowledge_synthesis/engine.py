@@ -8,10 +8,10 @@ from datetime import date, datetime
 import json
 import math
 from pathlib import Path
+import re
 from typing import Any, Dict, List, Mapping, Optional
 
 from core.contracts import KnowledgeContract
-from persona.knowledge_engine import synthesize_knowledge
 
 _MODE_DEFAULT_MAX_ITEMS = {
     "baseline": 4,
@@ -684,3 +684,190 @@ class KnowledgeSynthesisEngine:
             seen.add(warning)
             deduped.append(warning)
         return deduped
+
+
+_NATIVE_DEFAULT_PRINCIPLES = [
+    {
+        "id": "reversibility",
+        "text": "Prefer choices that are cheaply reversible under uncertainty.",
+        "domain": "optionality",
+        "historical_success_rate": 0.5,
+    },
+    {
+        "id": "downside_first",
+        "text": "Protect against irreversible downside before optimizing upside.",
+        "domain": "risk",
+        "historical_success_rate": 0.5,
+    },
+]
+_NATIVE_PRINCIPLE_CACHE: List[Dict[str, Any]] | None = None
+
+
+def synthesize_knowledge(
+    *,
+    user_input: str,
+    active_domains: List[str],
+    domain_confidence: float,
+    max_items: int,
+    extra_context: List[str] | None = None,
+) -> Dict[str, Any]:
+    """Compatibility wrapper retained for monkeypatch-based tests."""
+    return _native_synthesize_knowledge(
+        user_input=user_input,
+        active_domains=active_domains,
+        domain_confidence=domain_confidence,
+        max_items=max_items,
+        extra_context=extra_context,
+    )
+
+
+def _native_synthesize_knowledge(
+    *,
+    user_input: str,
+    active_domains: List[str],
+    domain_confidence: float,
+    max_items: int,
+    extra_context: List[str] | None = None,
+) -> Dict[str, Any]:
+    principles = _native_load_principles()
+    text = str(user_input or "").strip()
+    domains = [str(item).strip().lower() for item in (active_domains or []) if str(item).strip()]
+    if not domains:
+        domains = ["strategy"]
+
+    query_terms = _native_tokenize(text)
+    context_terms = _native_tokenize(" ".join(extra_context or []))
+    all_terms = set(query_terms + context_terms)
+
+    scored: List[Dict[str, Any]] = []
+    for principle in principles:
+        item_domain = str(principle.get("domain", "")).strip().lower()
+        text_value = str(principle.get("text", "")).strip()
+        if not text_value:
+            continue
+
+        domain_match = 1.0 if item_domain in domains else 0.0
+        text_overlap = _native_overlap_score(all_terms, _native_tokenize(text_value))
+        historical = _native_safe_float(principle.get("historical_success_rate"), default=0.5)
+        score = 0.55 * domain_match + 0.30 * text_overlap + 0.15 * historical
+        scored.append(
+            {
+                "id": str(principle.get("id", "")).strip() or f"principle_{len(scored)}",
+                "text": text_value,
+                "domain": item_domain or "strategy",
+                "historical_success_rate": historical,
+                "score": round(max(0.0, min(1.0, score)), 4),
+            }
+        )
+
+    scored.sort(key=lambda item: item["score"], reverse=True)
+    limit = max(1, int(max_items or 1))
+    selected = scored[:limit]
+
+    synthesized = [item["text"] for item in selected]
+    trace = [
+        {
+            "principle_id": item["id"],
+            "domain": item["domain"],
+            "score": item["score"],
+            "source": "native_principles",
+        }
+        for item in selected
+    ]
+    top_scores = [item["score"] for item in selected]
+    candidate_quality = sum(top_scores) / len(top_scores) if top_scores else 0.0
+
+    return {
+        "active_domains": domains,
+        "domain_confidence": float(max(0.0, min(1.0, _native_safe_float(domain_confidence, default=0.0)))),
+        "max_items": limit,
+        "synthesized_knowledge": synthesized,
+        "knowledge_trace": trace,
+        "knowledge_quality": {
+            "candidate_quality": round(candidate_quality, 4),
+            "avg_kis": round(candidate_quality, 4),
+            "top_kis": top_scores,
+        },
+        "knowledge_debug": {
+            "source": "native_knowledge_synthesis",
+            "total_candidates": len(scored),
+            "selected_count": len(selected),
+            "matched_domains": domains,
+        },
+    }
+
+
+def _native_load_principles() -> List[Dict[str, Any]]:
+    global _NATIVE_PRINCIPLE_CACHE
+    if _NATIVE_PRINCIPLE_CACHE is not None:
+        return list(_NATIVE_PRINCIPLE_CACHE)
+
+    candidates = (
+        Path("knowledge/principles.json"),
+        Path("data/principles.json"),
+    )
+    for path in candidates:
+        if not path.exists():
+            continue
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        normalized = _native_normalize_principles_payload(payload)
+        if normalized:
+            _NATIVE_PRINCIPLE_CACHE = normalized
+            return list(_NATIVE_PRINCIPLE_CACHE)
+
+    _NATIVE_PRINCIPLE_CACHE = list(_NATIVE_DEFAULT_PRINCIPLES)
+    return list(_NATIVE_PRINCIPLE_CACHE)
+
+
+def _native_normalize_principles_payload(payload: Any) -> List[Dict[str, Any]]:
+    if not isinstance(payload, list):
+        return []
+    normalized: List[Dict[str, Any]] = []
+    for item in payload:
+        if not isinstance(item, Mapping):
+            continue
+        text_value = str(item.get("text", "")).strip()
+        if not text_value:
+            continue
+        normalized.append(
+            {
+                "id": str(item.get("id", "")).strip(),
+                "text": text_value,
+                "domain": str(item.get("domain", "")).strip().lower(),
+                "historical_success_rate": _native_safe_float(
+                    item.get("historical_success_rate"),
+                    default=0.5,
+                ),
+            }
+        )
+    return normalized
+
+
+def _native_tokenize(text: str) -> List[str]:
+    return re.findall(r"[a-zA-Z][a-zA-Z\-]+", str(text or "").lower())
+
+
+def _native_overlap_score(query_terms: Iterable[str], candidate_terms: Iterable[str]) -> float:
+    query = set(query_terms)
+    cand = set(candidate_terms)
+    if not query or not cand:
+        return 0.0
+    overlap = len(query.intersection(cand))
+    return min(1.0, overlap / max(1, len(cand)))
+
+
+def _native_safe_float(value: Any, *, default: float) -> float:
+    try:
+        numeric = float(value)
+    except Exception:
+        return default
+    if not math.isfinite(numeric):
+        return default
+    if numeric < 0.0:
+        return 0.0
+    if numeric > 1.0:
+        return 1.0
+    return numeric

@@ -4,7 +4,6 @@ from __future__ import annotations
 
 from collections.abc import Iterable
 from dataclasses import dataclass, field
-from importlib import import_module
 from datetime import date, datetime
 import math
 from pathlib import Path
@@ -36,12 +35,93 @@ _MINISTER_ALIASES = {
 }
 _TRUE_VALUES = {"1", "true", "yes", "on"}
 _FALSE_VALUES = {"0", "false", "no", "off"}
+_NATIVE_RISK_KEYWORDS = (
+    "risk",
+    "loss",
+    "bankrupt",
+    "legal",
+    "irreversible",
+    "debt",
+    "downside",
+)
+_NATIVE_SPEED_KEYWORDS = ("urgent", "deadline", "immediately", "now", "fast")
+_NATIVE_UNCERTAINTY_KEYWORDS = ("uncertain", "unknown", "ambiguous", "guess")
+
+
+@dataclass
+class _NativeMinister:
+    name: str
+    bias: str = "neutral"
+    strict_on_risk: bool = False
+
+    def analyze(self, user_input: str, context: Mapping[str, Any]) -> Dict[str, Any]:
+        text = str(user_input or "").lower()
+        domains = {str(item).strip().lower() for item in (context.get("domains") or [])}
+        urgency = _native_keyword_score(text, _NATIVE_SPEED_KEYWORDS)
+        risk_score = _native_keyword_score(text, _NATIVE_RISK_KEYWORDS)
+        uncertainty = _native_keyword_score(text, _NATIVE_UNCERTAINTY_KEYWORDS)
+
+        stance = self.bias
+        if self.strict_on_risk and risk_score >= 0.25:
+            stance = "oppose"
+        elif "risk" in domains and self.name in {"risk", "risk_resources"} and risk_score >= 0.15:
+            stance = "oppose"
+        elif urgency >= 0.25 and self.name in {"timing", "technology", "grand_strategist"}:
+            stance = "support"
+        elif uncertainty >= 0.35:
+            stance = "neutral"
+
+        confidence = 0.55
+        if stance == "support":
+            confidence = 0.65 + urgency * 0.2
+        elif stance == "oppose":
+            confidence = 0.65 + risk_score * 0.25
+        confidence = max(0.0, min(1.0, confidence))
+
+        return {
+            "stance": stance,
+            "confidence": round(confidence, 4),
+            "reasoning": _native_reasoning_for(self.name, stance, urgency, risk_score, uncertainty),
+            "red_line_triggered": bool(self.strict_on_risk and risk_score >= 0.35),
+        }
+
+
+class NativeCouncil:
+    """Simple in-process council compatible with CouncilExecutionEngine expectations."""
+
+    def __init__(self, llm: Any = None):
+        self.llm = llm
+        self.ministers = self._build_ministers()
+
+    @staticmethod
+    def _build_ministers() -> Dict[str, _NativeMinister]:
+        specs = {
+            "risk": _NativeMinister("risk", bias="oppose", strict_on_risk=True),
+            "risk_resources": _NativeMinister("risk_resources", bias="neutral", strict_on_risk=True),
+            "power": _NativeMinister("power", bias="support"),
+            "grand_strategist": _NativeMinister("grand_strategist", bias="support"),
+            "technology": _NativeMinister("technology", bias="support"),
+            "timing": _NativeMinister("timing", bias="support"),
+            "optionality": _NativeMinister("optionality", bias="support"),
+            "data": _NativeMinister("data", bias="neutral"),
+            "diplomacy": _NativeMinister("diplomacy", bias="neutral"),
+            "psychology": _NativeMinister("psychology", bias="neutral"),
+            "legitimacy": _NativeMinister("legitimacy", bias="neutral", strict_on_risk=True),
+            "conflict": _NativeMinister("conflict", bias="oppose"),
+            "truth": _NativeMinister("truth", bias="neutral"),
+            "discipline": _NativeMinister("discipline", bias="support"),
+            "intelligence": _NativeMinister("intelligence", bias="neutral"),
+            "narrative": _NativeMinister("narrative", bias="neutral"),
+            "sovereign": _NativeMinister("sovereign", bias="support"),
+            "adaptation": _NativeMinister("adaptation", bias="support"),
+            "war_mode": _NativeMinister("war_mode", bias="support"),
+        }
+        return dict(specs)
 
 
 def _default_council_factory(llm: Any) -> Any:
-    """Resolve council implementation lazily to avoid import-time coupling."""
-    council_module = import_module("persona.council")
-    return council_module.CouncilAggregator(llm=llm)
+    """Resolve native council implementation lazily to avoid import-time coupling."""
+    return NativeCouncil(llm=llm)
 
 
 def _normalize_text(value: Any) -> str:
@@ -711,3 +791,30 @@ class CouncilExecutionEngine:
             "warnings": deduped_warnings,
             "warning_count": len(deduped_warnings),
         }
+
+
+def _native_keyword_score(text: str, keywords: tuple[str, ...]) -> float:
+    if not text:
+        return 0.0
+    hits = sum(1 for token in keywords if token in text)
+    return min(1.0, hits / max(1, len(keywords)))
+
+
+def _native_reasoning_for(
+    minister: str,
+    stance: str,
+    urgency: float,
+    risk_score: float,
+    uncertainty: float,
+) -> str:
+    if stance == "oppose":
+        if risk_score > 0.0:
+            return f"{minister}: downside and irreversibility risk require a defensive posture."
+        return f"{minister}: available evidence does not justify proceeding."
+    if stance == "support":
+        if urgency > 0.0:
+            return f"{minister}: timing pressure favors decisive action with guardrails."
+        return f"{minister}: expected upside and strategic alignment support proceeding."
+    if uncertainty > 0.0:
+        return f"{minister}: uncertainty is elevated; gather signal before commitment."
+    return f"{minister}: maintain optionality while tracking new evidence."

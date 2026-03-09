@@ -200,7 +200,7 @@ class KIS2Retrieval:
         if not self.config.auto_build_embeddings:
             raise FileNotFoundError(
                 f"Embeddings file not found: {self.embeddings_path}. "
-                "Build it via evaluation/build_kis2_index.py."
+                "Provide a prebuilt embedding index or enable auto_build_embeddings."
             )
 
         vectors: List[List[float]] = []

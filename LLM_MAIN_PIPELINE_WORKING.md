@@ -16,7 +16,7 @@ Yes, `llm` can contribute to the main pipeline, but currently it functions mostl
   - Lists locally installed models (`ollama list`) and returns preferred `(user_model, program_model)` pairs.
   - Handles absence/failure of CLI gracefully.
 
-- `llm/interactive_llm_conversation.py`
+- `run_refactored.py`
   - Demonstration script running a synthetic LLM user vs persona response loop.
   - Uses `persona.ollama_runtime.OllamaRuntime`.
 
@@ -99,3 +99,4 @@ If you want `llm` to contribute more directly without architecture churn:
 ## Bottom Line
 
 `llm` is currently a utility/support module with real but limited mainline impact. It can contribute more by becoming the standardized model-selection and compatibility layer, while keeping execution/scoring ownership in `persona` and `evaluation`.
+

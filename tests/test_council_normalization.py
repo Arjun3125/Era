@@ -325,3 +325,26 @@ def test_council_normalization_module_preserves_partial_iterable_engine_payload(
     assert result.outputs["council_result_normalized"]["outcome"] == "consensus_reached"
     assert result.outputs["minister_outputs_normalized"]["risk"]["confidence"] == 0.8
     assert result.outputs["council_normalization_warnings"] == ["warn-a", "warn-b"]
+
+
+def test_council_normalization_module_does_not_flag_engine_dataclass_as_malformed():
+    module = CouncilNormalizationModule.create()
+    context = ExecutionContext(
+        input_contract=InputContract(user_input="x"),
+        state={
+            "council_result": {
+                "outcome": "consensus_reached",
+                "recommendation": "support",
+                "mode": "meeting",
+                "minister_outputs": {
+                    "risk": {"stance": "oppose", "confidence": 0.7},
+                },
+            }
+        },
+    )
+
+    result = module.execute(context)
+    assert all(
+        "returned non-mapping result" not in warning
+        for warning in result.outputs["council_normalization_warnings"]
+    )

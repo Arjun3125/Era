@@ -31,7 +31,7 @@ os.environ["SKIP_OLLAMA_CHECK"] = "1"  # Allow running without Ollama for now
 from evaluation.evaluation_runner import EvaluationRunner
 from evaluation.stats_engine import StatsEngine
 from evaluation.metrics.evaluation_metrics import EvaluationMetrics
-from persona.ollama_runtime import OllamaRuntime
+from llm.runtime import OllamaRuntime
 
 logging.basicConfig(
     level=logging.INFO,

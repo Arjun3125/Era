@@ -383,9 +383,18 @@ class CouncilExecutionModule(ModulePlugin):
             for name, payload_item in minister_outputs.items()
         ]
 
+        outcome_raw = cls._normalize_mode_candidate(cls._read_field(raw, "outcome"))
+        recommendation_raw = cls._normalize_mode_candidate(cls._read_field(raw, "recommendation"))
+        recommendation = cls._normalize_recommendation(recommendation_raw)
+        outcome = cls._normalize_outcome(
+            outcome_raw,
+            recommendation=recommendation,
+            red_line_count=len(red_lines),
+        )
+
         return {
-            "outcome": cls._normalize_mode_candidate(cls._read_field(raw, "outcome")) or "not_invoked",
-            "recommendation": cls._normalize_mode_candidate(cls._read_field(raw, "recommendation")) or "defer",
+            "outcome": outcome,
+            "recommendation": recommendation,
             "mode": mode,
             "ministers_involved": ministers_involved,
             "ministers_failed": failed,
@@ -402,6 +411,76 @@ class CouncilExecutionModule(ModulePlugin):
             "warnings": warnings,
             "warning_count": len(warnings),
         }
+
+    @staticmethod
+    def _normalize_outcome(
+        raw_outcome: str,
+        *,
+        recommendation: str,
+        red_line_count: int,
+    ) -> str:
+        if not raw_outcome:
+            if recommendation == "defer" and red_line_count == 0:
+                return "not_invoked"
+            return "deadlocked"
+        if raw_outcome in {
+            "consensus_reached",
+            "bounded_risk_tradeoff",
+            "deadlocked",
+            "quick_mode_direct_response",
+            "council_disabled_ablation",
+            "not_invoked",
+        }:
+            return raw_outcome
+        if red_line_count > 0:
+            return "bounded_risk_tradeoff"
+        if recommendation == "support":
+            return "consensus_reached"
+        if recommendation == "oppose":
+            return "bounded_risk_tradeoff"
+        return "deadlocked"
+
+    @staticmethod
+    def _normalize_recommendation(raw_recommendation: str) -> str:
+        if raw_recommendation in {"support", "oppose", "defer"}:
+            return raw_recommendation
+
+        support_tokens = {
+            "strong_consensus_support",
+            "strong_doctrine_aligned_consensus",
+            "aggressive_proceed",
+            "proceed_with_confidence",
+            "proceed_with_caution",
+            "consensus_with_noted_dissent",
+            "support_with_caution",
+            "accept",
+            "accept_with_mitigation",
+            "proceed",
+        }
+        oppose_tokens = {
+            "strong_consensus_oppose",
+            "red_line_blocks_recommendation",
+            "red_line_block_override_needed",
+            "defensive_hold_or_pivot",
+            "reject",
+        }
+        defer_tokens = {
+            "mixed_consensus_with_tradeoffs",
+            "deep_disagreement_defer_decision",
+            "insufficient_data",
+            "unknown_mode",
+            "direct_response",
+            "no_council_response",
+            "use_direct_llm_response",
+            "",
+        }
+        if raw_recommendation in support_tokens:
+            return "support"
+        if raw_recommendation in oppose_tokens:
+            return "oppose"
+        if raw_recommendation in defer_tokens:
+            return "defer"
+        return "defer"
 
     @staticmethod
     def _read_field(payload: Mapping[str, Any], field: str, *, fallback: Any = None) -> Any:

@@ -356,7 +356,7 @@ current = dynamic_council.get_current_mode()
 
 **Problem**: Import error for CouncilAggregator
 
-**Solution**: Check that `persona/council.py` exists. The dynamic council loads it dynamically.
+**Solution**: Check that the `persona.council` package is importable. Dynamic council now resolves through package exports.
 
 **Problem**: Ministers not being invoked in some mode
 
@@ -381,3 +381,4 @@ current = dynamic_council.get_current_mode()
 ✅ Red line protection in all modes
 
 **Ready to integrate into main.py** - see Step-by-Step Integration above.
+

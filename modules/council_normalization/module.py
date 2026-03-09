@@ -237,7 +237,14 @@ class CouncilNormalizationModule(ModulePlugin):
         warnings: list[str] = []
         payload_mapping = _coerce_mapping(value)
         payload = payload_mapping or {}
-        if payload_mapping is None and value not in (None, "", {}):
+        looks_like_engine_object = (
+            hasattr(value, "normalized_council")
+            or hasattr(value, "normalized_minister_outputs")
+            or hasattr(value, "council_positions")
+            or hasattr(value, "contract")
+            or hasattr(value, "warnings")
+        )
+        if payload_mapping is None and value not in (None, "", {}) and not looks_like_engine_object:
             warnings.append("Council normalization engine returned non-mapping result; normalized.")
 
         normalized_council_raw = cls._read_field(value, payload, "normalized_council")

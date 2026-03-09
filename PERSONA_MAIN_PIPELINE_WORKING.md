@@ -66,7 +66,7 @@ Yes. `persona` is a primary execution subsystem in this repository, not an isola
 ## C) Council Composition and Aggregation
 - Files:
   - `persona/council/dynamic_council.py`
-  - `persona/council.py`
+  - `persona/council/` package
   - `persona/council/__init__.py`
 - Responsibilities:
   - Dynamic council membership by mode.
@@ -132,3 +132,4 @@ Yes. `persona` is a primary execution subsystem in this repository, not an isola
 - Sovereign and system runners reuse persona contracts rather than duplicating them.
 
 Conclusion: `persona` is a core pipeline dependency and an active decision/control engine, not an optional plugin.
+

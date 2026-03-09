@@ -1,0 +1,1019 @@
+{
+  "summary": {
+    "python_files_total": 391,
+    "modules_total": 391,
+    "import_edges_total": 645,
+    "entrypoints_detected": [
+      "run_benchmark.py",
+      "run_eval_demo.py",
+      "system_main.py"
+    ],
+    "parse_errors": {
+      "tests/test_council_execution.py": "invalid non-printable character U+FEFF (<unknown>, line 1)",
+      "tests/test_council_normalization.py": "invalid non-printable character U+FEFF (<unknown>, line 1)",
+      "tests/test_domain_analysis.py": "invalid non-printable character U+FEFF (<unknown>, line 1)",
+      "tests/test_input_normalization.py": "invalid non-printable character U+FEFF (<unknown>, line 1)",
+      "tests/test_knowledge_synthesis.py": "invalid non-printable character U+FEFF (<unknown>, line 1)",
+      "tests/test_mode_routing.py": "invalid non-printable character U+FEFF (<unknown>, line 1)",
+      "tests/test_prime_decision.py": "invalid non-printable character U+FEFF (<unknown>, line 1)",
+      "tests/test_runtime_config_engine.py": "invalid non-printable character U+FEFF (<unknown>, line 1)",
+      "modules/council_execution/engine.py": "invalid non-printable character U+FEFF (<unknown>, line 1)",
+      "modules/council_normalization/engine.py": "invalid non-printable character U+FEFF (<unknown>, line 1)",
+      "modules/council_normalization/module.py": "invalid non-printable character U+FEFF (<unknown>, line 1)",
+      "modules/decision_packaging/engine.py": "invalid non-printable character U+FEFF (<unknown>, line 1)",
+      "modules/domain_analysis/engine.py": "invalid non-printable character U+FEFF (<unknown>, line 1)",
+      "modules/domain_analysis/module.py": "invalid non-printable character U+FEFF (<unknown>, line 1)",
+      "modules/input_normalization/engine.py": "invalid non-printable character U+FEFF (<unknown>, line 1)",
+      "modules/input_normalization/module.py": "invalid non-printable character U+FEFF (<unknown>, line 1)",
+      "modules/knowledge_synthesis/engine.py": "invalid non-printable character U+FEFF (<unknown>, line 1)",
+      "modules/knowledge_synthesis/module.py": "invalid non-printable character U+FEFF (<unknown>, line 1)",
+      "modules/prime_decision/engine.py": "invalid non-printable character U+FEFF (<unknown>, line 1)",
+      "modules/prime_decision/module.py": "invalid non-printable character U+FEFF (<unknown>, line 1)",
+      "modules/runtime_config/engine.py": "invalid non-printable character U+FEFF (<unknown>, line 1)",
+      "evaluation/scoring/rubric_engine.py": "invalid non-printable character U+FEFF (<unknown>, line 1)"
+    },
+    "candidate_counts": {
+      "unused": 70,
+      "legacy-adapter": 3,
+      "experimental": 24,
+      "uncertain": 0
+    },
+    "risk_counts": {
+      "high": 61,
+      "medium": 33,
+      "low": 3
+    }
+  },
+  "candidates": [
+    {
+      "path": "ingestion/v1/ingest.py",
+      "module": "ingestion.v1.ingest",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 1,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "ingestion/v1/llm.py",
+      "module": "ingestion.v1.llm",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "ingestion/v2/run_all_v2_ingest.py",
+      "module": "ingestion.v2.run_all_v2_ingest",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "ingestion/v2/scripts/generate_chapters_fallback.py",
+      "module": "ingestion.v2.scripts.generate_chapters_fallback",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "ingestion/v2/src/ASYNC_PIPELINE_GUIDE.py",
+      "module": "ingestion.v2.src.ASYNC_PIPELINE_GUIDE",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "ingestion/v2/src/adaptive_controller.py",
+      "module": "ingestion.v2.src.adaptive_controller",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "ingestion/v2/src/async_ingestion_orchestrator.py",
+      "module": "ingestion.v2.src.async_ingestion_orchestrator",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "ingestion/v2/src/benchmark_harness.py",
+      "module": "ingestion.v2.src.benchmark_harness",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "ingestion/v2/src/demo_async_pipeline.py",
+      "module": "ingestion.v2.src.demo_async_pipeline",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "ingestion/v2/src/distributed_queue.py",
+      "module": "ingestion.v2.src.distributed_queue",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "ingestion/v2/src/ingest_workers.py",
+      "module": "ingestion.v2.src.ingest_workers",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "ingestion/v2/src/ingestion_config.py",
+      "module": "ingestion.v2.src.ingestion_config",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "ingestion/v2/src/integration_examples.py",
+      "module": "ingestion.v2.src.integration_examples",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "ingestion/v2/src/minister_vector_db.py",
+      "module": "ingestion.v2.src.minister_vector_db",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "ingestion/v2/src/quickstart.py",
+      "module": "ingestion.v2.src.quickstart",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "ingestion/v2/src/verify_installation.py",
+      "module": "ingestion.v2.src.verify_installation",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "llm/interactive_llm_conversation.py",
+      "module": "llm.interactive_llm_conversation",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 3,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "llm/interactive_persona_chat.py",
+      "module": "llm.interactive_persona_chat",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 1,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "ml/QUICKSTART.py",
+      "module": "ml.QUICKSTART",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 5,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "ml/doctrine_update.py",
+      "module": "ml.doctrine_update",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "ml/minister_retraining.py",
+      "module": "ml.minister_retraining",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "ml/quick_test_ml.py",
+      "module": "ml.quick_test_ml",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 5,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "ml/test_ml_learning_loop.py",
+      "module": "ml.test_ml_learning_loop",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "ml/tests/test_ml_wisdom.py",
+      "module": "ml.tests.test_ml_wisdom",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "multi_agent_sim/__main__.py",
+      "module": "multi_agent_sim.__main__",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 1,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "multi_agent_sim/demo.py",
+      "module": "multi_agent_sim.demo",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 4,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "multi_agent_sim/run_terminal.py",
+      "module": "multi_agent_sim.run_terminal",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 1,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "multi_agent_sim/simulation_runner.py",
+      "module": "multi_agent_sim.simulation_runner",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 6,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "multi_agent_sim/terminal.py",
+      "module": "multi_agent_sim.terminal",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "persona/cache_manager.py",
+      "module": "persona.cache_manager",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "persona/council.py",
+      "module": "persona.council",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "persona/persistence/memory_store.py",
+      "module": "persona.persistence.memory_store",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "persona/persona_learning_processor.py",
+      "module": "persona.persona_learning_processor",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "persona/persona_minister_kis_bridge.py",
+      "module": "persona.persona_minister_kis_bridge",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 3,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "persona/run_persona.py",
+      "module": "persona.run_persona",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "persona/run_persona_conversation.py",
+      "module": "persona.run_persona_conversation",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 1,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "persona/test_session_workflow.py",
+      "module": "persona.test_session_workflow",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "persona/validation/contradiction_detector.py",
+      "module": "persona.validation.contradiction_detector",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/ministers/conflict.py",
+      "module": "sovereign.ministers.conflict",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/ministers/diplomacy.py",
+      "module": "sovereign.ministers.diplomacy",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/ministers/discipline.py",
+      "module": "sovereign.ministers.discipline",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/ministers/examples.py",
+      "module": "sovereign.ministers.examples",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 5,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/ministers/grand_strategist.py",
+      "module": "sovereign.ministers.grand_strategist",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/ministers/intelligence.py",
+      "module": "sovereign.ministers.intelligence",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/ministers/legitimacy.py",
+      "module": "sovereign.ministers.legitimacy",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/ministers/narrative.py",
+      "module": "sovereign.ministers.narrative",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/ministers/optionality.py",
+      "module": "sovereign.ministers.optionality",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/ministers/power.py",
+      "module": "sovereign.ministers.power",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/ministers/psychology.py",
+      "module": "sovereign.ministers.psychology",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/ministers/risk.py",
+      "module": "sovereign.ministers.risk",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/ministers/risk_minister.py",
+      "module": "sovereign.ministers.risk_minister",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/ministers/risk_resources.py",
+      "module": "sovereign.ministers.risk_resources",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/ministers/sovereign.py",
+      "module": "sovereign.ministers.sovereign",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/ministers/technology.py",
+      "module": "sovereign.ministers.technology",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/ministers/timing.py",
+      "module": "sovereign.ministers.timing",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/ministers/truth.py",
+      "module": "sovereign.ministers.truth",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/ministers/war_mode.py",
+      "module": "sovereign.ministers.war_mode",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/runtime/council_runtime.py",
+      "module": "sovereign.runtime.council_runtime",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/runtime/minister_runtime.py",
+      "module": "sovereign.runtime.minister_runtime",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/sovereign_main.py",
+      "module": "sovereign.sovereign_main",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 6,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "sovereign/sovereign_main_integration_example.py",
+      "module": "sovereign.sovereign_main_integration_example",
+      "tag": "unused",
+      "risk": "high",
+      "incoming_imports": 0,
+      "outgoing_imports": 1,
+      "text_references": [],
+      "reason": "core subsystem file has no incoming imports"
+    },
+    {
+      "path": "Memory/pwm.py",
+      "module": "Memory.pwm",
+      "tag": "unused",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "no incoming imports in static graph"
+    },
+    {
+      "path": "analytics/improvement_tracker.py",
+      "module": "analytics.improvement_tracker",
+      "tag": "unused",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "no incoming imports in static graph"
+    },
+    {
+      "path": "analytics/reporting.py",
+      "module": "analytics.reporting",
+      "tag": "unused",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "no incoming imports in static graph"
+    },
+    {
+      "path": "analyze_conversation_learning.py",
+      "module": "analyze_conversation_learning",
+      "tag": "unused",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "no incoming imports in static graph"
+    },
+    {
+      "path": "evaluation/analyze_kis_failure_mode.py",
+      "module": "evaluation.analyze_kis_failure_mode",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 1,
+      "text_references": [],
+      "reason": "evaluation pipeline script with no incoming imports"
+    },
+    {
+      "path": "evaluation/analyze_minister_similarity.py",
+      "module": "evaluation.analyze_minister_similarity",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "evaluation pipeline script with no incoming imports"
+    },
+    {
+      "path": "evaluation/build_kis2_index.py",
+      "module": "evaluation.build_kis2_index",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 1,
+      "text_references": [],
+      "reason": "evaluation pipeline script with no incoming imports"
+    },
+    {
+      "path": "evaluation/build_phase2_gating_dataset.py",
+      "module": "evaluation.build_phase2_gating_dataset",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 4,
+      "text_references": [],
+      "reason": "evaluation pipeline script with no incoming imports"
+    },
+    {
+      "path": "evaluation/freeze_diversity_baseline.py",
+      "module": "evaluation.freeze_diversity_baseline",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "evaluation pipeline script with no incoming imports"
+    },
+    {
+      "path": "evaluation/gate_milestone3.py",
+      "module": "evaluation.gate_milestone3",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "evaluation pipeline script with no incoming imports"
+    },
+    {
+      "path": "evaluation/reliability_analysis.py",
+      "module": "evaluation.reliability_analysis",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 1,
+      "text_references": [],
+      "reason": "evaluation pipeline script with no incoming imports"
+    },
+    {
+      "path": "evaluation/run_phase2_with_gates.py",
+      "module": "evaluation.run_phase2_with_gates",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 3,
+      "text_references": [],
+      "reason": "evaluation pipeline script with no incoming imports"
+    },
+    {
+      "path": "evaluation/run_phase4_stress.py",
+      "module": "evaluation.run_phase4_stress",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "evaluation pipeline script with no incoming imports"
+    },
+    {
+      "path": "evaluation/train_kis2_reranker.py",
+      "module": "evaluation.train_kis2_reranker",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "evaluation pipeline script with no incoming imports"
+    },
+    {
+      "path": "evaluation/train_phase2_gating.py",
+      "module": "evaluation.train_phase2_gating",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "evaluation pipeline script with no incoming imports"
+    },
+    {
+      "path": "evaluation/uncertainty_analysis.py",
+      "module": "evaluation.uncertainty_analysis",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "evaluation pipeline script with no incoming imports"
+    },
+    {
+      "path": "llm_conversation.py",
+      "module": "llm_conversation",
+      "tag": "unused",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 2,
+      "text_references": [],
+      "reason": "no incoming imports in static graph"
+    },
+    {
+      "path": "scripts/STARTUP_GUIDE.py",
+      "module": "scripts.STARTUP_GUIDE",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "utility script with no incoming imports"
+    },
+    {
+      "path": "scripts/VISUAL_SUMMARY.py",
+      "module": "scripts.VISUAL_SUMMARY",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "utility script with no incoming imports"
+    },
+    {
+      "path": "scripts/check_embed.py",
+      "module": "scripts.check_embed",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 1,
+      "text_references": [],
+      "reason": "utility script with no incoming imports"
+    },
+    {
+      "path": "scripts/check_ingestion_status.py",
+      "module": "scripts.check_ingestion_status",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "utility script with no incoming imports"
+    },
+    {
+      "path": "scripts/check_models.py",
+      "module": "scripts.check_models",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "utility script with no incoming imports"
+    },
+    {
+      "path": "scripts/check_ollama_api.py",
+      "module": "scripts.check_ollama_api",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "utility script with no incoming imports"
+    },
+    {
+      "path": "scripts/check_requirements.py",
+      "module": "scripts.check_requirements",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "utility script with no incoming imports"
+    },
+    {
+      "path": "scripts/convert_markdown_to_docx.py",
+      "module": "scripts.convert_markdown_to_docx",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "utility script with no incoming imports"
+    },
+    {
+      "path": "scripts/ingest_status.py",
+      "module": "scripts.ingest_status",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "utility script with no incoming imports"
+    },
+    {
+      "path": "scripts/run_embed_only.py",
+      "module": "scripts.run_embed_only",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 4,
+      "text_references": [],
+      "reason": "utility script with no incoming imports"
+    },
+    {
+      "path": "scripts/scan_rag_storage.py",
+      "module": "scripts.scan_rag_storage",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "utility script with no incoming imports"
+    },
+    {
+      "path": "scripts/stream_persona_live.py",
+      "module": "scripts.stream_persona_live",
+      "tag": "experimental",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 4,
+      "text_references": [],
+      "reason": "utility script with no incoming imports"
+    },
+    {
+      "path": "utils/ML_WISDOM_INTEGRATION_GUIDE.py",
+      "module": "utils.ML_WISDOM_INTEGRATION_GUIDE",
+      "tag": "unused",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 4,
+      "text_references": [],
+      "reason": "no incoming imports in static graph"
+    },
+    {
+      "path": "utils/batch_convert_rag_storage.py",
+      "module": "utils.batch_convert_rag_storage",
+      "tag": "unused",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "no incoming imports in static graph"
+    },
+    {
+      "path": "utils/cleanup_atomic_dirs.py",
+      "module": "utils.cleanup_atomic_dirs",
+      "tag": "unused",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "no incoming imports in static graph"
+    },
+    {
+      "path": "utils/migrate_to_consolidated.py",
+      "module": "utils.migrate_to_consolidated",
+      "tag": "unused",
+      "risk": "medium",
+      "incoming_imports": 0,
+      "outgoing_imports": 0,
+      "text_references": [],
+      "reason": "no incoming imports in static graph"
+    },
+    {
+      "path": "archive/integrations_old/persona_mas_integration.py",
+      "module": "archive.integrations_old.persona_mas_integration",
+      "tag": "legacy-adapter",
+      "risk": "low",
+      "incoming_imports": 0,
+      "outgoing_imports": 10,
+      "text_references": [],
+      "reason": "under archive/* and no incoming imports"
+    },
+    {
+      "path": "archive/integrations_old/persona_mas_integration_simple.py",
+      "module": "archive.integrations_old.persona_mas_integration_simple",
+      "tag": "legacy-adapter",
+      "risk": "low",
+      "incoming_imports": 0,
+      "outgoing_imports": 8,
+      "text_references": [],
+      "reason": "under archive/* and no incoming imports"
+    },
+    {
+      "path": "archive/runtime_old/run_sim.py",
+      "module": "archive.runtime_old.run_sim",
+      "tag": "legacy-adapter",
+      "risk": "low",
+      "incoming_imports": 0,
+      "outgoing_imports": 6,
+      "text_references": [],
+      "reason": "under archive/* and no incoming imports"
+    }
+  ]
+}
