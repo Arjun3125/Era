@@ -1,0 +1,236 @@
+# Python Architecture Index
+
+- Python files parsed: **289**
+
+## Largest Python Modules by Line Count (Top 50)
+
+- `evaluation/run_phase2_robustness.py`: lines=2739, classes=1, functions=50, imports=28
+- `ingestion/v1/ingest.py`: lines=1654, classes=0, functions=32, imports=16
+- `evaluation/uncertainty_analysis.py`: lines=1593, classes=1, functions=35, imports=8
+- `ingestion/v1/llm.py`: lines=1355, classes=1, functions=24, imports=6
+- `persona/ministers.py`: lines=901, classes=22, functions=25, imports=6
+- `system_main.py`: lines=865, classes=1, functions=14, imports=19
+- `persona/main.py`: lines=841, classes=0, functions=4, imports=26
+- `ingestion/v2/src/ingest_pipeline.py`: lines=829, classes=0, functions=12, imports=24
+- `tests/comprehensive_persona_test_suite.py`: lines=761, classes=5, functions=24, imports=14
+- `evaluation/evaluation_runner.py`: lines=640, classes=2, functions=14, imports=14
+- `persona/modes/mode_orchestrator.py`: lines=626, classes=9, functions=37, imports=3
+- `tests/master_test_orchestrator.py`: lines=620, classes=2, functions=24, imports=14
+- `evaluation/reliability_analysis.py`: lines=605, classes=0, functions=20, imports=9
+- `ml/sovereign_orchestrator.py`: lines=581, classes=1, functions=10, imports=16
+- `ingestion/v2/src/async_workers.py`: lines=570, classes=0, functions=10, imports=14
+- `persona/knowledge_engine.py`: lines=551, classes=0, functions=15, imports=6
+- `evaluation/gating_support.py`: lines=549, classes=1, functions=23, imports=10
+- `persona/persona_learning_processor.py`: lines=508, classes=1, functions=13, imports=6
+- `run_benchmark.py`: lines=501, classes=1, functions=8, imports=12
+- `tests/advanced_persona_test_suite.py`: lines=497, classes=3, functions=16, imports=13
+- `ml/llm_handshakes/llm_interface.py`: lines=495, classes=6, functions=7, imports=8
+- `tests/comprehensive_feature_test.py`: lines=486, classes=2, functions=16, imports=12
+- `ingestion/v2/src/doctrine_extractor.py`: lines=471, classes=0, functions=7, imports=7
+- `utils/ML_WISDOM_INTEGRATION_GUIDE.py`: lines=465, classes=0, functions=10, imports=4
+- `ml/kis/knowledge_integration_system.py`: lines=462, classes=5, functions=12, imports=7
+- `hse/simulation/bidirectional_simulation.py`: lines=457, classes=1, functions=16, imports=12
+- `evaluation/stats_engine.py`: lines=452, classes=2, functions=11, imports=5
+- `ingestion/v2/src/ingestion_kis_enhancer.py`: lines=444, classes=2, functions=11, imports=8
+- `persona/analysis.py`: lines=438, classes=0, functions=10, imports=5
+- `ml/outcomes/outcome_recorder.py`: lines=434, classes=3, functions=16, imports=7
+- `persona/pwm_integration/pwm_bridge.py`: lines=423, classes=1, functions=11, imports=2
+- `evaluation/kis2_retrieval.py`: lines=417, classes=4, functions=18, imports=10
+- `persona/session_manager.py`: lines=412, classes=3, functions=16, imports=9
+- `evaluation/gate_milestone3.py`: lines=412, classes=0, functions=5, imports=5
+- `ingestion/v2/src/benchmark_harness.py`: lines=411, classes=4, functions=22, imports=9
+- `evaluation/run_phase2_with_gates.py`: lines=410, classes=0, functions=2, imports=10
+- `evaluation/scoring/outcome_scorer.py`: lines=408, classes=2, functions=10, imports=6
+- `ingestion/v2/src/ASYNC_PIPELINE_GUIDE.py`: lines=406, classes=0, functions=0, imports=0
+- `ml/tests/test_ml_wisdom.py`: lines=405, classes=5, functions=18, imports=10
+- `tests/verification/verify_all_features.py`: lines=401, classes=0, functions=1, imports=8
+- `scripts/STARTUP_GUIDE.py`: lines=396, classes=0, functions=0, imports=0
+- `persona/persona_minister_kis_bridge.py`: lines=394, classes=1, functions=8, imports=9
+- `ingestion/v2/src/async_ingestion_orchestrator.py`: lines=385, classes=4, functions=16, imports=11
+- `evaluation/build_phase2_gating_dataset.py`: lines=377, classes=0, functions=7, imports=10
+- `evaluation/analyze_kis_failure_mode.py`: lines=372, classes=0, functions=8, imports=8
+- `ml/ml_orchestrator.py`: lines=371, classes=1, functions=11, imports=8
+- `tests/test_async_ingestion.py`: lines=363, classes=6, functions=15, imports=8
+- `ingestion/v2/src/minister_converter.py`: lines=359, classes=0, functions=5, imports=8
+- `ingestion/v2/src/ingestion_config.py`: lines=359, classes=7, functions=4, imports=3
+- `ingestion/v2/src/distributed_queue.py`: lines=351, classes=4, functions=32, imports=7
+
+## Python Files by Module Prefix
+
+- `ingestion/v2`: 35
+- `sovereign/ministers`: 26
+- `tests/verification`: 13
+- `archive/runtime_old`: 8
+- `persona/learning`: 8
+- `hse/simulation`: 5
+- `persona/validation`: 4
+- `archive/integrations_old`: 3
+- `evaluation/scoring`: 3
+- `persona/modes`: 3
+- `persona/persistence`: 3
+- `evaluation/metrics`: 2
+- `ingestion/v1`: 2
+- `ml/features`: 2
+- `ml/judgment`: 2
+- `ml/kis`: 2
+- `ml/labels`: 2
+- `ml/llm_handshakes`: 2
+- `ml/outcomes`: 2
+- `ml/tests`: 2
+- `persona/council`: 2
+- `persona/pwm_integration`: 2
+- `sovereign/runtime`: 2
+- `Memory/pwm.py`: 1
+- `analytics/__init__.py`: 1
+- `analytics/dashboard.py`: 1
+- `analytics/improvement_tracker.py`: 1
+- `analytics/reporting.py`: 1
+- `analyze_conversation_learning.py`: 1
+- `evaluation/__init__.py`: 1
+- `evaluation/adversarial_user_simulator.py`: 1
+- `evaluation/analyze_kis_failure_mode.py`: 1
+- `evaluation/analyze_minister_similarity.py`: 1
+- `evaluation/build_kis2_index.py`: 1
+- `evaluation/build_phase2_gating_dataset.py`: 1
+- `evaluation/create_split_manifest.py`: 1
+- `evaluation/distribution_shift.py`: 1
+- `evaluation/evaluate_phase2_gates.py`: 1
+- `evaluation/evaluation_runner.py`: 1
+- `evaluation/freeze_diversity_baseline.py`: 1
+- `evaluation/gate_milestone3.py`: 1
+- `evaluation/gating_model.py`: 1
+- `evaluation/gating_support.py`: 1
+- `evaluation/kis2_retrieval.py`: 1
+- `evaluation/learned_uncertainty.py`: 1
+- `evaluation/red_team_governance.py`: 1
+- `evaluation/reliability_analysis.py`: 1
+- `evaluation/run_phase2_robustness.py`: 1
+- `evaluation/run_phase2_with_gates.py`: 1
+- `evaluation/run_phase4_stress.py`: 1
+- `evaluation/stats_engine.py`: 1
+- `evaluation/train_kis2_reranker.py`: 1
+- `evaluation/train_phase2_gating.py`: 1
+- `evaluation/uncertainty_analysis.py`: 1
+- `hse/__init__.py`: 1
+- `hse/analytics_server.py`: 1
+- `hse/crisis_injector.py`: 1
+- `hse/human_profile.py`: 1
+- `hse/personality_drift.py`: 1
+- `hse/population_manager.py`: 1
+- `llm/__init__.py`: 1
+- `llm/interactive_llm_conversation.py`: 1
+- `llm/interactive_persona_chat.py`: 1
+- `llm/ollama.py`: 1
+- `llm/ollama_model_selector.py`: 1
+- `llm_conversation.py`: 1
+- `ml/QUICKSTART.py`: 1
+- `ml/__init__.py`: 1
+- `ml/darbar.py`: 1
+- `ml/doctrine_update.py`: 1
+- `ml/minister_retraining.py`: 1
+- `ml/ml_orchestrator.py`: 1
+- `ml/pattern_extraction.py`: 1
+- `ml/quick_test_ml.py`: 1
+- `ml/reward_shaping.py`: 1
+- `ml/sovereign_orchestrator.py`: 1
+- `ml/system_retraining.py`: 1
+- `ml/test_ml_learning_loop.py`: 1
+- `ml/vector_memory.py`: 1
+- `multi_agent_sim/__init__.py`: 1
+- `multi_agent_sim/__main__.py`: 1
+- `multi_agent_sim/agents.py`: 1
+- `multi_agent_sim/archetypes.py`: 1
+- `multi_agent_sim/demo.py`: 1
+- `multi_agent_sim/logger.py`: 1
+- `multi_agent_sim/orchestrator.py`: 1
+- `multi_agent_sim/run_terminal.py`: 1
+- `multi_agent_sim/simulation_runner.py`: 1
+- `multi_agent_sim/terminal.py`: 1
+- `persona/__init__.py`: 1
+- `persona/analysis.py`: 1
+- `persona/brain.py`: 1
+- `persona/cache_manager.py`: 1
+- `persona/clarify.py`: 1
+- `persona/context.py`: 1
+- `persona/council.py`: 1
+- `persona/doctrine_loader.py`: 1
+- `persona/domain_detector.py`: 1
+- `persona/knowledge_engine.py`: 1
+- `persona/main.py`: 1
+- `persona/ministers.py`: 1
+- `persona/ollama_runtime.py`: 1
+- `persona/persona_learning_processor.py`: 1
+- `persona/persona_minister_kis_bridge.py`: 1
+- `persona/run_persona.py`: 1
+- `persona/run_persona_conversation.py`: 1
+- `persona/session_manager.py`: 1
+- `persona/state.py`: 1
+- `persona/test_session_workflow.py`: 1
+- `persona/trace.py`: 1
+- `run_benchmark.py`: 1
+- `run_eval_demo.py`: 1
+- `scripts/STARTUP_GUIDE.py`: 1
+- `scripts/VISUAL_SUMMARY.py`: 1
+- `scripts/check_embed.py`: 1
+- `scripts/check_ingestion_status.py`: 1
+- `scripts/check_models.py`: 1
+- `scripts/check_ollama_api.py`: 1
+- `scripts/check_requirements.py`: 1
+- `scripts/ingest_status.py`: 1
+- `scripts/run_embed_only.py`: 1
+- `scripts/scan_rag_storage.py`: 1
+- `scripts/stream_persona_live.py`: 1
+- `sovereign/council`: 1
+- `sovereign/llm_adapter.py`: 1
+- `sovereign/prime_confident.py`: 1
+- `sovereign/sovereign_main.py`: 1
+- `sovereign/sovereign_main_integration_example.py`: 1
+- `system_main.py`: 1
+- `tests/advanced_persona_test_suite.py`: 1
+- `tests/check_extraction.py`: 1
+- `tests/check_kis_in_doctrine.py`: 1
+- `tests/comprehensive_feature_test.py`: 1
+- `tests/comprehensive_persona_test_suite.py`: 1
+- `tests/conftest.py`: 1
+- `tests/debug_kis_ingestion.py`: 1
+- `tests/master_test_orchestrator.py`: 1
+- `tests/run_adapter_test.py`: 1
+- `tests/run_kis_integration_test.py`: 1
+- `tests/run_phase1_test.py`: 1
+- `tests/run_tests.py`: 1
+- `tests/run_v2_ingest_test.py`: 1
+- `tests/sovereign_stress_test.py`: 1
+- `tests/test_async_embed.py`: 1
+- `tests/test_async_embed_debug.py`: 1
+- `tests/test_async_ingest.py`: 1
+- `tests/test_async_ingestion.py`: 1
+- `tests/test_deepseek_doctrine.py`: 1
+- `tests/test_direct_ingest.py`: 1
+- `tests/test_e2e_ingestion.py`: 1
+- `tests/test_embed.py`: 1
+- `tests/test_embed_model.py`: 1
+- `tests/test_features.py`: 1
+- `tests/test_generate.py`: 1
+- `tests/test_improved_doctrine.py`: 1
+- `tests/test_kis_enhancement_direct.py`: 1
+- `tests/test_kis_exact_scenario.py`: 1
+- `tests/test_kis_integration.py`: 1
+- `tests/test_llm_client.py`: 1
+- `tests/test_llm_kis_integration.py`: 1
+- `tests/test_minister_converter.py`: 1
+- `tests/test_split.py`: 1
+- `tests/test_split_direct.py`: 1
+- `tests/test_split_qwen25.py`: 1
+- `tests/test_step3_simple.py`: 1
+- `tests/test_step4_training_data.py`: 1
+- `tests/vector_db_smoke.py`: 1
+- `tests/verify_api_fixes.py`: 1
+- `tests/verify_kis_integration.py`: 1
+- `tests/verify_kis_saved.py`: 1
+- `tests/verify_llm_implementation.py`: 1
+- `tests/verify_ml_integration.py`: 1
+- `utils/ML_WISDOM_INTEGRATION_GUIDE.py`: 1
+- `utils/__init__.py`: 1
+- `utils/batch_convert_rag_storage.py`: 1
+- `utils/cleanup_atomic_dirs.py`: 1
+- `utils/migrate_to_consolidated.py`: 1

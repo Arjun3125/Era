@@ -1,0 +1,1028 @@
+# Annex C - Non-Python Asset Forensics
+
+## JSON Validation by Top Folder
+
+- `ingestion`: total=1298, invalid=5, large_skip=1
+- `data`: total=209, invalid=0, large_skip=0
+- `rag_cache`: total=175, invalid=0, large_skip=0
+- `evaluation`: total=106, invalid=0, large_skip=2
+- `documentation`: total=9, invalid=0, large_skip=0
+- `rag_storage`: total=7, invalid=0, large_skip=0
+- `(root)`: total=6, invalid=0, large_skip=0
+- `tests`: total=5, invalid=0, large_skip=0
+- `ml`: total=3, invalid=0, large_skip=0
+- `logs`: total=2, invalid=0, large_skip=0
+- `knowledge`: total=1, invalid=0, large_skip=0
+
+## Invalid JSON Files (Detailed)
+
+- `ingestion/data/ministers/Personal Development/warnings.json` (11416 bytes): Extra data: line 395 column 8 (char 10919)
+- `ingestion/data/ministers/adaptation/principles.json` (314509 bytes): Extra data: line 10513 column 2 (char 303904)
+- `ingestion/data/ministers/adaptation/rules.json` (329262 bytes): Extra data: line 10946 column 6 (char 318244)
+- `ingestion/data/ministers/optionality/principles.json` (175219 bytes): Extra data: line 5890 column 2 (char 169296)
+- `ingestion/data/ministers/psychology/principles.json` (576981 bytes): Extra data: line 18933 column 2 (char 557957)
+
+## Largest Binary Assets (Top 120)
+
+- `data/books/Man and his Symbols ( PDFDrive ).pdf` (62391741 bytes)
+- `data/books/think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_.pdf` (27339075 bytes)
+- `data/books/Ortega_y_Gasset_Jose_The_Revolt_of_the_Masses.pdf` (23246967 bytes)
+- `data/books/pathtowealthorli00hall.pdf` (21896100 bytes)
+- `data/books/Thus spoke Zarathustra.pdf` (13775442 bytes)
+- `data/books/Jacques Ellul - The Technological Society.pdf` (11689365 bytes)
+- `data/books/modern-man-in-search-of-a-soul-stages-of-life-1.pdf` (11085845 bytes)
+- `data/books/SuperThinking.pdf` (10326801 bytes)
+- `data/books/The Diary of a CEO_ 33 Laws of Business and Life (2023).pdf` (9893255 bytes)
+- `data/books/Letters from a Stoic 1.pdf` (9239490 bytes)
+- `data/books/ThePersonalMBA10thAnniversaryEdition.pdf` (8683628 bytes)
+- `data/books/ernest_becker_the_denial_of_deathbookfi-org.pdf` (8505880 bytes)
+- `data/books/Finite-and-Infinite-Games-by-James-Carse.pdf` (8009574 bytes)
+- `data/books/Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_.pdf` (7702978 bytes)
+- `data/books/TheRighteousMind.pdf` (7418525 bytes)
+- `data/books/Beyond good and evil.pdf` (6790130 bytes)
+- `data/books/Your Next Five Moves Patrick Bet David.pdf` (6774563 bytes)
+- `data/books/ClearThinking.pdf` (6389931 bytes)
+- `data/books/How to Not Die Alone.pdf` (5719047 bytes)
+- `data/books/NeilPostman-AmusingOurselvesToDeath.pdf` (3821883 bytes)
+- `data/books/the-millionaire-fastlane.pdf` (3752691 bytes)
+- `data/books/The Psychology of Persuasion.pdf` (3574104 bytes)
+- `data/books/roadto.pdf` (3307363 bytes)
+- `data/books/2950_Daniel Kahneman - Thinking, Fast and Slow (2013).pdf` (3021431 bytes)
+- `data/books/crowdastudypopu00bongoog.pdf` (3005323 bytes)
+- `data/books/The_Psychology_of_Money.pdf` (2953539 bytes)
+- `data/books/Machiavelli,+The+Prince.pdf` (2860352 bytes)
+- `data/books/64b13492db952-the-daily-stoic.pdf` (2725248 bytes)
+- `data/books/Notes-from-Underground-Extract.pdf` (2701687 bytes)
+- `data/books/The Courage To Be Disliked.pdf` (2451180 bytes)
+- `data/books/extreme_ownership__how_us_navy_seals_lead_and_win.pdf` (2381718 bytes)
+- `data/books/Crime.pdf` (2352410 bytes)
+- `data/books/Poor Charlie’s Almanack_ The Wit and Wisdom of Charles T. Munger ( PDFDrive ).pdf` (2332085 bytes)
+- `data/books/Crucial Conversations.pdf` (2084008 bytes)
+- `data/books/Marcus-Aurelius-Meditations.pdf` (1986376 bytes)
+- `data/books/No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy.pdf` (1967169 bytes)
+- `data/books/Mastery by Robert Greene.pdf` (1815979 bytes)
+- `data/books/How To Win Friends And Influence People - Carnegie, Dale.pdf` (1624097 bytes)
+- `data/books/the-communication-book-44-ideas-for-better-conversations-every-day-9781324001997-1324001992_compress.pdf` (1607301 bytes)
+- `data/books/Deep Work.pdf` (1594739 bytes)
+- `data/books/16-05-2021-070111The-Richest-Man-in-Babylon.pdf` (1576497 bytes)
+- `data/books/E001005.pdf` (1383132 bytes)
+- `data/books/Men-are-from-mars-women-are-from-venus.pdf` (1254315 bytes)
+- `data/books/The Myth of Sisyphus - Albert Camus.pdf` (1246909 bytes)
+- `data/books/33449.pdf` (1210913 bytes)
+- `data/books/Felix-Dennis-How-to-Get-Rich.pdf` (1142033 bytes)
+- `data/books/Cioran, E. M. - Trouble With Being Born (Seaver, 2011).pdf` (1061930 bytes)
+- `data/books/the_magic_of_thinking_big.pdf` (1038821 bytes)
+- `data/books/Being in Love.pdf` (933631 bytes)
+- `data/books/Do It Today.pdf` (753032 bytes)
+- `data/books/f94cc-a-guide-to-the-good-life-the-ancient-art-of-stoic-joy-william-braxton-irvine.pdf` (722387 bytes)
+- `data/books/milan_kundera_-_the_unbearable_lightness_of_being.pdf` (673655 bytes)
+- `data/books/Win-Your-Inner-Battles.pdf` (650467 bytes)
+- `data/books/Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action.pdf` (635162 bytes)
+- `data/books/_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset.pdf` (591860 bytes)
+- `data/books/CAMUS, Albert - The Stranger.pdf` (550049 bytes)
+- `data/books/9780262353946_caa.pdf` (492428 bytes)
+- `evaluation/models/phase2_gating_model_v2_aug4_embed.pt` (487457 bytes)
+- `evaluation/models/phase2_gating_model_v2_aug6_embed.pt` (487457 bytes)
+- `data/books/Seamos_personas_de_Infliuencia.pdf` (356862 bytes)
+- `data/books/mans-search-for-meaning.pdf` (323804 bytes)
+- `data/books/20090526_TNA13Crawford2009.pdf` (194885 bytes)
+- `data/books/Summary-of-SGTCIY-pdf.pdf` (172619 bytes)
+- `evaluation/results/phase2_files_snapshot_20260225.zip` (25664 bytes)
+- `knowledge/embeddings.npy` (21632 bytes)
+- `evaluation/models/phase2_gating_model.pt` (17301 bytes)
+- `ingestion/data/combined_vector.index` (8144 bytes)
+- `data/ministers/adaptation/vector.index` (4 bytes)
+- `data/ministers/base/vector.index` (4 bytes)
+- `data/ministers/conflict/vector.index` (4 bytes)
+- `data/ministers/constraints/vector.index` (4 bytes)
+- `data/ministers/data/vector.index` (4 bytes)
+- `data/ministers/diplomacy/vector.index` (4 bytes)
+- `data/ministers/discipline/vector.index` (4 bytes)
+- `data/ministers/executor/vector.index` (4 bytes)
+- `data/ministers/legitimacy/vector.index` (4 bytes)
+- `data/ministers/optionality/vector.index` (4 bytes)
+- `data/ministers/power/vector.index` (4 bytes)
+- `data/ministers/psychology/vector.index` (4 bytes)
+- `data/ministers/registry/vector.index` (4 bytes)
+- `data/ministers/risk/vector.index` (4 bytes)
+- `data/ministers/strategy/vector.index` (4 bytes)
+- `data/ministers/technology/vector.index` (4 bytes)
+- `data/ministers/timing/vector.index` (4 bytes)
+- `data/ministers/truth/vector.index` (4 bytes)
+
+## Text/Doc Assets (Indexed)
+
+- `.env` ext= lines=12 words=16 headings=3
+- `.github/copilot-instructions.md` ext=.md lines=379 words=1251 headings=59
+- `.gitignore` ext= lines=48 words=55 headings=5
+- `ARCHITECTURE_CLARIFICATION.md` ext=.md lines=297 words=1005 headings=26
+- `AUDIT_REPORT.txt` ext=.txt lines=360 words=1377 headings=6
+- `AUDIT_REPORT_FINAL.txt` ext=.txt lines=550 words=1845 headings=5
+- `AUDIT_RESOLUTION.md` ext=.md lines=592 words=2208 headings=49
+- `AUDIT_RESOLUTION_INDEX.md` ext=.md lines=352 words=1482 headings=47
+- `CHANGELOG.md` ext=.md lines=246 words=1010 headings=29
+- `COMPLETION_SUMMARY.md` ext=.md lines=443 words=2016 headings=52
+- `DEAD_ENDS_AND_REDUNDANCY.txt` ext=.txt lines=337 words=1113 headings=0
+- `DEAD_ENDS_RESOLUTION.md` ext=.md lines=275 words=1012 headings=26
+- `DEPENDENCIES.md` ext=.md lines=524 words=1717 headings=111
+- `Memory/2026-02-19.md` ext=.md lines=89 words=392 headings=10
+- `Memory/schema.sql` ext=.sql lines=138 words=545 headings=0
+- `Memory/templates/commit_decision.txt` ext=.txt lines=31 words=98 headings=1
+- `Memory/templates/confidence_scoring.txt` ext=.txt lines=30 words=79 headings=1
+- `Memory/templates/hypothesis_generation.txt` ext=.txt lines=34 words=96 headings=1
+- `Memory/templates/memory_write.txt` ext=.txt lines=25 words=67 headings=1
+- `Memory/templates/session_summary.txt` ext=.txt lines=27 words=84 headings=1
+- `Memory/templates/signal_extraction.txt` ext=.txt lines=28 words=79 headings=1
+- `R&R.txt` ext=.txt lines=377 words=706 headings=0
+- `README.md` ext=.md lines=390 words=1405 headings=53
+- `SESSION_WORK_SUMMARY.md` ext=.md lines=251 words=1030 headings=37
+- `STARTUP_GUIDE.txt` ext=.txt lines=217 words=607 headings=0
+- `START_HERE.md` ext=.md lines=351 words=1322 headings=52
+- `UNIFIED_SYSTEM_GUIDE.txt` ext=.txt lines=550 words=1710 headings=0
+- `audit_temp/all_markdown_files.txt` ext=.txt lines=77 words=74 headings=0
+- `audit_temp/all_python_files.txt` ext=.txt lines=261 words=258 headings=0
+- `audit_temp/markdown_files.txt` ext=.txt lines=72 words=72 headings=0
+- `audit_temp/python_files.txt` ext=.txt lines=256 words=256 headings=0
+- `audit_temp/todos.txt` ext=.txt lines=8667 words=32074 headings=0
+- `audit_temp/todos_raw.txt` ext=.txt lines=2 words=15 headings=0
+- `benchmark_quickstart.log` ext=.log lines=48 words=163 headings=3
+- `data/doctrine/locked/adaptation.yaml` ext=.yaml lines=104 words=392 headings=0
+- `data/doctrine/locked/conflict.yaml` ext=.yaml lines=109 words=401 headings=0
+- `data/doctrine/locked/data.yaml` ext=.yaml lines=106 words=375 headings=0
+- `data/doctrine/locked/diplomacy.yaml` ext=.yaml lines=110 words=421 headings=0
+- `data/doctrine/locked/discipline.yaml` ext=.yaml lines=102 words=356 headings=0
+- `data/doctrine/locked/grand_strategist.yaml` ext=.yaml lines=107 words=458 headings=3
+- `data/doctrine/locked/intelligence.yaml` ext=.yaml lines=98 words=358 headings=0
+- `data/doctrine/locked/legitimacy.yaml` ext=.yaml lines=185 words=749 headings=0
+- `data/doctrine/locked/n.yaml` ext=.yaml lines=158 words=666 headings=0
+- `data/doctrine/locked/narrative.yaml` ext=.yaml lines=106 words=425 headings=0
+- `data/doctrine/locked/optionality.yaml` ext=.yaml lines=197 words=732 headings=0
+- `data/doctrine/locked/power.yaml` ext=.yaml lines=105 words=381 headings=0
+- `data/doctrine/locked/psychology.yaml` ext=.yaml lines=106 words=371 headings=0
+- `data/doctrine/locked/risk_resources.yaml` ext=.yaml lines=101 words=375 headings=0
+- `data/doctrine/locked/sovereign.yaml` ext=.yaml lines=64 words=275 headings=0
+- `data/doctrine/locked/technology.yaml` ext=.yaml lines=115 words=393 headings=0
+- `data/doctrine/locked/timing.yaml` ext=.yaml lines=107 words=396 headings=0
+- `data/doctrine/locked/tribunal.yaml` ext=.yaml lines=63 words=155 headings=0
+- `data/doctrine/locked/truth.yaml` ext=.yaml lines=193 words=738 headings=0
+- `data/doctrine/locked/war_mode.yaml` ext=.yaml lines=78 words=131 headings=0
+- `data/learning_insights/learning-insights.jsonl` ext=.jsonl lines=2 words=278 headings=0
+- `data/memory/episodes.jsonl` ext=.jsonl lines=178 words=18917 headings=0
+- `data/memory/metrics.jsonl` ext=.jsonl lines=178 words=5122 headings=0
+- `data/memory/test_episodes.jsonl` ext=.jsonl lines=4 words=140 headings=0
+- `data/memory/test_episodes_ml.jsonl` ext=.jsonl lines=90 words=2700 headings=0
+- `data/memory/test_metrics.jsonl` ext=.jsonl lines=40 words=560 headings=0
+- `data/memory/test_metrics_ml.jsonl` ext=.jsonl lines=30 words=450 headings=0
+- `data/memory/trace.log` ext=.log lines=48 words=755 headings=0
+- `data/sessions/consequences.jsonl` ext=.jsonl lines=2 words=41 headings=0
+- `documentation/01_PROJECT_OVERVIEW.md` ext=.md lines=332 words=1420 headings=35
+- `documentation/02_ARCHITECTURE.md` ext=.md lines=645 words=2209 headings=35
+- `documentation/03_FILE_REFERENCE.md` ext=.md lines=1054 words=3232 headings=113
+- `documentation/04_DATA_FLOW.md` ext=.md lines=979 words=2443 headings=43
+- `documentation/05_FLOWCHARTS.md` ext=.md lines=699 words=2239 headings=29
+- `documentation/API_FIXES_SUMMARY.md` ext=.md lines=198 words=647 headings=26
+- `documentation/DIALOGUE_ENHANCEMENT_GUIDE.md` ext=.md lines=439 words=1726 headings=59
+- `documentation/DYNAMIC_COUNCIL_GUIDE.md` ext=.md lines=383 words=1251 headings=74
+- `documentation/FINAL_SUMMARY.md` ext=.md lines=365 words=1460 headings=2
+- `documentation/HYBRID_MEMORY_ARCHITECTURE.md` ext=.md lines=274 words=941 headings=37
+- `documentation/IMPLEMENTATION_COMPLETE.md` ext=.md lines=368 words=1435 headings=39
+- `documentation/INTEGRATION_SUMMARY.md` ext=.md lines=344 words=1219 headings=29
+- `documentation/LLM_CONVERSATION_GUIDE.md` ext=.md lines=374 words=1038 headings=62
+- `documentation/ML_LEARNING_LOOP_COMPLETE.md` ext=.md lines=363 words=1345 headings=0
+- `documentation/MODE_EXAMPLES.md` ext=.md lines=625 words=3209 headings=18
+- `documentation/MODE_ORCHESTRATOR_COMPLETE.md` ext=.md lines=452 words=1828 headings=48
+- `documentation/MODE_QUICK_REFERENCE.md` ext=.md lines=159 words=675 headings=19
+- `documentation/MODE_SELECTION_GUIDE.md` ext=.md lines=381 words=1752 headings=39
+- `documentation/MODE_TESTING_CHECKLIST.md` ext=.md lines=463 words=1954 headings=41
+- `documentation/PWM_INTEGRATION_GUIDE.md` ext=.md lines=582 words=2190 headings=63
+- `documentation/PWM_INTEGRATION_SUMMARY.md` ext=.md lines=443 words=1704 headings=51
+- `documentation/PWM_REDESIGN_IMPLEMENTATION.md` ext=.md lines=319 words=1215 headings=59
+- `documentation/README.md` ext=.md lines=220 words=1001 headings=24
+- `documentation/SESSION_FEATURES_GUIDE.md` ext=.md lines=405 words=1446 headings=59
+- `documentation/SOVEREIGN_ORCHESTRATOR_GUIDE.md` ext=.md lines=330 words=1060 headings=38
+- `documentation/SYNTHETIC_CONVERSATION_GUIDE.md` ext=.md lines=295 words=1195 headings=35
+- `documentation/SYSTEM_ARCHITECTURE.md` ext=.md lines=435 words=1725 headings=34
+- `documentation/SYSTEM_READY.md` ext=.md lines=161 words=697 headings=16
+- `documentation/SYSTEM_STATUS.md` ext=.md lines=313 words=1371 headings=1
+- `documentation/TECHNICAL_CHANGES_SUMMARY.md` ext=.md lines=419 words=1451 headings=50
+- `documentation/TESTING_VALIDATION_GUIDE.md` ext=.md lines=261 words=1011 headings=25
+- `documentation/USER_PERSONA_CONVERSATION_GUIDE.md` ext=.md lines=183 words=684 headings=17
+- `documentation/forensic_audit_2026-03-04/00_complete_file_manifest.csv` ext=.csv lines=3105 words=6382 headings=0
+- `documentation/forensic_audit_2026-03-04/A00_SCOPE_AND_METHOD.md` ext=.md lines=19 words=98 headings=2
+- `documentation/forensic_audit_2026-03-04/A01_FILE_COVERAGE.md` ext=.md lines=98 words=382 headings=4
+- `documentation/forensic_audit_2026-03-04/A02_PYTHON_ARCHITECTURE_INDEX.md` ext=.md lines=236 words=855 headings=3
+- `documentation/forensic_audit_2026-03-04/A03_PARSER_AND_DATA_QUALITY_FLAGS.md` ext=.md lines=23 words=153 headings=3
+- `documentation/forensic_audit_2026-03-04/A04_DEPENDENCY_AND_ENTRYPOINT_MAP.md` ext=.md lines=135 words=351 headings=4
+- `documentation/forensic_audit_2026-03-04/A05_API_SECURITY_TEST_SURFACE.md` ext=.md lines=78 words=445 headings=15
+- `documentation/sovereign_ml_log.txt` ext=.txt lines=10 words=116 headings=0
+- `documentation/system doc/01_PROJECT_OVERVIEW.md` ext=.md lines=332 words=1420 headings=35
+- `documentation/system doc/02_ARCHITECTURE.md` ext=.md lines=645 words=2209 headings=35
+- `documentation/system doc/03_FILE_REFERENCE.md` ext=.md lines=1054 words=3232 headings=113
+- `documentation/system doc/04_DATA_FLOW.md` ext=.md lines=979 words=2443 headings=43
+- `documentation/system doc/05_FLOWCHARTS.md` ext=.md lines=699 words=2239 headings=29
+- `documents/CONSOLIDATION_COMPLETE.md` ext=.md lines=197 words=768 headings=17
+- `documents/CONSOLIDATION_IMPLEMENTATION_REPORT.md` ext=.md lines=298 words=1327 headings=34
+- `documents/Clarification Request Person N` ext= lines=1607 words=6146 headings=6
+- `documents/KIS Evaluation and Upgrades` ext= lines=826 words=3909 headings=65
+- `documents/Multi-Agent LLM Simulation` ext= lines=675 words=2811 headings=0
+- `documents/PHASE_3_5_IMPLEMENTATION_SUMMARY.md` ext=.md lines=195 words=654 headings=18
+- `documents/PHASE_3_5_MINISTER_CONVERSION.md` ext=.md lines=397 words=1169 headings=34
+- `documents/PHASE_3_5_POPULATION_REPORT.md` ext=.md lines=252 words=784 headings=18
+- `documents/PHASE_3_5_QUICK_START.md` ext=.md lines=406 words=979 headings=33
+- `documents/PHASE_3_5_REAL_DATA_SUMMARY.md` ext=.md lines=353 words=982 headings=45
+- `documents/Personal World Model` ext= lines=3658 words=12744 headings=0
+- `documents/QUICK_REFERENCE.md` ext=.md lines=244 words=947 headings=25
+- `documents/Runtime Architecture Bug` ext= lines=786 words=2800 headings=0
+- `eval_demo_output.txt` ext=.txt lines=133 words=496 headings=0
+- `evaluation/BENCHMARK_README.md` ext=.md lines=350 words=1158 headings=30
+- `evaluation/EVALUATION_GUIDE.md` ext=.md lines=393 words=1072 headings=64
+- `evaluation/GAPS_FIXED.md` ext=.md lines=567 words=1978 headings=43
+- `evaluation/INTEGRATION_CHECKLIST.md` ext=.md lines=349 words=1068 headings=44
+- `evaluation/baselines/ERA_v2.0_diversity_baseline/PHASE2_ROBUSTNESS_REPORT.md` ext=.md lines=28 words=118 headings=4
+- `evaluation/baselines/ERA_v2.0_diversity_baseline/TAG.txt` ext=.txt lines=1 words=1 headings=0
+- `evaluation/results/ERA_v1.0_FROZEN_BENCHMARK_REPORT.md` ext=.md lines=45 words=160 headings=6
+- `evaluation/results/ERA_v1.1_CALIBRATED_BENCHMARK_REPORT.md` ext=.md lines=47 words=189 headings=6
+- `evaluation/results/KIS2_AB_COMPARE_limit2_20260303.md` ext=.md lines=17 words=86 headings=3
+- `evaluation/results/KIS_FAILURE_MODE_DIAGNOSIS.md` ext=.md lines=24 words=98 headings=4
+- `evaluation/results/KIS_FAILURE_MODE_DIAGNOSIS_current_strict.md` ext=.md lines=24 words=98 headings=4
+- `evaluation/results/KIS_FAILURE_MODE_DIAGNOSIS_principle_activation_static.md` ext=.md lines=92 words=362 headings=4
+- `evaluation/results/KIS_FAILURE_MODE_DIAGNOSIS_test_control.md` ext=.md lines=24 words=98 headings=4
+- `evaluation/results/KIS_FAILURE_MODE_DIAGNOSIS_test_control_leq06.md` ext=.md lines=155 words=606 headings=4
+- `evaluation/results/MINISTER_SIMILARITY_REPORT.md` ext=.md lines=23 words=94 headings=3
+- `evaluation/results/PHASE2_GATE_REPORT.md` ext=.md lines=27 words=125 headings=2
+- `evaluation/results/PHASE2_GATE_REPORT_caseA.md` ext=.md lines=27 words=125 headings=2
+- `evaluation/results/PHASE2_GATE_REPORT_semantic_control.md` ext=.md lines=27 words=125 headings=2
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT.md` ext=.md lines=43 words=173 headings=6
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_control.md` ext=.md lines=36 words=146 headings=5
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_control_darbar_strengthened.md` ext=.md lines=36 words=146 headings=5
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_control_learned.md` ext=.md lines=36 words=146 headings=5
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_control_principle_activation_static.md` ext=.md lines=36 words=146 headings=5
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_control_runtime_percentile.md` ext=.md lines=36 words=146 headings=5
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_control_semantic.md` ext=.md lines=36 words=146 headings=5
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_limit2_kis1_20260303_091407.md` ext=.md lines=36 words=146 headings=5
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_limit2_kis2_20260303_092203.md` ext=.md lines=43 words=173 headings=6
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_no_control.md` ext=.md lines=36 words=146 headings=5
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_semantic_control.md` ext=.md lines=36 words=146 headings=5
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_semantic_control_kis2_u50_20260304_072214.md` ext=.md lines=43 words=173 headings=6
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_semantic_no_control.md` ext=.md lines=36 words=146 headings=5
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_train_semantic_control.md` ext=.md lines=36 words=146 headings=5
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_val_semantic_control.md` ext=.md lines=36 words=146 headings=5
+- `evaluation/results/frozen/ERA_v3.5_robust_control_validated/phase4_unified_full_20260302_144852.err.log` ext=.log lines=2535 words=15834 headings=0
+- `evaluation/results/frozen/ERA_v3.5_robust_control_validated/phase4_unified_full_20260302_144852.out.log` ext=.log lines=91 words=396 headings=0
+- `evaluation/results/gating_dataset_train.err.log` ext=.log lines=425 words=2356 headings=0
+- `evaluation/results/gating_dataset_train.log` ext=.log lines=16 words=58 headings=0
+- `evaluation/results/kis2_full_test_20260303_094735.err.log` ext=.log lines=86 words=486 headings=0
+- `evaluation/results/kis2_full_test_20260303_094735.out.log` ext=.log lines=0 words=0 headings=0
+- `evaluation/results/logs/ollama_serve_20260222_185159.err.log` ext=.log lines=14 words=182 headings=0
+- `evaluation/results/logs/ollama_serve_20260222_185159.out.log` ext=.log lines=2 words=26 headings=0
+- `evaluation/results/logs/step1_core_identity_20260222_162953.err.log` ext=.log lines=66 words=295 headings=0
+- `evaluation/results/logs/step1_core_identity_20260222_162953.out.log` ext=.log lines=0 words=0 headings=0
+- `evaluation/results/logs/step1_core_identity_20260222_163256.log` ext=.log lines=2099 words=5366 headings=0
+- `evaluation/results/logs/step1_core_identity_after_ollama_fix_20260222_224313.log` ext=.log lines=3111 words=12769 headings=0
+- `evaluation/results/manual_inspection_5_hard_cases.md` ext=.md lines=101 words=505 headings=6
+- `evaluation/results/phase2_confidence_run_20260226_180423.err.log` ext=.log lines=94 words=301 headings=0
+- `evaluation/results/phase2_confidence_run_20260226_180423.out.log` ext=.log lines=6 words=24 headings=0
+- `evaluation/results/phase2_confidence_run_20260226_180756.err.log` ext=.log lines=1263 words=7273 headings=0
+- `evaluation/results/phase2_confidence_run_20260226_180756.out.log` ext=.log lines=18 words=77 headings=0
+- `evaluation/results/phase2_test_diversity_20260225_011425.err.log` ext=.log lines=51 words=224 headings=0
+- `evaluation/results/phase2_test_diversity_20260225_011425.log` ext=.log lines=0 words=0 headings=0
+- `evaluation/results/phase2_with_gates_test.err.log` ext=.log lines=455 words=1982 headings=0
+- `evaluation/results/phase2_with_gates_test.out.log` ext=.log lines=53 words=233 headings=0
+- `evaluation/results/phase4_full_20260301_191218.err.log` ext=.log lines=2531 words=15144 headings=0
+- `evaluation/results/phase4_full_20260301_191218.out.log` ext=.log lines=90 words=366 headings=0
+- `evaluation/results/phase4_unified_full_20260302_144852.err.log` ext=.log lines=2535 words=15834 headings=0
+- `evaluation/results/phase4_unified_full_20260302_144852.out.log` ext=.log lines=91 words=396 headings=0
+- `evaluation/results/semantic_train_control_20260302_105120.err.log` ext=.log lines=39 words=190 headings=0
+- `evaluation/results/semantic_train_control_20260302_105120.out.log` ext=.log lines=6 words=24 headings=0
+- `ingestion/v2/CONCRETE_MODIFICATIONS_EXAMPLE.md` ext=.md lines=333 words=1259 headings=69
+- `ingestion/v2/INTEGRATION_GUIDE_KIS.md` ext=.md lines=316 words=919 headings=55
+- `ingestion/v2/MODIFICATIONS_APPLIED.md` ext=.md lines=299 words=1081 headings=38
+- `ingestion/v2/STEP_2_COMPLETION_SUMMARY.md` ext=.md lines=372 words=1442 headings=21
+- `ingestion/v2/STEP_2_VERIFICATION_COMPLETE.md` ext=.md lines=198 words=757 headings=17
+- `ingestion/v2/ingest_kis_integration_test.log` ext=.log lines=248 words=942 headings=0
+- `ingestion/v2/ingest_kis_test.log` ext=.log lines=40 words=226 headings=0
+- `ingestion/v2/rag_storage/20090526_TNA13Crawford2009/00_canonical_text.txt` ext=.txt lines=737 words=8264 headings=0
+- `ingestion/v2/rag_storage/20090526_TNA13Crawford2009/00_raw.txt` ext=.txt lines=737 words=8264 headings=0
+- `ingestion/v2/rag_storage/20090526_TNA13Crawford2009/02_doctrine_errors.log` ext=.log lines=1 words=10 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/00_canonical_text.txt` ext=.txt lines=6595 words=187587 headings=42
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/00_raw.txt` ext=.txt lines=6595 words=187587 headings=42
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/00_raw_repaired.txt` ext=.txt lines=6595 words=187587 headings=42
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/02_doctrine_errors.log` ext=.log lines=2 words=20 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1020485132589600869.txt` ext=.txt lines=45 words=1311 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1024368333506222691.txt` ext=.txt lines=23 words=1311 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1089242414018171855.txt` ext=.txt lines=33 words=1360 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1103758123527241051.txt` ext=.txt lines=17 words=1202 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1148712130770165040.txt` ext=.txt lines=41 words=1258 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1178499349294791374.txt` ext=.txt lines=31 words=1305 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1182724724701312655.txt` ext=.txt lines=53 words=928 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1188670980796914946.txt` ext=.txt lines=1605 words=2902 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1311814536620704379.txt` ext=.txt lines=36 words=1288 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1429061121871870483.txt` ext=.txt lines=21 words=1363 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1456497029916455456.txt` ext=.txt lines=29 words=1295 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1456961525256974257.txt` ext=.txt lines=81 words=856 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1469434131825091107.txt` ext=.txt lines=29 words=1361 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1508359289706449625.txt` ext=.txt lines=37 words=1366 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1560413940120710988.txt` ext=.txt lines=126 words=1295 headings=1
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1569124022971562998.txt` ext=.txt lines=1528 words=2774 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_163647790111342224.txt` ext=.txt lines=23 words=1445 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1675684506863048240.txt` ext=.txt lines=41 words=1338 headings=1
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1694029185565260753.txt` ext=.txt lines=33 words=1141 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1712336904135370492.txt` ext=.txt lines=45 words=1316 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1744951934488728042.txt` ext=.txt lines=27 words=1287 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_18011372929536797.txt` ext=.txt lines=55 words=1303 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_182977797217770242.txt` ext=.txt lines=41 words=1275 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1881727269098711814.txt` ext=.txt lines=44 words=1332 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1943076085957539141.txt` ext=.txt lines=39 words=1471 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1993220573614503232.txt` ext=.txt lines=68 words=1254 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2004741208606156993.txt` ext=.txt lines=31 words=1229 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2123228244128487096.txt` ext=.txt lines=23 words=1353 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2187996814763042883.txt` ext=.txt lines=1546 words=2813 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2198665490824835710.txt` ext=.txt lines=41 words=1351 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2226123799637421790.txt` ext=.txt lines=27 words=1285 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2243228953837880840.txt` ext=.txt lines=85 words=718 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2298479186567698668.txt` ext=.txt lines=1731 words=3152 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2380364485711791005.txt` ext=.txt lines=40 words=1082 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2386457833134005742.txt` ext=.txt lines=25 words=1236 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2462204145820530527.txt` ext=.txt lines=1665 words=3102 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2462985905006610508.txt` ext=.txt lines=28 words=1348 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2463218979263903822.txt` ext=.txt lines=34 words=1292 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2479470558356914514.txt` ext=.txt lines=41 words=1088 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2487848299675382330.txt` ext=.txt lines=45 words=1415 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2568447408271796760.txt` ext=.txt lines=47 words=821 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2582027077750309973.txt` ext=.txt lines=88 words=759 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2723946289410395953.txt` ext=.txt lines=57 words=1383 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2842770211804486414.txt` ext=.txt lines=41 words=1283 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2935315268152163721.txt` ext=.txt lines=44 words=1319 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3024090689785562126.txt` ext=.txt lines=24 words=1310 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_310773083490055722.txt` ext=.txt lines=33 words=1363 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3112531489830821431.txt` ext=.txt lines=39 words=1342 headings=2
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3282057031561260690.txt` ext=.txt lines=54 words=1286 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_331758858547722691.txt` ext=.txt lines=29 words=1455 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3351470564966229683.txt` ext=.txt lines=39 words=1503 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3439536045450933505.txt` ext=.txt lines=1513 words=2787 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3458112225005086099.txt` ext=.txt lines=36 words=1399 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3742825105607360110.txt` ext=.txt lines=65 words=1442 headings=7
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3750952042343545376.txt` ext=.txt lines=39 words=1361 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3791525903201225744.txt` ext=.txt lines=25 words=1257 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3894946836671865644.txt` ext=.txt lines=24 words=510 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3948678991844328719.txt` ext=.txt lines=52 words=1382 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3996452290503734589.txt` ext=.txt lines=27 words=1291 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4008854097678922150.txt` ext=.txt lines=41 words=1289 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_401007117151201302.txt` ext=.txt lines=25 words=1307 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4021414803510010291.txt` ext=.txt lines=99 words=627 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4032600798384378842.txt` ext=.txt lines=21 words=1248 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4045211682464493713.txt` ext=.txt lines=35 words=1325 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4051794297633461134.txt` ext=.txt lines=25 words=1278 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4153735226428564432.txt` ext=.txt lines=30 words=1317 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4178694348433358459.txt` ext=.txt lines=31 words=1336 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4213846751395475578.txt` ext=.txt lines=37 words=1318 headings=3
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4244411764283101120.txt` ext=.txt lines=39 words=1351 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4323908735161203671.txt` ext=.txt lines=30 words=1284 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4326860656655914957.txt` ext=.txt lines=57 words=1304 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4362788288068011229.txt` ext=.txt lines=61 words=954 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4370252601128720750.txt` ext=.txt lines=20 words=1018 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4374684165943615323.txt` ext=.txt lines=41 words=1449 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4435499333573741452.txt` ext=.txt lines=49 words=1365 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4477477428758677057.txt` ext=.txt lines=25 words=1321 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4580038268565203438.txt` ext=.txt lines=65 words=981 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4633381095806329473.txt` ext=.txt lines=26 words=1259 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4721120910877536498.txt` ext=.txt lines=19 words=1259 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4737058953704194782.txt` ext=.txt lines=61 words=1371 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4792069768382715841.txt` ext=.txt lines=1585 words=2934 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4856968042652682073.txt` ext=.txt lines=36 words=1401 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_497343946709968676.txt` ext=.txt lines=37 words=1335 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4982439371433905299.txt` ext=.txt lines=40 words=1400 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5082918612597804504.txt` ext=.txt lines=1641 words=2868 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5116653561884656502.txt` ext=.txt lines=37 words=1330 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5144605883873346777.txt` ext=.txt lines=38 words=1181 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5258551694217130256.txt` ext=.txt lines=37 words=1332 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5278219367935410845.txt` ext=.txt lines=26 words=1256 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5335447325011387964.txt` ext=.txt lines=34 words=1366 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_534423346333532909.txt` ext=.txt lines=72 words=808 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_540502393904022726.txt` ext=.txt lines=48 words=1630 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5409153171790066876.txt` ext=.txt lines=45 words=1716 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5476378095461999048.txt` ext=.txt lines=37 words=1243 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5478314025870907036.txt` ext=.txt lines=35 words=1293 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5692207703527710661.txt` ext=.txt lines=41 words=1364 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5711820408422574579.txt` ext=.txt lines=3 words=1046 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5739636132489466913.txt` ext=.txt lines=39 words=1343 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5805410304382862034.txt` ext=.txt lines=43 words=1317 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5929297397677201167.txt` ext=.txt lines=89 words=1598 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5939080041271497926.txt` ext=.txt lines=1629 words=2991 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5961750151802169132.txt` ext=.txt lines=54 words=1299 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6013041519841527733.txt` ext=.txt lines=27 words=1269 headings=2
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_601458231160097651.txt` ext=.txt lines=1541 words=2847 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6051110949105663880.txt` ext=.txt lines=25 words=1305 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6059663872385668000.txt` ext=.txt lines=1683 words=3050 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6073334770715307769.txt` ext=.txt lines=23 words=1436 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6190276261725930212.txt` ext=.txt lines=37 words=1346 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6245332565347363116.txt` ext=.txt lines=31 words=1311 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6254621389354917988.txt` ext=.txt lines=35 words=1168 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6324599204593065204.txt` ext=.txt lines=32 words=1412 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6475158520449576919.txt` ext=.txt lines=20 words=1414 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6478585253149969901.txt` ext=.txt lines=51 words=1271 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6503203699883058539.txt` ext=.txt lines=33 words=1383 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6574091024289290454.txt` ext=.txt lines=21 words=1258 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6604320936531872697.txt` ext=.txt lines=54 words=1350 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_66430167297293014.txt` ext=.txt lines=41 words=1328 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6709186152754457270.txt` ext=.txt lines=73 words=138 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6822867778329890573.txt` ext=.txt lines=79 words=843 headings=20
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_683349279826036745.txt` ext=.txt lines=63 words=1006 headings=2
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6866290586523391204.txt` ext=.txt lines=58 words=827 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6874885600919659747.txt` ext=.txt lines=67 words=896 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6965847619750761116.txt` ext=.txt lines=33 words=1343 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7000323262289503149.txt` ext=.txt lines=44 words=1340 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7068363364457929130.txt` ext=.txt lines=50 words=1303 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7087491510229613509.txt` ext=.txt lines=70 words=1265 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7098988159653251277.txt` ext=.txt lines=33 words=1327 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7165718911315556000.txt` ext=.txt lines=15 words=1252 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7170666546462103378.txt` ext=.txt lines=63 words=1340 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7184482595873092212.txt` ext=.txt lines=45 words=1364 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7253753056043441994.txt` ext=.txt lines=49 words=1235 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7364273887114814289.txt` ext=.txt lines=27 words=1235 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_736491458147840443.txt` ext=.txt lines=47 words=1285 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7396838171356052307.txt` ext=.txt lines=43 words=1336 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7460280699793591245.txt` ext=.txt lines=33 words=1409 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7514377144195671701.txt` ext=.txt lines=39 words=1339 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7572971798924214278.txt` ext=.txt lines=69 words=886 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7603022999328314610.txt` ext=.txt lines=41 words=1336 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7619549999948199846.txt` ext=.txt lines=43 words=1347 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7695697714547756242.txt` ext=.txt lines=63 words=1357 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7736219523651636994.txt` ext=.txt lines=42 words=1287 headings=1
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7741934276792950843.txt` ext=.txt lines=1602 words=2914 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7771316773651441177.txt` ext=.txt lines=49 words=1472 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7854385074551572952.txt` ext=.txt lines=35 words=1320 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7878003860727240461.txt` ext=.txt lines=223 words=1004 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_798181436378891844.txt` ext=.txt lines=43 words=1293 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8004256738131052044.txt` ext=.txt lines=33 words=1466 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8076473740232781972.txt` ext=.txt lines=31 words=1287 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8100493889555960111.txt` ext=.txt lines=15 words=1334 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8114743545233052043.txt` ext=.txt lines=43 words=1490 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8236393736833437172.txt` ext=.txt lines=32 words=1365 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8422720079736838777.txt` ext=.txt lines=1585 words=2928 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8502556970328986410.txt` ext=.txt lines=27 words=1236 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8575497461069921065.txt` ext=.txt lines=33 words=1359 headings=1
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_859330035028263340.txt` ext=.txt lines=65 words=1109 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8635686265128369555.txt` ext=.txt lines=49 words=1409 headings=2
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_864570124639222264.txt` ext=.txt lines=45 words=1413 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8691855530840774804.txt` ext=.txt lines=29 words=1092 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8820028351212936410.txt` ext=.txt lines=37 words=1372 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_9116254325606618589.txt` ext=.txt lines=42 words=1299 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_9156506472958299843.txt` ext=.txt lines=70 words=793 headings=0
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_938558225806639030.txt` ext=.txt lines=25 words=1322 headings=0
+- `ingestion/v2/rag_storage/33449/00_canonical_text.txt` ext=.txt lines=224 words=2712 headings=0
+- `ingestion/v2/rag_storage/33449/00_raw.txt` ext=.txt lines=224 words=2712 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/00_canonical_text.txt` ext=.txt lines=4773 words=70562 headings=8
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/00_raw.txt` ext=.txt lines=4773 words=70562 headings=8
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/00_raw_repaired.txt` ext=.txt lines=4773 words=70562 headings=8
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/02_doctrine_errors.log` ext=.log lines=5 words=47 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_1102872590667321271.txt` ext=.txt lines=61 words=1033 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_1177012484215886414.txt` ext=.txt lines=37 words=905 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_1431978756600662929.txt` ext=.txt lines=8 words=615 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_1572792222354819362.txt` ext=.txt lines=90 words=1391 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_1826821899613586216.txt` ext=.txt lines=77 words=1205 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_1828741339837696804.txt` ext=.txt lines=76 words=1143 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_2171655373008387958.txt` ext=.txt lines=97 words=1196 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_2278523487297607448.txt` ext=.txt lines=22 words=272 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_2292455236324743213.txt` ext=.txt lines=89 words=1214 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_2584168575577664706.txt` ext=.txt lines=84 words=1269 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_2664239180032780708.txt` ext=.txt lines=28 words=1111 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_2798428788992460182.txt` ext=.txt lines=83 words=1451 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_2910884129929137303.txt` ext=.txt lines=109 words=1378 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3061917804230268627.txt` ext=.txt lines=99 words=1377 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3120715836427739606.txt` ext=.txt lines=1 words=9 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3297902560936431054.txt` ext=.txt lines=95 words=1082 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3386421720377040129.txt` ext=.txt lines=70 words=1228 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3498265604175578304.txt` ext=.txt lines=85 words=1160 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3560596981030871735.txt` ext=.txt lines=98 words=1158 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3683297618601467651.txt` ext=.txt lines=63 words=1329 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3784193580226252386.txt` ext=.txt lines=87 words=1057 headings=8
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3936601217949393649.txt` ext=.txt lines=99 words=1348 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4171144320196644950.txt` ext=.txt lines=65 words=1069 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4206575243767723076.txt` ext=.txt lines=67 words=925 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_42789123413460591.txt` ext=.txt lines=89 words=1325 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4361084783941880665.txt` ext=.txt lines=63 words=1226 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4364207040278255606.txt` ext=.txt lines=25 words=909 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4497200556251703548.txt` ext=.txt lines=16 words=803 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4629754563530791158.txt` ext=.txt lines=67 words=1185 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4660902811441489154.txt` ext=.txt lines=48 words=946 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_470066122216978683.txt` ext=.txt lines=153 words=1400 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4785888563538610204.txt` ext=.txt lines=134 words=1295 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_5095809825764496668.txt` ext=.txt lines=98 words=998 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_5212787722785018503.txt` ext=.txt lines=68 words=1076 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_5259745120844227314.txt` ext=.txt lines=76 words=1104 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_5267526361360886106.txt` ext=.txt lines=98 words=1151 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_5345192743340290838.txt` ext=.txt lines=75 words=1273 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_5439241954508059405.txt` ext=.txt lines=75 words=1215 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_5475266206554921931.txt` ext=.txt lines=75 words=1401 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_594820812033225684.txt` ext=.txt lines=5 words=147 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_6110938686144462672.txt` ext=.txt lines=107 words=1165 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_6171393630246987631.txt` ext=.txt lines=55 words=1258 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_6387858815772665450.txt` ext=.txt lines=111 words=1444 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_645302408558531162.txt` ext=.txt lines=86 words=1106 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_6466425738994112749.txt` ext=.txt lines=94 words=1334 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_6506295371215143357.txt` ext=.txt lines=83 words=1263 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_6526652820684089967.txt` ext=.txt lines=36 words=1326 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_6986526500386809481.txt` ext=.txt lines=89 words=1267 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_7115405673840331750.txt` ext=.txt lines=105 words=1164 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_7443402750130754422.txt` ext=.txt lines=79 words=1360 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_7796199293006676287.txt` ext=.txt lines=74 words=1340 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8231663509780305593.txt` ext=.txt lines=27 words=631 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8292943009375732961.txt` ext=.txt lines=87 words=1224 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8388080304337163796.txt` ext=.txt lines=90 words=1191 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8740000814641664911.txt` ext=.txt lines=93 words=1336 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8759783035542664993.txt` ext=.txt lines=92 words=1346 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8774085321527306431.txt` ext=.txt lines=64 words=952 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_884471977942945953.txt` ext=.txt lines=47 words=807 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8890532642355965934.txt` ext=.txt lines=105 words=1422 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_889260989575052620.txt` ext=.txt lines=79 words=1092 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8899008545135691090.txt` ext=.txt lines=19 words=588 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_9047955267738546746.txt` ext=.txt lines=91 words=1237 headings=0
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_9171516167933754215.txt` ext=.txt lines=81 words=1330 headings=0
+- `ingestion/v2/rag_storage/9780262353946_caa/00_canonical_text.txt` ext=.txt lines=1943 words=19969 headings=0
+- `ingestion/v2/rag_storage/9780262353946_caa/00_raw.txt` ext=.txt lines=1943 words=19969 headings=0
+- `ingestion/v2/rag_storage/Being in Love/00_canonical_text.txt` ext=.txt lines=495 words=31223 headings=0
+- `ingestion/v2/rag_storage/Being in Love/00_raw.txt` ext=.txt lines=495 words=31223 headings=0
+- `ingestion/v2/rag_storage/Being in Love/00_raw_repaired.txt` ext=.txt lines=495 words=31223 headings=0
+- `ingestion/v2/rag_storage/Being in Love/02_doctrine_errors.log` ext=.log lines=1 words=10 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_1104211346074181743.txt` ext=.txt lines=3 words=802 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_1196209952147843531.txt` ext=.txt lines=1 words=716 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_1306815051711865296.txt` ext=.txt lines=7 words=418 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_1330019122408116959.txt` ext=.txt lines=75 words=1432 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_163023843332328650.txt` ext=.txt lines=11 words=783 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_1830181546352055164.txt` ext=.txt lines=21 words=671 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_1915354492570916506.txt` ext=.txt lines=7 words=602 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_220555461369585093.txt` ext=.txt lines=7 words=430 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_2318608876967734435.txt` ext=.txt lines=13 words=816 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_2382232507371083528.txt` ext=.txt lines=30 words=1368 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_2572841770726630675.txt` ext=.txt lines=9 words=691 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_2746452379133707940.txt` ext=.txt lines=11 words=671 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_2846640318988793433.txt` ext=.txt lines=11 words=547 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_319527356362291058.txt` ext=.txt lines=1 words=846 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_3593159934937251814.txt` ext=.txt lines=1 words=510 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_3918523172522434733.txt` ext=.txt lines=1 words=672 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_4191374810775482911.txt` ext=.txt lines=6 words=565 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_4196068511463722668.txt` ext=.txt lines=35 words=1423 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_4415952520547345393.txt` ext=.txt lines=1 words=373 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_4774037417572781384.txt` ext=.txt lines=10 words=480 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5006806228954442905.txt` ext=.txt lines=1 words=590 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5090893798824046163.txt` ext=.txt lines=14 words=940 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5098435371165305234.txt` ext=.txt lines=25 words=995 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5121201495622969549.txt` ext=.txt lines=7 words=700 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5330895258024956524.txt` ext=.txt lines=1 words=608 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5353286061193199993.txt` ext=.txt lines=1 words=441 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5435163181654698641.txt` ext=.txt lines=1 words=387 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5471875412325024828.txt` ext=.txt lines=2 words=790 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5487267770210622379.txt` ext=.txt lines=1 words=516 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5503789099021474674.txt` ext=.txt lines=54 words=562 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5779576732471711757.txt` ext=.txt lines=21 words=727 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5805089365411602274.txt` ext=.txt lines=1 words=255 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5805559726361589098.txt` ext=.txt lines=1 words=305 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5858055300449221673.txt` ext=.txt lines=1 words=169 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5929685890516015963.txt` ext=.txt lines=13 words=434 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5969151531583789564.txt` ext=.txt lines=1 words=674 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_635912872996366707.txt` ext=.txt lines=3 words=162 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_6535201161799533000.txt` ext=.txt lines=27 words=1415 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_6629350214797951254.txt` ext=.txt lines=41 words=1425 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_6682517573402213612.txt` ext=.txt lines=1 words=605 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_6722195916488981997.txt` ext=.txt lines=35 words=1449 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7032091553256004304.txt` ext=.txt lines=1 words=365 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7207428340478334437.txt` ext=.txt lines=1 words=359 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7217320763540767237.txt` ext=.txt lines=1 words=847 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_723562274064209188.txt` ext=.txt lines=1 words=293 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7274560517429910513.txt` ext=.txt lines=22 words=1451 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7484584373142327448.txt` ext=.txt lines=17 words=853 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7776429109363631813.txt` ext=.txt lines=5 words=624 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7799730170624405892.txt` ext=.txt lines=1 words=77 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7844721291221987837.txt` ext=.txt lines=32 words=365 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7850881414241538009.txt` ext=.txt lines=41 words=1314 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7864624179362495854.txt` ext=.txt lines=5 words=408 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7890471935779276578.txt` ext=.txt lines=3 words=1146 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7918111032967024103.txt` ext=.txt lines=44 words=1411 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_8006917083468440046.txt` ext=.txt lines=1 words=342 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_8064963068924681274.txt` ext=.txt lines=1 words=445 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_8078671212111160117.txt` ext=.txt lines=1 words=1344 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_809110409017421466.txt` ext=.txt lines=9 words=510 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_8296748821901246893.txt` ext=.txt lines=11 words=376 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_8317912356872443888.txt` ext=.txt lines=31 words=1518 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_8374273208463342235.txt` ext=.txt lines=17 words=824 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_8503240191092366767.txt` ext=.txt lines=1 words=255 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_8510763400189255496.txt` ext=.txt lines=44 words=1290 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_8566411503135764345.txt` ext=.txt lines=34 words=1221 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_8685544086736948555.txt` ext=.txt lines=10 words=906 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_8765742732450881678.txt` ext=.txt lines=1 words=1003 headings=0
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_926896679408578383.txt` ext=.txt lines=1 words=772 headings=0
+- `ingestion/v2/rag_storage/Beyond good and evil/00_canonical_text.txt` ext=.txt lines=904 words=672 headings=0
+- `ingestion/v2/rag_storage/Beyond good and evil/00_raw.txt` ext=.txt lines=904 words=672 headings=0
+- `ingestion/v2/rag_storage/CAMUS, Albert - The Stranger/00_canonical_text.txt` ext=.txt lines=2783 words=39030 headings=0
+- `ingestion/v2/rag_storage/CAMUS, Albert - The Stranger/00_raw.txt` ext=.txt lines=2783 words=39030 headings=0
+- `ingestion/v2/rag_storage/Cioran, E. M. - Trouble With Being Born (Seaver, 2011)/00_canonical_text.txt` ext=.txt lines=3057 words=33272 headings=0
+- `ingestion/v2/rag_storage/Cioran, E. M. - Trouble With Being Born (Seaver, 2011)/00_raw.txt` ext=.txt lines=3057 words=33272 headings=0
+- `ingestion/v2/rag_storage/ClearThinking/00_canonical_text.txt` ext=.txt lines=7187 words=67835 headings=0
+- `ingestion/v2/rag_storage/ClearThinking/00_raw.txt` ext=.txt lines=7187 words=67835 headings=0
+- `ingestion/v2/rag_storage/ClearThinking/03_5_minister_errors.log` ext=.log lines=47 words=167 headings=0
+- `ingestion/v2/rag_storage/Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_/00_canonical_text.txt` ext=.txt lines=11210 words=72633 headings=1
+- `ingestion/v2/rag_storage/Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_/00_raw.txt` ext=.txt lines=11210 words=72633 headings=1
+- `ingestion/v2/rag_storage/Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_/02_doctrine_errors.log` ext=.log lines=4 words=37 headings=0
+- `ingestion/v2/rag_storage/Crime/00_canonical_text.txt` ext=.txt lines=22155 words=339609 headings=0
+- `ingestion/v2/rag_storage/Crime/00_raw.txt` ext=.txt lines=22155 words=339609 headings=0
+- `ingestion/v2/rag_storage/Crime/02_doctrine_errors.log` ext=.log lines=3 words=28 headings=0
+- `ingestion/v2/rag_storage/Crime/03_5_minister_errors.log` ext=.log lines=47 words=167 headings=0
+- `ingestion/v2/rag_storage/Crucial Conversations/00_canonical_text.txt` ext=.txt lines=7507 words=68568 headings=0
+- `ingestion/v2/rag_storage/Crucial Conversations/00_raw.txt` ext=.txt lines=7507 words=68568 headings=0
+- `ingestion/v2/rag_storage/Deep Work/00_canonical_text.txt` ext=.txt lines=7158 words=72283 headings=1
+- `ingestion/v2/rag_storage/Deep Work/00_raw.txt` ext=.txt lines=7158 words=72283 headings=1
+- `ingestion/v2/rag_storage/Do It Today/00_canonical_text.txt` ext=.txt lines=3507 words=30738 headings=1
+- `ingestion/v2/rag_storage/Do It Today/00_raw.txt` ext=.txt lines=3507 words=30738 headings=1
+- `ingestion/v2/rag_storage/Do It Today/02_doctrine_errors.log` ext=.log lines=1 words=8 headings=0
+- `ingestion/v2/rag_storage/Do It Today/03_5_minister_errors.log` ext=.log lines=47 words=167 headings=0
+- `ingestion/v2/rag_storage/E001005/00_canonical_text.txt` ext=.txt lines=1512 words=47878 headings=0
+- `ingestion/v2/rag_storage/E001005/00_raw.txt` ext=.txt lines=1512 words=47878 headings=0
+- `ingestion/v2/rag_storage/E001005/00_raw_repaired.txt` ext=.txt lines=1512 words=47878 headings=0
+- `ingestion/v2/rag_storage/E001005/02_doctrine_errors.log` ext=.log lines=1 words=10 headings=0
+- `ingestion/v2/rag_storage/E001005/03_5_minister_errors.log` ext=.log lines=47 words=167 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_1008849153048146951.txt` ext=.txt lines=6 words=702 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_1509748754290368880.txt` ext=.txt lines=28 words=346 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_154811365407096921.txt` ext=.txt lines=61 words=701 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_1643082717114307573.txt` ext=.txt lines=1 words=841 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_1778188139897022140.txt` ext=.txt lines=1 words=928 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_1821092648462774630.txt` ext=.txt lines=23 words=305 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_2166189317773370723.txt` ext=.txt lines=81 words=675 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_2304642838068129741.txt` ext=.txt lines=10 words=795 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_2738632707434534373.txt` ext=.txt lines=1 words=932 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_2768780921769811072.txt` ext=.txt lines=1 words=1110 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_2782559151426324940.txt` ext=.txt lines=1 words=881 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_2960860970225246731.txt` ext=.txt lines=23 words=842 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3054260559342584095.txt` ext=.txt lines=39 words=1106 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3065409724886801835.txt` ext=.txt lines=13 words=963 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3235359054337629666.txt` ext=.txt lines=1 words=91 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3348563569203315997.txt` ext=.txt lines=1 words=1088 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3389451135097052385.txt` ext=.txt lines=5 words=728 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3457965213434098780.txt` ext=.txt lines=45 words=1113 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3496855971661274488.txt` ext=.txt lines=2 words=785 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3510515386632836195.txt` ext=.txt lines=18 words=912 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3618002795789637080.txt` ext=.txt lines=61 words=464 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3695566956962502901.txt` ext=.txt lines=4 words=1132 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3696860691020032552.txt` ext=.txt lines=1 words=1049 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3899972783111599913.txt` ext=.txt lines=38 words=984 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_412636327371952940.txt` ext=.txt lines=1 words=1075 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_4241462105229459863.txt` ext=.txt lines=26 words=1116 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_4677776034455772375.txt` ext=.txt lines=19 words=714 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_4761544298197530540.txt` ext=.txt lines=1 words=754 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_4785151546627245554.txt` ext=.txt lines=22 words=860 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_4831720500989734887.txt` ext=.txt lines=37 words=358 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_4913877324147613937.txt` ext=.txt lines=1 words=1065 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_5072382111121573977.txt` ext=.txt lines=38 words=351 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_507426595071630442.txt` ext=.txt lines=11 words=421 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_5222339335978468907.txt` ext=.txt lines=35 words=724 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_5524629555540770080.txt` ext=.txt lines=20 words=819 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_5605692995650914745.txt` ext=.txt lines=10 words=1001 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_5783306784301289184.txt` ext=.txt lines=72 words=586 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_594174347136745345.txt` ext=.txt lines=112 words=402 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_6022471390383242694.txt` ext=.txt lines=31 words=190 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_6227008299463826515.txt` ext=.txt lines=32 words=945 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_6515729847895406157.txt` ext=.txt lines=10 words=378 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_6586294606989177322.txt` ext=.txt lines=1 words=1072 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_6612619221102440469.txt` ext=.txt lines=1 words=750 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_6696211284188730976.txt` ext=.txt lines=7 words=269 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_6895545853971041964.txt` ext=.txt lines=45 words=998 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_6931144768924286597.txt` ext=.txt lines=23 words=799 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_6965143995628897005.txt` ext=.txt lines=1 words=784 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_7271453627735807003.txt` ext=.txt lines=62 words=645 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_7300087090566853213.txt` ext=.txt lines=98 words=803 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_730808912136471273.txt` ext=.txt lines=37 words=1025 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_7310195857292022268.txt` ext=.txt lines=1 words=790 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_7325174081725188666.txt` ext=.txt lines=13 words=410 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_7486263653689418014.txt` ext=.txt lines=15 words=719 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_7509755148850668185.txt` ext=.txt lines=31 words=1029 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_7546406246280185889.txt` ext=.txt lines=12 words=652 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_7574702385579049548.txt` ext=.txt lines=16 words=63 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_7672117049830434301.txt` ext=.txt lines=1 words=769 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_7802640582940834680.txt` ext=.txt lines=20 words=767 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_7899421073626508750.txt` ext=.txt lines=9 words=279 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_811025749171882296.txt` ext=.txt lines=1 words=604 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_8359541223116026972.txt` ext=.txt lines=24 words=563 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_8580934761436432094.txt` ext=.txt lines=1 words=655 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_8624586490916160156.txt` ext=.txt lines=6 words=808 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_8666454988502479784.txt` ext=.txt lines=15 words=308 headings=0
+- `ingestion/v2/rag_storage/E001005/glyph_repair_9192373848731810839.txt` ext=.txt lines=1 words=1085 headings=0
+- `ingestion/v2/rag_storage/Felix-Dennis-How-to-Get-Rich/00_canonical_text.txt` ext=.txt lines=9204 words=103587 headings=0
+- `ingestion/v2/rag_storage/Felix-Dennis-How-to-Get-Rich/00_raw.txt` ext=.txt lines=9204 words=103587 headings=0
+- `ingestion/v2/rag_storage/Felix-Dennis-How-to-Get-Rich/02_doctrine_errors.log` ext=.log lines=1 words=10 headings=0
+- `ingestion/v2/rag_storage/Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action/00_canonical_text.txt` ext=.txt lines=3265 words=31086 headings=0
+- `ingestion/v2/rag_storage/Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action/00_raw.txt` ext=.txt lines=3265 words=31086 headings=0
+- `ingestion/v2/rag_storage/Finite-and-Infinite-Games-by-James-Carse/00_canonical_text.txt` ext=.txt lines=4318 words=38736 headings=0
+- `ingestion/v2/rag_storage/Finite-and-Infinite-Games-by-James-Carse/00_raw.txt` ext=.txt lines=4318 words=38736 headings=0
+- `ingestion/v2/rag_storage/How To Win Friends And Influence People - Carnegie, Dale/00_canonical_text.txt` ext=.txt lines=6923 words=78599 headings=0
+- `ingestion/v2/rag_storage/How To Win Friends And Influence People - Carnegie, Dale/00_raw.txt` ext=.txt lines=6923 words=78599 headings=0
+- `ingestion/v2/rag_storage/How To Win Friends And Influence People - Carnegie, Dale/02_doctrine_errors.log` ext=.log lines=2 words=20 headings=0
+- `ingestion/v2/rag_storage/How to Not Die Alone/00_canonical_text.txt` ext=.txt lines=7842 words=85027 headings=1
+- `ingestion/v2/rag_storage/How to Not Die Alone/00_raw.txt` ext=.txt lines=7842 words=85027 headings=1
+- `ingestion/v2/rag_storage/How to Not Die Alone/02_doctrine_errors.log` ext=.log lines=1 words=10 headings=0
+- `ingestion/v2/rag_storage/Jacques Ellul - The Technological Society/00_canonical_text.txt` ext=.txt lines=20266 words=196537 headings=0
+- `ingestion/v2/rag_storage/Jacques Ellul - The Technological Society/00_raw.txt` ext=.txt lines=20266 words=196537 headings=0
+- `ingestion/v2/rag_storage/Jacques Ellul - The Technological Society/02_doctrine_errors.log` ext=.log lines=1 words=10 headings=0
+- `ingestion/v2/rag_storage/Letters from a Stoic 1/00_canonical_text.txt` ext=.txt lines=8572 words=86637 headings=0
+- `ingestion/v2/rag_storage/Letters from a Stoic 1/00_raw.txt` ext=.txt lines=8572 words=86637 headings=0
+- `ingestion/v2/rag_storage/Letters from a Stoic 1/02_doctrine_errors.log` ext=.log lines=3 words=30 headings=0
+- `ingestion/v2/rag_storage/Machiavelli,+The+Prince/00_canonical_text.txt` ext=.txt lines=9344 words=90010 headings=0
+- `ingestion/v2/rag_storage/Machiavelli,+The+Prince/00_raw.txt` ext=.txt lines=9344 words=90010 headings=0
+- `ingestion/v2/rag_storage/Man and his Symbols ( PDFDrive )/00_canonical_text.txt` ext=.txt lines=19562 words=142064 headings=0
+- `ingestion/v2/rag_storage/Man and his Symbols ( PDFDrive )/00_raw.txt` ext=.txt lines=19562 words=142064 headings=0
+- `ingestion/v2/rag_storage/Marcus-Aurelius-Meditations/00_canonical_text.txt` ext=.txt lines=6159 words=76155 headings=0
+- `ingestion/v2/rag_storage/Marcus-Aurelius-Meditations/00_raw.txt` ext=.txt lines=6159 words=76155 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/00_canonical_text.txt` ext=.txt lines=1654 words=73193 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/00_raw.txt` ext=.txt lines=1654 words=73193 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/00_raw_repaired.txt` ext=.txt lines=1654 words=73193 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/02_doctrine_errors.log` ext=.log lines=1 words=10 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/03_5_minister_errors.log` ext=.log lines=50 words=182 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1017525848549392771.txt` ext=.txt lines=1 words=573 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1192839722357607745.txt` ext=.txt lines=9 words=543 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1216504710364506505.txt` ext=.txt lines=94 words=267 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1266209080797424602.txt` ext=.txt lines=13 words=721 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1394373325478965421.txt` ext=.txt lines=9 words=225 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1428324889086120016.txt` ext=.txt lines=17 words=704 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1448997882135121210.txt` ext=.txt lines=5 words=209 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1474460381646858140.txt` ext=.txt lines=12 words=1025 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1562998538107925380.txt` ext=.txt lines=12 words=620 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1580502056766304271.txt` ext=.txt lines=53 words=747 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1630341444701952327.txt` ext=.txt lines=13 words=958 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1748272262284132227.txt` ext=.txt lines=1 words=80 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1800939016283247180.txt` ext=.txt lines=9 words=269 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1965018380545878880.txt` ext=.txt lines=5 words=774 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1990700588804663969.txt` ext=.txt lines=1 words=977 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_199817580272029136.txt` ext=.txt lines=11 words=962 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2012798557241803708.txt` ext=.txt lines=7 words=893 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2042315714459779132.txt` ext=.txt lines=13 words=502 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2088332053886658558.txt` ext=.txt lines=191 words=551 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_212229637389518533.txt` ext=.txt lines=13 words=447 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2180764232717984740.txt` ext=.txt lines=21 words=903 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2207268345432450873.txt` ext=.txt lines=9 words=333 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2315738674112038607.txt` ext=.txt lines=11 words=619 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2335486470066686893.txt` ext=.txt lines=9 words=862 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2358915026498724890.txt` ext=.txt lines=13 words=662 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2367518707087367251.txt` ext=.txt lines=1 words=587 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2389124839388854558.txt` ext=.txt lines=4 words=353 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2481012996800211450.txt` ext=.txt lines=1 words=1007 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2635977383939891211.txt` ext=.txt lines=1 words=515 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2651093159483615122.txt` ext=.txt lines=1 words=332 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2718261941905218331.txt` ext=.txt lines=13 words=840 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2783152153574044914.txt` ext=.txt lines=1 words=843 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3042883734672425925.txt` ext=.txt lines=2 words=552 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3151056861116697771.txt` ext=.txt lines=15 words=711 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3193960732529470767.txt` ext=.txt lines=15 words=788 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3234574327791446196.txt` ext=.txt lines=11 words=1026 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3260338269471377606.txt` ext=.txt lines=9 words=265 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3327630869990701389.txt` ext=.txt lines=1 words=939 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_33319113127071399.txt` ext=.txt lines=1 words=584 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3343427982376533948.txt` ext=.txt lines=7 words=809 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3344146707717166815.txt` ext=.txt lines=1 words=583 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_336818068572797639.txt` ext=.txt lines=9 words=496 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3701739550052629309.txt` ext=.txt lines=5 words=134 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3730932932062404436.txt` ext=.txt lines=3 words=128 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_375729204854006483.txt` ext=.txt lines=7 words=597 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3778400996749234423.txt` ext=.txt lines=1 words=819 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3809813039545033852.txt` ext=.txt lines=9 words=925 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3812162055895137505.txt` ext=.txt lines=13 words=689 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3842636475269164721.txt` ext=.txt lines=1 words=670 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3893428437196294049.txt` ext=.txt lines=12 words=471 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3936266023903142494.txt` ext=.txt lines=23 words=874 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3957261861860191499.txt` ext=.txt lines=9 words=650 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4113106634907879853.txt` ext=.txt lines=8 words=948 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4140972585084939170.txt` ext=.txt lines=11 words=539 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4300620448315497501.txt` ext=.txt lines=27 words=1083 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4399438018390332861.txt` ext=.txt lines=1 words=556 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4413381081504805829.txt` ext=.txt lines=1 words=77 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4492216815171930125.txt` ext=.txt lines=1 words=936 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4631909824200267183.txt` ext=.txt lines=27 words=955 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4656107777371434221.txt` ext=.txt lines=13 words=925 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4692159492583349511.txt` ext=.txt lines=1 words=482 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4693531874660666773.txt` ext=.txt lines=1 words=68 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4716738545550533990.txt` ext=.txt lines=33 words=339 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_497512029144874726.txt` ext=.txt lines=1 words=84 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5041610060268228484.txt` ext=.txt lines=16 words=56 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5202601456689542380.txt` ext=.txt lines=29 words=1040 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5359704128487637602.txt` ext=.txt lines=23 words=936 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5394999996967810740.txt` ext=.txt lines=1 words=766 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5424773614686302559.txt` ext=.txt lines=9 words=826 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5431486934452791902.txt` ext=.txt lines=3 words=606 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5458358489966451031.txt` ext=.txt lines=13 words=454 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5518598105175415895.txt` ext=.txt lines=7 words=507 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5902789927252812843.txt` ext=.txt lines=33 words=322 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5932195381023496180.txt` ext=.txt lines=23 words=1239 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6012945113057892397.txt` ext=.txt lines=1 words=789 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6152722358522405648.txt` ext=.txt lines=13 words=346 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_626923540158206848.txt` ext=.txt lines=18 words=885 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6374937063235989214.txt` ext=.txt lines=11 words=440 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6413307903139085733.txt` ext=.txt lines=17 words=647 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6429158048976742337.txt` ext=.txt lines=7 words=188 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6498269320617037134.txt` ext=.txt lines=7 words=1009 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6646947400675680964.txt` ext=.txt lines=6 words=603 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6665104887659314569.txt` ext=.txt lines=18 words=935 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6684714469465984148.txt` ext=.txt lines=5 words=176 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6776231883418946579.txt` ext=.txt lines=4 words=909 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6810012951734970755.txt` ext=.txt lines=11 words=1040 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6870430246938539594.txt` ext=.txt lines=17 words=875 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6979505166351729355.txt` ext=.txt lines=12 words=1005 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7103600463418470311.txt` ext=.txt lines=1 words=955 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7108627231772959073.txt` ext=.txt lines=2 words=845 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7144209274242766447.txt` ext=.txt lines=1 words=960 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_724705613237197002.txt` ext=.txt lines=1 words=740 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7334691626494034999.txt` ext=.txt lines=7 words=589 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7351971945171760380.txt` ext=.txt lines=13 words=60 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7396214746187160609.txt` ext=.txt lines=9 words=303 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7460437294780892167.txt` ext=.txt lines=2 words=730 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_750782604277739928.txt` ext=.txt lines=19 words=918 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7562706452493893930.txt` ext=.txt lines=8 words=1014 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7597701240186466357.txt` ext=.txt lines=81 words=330 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7597730507627367224.txt` ext=.txt lines=3 words=979 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7633907286054261185.txt` ext=.txt lines=6 words=257 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7658897595147762830.txt` ext=.txt lines=13 words=467 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7717033183253480638.txt` ext=.txt lines=3 words=646 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7770990916531107790.txt` ext=.txt lines=7 words=849 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7807856293835234927.txt` ext=.txt lines=1 words=73 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7897930520128358102.txt` ext=.txt lines=7 words=358 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_810242293631470670.txt` ext=.txt lines=1 words=558 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_8281604437056719175.txt` ext=.txt lines=7 words=186 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_8377017393648008869.txt` ext=.txt lines=12 words=870 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_8704669316032349063.txt` ext=.txt lines=1 words=568 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_8760325718224754524.txt` ext=.txt lines=1 words=31 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_8813133780824806133.txt` ext=.txt lines=9 words=676 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_8853863935359231928.txt` ext=.txt lines=7 words=753 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_9085745965677062854.txt` ext=.txt lines=19 words=706 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_909737123878117557.txt` ext=.txt lines=25 words=945 headings=0
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_944982777092098691.txt` ext=.txt lines=1 words=623 headings=0
+- `ingestion/v2/rag_storage/Men-are-from-mars-women-are-from-venus/00_canonical_text.txt` ext=.txt lines=8974 words=84693 headings=0
+- `ingestion/v2/rag_storage/Men-are-from-mars-women-are-from-venus/00_raw.txt` ext=.txt lines=8974 words=84693 headings=0
+- `ingestion/v2/rag_storage/Men-are-from-mars-women-are-from-venus/02_doctrine_errors.log` ext=.log lines=1 words=10 headings=0
+- `ingestion/v2/rag_storage/NeilPostman-AmusingOurselvesToDeath/00_canonical_text.txt` ext=.txt lines=6771 words=63483 headings=0
+- `ingestion/v2/rag_storage/NeilPostman-AmusingOurselvesToDeath/00_raw.txt` ext=.txt lines=6771 words=63483 headings=0
+- `ingestion/v2/rag_storage/NeilPostman-AmusingOurselvesToDeath/02_doctrine_errors.log` ext=.log lines=1 words=10 headings=0
+- `ingestion/v2/rag_storage/No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy/00_canonical_text.txt` ext=.txt lines=8010 words=67425 headings=0
+- `ingestion/v2/rag_storage/No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy/00_raw.txt` ext=.txt lines=8010 words=67425 headings=0
+- `ingestion/v2/rag_storage/Notes-from-Underground-Extract/00_canonical_text.txt` ext=.txt lines=562 words=5125 headings=0
+- `ingestion/v2/rag_storage/Notes-from-Underground-Extract/00_raw.txt` ext=.txt lines=562 words=5125 headings=0
+- `ingestion/v2/rag_storage/Ortega_y_Gasset_Jose_The_Revolt_of_the_Masses/00_canonical_text.txt` ext=.txt lines=0 words=0 headings=0
+- `ingestion/v2/rag_storage/Ortega_y_Gasset_Jose_The_Revolt_of_the_Masses/00_raw.txt` ext=.txt lines=0 words=0 headings=0
+- `ingestion/v2/rag_storage/Ortega_y_Gasset_Jose_The_Revolt_of_the_Masses/00_raw_repaired.txt` ext=.txt lines=0 words=0 headings=0
+- `ingestion/v2/rag_storage/Poor Charlie’s Almanack_ The Wit and Wisdom of Charles T. Munger ( PDFDrive )/00_canonical_text.txt` ext=.txt lines=15885 words=142625 headings=0
+- `ingestion/v2/rag_storage/Poor Charlie’s Almanack_ The Wit and Wisdom of Charles T. Munger ( PDFDrive )/00_raw.txt` ext=.txt lines=15885 words=142625 headings=0
+- `ingestion/v2/rag_storage/Poor Charlie’s Almanack_ The Wit and Wisdom of Charles T. Munger ( PDFDrive )/02_doctrine_errors.log` ext=.log lines=31 words=303 headings=0
+- `ingestion/v2/rag_storage/Poor Charlie’s Almanack_ The Wit and Wisdom of Charles T. Munger ( PDFDrive )/03_5_minister_errors.log` ext=.log lines=47 words=167 headings=0
+- `ingestion/v2/rag_storage/Seamos_personas_de_Infliuencia/00_canonical_text.txt` ext=.txt lines=5510 words=58537 headings=0
+- `ingestion/v2/rag_storage/Seamos_personas_de_Infliuencia/00_raw.txt` ext=.txt lines=5510 words=58537 headings=0
+- `ingestion/v2/rag_storage/Seamos_personas_de_Infliuencia/02_doctrine_errors.log` ext=.log lines=20 words=180 headings=0
+- `ingestion/v2/rag_storage/Seamos_personas_de_Infliuencia/03_5_minister_errors.log` ext=.log lines=50 words=182 headings=0
+- `ingestion/v2/rag_storage/Summary-of-SGTCIY-pdf/00_canonical_text.txt` ext=.txt lines=22 words=3395 headings=0
+- `ingestion/v2/rag_storage/Summary-of-SGTCIY-pdf/00_raw.txt` ext=.txt lines=22 words=3395 headings=0
+- `ingestion/v2/rag_storage/Summary-of-SGTCIY-pdf/03_5_minister_errors.log` ext=.log lines=47 words=167 headings=0
+- `ingestion/v2/rag_storage/SuperThinking/00_canonical_text.txt` ext=.txt lines=0 words=0 headings=0
+- `ingestion/v2/rag_storage/SuperThinking/00_raw.txt` ext=.txt lines=0 words=0 headings=0
+- `ingestion/v2/rag_storage/SuperThinking/00_raw_repaired.txt` ext=.txt lines=0 words=0 headings=0
+- `ingestion/v2/rag_storage/SuperThinking/03_5_minister_errors.log` ext=.log lines=18 words=77 headings=0
+- `ingestion/v2/rag_storage/The Courage To Be Disliked/00_canonical_text.txt` ext=.txt lines=4755 words=62296 headings=0
+- `ingestion/v2/rag_storage/The Courage To Be Disliked/00_raw.txt` ext=.txt lines=4755 words=62296 headings=0
+- `ingestion/v2/rag_storage/The Courage To Be Disliked/02_doctrine_errors.log` ext=.log lines=53 words=510 headings=0
+- `ingestion/v2/rag_storage/The Courage To Be Disliked/03_5_minister_errors.log` ext=.log lines=47 words=167 headings=0
+- `ingestion/v2/rag_storage/The Diary of a CEO_ 33 Laws of Business and Life (2023)/00_canonical_text.txt` ext=.txt lines=7231 words=75822 headings=0
+- `ingestion/v2/rag_storage/The Diary of a CEO_ 33 Laws of Business and Life (2023)/00_raw.txt` ext=.txt lines=7231 words=75822 headings=0
+- `ingestion/v2/rag_storage/The Diary of a CEO_ 33 Laws of Business and Life (2023)/02_doctrine_errors.log` ext=.log lines=250 words=2428 headings=0
+- `ingestion/v2/rag_storage/The Diary of a CEO_ 33 Laws of Business and Life (2023)/03_5_minister_errors.log` ext=.log lines=47 words=167 headings=0
+- `ingestion/v2/rag_storage/The Myth of Sisyphus - Albert Camus/00_canonical_text.txt` ext=.txt lines=5219 words=57858 headings=0
+- `ingestion/v2/rag_storage/The Myth of Sisyphus - Albert Camus/00_raw.txt` ext=.txt lines=5219 words=57858 headings=0
+- `ingestion/v2/rag_storage/The Myth of Sisyphus - Albert Camus/02_doctrine_errors.log` ext=.log lines=84 words=823 headings=0
+- `ingestion/v2/rag_storage/The Myth of Sisyphus - Albert Camus/03_5_minister_errors.log` ext=.log lines=18 words=77 headings=0
+- `ingestion/v2/rag_storage/The Psychology of Persuasion/00_canonical_text.txt` ext=.txt lines=10835 words=109938 headings=0
+- `ingestion/v2/rag_storage/The Psychology of Persuasion/00_raw.txt` ext=.txt lines=10835 words=109938 headings=0
+- `ingestion/v2/rag_storage/The Psychology of Persuasion/02_doctrine_errors.log` ext=.log lines=136 words=1343 headings=0
+- `ingestion/v2/rag_storage/The Psychology of Persuasion/03_5_minister_errors.log` ext=.log lines=18 words=77 headings=0
+- `ingestion/v2/rag_storage/ThePersonalMBA10thAnniversaryEdition/00_canonical_text.txt` ext=.txt lines=0 words=0 headings=0
+- `ingestion/v2/rag_storage/ThePersonalMBA10thAnniversaryEdition/00_raw.txt` ext=.txt lines=0 words=0 headings=0
+- `ingestion/v2/rag_storage/ThePersonalMBA10thAnniversaryEdition/00_raw_repaired.txt` ext=.txt lines=0 words=0 headings=0
+- `ingestion/v2/rag_storage/ThePersonalMBA10thAnniversaryEdition/03_5_minister_errors.log` ext=.log lines=47 words=167 headings=0
+- `ingestion/v2/rag_storage/TheRighteousMind/00_canonical_text.txt` ext=.txt lines=0 words=0 headings=0
+- `ingestion/v2/rag_storage/TheRighteousMind/00_raw.txt` ext=.txt lines=0 words=0 headings=0
+- `ingestion/v2/rag_storage/TheRighteousMind/00_raw_repaired.txt` ext=.txt lines=0 words=0 headings=0
+- `ingestion/v2/rag_storage/TheRighteousMind/02_doctrine_errors.log` ext=.log lines=1 words=8 headings=0
+- `ingestion/v2/rag_storage/TheRighteousMind/03_5_minister_errors.log` ext=.log lines=18 words=77 headings=0
+- `ingestion/v2/rag_storage/The_Psychology_of_Money/00_canonical_text.txt` ext=.txt lines=4711 words=51380 headings=0
+- `ingestion/v2/rag_storage/The_Psychology_of_Money/00_raw.txt` ext=.txt lines=4711 words=51380 headings=0
+- `ingestion/v2/rag_storage/The_Psychology_of_Money/02_doctrine_errors.log` ext=.log lines=95 words=929 headings=0
+- `ingestion/v2/rag_storage/The_Psychology_of_Money/03_5_minister_errors.log` ext=.log lines=47 words=167 headings=0
+- `ingestion/v2/rag_storage/Thus spoke Zarathustra/00_canonical_text.txt` ext=.txt lines=1104 words=724 headings=0
+- `ingestion/v2/rag_storage/Thus spoke Zarathustra/00_raw.txt` ext=.txt lines=1104 words=724 headings=0
+- `ingestion/v2/rag_storage/Thus spoke Zarathustra/02_doctrine_errors.log` ext=.log lines=212 words=1965 headings=0
+- `ingestion/v2/rag_storage/Thus spoke Zarathustra/03_5_minister_errors.log` ext=.log lines=47 words=167 headings=0
+- `ingestion/v2/rag_storage/Win-Your-Inner-Battles/00_canonical_text.txt` ext=.txt lines=174 words=27265 headings=0
+- `ingestion/v2/rag_storage/Win-Your-Inner-Battles/00_raw.txt` ext=.txt lines=174 words=27265 headings=0
+- `ingestion/v2/rag_storage/Win-Your-Inner-Battles/02_doctrine_errors.log` ext=.log lines=87 words=846 headings=0
+- `ingestion/v2/rag_storage/Win-Your-Inner-Battles/03_5_minister_errors.log` ext=.log lines=18 words=77 headings=0
+- `ingestion/v2/rag_storage/Your Next Five Moves Patrick Bet David/00_canonical_text.txt` ext=.txt lines=7114 words=84687 headings=0
+- `ingestion/v2/rag_storage/Your Next Five Moves Patrick Bet David/00_raw.txt` ext=.txt lines=7114 words=84687 headings=0
+- `ingestion/v2/rag_storage/Your Next Five Moves Patrick Bet David/02_doctrine_errors.log` ext=.log lines=213 words=2100 headings=0
+- `ingestion/v2/rag_storage/Your Next Five Moves Patrick Bet David/03_5_minister_errors.log` ext=.log lines=47 words=167 headings=0
+- `ingestion/v2/rag_storage/_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset/00_canonical_text.txt` ext=.txt lines=1474 words=14971 headings=0
+- `ingestion/v2/rag_storage/_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset/00_raw.txt` ext=.txt lines=1474 words=14971 headings=0
+- `ingestion/v2/rag_storage/_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset/02_doctrine_errors.log` ext=.log lines=83 words=736 headings=0
+- `ingestion/v2/rag_storage/_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset/03_5_minister_errors.log` ext=.log lines=47 words=167 headings=0
+- `ingestion/v2/rag_storage/crowdastudypopu00bongoog/00_canonical_text.txt` ext=.txt lines=290 words=496 headings=0
+- `ingestion/v2/rag_storage/crowdastudypopu00bongoog/00_raw.txt` ext=.txt lines=290 words=496 headings=0
+- `ingestion/v2/rag_storage/crowdastudypopu00bongoog/02_doctrine_errors.log` ext=.log lines=1 words=10 headings=0
+- `ingestion/v2/rag_storage/crowdastudypopu00bongoog/03_5_minister_errors.log` ext=.log lines=18 words=77 headings=0
+- `ingestion/v2/rag_storage/ernest_becker_the_denial_of_deathbookfi-org/00_canonical_text.txt` ext=.txt lines=12483 words=125903 headings=1
+- `ingestion/v2/rag_storage/ernest_becker_the_denial_of_deathbookfi-org/00_raw.txt` ext=.txt lines=12483 words=125903 headings=1
+- `ingestion/v2/rag_storage/ernest_becker_the_denial_of_deathbookfi-org/02_doctrine_errors.log` ext=.log lines=289 words=2800 headings=0
+- `ingestion/v2/rag_storage/ernest_becker_the_denial_of_deathbookfi-org/03_5_minister_errors.log` ext=.log lines=47 words=167 headings=0
+- `ingestion/v2/rag_storage/extreme_ownership__how_us_navy_seals_lead_and_win/glyph_repair_2898146614114781885.txt` ext=.txt lines=15 words=915 headings=0
+- `ingestion/v2/rag_storage/extreme_ownership__how_us_navy_seals_lead_and_win/glyph_repair_4733129900231139990.txt` ext=.txt lines=4 words=315 headings=0
+- `ingestion/v2/rag_storage/extreme_ownership__how_us_navy_seals_lead_and_win/glyph_repair_5903988453719137471.txt` ext=.txt lines=14 words=566 headings=0
+- `ingestion/v2/rag_storage/extreme_ownership__how_us_navy_seals_lead_and_win/glyph_repair_889926229012906559.txt` ext=.txt lines=7 words=290 headings=0
+- `ingestion/v2/rag_storage/f94cc-a-guide-to-the-good-life-the-ancient-art-of-stoic-joy-william-braxton-irvine/glyph_repair_2716354529812915701.txt` ext=.txt lines=9 words=255 headings=0
+- `ingestion/v2/rag_storage/f94cc-a-guide-to-the-good-life-the-ancient-art-of-stoic-joy-william-braxton-irvine/glyph_repair_333906601097893724.txt` ext=.txt lines=3 words=740 headings=0
+- `ingestion/v2/rag_storage/f94cc-a-guide-to-the-good-life-the-ancient-art-of-stoic-joy-william-braxton-irvine/glyph_repair_6464862799289382339.txt` ext=.txt lines=1 words=97 headings=0
+- `ingestion/v2/rag_storage/f94cc-a-guide-to-the-good-life-the-ancient-art-of-stoic-joy-william-braxton-irvine/glyph_repair_6952445444919142034.txt` ext=.txt lines=11 words=312 headings=0
+- `ingestion/v2/rag_storage/f94cc-a-guide-to-the-good-life-the-ancient-art-of-stoic-joy-william-braxton-irvine/glyph_repair_7236022041559461268.txt` ext=.txt lines=1 words=122 headings=0
+- `ingestion/v2/rag_storage/mans-search-for-meaning/00_canonical_text.txt` ext=.txt lines=3372 words=46117 headings=0
+- `ingestion/v2/rag_storage/mans-search-for-meaning/00_raw.txt` ext=.txt lines=3372 words=46117 headings=0
+- `ingestion/v2/rag_storage/mans-search-for-meaning/02_doctrine_errors.log` ext=.log lines=25 words=248 headings=0
+- `ingestion/v2/rag_storage/mans-search-for-meaning/03_5_minister_errors.log` ext=.log lines=18 words=77 headings=0
+- `ingestion/v2/rag_storage/milan_kundera_-_the_unbearable_lightness_of_being/00_canonical_text.txt` ext=.txt lines=6487 words=88726 headings=0
+- `ingestion/v2/rag_storage/milan_kundera_-_the_unbearable_lightness_of_being/00_raw.txt` ext=.txt lines=6487 words=88726 headings=0
+- `ingestion/v2/rag_storage/milan_kundera_-_the_unbearable_lightness_of_being/02_doctrine_errors.log` ext=.log lines=50 words=497 headings=0
+- `ingestion/v2/rag_storage/milan_kundera_-_the_unbearable_lightness_of_being/03_5_minister_errors.log` ext=.log lines=47 words=167 headings=0
+- `ingestion/v2/rag_storage/modern-man-in-search-of-a-soul-stages-of-life-1/00_canonical_text.txt` ext=.txt lines=9525 words=89976 headings=0
+- `ingestion/v2/rag_storage/modern-man-in-search-of-a-soul-stages-of-life-1/00_raw.txt` ext=.txt lines=9525 words=89976 headings=0
+- `ingestion/v2/rag_storage/modern-man-in-search-of-a-soul-stages-of-life-1/02_doctrine_errors.log` ext=.log lines=99 words=982 headings=0
+- `ingestion/v2/rag_storage/modern-man-in-search-of-a-soul-stages-of-life-1/03_5_minister_errors.log` ext=.log lines=47 words=167 headings=0
+- `ingestion/v2/rag_storage/pathtowealthorli00hall/00_canonical_text.txt` ext=.txt lines=1201 words=775 headings=0
+- `ingestion/v2/rag_storage/pathtowealthorli00hall/00_raw.txt` ext=.txt lines=1201 words=775 headings=0
+- `ingestion/v2/rag_storage/pathtowealthorli00hall/02_doctrine_errors.log` ext=.log lines=153 words=1468 headings=0
+- `ingestion/v2/rag_storage/pathtowealthorli00hall/03_5_minister_errors.log` ext=.log lines=47 words=167 headings=0
+- `ingestion/v2/rag_storage/roadto/00_canonical_text.txt` ext=.txt lines=8226 words=83556 headings=0
+- `ingestion/v2/rag_storage/roadto/00_raw.txt` ext=.txt lines=8226 words=83556 headings=0
+- `ingestion/v2/rag_storage/roadto/02_doctrine_errors.log` ext=.log lines=224 words=2223 headings=0
+- `ingestion/v2/rag_storage/roadto/03_5_minister_errors.log` ext=.log lines=18 words=77 headings=0
+- `ingestion/v2/rag_storage/the-communication-book-44-ideas-for-better-conversations-every-day-9781324001997-1324001992_compress/00_canonical_text.txt` ext=.txt lines=1810 words=17958 headings=1
+- `ingestion/v2/rag_storage/the-communication-book-44-ideas-for-better-conversations-every-day-9781324001997-1324001992_compress/00_raw.txt` ext=.txt lines=1810 words=17958 headings=1
+- `ingestion/v2/rag_storage/the-communication-book-44-ideas-for-better-conversations-every-day-9781324001997-1324001992_compress/02_doctrine_errors.log` ext=.log lines=60 words=571 headings=0
+- `ingestion/v2/rag_storage/the-communication-book-44-ideas-for-better-conversations-every-day-9781324001997-1324001992_compress/03_5_minister_errors.log` ext=.log lines=18 words=77 headings=0
+- `ingestion/v2/rag_storage/the-millionaire-fastlane/00_canonical_text.txt` ext=.txt lines=10606 words=122146 headings=0
+- `ingestion/v2/rag_storage/the-millionaire-fastlane/00_raw.txt` ext=.txt lines=10606 words=122146 headings=0
+- `ingestion/v2/rag_storage/the-millionaire-fastlane/02_doctrine_errors.log` ext=.log lines=367 words=3547 headings=0
+- `ingestion/v2/rag_storage/the-millionaire-fastlane/03_5_minister_errors.log` ext=.log lines=47 words=167 headings=0
+- `ingestion/v2/rag_storage/the_magic_of_thinking_big/00_canonical_text.txt` ext=.txt lines=7258 words=82782 headings=0
+- `ingestion/v2/rag_storage/the_magic_of_thinking_big/00_raw.txt` ext=.txt lines=7258 words=82782 headings=0
+- `ingestion/v2/rag_storage/the_magic_of_thinking_big/02_doctrine_errors.log` ext=.log lines=145 words=1426 headings=0
+- `ingestion/v2/rag_storage/the_magic_of_thinking_big/03_5_minister_errors.log` ext=.log lines=18 words=77 headings=0
+- `ingestion/v2/rag_storage/think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_/00_canonical_text.txt` ext=.txt lines=9434 words=89362 headings=0
+- `ingestion/v2/rag_storage/think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_/00_raw.txt` ext=.txt lines=9434 words=89362 headings=0
+- `ingestion/v2/rag_storage/think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_/02_doctrine_errors.log` ext=.log lines=210 words=2076 headings=0
+- `ingestion/v2/rag_storage/think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_/03_5_minister_errors.log` ext=.log lines=47 words=167 headings=0
+- `ingestion/v2/src/DELIVERABLES.md` ext=.md lines=325 words=1108 headings=25
+- `ingestion/v2/src/IMPLEMENTATION_REPORT.md` ext=.md lines=441 words=1716 headings=50
+- `ingestion/v2/src/IMPLEMENTATION_SUMMARY.txt` ext=.txt lines=330 words=1267 headings=0
+- `ingestion/v2/src/INTEGRATION_GUIDE.md` ext=.md lines=405 words=1461 headings=45
+- `ingestion/v2/src/README_ASYNC_PIPELINE.md` ext=.md lines=422 words=1176 headings=44
+- `ingestion/v2/src/README_PRODUCTION_PIPELINE.md` ext=.md lines=534 words=1441 headings=75
+- `ingestion/v2/src/VERIFICATION_CHECKLIST.md` ext=.md lines=205 words=827 headings=27
+- `ingestion_kis_full_test.log` ext=.log lines=260 words=1332 headings=0
+- `logs/463e069d.log` ext=.log lines=122 words=96281 headings=0
+- `logs/7bf8e511.log` ext=.log lines=3 words=204 headings=0
+- `logs/7dcd692d.log` ext=.log lines=3 words=204 headings=0
+- `logs/a5522752.log` ext=.log lines=116 words=111966 headings=0
+- `logs/f7672858.log` ext=.log lines=120 words=93792 headings=0
+- `memo.txt` ext=.txt lines=366 words=774 headings=0
+- `ml/IMPLEMENTATION_COMPLETE.md` ext=.md lines=516 words=1878 headings=44
+- `ml/README.md` ext=.md lines=576 words=1765 headings=61
+- `ml/cache/outcomes/outcome_records.jsonl` ext=.jsonl lines=371 words=144829 headings=0
+- `persona/DOCTRINE_ENHANCEMENT_REFERENCE.md` ext=.md lines=324 words=1184 headings=24
+- `persona_output.log` ext=.log lines=50 words=379 headings=0
+- `rag_storage/16-05-2021-070111The-Richest-Man-in-Babylon/00_canonical_text.txt` ext=.txt lines=4981 words=57393 headings=0
+- `rag_storage/16-05-2021-070111The-Richest-Man-in-Babylon/00_raw.txt` ext=.txt lines=4981 words=57393 headings=0
+- `rag_storage/16-05-2021-070111The-Richest-Man-in-Babylon/02_doctrine_errors.log` ext=.log lines=64 words=590 headings=0
+- `rag_storage/16-05-2021-070111The-Richest-Man-in-Babylon/03_5_minister_errors.log` ext=.log lines=47 words=167 headings=0
+- `requirements.txt` ext=.txt lines=85 words=145 headings=24
+- `review.txt` ext=.txt lines=476 words=1021 headings=0
+- `run_output.log` ext=.log lines=10 words=51 headings=0
+- `scripts/check_ollama_api.out` ext=.out lines=6 words=21 headings=0
+- `scripts/run_embed_only.out` ext=.out lines=0 words=0 headings=0
+- `scripts/test_embed.out` ext=.out lines=2 words=4107 headings=0
+- `scripts/test_generate.out` ext=.out lines=3 words=4 headings=0
+- `sovereign/ministers/README.md` ext=.md lines=103 words=399 headings=2
+- `test_ingest_full_output.log` ext=.log lines=20 words=101 headings=0
+- `test_ingestion_debug.log` ext=.log lines=10 words=38 headings=0
+- `test_input.txt` ext=.txt lines=2 words=10 headings=0
+- `test_input_multi.txt` ext=.txt lines=5 words=16 headings=0
+- `test_results.log` ext=.log lines=2 words=11 headings=0
+- `tests/README.md` ext=.md lines=293 words=1118 headings=36
+- `tests/TEST_MANIFEST.md` ext=.md lines=222 words=864 headings=33
+- `tests/pytest.ini` ext=.ini lines=38 words=109 headings=5
+- `tests/verification/COMPLETE_FEATURE_LIST.md` ext=.md lines=501 words=1691 headings=39
+- `tests/verification/CONSOLIDATED_CODE.md` ext=.md lines=1935 words=5685 headings=107
+- `tests/verification/CONSOLIDATED_STRUCTURE_GUIDE.md` ext=.md lines=181 words=782 headings=16
+- `tests/verification/MASTER_DOCUMENTATION.md` ext=.md lines=21 words=100 headings=0
+- `tests/verification/SESSION_SUMMARY_STEPS_2_3.md` ext=.md lines=262 words=1095 headings=30
+- `tests/verification/SESSION_SUMMARY_STEPS_2_4_FINAL.md` ext=.md lines=592 words=2004 headings=78
+- `tests/verification/STEP_3_LLM_CLIENT_COMPLETE.md` ext=.md lines=174 words=650 headings=29
+- `tests/verification/STEP_4_TRAINING_DATA_COLLECTION.md` ext=.md lines=600 words=1691 headings=59
+- `tests/verification/master_test_report.txt` ext=.txt lines=21 words=64 headings=0

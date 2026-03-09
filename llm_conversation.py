@@ -17,6 +17,8 @@ import json
 from datetime import datetime
 from pathlib import Path
 
+from adapters.legacy import LegacyEntrypointPlugin, run_legacy_entrypoint
+
 # Import LLM runtime
 sys.path.insert(0, str(Path(__file__).parent))
 from persona.ollama_runtime import OllamaRuntime
@@ -271,5 +273,20 @@ def main():
         engine.run_interactive()
 
 
+def _run_via_orchestrator() -> int:
+    """Execute this legacy entrypoint via central orchestration wrapper."""
+    plugin = LegacyEntrypointPlugin(
+        plugin_name="llm.conversation",
+        entrypoint=main,
+    )
+    report = run_legacy_entrypoint(
+        plugin=plugin,
+        command_name="llm_conversation.py",
+        argv=list(sys.argv[1:]),
+        metadata={"entrypoint": "llm_conversation.py"},
+    )
+    return report.exit_code
+
+
 if __name__ == "__main__":
-    main()
+    raise SystemExit(_run_via_orchestrator())

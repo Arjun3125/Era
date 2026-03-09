@@ -1,0 +1,5908 @@
+[
+  {
+    "file": ".github/copilot-instructions.md",
+    "lines": 379,
+    "headings": [
+      "# Copilot Instructions for PERSONA N System",
+      "## Architecture Overview",
+      "### Three Core Layers",
+      "### Integration Points",
+      "## Essential Conventions & Patterns",
+      "### 1. Knowledge Integration System (KIS)",
+      "# Returns: {\"synthesized_knowledge\": [...], \"relevance_scores\": {...}}",
+      "### 2. Minister Pattern",
+      "# Each minister module must:",
+      "# 1. Load its minister class (e.g., RiskMinister)",
+      "# 2. Generate KIS for its domain",
+      "# 3. Return MinisterModuleOutput: {minister_name, domain, stance, confidence, kis_data}",
+      "# 4. Invoke via Prime Confident for final decision",
+      "# To add a minister's logic:",
+      "### 3. Mode-Specific Routing",
+      "# Returns: ModeResponse(text, mode, ministers_involved, reasoning)",
+      "### 4. Trace & Observability",
+      "### 5. Async Patterns",
+      "## Critical Workflows & Commands",
+      "### Run the System"
+    ]
+  },
+  {
+    "file": "ARCHITECTURE_CLARIFICATION.md",
+    "lines": 297,
+    "headings": [
+      "# Architecture Clarification - Module Relationships",
+      "## Overview",
+      "## Resolved: LLM Integration Layer",
+      "### \u2705 Canonical LLM Interface: `persona/ollama_runtime.py`",
+      "# Primary entry point",
+      "## Deferred: Simulation Layer Decision (hse/ vs multi_agent_sim/)",
+      "### \u26a0\ufe0f Two Parallel Simulation Systems",
+      "#### 1. HSE (Human Simulation Engine) - `hse/`",
+      "#### 2. Multi-Agent Sim - `multi_agent_sim/`",
+      "### Decision Required",
+      "## Deferred: Memory Architecture (Memory/ vs persona/learning/)",
+      "### \u26a0\ufe0f Two Potential Memory Systems",
+      "#### 1. Episodic Learning - `persona/learning/`",
+      "#### 2. PWM Storage - `Memory/`",
+      "### Relationship Analysis",
+      "### Potential Overlap",
+      "### Decision Required",
+      "## Resolved: Ingestion Pipeline",
+      "### \u2705 Canonical: `ingestion/v2/`",
+      "## Resolved: Analytics Layer"
+    ]
+  },
+  {
+    "file": "AUDIT_REPORT.txt",
+    "lines": 360,
+    "headings": [
+      "# Check if hse module exists",
+      "# Run test suite",
+      "# Check doctrine files",
+      "# Check books directory",
+      "# Verify LLM client",
+      "# Check ingestion pipeline"
+    ]
+  },
+  {
+    "file": "AUDIT_REPORT_FINAL.txt",
+    "lines": 550,
+    "headings": [
+      "# Check module imports",
+      "# Run test suite",
+      "# Check doctrine files",
+      "# Check books directory",
+      "# Verify Ollama connection"
+    ]
+  },
+  {
+    "file": "AUDIT_RESOLUTION.md",
+    "lines": 592,
+    "headings": [
+      "# ERA System - Audit Resolution Report",
+      "## Executive Summary",
+      "## Critical Open Loops Resolution",
+      "### \u2705 1.1 LLM INTERFACE STUB (HIGH PRIORITY)",
+      "# Method confirmed at line 280",
+      "# Full implementation with error handling",
+      "### \u2705 1.2 HSE MODULE MISSING (HIGH PRIORITY)",
+      "### \u2705 1.3 KIS INTEGRATION WITH ASYNC INGESTION (MEDIUM)",
+      "### \u2705 1.4 PERSONA MAIN.PY BACKGROUND ANALYSIS (MEDIUM)",
+      "### \u2705 1.5 SOVEREIGN_MAIN.PY INTEGRATION (MEDIUM)",
+      "### \u2705 1.6 DATA/BOOKS DIRECTORY DEPENDENCY (LOW)",
+      "# Added validation function to ingestion/v2/run_all_v2_ingest.py",
+      "# Check ERA root exists",
+      "# Check books directory exists",
+      "# Check books has PDF files",
+      "### \u2705 1.7 ML MODEL PERSISTENCE (LOW)",
+      "### \u2705 1.8 DOCTRINE YAML LOADING (MEDIUM)",
+      "### \u2705 1.9 SESSION CACHE MANAGEMENT (LOW)",
+      "# Retention policies (days)",
+      "# Size limits (bytes)"
+    ]
+  },
+  {
+    "file": "AUDIT_RESOLUTION_INDEX.md",
+    "lines": 352,
+    "headings": [
+      "# ERA System - Audit Resolution Index",
+      "## \ud83d\udccb Audit Resolution Files",
+      "### Main Reports",
+      "## \ud83c\udd95 New Documentation Created",
+      "### Getting Started",
+      "### Understanding the System",
+      "### Technical References",
+      "## \u2705 Issue Resolution Summary",
+      "### Critical Issues (12 Total - ALL RESOLVED)",
+      "## \ud83d\udee0\ufe0f Code Improvements",
+      "### New Code Added",
+      "### Documentation Enhancements",
+      "## \ud83d\udcca Verification Results",
+      "### System Status",
+      "### Performance Testing",
+      "## \ud83d\ude80 Quick Start Paths",
+      "### For First-Time Users",
+      "### For System Administrators",
+      "### For Developers",
+      "### For Decision Making"
+    ]
+  },
+  {
+    "file": "audit_temp/all_markdown_files.txt",
+    "lines": 155,
+    "headings": []
+  },
+  {
+    "file": "audit_temp/all_python_files.txt",
+    "lines": 523,
+    "headings": []
+  },
+  {
+    "file": "audit_temp/markdown_files.txt",
+    "lines": 145,
+    "headings": []
+  },
+  {
+    "file": "audit_temp/python_files.txt",
+    "lines": 513,
+    "headings": []
+  },
+  {
+    "file": "audit_temp/todos.txt",
+    "lines": 140952,
+    "headings": []
+  },
+  {
+    "file": "audit_temp/todos_raw.txt",
+    "lines": 2,
+    "headings": []
+  },
+  {
+    "file": "CHANGELOG.md",
+    "lines": 246,
+    "headings": [
+      "# ERA System - Changelog",
+      "## [Unreleased]",
+      "### Under Development",
+      "## [1.2.0] - February 19, 2026",
+      "### Added",
+      "### Changed",
+      "### Fixed",
+      "### Verified Working",
+      "## [1.1.0] - February 18, 2026",
+      "### Added",
+      "### Changed",
+      "### Removed",
+      "## [1.0.0] - February 10, 2026",
+      "### Added",
+      "### Known Limitations (Version 1.0)",
+      "## [0.9.0] - January 2026",
+      "### Initial Development",
+      "## Deprecated & Planned Removal",
+      "### Will Be Removed in v2.0.0",
+      "### Modules Under Review"
+    ]
+  },
+  {
+    "file": "COMPLETION_SUMMARY.md",
+    "lines": 443,
+    "headings": [
+      "# ERA AUDIT MITIGATION - COMPLETION SUMMARY",
+      "## Executive Summary",
+      "### Resolution Metrics",
+      "## What Was Accomplished",
+      "### 1. Critical Issues Resolution (12/12 \u2705)",
+      "### 2. Documentation Gaps Filled (5/5 \u2705)",
+      "### 3. Code Improvements (2/2 \u2705)",
+      "### 4. System Verification (100% \u2705)",
+      "## New Documentation Created",
+      "### 5 New Files (58 KB Total)",
+      "### Key Additions to Existing Docs",
+      "## Performance Verification",
+      "## Issue-by-Issue Resolution Details",
+      "### Issue 1.1 - LLM Interface Stub",
+      "### Issue 1.2 - HSE Module Missing",
+      "### Issue 1.3 - KIS-Async Integration",
+      "### Issue 1.4 - Background Analysis",
+      "### Issue 1.5 - Sovereign_main Integration",
+      "### Issue 1.6 - Data/Books Path Validation",
+      "### Issue 1.7 - ML Model Persistence"
+    ]
+  },
+  {
+    "file": "DEAD_ENDS_AND_REDUNDANCY.txt",
+    "lines": 337,
+    "headings": []
+  },
+  {
+    "file": "DEAD_ENDS_RESOLUTION.md",
+    "lines": 275,
+    "headings": [
+      "# Dead Ends & Redundancy Resolution",
+      "## Executive Summary",
+      "## Actions Taken",
+      "### 1. DELETED: integrations/ \u2705 ARCHIVED",
+      "### 2. DELETED: runtime/ \u2705 ARCHIVED",
+      "## Deferred Decisions",
+      "### A. CLARIFY: hse/ vs multi_agent_sim/ relationship",
+      "### B. CONSOLIDATE: Memory/ vs persona/learning/",
+      "### C. CLARIFY: LLM Interface Triple Implementation",
+      "## Documentation Created",
+      "### New files added:",
+      "## Current Module Status",
+      "## Next Steps",
+      "### Immediate (Done \u2705)",
+      "### Short-Term (Next Week)",
+      "### Medium-Term (Next Month)",
+      "## Archive Location",
+      "## Philosophy Applied",
+      "## Questions Answered",
+      "### Q: Is integrations/ needed?"
+    ]
+  },
+  {
+    "file": "DEPENDENCIES.md",
+    "lines": 524,
+    "headings": [
+      "# ERA System - Dependencies & Environment Setup",
+      "## Quick Summary",
+      "## System Requirements",
+      "### Minimum Specifications",
+      "### Tested Configurations",
+      "## Core Dependencies",
+      "### Python Package Dependencies",
+      "# Core ML & Data Processing",
+      "# LLM & Embedding Integration",
+      "# Data Handling & Serialization",
+      "# Async & Concurrency",
+      "# Database & Persistence",
+      "# Document Processing",
+      "# Testing & Development",
+      "# Logging & Monitoring",
+      "### Installation",
+      "# 1. Navigate to ERA directory",
+      "# 2. (Optional but recommended) Create virtual environment",
+      "# 3. Install dependencies",
+      "# 4. Verify installation"
+    ]
+  },
+  {
+    "file": "documentation/01_PROJECT_OVERVIEW.md",
+    "lines": 332,
+    "headings": [
+      "# 01_PROJECT_OVERVIEW.md",
+      "# \ud83c\udfaf Era Project - Overview",
+      "## What Is This System?",
+      "## The Core Idea",
+      "## Architecture Layers",
+      "## The 18 Ministers",
+      "## The 4 Decision Modes",
+      "### QUICK Mode \ud83d\ude80",
+      "### WAR Mode \u2694\ufe0f",
+      "### MEETING Mode \ud83e\udd1d (DEFAULT)",
+      "### DARBAR Mode \ud83d\udc51",
+      "## How Learning Works",
+      "### Every Turn",
+      "### Every 100 Turns",
+      "### Every 200 Turns",
+      "### Result",
+      "## Memory Architecture",
+      "### Tier 1: Episodic Memory (Fast)",
+      "### Tier 2: Performance Metrics (Medium)",
+      "### Tier 3: PWM - Personal World Model (Slow)"
+    ]
+  },
+  {
+    "file": "documentation/02_ARCHITECTURE.md",
+    "lines": 645,
+    "headings": [
+      "# 02_ARCHITECTURE.md",
+      "# \ud83c\udfd7\ufe0f Era Project - System Architecture",
+      "## High-Level Architecture",
+      "## Layer 1: Persona Core",
+      "### Purpose",
+      "### Components",
+      "### Data Flow",
+      "## Layer 2: ML Learning System",
+      "### Purpose",
+      "### Components",
+      "### ML Pipeline",
+      "### KIS Weight Formula",
+      "## Layer 3: Human Simulation Environment (HSE)",
+      "### Purpose",
+      "### Components",
+      "### Simulation Flow",
+      "### Stress Testing",
+      "## Layer 4: Sovereign Integration",
+      "### Purpose",
+      "### The 12 Systems"
+    ]
+  },
+  {
+    "file": "documentation/03_FILE_REFERENCE.md",
+    "lines": 1054,
+    "headings": [
+      "# 03_FILE_REFERENCE.md",
+      "# \ud83d\udcc1 Era Project - Complete File Reference",
+      "## Project Root (`C:\\era\\`)",
+      "### Entry Points & Scripts",
+      "### Configuration Files",
+      "### Documentation (Root Level)",
+      "### Logs & Metrics",
+      "## Module: `persona/` (Core Persona System)",
+      "### Core Files",
+      "#### `main.py` \u2b50",
+      "#### `brain.py`",
+      "#### `ollama_runtime.py`",
+      "#### `context.py`",
+      "#### `state.py`",
+      "#### `trace.py`",
+      "#### `ministers.py` \u2b50",
+      "#### `council.py`",
+      "#### `knowledge_engine.py`",
+      "#### `doctrine_loader.py`",
+      "#### `analysis.py`"
+    ]
+  },
+  {
+    "file": "documentation/04_DATA_FLOW.md",
+    "lines": 979,
+    "headings": [
+      "# 04_DATA_FLOW.md",
+      "# \ud83d\udd04 Era Project - Data Flow Documentation",
+      "## Overview",
+      "## Pipeline 1: Decision Flow",
+      "### High-Level Flow",
+      "### Detailed Step-by-Step",
+      "#### Step 1: Input Reception",
+      "#### Step 2: Mode Check",
+      "#### Step 3: LLM Handshakes (Sensing)",
+      "#### Step 4: Mode Routing",
+      "#### Step 5: Minister Selection (WAR/MEETING/DARBAR)",
+      "#### Step 6: Council Convening",
+      "#### Step 7: KIS Ranking",
+      "#### Step 8: ML Judgment Prior Application",
+      "#### Step 9: Aggregation",
+      "#### Step 10: Prime Confident Review",
+      "#### Step 11: Response Generation",
+      "#### Step 12: Display",
+      "## Pipeline 2: Learning Flow",
+      "### High-Level Flow"
+    ]
+  },
+  {
+    "file": "documentation/05_FLOWCHARTS.md",
+    "lines": 699,
+    "headings": [
+      "# 05_FLOWCHARTS.md",
+      "# \ud83d\udcca Era Project - Visual Flowcharts",
+      "## 1. Complete System Architecture",
+      "### Mermaid Diagram",
+      "## 2. Decision Pipeline Flow",
+      "### Mermaid Diagram",
+      "## 3. Learning Pipeline Flow",
+      "### Mermaid Diagram",
+      "## 4. Memory Architecture Flow",
+      "### Mermaid Diagram",
+      "## 5. Mode Selection Flow",
+      "### ASCII Diagram",
+      "## 6. Minister Selection by Mode",
+      "### Mermaid Diagram",
+      "## 7. KIS Weight Calculation",
+      "### ASCII Diagram",
+      "## 8. Outcome-Based Learning Flow",
+      "### Mermaid Diagram",
+      "## 9. Validation Layer Flow",
+      "### ASCII Diagram"
+    ]
+  },
+  {
+    "file": "documentation/API_FIXES_SUMMARY.md",
+    "lines": 198,
+    "headings": [
+      "# API Compatibility Fixes - Summary",
+      "## Status: \u2705 ALL FIXES APPLIED & VERIFIED",
+      "## Changes Made to `/run_session_conversation.py`",
+      "### Fix #1: \u274c \u2192 \u2705 DynamicCouncil API (Lines 143-154)",
+      "# OLD (doesn't exist):",
+      "# NEW (correct):",
+      "### Fix #2: \u274c \u2192 \u2705 PrimeConfident.decide() (Lines 159-165)",
+      "# OLD (wrong args):",
+      "# NEW (correct):",
+      "### Fix #3: \u274c \u2192 \u2705 OllamaRuntime.analyze() (Lines 189-193)",
+      "# OLD (single arg):",
+      "# NEW (both args):",
+      "### Fix #4: \u274c \u2192 \u2705 EpisodicMemory.store_episode() (Lines 290-302)",
+      "# OLD (wrong format):",
+      "# NEW (correct):",
+      "# OLD (method doesn't exist):",
+      "# NEW (correct):",
+      "## Verification Results",
+      "## How to Use",
+      "### Start Interactive Conversation"
+    ]
+  },
+  {
+    "file": "documentation/DIALOGUE_ENHANCEMENT_GUIDE.md",
+    "lines": 439,
+    "headings": [
+      "# Conversational Dialogue Enhancement",
+      "## Overview",
+      "## What Changed",
+      "### Before: Binary Satisfaction Checks",
+      "### After: Rich Conversational Flow",
+      "## 7-Phase Dialogue Structure",
+      "### Phase 1: Problem Intake",
+      "### Phase 2-4: Clarification Exchanges (Up to 3 rounds)",
+      "### Phase 5: Synthesis Phase",
+      "### Phase 6: Prime's Informed Decision",
+      "### Phase 7: User LLM Feedback",
+      "### Phase 8: Natural Satisfaction Assessment",
+      "## Key Features",
+      "### \u2705 Multiple Clarification Rounds",
+      "### \u2705 Full Context Processing",
+      "### \u2705 Natural Satisfaction",
+      "### \u2705 Dialogue History Tracking",
+      "### \u2705 Confidence Extraction",
+      "## Code Architecture",
+      "### Main Dialogue Flow (system_main.py, Phase 5)"
+    ]
+  },
+  {
+    "file": "documentation/DYNAMIC_COUNCIL_GUIDE.md",
+    "lines": 383,
+    "headings": [
+      "# Dynamic Council Integration Guide",
+      "## Overview",
+      "## Architecture",
+      "## Key Differences from CouncilAggregator",
+      "## Files Created",
+      "### 1. `persona/council/dynamic_council.py` (140+ lines)",
+      "### 2. `persona/council/__init__.py` (10 lines)",
+      "## How It Works",
+      "### 1. Mode-Based Council Invocation",
+      "# QUICK MODE: Returns immediately without council",
+      "# Result has: outcome=\"quick_mode_direct_response\", ministers_involved=[]",
+      "# WAR MODE: 5 ministers focused on winning",
+      "# Result has: ministers_involved=[risk, power, strategy, tech, timing]",
+      "### 2. Minister Selection by Mode",
+      "# In DynamicCouncil._convene_mode_council():",
+      "# Get mode-appropriate ministers from ModeOrchestrator",
+      "# Only analyze those ministers",
+      "### 3. Mode-Specific Aggregation",
+      "# Get mode aggregation rules",
+      "# Determine recommendation based on mode"
+    ]
+  },
+  {
+    "file": "documentation/FINAL_SUMMARY.md",
+    "lines": 365,
+    "headings": [
+      "# Print the main content",
+      "# Count how many improvements were made"
+    ]
+  },
+  {
+    "file": "documentation/forensic_audit_2026-03-04/A00_SCOPE_AND_METHOD.md",
+    "lines": 19,
+    "headings": [
+      "# Forensic Audit Scope and Method",
+      "## Primary Evidence Artifacts"
+    ]
+  },
+  {
+    "file": "documentation/forensic_audit_2026-03-04/A01_FILE_COVERAGE.md",
+    "lines": 99,
+    "headings": [
+      "# File Coverage Ledger",
+      "## Files by Top-Level Directory",
+      "## Files by Extension (Top 25)",
+      "## Largest Files (Top 40)"
+    ]
+  },
+  {
+    "file": "documentation/forensic_audit_2026-03-04/A02_PYTHON_ARCHITECTURE_INDEX.md",
+    "lines": 236,
+    "headings": [
+      "# Python Architecture Index",
+      "## Largest Python Modules by Line Count (Top 50)",
+      "## Python Files by Module Prefix"
+    ]
+  },
+  {
+    "file": "documentation/forensic_audit_2026-03-04/A03_PARSER_AND_DATA_QUALITY_FLAGS.md",
+    "lines": 22,
+    "headings": [
+      "# Parser and Data Quality Flags",
+      "## Error List",
+      "## Invalid JSON Files"
+    ]
+  },
+  {
+    "file": "documentation/forensic_audit_2026-03-04/A04_DEPENDENCY_AND_ENTRYPOINT_MAP.md",
+    "lines": 135,
+    "headings": [
+      "# Python Dependency and Entrypoint Map",
+      "## Internal Import Footprint (files importing each internal package)",
+      "## Most Referenced External Packages (Top 60 by import statements)",
+      "## Candidate Entrypoints (heuristic)"
+    ]
+  },
+  {
+    "file": "documentation/forensic_audit_2026-03-04/A05_API_SECURITY_TEST_SURFACE.md",
+    "lines": 78,
+    "headings": [
+      "# API, Security, and Test Surface Map",
+      "## API Endpoints Detected in Code",
+      "## Security-Relevant Pattern Hits",
+      "## Security Pattern Detail (first 50 files per pattern)",
+      "### `cors_enable`",
+      "### `hardcoded_local_ollama`",
+      "### `open_bind_0_0_0_0`",
+      "### `postgres_default`",
+      "### `python_eval_call`",
+      "### `python_exec_call`",
+      "### `redis_default`",
+      "### `requests_verify_false`",
+      "### `skip_ollama_check`",
+      "### `subprocess_popen`",
+      "## Test Inventory Summary"
+    ]
+  },
+  {
+    "file": "documentation/HYBRID_MEMORY_ARCHITECTURE.md",
+    "lines": 274,
+    "headings": [
+      "# HYBRID MEMORY ARCHITECTURE GUIDE",
+      "## The Three-System Approach",
+      "### System 1: EpisodicMemory (Real-Time)",
+      "# Later: Detect if about to repeat this mistake",
+      "### System 2: PerformanceMetrics (Real-Time \u2192 Aggregated)",
+      "# Every 100 turns: Analyze",
+      "# Output: [\"career_risk: 45% success\", \"psychology: 38% success\"]",
+      "# Output: \"risk_minister was too aggressive; adjust multiplier 0.8 \u2192 0.6\"",
+      "### System 3: PWM (Slow, Validated)",
+      "# BEFORE: Don't update directly every turn",
+      "# pwm.update_entity(\"john\", \"risk_tolerance\", 0.4)  # \u274c Too fast",
+      "# AFTER: Validate through episodic/metrics first",
+      "# THEN (every 100 turns): Commit validated facts",
+      "## Flow: Decision \u2192 Learning \u2192 Validation \u2192 Commitment",
+      "## Integration with SovereignOrchestrator",
+      "### 1. Every Turn (Already doing this)",
+      "# Record to episodic memory",
+      "# Record to metrics",
+      "### 2. Every 100 Turns (NEW: PWM sync)",
+      "# After metrics aggregation, validate and commit to PWM"
+    ]
+  },
+  {
+    "file": "documentation/IMPLEMENTATION_COMPLETE.md",
+    "lines": 368,
+    "headings": [
+      "# Dialogue Enhancement Implementation Complete \u2705",
+      "## Summary",
+      "## What Was Implemented",
+      "### 7-Phase Dialogue Architecture",
+      "### Key Features Implemented",
+      "## Code Changes",
+      "### Main Changes in system_main.py",
+      "# OLD: _store_episode(self, result: Dict)",
+      "# NEW: _store_episode(self, problem_statement, domains, final_decision, satisfied, confidence, conversation_history)",
+      "# OLD: _store_metrics(self, result: Dict)",
+      "# NEW: _store_metrics(self, domains, satisfied, confidence, turns_used)",
+      "# OLD: _run_ml_analysis(self, result: Dict)",
+      "# NEW: _run_ml_analysis(self, domains, decision, satisfied, conversation_history)",
+      "## Dialogue Flow Example",
+      "## Files Modified",
+      "## Files Created",
+      "## Testing & Validation",
+      "## Running the Enhanced System",
+      "### Auto Mode (LLM-generated problems)",
+      "### Manual Mode (user-provided)"
+    ]
+  },
+  {
+    "file": "documentation/INTEGRATION_SUMMARY.md",
+    "lines": 344,
+    "headings": [
+      "# Mode Orchestrator Integration Summary",
+      "## What Was Created",
+      "### 1. Mode Orchestration Module",
+      "### 2. Main.py Integration",
+      "# Parse and switch mode",
+      "# Display confirmation with current ministers",
+      "### 3. Documentation",
+      "## Architecture",
+      "## Mode Selection Flow",
+      "### Startup",
+      "### Mid-Conversation Switching",
+      "## Key Methods",
+      "### ModeOrchestrator Interface",
+      "# Mode management",
+      "# Decision routing",
+      "### Strategy Methods (Abstract)",
+      "## Integration Testing Checklist",
+      "## Usage Scenarios",
+      "### Scenario 1: Exploration",
+      "### Scenario 2: Competitive Decision"
+    ]
+  },
+  {
+    "file": "documentation/LLM_CONVERSATION_GUIDE.md",
+    "lines": 374,
+    "headings": [
+      "# LLM-to-LLM Conversation Guide",
+      "## Overview",
+      "## Getting Started",
+      "### Basic Usage",
+      "### Options",
+      "## Conversation Flow",
+      "### Per Round",
+      "### Total Exchanges",
+      "## Examples",
+      "### Example 1: Interactive Mode",
+      "# System starts and you're prompted:",
+      "# [User LLM] starts...",
+      "# [Program LLM] responds...",
+      "# [User LLM] responds...",
+      "# [Program LLM] responds...",
+      "# ...",
+      "# After conversation:",
+      "# Back to prompt:",
+      "### Example 2: Demo Mode",
+      "# Shows preset conversation on \"Intelligent decision systems\""
+    ]
+  },
+  {
+    "file": "documentation/ML_LEARNING_LOOP_COMPLETE.md",
+    "lines": 363,
+    "headings": []
+  },
+  {
+    "file": "documentation/MODE_EXAMPLES.md",
+    "lines": 625,
+    "headings": [
+      "# Mode Examples: See the Difference",
+      "## Example 1: Career Decision",
+      "### QUICK MODE Response",
+      "### WAR MODE Response",
+      "### MEETING MODE Response",
+      "### DARBAR MODE Response",
+      "## Example 2: Competitive Business Decision",
+      "### QUICK MODE Response",
+      "### WAR MODE Response",
+      "### MEETING MODE Response",
+      "### DARBAR MODE Response",
+      "## Example 3: Personal Health/Wellness Decision",
+      "### QUICK MODE Response",
+      "### WAR MODE Response",
+      "### MEETING MODE Response",
+      "### DARBAR MODE Response",
+      "## Key Insight: Same Question, Different Wisdom",
+      "## How to Use These Examples"
+    ]
+  },
+  {
+    "file": "documentation/MODE_ORCHESTRATOR_COMPLETE.md",
+    "lines": 452,
+    "headings": [
+      "# Mode Orchestrator: Implementation Complete \u2705",
+      "## What's Been Built",
+      "### 1. Core Mode System",
+      "### 2. Main.py Integration",
+      "### 3. Comprehensive Documentation",
+      "## System Architecture",
+      "## The 4 Modes",
+      "### QUICK MODE \ud83d\ude80",
+      "### WAR MODE \u2694\ufe0f",
+      "### MEETING MODE \ud83e\udd1d (DEFAULT)",
+      "### DARBAR MODE \ud83d\udc51",
+      "## Usage",
+      "### At Startup",
+      "### During Conversation",
+      "## Key Features Implemented",
+      "## Integration Points",
+      "### In persona/main.py",
+      "### In persona/modes/",
+      "## Testing Status",
+      "## Documentation Structure"
+    ]
+  },
+  {
+    "file": "documentation/MODE_QUICK_REFERENCE.md",
+    "lines": 159,
+    "headings": [
+      "# Mode Selection Quick Reference",
+      "## At Startup",
+      "## During Conversation",
+      "## Mode Comparison Matrix",
+      "### Quick Mode",
+      "### War Mode",
+      "### Meeting Mode \u2b50 DEFAULT",
+      "### Darbar Mode",
+      "## Domain-to-Minister Mapping (Meeting Mode)",
+      "## Recommended Mode Progression",
+      "### For Exploration",
+      "### For Competition",
+      "### For Life Decisions",
+      "### For Emergencies",
+      "## All 18 Ministers (Darbar Mode)",
+      "## Red Lines (Protected in All Modes)",
+      "## Learning Systems (Always Active)",
+      "## Command Summary",
+      "## Key Insights"
+    ]
+  },
+  {
+    "file": "documentation/MODE_SELECTION_GUIDE.md",
+    "lines": 381,
+    "headings": [
+      "# Mode Selection & Orchestration Guide",
+      "## Overview",
+      "## Modes at a Glance",
+      "## Starting the System",
+      "### Default: MEETING MODE",
+      "## Mode Descriptions",
+      "### 1. QUICK MODE \ud83d\ude80",
+      "### 2. WAR MODE \u2694\ufe0f",
+      "### 3. MEETING MODE \ud83e\udd1d",
+      "### 4. DARBAR MODE \ud83d\udc51",
+      "## Switching Modes Mid-Conversation",
+      "### Command Syntax:",
+      "### Example:",
+      "## Integration with Learning Systems",
+      "### Insight: Learning is Mode-Agnostic",
+      "## Decision Quality by Mode",
+      "### Speed",
+      "### Depth",
+      "### Consensus",
+      "### Ethical Safeguards"
+    ]
+  },
+  {
+    "file": "documentation/MODE_TESTING_CHECKLIST.md",
+    "lines": 463,
+    "headings": [
+      "# Mode System Testing & Validation Checklist",
+      "## Pre-Launch Verification",
+      "### Code Quality",
+      "### Documentation",
+      "## Startup Testing",
+      "### Test 1: Mode Selection Menu",
+      "### Test 2: Default Mode Selection",
+      "### Test 3: Mode 1 - Quick Mode",
+      "### Test 4: Mode 2 - War Mode",
+      "### Test 5: Mode 3 - Meeting Mode (Default)",
+      "### Test 6: Mode 4 - Darbar Mode",
+      "## Mid-Conversation Testing",
+      "### Test 7: Mode Switching - Quick \u2192 War",
+      "### Test 8: Mode Switching - War \u2192 Darbar",
+      "### Test 9: Mode Switching - Invalid Mode",
+      "### Test 10: Mode Help/Info",
+      "## Learning System Integration",
+      "### Test 11: Episode Recording (All Modes)",
+      "### Test 12: Metrics Recording (All Modes)",
+      "### Test 13: Pattern Extraction (All Modes)"
+    ]
+  },
+  {
+    "file": "documentation/PWM_INTEGRATION_GUIDE.md",
+    "lines": 582,
+    "headings": [
+      "# PWM Integration Complete: End-to-End Flow",
+      "## Executive Summary",
+      "## 1. Integration Architecture",
+      "### 1.1 The Three-System Hierarchy",
+      "### 1.2 Integration Points in SovereignOrchestrator",
+      "## 2. Per-Turn Data Flow",
+      "### 2.1 Decision \u2192 EpisodicMemory (every turn)",
+      "# Store in episodic memory",
+      "# Queue episodic outcome to PWM bridge for validation at next sync",
+      "### 2.2 Metrics \u2192 Quality Score (every turn)",
+      "# Record to metrics",
+      "# Queue metric insights to PWM bridge for validation at next sync",
+      "### 2.3 Outcome \u2192 Feedback Loop (every turn)",
+      "# Record outcome feedback (drives minister retraining & KIS reweighting)",
+      "## 3. Every-100-Turns Validation Checkpoint",
+      "### 3.1 Trigger Point",
+      "# Sync validated observations to PWM",
+      "# Feed PWM insights back into confidence and minister recalibration",
+      "# Update domain confidence based on validated facts",
+      "### 3.2 Validation Process"
+    ]
+  },
+  {
+    "file": "documentation/PWM_INTEGRATION_SUMMARY.md",
+    "lines": 443,
+    "headings": [
+      "# PWM Integration Complete - Implementation Summary",
+      "## Overview",
+      "## What Was Integrated",
+      "### \u2705 1. PWMIntegrationBridge Module",
+      "### \u2705 2. SovereignOrchestrator Updates",
+      "# Imports",
+      "# Initialization",
+      "# Methods",
+      "# Feed insights back into system",
+      "# Reduce confidence in poor domains",
+      "### \u2705 3. Documentation",
+      "## Data Flow Overview",
+      "## Key Integration Features",
+      "### 1. Observation Validation (Every 100 Turns)",
+      "### 2. Insight Generation (Every 100 Turns)",
+      "### 3. Feedback Loop to Confidence Model",
+      "# After PWM sync at turn 100:",
+      "# Reduce confidence in domains with <50% quality",
+      "# Increase confidence in proven domains",
+      "### 4. Retraining with Validated Facts"
+    ]
+  },
+  {
+    "file": "documentation/PWM_REDESIGN_IMPLEMENTATION.md",
+    "lines": 319,
+    "headings": [
+      "# PWM Redesigned: Proper Three-System Architecture",
+      "## Summary of Changes",
+      "## What Changed",
+      "### 1. PWMIntegrationBridge (`persona/pwm_integration/pwm_bridge.py`)",
+      "#### Key Method Changes:",
+      "# OLD - did too much",
+      "# NEW - does only one thing",
+      "### 2. SovereignOrchestrator (`ml/sovereign_orchestrator.py`)",
+      "# Tried to use PWM insights to adjust confidence",
+      "# Then used PWM insights to change confidence factors",
+      "# Queue observations if notable (high-failure episode)",
+      "# Only for audit trail - NOT for driving improvements",
+      "# (confidence adjustment is handled by SystemRetraining, not PWM)",
+      "## Three-System Proper Flow",
+      "### System 1: EpisodicMemory (Every Turn)",
+      "# The REAL decision learning system",
+      "# Later, detect patterns:",
+      "### System 2: PerformanceMetrics (Every Turn, Aggregate Every 100)",
+      "# The REAL improvement system",
+      "# Measure performance, drive improvement:"
+    ]
+  },
+  {
+    "file": "documentation/README.md",
+    "lines": 220,
+    "headings": [
+      "# \ud83c\udfaf ERA Project - Complete Documentation Index",
+      "## \ud83d\udcda Documentation Files",
+      "## \ud83d\ude80 Quick Start",
+      "# Navigate to project",
+      "# Run the Persona system",
+      "# Or run synthetic conversation",
+      "## \ud83c\udfd7\ufe0f System at a Glance",
+      "## \ud83c\udfaf Core Capabilities",
+      "### 1. **Ministerial Decision-Making**",
+      "### 2. **Adaptive Learning**",
+      "### 3. **Synthetic Human Simulation**",
+      "### 4. **Hybrid Memory Architecture**",
+      "### 5. **Sovereign Orchestration**",
+      "## \ud83d\udcca Key Metrics (Demonstrated)",
+      "## \ud83d\uddc2\ufe0f Project Structure",
+      "## \ud83d\udd11 Key Concepts",
+      "### Ministerial Cognitive Architecture (MCA)",
+      "### Mode Orchestration",
+      "### Learning Loop",
+      "### Hybrid Memory"
+    ]
+  },
+  {
+    "file": "documentation/SESSION_FEATURES_GUIDE.md",
+    "lines": 405,
+    "headings": [
+      "# Session-Based Problem Solving System",
+      "## Overview",
+      "## Components",
+      "### 1. Domain Detector (`persona/domain_detector.py`)",
+      "# Analyze a complete situation",
+      "# Returns: {",
+      "#   \"problem\": str,",
+      "#   \"domains\": [\"career\", \"psychology\", ...],",
+      "#   \"domain_confidence\": 0.85,",
+      "#   \"stakes\": \"high|medium|low\",",
+      "#   \"reversibility\": \"fully_reversible|partially_reversible|irreversible\",",
+      "#   \"key_entities\": [],",
+      "#   \"domain_scores\": {...}",
+      "# }",
+      "# Detect domains by keywords",
+      "# Estimate stakes level",
+      "# Assess decision reversibility",
+      "### 2. Session Manager (`persona/session_manager.py`)",
+      "# Start a new session",
+      "# Record a turn during conversation"
+    ]
+  },
+  {
+    "file": "documentation/sovereign_ml_log.txt",
+    "lines": 10,
+    "headings": []
+  },
+  {
+    "file": "documentation/SOVEREIGN_ORCHESTRATOR_GUIDE.md",
+    "lines": 330,
+    "headings": [
+      "# SOVEREIGN ORCHESTRATOR - COMPLETE INTEGRATION GUIDE",
+      "## Overview",
+      "### The 12 Integrated Systems",
+      "#### **Learning & Memory (4 systems)**",
+      "#### **Feedback & Improvement (2 systems)**",
+      "#### **Validation & Governance (3 systems)**",
+      "#### **Character & Stress (3 systems)**",
+      "#### **Reporting**",
+      "## Architecture",
+      "## 4-Phase Progression",
+      "### Phase 1: Infrastructure (Turns 0-100)",
+      "### Phase 2: Learning Loop (Turns 100-300)",
+      "### Phase 3: Optimization (Turns 300-700)",
+      "### Phase 4: Stress Testing (Turns 700-1000+)",
+      "## Usage: Quick Start",
+      "### 1. Import Components",
+      "# Your existing systems",
+      "### 2. Initialize Orchestrator",
+      "# Attach synthetic human",
+      "### 3. Run Main Loop"
+    ]
+  },
+  {
+    "file": "documentation/SYNTHETIC_CONVERSATION_GUIDE.md",
+    "lines": 295,
+    "headings": [
+      "# \ud83c\udfaf PERSONA N - SYNTHETIC CONVERSATION SYSTEM - OPERATING",
+      "## \u2705 STATUS: FULLY FUNCTIONAL",
+      "## \ud83d\udcca WHAT'S WORKING",
+      "### \u2705 **Synthetic Conversation Loop**",
+      "### \u2705 **Mode Orchestration System**",
+      "### \u2705 **Dynamic Council Integration**",
+      "### \u2705 **Performance Tracking**",
+      "### \u2705 **Learning Systems**",
+      "## \ud83d\ude80 QUICK START",
+      "### Option 1: Simple run (Recommended)",
+      "### Option 2: With environment setup",
+      "### Option 3: Using helper script",
+      "## \ud83d\udcfa EXPECTED OUTPUT",
+      "## \ud83c\udf9b\ufe0f CONFIGURATION",
+      "# Enable/disable automated simulation",
+      "# Debug output",
+      "# LLM Models",
+      "# Advanced",
+      "## \ud83d\udcca TURN-BY-TURN BREAKDOWN",
+      "## \ud83c\udf93 WHAT YOU'LL LEARN"
+    ]
+  },
+  {
+    "file": "documentation/system doc/01_PROJECT_OVERVIEW.md",
+    "lines": 332,
+    "headings": [
+      "# 01_PROJECT_OVERVIEW.md",
+      "# \ud83c\udfaf Era Project - Overview",
+      "## What Is This System?",
+      "## The Core Idea",
+      "## Architecture Layers",
+      "## The 18 Ministers",
+      "## The 4 Decision Modes",
+      "### QUICK Mode \ud83d\ude80",
+      "### WAR Mode \u2694\ufe0f",
+      "### MEETING Mode \ud83e\udd1d (DEFAULT)",
+      "### DARBAR Mode \ud83d\udc51",
+      "## How Learning Works",
+      "### Every Turn",
+      "### Every 100 Turns",
+      "### Every 200 Turns",
+      "### Result",
+      "## Memory Architecture",
+      "### Tier 1: Episodic Memory (Fast)",
+      "### Tier 2: Performance Metrics (Medium)",
+      "### Tier 3: PWM - Personal World Model (Slow)"
+    ]
+  },
+  {
+    "file": "documentation/system doc/02_ARCHITECTURE.md",
+    "lines": 645,
+    "headings": [
+      "# 02_ARCHITECTURE.md",
+      "# \ud83c\udfd7\ufe0f Era Project - System Architecture",
+      "## High-Level Architecture",
+      "## Layer 1: Persona Core",
+      "### Purpose",
+      "### Components",
+      "### Data Flow",
+      "## Layer 2: ML Learning System",
+      "### Purpose",
+      "### Components",
+      "### ML Pipeline",
+      "### KIS Weight Formula",
+      "## Layer 3: Human Simulation Environment (HSE)",
+      "### Purpose",
+      "### Components",
+      "### Simulation Flow",
+      "### Stress Testing",
+      "## Layer 4: Sovereign Integration",
+      "### Purpose",
+      "### The 12 Systems"
+    ]
+  },
+  {
+    "file": "documentation/system doc/03_FILE_REFERENCE.md",
+    "lines": 1054,
+    "headings": [
+      "# 03_FILE_REFERENCE.md",
+      "# \ud83d\udcc1 Era Project - Complete File Reference",
+      "## Project Root (`C:\\era\\`)",
+      "### Entry Points & Scripts",
+      "### Configuration Files",
+      "### Documentation (Root Level)",
+      "### Logs & Metrics",
+      "## Module: `persona/` (Core Persona System)",
+      "### Core Files",
+      "#### `main.py` \u2b50",
+      "#### `brain.py`",
+      "#### `ollama_runtime.py`",
+      "#### `context.py`",
+      "#### `state.py`",
+      "#### `trace.py`",
+      "#### `ministers.py` \u2b50",
+      "#### `council.py`",
+      "#### `knowledge_engine.py`",
+      "#### `doctrine_loader.py`",
+      "#### `analysis.py`"
+    ]
+  },
+  {
+    "file": "documentation/system doc/04_DATA_FLOW.md",
+    "lines": 979,
+    "headings": [
+      "# 04_DATA_FLOW.md",
+      "# \ud83d\udd04 Era Project - Data Flow Documentation",
+      "## Overview",
+      "## Pipeline 1: Decision Flow",
+      "### High-Level Flow",
+      "### Detailed Step-by-Step",
+      "#### Step 1: Input Reception",
+      "#### Step 2: Mode Check",
+      "#### Step 3: LLM Handshakes (Sensing)",
+      "#### Step 4: Mode Routing",
+      "#### Step 5: Minister Selection (WAR/MEETING/DARBAR)",
+      "#### Step 6: Council Convening",
+      "#### Step 7: KIS Ranking",
+      "#### Step 8: ML Judgment Prior Application",
+      "#### Step 9: Aggregation",
+      "#### Step 10: Prime Confident Review",
+      "#### Step 11: Response Generation",
+      "#### Step 12: Display",
+      "## Pipeline 2: Learning Flow",
+      "### High-Level Flow"
+    ]
+  },
+  {
+    "file": "documentation/system doc/05_FLOWCHARTS.md",
+    "lines": 699,
+    "headings": [
+      "# 05_FLOWCHARTS.md",
+      "# \ud83d\udcca Era Project - Visual Flowcharts",
+      "## 1. Complete System Architecture",
+      "### Mermaid Diagram",
+      "## 2. Decision Pipeline Flow",
+      "### Mermaid Diagram",
+      "## 3. Learning Pipeline Flow",
+      "### Mermaid Diagram",
+      "## 4. Memory Architecture Flow",
+      "### Mermaid Diagram",
+      "## 5. Mode Selection Flow",
+      "### ASCII Diagram",
+      "## 6. Minister Selection by Mode",
+      "### Mermaid Diagram",
+      "## 7. KIS Weight Calculation",
+      "### ASCII Diagram",
+      "## 8. Outcome-Based Learning Flow",
+      "### Mermaid Diagram",
+      "## 9. Validation Layer Flow",
+      "### ASCII Diagram"
+    ]
+  },
+  {
+    "file": "documentation/SYSTEM_ARCHITECTURE.md",
+    "lines": 435,
+    "headings": [
+      "# Advanced Decision Guidance System",
+      "## Summary",
+      "## Implementation",
+      "### Core File",
+      "### Supporting Modules",
+      "## Architecture: 9-Phase Unified Flow with Conversational Dialogue",
+      "## Operating Modes",
+      "### Mode 1: Auto (LLM-Generated Problems)",
+      "### Mode 2: Manual (User-Provided Problems)",
+      "## System Components",
+      "### 1. **OllamaRuntime (LLMs)**",
+      "### 2. **Domain Detector**",
+      "### 3. **Session Manager**",
+      "### 4. **KIS (Knowledge Integration System)**",
+      "### 5. **Dynamic Council**",
+      "### 6. **Prime Confident**",
+      "### 7. **EpisodicMemory**",
+      "### 8. **PerformanceMetrics**",
+      "### 9. **ML Orchestrator**",
+      "### 10. **Mode Orchestrator**"
+    ]
+  },
+  {
+    "file": "documentation/SYSTEM_READY.md",
+    "lines": 161,
+    "headings": [
+      "# \ud83c\udfaf PERSONA N - SYNTHETIC CONVERSATION SYSTEM - WORKING",
+      "## \u2705 Status: FULLY OPERATIONAL",
+      "## \ud83d\ude80 Quick Start",
+      "## \ud83d\udcca What You'll See",
+      "## \ud83c\udfd7\ufe0f Architecture Implemented",
+      "### 1. **Mode Orchestrator** (`persona/modes/mode_orchestrator.py`)",
+      "### 2. **Dynamic Council** (`persona/council/dynamic_council.py`)",
+      "### 3. **Mode Metrics** (`persona/modes/mode_metrics.py`)",
+      "### 4. **Synthetic Human Simulation** (`hse/simulation/synthetic_human_sim.py`)",
+      "## \ud83d\udcc8 Key Features",
+      "## \ud83d\udd27 Configuration",
+      "## \ud83d\udc1b Fixed Issues",
+      "## \ud83d\udcdd Expected Behavior",
+      "## \ud83c\udf93 What's Being Demonstrated",
+      "## \ud83d\udea8 Known Limitations",
+      "## \ud83d\udcda Documentation"
+    ]
+  },
+  {
+    "file": "documentation/SYSTEM_STATUS.md",
+    "lines": 313,
+    "headings": [
+      "#!/usr/bin/env python"
+    ]
+  },
+  {
+    "file": "documentation/TECHNICAL_CHANGES_SUMMARY.md",
+    "lines": 419,
+    "headings": [
+      "# Dialogue Enhancement - Technical Implementation Summary",
+      "## What Changed in system_main.py",
+      "### The Core Transformation",
+      "## Modified Section: Phase 5 (Lines 260-570)",
+      "### What Was Rebuilt",
+      "### Key Additions",
+      "#### 1. Dialogue Context Tracking",
+      "# Each exchange stored with metadata",
+      "#### 2. Clarification Loop (3 rounds)",
+      "# Prime asks questions",
+      "# User responds",
+      "# Context stored",
+      "# Turn recorded",
+      "#### 3. Prime Question Generation",
+      "#### 4. User Response Generation",
+      "#### 5. Full Context Aggregation",
+      "#### 6. KIS with Full Context",
+      "#### 7. Council with Full Context",
+      "#### 8. Prime's Informed Decision",
+      "#### 9. Confidence Extraction"
+    ]
+  },
+  {
+    "file": "documentation/TESTING_VALIDATION_GUIDE.md",
+    "lines": 261,
+    "headings": [
+      "# TESTING & VALIDATION GUIDE",
+      "## Week 1-2: Foundation & Learning Loop \u2705 COMPLETE",
+      "### Implemented Components:",
+      "## Testing Workflow",
+      "### Option 1: Interactive Mode (Manual Testing)",
+      "### Option 2: Automated Simulation (Stress Testing)",
+      "### Option 3: Extended Stress Test (1000+ turns)",
+      "## Data Files & Output",
+      "### Memory & Metrics",
+      "### Reports & Analysis",
+      "## Expected Improvement Trajectory",
+      "### Turn 50-100 (Baseline Phase)",
+      "### Turn 100-200 (First Retraining Cycle)",
+      "### Turn 200-500 (Consolidation Phase)",
+      "### Turn 500-1000 (Convergence Phase)",
+      "## Performance Metrics to Monitor",
+      "## Validation Checklist",
+      "### Week 2 Completion Criteria:",
+      "### Additional Validation:",
+      "## Debugging Commands"
+    ]
+  },
+  {
+    "file": "documentation/USER_PERSONA_CONVERSATION_GUIDE.md",
+    "lines": 183,
+    "headings": [
+      "# User-Persona Conversation System - Updated",
+      "## Key Changes",
+      "### \u2705 No Turn Limits",
+      "### \u2705 Satisfaction-Based Termination",
+      "### \u2705 Conversation Flow",
+      "## Live Example from Latest Run",
+      "### Turn 1",
+      "### Satisfaction Check (After Turn 1)",
+      "### Turn 2 (Continues)",
+      "## How to Use",
+      "### System Detects Three Satisfaction Levels",
+      "## Key Features",
+      "## Output Example",
+      "## Conversation Storage",
+      "## When Conversation Ends",
+      "## Architecture",
+      "## Use Cases"
+    ]
+  },
+  {
+    "file": "documents/CONSOLIDATION_COMPLETE.md",
+    "lines": 197,
+    "headings": [
+      "# Phase 3.5 Consolidation - Implementation Complete",
+      "## What Was Changed",
+      "### Structure Transformation",
+      "## Implementation Details",
+      "### Code Changes",
+      "## Data Statistics",
+      "### Entry Distribution by Category",
+      "## File Locations Reference",
+      "## How to Query the Data",
+      "### Example 1: Get all rules from a domain",
+      "### Example 2: Find entries from specific book",
+      "### Example 3: Get all entries across all categories",
+      "## Verification Results",
+      "## Benefits of This Change",
+      "## Backward Compatibility Notes",
+      "## Next Steps",
+      "## File Modifications Summary"
+    ]
+  },
+  {
+    "file": "documents/CONSOLIDATION_IMPLEMENTATION_REPORT.md",
+    "lines": 298,
+    "headings": [
+      "# Consolidation Implementation - Final Report",
+      "## Executive Summary",
+      "### Key Results",
+      "## What Changed",
+      "### File Structure Transformation",
+      "## Complete Domain Inventory",
+      "## Code Changes",
+      "### 1. minister_converter.py (Core Logic)",
+      "### 2. Test Suite",
+      "### 3. Migration Scripts (Temporary, for reference)",
+      "## Data Format",
+      "### Consolidated JSON File Format",
+      "### Querying the Data",
+      "# Load consolidated rules file",
+      "# Access entries array directly",
+      "# Iterate through all entries",
+      "## Performance Improvements",
+      "### File System Operations",
+      "### Memory Usage",
+      "### Backup/Recovery"
+    ]
+  },
+  {
+    "file": "documents/PHASE_3_5_IMPLEMENTATION_SUMMARY.md",
+    "lines": 195,
+    "headings": [
+      "## Phase 3.5 Minister Conversion Implementation Summary",
+      "### \u2705 What Was Created",
+      "#### 1. **Core Module: `minister_converter.py`**",
+      "#### 2. **Vector Database Schema: `minister_vector_db.py`**",
+      "#### 3. **Pipeline Integration**",
+      "#### 4. **Comprehensive Documentation**",
+      "#### 5. **Test Suite**",
+      "### \ud83d\udcc1 Directory Structure Created",
+      "### \ud83d\udd04 Execution Flow",
+      "### \ud83d\udcca Key Data Structures",
+      "### \ud83e\uddea Test Results",
+      "### \ud83d\ude80 Usage",
+      "# \u2192 Creates structure in /data/ministers/",
+      "### \ud83d\udcbe PostgreSQL Integration (Optional)",
+      "### \ud83d\udcc8 Performance",
+      "### \ud83d\udd17 Files Created",
+      "### \u2728 Key Features",
+      "### \ud83c\udfaf Next Steps"
+    ]
+  },
+  {
+    "file": "documents/PHASE_3_5_MINISTER_CONVERSION.md",
+    "lines": 397,
+    "headings": [
+      "# Phase 3.5: Minister Conversion System",
+      "## Overview",
+      "## Architecture",
+      "### File Structure",
+      "### Domain List (18 Domains)",
+      "## Phase 3.5 Execution Flow",
+      "### Entry Point",
+      "# After Phase 3 (embeddings) completes:",
+      "### Pseudocode Flow",
+      "## Data Structures",
+      "### Atomic Entry File",
+      "### Domain Doctrine Summary",
+      "### Combined Vector Index",
+      "## PostgreSQL Vector Database",
+      "### Schema Setup",
+      "### Vector Search Queries",
+      "## Integration with Ingestion Pipeline",
+      "### Progress Tracking",
+      "## Usage",
+      "### Full Pipeline (Automatic Phase 3.5)"
+    ]
+  },
+  {
+    "file": "documents/PHASE_3_5_POPULATION_REPORT.md",
+    "lines": 252,
+    "headings": [
+      "## Phase 3.5 Population Report",
+      "### Source & Target",
+      "### Results",
+      "#### Total Statistics",
+      "#### By Domain",
+      "#### Data Distribution",
+      "### File Structure Created",
+      "### Example Entry",
+      "### Example Domain Summary",
+      "### Combined Index",
+      "### Access Examples",
+      "#### Query a domain's principles",
+      "#### Load a single atomic entry",
+      "#### Get all statistics",
+      "### Performance Metrics",
+      "### Quality Assurance",
+      "### Next Steps",
+      "### Related Files"
+    ]
+  },
+  {
+    "file": "documents/PHASE_3_5_QUICK_START.md",
+    "lines": 406,
+    "headings": [
+      "# Phase 3.5 Quick Start Guide",
+      "## \ud83d\ude80 Get Started in 5 Minutes",
+      "### Option 1: Automatic (Recommended)",
+      "### Option 2: Manual/Programmatic",
+      "# Load chapter doctrines from Phase 2",
+      "# Convert to minister structure",
+      "## \ud83d\udcc1 What Gets Created",
+      "## \ud83d\udd0d How to Query the Data",
+      "### List all principles in constraints domain:",
+      "### Get domain statistics:",
+      "# See stats for all domains",
+      "# Total across all",
+      "### Load all entries from a specific domain:",
+      "# Access aggregated entries",
+      "## \ud83d\udcca Understanding the Data Structures",
+      "### Atomic Entry File",
+      "### Domain Summary File",
+      "### Combined Index",
+      "## \ud83d\udcbb Common Operations",
+      "### Count entries by domain"
+    ]
+  },
+  {
+    "file": "documents/PHASE_3_5_REAL_DATA_SUMMARY.md",
+    "lines": 353,
+    "headings": [
+      "# Phase 3.5 Real Data Population - Summary",
+      "## \u2705 COMPLETED",
+      "## What Was Done",
+      "### Source Data",
+      "### Conversion Process",
+      "### Results",
+      "## Directory Structure",
+      "## Data Format",
+      "### Atomic Entry Example",
+      "### Domain Summary Example",
+      "### Combined Index Example",
+      "## Quick Queries",
+      "### Count entries in a domain",
+      "# Output: 1788",
+      "### View a single entry",
+      "### Get domain summary statistics",
+      "### List all domains with entry counts",
+      "### Find entries from a specific book",
+      "## Python Examples",
+      "### Access domain data"
+    ]
+  },
+  {
+    "file": "documents/QUICK_REFERENCE.md",
+    "lines": 244,
+    "headings": [
+      "# Quick Reference - Consolidated Minister Structure",
+      "## \u26a1 TL;DR",
+      "### The Change",
+      "## \ud83d\udcc2 Directory Structure",
+      "## \ud83d\udccb Files per Domain",
+      "## \ud83d\udcd6 Accessing Data",
+      "### Load all rules from a domain",
+      "### Get entry info",
+      "### Find entries from specific book",
+      "### Count entries by category",
+      "## \ud83d\udd0d All 19 Domains",
+      "## \ud83d\udcca JSON Structure Example",
+      "## \u2705 Statistics",
+      "## \ud83c\udfaf Common Tasks",
+      "### Load all entries from one domain",
+      "### Search across a domain",
+      "### Compare two domains",
+      "## \u274c What's Different",
+      "### Old Way (DOESN'T WORK)",
+      "# This no longer works - atomic files removed:"
+    ]
+  },
+  {
+    "file": "eval_demo_output.txt",
+    "lines": 269,
+    "headings": []
+  },
+  {
+    "file": "evaluation/baselines/ERA_v2.0_diversity_baseline/PHASE2_ROBUSTNESS_REPORT.md",
+    "lines": 28,
+    "headings": [
+      "# ERA Phase 2 - Robustness & Attribution",
+      "## Core",
+      "## Stress Deltas vs Core",
+      "## Ablation Matrix (Core)"
+    ]
+  },
+  {
+    "file": "evaluation/baselines/ERA_v2.0_diversity_baseline/TAG.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "evaluation/BENCHMARK_README.md",
+    "lines": 350,
+    "headings": [
+      "# ERA Evaluation Benchmark - Complete Framework",
+      "## Status: \u2705 OPERATIONAL",
+      "## What's Ready to Run",
+      "### 1. Full Benchmark (Complete 5-Seed Run)",
+      "### 2. Quick Framework Validation",
+      "## Framework Architecture",
+      "### Hard Rules (Non-Negotiable)",
+      "### Research-Grade Features",
+      "## Component Status",
+      "## How to Interpret Results",
+      "### Baseline vs Council Comparison",
+      "### Power Analysis",
+      "### Calibration Analysis",
+      "## Running the Full Benchmark",
+      "### Prerequisites",
+      "### Command",
+      "# Full evaluation (5 seeds \u00d7 100 scenarios)",
+      "# With ablations (measure component importance)",
+      "# Quick test (limited scenarios)",
+      "### Output"
+    ]
+  },
+  {
+    "file": "evaluation/EVALUATION_GUIDE.md",
+    "lines": 393,
+    "headings": [
+      "# Evaluation System - Research-Grade Benchmarking",
+      "## Overview",
+      "## Hard Rules",
+      "### 1. Dataset Integrity (Non-Negotiable)",
+      "### 2. Isolation Mode (Must Be Enabled)",
+      "# This DISABLES:",
+      "# This LOCKS:",
+      "### 3. No Dataset Leakage",
+      "## Directory Structure",
+      "## Scenario Format",
+      "## Usage",
+      "### 1. Verify Integrity",
+      "# HARD RULE: Abort if hashes don't match",
+      "### 2. Run Baseline (Direct LLM, no council)",
+      "### 3. Run Council Approach",
+      "### 4. Run Ablations",
+      "# Measure importance of each component",
+      "# Output:",
+      "# {",
+      "#   \"no_ministers\": {"
+    ]
+  },
+  {
+    "file": "evaluation/GAPS_FIXED.md",
+    "lines": 567,
+    "headings": [
+      "# Evaluation Framework - Critical Gaps Fixed",
+      "## Summary",
+      "## Critical Gaps (4/4 Fixed)",
+      "### GAP 1: Deterministic LLM Control \u2705",
+      "# NEW: Global seed for evaluation mode",
+      "# LOCKED: Temperature for reproducibility",
+      "# In evaluation runner:",
+      "# ... etc for seeds 123, 7, 314",
+      "# Or via environment:",
+      "### GAP 2: Rule-Based Deterministic Scoring \u2705",
+      "# DETERMINISTIC PRINCIPLE KEYWORDS (explicit list)",
+      "# ... etc",
+      "# Rule 1: Any keyword must appear",
+      "# Rule 2: Principle is negated if negation keywords appear",
+      "### GAP 3: Dataset Versioning \u2705",
+      "### GAP 4: Power Analysis \u2705",
+      "# For paired t-test with df = n_total - 1",
+      "# Non-centrality parameter: how \"different\" are the distributions?",
+      "# Power = probability our t-statistic exceeds critical value",
+      "# Shows power for small, medium, large, and extra-large effects"
+    ]
+  },
+  {
+    "file": "evaluation/INTEGRATION_CHECKLIST.md",
+    "lines": 349,
+    "headings": [
+      "# Evaluation System Integration Checklist",
+      "## Overview",
+      "## Required Code Modifications",
+      "### \u2705 ALREADY IN PLACE",
+      "### \ud83d\udd27 NEEDED MODIFICATIONS",
+      "#### 1. **ml/sovereign_orchestrator.py**",
+      "# Add to __init__",
+      "# Modify decide() method",
+      "# Set isolation mode if evaluation_mode=True",
+      "# ... normal decision logic ...",
+      "# At end, check if should store",
+      "# Will cascade to:",
+      "#   - episodic_memory.evaluation_mode = True",
+      "#   - performance_metrics.evaluation_mode = True",
+      "#   - ml_retraining.evaluation_mode = True",
+      "#   - pwm_sync.evaluation_mode = True",
+      "#### 2. **persona/learning/episodic_memory.py**",
+      "# Normal storage logic",
+      "#### 3. **ml/metrics/performance_metrics.py**",
+      "# Normal recording logic"
+    ]
+  },
+  {
+    "file": "evaluation/results/ERA_v1.0_FROZEN_BENCHMARK_REPORT.md",
+    "lines": 45,
+    "headings": [
+      "# ERA v1.0 - Frozen Benchmark Report",
+      "## Dataset Freeze",
+      "## Run Configuration",
+      "## Results",
+      "## Confidence Intervals (95% bootstrap)",
+      "## Calibration (Real Confidence Signals)"
+    ]
+  },
+  {
+    "file": "evaluation/results/ERA_v1.1_CALIBRATED_BENCHMARK_REPORT.md",
+    "lines": 47,
+    "headings": [
+      "# ERA v1.1 - Calibrated Benchmark Report",
+      "## Dataset Freeze",
+      "## Decision Quality (Unchanged Protocol)",
+      "## Confidence Intervals (95% bootstrap)",
+      "## Calibration (Before vs After)",
+      "## Notes"
+    ]
+  },
+  {
+    "file": "evaluation/results/KIS2_AB_COMPARE_limit2_20260303.md",
+    "lines": 17,
+    "headings": [
+      "# KIS2 A/B Compare (limit=2, test split, semantic, same uncertainty model)",
+      "## Metrics",
+      "## KIS2 Usage"
+    ]
+  },
+  {
+    "file": "evaluation/results/KIS_FAILURE_MODE_DIAGNOSIS.md",
+    "lines": 24,
+    "headings": [
+      "# KIS Step-0 Failure Diagnosis",
+      "## Bottleneck Inference",
+      "## Hardest Pattern Snapshot",
+      "## Hardest Cases"
+    ]
+  },
+  {
+    "file": "evaluation/results/KIS_FAILURE_MODE_DIAGNOSIS_current_strict.md",
+    "lines": 24,
+    "headings": [
+      "# KIS Step-0 Failure Diagnosis",
+      "## Bottleneck Inference",
+      "## Hardest Pattern Snapshot",
+      "## Hardest Cases"
+    ]
+  },
+  {
+    "file": "evaluation/results/KIS_FAILURE_MODE_DIAGNOSIS_principle_activation_static.md",
+    "lines": 92,
+    "headings": [
+      "# KIS Step-0 Failure Diagnosis",
+      "## Bottleneck Inference",
+      "## Hardest Pattern Snapshot",
+      "## Hardest Cases"
+    ]
+  },
+  {
+    "file": "evaluation/results/KIS_FAILURE_MODE_DIAGNOSIS_test_control.md",
+    "lines": 24,
+    "headings": [
+      "# KIS Step-0 Failure Diagnosis",
+      "## Bottleneck Inference",
+      "## Hardest Pattern Snapshot",
+      "## Hardest Cases"
+    ]
+  },
+  {
+    "file": "evaluation/results/KIS_FAILURE_MODE_DIAGNOSIS_test_control_leq06.md",
+    "lines": 155,
+    "headings": [
+      "# KIS Step-0 Failure Diagnosis",
+      "## Bottleneck Inference",
+      "## Hardest Pattern Snapshot",
+      "## Hardest Cases"
+    ]
+  },
+  {
+    "file": "evaluation/results/manual_inspection_5_hard_cases.md",
+    "lines": 101,
+    "headings": [
+      "# Manual Inspection: 5 Hardest High-U Cases",
+      "## Case 1: STR_011 (seed=7)",
+      "## Case 2: STR_023 (seed=7)",
+      "## Case 3: STR_011 (seed=42)",
+      "## Case 4: STR_023 (seed=42)",
+      "## Case 5: STR_011 (seed=99)"
+    ]
+  },
+  {
+    "file": "evaluation/results/MINISTER_SIMILARITY_REPORT.md",
+    "lines": 23,
+    "headings": [
+      "# Minister Similarity Report",
+      "## Matrix Correlation (Core vs OOD)",
+      "## Top Pair Drift (Agreement)"
+    ]
+  },
+  {
+    "file": "evaluation/results/PHASE2_GATE_REPORT.md",
+    "lines": 27,
+    "headings": [
+      "# Phase 2 Gate Report",
+      "## Checks"
+    ]
+  },
+  {
+    "file": "evaluation/results/PHASE2_GATE_REPORT_caseA.md",
+    "lines": 27,
+    "headings": [
+      "# Phase 2 Gate Report",
+      "## Checks"
+    ]
+  },
+  {
+    "file": "evaluation/results/PHASE2_GATE_REPORT_semantic_control.md",
+    "lines": 27,
+    "headings": [
+      "# Phase 2 Gate Report",
+      "## Checks"
+    ]
+  },
+  {
+    "file": "evaluation/results/PHASE2_ROBUSTNESS_REPORT.md",
+    "lines": 43,
+    "headings": [
+      "# ERA Phase 2 - Robustness & Attribution",
+      "## Uncertainty Control",
+      "## KIS 2.0 Parallel Retrieval",
+      "## Core",
+      "## Stress Deltas vs Core",
+      "## Ablation Matrix (Core)"
+    ]
+  },
+  {
+    "file": "evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_control.md",
+    "lines": 36,
+    "headings": [
+      "# ERA Phase 2 - Robustness & Attribution",
+      "## Uncertainty Control",
+      "## Core",
+      "## Stress Deltas vs Core",
+      "## Ablation Matrix (Core)"
+    ]
+  },
+  {
+    "file": "evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_control_darbar_strengthened.md",
+    "lines": 36,
+    "headings": [
+      "# ERA Phase 2 - Robustness & Attribution",
+      "## Uncertainty Control",
+      "## Core",
+      "## Stress Deltas vs Core",
+      "## Ablation Matrix (Core)"
+    ]
+  },
+  {
+    "file": "evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_control_learned.md",
+    "lines": 36,
+    "headings": [
+      "# ERA Phase 2 - Robustness & Attribution",
+      "## Uncertainty Control",
+      "## Core",
+      "## Stress Deltas vs Core",
+      "## Ablation Matrix (Core)"
+    ]
+  },
+  {
+    "file": "evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_control_principle_activation_static.md",
+    "lines": 36,
+    "headings": [
+      "# ERA Phase 2 - Robustness & Attribution",
+      "## Uncertainty Control",
+      "## Core",
+      "## Stress Deltas vs Core",
+      "## Ablation Matrix (Core)"
+    ]
+  },
+  {
+    "file": "evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_control_runtime_percentile.md",
+    "lines": 36,
+    "headings": [
+      "# ERA Phase 2 - Robustness & Attribution",
+      "## Uncertainty Control",
+      "## Core",
+      "## Stress Deltas vs Core",
+      "## Ablation Matrix (Core)"
+    ]
+  },
+  {
+    "file": "evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_control_semantic.md",
+    "lines": 36,
+    "headings": [
+      "# ERA Phase 2 - Robustness & Attribution",
+      "## Uncertainty Control",
+      "## Core",
+      "## Stress Deltas vs Core",
+      "## Ablation Matrix (Core)"
+    ]
+  },
+  {
+    "file": "evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_limit2_kis1_20260303_091407.md",
+    "lines": 36,
+    "headings": [
+      "# ERA Phase 2 - Robustness & Attribution",
+      "## Uncertainty Control",
+      "## Core",
+      "## Stress Deltas vs Core",
+      "## Ablation Matrix (Core)"
+    ]
+  },
+  {
+    "file": "evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_limit2_kis2_20260303_092203.md",
+    "lines": 43,
+    "headings": [
+      "# ERA Phase 2 - Robustness & Attribution",
+      "## Uncertainty Control",
+      "## KIS 2.0 Parallel Retrieval",
+      "## Core",
+      "## Stress Deltas vs Core",
+      "## Ablation Matrix (Core)"
+    ]
+  },
+  {
+    "file": "evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_no_control.md",
+    "lines": 36,
+    "headings": [
+      "# ERA Phase 2 - Robustness & Attribution",
+      "## Uncertainty Control",
+      "## Core",
+      "## Stress Deltas vs Core",
+      "## Ablation Matrix (Core)"
+    ]
+  },
+  {
+    "file": "evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_semantic_control.md",
+    "lines": 36,
+    "headings": [
+      "# ERA Phase 2 - Robustness & Attribution",
+      "## Uncertainty Control",
+      "## Core",
+      "## Stress Deltas vs Core",
+      "## Ablation Matrix (Core)"
+    ]
+  },
+  {
+    "file": "evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_semantic_control_kis2_u50_20260304_072214.md",
+    "lines": 43,
+    "headings": [
+      "# ERA Phase 2 - Robustness & Attribution",
+      "## Uncertainty Control",
+      "## KIS 2.0 Parallel Retrieval",
+      "## Core",
+      "## Stress Deltas vs Core",
+      "## Ablation Matrix (Core)"
+    ]
+  },
+  {
+    "file": "evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_semantic_no_control.md",
+    "lines": 36,
+    "headings": [
+      "# ERA Phase 2 - Robustness & Attribution",
+      "## Uncertainty Control",
+      "## Core",
+      "## Stress Deltas vs Core",
+      "## Ablation Matrix (Core)"
+    ]
+  },
+  {
+    "file": "evaluation/results/PHASE2_ROBUSTNESS_REPORT_train_semantic_control.md",
+    "lines": 36,
+    "headings": [
+      "# ERA Phase 2 - Robustness & Attribution",
+      "## Uncertainty Control",
+      "## Core",
+      "## Stress Deltas vs Core",
+      "## Ablation Matrix (Core)"
+    ]
+  },
+  {
+    "file": "evaluation/results/PHASE2_ROBUSTNESS_REPORT_val_semantic_control.md",
+    "lines": 36,
+    "headings": [
+      "# ERA Phase 2 - Robustness & Attribution",
+      "## Uncertainty Control",
+      "## Core",
+      "## Stress Deltas vs Core",
+      "## Ablation Matrix (Core)"
+    ]
+  },
+  {
+    "file": "ingestion/v2/CONCRETE_MODIFICATIONS_EXAMPLE.md",
+    "lines": 333,
+    "headings": [
+      "### KIS INTEGRATION ###  (start of change)",
+      "### END KIS INTEGRATION ###  (end of change)",
+      "# =============================================================================",
+      "# MODIFICATION 1: Add imports at top of file (after line 16)",
+      "# =============================================================================",
+      "# FROM (line 16):",
+      "# from .async_doctrine_workers import run_async_doctrine_extraction",
+      "# ADD THESE LINES AFTER:",
+      "### KIS INTEGRATION ###",
+      "### END KIS INTEGRATION ###",
+      "# =============================================================================",
+      "# MODIFICATION 2: Initialize KIS enhancer in run_full_ingest_with_resume",
+      "# =============================================================================",
+      "# Find the line:",
+      "# def run_full_ingest_with_resume(pdf_path: str, resume: bool = True) -> None:",
+      "# Add these lines right after the function starts (around line 560):",
+      "### KIS INTEGRATION ###",
+      "# Initialize KIS enhancer for knowledge synthesis",
+      "# Track ingestion job outcomes for learning feedback",
+      "### END KIS INTEGRATION ###"
+    ]
+  },
+  {
+    "file": "ingestion/v2/INTEGRATION_GUIDE_KIS.md",
+    "lines": 316,
+    "headings": [
+      "# =============================================================================",
+      "# STEP 1: ADD IMPORTS (at top of run_all_v2_ingest.py)",
+      "# =============================================================================",
+      "# Add these imports after existing imports:",
+      "# =============================================================================",
+      "# STEP 2: INITIALIZE KIS ENHANCER (in AsyncIngestionOrchestrator.__init__)",
+      "# =============================================================================",
+      "# In the AsyncIngestionOrchestrator class, add to __init__:",
+      "# ... existing initialization ...",
+      "# Initialize KIS enhancer for knowledge synthesis during ingestion",
+      "# Track ingestion decision \u2192 outcome mapping",
+      "# =============================================================================",
+      "# STEP 3: ENHANCE AGGREGATION STAGE",
+      "# =============================================================================",
+      "# In the aggregation_worker method, add KIS enhancement:",
+      "# CREATE KIS CONTEXT",
+      "# ENHANCE WITH KIS",
+      "# Continue with existing aggregation logic",
+      "# ...",
+      "# ... existing fields ..."
+    ]
+  },
+  {
+    "file": "ingestion/v2/MODIFICATIONS_APPLIED.md",
+    "lines": 299,
+    "headings": [
+      "# \u2705 KIS INTEGRATION MODIFICATIONS APPLIED",
+      "## \ud83d\udcdd Summary of 5 Modifications",
+      "### Modification 1: Add Imports \u2705",
+      "### KIS INTEGRATION ###",
+      "### END KIS INTEGRATION ###",
+      "### Modification 2: Initialize KIS Enhancer \u2705",
+      "### KIS INTEGRATION ###",
+      "# Initialize KIS enhancer for knowledge synthesis",
+      "# Track ingestion job outcomes for learning feedback",
+      "### END KIS INTEGRATION ###",
+      "### Modification 3: Enhance Doctrines with KIS \u2705",
+      "### KIS INTEGRATION ###",
+      "# KIS enhancement: synthesize knowledge during aggregation phase",
+      "# Extract chapter title and domain",
+      "# Get first 300 chars of doctrine excerpt",
+      "# Create and enhance KIS context",
+      "# Synthesize knowledge",
+      "# Add KIS guidance to doctrine",
+      "# Track for outcome recording",
+      "### END KIS INTEGRATION ###"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/20090526_TNA13Crawford2009/00_canonical_text.txt",
+    "lines": 737,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/20090526_TNA13Crawford2009/00_raw.txt",
+    "lines": 737,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/00_canonical_text.txt",
+    "lines": 6595,
+    "headings": [
+      "### P",
+      "### Repair of Text",
+      "### Part 1",
+      "### Two Systems",
+      "### The Characters of the Story",
+      "### Two Systems",
+      "#### System 1",
+      "#### System 2",
+      "### Plot Synopsis",
+      "### Conflict",
+      "### Anchoring as Adjustment",
+      "### Anchoring as Priming Effect",
+      "### Seeds and Regression:",
+      "### The Process of Correcting Intuitive Predictions",
+      "### A Defense of Extreme Predictions?",
+      "### Correcting Your Intuitive Predictions",
+      "### The Outside View",
+      "### Experience and Memory",
+      "### Concepts of Regression",
+      "### Availability"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/00_raw.txt",
+    "lines": 6595,
+    "headings": [
+      "### P",
+      "### Repair of Text",
+      "### Part 1",
+      "### Two Systems",
+      "### The Characters of the Story",
+      "### Two Systems",
+      "#### System 1",
+      "#### System 2",
+      "### Plot Synopsis",
+      "### Conflict",
+      "### Anchoring as Adjustment",
+      "### Anchoring as Priming Effect",
+      "### Seeds and Regression:",
+      "### The Process of Correcting Intuitive Predictions",
+      "### A Defense of Extreme Predictions?",
+      "### Correcting Your Intuitive Predictions",
+      "### The Outside View",
+      "### Experience and Memory",
+      "### Concepts of Regression",
+      "### Availability"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/00_raw_repaired.txt",
+    "lines": 6595,
+    "headings": [
+      "### P",
+      "### Repair of Text",
+      "### Part 1",
+      "### Two Systems",
+      "### The Characters of the Story",
+      "### Two Systems",
+      "#### System 1",
+      "#### System 2",
+      "### Plot Synopsis",
+      "### Conflict",
+      "### Anchoring as Adjustment",
+      "### Anchoring as Priming Effect",
+      "### Seeds and Regression:",
+      "### The Process of Correcting Intuitive Predictions",
+      "### A Defense of Extreme Predictions?",
+      "### Correcting Your Intuitive Predictions",
+      "### The Outside View",
+      "### Experience and Memory",
+      "### Concepts of Regression",
+      "### Availability"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1020485132589600869.txt",
+    "lines": 45,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1024368333506222691.txt",
+    "lines": 23,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1089242414018171855.txt",
+    "lines": 33,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1103758123527241051.txt",
+    "lines": 17,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1148712130770165040.txt",
+    "lines": 41,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1178499349294791374.txt",
+    "lines": 31,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1182724724701312655.txt",
+    "lines": 53,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1188670980796914946.txt",
+    "lines": 1605,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1311814536620704379.txt",
+    "lines": 36,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1429061121871870483.txt",
+    "lines": 21,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1456497029916455456.txt",
+    "lines": 29,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1456961525256974257.txt",
+    "lines": 81,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1469434131825091107.txt",
+    "lines": 29,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1508359289706449625.txt",
+    "lines": 37,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1560413940120710988.txt",
+    "lines": 126,
+    "headings": [
+      "### P"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1569124022971562998.txt",
+    "lines": 1528,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_163647790111342224.txt",
+    "lines": 23,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1675684506863048240.txt",
+    "lines": 41,
+    "headings": [
+      "### The Outside View"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1694029185565260753.txt",
+    "lines": 33,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1712336904135370492.txt",
+    "lines": 45,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1744951934488728042.txt",
+    "lines": 27,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_18011372929536797.txt",
+    "lines": 55,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_182977797217770242.txt",
+    "lines": 41,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1881727269098711814.txt",
+    "lines": 44,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1943076085957539141.txt",
+    "lines": 39,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1993220573614503232.txt",
+    "lines": 68,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2004741208606156993.txt",
+    "lines": 31,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2123228244128487096.txt",
+    "lines": 23,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2187996814763042883.txt",
+    "lines": 1546,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2198665490824835710.txt",
+    "lines": 41,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2226123799637421790.txt",
+    "lines": 27,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2243228953837880840.txt",
+    "lines": 85,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2298479186567698668.txt",
+    "lines": 1731,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2380364485711791005.txt",
+    "lines": 40,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2386457833134005742.txt",
+    "lines": 25,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2462204145820530527.txt",
+    "lines": 1665,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2462985905006610508.txt",
+    "lines": 28,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2463218979263903822.txt",
+    "lines": 34,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2479470558356914514.txt",
+    "lines": 41,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2487848299675382330.txt",
+    "lines": 45,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2568447408271796760.txt",
+    "lines": 47,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2582027077750309973.txt",
+    "lines": 88,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2723946289410395953.txt",
+    "lines": 57,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2842770211804486414.txt",
+    "lines": 41,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2935315268152163721.txt",
+    "lines": 44,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3024090689785562126.txt",
+    "lines": 24,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_310773083490055722.txt",
+    "lines": 33,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3112531489830821431.txt",
+    "lines": 39,
+    "headings": [
+      "### Anchoring as Adjustment",
+      "### Anchoring as Priming Effect"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3282057031561260690.txt",
+    "lines": 54,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_331758858547722691.txt",
+    "lines": 29,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3351470564966229683.txt",
+    "lines": 39,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3439536045450933505.txt",
+    "lines": 1513,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3458112225005086099.txt",
+    "lines": 36,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3742825105607360110.txt",
+    "lines": 65,
+    "headings": [
+      "### Repair of Text",
+      "### Part 1",
+      "### Two Systems",
+      "### The Characters of the Story",
+      "### Two Systems",
+      "#### System 1",
+      "#### System 2"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3750952042343545376.txt",
+    "lines": 39,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3791525903201225744.txt",
+    "lines": 25,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3894946836671865644.txt",
+    "lines": 24,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3948678991844328719.txt",
+    "lines": 52,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3996452290503734589.txt",
+    "lines": 27,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4008854097678922150.txt",
+    "lines": 41,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_401007117151201302.txt",
+    "lines": 25,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4021414803510010291.txt",
+    "lines": 99,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4032600798384378842.txt",
+    "lines": 21,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4045211682464493713.txt",
+    "lines": 35,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4051794297633461134.txt",
+    "lines": 25,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4153735226428564432.txt",
+    "lines": 30,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4178694348433358459.txt",
+    "lines": 31,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4213846751395475578.txt",
+    "lines": 37,
+    "headings": [
+      "### The Process of Correcting Intuitive Predictions",
+      "### A Defense of Extreme Predictions?",
+      "### Correcting Your Intuitive Predictions"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4244411764283101120.txt",
+    "lines": 39,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4323908735161203671.txt",
+    "lines": 30,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4326860656655914957.txt",
+    "lines": 57,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4362788288068011229.txt",
+    "lines": 61,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4370252601128720750.txt",
+    "lines": 20,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4374684165943615323.txt",
+    "lines": 41,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4435499333573741452.txt",
+    "lines": 49,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4477477428758677057.txt",
+    "lines": 25,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4580038268565203438.txt",
+    "lines": 65,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4633381095806329473.txt",
+    "lines": 26,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4721120910877536498.txt",
+    "lines": 19,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4737058953704194782.txt",
+    "lines": 61,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4792069768382715841.txt",
+    "lines": 1585,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4856968042652682073.txt",
+    "lines": 36,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_497343946709968676.txt",
+    "lines": 37,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4982439371433905299.txt",
+    "lines": 40,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5082918612597804504.txt",
+    "lines": 1641,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5116653561884656502.txt",
+    "lines": 37,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5144605883873346777.txt",
+    "lines": 38,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5258551694217130256.txt",
+    "lines": 37,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5278219367935410845.txt",
+    "lines": 26,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5335447325011387964.txt",
+    "lines": 34,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_534423346333532909.txt",
+    "lines": 72,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_540502393904022726.txt",
+    "lines": 48,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5409153171790066876.txt",
+    "lines": 45,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5476378095461999048.txt",
+    "lines": 37,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5478314025870907036.txt",
+    "lines": 35,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5692207703527710661.txt",
+    "lines": 41,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5711820408422574579.txt",
+    "lines": 3,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5739636132489466913.txt",
+    "lines": 39,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5805410304382862034.txt",
+    "lines": 43,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5929297397677201167.txt",
+    "lines": 89,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5939080041271497926.txt",
+    "lines": 1629,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5961750151802169132.txt",
+    "lines": 54,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6013041519841527733.txt",
+    "lines": 27,
+    "headings": [
+      "### Concepts of Regression",
+      "### Availability"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_601458231160097651.txt",
+    "lines": 1541,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6051110949105663880.txt",
+    "lines": 25,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6059663872385668000.txt",
+    "lines": 1683,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6073334770715307769.txt",
+    "lines": 23,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6190276261725930212.txt",
+    "lines": 37,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6245332565347363116.txt",
+    "lines": 31,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6254621389354917988.txt",
+    "lines": 35,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6324599204593065204.txt",
+    "lines": 32,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6475158520449576919.txt",
+    "lines": 20,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6478585253149969901.txt",
+    "lines": 51,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6503203699883058539.txt",
+    "lines": 33,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6574091024289290454.txt",
+    "lines": 21,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6604320936531872697.txt",
+    "lines": 54,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_66430167297293014.txt",
+    "lines": 41,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6709186152754457270.txt",
+    "lines": 73,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6822867778329890573.txt",
+    "lines": 79,
+    "headings": [
+      "### Sections. My wife, Anne Treisman, went through a lot and did a lot\u2014I would have given up long ago without her steady support, wisdom, and endless patience.",
+      "#### Notes",
+      "##### Introduction",
+      "##### Negative View of the Mind",
+      "##### Offered Plausible Alternatives",
+      "##### Nobel Prize that I Received",
+      "##### Prolonged Practice",
+      "##### Kitchen Was on Fire",
+      "##### Studied Chess Masters",
+      "##### Affect Heuristic",
+      "##### Without Noticing the Substitution",
+      "##### Offered Many Labels",
+      "##### Subjective Experience of Agency",
+      "##### Attention Is Totally Focused Elsewhere",
+      "##### Conflict Between the Two Systems",
+      "##### Psychopathic Charm",
+      "##### Pupil of the Eye",
+      "##### On the Subject\u2019s Mind",
+      "##### Heart Rate Increases",
+      "##### Rapidly Flashing Letters"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_683349279826036745.txt",
+    "lines": 63,
+    "headings": [
+      "### References",
+      "### Acknowledgments"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6866290586523391204.txt",
+    "lines": 58,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6874885600919659747.txt",
+    "lines": 67,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6965847619750761116.txt",
+    "lines": 33,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7000323262289503149.txt",
+    "lines": 44,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7068363364457929130.txt",
+    "lines": 50,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7087491510229613509.txt",
+    "lines": 70,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7098988159653251277.txt",
+    "lines": 33,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7165718911315556000.txt",
+    "lines": 15,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7170666546462103378.txt",
+    "lines": 63,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7184482595873092212.txt",
+    "lines": 45,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7253753056043441994.txt",
+    "lines": 49,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7364273887114814289.txt",
+    "lines": 27,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_736491458147840443.txt",
+    "lines": 47,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7396838171356052307.txt",
+    "lines": 43,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7460280699793591245.txt",
+    "lines": 33,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7514377144195671701.txt",
+    "lines": 39,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7572971798924214278.txt",
+    "lines": 69,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7603022999328314610.txt",
+    "lines": 41,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7619549999948199846.txt",
+    "lines": 43,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7695697714547756242.txt",
+    "lines": 63,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7736219523651636994.txt",
+    "lines": 42,
+    "headings": [
+      "### Seeds and Regression:"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7741934276792950843.txt",
+    "lines": 1602,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7771316773651441177.txt",
+    "lines": 49,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7854385074551572952.txt",
+    "lines": 35,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7878003860727240461.txt",
+    "lines": 223,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_798181436378891844.txt",
+    "lines": 43,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8004256738131052044.txt",
+    "lines": 33,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8076473740232781972.txt",
+    "lines": 31,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8100493889555960111.txt",
+    "lines": 15,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8114743545233052043.txt",
+    "lines": 43,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8236393736833437172.txt",
+    "lines": 32,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8422720079736838777.txt",
+    "lines": 1585,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8502556970328986410.txt",
+    "lines": 27,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8575497461069921065.txt",
+    "lines": 33,
+    "headings": [
+      "### Experience and Memory"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_859330035028263340.txt",
+    "lines": 65,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8635686265128369555.txt",
+    "lines": 49,
+    "headings": [
+      "### Plot Synopsis",
+      "### Conflict"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_864570124639222264.txt",
+    "lines": 45,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8691855530840774804.txt",
+    "lines": 29,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8820028351212936410.txt",
+    "lines": 37,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_9116254325606618589.txt",
+    "lines": 42,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_9156506472958299843.txt",
+    "lines": 70,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_938558225806639030.txt",
+    "lines": 25,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/33449/00_canonical_text.txt",
+    "lines": 224,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/33449/00_raw.txt",
+    "lines": 224,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/00_canonical_text.txt",
+    "lines": 4773,
+    "headings": [
+      "## ALSO BY RYAN HOLIDAY",
+      "### Growth Hacker Marketing: A Primer on the Future of PR, Marketing, and Advertising",
+      "### Trust Me, I\u2019m Lying: Confessions of a Media Manipulator",
+      "### The Obstacle Is the Way: The Timeless Art of Turning Trials into Triumph",
+      "### Ego Is the Enemy",
+      "### Version_1",
+      "### CONTENTS",
+      "### INTRODUCTION"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/00_raw.txt",
+    "lines": 4773,
+    "headings": [
+      "## ALSO BY RYAN HOLIDAY",
+      "### Growth Hacker Marketing: A Primer on the Future of PR, Marketing, and Advertising",
+      "### Trust Me, I\u2019m Lying: Confessions of a Media Manipulator",
+      "### The Obstacle Is the Way: The Timeless Art of Turning Trials into Triumph",
+      "### Ego Is the Enemy",
+      "### Version_1",
+      "### CONTENTS",
+      "### INTRODUCTION"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/00_raw_repaired.txt",
+    "lines": 4773,
+    "headings": [
+      "## ALSO BY RYAN HOLIDAY",
+      "### Growth Hacker Marketing: A Primer on the Future of PR, Marketing, and Advertising",
+      "### Trust Me, I\u2019m Lying: Confessions of a Media Manipulator",
+      "### The Obstacle Is the Way: The Timeless Art of Turning Trials into Triumph",
+      "### Ego Is the Enemy",
+      "### Version_1",
+      "### CONTENTS",
+      "### INTRODUCTION"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_1102872590667321271.txt",
+    "lines": 61,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_1177012484215886414.txt",
+    "lines": 37,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_1431978756600662929.txt",
+    "lines": 8,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_1572792222354819362.txt",
+    "lines": 90,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_1826821899613586216.txt",
+    "lines": 77,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_1828741339837696804.txt",
+    "lines": 76,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_2171655373008387958.txt",
+    "lines": 97,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_2278523487297607448.txt",
+    "lines": 22,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_2292455236324743213.txt",
+    "lines": 89,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_2584168575577664706.txt",
+    "lines": 84,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_2664239180032780708.txt",
+    "lines": 28,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_2798428788992460182.txt",
+    "lines": 83,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_2910884129929137303.txt",
+    "lines": 109,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3061917804230268627.txt",
+    "lines": 99,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3120715836427739606.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3297902560936431054.txt",
+    "lines": 95,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3386421720377040129.txt",
+    "lines": 70,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3498265604175578304.txt",
+    "lines": 85,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3560596981030871735.txt",
+    "lines": 98,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3683297618601467651.txt",
+    "lines": 63,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3784193580226252386.txt",
+    "lines": 87,
+    "headings": [
+      "## ALSO BY RYAN HOLIDAY",
+      "### Growth Hacker Marketing: A Primer on the Future of PR, Marketing, and Advertising",
+      "### Trust Me, I\u2019m Lying: Confessions of a Media Manipulator",
+      "### The Obstacle Is the Way: The Timeless Art of Turning Trials into Triumph",
+      "### Ego Is the Enemy",
+      "### Version_1",
+      "### CONTENTS",
+      "### INTRODUCTION"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3936601217949393649.txt",
+    "lines": 99,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4171144320196644950.txt",
+    "lines": 65,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4206575243767723076.txt",
+    "lines": 67,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_42789123413460591.txt",
+    "lines": 89,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4361084783941880665.txt",
+    "lines": 63,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4364207040278255606.txt",
+    "lines": 25,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4497200556251703548.txt",
+    "lines": 16,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4629754563530791158.txt",
+    "lines": 67,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4660902811441489154.txt",
+    "lines": 48,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_470066122216978683.txt",
+    "lines": 153,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4785888563538610204.txt",
+    "lines": 134,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_5095809825764496668.txt",
+    "lines": 98,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_5212787722785018503.txt",
+    "lines": 68,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_5259745120844227314.txt",
+    "lines": 76,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_5267526361360886106.txt",
+    "lines": 98,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_5345192743340290838.txt",
+    "lines": 75,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_5439241954508059405.txt",
+    "lines": 75,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_5475266206554921931.txt",
+    "lines": 75,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_594820812033225684.txt",
+    "lines": 5,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_6110938686144462672.txt",
+    "lines": 107,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_6171393630246987631.txt",
+    "lines": 55,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_6387858815772665450.txt",
+    "lines": 111,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_645302408558531162.txt",
+    "lines": 86,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_6466425738994112749.txt",
+    "lines": 94,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_6506295371215143357.txt",
+    "lines": 83,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_6526652820684089967.txt",
+    "lines": 36,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_6986526500386809481.txt",
+    "lines": 89,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_7115405673840331750.txt",
+    "lines": 105,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_7443402750130754422.txt",
+    "lines": 79,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_7796199293006676287.txt",
+    "lines": 74,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8231663509780305593.txt",
+    "lines": 27,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8292943009375732961.txt",
+    "lines": 87,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8388080304337163796.txt",
+    "lines": 90,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8740000814641664911.txt",
+    "lines": 93,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8759783035542664993.txt",
+    "lines": 92,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8774085321527306431.txt",
+    "lines": 64,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_884471977942945953.txt",
+    "lines": 47,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8890532642355965934.txt",
+    "lines": 105,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_889260989575052620.txt",
+    "lines": 79,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8899008545135691090.txt",
+    "lines": 19,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_9047955267738546746.txt",
+    "lines": 91,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_9171516167933754215.txt",
+    "lines": 81,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/9780262353946_caa/00_canonical_text.txt",
+    "lines": 1943,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/9780262353946_caa/00_raw.txt",
+    "lines": 1943,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset/00_canonical_text.txt",
+    "lines": 1474,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset/00_raw.txt",
+    "lines": 1474,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/00_canonical_text.txt",
+    "lines": 495,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/00_raw.txt",
+    "lines": 495,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/00_raw_repaired.txt",
+    "lines": 495,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_1104211346074181743.txt",
+    "lines": 3,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_1196209952147843531.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_1306815051711865296.txt",
+    "lines": 7,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_1330019122408116959.txt",
+    "lines": 75,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_163023843332328650.txt",
+    "lines": 11,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_1830181546352055164.txt",
+    "lines": 21,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_1915354492570916506.txt",
+    "lines": 7,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_220555461369585093.txt",
+    "lines": 7,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_2318608876967734435.txt",
+    "lines": 13,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_2382232507371083528.txt",
+    "lines": 30,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_2572841770726630675.txt",
+    "lines": 9,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_2746452379133707940.txt",
+    "lines": 11,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_2846640318988793433.txt",
+    "lines": 11,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_319527356362291058.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_3593159934937251814.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_3918523172522434733.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_4191374810775482911.txt",
+    "lines": 6,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_4196068511463722668.txt",
+    "lines": 35,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_4415952520547345393.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_4774037417572781384.txt",
+    "lines": 10,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_5006806228954442905.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_5090893798824046163.txt",
+    "lines": 14,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_5098435371165305234.txt",
+    "lines": 25,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_5121201495622969549.txt",
+    "lines": 7,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_5330895258024956524.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_5353286061193199993.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_5435163181654698641.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_5471875412325024828.txt",
+    "lines": 2,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_5487267770210622379.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_5503789099021474674.txt",
+    "lines": 54,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_5779576732471711757.txt",
+    "lines": 21,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_5805089365411602274.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_5805559726361589098.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_5858055300449221673.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_5929685890516015963.txt",
+    "lines": 13,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_5969151531583789564.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_635912872996366707.txt",
+    "lines": 3,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_6535201161799533000.txt",
+    "lines": 27,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_6629350214797951254.txt",
+    "lines": 41,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_6682517573402213612.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_6722195916488981997.txt",
+    "lines": 35,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_7032091553256004304.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_7207428340478334437.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_7217320763540767237.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_723562274064209188.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_7274560517429910513.txt",
+    "lines": 22,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_7484584373142327448.txt",
+    "lines": 17,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_7776429109363631813.txt",
+    "lines": 5,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_7799730170624405892.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_7844721291221987837.txt",
+    "lines": 32,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_7850881414241538009.txt",
+    "lines": 41,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_7864624179362495854.txt",
+    "lines": 5,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_7890471935779276578.txt",
+    "lines": 3,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_7918111032967024103.txt",
+    "lines": 44,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_8006917083468440046.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_8064963068924681274.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_8078671212111160117.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_809110409017421466.txt",
+    "lines": 9,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_8296748821901246893.txt",
+    "lines": 11,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_8317912356872443888.txt",
+    "lines": 31,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_8374273208463342235.txt",
+    "lines": 17,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_8503240191092366767.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_8510763400189255496.txt",
+    "lines": 44,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_8566411503135764345.txt",
+    "lines": 34,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_8685544086736948555.txt",
+    "lines": 10,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_8765742732450881678.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Being in Love/glyph_repair_926896679408578383.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Beyond good and evil/00_canonical_text.txt",
+    "lines": 904,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Beyond good and evil/00_raw.txt",
+    "lines": 904,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/CAMUS, Albert - The Stranger/00_canonical_text.txt",
+    "lines": 2783,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/CAMUS, Albert - The Stranger/00_raw.txt",
+    "lines": 2783,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Cioran, E. M. - Trouble With Being Born (Seaver, 2011)/00_canonical_text.txt",
+    "lines": 3057,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Cioran, E. M. - Trouble With Being Born (Seaver, 2011)/00_raw.txt",
+    "lines": 3057,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/ClearThinking/00_canonical_text.txt",
+    "lines": 7187,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/ClearThinking/00_raw.txt",
+    "lines": 7187,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_/00_canonical_text.txt",
+    "lines": 11210,
+    "headings": [
+      "#1 BESTSELLER"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_/00_raw.txt",
+    "lines": 11210,
+    "headings": [
+      "#1 BESTSELLER"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Crime/00_canonical_text.txt",
+    "lines": 22155,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Crime/00_raw.txt",
+    "lines": 22155,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/crowdastudypopu00bongoog/00_canonical_text.txt",
+    "lines": 290,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/crowdastudypopu00bongoog/00_raw.txt",
+    "lines": 290,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Crucial Conversations/00_canonical_text.txt",
+    "lines": 7507,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Crucial Conversations/00_raw.txt",
+    "lines": 7507,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Deep Work/00_canonical_text.txt",
+    "lines": 7158,
+    "headings": [
+      "#4). During my experiments with 4DX, I used a weekly review to look over my"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Deep Work/00_raw.txt",
+    "lines": 7158,
+    "headings": [
+      "#4). During my experiments with 4DX, I used a weekly review to look over my"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Do It Today/00_canonical_text.txt",
+    "lines": 3507,
+    "headings": [
+      "#mondaymotivation. You know why? That type of"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Do It Today/00_raw.txt",
+    "lines": 3507,
+    "headings": [
+      "#mondaymotivation. You know why? That type of"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/00_canonical_text.txt",
+    "lines": 1512,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/00_raw.txt",
+    "lines": 1512,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/00_raw_repaired.txt",
+    "lines": 1512,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_1008849153048146951.txt",
+    "lines": 6,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_1509748754290368880.txt",
+    "lines": 28,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_154811365407096921.txt",
+    "lines": 61,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_1643082717114307573.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_1778188139897022140.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_1821092648462774630.txt",
+    "lines": 23,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_2166189317773370723.txt",
+    "lines": 81,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_2304642838068129741.txt",
+    "lines": 10,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_2738632707434534373.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_2768780921769811072.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_2782559151426324940.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_2960860970225246731.txt",
+    "lines": 23,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_3054260559342584095.txt",
+    "lines": 39,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_3065409724886801835.txt",
+    "lines": 13,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_3235359054337629666.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_3348563569203315997.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_3389451135097052385.txt",
+    "lines": 5,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_3457965213434098780.txt",
+    "lines": 45,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_3496855971661274488.txt",
+    "lines": 2,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_3510515386632836195.txt",
+    "lines": 18,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_3618002795789637080.txt",
+    "lines": 61,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_3695566956962502901.txt",
+    "lines": 4,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_3696860691020032552.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_3899972783111599913.txt",
+    "lines": 38,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_412636327371952940.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_4241462105229459863.txt",
+    "lines": 26,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_4677776034455772375.txt",
+    "lines": 19,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_4761544298197530540.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_4785151546627245554.txt",
+    "lines": 22,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_4831720500989734887.txt",
+    "lines": 37,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_4913877324147613937.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_5072382111121573977.txt",
+    "lines": 38,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_507426595071630442.txt",
+    "lines": 11,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_5222339335978468907.txt",
+    "lines": 35,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_5524629555540770080.txt",
+    "lines": 20,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_5605692995650914745.txt",
+    "lines": 10,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_5783306784301289184.txt",
+    "lines": 72,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_594174347136745345.txt",
+    "lines": 112,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_6022471390383242694.txt",
+    "lines": 31,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_6227008299463826515.txt",
+    "lines": 32,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_6515729847895406157.txt",
+    "lines": 10,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_6586294606989177322.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_6612619221102440469.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_6696211284188730976.txt",
+    "lines": 7,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_6895545853971041964.txt",
+    "lines": 45,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_6931144768924286597.txt",
+    "lines": 23,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_6965143995628897005.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_7271453627735807003.txt",
+    "lines": 62,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_7300087090566853213.txt",
+    "lines": 98,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_730808912136471273.txt",
+    "lines": 37,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_7310195857292022268.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_7325174081725188666.txt",
+    "lines": 13,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_7486263653689418014.txt",
+    "lines": 15,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_7509755148850668185.txt",
+    "lines": 31,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_7546406246280185889.txt",
+    "lines": 12,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_7574702385579049548.txt",
+    "lines": 16,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_7672117049830434301.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_7802640582940834680.txt",
+    "lines": 20,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_7899421073626508750.txt",
+    "lines": 9,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_811025749171882296.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_8359541223116026972.txt",
+    "lines": 24,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_8580934761436432094.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_8624586490916160156.txt",
+    "lines": 6,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_8666454988502479784.txt",
+    "lines": 15,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/E001005/glyph_repair_9192373848731810839.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/ernest_becker_the_denial_of_deathbookfi-org/00_canonical_text.txt",
+    "lines": 12483,
+    "headings": [
+      "# I cannot leave this chapter without calling attention to one of the richest"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/ernest_becker_the_denial_of_deathbookfi-org/00_raw.txt",
+    "lines": 12483,
+    "headings": [
+      "# I cannot leave this chapter without calling attention to one of the richest"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/extreme_ownership__how_us_navy_seals_lead_and_win/glyph_repair_2898146614114781885.txt",
+    "lines": 15,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/extreme_ownership__how_us_navy_seals_lead_and_win/glyph_repair_4733129900231139990.txt",
+    "lines": 4,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/extreme_ownership__how_us_navy_seals_lead_and_win/glyph_repair_5903988453719137471.txt",
+    "lines": 14,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/extreme_ownership__how_us_navy_seals_lead_and_win/glyph_repair_889926229012906559.txt",
+    "lines": 7,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/f94cc-a-guide-to-the-good-life-the-ancient-art-of-stoic-joy-william-braxton-irvine/glyph_repair_2716354529812915701.txt",
+    "lines": 9,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/f94cc-a-guide-to-the-good-life-the-ancient-art-of-stoic-joy-william-braxton-irvine/glyph_repair_333906601097893724.txt",
+    "lines": 3,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/f94cc-a-guide-to-the-good-life-the-ancient-art-of-stoic-joy-william-braxton-irvine/glyph_repair_6464862799289382339.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/f94cc-a-guide-to-the-good-life-the-ancient-art-of-stoic-joy-william-braxton-irvine/glyph_repair_6952445444919142034.txt",
+    "lines": 11,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/f94cc-a-guide-to-the-good-life-the-ancient-art-of-stoic-joy-william-braxton-irvine/glyph_repair_7236022041559461268.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Felix-Dennis-How-to-Get-Rich/00_canonical_text.txt",
+    "lines": 9204,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Felix-Dennis-How-to-Get-Rich/00_raw.txt",
+    "lines": 9204,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action/00_canonical_text.txt",
+    "lines": 3265,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action/00_raw.txt",
+    "lines": 3265,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Finite-and-Infinite-Games-by-James-Carse/00_canonical_text.txt",
+    "lines": 4318,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Finite-and-Infinite-Games-by-James-Carse/00_raw.txt",
+    "lines": 4318,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/How to Not Die Alone/00_canonical_text.txt",
+    "lines": 7842,
+    "headings": [
+      "#highwaytohelitzer, a reference to the AC/DC song.)"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/How to Not Die Alone/00_raw.txt",
+    "lines": 7842,
+    "headings": [
+      "#highwaytohelitzer, a reference to the AC/DC song.)"
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/How To Win Friends And Influence People - Carnegie, Dale/00_canonical_text.txt",
+    "lines": 6923,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/How To Win Friends And Influence People - Carnegie, Dale/00_raw.txt",
+    "lines": 6923,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Jacques Ellul - The Technological Society/00_canonical_text.txt",
+    "lines": 20266,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Jacques Ellul - The Technological Society/00_raw.txt",
+    "lines": 20266,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Letters from a Stoic 1/00_canonical_text.txt",
+    "lines": 8572,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Letters from a Stoic 1/00_raw.txt",
+    "lines": 8572,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Machiavelli,+The+Prince/00_canonical_text.txt",
+    "lines": 9344,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Machiavelli,+The+Prince/00_raw.txt",
+    "lines": 9344,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Man and his Symbols ( PDFDrive )/00_canonical_text.txt",
+    "lines": 19562,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Man and his Symbols ( PDFDrive )/00_raw.txt",
+    "lines": 19562,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/mans-search-for-meaning/00_canonical_text.txt",
+    "lines": 3372,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/mans-search-for-meaning/00_raw.txt",
+    "lines": 3372,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Marcus-Aurelius-Meditations/00_canonical_text.txt",
+    "lines": 6159,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Marcus-Aurelius-Meditations/00_raw.txt",
+    "lines": 6159,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/00_canonical_text.txt",
+    "lines": 1654,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/00_raw.txt",
+    "lines": 1654,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/00_raw_repaired.txt",
+    "lines": 1654,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1017525848549392771.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1192839722357607745.txt",
+    "lines": 9,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1216504710364506505.txt",
+    "lines": 94,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1266209080797424602.txt",
+    "lines": 13,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1394373325478965421.txt",
+    "lines": 9,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1428324889086120016.txt",
+    "lines": 17,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1448997882135121210.txt",
+    "lines": 5,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1474460381646858140.txt",
+    "lines": 12,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1562998538107925380.txt",
+    "lines": 12,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1580502056766304271.txt",
+    "lines": 53,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1630341444701952327.txt",
+    "lines": 13,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1748272262284132227.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1800939016283247180.txt",
+    "lines": 9,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1965018380545878880.txt",
+    "lines": 5,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1990700588804663969.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_199817580272029136.txt",
+    "lines": 11,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2012798557241803708.txt",
+    "lines": 7,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2042315714459779132.txt",
+    "lines": 13,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2088332053886658558.txt",
+    "lines": 191,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_212229637389518533.txt",
+    "lines": 13,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2180764232717984740.txt",
+    "lines": 21,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2207268345432450873.txt",
+    "lines": 9,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2315738674112038607.txt",
+    "lines": 11,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2335486470066686893.txt",
+    "lines": 9,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2358915026498724890.txt",
+    "lines": 13,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2367518707087367251.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2389124839388854558.txt",
+    "lines": 4,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2481012996800211450.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2635977383939891211.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2651093159483615122.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2718261941905218331.txt",
+    "lines": 13,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2783152153574044914.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3042883734672425925.txt",
+    "lines": 2,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3151056861116697771.txt",
+    "lines": 15,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3193960732529470767.txt",
+    "lines": 15,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3234574327791446196.txt",
+    "lines": 11,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3260338269471377606.txt",
+    "lines": 9,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3327630869990701389.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_33319113127071399.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3343427982376533948.txt",
+    "lines": 7,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3344146707717166815.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_336818068572797639.txt",
+    "lines": 9,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3701739550052629309.txt",
+    "lines": 5,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3730932932062404436.txt",
+    "lines": 3,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_375729204854006483.txt",
+    "lines": 7,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3778400996749234423.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3809813039545033852.txt",
+    "lines": 9,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3812162055895137505.txt",
+    "lines": 13,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3842636475269164721.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3893428437196294049.txt",
+    "lines": 12,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3936266023903142494.txt",
+    "lines": 23,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3957261861860191499.txt",
+    "lines": 9,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4113106634907879853.txt",
+    "lines": 8,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4140972585084939170.txt",
+    "lines": 11,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4300620448315497501.txt",
+    "lines": 27,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4399438018390332861.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4413381081504805829.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4492216815171930125.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4631909824200267183.txt",
+    "lines": 27,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4656107777371434221.txt",
+    "lines": 13,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4692159492583349511.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4693531874660666773.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4716738545550533990.txt",
+    "lines": 33,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_497512029144874726.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5041610060268228484.txt",
+    "lines": 16,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5202601456689542380.txt",
+    "lines": 29,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5359704128487637602.txt",
+    "lines": 23,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5394999996967810740.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5424773614686302559.txt",
+    "lines": 9,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5431486934452791902.txt",
+    "lines": 3,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5458358489966451031.txt",
+    "lines": 13,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5518598105175415895.txt",
+    "lines": 7,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5902789927252812843.txt",
+    "lines": 33,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5932195381023496180.txt",
+    "lines": 23,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6012945113057892397.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6152722358522405648.txt",
+    "lines": 13,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_626923540158206848.txt",
+    "lines": 18,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6374937063235989214.txt",
+    "lines": 11,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6413307903139085733.txt",
+    "lines": 17,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6429158048976742337.txt",
+    "lines": 7,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6498269320617037134.txt",
+    "lines": 7,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6646947400675680964.txt",
+    "lines": 6,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6665104887659314569.txt",
+    "lines": 18,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6684714469465984148.txt",
+    "lines": 5,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6776231883418946579.txt",
+    "lines": 4,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6810012951734970755.txt",
+    "lines": 11,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6870430246938539594.txt",
+    "lines": 17,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6979505166351729355.txt",
+    "lines": 12,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7103600463418470311.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7108627231772959073.txt",
+    "lines": 2,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7144209274242766447.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_724705613237197002.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7334691626494034999.txt",
+    "lines": 7,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7351971945171760380.txt",
+    "lines": 13,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7396214746187160609.txt",
+    "lines": 9,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7460437294780892167.txt",
+    "lines": 2,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_750782604277739928.txt",
+    "lines": 19,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7562706452493893930.txt",
+    "lines": 8,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7597701240186466357.txt",
+    "lines": 81,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7597730507627367224.txt",
+    "lines": 3,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7633907286054261185.txt",
+    "lines": 6,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7658897595147762830.txt",
+    "lines": 13,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7717033183253480638.txt",
+    "lines": 3,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7770990916531107790.txt",
+    "lines": 7,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7807856293835234927.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7897930520128358102.txt",
+    "lines": 7,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_810242293631470670.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_8281604437056719175.txt",
+    "lines": 7,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_8377017393648008869.txt",
+    "lines": 12,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_8704669316032349063.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_8760325718224754524.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_8813133780824806133.txt",
+    "lines": 9,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_8853863935359231928.txt",
+    "lines": 7,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_9085745965677062854.txt",
+    "lines": 19,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_909737123878117557.txt",
+    "lines": 25,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_944982777092098691.txt",
+    "lines": 1,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Men-are-from-mars-women-are-from-venus/00_canonical_text.txt",
+    "lines": 8974,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Men-are-from-mars-women-are-from-venus/00_raw.txt",
+    "lines": 8974,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/milan_kundera_-_the_unbearable_lightness_of_being/00_canonical_text.txt",
+    "lines": 6487,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/milan_kundera_-_the_unbearable_lightness_of_being/00_raw.txt",
+    "lines": 6487,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/modern-man-in-search-of-a-soul-stages-of-life-1/00_canonical_text.txt",
+    "lines": 9525,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/modern-man-in-search-of-a-soul-stages-of-life-1/00_raw.txt",
+    "lines": 9525,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/NeilPostman-AmusingOurselvesToDeath/00_canonical_text.txt",
+    "lines": 6771,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/NeilPostman-AmusingOurselvesToDeath/00_raw.txt",
+    "lines": 6771,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy/00_canonical_text.txt",
+    "lines": 8010,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy/00_raw.txt",
+    "lines": 8010,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Notes-from-Underground-Extract/00_canonical_text.txt",
+    "lines": 562,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Notes-from-Underground-Extract/00_raw.txt",
+    "lines": 562,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Ortega_y_Gasset_Jose_The_Revolt_of_the_Masses/00_canonical_text.txt",
+    "lines": 0,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Ortega_y_Gasset_Jose_The_Revolt_of_the_Masses/00_raw.txt",
+    "lines": 0,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Ortega_y_Gasset_Jose_The_Revolt_of_the_Masses/00_raw_repaired.txt",
+    "lines": 0,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/pathtowealthorli00hall/00_canonical_text.txt",
+    "lines": 1201,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/pathtowealthorli00hall/00_raw.txt",
+    "lines": 1201,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Poor Charlie\u2019s Almanack_ The Wit and Wisdom of Charles T. Munger ( PDFDrive )/00_canonical_text.txt",
+    "lines": 15885,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Poor Charlie\u2019s Almanack_ The Wit and Wisdom of Charles T. Munger ( PDFDrive )/00_raw.txt",
+    "lines": 15885,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/roadto/00_canonical_text.txt",
+    "lines": 8226,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/roadto/00_raw.txt",
+    "lines": 8226,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Seamos_personas_de_Infliuencia/00_canonical_text.txt",
+    "lines": 5510,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Seamos_personas_de_Infliuencia/00_raw.txt",
+    "lines": 5510,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Summary-of-SGTCIY-pdf/00_canonical_text.txt",
+    "lines": 22,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Summary-of-SGTCIY-pdf/00_raw.txt",
+    "lines": 22,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/SuperThinking/00_canonical_text.txt",
+    "lines": 0,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/SuperThinking/00_raw.txt",
+    "lines": 0,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/SuperThinking/00_raw_repaired.txt",
+    "lines": 0,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/The Courage To Be Disliked/00_canonical_text.txt",
+    "lines": 4755,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/The Courage To Be Disliked/00_raw.txt",
+    "lines": 4755,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/The Diary of a CEO_ 33 Laws of Business and Life (2023)/00_canonical_text.txt",
+    "lines": 7231,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/The Diary of a CEO_ 33 Laws of Business and Life (2023)/00_raw.txt",
+    "lines": 7231,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/The Myth of Sisyphus - Albert Camus/00_canonical_text.txt",
+    "lines": 5219,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/The Myth of Sisyphus - Albert Camus/00_raw.txt",
+    "lines": 5219,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/The Psychology of Persuasion/00_canonical_text.txt",
+    "lines": 10835,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/The Psychology of Persuasion/00_raw.txt",
+    "lines": 10835,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/the-communication-book-44-ideas-for-better-conversations-every-day-9781324001997-1324001992_compress/00_canonical_text.txt",
+    "lines": 1810,
+    "headings": [
+      "#strictly) \u2013 see \u2018The FoMO Phenomenon\u2019."
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/the-communication-book-44-ideas-for-better-conversations-every-day-9781324001997-1324001992_compress/00_raw.txt",
+    "lines": 1810,
+    "headings": [
+      "#strictly) \u2013 see \u2018The FoMO Phenomenon\u2019."
+    ]
+  },
+  {
+    "file": "ingestion/v2/rag_storage/the-millionaire-fastlane/00_canonical_text.txt",
+    "lines": 10606,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/the-millionaire-fastlane/00_raw.txt",
+    "lines": 10606,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/the_magic_of_thinking_big/00_canonical_text.txt",
+    "lines": 7258,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/the_magic_of_thinking_big/00_raw.txt",
+    "lines": 7258,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/The_Psychology_of_Money/00_canonical_text.txt",
+    "lines": 4711,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/The_Psychology_of_Money/00_raw.txt",
+    "lines": 4711,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/ThePersonalMBA10thAnniversaryEdition/00_canonical_text.txt",
+    "lines": 0,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/ThePersonalMBA10thAnniversaryEdition/00_raw.txt",
+    "lines": 0,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/ThePersonalMBA10thAnniversaryEdition/00_raw_repaired.txt",
+    "lines": 0,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/TheRighteousMind/00_canonical_text.txt",
+    "lines": 0,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/TheRighteousMind/00_raw.txt",
+    "lines": 0,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/TheRighteousMind/00_raw_repaired.txt",
+    "lines": 0,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_/00_canonical_text.txt",
+    "lines": 9434,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_/00_raw.txt",
+    "lines": 9434,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Thus spoke Zarathustra/00_canonical_text.txt",
+    "lines": 1104,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Thus spoke Zarathustra/00_raw.txt",
+    "lines": 1104,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Win-Your-Inner-Battles/00_canonical_text.txt",
+    "lines": 174,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Win-Your-Inner-Battles/00_raw.txt",
+    "lines": 174,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Your Next Five Moves Patrick Bet David/00_canonical_text.txt",
+    "lines": 7114,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/rag_storage/Your Next Five Moves Patrick Bet David/00_raw.txt",
+    "lines": 7114,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/src/DELIVERABLES.md",
+    "lines": 325,
+    "headings": [
+      "# Async Ingestion Pipeline - Complete Deliverables",
+      "## Summary",
+      "## Files Delivered",
+      "### Core Modules (Fully Implemented & Tested)",
+      "### Demo & Examples",
+      "### Documentation",
+      "## Key Features",
+      "### Performance",
+      "### Robustness",
+      "### Observability",
+      "### Flexibility",
+      "## Architecture Diagram",
+      "## Performance Expectations",
+      "## Usage Example",
+      "# Run",
+      "## Configuration Quick Reference",
+      "# Concurrency tuning",
+      "# Batching (5-10x throughput impact)",
+      "# Queues (backpressure)",
+      "# Rate limiting adaptive parameters"
+    ]
+  },
+  {
+    "file": "ingestion/v2/src/IMPLEMENTATION_REPORT.md",
+    "lines": 441,
+    "headings": [
+      "# Production Async Ingestion Pipeline - Scaffolding Report",
+      "## Executive Summary",
+      "## What Was Delivered",
+      "### Core Modules (7 files)",
+      "#### 1. `adaptive_controller.py`",
+      "# Process item",
+      "#### 2. `distributed_queue.py`",
+      "#### 3. `ingest_workers.py`",
+      "#### 4. `async_ingestion_orchestrator.py`",
+      "#### 5. `ingestion_config.py`",
+      "#### 6. `benchmark_harness.py`",
+      "#### 7. `test_async_ingestion.py`",
+      "### Documentation (4 files)",
+      "#### 8. `README_PRODUCTION_PIPELINE.md`",
+      "#### 9. `INTEGRATION_GUIDE.md`",
+      "#### 10. `QUICKSTART.py`",
+      "#### 11. This File (`IMPLEMENTATION_REPORT.md`)",
+      "## Performance Specifications",
+      "### Throughput",
+      "### Scalability"
+    ]
+  },
+  {
+    "file": "ingestion/v2/src/IMPLEMENTATION_SUMMARY.txt",
+    "lines": 330,
+    "headings": []
+  },
+  {
+    "file": "ingestion/v2/src/INTEGRATION_GUIDE.md",
+    "lines": 405,
+    "headings": [
+      "# Production Pipeline Integration Guide",
+      "## Overview",
+      "## System Architecture",
+      "## Integration Points",
+      "### 1. With Existing Minister Converter",
+      "# In worker pipeline's AGGREGATION stage",
+      "# Convert to minister structure",
+      "# Attach embeddings to minister entries",
+      "# In STORAGE stage",
+      "# Write embeddings to PGVector",
+      "# Minister structure already written by aggregation stage",
+      "### 2. With Existing Embedding Pipeline",
+      "# In orchestrator:",
+      "### 3. With Existing Doctor Doctrine System",
+      "# In knowledge engine",
+      "### 4. With Persona Real-Time Interaction",
+      "# In persona's context enrichment",
+      "# Generate embedding for query",
+      "# Search for related doctrines",
+      "# Add to context"
+    ]
+  },
+  {
+    "file": "ingestion/v2/src/README_ASYNC_PIPELINE.md",
+    "lines": 422,
+    "headings": [
+      "# Async Ingestion Pipeline - Complete Implementation",
+      "## Overview",
+      "## Quick Start",
+      "### 1. Install Dependencies",
+      "### 2. Basic Usage",
+      "# Parse function: book file \u2192 list of Chunks",
+      "# Run the pipeline",
+      "# Execute",
+      "### 3. With PostgreSQL",
+      "## Architecture",
+      "### Pipeline Stages",
+      "### Rate Limiting",
+      "## Modules",
+      "### `async_ingest_config.py`",
+      "# Edit these to tune performance:",
+      "### `rate_controller.py`",
+      "### `ingest_metrics.py`",
+      "### `async_workers.py`",
+      "### `async_ingest_orchestrator.py`",
+      "## Performance Tuning"
+    ]
+  },
+  {
+    "file": "ingestion/v2/src/README_PRODUCTION_PIPELINE.md",
+    "lines": 534,
+    "headings": [
+      "# Production Async Ingestion Pipeline",
+      "## Overview",
+      "### Key Features",
+      "## Architecture",
+      "### Components",
+      "#### 1. Adaptive Controller (`adaptive_controller.py`)",
+      "# Create with defaults",
+      "# Acquire rate permit (blocks if rate-limited)",
+      "# Process item",
+      "# Update queue depth for feedback",
+      "# Get metrics",
+      "#### 2. Distributed Queue (`distributed_queue.py`)",
+      "# Enqueue with priority",
+      "# Dequeue",
+      "# Mark complete or requeue on failure",
+      "#### 3. Worker Pools (`ingest_workers.py`)",
+      "# Create pipeline",
+      "# Add stages with worker pools",
+      "# Process items",
+      "#### 4. Async Ingestion Orchestrator (`async_ingestion_orchestrator.py`)"
+    ]
+  },
+  {
+    "file": "ingestion/v2/src/VERIFICATION_CHECKLIST.md",
+    "lines": 205,
+    "headings": [
+      "# Installation Verification Checklist",
+      "## \u2713 Files Created",
+      "## \u2713 Documentation Created",
+      "## \u2713 Quick Verification",
+      "# Navigate to source directory",
+      "# Verify Python imports work",
+      "# Run quickstart example 1 (basic ingestion)",
+      "# Run integration tests (requires pytest)",
+      "# pip install pytest pytest-asyncio",
+      "# pytest test_async_ingestion.py -v",
+      "## \u2713 Core Components",
+      "### Adaptive Controller",
+      "### Distributed Queue",
+      "### Worker Pools",
+      "### Orchestrator",
+      "### Configuration",
+      "### Benchmarking",
+      "### Testing",
+      "## \u2713 Next Steps (Integration)",
+      "## \u2713 Architecture Overview"
+    ]
+  },
+  {
+    "file": "ingestion/v2/STEP_2_COMPLETION_SUMMARY.md",
+    "lines": 372,
+    "headings": [
+      "## \ud83d\udccb DELIVERABLES COMPLETED",
+      "### 1. **ingestion_kis_enhancer.py** (330+ lines)",
+      "# Run test at bottom of file:",
+      "# Output: Enhanced with N related knowledge items",
+      "### 2. **INTEGRATION_GUIDE_KIS.md** (200+ lines)",
+      "### 3. **CONCRETE_MODIFICATIONS_EXAMPLE.md** (200+ lines)",
+      "## \ud83d\udd17 DATA FLOW AFTER INTEGRATION",
+      "## \ud83d\udcca LEARNING FLOW",
+      "## \ud83c\udfaf INTEGRATION POINTS",
+      "### Where Changes Go:",
+      "## \u2705 VERIFICATION CHECKLIST",
+      "### Self-Test of IngestionKISEnhancer:",
+      "### Integration Test (after modifications):",
+      "## \ud83d\udcc8 EXPECTED METRICS",
+      "## \ud83d\ude80 NEXT STEPS AFTER VERIFICATION",
+      "## \ud83d\udcdd FILES CREATED IN STEP 2",
+      "## \ud83d\udd04 HOW INGESTION ENABLES ML LEARNING",
+      "## \ud83c\udf93 LEARNING PATTERNS",
+      "## \ud83d\udd17 CONNECTION TO EARLIER STEPS",
+      "## \ud83d\udcda DOCUMENTATION FILES"
+    ]
+  },
+  {
+    "file": "ingestion/v2/STEP_2_VERIFICATION_COMPLETE.md",
+    "lines": 198,
+    "headings": [
+      "## \u2705 STEP 2 VERIFICATION: KIS Integration with Ingestion Pipeline - COMPLETE",
+      "## \ud83c\udfaf Verification Results",
+      "### \u2705 Test 1: KIS Enhancement Works",
+      "### \u2705 Test 2: Exact Ingestion Scenario",
+      "### \u2705 Test 3: ML Module Imports",
+      "### \u2705 Test 4: KIS Import Integration",
+      "## \ud83d\udcca Integration Status",
+      "## \ud83d\udd0d What's Happening During Ingestion",
+      "## \ud83d\udcc1 Files Modified / Created",
+      "## \ud83d\ude80 Ready for Next Steps",
+      "### What Works Now:",
+      "### What's Next:",
+      "## \ud83d\udcdd Key Integration Points",
+      "### Where KIS Data Flows:",
+      "### How Learning Works:",
+      "## \u2728 Test Evidence",
+      "## \ud83c\udf93 Summary"
+    ]
+  },
+  {
+    "file": "memo.txt",
+    "lines": 366,
+    "headings": []
+  },
+  {
+    "file": "Memory/2026-02-19.md",
+    "lines": 89,
+    "headings": [
+      "# 2026-02-19 - Era Project Audit & Alfred Initialization",
+      "## Session Summary",
+      "## Alfred Persona - ESTABLISHED \u2705",
+      "## C:\\era Audit - COMPLETED \u2705",
+      "### Critical Corrections (Initial Audit Was WRONG)",
+      "### Actual Findings",
+      "### Output",
+      "## System Health",
+      "## Next Actions",
+      "## Key Insight"
+    ]
+  },
+  {
+    "file": "Memory/templates/commit_decision.txt",
+    "lines": 31,
+    "headings": [
+      "# requires_human_confirmation = true for relationship damage, character judgments, irreversible labels."
+    ]
+  },
+  {
+    "file": "Memory/templates/confidence_scoring.txt",
+    "lines": 30,
+    "headings": [
+      "# This output overwrites initial confidence."
+    ]
+  },
+  {
+    "file": "Memory/templates/hypothesis_generation.txt",
+    "lines": 34,
+    "headings": [
+      "# These map to the `inferences` table (active=false initially)."
+    ]
+  },
+  {
+    "file": "Memory/templates/memory_write.txt",
+    "lines": 25,
+    "headings": [
+      "# This output feeds directly into DB write code."
+    ]
+  },
+  {
+    "file": "Memory/templates/session_summary.txt",
+    "lines": 27,
+    "headings": [
+      "# Hard rule: This output is not memory. It is raw material."
+    ]
+  },
+  {
+    "file": "Memory/templates/signal_extraction.txt",
+    "lines": 28,
+    "headings": [
+      "# These observations map 1:1 to the `observations` table."
+    ]
+  },
+  {
+    "file": "ml/IMPLEMENTATION_COMPLETE.md",
+    "lines": 516,
+    "headings": [
+      "# ML Wisdom System - Implementation Complete",
+      "## What Was Implemented",
+      "### \u2705 Complete ML Wisdom Architecture",
+      "## Core Modules (8 Files)",
+      "### 1. **KIS - Knowledge Integration System** (450 lines)",
+      "### 2. **Feature Extractor** (350 lines)",
+      "### 3. **Label Generator** (280 lines)",
+      "### 4. **ML Judgment Prior** (280 lines)",
+      "### 5. **LLM Handshakes** (400 lines)",
+      "### 6. **ML Orchestrator** (280 lines)",
+      "### 7. **Test Suite** (350+ lines)",
+      "### 8. **Documentation & Examples**",
+      "## Supporting Files",
+      "## Design Principles",
+      "### 1. **Explainability First**",
+      "### 2. **Sovereignty Preserved**",
+      "### 3. **Consequence-Driven Learning**",
+      "### 4. **Fail-Safe by Default**",
+      "### 5. **Simple, Not Clever**",
+      "## Key Metrics"
+    ]
+  },
+  {
+    "file": "ml/README.md",
+    "lines": 576,
+    "headings": [
+      "# ML Wisdom System - Complete Implementation Guide",
+      "## Overview",
+      "## Architecture",
+      "### 4-Layer Stack",
+      "### Core Components",
+      "## Folder Structure",
+      "## Knowledge Integration System (KIS)",
+      "### Purpose",
+      "### 5 Weight Factors",
+      "### Composite Formula",
+      "### Usage",
+      "## Feature Extraction",
+      "### Purpose",
+      "### Feature Categories",
+      "### Usage",
+      "# Returns Dict[str, float] with all ~41 features",
+      "## Label Generation",
+      "### Purpose",
+      "### Core Logic",
+      "### Bounds"
+    ]
+  },
+  {
+    "file": "persona/DOCTRINE_ENHANCEMENT_REFERENCE.md",
+    "lines": 324,
+    "headings": [
+      "# ============================================================================",
+      "# ARCHITECTURE OVERVIEW",
+      "# ============================================================================",
+      "# ============================================================================",
+      "# FILE STRUCTURE",
+      "# ============================================================================",
+      "# ============================================================================",
+      "# DOCTRINE STRUCTURE (YAML FORMAT)",
+      "# ============================================================================",
+      "# ============================================================================",
+      "# DOCTRINE APPLICATION LOGIC",
+      "# ============================================================================",
+      "# ============================================================================",
+      "# TRACE/LOGGING ENHANCEMENTS",
+      "# ============================================================================",
+      "# ============================================================================",
+      "# EXAMPLE: TEST WITH FRAUDULENT SCENARIO",
+      "# ============================================================================",
+      "# ============================================================================",
+      "# EXPECTED BEHAVIOR IMPROVEMENTS"
+    ]
+  },
+  {
+    "file": "R&R.txt",
+    "lines": 377,
+    "headings": []
+  },
+  {
+    "file": "rag_storage/16-05-2021-070111The-Richest-Man-in-Babylon/00_canonical_text.txt",
+    "lines": 4981,
+    "headings": []
+  },
+  {
+    "file": "rag_storage/16-05-2021-070111The-Richest-Man-in-Babylon/00_raw.txt",
+    "lines": 4981,
+    "headings": []
+  },
+  {
+    "file": "README.md",
+    "lines": 390,
+    "headings": [
+      "# ERA - Excellent Reasoning Architecture",
+      "## \ud83d\ude80 Quick Start",
+      "### Installation (5 minutes)",
+      "# 1. Clone or navigate to ERA directory",
+      "# 2. (Optional) Create virtual environment",
+      "# 3. Install dependencies",
+      "# 4. Start Ollama (separate terminal)",
+      "# 5. Pull LLM models (one-time)",
+      "### Run ERA (Choose Your Path)",
+      "## \ud83d\udcda What is ERA?",
+      "## \ud83c\udfaf Core Features",
+      "### \u2705 1. LLM Conversation Engine",
+      "### \u2705 2. Decision Guidance System",
+      "### \u2705 3. Session-Based Problem Solving",
+      "### \u2705 4. Ministerial Council",
+      "### \u2705 5. Machine Learning Wisdom",
+      "### \u2705 6. System Simulation",
+      "## \ud83d\udcc1 Project Structure",
+      "## \ud83d\udd27 Configuration",
+      "### Environment Variables (.env)"
+    ]
+  },
+  {
+    "file": "requirements.txt",
+    "lines": 85,
+    "headings": [
+      "# ERA - Sovereign Decision Governance System - Python 3.12+ requirements",
+      "# Updated: February 19, 2026",
+      "# Installation: pip install -r requirements.txt",
+      "# Development: pip install -r requirements.txt[dev]",
+      "### CORE DEPENDENCIES ###",
+      "# LLM & Language Models",
+      "# Async & Concurrency",
+      "# Data & Storage",
+      "# Data Processing & Analysis",
+      "# Configuration & Validation",
+      "# Web & API",
+      "# Vector Search & RAG",
+      "# Document Processing",
+      "# Logging & Utilities",
+      "### TESTING & DEVELOPMENT ###",
+      "### SECURITY & PRODUCTION ###",
+      "### OPTIONAL (uncomment as needed) ###",
+      "# sphinx>=7.0.0",
+      "# sphinx-rtd-theme>=1.3.0",
+      "# autopep8>=2.0.0"
+    ]
+  },
+  {
+    "file": "review.txt",
+    "lines": 476,
+    "headings": []
+  },
+  {
+    "file": "SESSION_WORK_SUMMARY.md",
+    "lines": 251,
+    "headings": [
+      "# Session Work Summary - Dead Ends & Documentation",
+      "## What Was Accomplished",
+      "### 1. Dead-End Module Remediation \u2705",
+      "### 2. Documentation Created \u2705",
+      "#### A. ARCHITECTURE_CLARIFICATION.md",
+      "#### B. Enhanced requirements.txt",
+      "#### C. README.md (Previously Created)",
+      "#### D. .env.example (Previously Created)",
+      "### 3. Learning Analysis \u2705",
+      "## System Status",
+      "### \u2705 Operational Systems",
+      "### \u2705 Documentation Status",
+      "### \u26a0\ufe0f Pending (Documented with Options)",
+      "## Files Changed",
+      "## Architecture Decisions",
+      "### \u2705 Resolved Questions",
+      "### \u26a0\ufe0f Deferred (Documented)",
+      "## Work Not Yet Done (Deferred)",
+      "## How to Proceed",
+      "### For Development Teams"
+    ]
+  },
+  {
+    "file": "sovereign/ministers/README.md",
+    "lines": 103,
+    "headings": [
+      "# Access results:",
+      "# Prime decision is in flow_result.prime_decision"
+    ]
+  },
+  {
+    "file": "START_HERE.md",
+    "lines": 351,
+    "headings": [
+      "# ERA System - Quick Start Guide",
+      "## What is ERA?",
+      "## Installation",
+      "### Requirements",
+      "### Setup",
+      "# 1. Navigate to ERA directory",
+      "# 2. Create virtual environment (optional but recommended)",
+      "# 3. Install dependencies",
+      "# 4. Verify Ollama is running",
+      "# Start Ollama in another terminal: ollama serve",
+      "# 5. Pull required models (one-time)",
+      "## Running ERA",
+      "### \u2705 Option 1: LLM Conversation (Easiest - Start Here!)",
+      "# Interactive mode - you choose topics",
+      "# Demo mode - pre-built conversation",
+      "# Specific topic",
+      "### \u2705 Option 2: Decision Guidance System (Full Capabilities)",
+      "# Run the main system",
+      "# Or use interactive conversation with sessions",
+      "### \u2705 Option 3: Sovereign Council Simulation"
+    ]
+  },
+  {
+    "file": "STARTUP_GUIDE.txt",
+    "lines": 217,
+    "headings": []
+  },
+  {
+    "file": "test_input.txt",
+    "lines": 2,
+    "headings": []
+  },
+  {
+    "file": "test_input_multi.txt",
+    "lines": 5,
+    "headings": []
+  },
+  {
+    "file": "tests/README.md",
+    "lines": 293,
+    "headings": [
+      "# ERA Test Suite Documentation",
+      "## Quick Start",
+      "# Run all tests",
+      "# Run verification only",
+      "# Run unit tests only",
+      "## Folder Structure",
+      "## Configuration Files Explained",
+      "### pytest.ini",
+      "### conftest.py",
+      "### TEST_MANIFEST.md",
+      "### run_tests.py",
+      "## Test Categories",
+      "### Full Test Suites (5 files, 96.54 KB)",
+      "### Core Unit Tests (12 files)",
+      "### Verification Suite (9 files, 26.56 KB)",
+      "## How to Run Tests",
+      "### Run Everything",
+      "### Run Specific Categories",
+      "# Unit tests tagged as async",
+      "# Integration tests"
+    ]
+  },
+  {
+    "file": "tests/TEST_MANIFEST.md",
+    "lines": 222,
+    "headings": [
+      "# ERA Test Suite Manifest",
+      "## Overview",
+      "## Running Tests",
+      "### Run all tests",
+      "### Run specific test category",
+      "### Run with verbose output",
+      "### Run specific file",
+      "## Test Suite Structure",
+      "### Core Test Files (19 files in C:\\era\\tests)",
+      "#### Full Suite Tests (5 files)",
+      "#### Unit & Module Tests (12 files)",
+      "### Verification & Checking Suite (9 files in C:\\era\\tests\\verification)",
+      "#### Verification Scripts (4 files)",
+      "#### System Check Scripts (5 files)",
+      "## Test Execution Matrix",
+      "### Test Categories & Markers",
+      "### Test Counts by Category",
+      "## Test Results & Expected Outcomes",
+      "### Recent Test Results",
+      "### Key Validations"
+    ]
+  },
+  {
+    "file": "tests/verification/COMPLETE_FEATURE_LIST.md",
+    "lines": 501,
+    "headings": [
+      "# PERSONA SYSTEM - COMPLETE FEATURE INVENTORY",
+      "## \ud83d\udccb CORE FEATURES (15 Major Features + Sub-features)",
+      "### 1. **Core Agent Architecture** (5 features)",
+      "### 2. **Conversation Modes** (5 modes)",
+      "### 3. **Emotional Intelligence System** (7 features)",
+      "### 4. **Domain Classification System** (7 features)",
+      "### 5. **Response Decision System** (4 directives)",
+      "### 6. **Analysis & Assessment System** (6 features)",
+      "### 7. **Clarification System** (5 features)",
+      "### 8. **Knowledge Integration System (KIS)** (8 features)",
+      "### 9. **State Management System** (6 features)",
+      "### 10. **System Context & Prompts** (5 features)",
+      "### 11. **Response Generation** (4 features)",
+      "### 12. **Tracing & Debug Observability** (4 features)",
+      "### 13. **Multi-Turn Dialogue Support** (4 features)",
+      "### 14. **Strategy Variants** (4 strategies)",
+      "### 15. **Edge Case Handling** (8 edge cases)",
+      "## \ud83d\udd27 ADDITIONAL SUBSYSTEMS",
+      "### **Multi-Agent Simulation Framework** (5 features)",
+      "### **Knowledge Engine Extensions** (5 features)"
+    ]
+  },
+  {
+    "file": "tests/verification/CONSOLIDATED_CODE.md",
+    "lines": 1935,
+    "headings": [
+      "# CONSOLODIDATED PIPELINE SOURCE CODE",
+      "## File: ingestion/v2/src/ingest_pipeline.py",
+      "# Aggregate available parsed chunks",
+      "# Load chunk-level checkpoint state",
+      "# Enrich each doctrine",
+      "# Compute extracted chunk count",
+      "# Create trivial index file",
+      "# Fast skip for already-completed books",
+      "# Create clients",
+      "# ========== PHASE 0: PDF EXTRACTION ==========",
+      "# ========== PHASE 0.5: GLYPH REPAIR ==========",
+      "# Persist canonical text",
+      "# ========== PHASE 1: CHAPTER SPLITTING ==========",
+      "# Fallback: try heading-based split if LLM returned single chapter",
+      "# ========== PHASE 2: DOCTRINE EXTRACTION (ASYNC) ==========",
+      "# Run parallel doctrine extraction with 2 workers (avoids overwhelming Ollama)",
+      "# Check for extraction errors",
+      "# Fallback to sequential extraction",
+      "# Try to recover from checkpoint",
+      "# Enrich doctrines with metadata"
+    ]
+  },
+  {
+    "file": "tests/verification/CONSOLIDATED_STRUCTURE_GUIDE.md",
+    "lines": 181,
+    "headings": [
+      "# Phase 3.5 - Consolidated JSON Structure",
+      "## Overview",
+      "## New Structure",
+      "### Before (Atomic Files)",
+      "### After (Consolidated Arrays)",
+      "## File Format",
+      "### principles.json (and other category files)",
+      "### doctrine.json",
+      "## Data Migration Summary",
+      "## Domain Statistics",
+      "## Accessing Data",
+      "### Example: Query all rules in the truth domain",
+      "### Example: Query all entries across a domain",
+      "## Benefits",
+      "## Code Changes",
+      "## Backward Compatibility"
+    ]
+  },
+  {
+    "file": "tests/verification/MASTER_DOCUMENTATION.md",
+    "lines": 1400,
+    "headings": [
+      "# PERSONA SYSTEM - COMPREHENSIVE MASTER DOCUMENTATION",
+      "## \ud83d\udccb TABLE OF CONTENTS",
+      "## EXECUTIVE SUMMARY",
+      "### System Status",
+      "### Key Metrics",
+      "### What This System Does",
+      "## QUICK REFERENCE GUIDE",
+      "### \u26a1 Quick Start Commands",
+      "#### **1. Run the Demo (Recommended - No Setup Required)**",
+      "#### **2. Run Master Test Suite (93.5% Pass Rate)**",
+      "#### **3. Run Advanced Test Suite (97.1% Pass Rate)**",
+      "#### **4. Interactive Mode with Ollama**",
+      "# First, start Ollama daemon",
+      "# Then run interactive conversation",
+      "### \ud83c\udfc3 Test Execution All at Once",
+      "# Run all three test suites in parallel (Windows PowerShell)",
+      "# Wait a few seconds, then check results",
+      "### \ud83d\udcca All Features Status",
+      "### \ud83c\udfaf 4 Conversation Modes",
+      "### \ud83d\udcca 5 Knowledge Domains"
+    ]
+  },
+  {
+    "file": "tests/verification/master_test_report.txt",
+    "lines": 21,
+    "headings": []
+  },
+  {
+    "file": "tests/verification/SESSION_SUMMARY_STEPS_2_3.md",
+    "lines": 262,
+    "headings": [
+      "# Session Summary: Steps 2-3 Complete",
+      "## What Was Accomplished",
+      "### Step 2: KIS Enhancement in Ingestion Pipeline \u2705",
+      "### Step 3: LLM Client Implementation \u2705",
+      "## Technical Stack - Now Complete",
+      "### ML Wisdom System",
+      "### Ingestion Enhancement",
+      "### ML Training Loop",
+      "## Files Created/Modified",
+      "## Integration Points",
+      "### With Knowledge Integration System",
+      "### With Ingestion Pipeline",
+      "### With Minister System",
+      "### With ML Judgment Prior",
+      "## Performance Characteristics",
+      "## Configuration",
+      "### Ollama Setup Required",
+      "# Start Ollama server",
+      "# Pull deepseek model (first time only)",
+      "### Python Configuration"
+    ]
+  },
+  {
+    "file": "tests/verification/SESSION_SUMMARY_STEPS_2_4_FINAL.md",
+    "lines": 592,
+    "headings": [
+      "# Session Summary: Steps 2-4 Complete - ML Wisdom System",
+      "## \ud83c\udfaf Major Accomplishment",
+      "## What Was Accomplished",
+      "### Step 2: KIS Enhancement in Ingestion Pipeline \u2705",
+      "### Step 3: LLM Client Implementation \u2705",
+      "### Step 4: Training Data Collection \u2705 (NEW!)",
+      "#### Three Components:",
+      "#### Integration:",
+      "## System Architecture - Complete",
+      "### ML Wisdom System Stack",
+      "### Component Summary",
+      "## Test Results - All Passing \u2705",
+      "### Step 2: KIS Integration",
+      "### Step 3: LLM Client",
+      "### Step 4: Training Data Collection",
+      "## File Structure - Step 4",
+      "## Key Integration Points",
+      "### Decision Flow (Step 2 + 3 + 4)",
+      "# 1. Make decision with LLM + KIS",
+      "# Internally:"
+    ]
+  },
+  {
+    "file": "tests/verification/STEP_3_LLM_CLIENT_COMPLETE.md",
+    "lines": 174,
+    "headings": [
+      "# Step 3: LLM Client Implementation - Complete",
+      "## Overview",
+      "## What Was Implemented",
+      "### 1. **LLMInterface - Ollama Integration**",
+      "### 2. **Retry Logic**",
+      "### 3. **HTTP API Integration**",
+      "### 4. **4-Call Handshake Sequence**",
+      "## Architecture",
+      "## Integration Points",
+      "### With KIS System",
+      "### With ML Judgment Prior",
+      "### With Minister System",
+      "### With Ingestion Pipeline",
+      "## Configuration",
+      "### Environment",
+      "### In Code",
+      "# Run 4-call handshake",
+      "## Error Handling",
+      "### Graceful Degradation",
+      "### Fallback Values"
+    ]
+  },
+  {
+    "file": "tests/verification/STEP_4_TRAINING_DATA_COLLECTION.md",
+    "lines": 600,
+    "headings": [
+      "# Step 4: Training Data Collection - Complete Implementation",
+      "## Overview",
+      "## Architecture",
+      "### Three Core Components",
+      "#### 1. **OutcomeDatabase** (`ml/outcomes/outcome_recorder.py`)",
+      "#### 2. **TrainingDataGenerator** (`ml/outcomes/outcome_recorder.py`)",
+      "#### 3. **FeedbackIntegrator** (`ml/outcomes/outcome_recorder.py`)",
+      "## Integration with ML Orchestrator",
+      "### 1. Outcome Recording in process_decision()",
+      "# When a decision is made, it's automatically recorded",
+      "# Returns record with decision_key for later outcome recording",
+      "### 2. Outcome Recording in record_outcome()",
+      "# Record what actually happened",
+      "### 3. Training Cycle",
+      "# Manually run complete training",
+      "# Returns:",
+      "## Data Flow",
+      "### Recording Phase",
+      "### Outcome Recording Phase",
+      "### Training Phase"
+    ]
+  },
+  {
+    "file": "UNIFIED_SYSTEM_GUIDE.txt",
+    "lines": 550,
+    "headings": []
+  }
+]

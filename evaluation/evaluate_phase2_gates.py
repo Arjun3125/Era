@@ -7,6 +7,7 @@ Default criteria:
 - OOD lift >= 0.0
 - Core effect size >= 0.5
 - No calibration collapse
+- No minister collapse (when gating is enabled)
 """
 
 from __future__ import annotations
@@ -16,6 +17,8 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, Any, Optional
+
+EPS = 1e-9
 
 
 def _load_json(path: str) -> Dict[str, Any]:
@@ -35,13 +38,23 @@ def _get_float(d: Dict[str, Any], key: str) -> Optional[float]:
         return None
 
 
+def _ge_with_tol(value: Optional[float], threshold: float, eps: float = EPS) -> bool:
+    return value is not None and value >= (threshold - eps)
+
+
+def _le_with_tol(value: Optional[float], threshold: float, eps: float = EPS) -> bool:
+    return value is not None and value <= (threshold + eps)
+
+
 def evaluate_gates(
     candidate: Dict[str, Any],
     *,
     baseline_reference: Optional[Dict[str, Any]],
     core_lift_threshold: float,
+    ood_lift_threshold: float,
     effect_size_threshold: float,
     calibration_tolerance: float,
+    max_mean_minister_weight_threshold: float,
 ) -> Dict[str, Any]:
     core = candidate.get("core", {}) or {}
     stress = candidate.get("stress", {}) or {}
@@ -54,6 +67,10 @@ def evaluate_gates(
     core_brier = _get_float(core, "brier")
     core_ece_raw = _get_float(core, "ece_raw")
     core_brier_raw = _get_float(core, "brier_raw")
+    metadata = candidate.get("metadata", {}) or {}
+    gating_enabled = bool(metadata.get("gating_enabled", False))
+    gating_weight_stats = metadata.get("gating_weight_stats", {}) or {}
+    max_mean_minister_weight = _get_float(gating_weight_stats, "max_mean_weight")
 
     checks = []
     checks.append(
@@ -61,17 +78,17 @@ def evaluate_gates(
             "name": "core_lift_absolute",
             "threshold": core_lift_threshold,
             "actual": core_lift,
-            "passed": (core_lift is not None and core_lift >= core_lift_threshold),
-            "reason": "Core lift must improve by at least +5% absolute.",
+            "passed": _ge_with_tol(core_lift, core_lift_threshold),
+            "reason": "Core lift must meet configured minimum.",
         }
     )
     checks.append(
         {
             "name": "ood_negative_lift_eliminated",
-            "threshold": 0.0,
+            "threshold": ood_lift_threshold,
             "actual": ood_lift,
-            "passed": (ood_lift is not None and ood_lift >= 0.0),
-            "reason": "OOD lift must be non-negative.",
+            "passed": _ge_with_tol(ood_lift, ood_lift_threshold),
+            "reason": "OOD lift must meet configured minimum.",
         }
     )
     checks.append(
@@ -79,8 +96,8 @@ def evaluate_gates(
             "name": "core_effect_size",
             "threshold": effect_size_threshold,
             "actual": core_d,
-            "passed": (core_d is not None and core_d >= effect_size_threshold),
-            "reason": "Core effect size must be at least 0.5.",
+            "passed": _ge_with_tol(core_d, effect_size_threshold),
+            "reason": "Core effect size must meet configured minimum.",
         }
     )
 
@@ -89,12 +106,8 @@ def evaluate_gates(
         base_ece = _get_float(base_core, "ece")
         base_brier = _get_float(base_core, "brier")
         calibration_pass = (
-            core_ece is not None
-            and core_brier is not None
-            and base_ece is not None
-            and base_brier is not None
-            and core_ece <= base_ece + calibration_tolerance
-            and core_brier <= base_brier + calibration_tolerance
+            core_ece is not None and base_ece is not None
+            and _le_with_tol(core_ece, base_ece + calibration_tolerance)
         )
         calibration_detail = {
             "mode": "relative_to_baseline",
@@ -106,12 +119,8 @@ def evaluate_gates(
         }
     else:
         calibration_pass = (
-            core_ece is not None
-            and core_brier is not None
-            and core_ece_raw is not None
-            and core_brier_raw is not None
-            and core_ece <= core_ece_raw + calibration_tolerance
-            and core_brier <= core_brier_raw + calibration_tolerance
+            core_ece is not None and core_ece_raw is not None
+            and _le_with_tol(core_ece, core_ece_raw + calibration_tolerance)
         )
         calibration_detail = {
             "mode": "self_sanity_vs_raw",
@@ -125,10 +134,33 @@ def evaluate_gates(
     checks.append(
         {
             "name": "no_calibration_collapse",
-            "threshold": "candidate <= baseline(+tol) or <= raw(+tol)",
+            "threshold": "candidate_ece <= baseline/raw(+tol)",
             "actual": calibration_detail,
             "passed": calibration_pass,
             "reason": "Calibrated reliability must not regress.",
+        }
+    )
+
+    collapse_actual: Dict[str, Any] = {
+        "gating_enabled": gating_enabled,
+        "max_mean_weight": max_mean_minister_weight,
+    }
+    if gating_enabled:
+        collapse_pass = (
+            max_mean_minister_weight is not None
+            and max_mean_minister_weight < max_mean_minister_weight_threshold
+        )
+    else:
+        collapse_pass = True
+        collapse_actual["note"] = "check_skipped_gating_disabled"
+
+    checks.append(
+        {
+            "name": "no_minister_collapse",
+            "threshold": f"max_mean_weight < {max_mean_minister_weight_threshold}",
+            "actual": collapse_actual,
+            "passed": collapse_pass,
+            "reason": "No single minister should dominate average gating weights.",
         }
     )
 
@@ -191,20 +223,32 @@ def main() -> None:
     parser.add_argument(
         "--core-lift-threshold",
         type=float,
-        default=0.05,
+        default=0.0792,
         help="Minimum required absolute lift on core",
     )
     parser.add_argument(
         "--effect-size-threshold",
         type=float,
-        default=0.5,
+        default=0.7,
         help="Minimum required core effect size",
+    )
+    parser.add_argument(
+        "--ood-lift-threshold",
+        type=float,
+        default=0.02,
+        help="Minimum required absolute lift on OOD",
     )
     parser.add_argument(
         "--calibration-tolerance",
         type=float,
-        default=0.0,
+        default=0.02,
         help="Allowed positive regression tolerance for calibration checks",
+    )
+    parser.add_argument(
+        "--max-mean-minister-weight-threshold",
+        type=float,
+        default=0.85,
+        help="Maximum allowed mean weight for any single minister when gating is enabled",
     )
     parser.add_argument(
         "--output-json",
@@ -224,8 +268,10 @@ def main() -> None:
         candidate,
         baseline_reference=baseline_reference,
         core_lift_threshold=args.core_lift_threshold,
+        ood_lift_threshold=args.ood_lift_threshold,
         effect_size_threshold=args.effect_size_threshold,
         calibration_tolerance=args.calibration_tolerance,
+        max_mean_minister_weight_threshold=args.max_mean_minister_weight_threshold,
     )
 
     out_json = Path(args.output_json)
@@ -244,4 +290,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

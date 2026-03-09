@@ -1,0 +1,27 @@
+[
+  {
+    "file": "ingestion/data/ministers/adaptation/principles.json",
+    "stage": "json_index",
+    "error": "Extra data: line 10513 column 2 (char 303904)"
+  },
+  {
+    "file": "ingestion/data/ministers/adaptation/rules.json",
+    "stage": "json_index",
+    "error": "Extra data: line 10946 column 6 (char 318244)"
+  },
+  {
+    "file": "ingestion/data/ministers/optionality/principles.json",
+    "stage": "json_index",
+    "error": "Extra data: line 5890 column 2 (char 169296)"
+  },
+  {
+    "file": "ingestion/data/ministers/Personal Development/warnings.json",
+    "stage": "json_index",
+    "error": "Extra data: line 395 column 8 (char 10919)"
+  },
+  {
+    "file": "ingestion/data/ministers/psychology/principles.json",
+    "stage": "json_index",
+    "error": "Extra data: line 18933 column 2 (char 557957)"
+  }
+]

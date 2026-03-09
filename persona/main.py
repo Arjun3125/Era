@@ -48,6 +48,8 @@ from .modes.mode_metrics import ModeMetrics
 
 # NEW: Dynamic council for mode-aware council invocation
 from .council.dynamic_council import DynamicCouncil
+from modules.decision_pipeline import DecisionPipelineEngine
+from modules.prime_decision import PrimeDecisionEngine
 
 # Thread pool
 executor = ThreadPoolExecutor(max_workers=4)
@@ -125,7 +127,7 @@ def _background_analysis(llm: Any, user_input: str, response: str, state: Cognit
         trace("background_analysis_failure", {"error": str(e)})
 
 
-def _mca_decision(council: CouncilAggregator, prime: PrimeConfident, user_input: str, response: str, state: CognitiveState, mode_orchestrator: Optional[ModeOrchestrator] = None, dynamic_council: Optional[DynamicCouncil] = None) -> Dict[str, Any]:
+def _mca_decision(council: CouncilAggregator, prime: PrimeConfident, user_input: str, response: str, state: CognitiveState, mode_orchestrator: Optional[ModeOrchestrator] = None, dynamic_council: Optional[DynamicCouncil] = None, prime_engine: Optional[PrimeDecisionEngine] = None, decision_pipeline: Optional[DecisionPipelineEngine] = None) -> Dict[str, Any]:
     """
     Run Ministerial Cognitive Architecture decision loop.
     
@@ -148,6 +150,38 @@ def _mca_decision(council: CouncilAggregator, prime: PrimeConfident, user_input:
         recent_summary = "; ".join([u[:50] + "..." if len(u) > 50 else u for u, a in state.recent_turns[-3:]]) if state.recent_turns else ""
         context["recent_context"] = recent_summary
         
+        current_mode = str(state.mode or "meeting").strip().lower()
+
+        if decision_pipeline:
+            try:
+                pipeline_result = decision_pipeline.run(
+                    user_input=user_input,
+                    requested_mode=current_mode,
+                    routing_context=context,
+                    metadata={"source": "persona.main._mca_decision"},
+                )
+                final_decision = dict(pipeline_result.final_decision or {})
+                council_result = dict(pipeline_result.council_result or {})
+                state.last_mca_decision = final_decision
+                state.last_council_recommendation = council_result
+
+                trace("mca_pipeline_decision", {
+                    "pipeline_status": pipeline_result.status,
+                    "mode": pipeline_result.mode_resolution.mode,
+                    "prime_outcome": final_decision.get("final_outcome"),
+                    "error_count": len(pipeline_result.errors),
+                })
+                return {
+                    "council_outcome": str(council_result.get("outcome", "not_invoked"))[:50],
+                    "council_recommendation": str(council_result.get("recommendation", "defer"))[:50],
+                    "prime_final_decision": final_decision.get("final_outcome"),
+                    "prime_reason": final_decision.get("reason"),
+                    "red_line_triggered": bool(council_result.get("red_line_concerns", [])),
+                    "consensus_strength": float(council_result.get("consensus_strength", 0.0) or 0.0),
+                }
+            except Exception as pipeline_error:
+                trace("mca_pipeline_error_fallback", {"error": str(pipeline_error)})
+
         # NEW: Determine which ministers to invoke based on mode
         if mode_orchestrator:
             current_mode = mode_orchestrator.get_current_mode()
@@ -220,27 +254,49 @@ def _mca_decision(council: CouncilAggregator, prime: PrimeConfident, user_input:
         if council_rec.minister_positions:
             for domain_name, position in council_rec.minister_positions.items():
                 try:
-                    minister_outputs[domain_name] = {
-                        "stance": str(position.stance) if hasattr(position, 'stance') else "unknown",
-                        "confidence": float(position.confidence if hasattr(position, 'confidence') else 0.5),
-                        "reasoning": str(position.reasoning)[:100] if hasattr(position, 'reasoning') else "",
-                        "red_line_triggered": bool(position.red_line_triggered) if hasattr(position, 'red_line_triggered') else False,
-                    }
+                    if isinstance(position, dict):
+                        minister_outputs[domain_name] = {
+                            "stance": str(position.get("stance", "unknown")),
+                            "confidence": float(position.get("confidence", 0.5) or 0.5),
+                            "reasoning": str(position.get("reasoning", ""))[:100],
+                            "red_line_triggered": bool(
+                                position.get("red_line_triggered", position.get("red_line", False))
+                            ),
+                        }
+                    else:
+                        minister_outputs[domain_name] = {
+                            "stance": str(position.stance) if hasattr(position, 'stance') else "unknown",
+                            "confidence": float(position.confidence if hasattr(position, 'confidence') else 0.5),
+                            "reasoning": str(position.reasoning)[:100] if hasattr(position, 'reasoning') else "",
+                            "red_line_triggered": bool(position.red_line_triggered) if hasattr(position, 'red_line_triggered') else False,
+                        }
                 except Exception as e:
                     trace("minister_position_conversion_error", {"domain": domain_name, "error": str(e)})
-        
+
         # Prime Confident decides
         try:
-            final_decision = prime.decide(
-                council_recommendation={
-                    "outcome": council_rec.outcome,
-                    "recommendation": str(council_rec.recommendation)[:100],
-                    "avg_confidence": float(council_rec.avg_confidence or 0.5),
-                    "reasoning": str(council_rec.reasoning)[:100],
-                    "consensus_strength": float(council_rec.consensus_strength or 0.5),
-                },
-                minister_outputs=minister_outputs
-            )
+            council_payload = {
+                "outcome": council_rec.outcome,
+                "recommendation": str(council_rec.recommendation)[:100],
+                "avg_confidence": float(council_rec.avg_confidence or 0.5),
+                "reasoning": str(council_rec.reasoning)[:100],
+                "consensus_strength": float(council_rec.consensus_strength or 0.5),
+                "mode": current_mode,
+                "red_line_concerns": list(council_rec.red_line_concerns or []),
+                "minister_positions": council_rec.minister_positions or {},
+            }
+            if prime_engine:
+                final_decision = prime_engine.decide(
+                    council_recommendation=council_payload,
+                    minister_outputs=minister_outputs,
+                    mode=current_mode,
+                    context=context,
+                )
+            else:
+                final_decision = prime.decide(
+                    council_recommendation=council_payload,
+                    minister_outputs=minister_outputs
+                )
         except Exception as e:
             trace("prime_decision_error", {"error": str(e)})
             final_decision = {"final_outcome": "defer", "reason": "prime_decision_failed"}
@@ -358,6 +414,22 @@ def main():
     print("[MAIN] Initializing council and orchestrators...", file=sys.stderr, flush=True)
     council = CouncilAggregator(llm=llm)
     prime = PrimeConfident(risk_threshold=0.7)
+    prime_engine = PrimeDecisionEngine(prime_decider=prime)
+    decision_pipeline_enabled = True
+    try:
+        from config import load_runtime_settings
+
+        decision_pipeline_enabled = load_runtime_settings().decision_pipeline_enabled
+    except Exception:
+        decision_pipeline_enabled = True
+
+    decision_pipeline = None
+    if decision_pipeline_enabled:
+        decision_pipeline = DecisionPipelineEngine.create(
+            llm=llm,
+            prime_decider=prime,
+            risk_threshold=0.7,
+        )
 
     # NEW: Initialize mode orchestrator
     mode_orchestrator = ModeOrchestrator()
@@ -681,7 +753,7 @@ def main():
         # Run MCA decision (Ministerial Cognitive Architecture)
         # This convenes the council (or skips it based on mode) and Prime Confident determines meta-level action
         try:
-            mca_decision = _mca_decision(council, prime, user_input, response, state, mode_orchestrator, dynamic_council)
+            mca_decision = _mca_decision(council, prime, user_input, response, state, mode_orchestrator, dynamic_council, prime_engine, decision_pipeline)
             trace("mca_completed", mca_decision)
             
             # NEW: Record mode-specific metrics

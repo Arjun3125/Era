@@ -47,6 +47,7 @@ class BenchmarkRunner:
         self.runner = EvaluationRunner()
         self.stats_engine = StatsEngine()
         self.all_runs = {}
+        self.fail_fast_errors = os.getenv("EVAL_FAIL_FAST_ERRORS", "0").lower() in {"1", "true", "yes"}
 
     def _parse_model_response(
         self,
@@ -56,6 +57,12 @@ class BenchmarkRunner:
     ) -> Tuple[str, float]:
         """Extract decision path and confidence from model output."""
         text = response or ""
+        normalized_paths = set()
+        if acceptable_paths:
+            normalized_paths = {
+                p.lower().replace("-", "_").replace(" ", "_")
+                for p in acceptable_paths
+            }
         decision_match = re.search(
             r"(?im)^[>\s`*_:-]*\*{0,2}decision\*{0,2}\s*[:\-]\s*(.+)$",
             text,
@@ -64,27 +71,78 @@ class BenchmarkRunner:
             r"(?im)^[>\s`*_:-]*\*{0,2}confidence\*{0,2}\s*[:\-]\s*([0-9]*\.?[0-9]+)\s*%?\s*$",
             text,
         )
+        minister_matches = re.findall(
+            r"(?im)^[>\s`*_:-]*minister_[a-z_]+\s*:\s*([^|\n]+?)\s*\|\s*([0-9]*\.?[0-9]+)",
+            text,
+        )
 
         decision = fallback_decision
         if decision_match:
             decision_line = decision_match.group(1).strip().splitlines()[0].strip()
             decision = re.sub(r"[^a-z0-9_ -]", "", decision_line.lower()).replace("-", "_").replace(" ", "_")
-            if acceptable_paths:
-                normalized_paths = {
-                    p.lower().replace("-", "_").replace(" ", "_")
-                    for p in acceptable_paths
-                }
+            if normalized_paths:
                 if decision not in normalized_paths:
                     for normalized in normalized_paths:
                         if normalized in decision:
                             decision = normalized
                             break
+                if decision not in normalized_paths:
+                    for normalized in normalized_paths:
+                        if decision in normalized:
+                            decision = normalized
+                            break
+                if decision not in normalized_paths:
+                    decision_tokens = {t for t in decision.split("_") if t}
+                    best_path = None
+                    best_overlap = 0.0
+                    for normalized in normalized_paths:
+                        path_tokens = {t for t in normalized.split("_") if t}
+                        if not path_tokens:
+                            continue
+                        overlap = len(decision_tokens & path_tokens) / len(path_tokens)
+                        if overlap > best_overlap:
+                            best_overlap = overlap
+                            best_path = normalized
+                    if best_path is not None and best_overlap >= 0.5:
+                        decision = best_path
+        elif minister_matches:
+            # Recovery path for council outputs that include minister lines but omit DECISION.
+            score_by_path: Dict[str, float] = {}
+            for raw_path, raw_conf in minister_matches:
+                path = re.sub(r"[^a-z0-9_ -]", "", raw_path.lower()).strip().replace("-", "_").replace(" ", "_")
+                conf = float(raw_conf)
+                conf = conf / 100.0 if conf > 1.0 else conf
+                conf = max(0.0, min(1.0, conf))
+                score_by_path[path] = score_by_path.get(path, 0.0) + conf
+            if score_by_path:
+                ranked_paths = sorted(score_by_path.items(), key=lambda item: item[1], reverse=True)
+                decision = ranked_paths[0][0]
+                if normalized_paths and decision not in normalized_paths:
+                    for candidate, _ in ranked_paths:
+                        if candidate in normalized_paths:
+                            decision = candidate
+                            break
+        if self.fail_fast_errors and normalized_paths and decision not in normalized_paths:
+            raise ValueError(
+                f"Decision '{decision}' is not in acceptable paths {sorted(normalized_paths)}"
+            )
+        if self.fail_fast_errors and not decision_match and not minister_matches:
+            raise ValueError("Missing DECISION line in model response.")
 
         confidence = 0.5
         if confidence_match:
             raw = float(confidence_match.group(1))
             confidence = raw / 100.0 if raw > 1.0 else raw
             confidence = max(0.0, min(1.0, confidence))
+        elif minister_matches:
+            conf_values = []
+            for _, raw_conf in minister_matches:
+                raw = float(raw_conf)
+                conf_values.append(raw / 100.0 if raw > 1.0 else raw)
+            if conf_values:
+                confidence = max(0.0, min(1.0, sum(conf_values) / len(conf_values)))
+        elif self.fail_fast_errors:
+            raise ValueError("Missing CONFIDENCE line in model response.")
 
         return decision, confidence
     
@@ -101,6 +159,10 @@ class BenchmarkRunner:
 Scenario: {scenario.get('input', 'No input')[:200]}
 Acceptable decision paths (choose exactly one): {acceptable_paths}
 
+Output constraints:
+- Return exactly 3 lines, no extra text.
+- Keep RATIONALE to <= 20 words.
+
 Provide your final answer in exactly this format:
 DECISION: [choose one of the acceptable paths]
 RATIONALE: [explain your reasoning]
@@ -110,7 +172,9 @@ CONFIDENCE: [0.00 to 1.00]"""
                 # Attempt to use OllamaRuntime if available
                 llm = OllamaRuntime()
                 response = llm.speak("You are a decision analyst.", prompt)
-            except:
+            except Exception:
+                if self.fail_fast_errors:
+                    raise
                 # Fallback to mock response if Ollama unavailable
                 response = "DECISION: conservative_approach\nRATIONALE: Unclear information requires further investigation."
             
@@ -125,6 +189,8 @@ CONFIDENCE: [0.00 to 1.00]"""
             return decision_path, rationale, confidence
         
         except Exception as e:
+            if self.fail_fast_errors:
+                raise
             logger.warning(f"  Baseline engine error: {e}")
             return "error_response", str(e), 0.0
     
@@ -143,6 +209,10 @@ Acceptable decision paths (choose exactly one): {acceptable_paths}
 
 Consider risk, optionality, information value, and timing.
 
+Output constraints:
+- Return exactly 3 lines, no extra text.
+- Keep RATIONALE to <= 20 words.
+
 Provide your final answer in exactly this format:
 DECISION: [choose one of the acceptable paths]
 RATIONALE: [explain your reasoning as a council]
@@ -155,7 +225,9 @@ CONFIDENCE: [0.00 to 1.00]"""
                     "You are a council of decision experts with diverse perspectives.",
                     prompt
                 )
-            except:
+            except Exception:
+                if self.fail_fast_errors:
+                    raise
                 # Fallback to mock response if Ollama unavailable
                 response = "DECISION: balanced_approach\nRATIONALE: Council recommends maintaining flexibility while gathering more information."
             
@@ -169,6 +241,8 @@ CONFIDENCE: [0.00 to 1.00]"""
             return decision_path, rationale, confidence
         
         except Exception as e:
+            if self.fail_fast_errors:
+                raise
             logger.warning(f"  Council engine error: {e}")
             return "error_response", str(e), 0.0
     

@@ -1,0 +1,135 @@
+# Python Dependency and Entrypoint Map
+
+- Total python modules indexed: **289**
+
+## Internal Import Footprint (files importing each internal package)
+
+- `persona`: 59
+- `ml`: 24
+- `ingestion`: 14
+- `evaluation`: 12
+- `hse`: 10
+- `llm`: 6
+- `multi_agent_sim`: 6
+- `sovereign`: 6
+- `utils`: 4
+- `analytics`: 1
+
+## Most Referenced External Packages (Top 60 by import statements)
+
+- `typing`: 136
+- `json`: 110
+- `os`: 92
+- `sys`: 84
+- `pathlib`: 62
+- `datetime`: 46
+- `dataclasses`: 37
+- `traceback`: 30
+- `time`: 29
+- `__future__`: 27
+- `argparse`: 24
+- `asyncio`: 20
+- `re`: 18
+- `logging`: 15
+- `subprocess`: 15
+- `collections`: 13
+- `numpy`: 13
+- `torch`: 13
+- `requests`: 11
+- `async_ingest_config`: 11
+- `math`: 10
+- `random`: 10
+- `shutil`: 10
+- `hashlib`: 9
+- `concurrent`: 9
+- `uuid`: 7
+- `async_ingest_orchestrator`: 7
+- `ingest_metrics`: 7
+- `config`: 7
+- `threading`: 6
+- `rate_controller`: 6
+- `enum`: 6
+- `trace`: 6
+- `tempfile`: 5
+- `importlib`: 4
+- `copy`: 4
+- `adaptive_controller`: 4
+- `vector_db`: 4
+- `ollama_client`: 4
+- `labels`: 4
+- `scipy`: 3
+- `unicodedata`: 3
+- `async_workers`: 3
+- `distributed_queue`: 3
+- `async_ingestion_orchestrator`: 3
+- `abc`: 3
+- `minister_converter`: 3
+- `features`: 3
+- `agents`: 3
+- `logger`: 3
+- `modes`: 3
+- `learning`: 3
+- `persona_mas_integration`: 2
+- `action_spiral`: 2
+- `consciousness`: 2
+- `diagnostics`: 2
+- `dopamine`: 2
+- `memory`: 2
+- `predictive`: 2
+- `personality_drift`: 2
+
+## Candidate Entrypoints (heuristic)
+
+- `archive/runtime_old/run_sim.py`
+- `evaluation/analyze_kis_failure_mode.py`
+- `evaluation/analyze_minister_similarity.py`
+- `evaluation/build_kis2_index.py`
+- `evaluation/build_phase2_gating_dataset.py`
+- `evaluation/create_split_manifest.py`
+- `evaluation/evaluate_phase2_gates.py`
+- `evaluation/freeze_diversity_baseline.py`
+- `evaluation/gate_milestone3.py`
+- `evaluation/reliability_analysis.py`
+- `evaluation/run_phase2_robustness.py`
+- `evaluation/run_phase2_with_gates.py`
+- `evaluation/run_phase4_stress.py`
+- `evaluation/train_kis2_reranker.py`
+- `evaluation/train_phase2_gating.py`
+- `evaluation/uncertainty_analysis.py`
+- `hse/analytics_server.py`
+- `ingestion/v2/run_all_v2_ingest.py`
+- `ingestion/v2/src/benchmark_harness.py`
+- `ingestion/v2/src/demo_async_pipeline.py`
+- `ingestion/v2/src/quickstart.py`
+- `llm/interactive_llm_conversation.py`
+- `llm_conversation.py`
+- `ml/QUICKSTART.py`
+- `multi_agent_sim/__main__.py`
+- `multi_agent_sim/run_terminal.py`
+- `multi_agent_sim/simulation_runner.py`
+- `multi_agent_sim/terminal.py`
+- `persona/cache_manager.py`
+- `persona/domain_detector.py`
+- `persona/main.py`
+- `persona/run_persona.py`
+- `persona/run_persona_conversation.py`
+- `run_benchmark.py`
+- `run_eval_demo.py`
+- `scripts/run_embed_only.py`
+- `scripts/stream_persona_live.py`
+- `sovereign/sovereign_main.py`
+- `sovereign/sovereign_main_integration_example.py`
+- `system_main.py`
+- `tests/comprehensive_feature_test.py`
+- `tests/run_adapter_test.py`
+- `tests/run_kis_integration_test.py`
+- `tests/run_phase1_test.py`
+- `tests/run_tests.py`
+- `tests/run_v2_ingest_test.py`
+- `tests/sovereign_stress_test.py`
+- `tests/test_async_ingest.py`
+- `tests/test_minister_converter.py`
+- `tests/test_step4_training_data.py`
+- `tests/verify_ml_integration.py`
+- `utils/cleanup_atomic_dirs.py`
+- `utils/migrate_to_consolidated.py`

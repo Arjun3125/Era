@@ -11,6 +11,7 @@ No LLM evaluation → No circular reasoning.
 from typing import Dict, List, Tuple
 from dataclasses import dataclass
 import json
+import os
 import re
 import logging
 
@@ -80,6 +81,26 @@ PRINCIPLE_KEYWORDS = {
     }
 }
 
+# Broader semantic proxies used in semantic/hybrid evaluator mode.
+SEMANTIC_PRINCIPLE_PATTERNS = {
+    "optionality": [r"\boption\w*\b", r"\bflexib\w*\b", r"\balternative\w*\b", r"\bpreserv\w*\b"],
+    "downside_asymmetry": [r"\bdownside\b", r"\brisk\b", r"\bharm\b", r"\bworst[- ]case\b", r"\bprotect\w*\b"],
+    "reversibility": [r"\brevers\w*\b", r"\bundo\w*\b", r"\btrial\b", r"\bpilot\b", r"\btemporary\b"],
+    "feedback_loops": [r"\bfeedback\b", r"\biterate\w*\b", r"\blearn\w*\b", r"\bsecond[- ]order\b"],
+    "systemic_barriers": [r"\bsystem\w*\b", r"\bstructur\w*\b", r"\bconstraint\w*\b", r"\bbarrier\w*\b", r"\bopposition\b", r"\bcompliance\b"],
+    "time_value": [r"\btime\b", r"\btiming\b", r"\bwait\w*\b", r"\bdelay\w*\b", r"\bnow\b", r"\blater\b"],
+    "information_value": [r"\binformation\b", r"\buncertain\w*\b", r"\bsignal\w*\b", r"\bevidence\b", r"\bdata\b", r"\blearn\w*\b"],
+    # Additional rubric principles seen in dataset.
+    "customer_trust": [r"\bcustomer\b", r"\btrust\b", r"\breputation\b"],
+    "compliance": [r"\bcompliance\b", r"\bregulat\w*\b", r"\blegal\b"],
+    "integrity": [r"\bintegrit\w*\b", r"\bethic\w*\b", r"\bhonest\w*\b"],
+    "long_term_trust": [r"\blong[- ]term\b", r"\btrust\b", r"\breputation\b"],
+    "information_hazard_control": [r"\binformation hazard\b", r"\bleak\w*\b", r"\bcontain\w*\b", r"\bsecurity\b"],
+    "risk_management": [r"\brisk\b", r"\bmitigat\w*\b", r"\bcontingenc\w*\b", r"\bprotect\w*\b"],
+    "fairness": [r"\bfair\w*\b", r"\bequit\w*\b", r"\bbias\b"],
+    "long_term_quality": [r"\blong[- ]term\b", r"\bquality\b", r"\bdurable\b", r"\brobust\b"],
+}
+
 
 class OutcomeScorer:
     """
@@ -90,6 +111,7 @@ class OutcomeScorer:
     
     def __init__(self):
         self.results = []
+        self.principle_match_mode = str(os.getenv("EVAL_PRINCIPLE_MATCH_MODE", "strict")).strip().lower()
     
     def evaluate_decision(
         self,
@@ -122,9 +144,9 @@ class OutcomeScorer:
         
         # Rule 2: Check principles using keyword matching
         required_principles = ground_truth_rubric.get("principles_required", [])
-        principles_satisfied = self._extract_principles_rule_based(
-            decision_rationale, 
-            required_principles
+        principles_satisfied = self._extract_principles(
+            decision_rationale,
+            required_principles,
         )
         principles_violated = [p for p in required_principles if p not in principles_satisfied]
         critical_failure_modes = ground_truth_rubric.get("critical_failure_modes", [])
@@ -165,8 +187,9 @@ class OutcomeScorer:
             )
         )
         logger.info(
-            "SCORER scenario=%s path_matched=%s principles_matched=%s failure_modes_matched=%s",
+            "SCORER scenario=%s mode=%s path_matched=%s principles_matched=%s failure_modes_matched=%s",
             scenario_id,
+            self.principle_match_mode,
             path_matched,
             principles_satisfied,
             failure_modes_matched,
@@ -234,6 +257,69 @@ class OutcomeScorer:
                 found_principles.append(principle)
         
         return found_principles
+
+    @staticmethod
+    def _principle_name_token_match(text_lower: str, principle: str) -> bool:
+        """
+        Fallback semantic proxy for unknown principles: match normalized principle tokens
+        (excluding ultra-short tokens) in rationale text.
+        """
+        tokens = [t for t in str(principle).lower().replace("-", "_").split("_") if len(t) >= 4]
+        if not tokens:
+            return False
+        hits = sum(1 for t in tokens if t in text_lower)
+        return hits >= max(1, len(tokens) // 2)
+
+    def _extract_principles_semantic(
+        self,
+        text: str,
+        required_principles: List[str],
+    ) -> List[str]:
+        """
+        Semantic proxy matcher (still deterministic/no-LLM):
+        - strict keyword matching first
+        - broader regex patterns for paraphrases
+        - fallback token overlap for unknown principle names
+        """
+        if not text or not required_principles:
+            return []
+        text_lower = text.lower()
+        found: List[str] = []
+        for principle in required_principles:
+            p = str(principle)
+            if p in found:
+                continue
+            # Keep strict behavior as a subset of semantic mode.
+            strict_hit = p in self._extract_principles_rule_based(text, [p])
+            if strict_hit:
+                found.append(p)
+                continue
+            patterns = SEMANTIC_PRINCIPLE_PATTERNS.get(p, [])
+            if any(re.search(pattern, text_lower) for pattern in patterns):
+                found.append(p)
+                continue
+            if self._principle_name_token_match(text_lower, p):
+                found.append(p)
+        return found
+
+    def _extract_principles(
+        self,
+        text: str,
+        required_principles: List[str],
+    ) -> List[str]:
+        mode = self.principle_match_mode
+        if mode in {"semantic", "soft", "fuzzy"}:
+            return self._extract_principles_semantic(text, required_principles)
+        if mode in {"hybrid"}:
+            strict = self._extract_principles_rule_based(text, required_principles)
+            semantic = self._extract_principles_semantic(text, required_principles)
+            merged: List[str] = []
+            for p in required_principles:
+                if p in strict or p in semantic:
+                    merged.append(p)
+            return merged
+        # default strict
+        return self._extract_principles_rule_based(text, required_principles)
     
     def _build_justification(
         self,
@@ -300,6 +386,7 @@ class OutcomeScorer:
         
         return {
             "total_scenarios": total,
+            "principle_match_mode": self.principle_match_mode,
             "pass_rate": passed / total,
             "mean_score": avg_score,
             "decision_path_detection_success_rate": path_detected / total,

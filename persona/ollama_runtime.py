@@ -18,8 +18,6 @@ executor = ThreadPoolExecutor(max_workers=4)
 
 
 class OllamaRuntime:
-    _host_debug_logged = False
-
     def __init__(self, speak_model=None, analyze_model=None, global_seed=None):
         default_speak_model = os.getenv("USER_MODEL", "llama3.1:8b-instruct-q4_0")
         default_analyze_model = os.getenv("PROGRAM_MODEL", "huihui_ai/deepseek-r1-abliterated:8b")
@@ -38,15 +36,7 @@ class OllamaRuntime:
         # For reasoning models (e.g., deepseek-r1), force final answer into `content`
         # during evaluation so downstream parsing is model-agnostic.
         self.eval_think_off = os.getenv("EVAL_THINK_OFF", "1").lower() in {"1", "true", "yes"}
-        self.ollama_host = os.getenv("OLLAMA_HOST")
-        resolved_host = (self.ollama_host or "http://127.0.0.1:11434").rstrip("/")
-        self.ollama_tags_endpoint = f"{resolved_host}/api/tags"
-        self.ollama_chat_endpoint = f"{resolved_host}/api/chat"
-        if not OllamaRuntime._host_debug_logged:
-            print("OLLAMA_HOST:", self.ollama_host)
-            print("OLLAMA_ENDPOINT_TAGS:", self.ollama_tags_endpoint)
-            print("OLLAMA_ENDPOINT_CHAT:", self.ollama_chat_endpoint)
-            OllamaRuntime._host_debug_logged = True
+        self.fail_fast_errors = os.getenv("EVAL_FAIL_FAST_ERRORS", "0").lower() in {"1", "true", "yes"}
         
         # Boot-time handshake: verify Ollama daemon reachable.
         # Honor environment override SKIP_OLLAMA_CHECK to allow development without daemon.
@@ -97,6 +87,8 @@ class OllamaRuntime:
             )
             return self._extract_text(response)
         except Exception as e:
+            if self.fail_fast_errors:
+                raise RuntimeError(f"Ollama analyze() failed: {e}") from e
             return f"[LLM analyze error: {e}]"
 
     def analyze_async(self, system_prompt, user_prompt):
@@ -149,6 +141,8 @@ class OllamaRuntime:
             response = ollama.chat(**chat_kwargs)
             assistant_text = self._extract_text(response)
         except Exception as e:
+            if self.fail_fast_errors:
+                raise RuntimeError(f"Ollama speak() failed: {e}") from e
             assistant_text = f"[LLM speak error: {e}]"
 
         # append assistant response and trim again if needed

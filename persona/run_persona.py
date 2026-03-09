@@ -3,6 +3,8 @@ import os
 import sys
 from pathlib import Path
 
+from adapters.legacy import LegacyEntrypointPlugin, run_legacy_entrypoint
+
 print("[STARTUP] Loading environment...", file=sys.stderr, flush=True)
 
 def _load_dotenv_fallback(path: str = ".env") -> None:
@@ -36,5 +38,29 @@ from persona.main import main
 
 print("[STARTUP] Starting main()...", file=sys.stderr, flush=True)
 
+
+def _run_via_orchestrator() -> int:
+    """Execute legacy persona main through the central orchestrator wrapper."""
+    plugin = LegacyEntrypointPlugin(plugin_name="persona.main", entrypoint=main)
+
+    report = run_legacy_entrypoint(
+        plugin=plugin,
+        command_name="persona.run_persona",
+        argv=list(sys.argv[1:]),
+        metadata={"entrypoint": "persona/run_persona.py"},
+    )
+
+    if report.result.status.value == "aborted":
+        first_error = (
+            report.result.context.errors[0].message
+            if report.result.context.errors
+            else "unknown"
+        )
+        print(f"[STARTUP] Orchestration aborted: {first_error}", file=sys.stderr, flush=True)
+        return 1
+
+    return report.exit_code
+
+
 if __name__ == "__main__":
-    main()
+    raise SystemExit(_run_via_orchestrator())

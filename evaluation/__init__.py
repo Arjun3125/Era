@@ -1,28 +1,37 @@
 """
-Evaluation Framework - Research-grade statistical validation
-
-Components:
-- evaluation_runner.py: Main orchestrator with isolation mode & ablations
-- stats_engine.py: Statistical validation (t-tests, CI, effect sizes, calibration)
-- scoring/outcome_scorer.py: Rubric-based outcome evaluation
-- scoring/regret_scorer.py: Regret magnitude quantification
-- scoring/rubric_engine.py: Scenario loading & integrity verification
-- benchmark_dataset/: Frozen datasets with SHA256 hashes
-- MODEL_VERSION.json: Version & configuration tracking
+Evaluation package exports (lazy-loaded to avoid heavy import side effects).
 """
 
-from evaluation.evaluation_runner import EvaluationRunner, EvaluationConfig
-from evaluation.stats_engine import StatsEngine, ConfidenceInterval
-from evaluation.scoring.outcome_scorer import OutcomeScorer
-from evaluation.scoring.regret_scorer import RegretScorer
-from evaluation.scoring.rubric_engine import RubricEngine
+from __future__ import annotations
+
+from importlib import import_module
+from typing import Any
 
 __all__ = [
-    'EvaluationRunner',
-    'EvaluationConfig',
-    'StatsEngine',
-    'ConfidenceInterval',
-    'OutcomeScorer',
-    'RegretScorer',
-    'RubricEngine'
+    "EvaluationRunner",
+    "EvaluationConfig",
+    "StatsEngine",
+    "ConfidenceInterval",
+    "OutcomeScorer",
+    "RegretScorer",
+    "RubricEngine",
 ]
+
+
+def __getattr__(name: str) -> Any:
+    if name in {"EvaluationRunner", "EvaluationConfig"}:
+        mod = import_module("evaluation.evaluation_runner")
+        return getattr(mod, name)
+    if name in {"StatsEngine", "ConfidenceInterval"}:
+        mod = import_module("evaluation.stats_engine")
+        return getattr(mod, name)
+    if name == "OutcomeScorer":
+        mod = import_module("evaluation.scoring.outcome_scorer")
+        return getattr(mod, name)
+    if name == "RegretScorer":
+        mod = import_module("evaluation.scoring.regret_scorer")
+        return getattr(mod, name)
+    if name == "RubricEngine":
+        mod = import_module("evaluation.scoring.rubric_engine")
+        return getattr(mod, name)
+    raise AttributeError(name)

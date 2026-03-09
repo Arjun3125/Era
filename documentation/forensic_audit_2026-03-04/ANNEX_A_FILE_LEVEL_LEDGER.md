@@ -1,0 +1,3250 @@
+# Annex A - File-Level Ledger (Complete)
+
+Generated from `00_complete_file_manifest.json` and parse indexes.
+
+- Total files: **3120**
+
+## ingestion (2027 files)
+
+- Extension mix: .json:1298, .txt:608, .log:72, .py:37, .md:11, .index:1
+
+- `ingestion/data/combined_vector.index` (8144 bytes) :: binary
+- `ingestion/data/memory/ministers_index.json` (68 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Archetype Theory/claims.json` (177 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Archetype Theory/doctrine.json` (160 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Archetype Theory/principles.json` (1306 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Archetype Theory/rules.json` (1300 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Archetype Theory/warnings.json` (970 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Behavioral Finance/claims.json` (832 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Behavioral Finance/doctrine.json` (162 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Behavioral Finance/principles.json` (1102 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Behavioral Finance/rules.json` (1059 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Behavioral Finance/warnings.json` (830 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Behavioral Psychology/claims.json` (927 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Behavioral Psychology/doctrine.json` (165 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Behavioral Psychology/principles.json` (924 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Behavioral Psychology/rules.json` (896 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Behavioral Psychology/warnings.json` (936 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Books and Publishing/claims.json` (776 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Books and Publishing/doctrine.json` (164 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Books and Publishing/principles.json` (797 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Books and Publishing/rules.json` (799 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Books and Publishing/warnings.json` (561 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business Acumen/claims.json` (176 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business Acumen/doctrine.json` (159 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business Acumen/principles.json` (180 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business Acumen/rules.json` (175 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business Acumen/warnings.json` (178 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business Ethics/claims.json` (1124 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business Ethics/doctrine.json` (159 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business Ethics/principles.json` (1259 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business Ethics/rules.json` (1115 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business Ethics/warnings.json` (1169 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business Innovation/claims.json` (994 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business Innovation/doctrine.json` (163 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business Innovation/principles.json` (979 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business Innovation/rules.json` (977 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business Innovation/warnings.json` (985 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business/Finance/claims.json` (842 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business/Finance/doctrine.json` (151 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business/Finance/principles.json` (848 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business/Finance/rules.json` (828 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business/Finance/warnings.json` (874 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business/claims.json` (169 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business/doctrine.json` (152 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business/principles.json` (173 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business/rules.json` (168 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Business/warnings.json` (171 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Career Development/claims.json` (820 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Career Development/doctrine.json` (162 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Career Development/principles.json` (1042 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Career Development/rules.json` (815 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Career Development/warnings.json` (573 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Cognitive Behavior/claims.json` (660 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Cognitive Behavior/doctrine.json` (162 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Cognitive Behavior/principles.json` (676 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Cognitive Behavior/rules.json` (654 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Cognitive Behavior/warnings.json` (698 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Communication/claims.json` (3525 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Communication/doctrine.json` (157 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Communication/principles.json` (3788 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Communication/rules.json` (3573 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Communication/warnings.json` (3866 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Community Management/claims.json` (833 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Community Management/doctrine.json` (164 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Community Management/principles.json` (808 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Community Management/rules.json` (825 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Community Management/warnings.json` (823 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Compliance/claims.json` (553 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Compliance/doctrine.json` (154 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Compliance/principles.json` (800 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Compliance/rules.json` (549 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Compliance/warnings.json` (549 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Conflict Resolution/claims.json` (2983 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Conflict Resolution/doctrine.json` (163 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Conflict Resolution/principles.json` (2127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Conflict Resolution/rules.json` (3559 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Conflict Resolution/warnings.json` (3596 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Creative Process/claims.json` (2288 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Creative Process/doctrine.json` (160 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Creative Process/principles.json` (2673 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Creative Process/rules.json` (1734 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Creative Process/warnings.json` (1893 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Creativity & Writing/claims.json` (1203 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Creativity & Writing/doctrine.json` (164 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Creativity & Writing/principles.json` (1509 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Creativity & Writing/rules.json` (1242 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Creativity & Writing/warnings.json` (1235 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Cultural Studies/claims.json` (177 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Cultural Studies/doctrine.json` (160 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Cultural Studies/principles.json` (181 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Cultural Studies/rules.json` (176 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Cultural Studies/warnings.json` (179 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Decision Making/claims.json` (3440 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Decision Making/doctrine.json` (159 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Decision Making/principles.json` (3991 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Decision Making/rules.json` (3545 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Decision Making/warnings.json` (3030 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Decision-Making/claims.json` (811 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Decision-Making/doctrine.json` (159 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Decision-Making/principles.json` (772 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Decision-Making/rules.json` (800 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Decision-Making/warnings.json` (784 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Deep Work/claims.json` (795 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Deep Work/doctrine.json` (153 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Deep Work/principles.json` (1036 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Deep Work/rules.json` (1059 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Deep Work/warnings.json` (790 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Digital Preservation/claims.json` (838 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Digital Preservation/doctrine.json` (164 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Digital Preservation/principles.json` (835 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Digital Preservation/rules.json` (1271 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Digital Preservation/warnings.json` (1339 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Digitization Projects/claims.json` (839 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Digitization Projects/doctrine.json` (165 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Digitization Projects/principles.json` (836 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Digitization Projects/rules.json` (1272 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Digitization Projects/warnings.json` (1340 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Economics/claims.json` (884 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Economics/doctrine.json` (153 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Economics/principles.json` (883 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Economics/rules.json` (871 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Economics/warnings.json` (887 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Education/claims.json` (170 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Education/doctrine.json` (153 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Education/principles.json` (174 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Education/rules.json` (169 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Education/warnings.json` (172 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Emotional Intelligence/claims.json` (1467 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Emotional Intelligence/doctrine.json` (166 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Emotional Intelligence/principles.json` (1705 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Emotional Intelligence/rules.json` (1728 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Emotional Intelligence/warnings.json` (1758 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Entrepreneurship/claims.json` (896 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Entrepreneurship/doctrine.json` (160 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Entrepreneurship/principles.json` (851 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Entrepreneurship/rules.json` (861 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Entrepreneurship/warnings.json` (836 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Environmental Sustainability/claims.json` (652 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Environmental Sustainability/doctrine.json` (172 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Environmental Sustainability/principles.json` (939 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Environmental Sustainability/rules.json` (917 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Environmental Sustainability/warnings.json` (955 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Ethical Decision Making/claims.json` (860 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Ethical Decision Making/doctrine.json` (167 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Ethical Decision Making/principles.json` (782 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Ethical Decision Making/rules.json` (563 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Ethical Decision Making/warnings.json` (858 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Existential Reflection/claims.json` (1128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Existential Reflection/doctrine.json` (166 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Existential Reflection/principles.json` (1128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Existential Reflection/rules.json` (1105 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Existential Reflection/warnings.json` (1161 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Existential Reflections/claims.json` (2295 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Existential Reflections/doctrine.json` (167 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Existential Reflections/principles.json` (2680 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Existential Reflections/rules.json` (1741 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Existential Reflections/warnings.json` (1900 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Existential/claims.json` (863 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Existential/doctrine.json` (155 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Existential/principles.json` (876 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Existential/rules.json` (891 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Existential/warnings.json` (888 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Financial Management/claims.json` (881 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Financial Management/doctrine.json` (164 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Financial Management/principles.json` (858 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Financial Management/rules.json` (872 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Financial Management/warnings.json` (909 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Financial Planning/claims.json` (179 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Financial Planning/doctrine.json` (162 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Financial Planning/principles.json` (183 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Financial Planning/rules.json` (178 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Financial Planning/warnings.json` (181 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Generosity/claims.json` (800 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Generosity/doctrine.json` (154 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Generosity/principles.json` (792 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Generosity/rules.json` (787 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Generosity/warnings.json` (803 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Giving/claims.json` (796 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Giving/doctrine.json` (150 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Giving/principles.json` (788 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Giving/rules.json` (783 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Giving/warnings.json` (799 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Influence/claims.json` (552 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Influence/doctrine.json` (153 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Influence/principles.json` (799 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Influence/rules.json` (548 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Influence/warnings.json` (548 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Information Technology/claims.json` (772 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Information Technology/doctrine.json` (166 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Information Technology/principles.json` (539 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Information Technology/rules.json` (985 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Information Technology/warnings.json` (772 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Infrastructure Development/claims.json` (650 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Infrastructure Development/doctrine.json` (170 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Infrastructure Development/principles.json` (937 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Infrastructure Development/rules.json` (915 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Infrastructure Development/warnings.json` (953 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Innovation/claims.json` (715 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Innovation/doctrine.json` (154 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Innovation/principles.json` (701 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Innovation/rules.json` (705 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Innovation/warnings.json` (715 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Interpersonal Relationships/claims.json` (906 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Interpersonal Relationships/doctrine.json` (171 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Interpersonal Relationships/principles.json` (895 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Interpersonal Relationships/rules.json` (859 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Interpersonal Relationships/warnings.json` (928 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Investment Strategy/claims.json` (833 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Investment Strategy/doctrine.json` (163 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Investment Strategy/principles.json` (1103 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Investment Strategy/rules.json` (1060 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Investment Strategy/warnings.json` (831 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Investment/claims.json` (1228 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Investment/doctrine.json` (154 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Investment/principles.json` (1134 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Investment/rules.json` (1097 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Investment/warnings.json` (1212 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Knowledge Dissemination/claims.json` (841 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Knowledge Dissemination/doctrine.json` (167 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Knowledge Dissemination/principles.json` (838 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Knowledge Dissemination/rules.json` (1274 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Knowledge Dissemination/warnings.json` (1342 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Leadership & Strategy/claims.json` (834 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Leadership & Strategy/doctrine.json` (165 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Leadership & Strategy/principles.json` (838 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Leadership & Strategy/rules.json` (819 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Leadership & Strategy/warnings.json` (849 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Leadership/Behavior/claims.json` (881 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Leadership/Behavior/doctrine.json` (152 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Leadership/Behavior/principles.json` (827 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Leadership/Behavior/rules.json` (849 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Leadership/Behavior/warnings.json` (851 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Leadership/claims.json` (4150 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Leadership/doctrine.json` (154 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Leadership/principles.json` (4997 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Leadership/rules.json` (4594 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Leadership/warnings.json` (4153 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Learning & Development/claims.json` (1545 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Learning & Development/doctrine.json` (166 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Learning & Development/principles.json` (1107 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Learning & Development/rules.json` (1129 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Learning & Development/warnings.json` (1154 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Learning & Wisdom/claims.json` (830 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Learning & Wisdom/doctrine.json` (161 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Learning & Wisdom/principles.json` (834 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Learning & Wisdom/rules.json` (815 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Learning & Wisdom/warnings.json` (845 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Learning/claims.json` (1430 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Learning/doctrine.json` (152 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Learning/principles.json` (1734 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Learning/rules.json` (1465 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Learning/warnings.json` (1717 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Literature/claims.json` (171 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Literature/doctrine.json` (154 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Literature/principles.json` (175 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Literature/rules.json` (170 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Literature/warnings.json` (173 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Long-term Planning/claims.json` (924 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Long-term Planning/doctrine.json` (162 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Long-term Planning/principles.json` (890 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Long-term Planning/rules.json` (905 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Long-term Planning/warnings.json` (935 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Mental Well-being/claims.json` (2289 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Mental Well-being/doctrine.json` (161 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Mental Well-being/principles.json` (2674 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Mental Well-being/rules.json` (1735 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Mental Well-being/warnings.json` (1894 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Military Strategy/claims.json` (178 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Military Strategy/doctrine.json` (161 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Military Strategy/principles.json` (182 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Military Strategy/rules.json` (177 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Military Strategy/warnings.json` (180 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Mindset/claims.json` (1778 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Mindset/doctrine.json` (151 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Mindset/principles.json` (2224 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Mindset/rules.json` (1712 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Mindset/warnings.json` (1696 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Moral/claims.json` (719 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Moral/doctrine.json` (149 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Moral/principles.json` (726 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Moral/rules.json` (720 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Moral/warnings.json` (754 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Narrative/claims.json` (1136 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Narrative/doctrine.json` (153 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Narrative/principles.json` (1775 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Narrative/rules.json` (1728 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Narrative/warnings.json` (1160 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Operational Practice/claims.json` (958 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Operational Practice/doctrine.json` (164 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Operational Practice/principles.json` (935 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Operational Practice/rules.json` (615 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Operational Practice/warnings.json` (942 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Operations/claims.json` (571 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Operations/doctrine.json` (154 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Operations/principles.json` (567 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Operations/rules.json` (551 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Operations/warnings.json` (573 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Performance/claims.json` (817 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Performance/doctrine.json` (155 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Performance/principles.json` (819 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Performance/rules.json` (811 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Performance/warnings.json` (809 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Personal Development/claims.json` (11506 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Personal Development/doctrine.json` (164 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Personal Development/principles.json` (12992 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Personal Development/rules.json` (11771 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Personal Development/warnings.json` (11416 bytes) :: parse_error; json_valid=False
+  - error: [json_index] Extra data: line 395 column 8 (char 10919)
+- `ingestion/data/ministers/Personal Growth/claims.json` (1223 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Personal Growth/doctrine.json` (159 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Personal Growth/principles.json` (1451 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Personal Growth/rules.json` (1482 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Personal Growth/warnings.json` (1453 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Personal Integrity/claims.json` (528 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Personal Integrity/doctrine.json` (162 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Personal Integrity/principles.json` (733 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Personal Integrity/rules.json` (560 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Personal Integrity/warnings.json` (770 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Personal Management/claims.json` (898 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Personal Management/doctrine.json` (163 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Personal Management/principles.json` (887 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Personal Management/rules.json` (851 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Personal Management/warnings.json` (920 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Persuasion/claims.json` (553 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Persuasion/doctrine.json` (154 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Persuasion/principles.json` (800 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Persuasion/rules.json` (549 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Persuasion/warnings.json` (549 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Philosophical Inquiry/claims.json` (858 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Philosophical Inquiry/doctrine.json` (165 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Philosophical Inquiry/principles.json` (780 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Philosophical Inquiry/rules.json` (561 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Philosophical Inquiry/warnings.json` (856 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Philosophical/claims.json` (865 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Philosophical/doctrine.json` (157 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Philosophical/principles.json` (878 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Philosophical/rules.json` (893 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Philosophical/warnings.json` (890 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Philosophy/claims.json` (3439 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Philosophy/doctrine.json` (154 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Philosophy/principles.json` (3957 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Philosophy/rules.json` (3716 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Philosophy/warnings.json` (3729 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Physics/claims.json` (982 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Physics/doctrine.json` (151 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Physics/principles.json` (967 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Physics/rules.json` (965 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Physics/warnings.json` (973 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Problem Solving/claims.json` (994 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Problem Solving/doctrine.json` (159 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Problem Solving/principles.json` (1038 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Problem Solving/rules.json` (996 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Problem Solving/warnings.json` (1018 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Productivity/claims.json` (2129 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Productivity/doctrine.json` (156 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Productivity/principles.json` (2381 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Productivity/rules.json` (2350 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Productivity/warnings.json` (2342 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Professional Growth/claims.json` (821 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Professional Growth/doctrine.json` (163 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Professional Growth/principles.json` (1043 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Professional Growth/rules.json` (816 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Professional Growth/warnings.json` (574 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Prudent Resource Allocation/claims.json` (888 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Prudent Resource Allocation/doctrine.json` (171 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Prudent Resource Allocation/principles.json` (865 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Prudent Resource Allocation/rules.json` (879 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Prudent Resource Allocation/warnings.json` (916 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Psychological Development/claims.json` (186 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Psychological Development/doctrine.json` (169 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Psychological Development/principles.json` (1315 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Psychological Development/rules.json` (1309 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Psychological Development/warnings.json` (979 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Psychological Insight/claims.json` (1127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Psychological Insight/doctrine.json` (165 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Psychological Insight/principles.json` (1127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Psychological Insight/rules.json` (1104 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Psychological Insight/warnings.json` (1160 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Psychological/claims.json` (865 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Psychological/doctrine.json` (157 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Psychological/principles.json` (878 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Psychological/rules.json` (893 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Psychological/warnings.json` (890 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Public Communication/claims.json` (181 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Public Communication/doctrine.json` (164 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Public Communication/principles.json` (185 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Public Communication/rules.json` (180 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Public Communication/warnings.json` (183 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Reflection & Growth/claims.json` (1202 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Reflection & Growth/doctrine.json` (163 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Reflection & Growth/principles.json` (1508 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Reflection & Growth/rules.json` (1241 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Reflection & Growth/warnings.json` (1234 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Relationship Dynamics & Communication/claims.json` (2103 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Relationship Dynamics & Communication/doctrine.json` (181 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Relationship Dynamics & Communication/principles.json` (1265 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Relationship Dynamics & Communication/rules.json` (2674 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Relationship Dynamics & Communication/warnings.json` (2709 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Relationship Dynamics/claims.json` (869 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Relationship Dynamics/doctrine.json` (165 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Relationship Dynamics/principles.json` (890 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Relationship Dynamics/rules.json` (889 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Relationship Dynamics/warnings.json` (912 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Relationship Management/claims.json` (184 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Relationship Management/doctrine.json` (167 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Relationship Management/principles.json` (188 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Relationship Management/rules.json` (183 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Relationship Management/warnings.json` (186 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Relationships/claims.json` (1299 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Relationships/doctrine.json` (157 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Relationships/principles.json` (1252 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Relationships/rules.json` (1277 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Relationships/warnings.json` (1259 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Resilience/claims.json` (557 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Resilience/doctrine.json` (154 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Resilience/principles.json` (813 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Resilience/rules.json` (814 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Resilience/warnings.json` (842 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Risk Management/claims.json` (1233 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Risk Management/doctrine.json` (159 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Risk Management/principles.json` (1139 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Risk Management/rules.json` (1102 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Risk Management/warnings.json` (1217 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Safety/claims.json` (1067 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Safety/doctrine.json` (150 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Safety/principles.json` (1122 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Safety/rules.json` (1074 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Safety/warnings.json` (1072 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Scientific Methodology/claims.json` (997 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Scientific Methodology/doctrine.json` (166 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Scientific Methodology/principles.json` (982 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Scientific Methodology/rules.json` (980 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Scientific Methodology/warnings.json` (988 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Self-Awareness/claims.json` (1537 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Self-Awareness/doctrine.json` (158 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Self-Awareness/principles.json` (1099 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Self-Awareness/rules.json` (1121 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Self-Awareness/warnings.json` (1146 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Self-Improvement/claims.json` (177 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Self-Improvement/doctrine.json` (160 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Self-Improvement/principles.json` (181 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Self-Improvement/rules.json` (176 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Self-Improvement/warnings.json` (179 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Self-Management/claims.json` (579 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Self-Management/doctrine.json` (159 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Self-Management/principles.json` (870 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Self-Management/rules.json` (815 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Self-Management/warnings.json` (833 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Social Influence/claims.json` (844 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Social Influence/doctrine.json` (160 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Social Influence/principles.json` (789 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Social Influence/rules.json` (1057 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Social Influence/warnings.json` (841 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Social Interaction/claims.json` (1087 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Social Interaction/doctrine.json` (162 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Social Interaction/principles.json` (1261 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Social Interaction/rules.json` (1092 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Social Interaction/warnings.json` (1336 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Social/claims.json` (720 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Social/doctrine.json` (150 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Social/principles.json` (727 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Social/rules.json` (721 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Social/warnings.json` (755 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Society/Culture/claims.json` (600 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Society/Culture/doctrine.json` (151 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Society/Culture/principles.json` (172 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Society/Culture/rules.json` (604 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Society/Culture/warnings.json` (918 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Strategic Planning/claims.json` (820 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Strategic Planning/doctrine.json` (162 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Strategic Planning/principles.json` (1042 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Strategic Planning/rules.json` (815 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Strategic Planning/warnings.json` (573 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Stress Management/claims.json` (2083 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Stress Management/doctrine.json` (161 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Stress Management/principles.json` (1245 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Stress Management/rules.json` (2654 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Stress Management/warnings.json` (2689 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Teamwork/claims.json` (1069 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Teamwork/doctrine.json` (152 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Teamwork/principles.json` (1124 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Teamwork/rules.json` (1076 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Teamwork/warnings.json` (1074 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Theology/claims.json` (967 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Theology/doctrine.json` (152 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Theology/principles.json` (889 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Theology/rules.json` (932 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Theology/warnings.json` (955 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Time Management & Scheduling/claims.json` (2094 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Time Management & Scheduling/doctrine.json` (172 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Time Management & Scheduling/principles.json` (1256 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Time Management & Scheduling/rules.json` (2665 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Time Management & Scheduling/warnings.json` (2700 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Time Management/claims.json` (821 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Time Management/doctrine.json` (159 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Time Management/principles.json` (823 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Time Management/rules.json` (815 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Time Management/warnings.json` (813 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Travel/Logistics/claims.json` (170 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Travel/Logistics/doctrine.json` (153 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Travel/Logistics/principles.json` (174 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Travel/Logistics/rules.json` (169 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Travel/Logistics/warnings.json` (172 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Urban Planning/claims.json` (638 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Urban Planning/doctrine.json` (158 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Urban Planning/principles.json` (925 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Urban Planning/rules.json` (903 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Urban Planning/warnings.json` (941 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Wealth Accumulation/claims.json` (180 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Wealth Accumulation/doctrine.json` (163 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Wealth Accumulation/principles.json` (184 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Wealth Accumulation/rules.json` (179 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Wealth Accumulation/warnings.json` (182 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Wealth Building/claims.json` (921 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Wealth Building/doctrine.json` (159 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Wealth Building/principles.json` (887 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Wealth Building/rules.json` (902 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Wealth Building/warnings.json` (932 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Wealth/claims.json` (580 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Wealth/doctrine.json` (150 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Wealth/principles.json` (850 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Wealth/rules.json` (861 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Wealth/warnings.json` (588 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Work-Life Balance/claims.json` (729 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Work-Life Balance/doctrine.json` (161 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Work-Life Balance/principles.json` (721 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Work-Life Balance/rules.json` (748 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/Work-Life Balance/warnings.json` (717 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/adaptation/claims.json` (279607 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/adaptation/doctrine.json` (154 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/adaptation/principles.json` (314509 bytes) :: parse_error; json_valid=False
+  - error: [json_index] Extra data: line 10513 column 2 (char 303904)
+- `ingestion/data/ministers/adaptation/rules.json` (329262 bytes) :: parse_error; json_valid=False
+  - error: [json_index] Extra data: line 10946 column 6 (char 318244)
+- `ingestion/data/ministers/adaptation/warnings.json` (307201 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/base/claims.json` (48528 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/base/doctrine.json` (148 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/base/principles.json` (50314 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/base/rules.json` (53570 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/base/warnings.json` (49221 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/belief/claims.json` (609 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/belief/doctrine.json` (150 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/belief/principles.json` (610 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/belief/rules.json` (622 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/belief/warnings.json` (610 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/cash_flow/claims.json` (830 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/cash_flow/doctrine.json` (153 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/cash_flow/principles.json` (865 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/cash_flow/rules.json` (1391 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/cash_flow/warnings.json` (1131 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/choice/claims.json` (813 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/choice/doctrine.json` (150 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/choice/principles.json` (848 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/choice/rules.json` (852 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/choice/warnings.json` (830 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/christian_principles/claims.json` (525 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/christian_principles/doctrine.json` (164 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/christian_principles/principles.json` (544 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/christian_principles/rules.json` (547 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/christian_principles/warnings.json` (545 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/collaboration/claims.json` (37202 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/collaboration/doctrine.json` (157 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/collaboration/principles.json` (38632 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/collaboration/rules.json` (40861 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/collaboration/warnings.json` (37070 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/conflict/claims.json` (181926 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/conflict/doctrine.json` (152 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/conflict/principles.json` (201086 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/conflict/rules.json` (213312 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/conflict/warnings.json` (205168 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/constraint/claims.json` (819 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/constraint/doctrine.json` (154 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/constraint/principles.json` (832 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/constraint/rules.json` (854 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/constraint/warnings.json` (826 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/constraints/claims.json` (242823 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/constraints/doctrine.json` (155 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/constraints/principles.json` (261045 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/constraints/rules.json` (288933 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/constraints/warnings.json` (269082 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/credibility/claims.json` (910 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/credibility/doctrine.json` (155 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/credibility/principles.json` (889 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/credibility/rules.json` (1234 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/credibility/warnings.json` (1214 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/data/claims.json` (82143 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/data/doctrine.json` (148 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/data/principles.json` (86351 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/data/rules.json` (95639 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/data/warnings.json` (87424 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/decision/claims.json` (893 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/decision/doctrine.json` (152 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/decision/principles.json` (885 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/decision/rules.json` (883 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/decision/warnings.json` (900 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/diplomacy/claims.json` (10342 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/diplomacy/doctrine.json` (153 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/diplomacy/principles.json` (11422 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/diplomacy/rules.json` (12932 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/diplomacy/warnings.json` (12438 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/discipline/claims.json` (240872 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/discipline/doctrine.json` (154 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/discipline/principles.json` (269855 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/discipline/rules.json` (292083 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/discipline/warnings.json` (263743 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/dream interpretation/claims.json` (1307 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/dream interpretation/doctrine.json` (164 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/dream interpretation/principles.json` (1283 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/dream interpretation/rules.json` (1195 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/dream interpretation/warnings.json` (1250 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/emergency response/claims.json` (179 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/emergency response/doctrine.json` (162 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/emergency response/principles.json` (728 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/emergency response/rules.json` (1093 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/emergency response/warnings.json` (742 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/execution/claims.json` (6717 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/execution/doctrine.json` (153 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/execution/principles.json` (7144 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/execution/rules.json` (6997 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/execution/warnings.json` (6627 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/executor/claims.json` (42697 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/executor/doctrine.json` (152 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/executor/principles.json` (44696 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/executor/rules.json` (48566 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/executor/warnings.json` (44376 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/finance/Economics/claims.json` (602 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/finance/Economics/doctrine.json` (153 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/finance/Economics/principles.json` (174 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/finance/Economics/rules.json` (606 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/finance/Economics/warnings.json` (920 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/finance/claims.json` (5967 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/finance/doctrine.json` (151 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/finance/principles.json` (7548 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/finance/rules.json` (6678 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/finance/warnings.json` (5652 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/home ownership/claims.json` (1268 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/home ownership/doctrine.json` (158 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/home ownership/principles.json` (1760 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/home ownership/rules.json` (1247 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/home ownership/warnings.json` (1007 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/investing/claims.json` (1296 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/investing/doctrine.json` (153 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/investing/principles.json` (2051 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/investing/rules.json` (1533 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/investing/warnings.json` (1267 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/legitimacy/claims.json` (52317 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/legitimacy/doctrine.json` (154 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/legitimacy/principles.json` (55888 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/legitimacy/rules.json` (61616 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/legitimacy/warnings.json` (55518 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/optionality/claims.json` (161388 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/optionality/doctrine.json` (155 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/optionality/principles.json` (175219 bytes) :: parse_error; json_valid=False
+  - error: [json_index] Extra data: line 5890 column 2 (char 169296)
+- `ingestion/data/ministers/optionality/rules.json` (188904 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/optionality/warnings.json` (177058 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/personal finance/claims.json` (3310 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/personal finance/doctrine.json` (160 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/personal finance/principles.json` (4230 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/personal finance/rules.json` (3669 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/personal finance/warnings.json` (3333 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/power/claims.json` (180055 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/power/doctrine.json` (149 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/power/principles.json` (192642 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/power/rules.json` (206872 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/power/warnings.json` (189815 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/psychology/claims.json` (524309 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/psychology/doctrine.json` (154 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/psychology/principles.json` (576981 bytes) :: parse_error; json_valid=False
+  - error: [json_index] Extra data: line 18933 column 2 (char 557957)
+- `ingestion/data/ministers/psychology/rules.json` (614162 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/psychology/warnings.json` (580435 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/registry/claims.json` (1253 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/registry/doctrine.json` (152 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/registry/principles.json` (1268 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/registry/rules.json` (1518 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/registry/warnings.json` (1517 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/risk/claims.json` (489119 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/risk/doctrine.json` (148 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/risk/principles.json` (532411 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/risk/rules.json` (577987 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/risk/warnings.json` (552508 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/rules/claims.json` (1092 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/rules/doctrine.json` (149 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/rules/principles.json` (1025 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/rules/rules.json` (1413 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/rules/warnings.json` (1059 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/spiritual-growth/claims.json` (869 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/spiritual-growth/doctrine.json` (160 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/spiritual-growth/principles.json` (1146 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/spiritual-growth/rules.json` (835 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/spiritual-growth/warnings.json` (836 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/strategy/claims.json` (374355 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/strategy/doctrine.json` (152 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/strategy/principles.json` (415962 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/strategy/rules.json` (458623 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/strategy/warnings.json` (414137 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/technology/claims.json` (94233 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/technology/doctrine.json` (154 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/technology/principles.json` (98308 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/technology/rules.json` (104593 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/technology/warnings.json` (101839 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/time/Existence/claims.json` (564 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/time/Existence/doctrine.json` (153 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/time/Existence/principles.json` (817 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/time/Existence/rules.json` (591 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/time/Existence/warnings.json` (848 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/time/claims.json` (907 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/time/doctrine.json` (148 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/time/principles.json` (899 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/time/rules.json` (1201 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/time/warnings.json` (939 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/timing/claims.json` (94597 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/timing/doctrine.json` (150 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/timing/principles.json` (100657 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/timing/rules.json` (109878 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/timing/warnings.json` (98811 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/truth/claims.json` (46385 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/truth/doctrine.json` (149 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/truth/principles.json` (53513 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/truth/rules.json` (53869 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/truth/warnings.json` (52239 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/wildfire management/claims.json` (180 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/wildfire management/doctrine.json` (163 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/wildfire management/principles.json` (729 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/wildfire management/rules.json` (1094 bytes) :: json_valid=True; json_type=dict
+- `ingestion/data/ministers/wildfire management/warnings.json` (743 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v1/ingest.py` (59600 bytes) :: py lines=1654; classes=0; funcs=32
+- `ingestion/v1/llm.py` (51731 bytes) :: py lines=1355; classes=1; funcs=24
+- `ingestion/v2/CONCRETE_MODIFICATIONS_EXAMPLE.md` (14561 bytes) :: text lines=333; words=1259
+- `ingestion/v2/INTEGRATION_GUIDE_KIS.md` (12064 bytes) :: text lines=316; words=919
+- `ingestion/v2/MODIFICATIONS_APPLIED.md` (10254 bytes) :: text lines=299; words=1081
+- `ingestion/v2/STEP_2_COMPLETION_SUMMARY.md` (11377 bytes) :: text lines=372; words=1442
+- `ingestion/v2/STEP_2_VERIFICATION_COMPLETE.md` (5855 bytes) :: text lines=198; words=757
+- `ingestion/v2/data/memory/ministers_index.json` (84 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/data/memory_db_stub.json` (194 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/data/vector_db_stub.json` (39004593 bytes) :: json_valid=None; json_type=unknown_large
+- `ingestion/v2/ingest_kis_integration_test.log` (31766 bytes) :: text lines=248; words=942
+- `ingestion/v2/ingest_kis_test.log` (3680 bytes) :: text lines=40; words=226
+- `ingestion/v2/rag_cache/llm/009a419ee1051ceb309c38d3a9aa3ce42663172ad91b8c7fb1977561bd65d8e8.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/00cae99d3479eeef7f706cb0f4a5e145bfc03d5da22fc8a52d25243db466ff96.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/00d3c05ea1a5b332cf094883772ea6e3a43cfdcb3869a75942f61cd6ab3c8c0c.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/02383b499a680aa0d79664a9e7b343715a7becdcb26f8a33342692f9a3581f2e.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/02ce5e52aec09ff505bbbfd82c23bf364fbde89d561ec279af08810d564c23b8.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/0462f28a26ef5b694d510c65eb35114c4f004bdcfc0d6ceea8ef29ba88b17530.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/059353462911e28ddf83dd1b868c6fea49f57edfe7518f30b7d681f7fe896e58.json` (122 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/05d2fca7fbc00627c11cc214877b52838c998ffd0759d1cfe4b4e0c99e19a783.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/08939e6372e47da3647dd816544e595b9faecb46903cb24405875e62a5cce1b6.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/096fff63a2b99b0d57024ffb2b4a97e03d14b9a29dda5542bb37b55326dd92eb.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/0992445227192b2cddbb8470b446f652615a9e1208bcc113525b015186817840.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/0d3adeae193d97fb9004aa93443921ca552de1d045bd57602ddb1f59618e2f7c.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/0dd835d97a146272d48d6a753c15e5d80ae24a930d9a0ec9c7ee2846111651bc.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/0e01f34ec7041bb0d556b66f2851b008b276620930620204d9841ceefe79bde6.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/0ebb707394fdec34dd3df6d9e1c157c34f83d4b3e09d80cc9d99ad1c567fea32.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/0ff579c89f7a6dd6d3c9b74bcd90b1c594f62b24301da7c9d3a8b7b984174ecd.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/10140bcb5050f42a1ffe770648f565e106c988596c42132f3a0b881c0b054d0a.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/11c4bd79584e0cab7ad986ccb3d7747993fc585ac5fec3a84785aea2b8eb6ecd.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/11cff8b87dd41695d7786e197c5b351b00b0d2bebd3597fe79e825d6f1e6f50f.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/11d7897edce14e209a6b8a3553ed05216d1161c031760668e9386eaa0e4d2209.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/134b972df90f455d7c09d6c7754be39c18d687fc14d33d895a601a4399b9d8a6.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/14e6aed9eb41339eb66a14781b2f3760ba131ab0a6f99ab2f91cd65833a67f39.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/158ede8a9e1b8267fe796b33f5ee412e116397cac271174ae5e1fbf0270587c5.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/1e36667af2473b3e5509b72d73206790f1c35e678fc1789e28613a4dd7ab5664.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/2267e3b2781e4d2e3d604d6eb33d1d4db8a15b26f729b685088f61d22d4d2385.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/24441dd5c7f5d7827c121744eac0c476de627cb35d7c50cc872cd697fc958491.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/272fe9c9e9cf5b387b57796de34a65f01848c21e302b9475bdfe03456150d000.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/275aacc99a57c2e6425ea05d3356a37622486649e20bd011ed51a198de7893ef.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/28e2f012f6ca556e540216546568d94138195f60bffcd6859162579706f28b45.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/2c31b3f1e6ba65ffa73197385d205c675c89043dfa2cb97703eac1298276824b.json` (52 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/2e011f18b8e204739fd3b6734279c1b6dccde5a17b6171f10b6addc335b24c28.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/318f600965467ecc6d94ca540b04bb81bc2e19f6aada315e91461176db03f119.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/31d13ad064df4654054fb2bed6de5135cd22e609d20e314207a88f2f0ff3b33e.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/34b5134dec7b93095c3e8c538eefcd82b4b166d20c6b57648cc6820d375537ce.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/376cdc92d73c4ae6c56b225bc4195be6e71ef4f8eb1e0c204ee6b9f613bf663e.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/3946813867ce4ecf968f9a1fe4675e0a92d2c18829b7538574b1cecb969ae839.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/3af07eb44830cde2408d7212d76cfdaf47721fc6ac9573d5d55e44340e84a722.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/3cd4bdc2a81aba3b811e703deeab7a66a709f8b0ac8f7147aaa9b9283ad4b511.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/3d61f0cda1f3bfcc5d7d22e9ecf48f798626e52c0022483b20c8496fcd85de53.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/418223e13bf0b5d2b2e6850a70e5a163dd483515f7d5eab1d9f63e2d2d876194.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/435287ef2445c787e77baece55f759a12e7521bbc665a8a563238daa24381997.json` (52 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/4366cf33d911c685b824853067725e282ad38e1b7561b171d538be04d1e0e5a9.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/45018eb48b9ccad35c54d55dac6d2d997d74c04bbe816e66e183f78983c4a5d3.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/47f0b188f63730ae378e990ffe082e8f9339fabed5d23db3419edce5aafb46c5.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/48647dcc5a2795a4ea89376e4d76abc3c2368ec24718ddfd99c32ce46140ed9e.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/4ac2e02478765b073aa0a947132a85a781608ac1d43a73e49f43807ed31895b0.json` (122 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/4b2170a972699797fd0e186445cb6402bfa057978459ee48b68d05e6498cdb45.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/4b5e17c08a923e4448c772a9df213ef1cc8cb791fe9a29c9ddf97d5b90347e3b.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/4bf28d7d294657167b461189ad2201be8443eedafd6f384b143a677e89abff15.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/5371f129e5d1e2479c5cdfa426ae6d6070ed4a85a5a4b86c4dc6ff50e8afffd5.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/541948a92cadfe1a0aa6aec89b2e3b4114ea67a7f6562b1ef1cf0a53763653f9.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/56a4efd1af81a34d99cd40f4f7334a2f1d8c543392561beca7e3dac6c2581052.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/5784c882770f45b78e9f66439c770c4ec4eda81574860a39c2413a0fb6662040.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/5935524ff18e00eb128f5f4faf51a19a221a8870d66d2dd8f380e32186ab0492.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/5a1ec3ab74a86a032c11395e8e7c9aa2620f802d3da5d2ca011a8171e517d9bc.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/5da28b895c8f2436bb9a3cc0b451bed93128ade3cd28660b6614ce647ab1343e.json` (122 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/603360abb33839f0b7a94edcb6a7cbf7777a4dd2dff80bbdce4107413891ea04.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/61105da769a7ac50863dbcee6fa8a540f1b8405ff3ea61d5738047f3101c1e90.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/61fd62e47c1628183f64471db2294762e1d14932674d53d8e17a83645b0ae023.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/622ae5e1b190cfef3d096e2fffb392169684a08e05e79ec4a8ce892e65f70026.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/63262315e34df3943641196cd66aa77b3d1309c0d894b12be0bbcaa8bbf0571d.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/6539647cff09e398c06143978ab6256da42acb055a291e0f03cf20cd9e6f6e2a.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/677a991fe38f09cd2164310906cb20c4f0058462a5206c2281d2501bff2ce408.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/68f7ccbe09d16d5ea4853bebe869f5061e874bd556a13c9a9eba70b3432d1929.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/692292a6179c5626971ec22aebf6962a66f90765952e916d63a83b6858cc4e16.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/6a4b4135fdedd881cba88b058c361f78ee51015962697c643d0f644b75062a18.json` (122 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/6f5378d972c8e86502d889da5de7316795f04eb03a33ae504f95feee64af6876.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/724c697b93de76bc088e8681fe8c158178e6f352695b0a0f75f123e91dd6912e.json` (122 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/72db65cfb5ecdb8b5939c99826d408477e3565b87f428b058750cc8518443303.json` (52 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/7587954f4912a6bfc1bfe9d46526566eea4155c7c7578f5cc71043a97ce68b48.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/765dca72cecf4298479ae9a06ba4e3c9695f689f53d918804a9227cdd8b6ef39.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/79601a4ab72a8b9008a07e71fab87f4ca934c2ad3bec4a4bcf565afb202798ff.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/7b748e4fad72ae9300e0f1614e5a708bce7f25a754797bb5a57573dfec78d346.json` (122 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/7e7c2d4e2144f3ae78f69249f505b5d2c3add8d656a98a4f43d50cef2d946abf.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/7f9866e8712a671d78d791e0b1b288d0772fee4705c8b12660e01e834f0dc8dc.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/8175282597945940d4b1fd58ef7bef66515544ad25c16da322078331ab3b309d.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/819ce8c005670dadd253012fe53fe6656270467ef59fb1c74d91eb5975e7bbaf.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/83fdf80ffebb24e04c11bbf25a1aa33bc49a7536847b23f5865a27e6481ad91e.json` (52 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/84d4f21f8d8070f1902fb35b22c3777db9cf237fbb3f28e7b32fd60cf536450b.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/855b46806136cb6981f490e2defe1cb9421f8dfb31f41d3f04ebdc3e9609c7a2.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/86a40eb2cb17d90c24774f3f47dadc3bf617e51cf897ceae3ae979906b3f5763.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/8799d32a17f6e6536e32df9965d11419d3e8d31a3fb0a5616f464f87e2be5688.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/891da1aa522643d60ac6d28cb596ac1023296c0b6ee9b5d1bfeb22267f5098dc.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/8e1d552505dcb761db9927f6c14b7d1505c635d2d385784e2f2d5cf615b6ce1c.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/8fe1bcbbd1d39e29632db6787525f1b2df5a5fd504fd0d6771c373edb40af7bb.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/93e36ac27d96a6b810969ae752c5809e51117adaae553f4138fc20c289586a7d.json` (52 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/93f57aad7064168de0449a844aed4180f8205cfb73b478f96b172e128b8aca34.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/966725974c0bbe170ce0ac8e8470de4acd8c0194c52628651c5b14e19fc78bf4.json` (122 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/98184e049c7a99572b016d292dc7b4977e7109ac4d1826445c04d68965bd2725.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/98fb34bcaa8ed08dc4dc1a2862c6c11904c8386685a9481631e4fe9f79d43cd1.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/9ae5d6fdd6c7083e42cf22c6dd667903270f6e1c806dab78f101bc766cf4f49b.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/9bcf376cdad89427a225cca33c9f0150a3196046f4173440598748649f15b0a9.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/9cdb4f41dcc6d93758df67d314898bcd7c89dd3f028342c29e11d5b9a40faa1a.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/a1afa179580f7320b7d6417d6d64dd1cb343ed2924d602b1dc7640ee53998050.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/a252504c51c2cf29dfd704ebdf060d613be91a2aa3d19482653e28012d981ba8.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/a5820870c3b6dc91668f3562abcfd60bc4dc45e0c9c7246764ed641c4c50d69c.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/a6a0b22517c57755e37b4f11eabec28956ba5d8c6d19684959829466fa9c536d.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/a73a4ce8f94d4cdd99f67faee04fc666d52d04274e3bf793cb8f09b608349d16.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/a74ba07bd7c0105d63cc048dbdf20bedc746e173ec8d00cfefe73cef654ce648.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/a7ece65771536d3f25085a585636f74bb9511cf0c857b8d59b3a63d9dd86dde8.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/aabc816e8888d499f4376f8b4f3d7ee57e7330c96277159eb6f7b138694c67f2.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/ab43d4247c9b1d2ddd9fab762c62cd2217779fe426a8884d4fb5b46b24d0450b.json` (52 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/ad40089813a3fbaedcf5736037cfbd9d1bfe1e86b54f49b79b5579e250d015de.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/ad5a17e6abcc955eeac44518e24a0e6b8f3c5e1f851e32b321a6282f9e3c57b6.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/ad5ad0ea7301cbcc98671686c7f413503ad526ddc4715e89507309a684a410b1.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/aef0efc203a0d5449eab4cc323f1148cd78addffa7afe54aa7b2666427c4101f.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/af6d2e270d7a33e340884a7a50b20a9330973433a3ba3fb50d1769390cd8b524.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/b81f53493a997d46d442b4dd5e34b8bec924e5d5359924b50d7a9270ad4be181.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/b87c5411c7287748ac175fba23ad62e6e241e2f940c42d20791704285279c51b.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/b90b724d51ab323089fe11c39a107a039492b68030a68847464c5e098e2a9daa.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/b910954444e18ffe53451c09c71088b2c0b0a372989a3706b548ebd96effa667.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/b9761695b104ecb98934feb063fef1f553f964da5c934d286f59a8d151d26e0d.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/b9ac663962695221cb551efe041bc552e160c5ffcbc470910db13784061b154e.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/c064f506b6118e019078808b0d8e59d0630078832ed65621c18eced8c2da7242.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/c2fe9bab6de1fc9f2de41f35d889a7647a87067061be756466a43080c6fde550.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/c487a5087c8adc1787f3b4099d085d5cc96643d18411f191cc74aad9e9625baf.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/c80c8e38375e74171e4ccf9aa4f18cf2c00a14f67fbada521b98a5c63c4b1812.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/c89bdfea149211bfe9eb113411aaa5beafe554a168f2fe034966fea8f3efb3fc.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/c9e7e93818d611a38db7f19dd00227bf25282ae4f2e449d0bf8e84f19eacdd19.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/ccc910dad9e5c5024baccaf2d2aecf0189b8665f724a245bed5fa2bcce0c76bd.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/d0c8276b3d5a0ac81b0224454af516500dc115eb1b11facd3bc105a50f69740c.json` (52 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/d1370c5d3791a5a79cc9e93cdeb151ff594b70dac394d746d0677aaf5d111de8.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/d285a821bba80e3110d1edd8114c8b93f029990078cf5c6c229671ff5ae83a05.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/d31364e2933e006dfec93ca24932990e8132028b56e4e7e75296d0df85e9bf80.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/d488571350dffbb3829aa49d8750f26ff1243468b488d6d3857cc1a69862980b.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/d4ccf33c2df1789d0ee1bcd9a3f0131d8d0423ffdbec0dbb0127febcdd0970e5.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/d569ee0d0550d934aff205b27e7ba455a44c3c4ab573509ce88094dddd1b256e.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/d645c40e691002619b7521a86508515318fc130160238f39e984a46e1dddf1ca.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/d6ec416a6c3634a64a7a90300f41ba7a64c4a81748601bb5281d987b611088a2.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/d74e81e81f2e8e5c7e6ec4ece05bef6f5585336145f8050f2cd51f727162a1d2.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/d98ca53859cce66316458f5eb49e646124a2857e15cb50d25b0370029caaeed5.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/db692096e46c6ec765cffeaf70a555f72141a7f9ad0c765b632d0aa6d3ea4e09.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/db862b3506f54519065389bceb361df8fa20b5cffa435e9af05c5bce9bb96edb.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/dbd94964de1f8f703f31fcff95ae47ab64fcca3266d5a4f04a871d6af5506140.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/ddcf2d3775fc6db4463d68f698c721108bdc6b6c75fe6299540ad12785a80503.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/de3572c79f3d1200d3aec5c91b2cc5dc6aa47fb88c37c0162bed6cad1c3e9714.json` (122 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/e1c82fe41d0989a531eb257b4ffe18efdce3987966b0954c119508147e3ea953.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/e5295361945e69631f47f9c1bc9d530dea6caf582daefe8b0b5434c571a17c56.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/e5d3bbd31af02a8b5a6eb77719493b0e79bbdb261f1e2e4034517f6acb16cf5c.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/e635f3a45959f780e346b82b79345f682c1cfbfe95764df4512139afca6ca921.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/ea3382383c4cc2fab8322e373f71b226d4c0aa7dda2bc2f3a50e42bb5db6a6e3.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/ea398bdf11106b73499e861b9fc97dc39fbf0dbc18593c32da22aefe7c8c1069.json` (52 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/ec463d4d8b27c98cea682dca1daa3248f4f9a53cd7b3d917ea3fb490b7237ba9.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/edc477e2209ba3b37c68ff5e1310b2293740f28ae66e1047304b7a1c6d089cd0.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/f2153757b5df5ea548f71b0357434968c5436f5eb51cac8783af96fccbc715bf.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/f33f40807a8fb5222505ada1c5483f588046e67fb26433174832ff1ced410bde.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/f3a161ca74827af7952f370c9eddb63c19bed210703e4fea4849440fac7048e3.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/f43745299a703b1e09baba08ee6cab83f7a8c3927fbffc206de355363c490e5e.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/f4e2be2de453ebd743d0bd5f72dbd821a95812d5479b3b86d5094d14269e31c5.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/f654284d7148c71d3b62889d539ca503e584c272d14c1dd615187b8b40f92cec.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/f6b174edca50753e250e6af4e57404b9d5c7751ea2af575690a69d57cbb5ea11.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/f77fe9ba4c2cfad586ea3bdd6e01450595d93c372771ef01c8fe1454c3e02816.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/f7b15923fd459a75dc2f669a2b61e773d7e241a0493089c9820954f657af58a9.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/f819846b8a608ea87a0b48f6c37146593bb2815e79e496ea0c82e74a4a5159b6.json` (51 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/f83a6895bf8be72b4036968e33e98426a82104d9c626f470b8fdc7a041723130.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/fe10a8faa130860e98f7ef07a1389b947a433f0e62ed7430179bbc44a8c47526.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/ff7b8c46149085acf1b9d44a32e5846e67994792458f9b3b6e0d343c33b71ac3.json` (128 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_cache/llm/ff963de4cd65d1b14f03858edc5aea97af0f741284f633ff7574b60dbacf9db5.json` (127 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/20090526_TNA13Crawford2009/00_canonical_text.txt` (52170 bytes) :: text lines=737; words=8264
+- `ingestion/v2/rag_storage/20090526_TNA13Crawford2009/00_raw.txt` (52170 bytes) :: text lines=737; words=8264
+- `ingestion/v2/rag_storage/20090526_TNA13Crawford2009/01_chapters.json` (52416 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/20090526_TNA13Crawford2009/02_doctrine.json` (494 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/20090526_TNA13Crawford2009/02_doctrine_chunks.json` (357 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/20090526_TNA13Crawford2009/02_doctrine_errors.log` (79 bytes) :: text lines=1; words=10
+- `ingestion/v2/rag_storage/20090526_TNA13Crawford2009/03_5_minister_conversion.json` (205 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/20090526_TNA13Crawford2009/03_embeddings.json` (316 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/20090526_TNA13Crawford2009/03_nodes_chunks.json` (2 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/20090526_TNA13Crawford2009/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/00_canonical_text.txt` (1156401 bytes) :: text lines=6595; words=187587
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/00_raw.txt` (1156401 bytes) :: text lines=6595; words=187587
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/00_raw_repaired.txt` (1156401 bytes) :: text lines=6595; words=187587
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/01_chapters.json` (1399114 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/02_doctrine.json` (98970 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/02_doctrine_chunks.json` (96412 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/02_doctrine_errors.log` (161 bytes) :: text lines=2; words=20
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/03_5_minister_conversion.json` (501 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/03_embeddings.json` (347 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/03_nodes_chunks.json` (128773 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1020485132589600869.txt` (7998 bytes) :: text lines=45; words=1311
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1024368333506222691.txt` (7950 bytes) :: text lines=23; words=1311
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1089242414018171855.txt` (7975 bytes) :: text lines=33; words=1360
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1103758123527241051.txt` (7323 bytes) :: text lines=17; words=1202
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1148712130770165040.txt` (7938 bytes) :: text lines=41; words=1258
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1178499349294791374.txt` (7963 bytes) :: text lines=31; words=1305
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1182724724701312655.txt` (6656 bytes) :: text lines=53; words=928
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1188670980796914946.txt` (196573 bytes) :: text lines=1605; words=2902
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1311814536620704379.txt` (7885 bytes) :: text lines=36; words=1288
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1429061121871870483.txt` (8026 bytes) :: text lines=21; words=1363
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1456497029916455456.txt` (7875 bytes) :: text lines=29; words=1295
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1456961525256974257.txt` (6011 bytes) :: text lines=81; words=856
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1469434131825091107.txt` (7986 bytes) :: text lines=29; words=1361
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1508359289706449625.txt` (8429 bytes) :: text lines=37; words=1366
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1560413940120710988.txt` (8114 bytes) :: text lines=126; words=1295
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1569124022971562998.txt` (187798 bytes) :: text lines=1528; words=2774
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_163647790111342224.txt` (9104 bytes) :: text lines=23; words=1445
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1675684506863048240.txt` (7950 bytes) :: text lines=41; words=1338
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1694029185565260753.txt` (6737 bytes) :: text lines=33; words=1141
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1712336904135370492.txt` (7979 bytes) :: text lines=45; words=1316
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1744951934488728042.txt` (7924 bytes) :: text lines=27; words=1287
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_18011372929536797.txt` (7968 bytes) :: text lines=55; words=1303
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_182977797217770242.txt` (7887 bytes) :: text lines=41; words=1275
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1881727269098711814.txt` (8054 bytes) :: text lines=44; words=1332
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1943076085957539141.txt` (8723 bytes) :: text lines=39; words=1471
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_1993220573614503232.txt` (7996 bytes) :: text lines=68; words=1254
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2004741208606156993.txt` (8030 bytes) :: text lines=31; words=1229
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2123228244128487096.txt` (7922 bytes) :: text lines=23; words=1353
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2187996814763042883.txt` (190050 bytes) :: text lines=1546; words=2813
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2198665490824835710.txt` (7989 bytes) :: text lines=41; words=1351
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2226123799637421790.txt` (7964 bytes) :: text lines=27; words=1285
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2243228953837880840.txt` (5243 bytes) :: text lines=85; words=718
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2298479186567698668.txt` (211168 bytes) :: text lines=1731; words=3152
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2380364485711791005.txt` (6490 bytes) :: text lines=40; words=1082
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2386457833134005742.txt` (7948 bytes) :: text lines=25; words=1236
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2462204145820530527.txt` (204117 bytes) :: text lines=1665; words=3102
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2462985905006610508.txt` (8035 bytes) :: text lines=28; words=1348
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2463218979263903822.txt` (7880 bytes) :: text lines=34; words=1292
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2479470558356914514.txt` (6519 bytes) :: text lines=41; words=1088
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2487848299675382330.txt` (8191 bytes) :: text lines=45; words=1415
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2568447408271796760.txt` (5711 bytes) :: text lines=47; words=821
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2582027077750309973.txt` (4876 bytes) :: text lines=88; words=759
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2723946289410395953.txt` (8384 bytes) :: text lines=57; words=1383
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2842770211804486414.txt` (7839 bytes) :: text lines=41; words=1283
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_2935315268152163721.txt` (8001 bytes) :: text lines=44; words=1319
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3024090689785562126.txt` (7936 bytes) :: text lines=24; words=1310
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_310773083490055722.txt` (7911 bytes) :: text lines=33; words=1363
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3112531489830821431.txt` (7903 bytes) :: text lines=39; words=1342
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3282057031561260690.txt` (7943 bytes) :: text lines=54; words=1286
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_331758858547722691.txt` (8907 bytes) :: text lines=29; words=1455
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3351470564966229683.txt` (8977 bytes) :: text lines=39; words=1503
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3439536045450933505.txt` (186510 bytes) :: text lines=1513; words=2787
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3458112225005086099.txt` (8088 bytes) :: text lines=36; words=1399
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3742825105607360110.txt` (8701 bytes) :: text lines=65; words=1442
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3750952042343545376.txt` (8014 bytes) :: text lines=39; words=1361
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3791525903201225744.txt` (7845 bytes) :: text lines=25; words=1257
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3894946836671865644.txt` (3563 bytes) :: text lines=24; words=510
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3948678991844328719.txt` (8679 bytes) :: text lines=52; words=1382
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_3996452290503734589.txt` (8021 bytes) :: text lines=27; words=1291
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4008854097678922150.txt` (8011 bytes) :: text lines=41; words=1289
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_401007117151201302.txt` (7959 bytes) :: text lines=25; words=1307
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4021414803510010291.txt` (4822 bytes) :: text lines=99; words=627
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4032600798384378842.txt` (7876 bytes) :: text lines=21; words=1248
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4045211682464493713.txt` (7872 bytes) :: text lines=35; words=1325
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4051794297633461134.txt` (7906 bytes) :: text lines=25; words=1278
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4153735226428564432.txt` (7949 bytes) :: text lines=30; words=1317
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4178694348433358459.txt` (7922 bytes) :: text lines=31; words=1336
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4213846751395475578.txt` (7985 bytes) :: text lines=37; words=1318
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4244411764283101120.txt` (8066 bytes) :: text lines=39; words=1351
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4323908735161203671.txt` (7936 bytes) :: text lines=30; words=1284
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4326860656655914957.txt` (7878 bytes) :: text lines=57; words=1304
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4362788288068011229.txt` (6687 bytes) :: text lines=61; words=954
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4370252601128720750.txt` (7665 bytes) :: text lines=20; words=1018
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4374684165943615323.txt` (9263 bytes) :: text lines=41; words=1449
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4435499333573741452.txt` (7986 bytes) :: text lines=49; words=1365
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4477477428758677057.txt` (7970 bytes) :: text lines=25; words=1321
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4580038268565203438.txt` (6555 bytes) :: text lines=65; words=981
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4633381095806329473.txt` (7696 bytes) :: text lines=26; words=1259
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4721120910877536498.txt` (7923 bytes) :: text lines=19; words=1259
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4737058953704194782.txt` (8245 bytes) :: text lines=61; words=1371
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4792069768382715841.txt` (194664 bytes) :: text lines=1585; words=2934
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4856968042652682073.txt` (8204 bytes) :: text lines=36; words=1401
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_497343946709968676.txt` (7787 bytes) :: text lines=37; words=1335
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_4982439371433905299.txt` (8005 bytes) :: text lines=40; words=1400
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5082918612597804504.txt` (200696 bytes) :: text lines=1641; words=2868
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5116653561884656502.txt` (7950 bytes) :: text lines=37; words=1330
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5144605883873346777.txt` (7628 bytes) :: text lines=38; words=1181
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5258551694217130256.txt` (7968 bytes) :: text lines=37; words=1332
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5278219367935410845.txt` (7841 bytes) :: text lines=26; words=1256
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5335447325011387964.txt` (8083 bytes) :: text lines=34; words=1366
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_534423346333532909.txt` (5866 bytes) :: text lines=72; words=808
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_540502393904022726.txt` (10170 bytes) :: text lines=48; words=1630
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5409153171790066876.txt` (10329 bytes) :: text lines=45; words=1716
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5476378095461999048.txt` (7931 bytes) :: text lines=37; words=1243
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5478314025870907036.txt` (7955 bytes) :: text lines=35; words=1293
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5692207703527710661.txt` (8084 bytes) :: text lines=41; words=1364
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5711820408422574579.txt` (7855 bytes) :: text lines=3; words=1046
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5739636132489466913.txt` (7963 bytes) :: text lines=39; words=1343
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5805410304382862034.txt` (7929 bytes) :: text lines=43; words=1317
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5929297397677201167.txt` (9860 bytes) :: text lines=89; words=1598
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5939080041271497926.txt` (199417 bytes) :: text lines=1629; words=2991
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_5961750151802169132.txt` (7880 bytes) :: text lines=54; words=1299
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6013041519841527733.txt` (7794 bytes) :: text lines=27; words=1269
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_601458231160097651.txt` (189423 bytes) :: text lines=1541; words=2847
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6051110949105663880.txt` (7968 bytes) :: text lines=25; words=1305
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6059663872385668000.txt` (205238 bytes) :: text lines=1683; words=3050
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6073334770715307769.txt` (8686 bytes) :: text lines=23; words=1436
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6190276261725930212.txt` (7964 bytes) :: text lines=37; words=1346
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6245332565347363116.txt` (8089 bytes) :: text lines=31; words=1311
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6254621389354917988.txt` (7637 bytes) :: text lines=35; words=1168
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6324599204593065204.txt` (8534 bytes) :: text lines=32; words=1412
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6475158520449576919.txt` (8343 bytes) :: text lines=20; words=1414
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6478585253149969901.txt` (7878 bytes) :: text lines=51; words=1271
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6503203699883058539.txt` (8043 bytes) :: text lines=33; words=1383
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6574091024289290454.txt` (7903 bytes) :: text lines=21; words=1258
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6604320936531872697.txt` (8178 bytes) :: text lines=54; words=1350
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_66430167297293014.txt` (8226 bytes) :: text lines=41; words=1328
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6709186152754457270.txt` (21244 bytes) :: text lines=73; words=138
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6822867778329890573.txt` (5724 bytes) :: text lines=79; words=843
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_683349279826036745.txt` (6766 bytes) :: text lines=63; words=1006
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6866290586523391204.txt` (5727 bytes) :: text lines=58; words=827
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6874885600919659747.txt` (5760 bytes) :: text lines=67; words=896
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_6965847619750761116.txt` (7943 bytes) :: text lines=33; words=1343
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7000323262289503149.txt` (8000 bytes) :: text lines=44; words=1340
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7068363364457929130.txt` (7943 bytes) :: text lines=50; words=1303
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7087491510229613509.txt` (8022 bytes) :: text lines=70; words=1265
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7098988159653251277.txt` (7957 bytes) :: text lines=33; words=1327
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7165718911315556000.txt` (7800 bytes) :: text lines=15; words=1252
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7170666546462103378.txt` (8057 bytes) :: text lines=63; words=1340
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7184482595873092212.txt` (8509 bytes) :: text lines=45; words=1364
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7253753056043441994.txt` (7909 bytes) :: text lines=49; words=1235
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7364273887114814289.txt` (7469 bytes) :: text lines=27; words=1235
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_736491458147840443.txt` (8067 bytes) :: text lines=47; words=1285
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7396838171356052307.txt` (8075 bytes) :: text lines=43; words=1336
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7460280699793591245.txt` (8655 bytes) :: text lines=33; words=1409
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7514377144195671701.txt` (8003 bytes) :: text lines=39; words=1339
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7572971798924214278.txt` (6513 bytes) :: text lines=69; words=886
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7603022999328314610.txt` (8020 bytes) :: text lines=41; words=1336
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7619549999948199846.txt` (7972 bytes) :: text lines=43; words=1347
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7695697714547756242.txt` (8101 bytes) :: text lines=63; words=1357
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7736219523651636994.txt` (7903 bytes) :: text lines=42; words=1287
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7741934276792950843.txt` (196290 bytes) :: text lines=1602; words=2914
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7771316773651441177.txt` (9329 bytes) :: text lines=49; words=1472
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7854385074551572952.txt` (8049 bytes) :: text lines=35; words=1320
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_7878003860727240461.txt` (7613 bytes) :: text lines=223; words=1004
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_798181436378891844.txt` (7987 bytes) :: text lines=43; words=1293
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8004256738131052044.txt` (8894 bytes) :: text lines=33; words=1466
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8076473740232781972.txt` (7957 bytes) :: text lines=31; words=1287
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8100493889555960111.txt` (8058 bytes) :: text lines=15; words=1334
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8114743545233052043.txt` (9579 bytes) :: text lines=43; words=1490
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8236393736833437172.txt` (8071 bytes) :: text lines=32; words=1365
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8422720079736838777.txt` (194275 bytes) :: text lines=1585; words=2928
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8502556970328986410.txt` (7969 bytes) :: text lines=27; words=1236
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8575497461069921065.txt` (7996 bytes) :: text lines=33; words=1359
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_859330035028263340.txt` (7256 bytes) :: text lines=65; words=1109
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8635686265128369555.txt` (8205 bytes) :: text lines=49; words=1409
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_864570124639222264.txt` (8172 bytes) :: text lines=45; words=1413
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8691855530840774804.txt` (6328 bytes) :: text lines=29; words=1092
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_8820028351212936410.txt` (8187 bytes) :: text lines=37; words=1372
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_9116254325606618589.txt` (7946 bytes) :: text lines=42; words=1299
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_9156506472958299843.txt` (4647 bytes) :: text lines=70; words=793
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/glyph_repair_938558225806639030.txt` (7864 bytes) :: text lines=25; words=1322
+- `ingestion/v2/rag_storage/2950_Daniel Kahneman - Thinking, Fast and Slow (2013)/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/33449/00_canonical_text.txt` (17343 bytes) :: text lines=224; words=2712
+- `ingestion/v2/rag_storage/33449/00_raw.txt` (17343 bytes) :: text lines=224; words=2712
+- `ingestion/v2/rag_storage/33449/01_chapters.json` (18042 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/33449/02_doctrine.json` (4354 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/33449/02_doctrine_chunks.json` (4238 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/33449/03_5_minister_conversion.json` (295 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/33449/03_embeddings.json` (332 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/33449/03_nodes_chunks.json` (4711 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/33449/progress.json` (320 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/00_canonical_text.txt` (422274 bytes) :: text lines=4773; words=70562
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/00_raw.txt` (422274 bytes) :: text lines=4773; words=70562
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/00_raw_repaired.txt` (422274 bytes) :: text lines=4773; words=70562
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/01_chapters.json` (625082 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/02_doctrine.json` (142701 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/02_doctrine_chunks.json` (138533 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/02_doctrine_errors.log` (385 bytes) :: text lines=5; words=47
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/03_5_minister_conversion.json` (678 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/03_embeddings.json` (348 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/03_nodes_chunks.json` (175407 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_1102872590667321271.txt` (6111 bytes) :: text lines=61; words=1033
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_1177012484215886414.txt` (6057 bytes) :: text lines=37; words=905
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_1431978756600662929.txt` (3673 bytes) :: text lines=8; words=615
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_1572792222354819362.txt` (8293 bytes) :: text lines=90; words=1391
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_1826821899613586216.txt` (7260 bytes) :: text lines=77; words=1205
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_1828741339837696804.txt` (6714 bytes) :: text lines=76; words=1143
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_2171655373008387958.txt` (7043 bytes) :: text lines=97; words=1196
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_2278523487297607448.txt` (1629 bytes) :: text lines=22; words=272
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_2292455236324743213.txt` (7441 bytes) :: text lines=89; words=1214
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_2584168575577664706.txt` (7753 bytes) :: text lines=84; words=1269
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_2664239180032780708.txt` (6310 bytes) :: text lines=28; words=1111
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_2798428788992460182.txt` (8581 bytes) :: text lines=83; words=1451
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_2910884129929137303.txt` (8378 bytes) :: text lines=109; words=1378
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3061917804230268627.txt` (8034 bytes) :: text lines=99; words=1377
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3120715836427739606.txt` (48 bytes) :: text lines=1; words=9
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3297902560936431054.txt` (6581 bytes) :: text lines=95; words=1082
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3386421720377040129.txt` (7194 bytes) :: text lines=70; words=1228
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3498265604175578304.txt` (6916 bytes) :: text lines=85; words=1160
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3560596981030871735.txt` (7094 bytes) :: text lines=98; words=1158
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3683297618601467651.txt` (7948 bytes) :: text lines=63; words=1329
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3784193580226252386.txt` (6775 bytes) :: text lines=87; words=1057
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_3936601217949393649.txt` (7933 bytes) :: text lines=99; words=1348
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4171144320196644950.txt` (6170 bytes) :: text lines=65; words=1069
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4206575243767723076.txt` (5569 bytes) :: text lines=67; words=925
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_42789123413460591.txt` (7936 bytes) :: text lines=89; words=1325
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4361084783941880665.txt` (7232 bytes) :: text lines=63; words=1226
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4364207040278255606.txt` (6253 bytes) :: text lines=25; words=909
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4497200556251703548.txt` (5317 bytes) :: text lines=16; words=803
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4629754563530791158.txt` (6948 bytes) :: text lines=67; words=1185
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4660902811441489154.txt` (5347 bytes) :: text lines=48; words=946
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_470066122216978683.txt` (8152 bytes) :: text lines=153; words=1400
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_4785888563538610204.txt` (7684 bytes) :: text lines=134; words=1295
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_5095809825764496668.txt` (5922 bytes) :: text lines=98; words=998
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_5212787722785018503.txt` (6262 bytes) :: text lines=68; words=1076
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_5259745120844227314.txt` (6776 bytes) :: text lines=76; words=1104
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_5267526361360886106.txt` (7022 bytes) :: text lines=98; words=1151
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_5345192743340290838.txt` (7596 bytes) :: text lines=75; words=1273
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_5439241954508059405.txt` (7034 bytes) :: text lines=75; words=1215
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_5475266206554921931.txt` (8036 bytes) :: text lines=75; words=1401
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_594820812033225684.txt` (960 bytes) :: text lines=5; words=147
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_6110938686144462672.txt` (6824 bytes) :: text lines=107; words=1165
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_6171393630246987631.txt` (7081 bytes) :: text lines=55; words=1258
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_6387858815772665450.txt` (8546 bytes) :: text lines=111; words=1444
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_645302408558531162.txt` (6465 bytes) :: text lines=86; words=1106
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_6466425738994112749.txt` (7758 bytes) :: text lines=94; words=1334
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_6506295371215143357.txt` (7517 bytes) :: text lines=83; words=1263
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_6526652820684089967.txt` (8142 bytes) :: text lines=36; words=1326
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_6986526500386809481.txt` (7448 bytes) :: text lines=89; words=1267
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_7115405673840331750.txt` (6982 bytes) :: text lines=105; words=1164
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_7443402750130754422.txt` (8136 bytes) :: text lines=79; words=1360
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_7796199293006676287.txt` (7915 bytes) :: text lines=74; words=1340
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8231663509780305593.txt` (4161 bytes) :: text lines=27; words=631
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8292943009375732961.txt` (7283 bytes) :: text lines=87; words=1224
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8388080304337163796.txt` (7157 bytes) :: text lines=90; words=1191
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8740000814641664911.txt` (7732 bytes) :: text lines=93; words=1336
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8759783035542664993.txt` (8107 bytes) :: text lines=92; words=1346
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8774085321527306431.txt` (5527 bytes) :: text lines=64; words=952
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_884471977942945953.txt` (5199 bytes) :: text lines=47; words=807
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8890532642355965934.txt` (8293 bytes) :: text lines=105; words=1422
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_889260989575052620.txt` (6511 bytes) :: text lines=79; words=1092
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_8899008545135691090.txt` (4082 bytes) :: text lines=19; words=588
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_9047955267738546746.txt` (7377 bytes) :: text lines=91; words=1237
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/glyph_repair_9171516167933754215.txt` (7739 bytes) :: text lines=81; words=1330
+- `ingestion/v2/rag_storage/64b13492db952-the-daily-stoic/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/9780262353946_caa/00_canonical_text.txt` (142272 bytes) :: text lines=1943; words=19969
+- `ingestion/v2/rag_storage/9780262353946_caa/00_raw.txt` (142272 bytes) :: text lines=1943; words=19969
+- `ingestion/v2/rag_storage/9780262353946_caa/01_chapters.json` (143526 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/9780262353946_caa/02_doctrine.json` (7398 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/9780262353946_caa/02_doctrine_chunks.json` (7247 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/9780262353946_caa/03_5_minister_conversion.json` (315 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/9780262353946_caa/03_embeddings.json` (331 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/9780262353946_caa/03_nodes_chunks.json` (8629 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/9780262353946_caa/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Being in Love/00_canonical_text.txt` (171813 bytes) :: text lines=495; words=31223
+- `ingestion/v2/rag_storage/Being in Love/00_raw.txt` (171813 bytes) :: text lines=495; words=31223
+- `ingestion/v2/rag_storage/Being in Love/00_raw_repaired.txt` (171813 bytes) :: text lines=495; words=31223
+- `ingestion/v2/rag_storage/Being in Love/01_chapters.json` (514700 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Being in Love/02_doctrine.json` (37752 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Being in Love/02_doctrine_chunks.json` (36749 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Being in Love/02_doctrine_errors.log` (82 bytes) :: text lines=1; words=10
+- `ingestion/v2/rag_storage/Being in Love/03_5_minister_conversion.json` (386 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Being in Love/03_embeddings.json` (332 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Being in Love/03_nodes_chunks.json` (41895 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_1104211346074181743.txt` (4161 bytes) :: text lines=3; words=802
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_1196209952147843531.txt` (3994 bytes) :: text lines=1; words=716
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_1306815051711865296.txt` (2355 bytes) :: text lines=7; words=418
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_1330019122408116959.txt` (8026 bytes) :: text lines=75; words=1432
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_163023843332328650.txt` (4327 bytes) :: text lines=11; words=783
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_1830181546352055164.txt` (3763 bytes) :: text lines=21; words=671
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_1915354492570916506.txt` (3333 bytes) :: text lines=7; words=602
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_220555461369585093.txt` (2407 bytes) :: text lines=7; words=430
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_2318608876967734435.txt` (4622 bytes) :: text lines=13; words=816
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_2382232507371083528.txt` (7916 bytes) :: text lines=30; words=1368
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_2572841770726630675.txt` (3633 bytes) :: text lines=9; words=691
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_2746452379133707940.txt` (3782 bytes) :: text lines=11; words=671
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_2846640318988793433.txt` (2954 bytes) :: text lines=11; words=547
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_319527356362291058.txt` (4499 bytes) :: text lines=1; words=846
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_3593159934937251814.txt` (2821 bytes) :: text lines=1; words=510
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_3918523172522434733.txt` (3659 bytes) :: text lines=1; words=672
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_4191374810775482911.txt` (3122 bytes) :: text lines=6; words=565
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_4196068511463722668.txt` (8010 bytes) :: text lines=35; words=1423
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_4415952520547345393.txt` (2019 bytes) :: text lines=1; words=373
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_4774037417572781384.txt` (2715 bytes) :: text lines=10; words=480
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5006806228954442905.txt` (3262 bytes) :: text lines=1; words=590
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5090893798824046163.txt` (5238 bytes) :: text lines=14; words=940
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5098435371165305234.txt` (5433 bytes) :: text lines=25; words=995
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5121201495622969549.txt` (4011 bytes) :: text lines=7; words=700
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5330895258024956524.txt` (3263 bytes) :: text lines=1; words=608
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5353286061193199993.txt` (2357 bytes) :: text lines=1; words=441
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5435163181654698641.txt` (2068 bytes) :: text lines=1; words=387
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5471875412325024828.txt` (4361 bytes) :: text lines=2; words=790
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5487267770210622379.txt` (2704 bytes) :: text lines=1; words=516
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5503789099021474674.txt` (3253 bytes) :: text lines=54; words=562
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5779576732471711757.txt` (4061 bytes) :: text lines=21; words=727
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5805089365411602274.txt` (1402 bytes) :: text lines=1; words=255
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5805559726361589098.txt` (1611 bytes) :: text lines=1; words=305
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5858055300449221673.txt` (921 bytes) :: text lines=1; words=169
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5929685890516015963.txt` (2328 bytes) :: text lines=13; words=434
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_5969151531583789564.txt` (3728 bytes) :: text lines=1; words=674
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_635912872996366707.txt` (946 bytes) :: text lines=3; words=162
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_6535201161799533000.txt` (7954 bytes) :: text lines=27; words=1415
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_6629350214797951254.txt` (8005 bytes) :: text lines=41; words=1425
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_6682517573402213612.txt` (3330 bytes) :: text lines=1; words=605
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_6722195916488981997.txt` (8070 bytes) :: text lines=35; words=1449
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7032091553256004304.txt` (1951 bytes) :: text lines=1; words=365
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7207428340478334437.txt` (1922 bytes) :: text lines=1; words=359
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7217320763540767237.txt` (4444 bytes) :: text lines=1; words=847
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_723562274064209188.txt` (1590 bytes) :: text lines=1; words=293
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7274560517429910513.txt` (7952 bytes) :: text lines=22; words=1451
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7484584373142327448.txt` (4547 bytes) :: text lines=17; words=853
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7776429109363631813.txt` (3409 bytes) :: text lines=5; words=624
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7799730170624405892.txt` (481 bytes) :: text lines=1; words=77
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7844721291221987837.txt` (2065 bytes) :: text lines=32; words=365
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7850881414241538009.txt` (7217 bytes) :: text lines=41; words=1314
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7864624179362495854.txt` (2156 bytes) :: text lines=5; words=408
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7890471935779276578.txt` (6253 bytes) :: text lines=3; words=1146
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_7918111032967024103.txt` (7730 bytes) :: text lines=44; words=1411
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_8006917083468440046.txt` (2331 bytes) :: text lines=1; words=342
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_8064963068924681274.txt` (2475 bytes) :: text lines=1; words=445
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_8078671212111160117.txt` (7312 bytes) :: text lines=1; words=1344
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_809110409017421466.txt` (2854 bytes) :: text lines=9; words=510
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_8296748821901246893.txt` (2188 bytes) :: text lines=11; words=376
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_8317912356872443888.txt` (8264 bytes) :: text lines=31; words=1518
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_8374273208463342235.txt` (4521 bytes) :: text lines=17; words=824
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_8503240191092366767.txt` (1462 bytes) :: text lines=1; words=255
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_8510763400189255496.txt` (7062 bytes) :: text lines=44; words=1290
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_8566411503135764345.txt` (6800 bytes) :: text lines=34; words=1221
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_8685544086736948555.txt` (4974 bytes) :: text lines=10; words=906
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_8765742732450881678.txt` (5166 bytes) :: text lines=1; words=1003
+- `ingestion/v2/rag_storage/Being in Love/glyph_repair_926896679408578383.txt` (4316 bytes) :: text lines=1; words=772
+- `ingestion/v2/rag_storage/Being in Love/progress.json` (320 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Beyond good and evil/00_canonical_text.txt` (342072 bytes) :: text lines=904; words=672
+- `ingestion/v2/rag_storage/Beyond good and evil/00_raw.txt` (342072 bytes) :: text lines=904; words=672
+- `ingestion/v2/rag_storage/Beyond good and evil/01_chapters.json` (352309 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Beyond good and evil/02_doctrine.json` (50428 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Beyond good and evil/02_doctrine_chunks.json` (49171 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Beyond good and evil/03_5_minister_conversion.json` (413 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Beyond good and evil/03_embeddings.json` (347 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Beyond good and evil/03_nodes_chunks.json` (60283 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Beyond good and evil/progress.json` (320 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/CAMUS, Albert - The Stranger/00_canonical_text.txt` (207175 bytes) :: text lines=2783; words=39030
+- `ingestion/v2/rag_storage/CAMUS, Albert - The Stranger/00_raw.txt` (207175 bytes) :: text lines=2783; words=39030
+- `ingestion/v2/rag_storage/CAMUS, Albert - The Stranger/01_chapters.json` (209214 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/CAMUS, Albert - The Stranger/02_doctrine.json` (10676 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/CAMUS, Albert - The Stranger/02_doctrine_chunks.json` (10301 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/CAMUS, Albert - The Stranger/03_5_minister_conversion.json` (340 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/CAMUS, Albert - The Stranger/03_embeddings.json` (331 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/CAMUS, Albert - The Stranger/03_nodes_chunks.json` (12766 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/CAMUS, Albert - The Stranger/progress.json` (319 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Cioran, E. M. - Trouble With Being Born (Seaver, 2011)/00_canonical_text.txt` (194592 bytes) :: text lines=3057; words=33272
+- `ingestion/v2/rag_storage/Cioran, E. M. - Trouble With Being Born (Seaver, 2011)/00_raw.txt` (194592 bytes) :: text lines=3057; words=33272
+- `ingestion/v2/rag_storage/Cioran, E. M. - Trouble With Being Born (Seaver, 2011)/01_chapters.json` (200370 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Cioran, E. M. - Trouble With Being Born (Seaver, 2011)/02_doctrine.json` (36912 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Cioran, E. M. - Trouble With Being Born (Seaver, 2011)/02_doctrine_chunks.json` (36264 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Cioran, E. M. - Trouble With Being Born (Seaver, 2011)/03_5_minister_conversion.json` (558 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Cioran, E. M. - Trouble With Being Born (Seaver, 2011)/03_embeddings.json` (332 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Cioran, E. M. - Trouble With Being Born (Seaver, 2011)/03_nodes_chunks.json` (47897 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Cioran, E. M. - Trouble With Being Born (Seaver, 2011)/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/ClearThinking/00_canonical_text.txt` (414182 bytes) :: text lines=7187; words=67835
+- `ingestion/v2/rag_storage/ClearThinking/00_raw.txt` (414182 bytes) :: text lines=7187; words=67835
+- `ingestion/v2/rag_storage/ClearThinking/01_chapters.json` (428058 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/ClearThinking/02_doctrine.json` (82263 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/ClearThinking/02_doctrine_chunks.json` (82632 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/ClearThinking/03_5_minister_errors.log` (2311 bytes) :: text lines=47; words=167
+- `ingestion/v2/rag_storage/ClearThinking/03_embeddings.json` (360 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/ClearThinking/03_nodes_chunks.json` (94676 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/ClearThinking/ministers/base/claim.json` (270623 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/ClearThinking/ministers/base/principle.json` (254602 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/ClearThinking/ministers/base/rule.json` (270601 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/ClearThinking/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_/00_canonical_text.txt` (586197 bytes) :: text lines=11210; words=72633
+- `ingestion/v2/rag_storage/Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_/00_raw.txt` (586197 bytes) :: text lines=11210; words=72633
+- `ingestion/v2/rag_storage/Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_/01_chapters.json` (604814 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_/02_doctrine.json` (98065 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_/02_doctrine_chunks.json` (94894 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_/02_doctrine_errors.log` (291 bytes) :: text lines=4; words=37
+- `ingestion/v2/rag_storage/Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_/03_5_minister_conversion.json` (624 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_/03_embeddings.json` (348 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_/03_nodes_chunks.json` (137044 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_/progress.json` (320 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Crime/00_canonical_text.txt` (1626269 bytes) :: text lines=22155; words=339609
+- `ingestion/v2/rag_storage/Crime/00_raw.txt` (1626269 bytes) :: text lines=22155; words=339609
+- `ingestion/v2/rag_storage/Crime/01_chapters.json` (1649135 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Crime/02_doctrine.json` (84521 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Crime/02_doctrine_chunks.json` (81618 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Crime/02_doctrine_errors.log` (226 bytes) :: text lines=3; words=28
+- `ingestion/v2/rag_storage/Crime/03_5_minister_errors.log` (2311 bytes) :: text lines=47; words=167
+- `ingestion/v2/rag_storage/Crime/03_embeddings.json` (361 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Crime/03_nodes_chunks.json` (87239 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Crime/ministers/base/claim.json` (270446 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Crime/ministers/base/principle.json` (238414 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Crime/ministers/base/rule.json` (286354 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Crime/progress.json` (320 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Crucial Conversations/00_canonical_text.txt` (402268 bytes) :: text lines=7507; words=68568
+- `ingestion/v2/rag_storage/Crucial Conversations/00_raw.txt` (402268 bytes) :: text lines=7507; words=68568
+- `ingestion/v2/rag_storage/Crucial Conversations/01_chapters.json` (416447 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Crucial Conversations/02_doctrine.json` (82671 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Crucial Conversations/02_doctrine_chunks.json` (80552 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Crucial Conversations/03_5_minister_conversion.json` (435 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Crucial Conversations/03_embeddings.json` (347 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Crucial Conversations/03_nodes_chunks.json` (98830 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Crucial Conversations/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Deep Work/00_canonical_text.txt` (460480 bytes) :: text lines=7158; words=72283
+- `ingestion/v2/rag_storage/Deep Work/00_raw.txt` (460480 bytes) :: text lines=7158; words=72283
+- `ingestion/v2/rag_storage/Deep Work/01_chapters.json` (468537 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Deep Work/02_doctrine.json` (50603 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Deep Work/02_doctrine_chunks.json` (49433 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Deep Work/03_5_minister_conversion.json` (531 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Deep Work/03_embeddings.json` (348 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Deep Work/03_nodes_chunks.json` (58172 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Deep Work/progress.json` (320 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Do It Today/00_canonical_text.txt` (178265 bytes) :: text lines=3507; words=30738
+- `ingestion/v2/rag_storage/Do It Today/00_raw.txt` (178265 bytes) :: text lines=3507; words=30738
+- `ingestion/v2/rag_storage/Do It Today/01_chapters.json` (184869 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Do It Today/02_doctrine.json` (40968 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Do It Today/02_doctrine_chunks.json` (42520 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Do It Today/02_doctrine_errors.log` (59 bytes) :: text lines=1; words=8
+- `ingestion/v2/rag_storage/Do It Today/03_5_minister_errors.log` (2311 bytes) :: text lines=47; words=167
+- `ingestion/v2/rag_storage/Do It Today/03_embeddings.json` (362 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Do It Today/03_nodes_chunks.json` (42690 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Do It Today/ministers/base/claim.json` (238740 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Do It Today/ministers/base/principle.json` (254421 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Do It Today/ministers/base/rule.json` (302235 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Do It Today/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/E001005/00_canonical_text.txt` (283323 bytes) :: text lines=1512; words=47878
+- `ingestion/v2/rag_storage/E001005/00_raw.txt` (283323 bytes) :: text lines=1512; words=47878
+- `ingestion/v2/rag_storage/E001005/00_raw_repaired.txt` (283323 bytes) :: text lines=1512; words=47878
+- `ingestion/v2/rag_storage/E001005/01_chapters.json` (620435 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/E001005/02_doctrine.json` (69989 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/E001005/02_doctrine_chunks.json` (71005 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/E001005/02_doctrine_errors.log` (79 bytes) :: text lines=1; words=10
+- `ingestion/v2/rag_storage/E001005/03_5_minister_errors.log` (2303 bytes) :: text lines=47; words=167
+- `ingestion/v2/rag_storage/E001005/03_embeddings.json` (361 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/E001005/03_nodes_chunks.json` (78437 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/E001005/glyph_repair_1008849153048146951.txt` (4104 bytes) :: text lines=6; words=702
+- `ingestion/v2/rag_storage/E001005/glyph_repair_1509748754290368880.txt` (2305 bytes) :: text lines=28; words=346
+- `ingestion/v2/rag_storage/E001005/glyph_repair_154811365407096921.txt` (4763 bytes) :: text lines=61; words=701
+- `ingestion/v2/rag_storage/E001005/glyph_repair_1643082717114307573.txt` (4939 bytes) :: text lines=1; words=841
+- `ingestion/v2/rag_storage/E001005/glyph_repair_1778188139897022140.txt` (5307 bytes) :: text lines=1; words=928
+- `ingestion/v2/rag_storage/E001005/glyph_repair_1821092648462774630.txt` (1814 bytes) :: text lines=23; words=305
+- `ingestion/v2/rag_storage/E001005/glyph_repair_2166189317773370723.txt` (4413 bytes) :: text lines=81; words=675
+- `ingestion/v2/rag_storage/E001005/glyph_repair_2304642838068129741.txt` (4351 bytes) :: text lines=10; words=795
+- `ingestion/v2/rag_storage/E001005/glyph_repair_2738632707434534373.txt` (5696 bytes) :: text lines=1; words=932
+- `ingestion/v2/rag_storage/E001005/glyph_repair_2768780921769811072.txt` (6463 bytes) :: text lines=1; words=1110
+- `ingestion/v2/rag_storage/E001005/glyph_repair_2782559151426324940.txt` (5212 bytes) :: text lines=1; words=881
+- `ingestion/v2/rag_storage/E001005/glyph_repair_2960860970225246731.txt` (4945 bytes) :: text lines=23; words=842
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3054260559342584095.txt` (6403 bytes) :: text lines=39; words=1106
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3065409724886801835.txt` (5511 bytes) :: text lines=13; words=963
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3235359054337629666.txt` (539 bytes) :: text lines=1; words=91
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3348563569203315997.txt` (6340 bytes) :: text lines=1; words=1088
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3389451135097052385.txt` (4118 bytes) :: text lines=5; words=728
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3457965213434098780.txt` (6610 bytes) :: text lines=45; words=1113
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3496855971661274488.txt` (4685 bytes) :: text lines=2; words=785
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3510515386632836195.txt` (5374 bytes) :: text lines=18; words=912
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3618002795789637080.txt` (2963 bytes) :: text lines=61; words=464
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3695566956962502901.txt` (6541 bytes) :: text lines=4; words=1132
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3696860691020032552.txt` (6138 bytes) :: text lines=1; words=1049
+- `ingestion/v2/rag_storage/E001005/glyph_repair_3899972783111599913.txt` (5730 bytes) :: text lines=38; words=984
+- `ingestion/v2/rag_storage/E001005/glyph_repair_412636327371952940.txt` (6107 bytes) :: text lines=1; words=1075
+- `ingestion/v2/rag_storage/E001005/glyph_repair_4241462105229459863.txt` (6554 bytes) :: text lines=26; words=1116
+- `ingestion/v2/rag_storage/E001005/glyph_repair_4677776034455772375.txt` (3939 bytes) :: text lines=19; words=714
+- `ingestion/v2/rag_storage/E001005/glyph_repair_4761544298197530540.txt` (4283 bytes) :: text lines=1; words=754
+- `ingestion/v2/rag_storage/E001005/glyph_repair_4785151546627245554.txt` (5182 bytes) :: text lines=22; words=860
+- `ingestion/v2/rag_storage/E001005/glyph_repair_4831720500989734887.txt` (2222 bytes) :: text lines=37; words=358
+- `ingestion/v2/rag_storage/E001005/glyph_repair_4913877324147613937.txt` (6462 bytes) :: text lines=1; words=1065
+- `ingestion/v2/rag_storage/E001005/glyph_repair_5072382111121573977.txt` (2145 bytes) :: text lines=38; words=351
+- `ingestion/v2/rag_storage/E001005/glyph_repair_507426595071630442.txt` (2375 bytes) :: text lines=11; words=421
+- `ingestion/v2/rag_storage/E001005/glyph_repair_5222339335978468907.txt` (4300 bytes) :: text lines=35; words=724
+- `ingestion/v2/rag_storage/E001005/glyph_repair_5524629555540770080.txt` (4706 bytes) :: text lines=20; words=819
+- `ingestion/v2/rag_storage/E001005/glyph_repair_5605692995650914745.txt` (5644 bytes) :: text lines=10; words=1001
+- `ingestion/v2/rag_storage/E001005/glyph_repair_5783306784301289184.txt` (3952 bytes) :: text lines=72; words=586
+- `ingestion/v2/rag_storage/E001005/glyph_repair_594174347136745345.txt` (3042 bytes) :: text lines=112; words=402
+- `ingestion/v2/rag_storage/E001005/glyph_repair_6022471390383242694.txt` (1125 bytes) :: text lines=31; words=190
+- `ingestion/v2/rag_storage/E001005/glyph_repair_6227008299463826515.txt` (5534 bytes) :: text lines=32; words=945
+- `ingestion/v2/rag_storage/E001005/glyph_repair_6515729847895406157.txt` (2165 bytes) :: text lines=10; words=378
+- `ingestion/v2/rag_storage/E001005/glyph_repair_6586294606989177322.txt` (6082 bytes) :: text lines=1; words=1072
+- `ingestion/v2/rag_storage/E001005/glyph_repair_6612619221102440469.txt` (4336 bytes) :: text lines=1; words=750
+- `ingestion/v2/rag_storage/E001005/glyph_repair_6696211284188730976.txt` (1585 bytes) :: text lines=7; words=269
+- `ingestion/v2/rag_storage/E001005/glyph_repair_6895545853971041964.txt` (5761 bytes) :: text lines=45; words=998
+- `ingestion/v2/rag_storage/E001005/glyph_repair_6931144768924286597.txt` (4721 bytes) :: text lines=23; words=799
+- `ingestion/v2/rag_storage/E001005/glyph_repair_6965143995628897005.txt` (4661 bytes) :: text lines=1; words=784
+- `ingestion/v2/rag_storage/E001005/glyph_repair_7271453627735807003.txt` (4274 bytes) :: text lines=62; words=645
+- `ingestion/v2/rag_storage/E001005/glyph_repair_7300087090566853213.txt` (5231 bytes) :: text lines=98; words=803
+- `ingestion/v2/rag_storage/E001005/glyph_repair_730808912136471273.txt` (6080 bytes) :: text lines=37; words=1025
+- `ingestion/v2/rag_storage/E001005/glyph_repair_7310195857292022268.txt` (4529 bytes) :: text lines=1; words=790
+- `ingestion/v2/rag_storage/E001005/glyph_repair_7325174081725188666.txt` (2426 bytes) :: text lines=13; words=410
+- `ingestion/v2/rag_storage/E001005/glyph_repair_7486263653689418014.txt` (3903 bytes) :: text lines=15; words=719
+- `ingestion/v2/rag_storage/E001005/glyph_repair_7509755148850668185.txt` (6183 bytes) :: text lines=31; words=1029
+- `ingestion/v2/rag_storage/E001005/glyph_repair_7546406246280185889.txt` (3829 bytes) :: text lines=12; words=652
+- `ingestion/v2/rag_storage/E001005/glyph_repair_7574702385579049548.txt` (526 bytes) :: text lines=16; words=63
+- `ingestion/v2/rag_storage/E001005/glyph_repair_7672117049830434301.txt` (4489 bytes) :: text lines=1; words=769
+- `ingestion/v2/rag_storage/E001005/glyph_repair_7802640582940834680.txt` (4364 bytes) :: text lines=20; words=767
+- `ingestion/v2/rag_storage/E001005/glyph_repair_7899421073626508750.txt` (1516 bytes) :: text lines=9; words=279
+- `ingestion/v2/rag_storage/E001005/glyph_repair_811025749171882296.txt` (3694 bytes) :: text lines=1; words=604
+- `ingestion/v2/rag_storage/E001005/glyph_repair_8359541223116026972.txt` (3200 bytes) :: text lines=24; words=563
+- `ingestion/v2/rag_storage/E001005/glyph_repair_8580934761436432094.txt` (3791 bytes) :: text lines=1; words=655
+- `ingestion/v2/rag_storage/E001005/glyph_repair_8624586490916160156.txt` (4634 bytes) :: text lines=6; words=808
+- `ingestion/v2/rag_storage/E001005/glyph_repair_8666454988502479784.txt` (1716 bytes) :: text lines=15; words=308
+- `ingestion/v2/rag_storage/E001005/glyph_repair_9192373848731810839.txt` (6471 bytes) :: text lines=1; words=1085
+- `ingestion/v2/rag_storage/E001005/ministers/base/claim.json` (222850 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/E001005/ministers/base/principle.json` (254480 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/E001005/ministers/base/rule.json` (318354 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/E001005/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Felix-Dennis-How-to-Get-Rich/00_canonical_text.txt` (580864 bytes) :: text lines=9204; words=103587
+- `ingestion/v2/rag_storage/Felix-Dennis-How-to-Get-Rich/00_raw.txt` (580864 bytes) :: text lines=9204; words=103587
+- `ingestion/v2/rag_storage/Felix-Dennis-How-to-Get-Rich/01_chapters.json` (594856 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Felix-Dennis-How-to-Get-Rich/02_doctrine.json` (84180 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Felix-Dennis-How-to-Get-Rich/02_doctrine_chunks.json` (81928 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Felix-Dennis-How-to-Get-Rich/02_doctrine_errors.log` (77 bytes) :: text lines=1; words=10
+- `ingestion/v2/rag_storage/Felix-Dennis-How-to-Get-Rich/03_5_minister_conversion.json` (564 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Felix-Dennis-How-to-Get-Rich/03_embeddings.json` (362 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Felix-Dennis-How-to-Get-Rich/03_nodes_chunks.json` (105759 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Felix-Dennis-How-to-Get-Rich/ministers/base/claim.json` (445935 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Felix-Dennis-How-to-Get-Rich/ministers/base/principle.json` (557344 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Felix-Dennis-How-to-Get-Rich/ministers/base/rule.json` (589303 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Felix-Dennis-How-to-Get-Rich/progress.json` (319 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action/00_canonical_text.txt` (184625 bytes) :: text lines=3265; words=31086
+- `ingestion/v2/rag_storage/Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action/00_raw.txt` (184625 bytes) :: text lines=3265; words=31086
+- `ingestion/v2/rag_storage/Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action/01_chapters.json` (189465 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action/02_doctrine.json` (31732 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action/02_doctrine_chunks.json` (31069 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action/03_5_minister_conversion.json` (385 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action/03_embeddings.json` (333 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action/03_nodes_chunks.json` (47864 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Finite-and-Infinite-Games-by-James-Carse/00_canonical_text.txt` (226719 bytes) :: text lines=4318; words=38736
+- `ingestion/v2/rag_storage/Finite-and-Infinite-Games-by-James-Carse/00_raw.txt` (226719 bytes) :: text lines=4318; words=38736
+- `ingestion/v2/rag_storage/Finite-and-Infinite-Games-by-James-Carse/01_chapters.json` (232226 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Finite-and-Infinite-Games-by-James-Carse/02_doctrine.json` (34564 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Finite-and-Infinite-Games-by-James-Carse/02_doctrine_chunks.json` (33709 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Finite-and-Infinite-Games-by-James-Carse/03_5_minister_conversion.json` (531 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Finite-and-Infinite-Games-by-James-Carse/03_embeddings.json` (333 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Finite-and-Infinite-Games-by-James-Carse/03_nodes_chunks.json` (43830 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Finite-and-Infinite-Games-by-James-Carse/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/How To Win Friends And Influence People - Carnegie, Dale/00_canonical_text.txt` (449265 bytes) :: text lines=6923; words=78599
+- `ingestion/v2/rag_storage/How To Win Friends And Influence People - Carnegie, Dale/00_raw.txt` (449265 bytes) :: text lines=6923; words=78599
+- `ingestion/v2/rag_storage/How To Win Friends And Influence People - Carnegie, Dale/01_chapters.json` (458304 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/How To Win Friends And Influence People - Carnegie, Dale/02_doctrine.json` (50659 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/How To Win Friends And Influence People - Carnegie, Dale/02_doctrine_chunks.json` (48864 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/How To Win Friends And Influence People - Carnegie, Dale/02_doctrine_errors.log` (156 bytes) :: text lines=2; words=20
+- `ingestion/v2/rag_storage/How To Win Friends And Influence People - Carnegie, Dale/03_5_minister_conversion.json` (479 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/How To Win Friends And Influence People - Carnegie, Dale/03_embeddings.json` (348 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/How To Win Friends And Influence People - Carnegie, Dale/03_nodes_chunks.json` (66806 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/How To Win Friends And Influence People - Carnegie, Dale/progress.json` (320 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/How to Not Die Alone/00_canonical_text.txt` (517023 bytes) :: text lines=7842; words=85027
+- `ingestion/v2/rag_storage/How to Not Die Alone/00_raw.txt` (517023 bytes) :: text lines=7842; words=85027
+- `ingestion/v2/rag_storage/How to Not Die Alone/01_chapters.json` (542079 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/How to Not Die Alone/02_doctrine.json` (126961 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/How to Not Die Alone/02_doctrine_chunks.json` (123755 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/How to Not Die Alone/02_doctrine_errors.log` (79 bytes) :: text lines=1; words=10
+- `ingestion/v2/rag_storage/How to Not Die Alone/03_5_minister_conversion.json` (608 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/How to Not Die Alone/03_embeddings.json` (362 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/How to Not Die Alone/03_nodes_chunks.json` (149139 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/How to Not Die Alone/ministers/base/claim.json` (509436 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/How to Not Die Alone/ministers/base/principle.json` (477776 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/How to Not Die Alone/ministers/base/rule.json` (605299 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/How to Not Die Alone/progress.json` (320 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Jacques Ellul - The Technological Society/00_canonical_text.txt` (1233253 bytes) :: text lines=20266; words=196537
+- `ingestion/v2/rag_storage/Jacques Ellul - The Technological Society/00_raw.txt` (1233253 bytes) :: text lines=20266; words=196537
+- `ingestion/v2/rag_storage/Jacques Ellul - The Technological Society/01_chapters.json` (1249118 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Jacques Ellul - The Technological Society/02_doctrine.json` (101134 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Jacques Ellul - The Technological Society/02_doctrine_chunks.json` (98659 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Jacques Ellul - The Technological Society/02_doctrine_errors.log` (86 bytes) :: text lines=1; words=10
+- `ingestion/v2/rag_storage/Jacques Ellul - The Technological Society/03_5_minister_conversion.json` (410 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Jacques Ellul - The Technological Society/03_embeddings.json` (348 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Jacques Ellul - The Technological Society/03_nodes_chunks.json` (126327 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Jacques Ellul - The Technological Society/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Letters from a Stoic 1/00_canonical_text.txt` (488379 bytes) :: text lines=8572; words=86637
+- `ingestion/v2/rag_storage/Letters from a Stoic 1/00_raw.txt` (488379 bytes) :: text lines=8572; words=86637
+- `ingestion/v2/rag_storage/Letters from a Stoic 1/01_chapters.json` (501358 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Letters from a Stoic 1/02_doctrine.json` (77225 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Letters from a Stoic 1/02_doctrine_chunks.json` (74959 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Letters from a Stoic 1/02_doctrine_errors.log` (246 bytes) :: text lines=3; words=30
+- `ingestion/v2/rag_storage/Letters from a Stoic 1/03_5_minister_conversion.json` (453 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Letters from a Stoic 1/03_embeddings.json` (362 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Letters from a Stoic 1/03_nodes_chunks.json` (93744 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Letters from a Stoic 1/ministers/base/claim.json` (477459 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Letters from a Stoic 1/ministers/base/principle.json` (556689 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Letters from a Stoic 1/ministers/base/rule.json` (557028 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Letters from a Stoic 1/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Machiavelli,+The+Prince/00_canonical_text.txt` (534833 bytes) :: text lines=9344; words=90010
+- `ingestion/v2/rag_storage/Machiavelli,+The+Prince/00_raw.txt` (534833 bytes) :: text lines=9344; words=90010
+- `ingestion/v2/rag_storage/Machiavelli,+The+Prince/01_chapters.json` (538590 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Machiavelli,+The+Prince/02_doctrine.json` (19954 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Machiavelli,+The+Prince/02_doctrine_chunks.json` (19438 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Machiavelli,+The+Prince/03_5_minister_conversion.json` (301 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Machiavelli,+The+Prince/03_embeddings.json` (333 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Machiavelli,+The+Prince/03_nodes_chunks.json` (24700 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Machiavelli,+The+Prince/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Man and his Symbols ( PDFDrive )/00_canonical_text.txt` (863528 bytes) :: text lines=19562; words=142064
+- `ingestion/v2/rag_storage/Man and his Symbols ( PDFDrive )/00_raw.txt` (863528 bytes) :: text lines=19562; words=142064
+- `ingestion/v2/rag_storage/Man and his Symbols ( PDFDrive )/01_chapters.json` (873945 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Man and his Symbols ( PDFDrive )/02_doctrine.json` (52343 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Man and his Symbols ( PDFDrive )/02_doctrine_chunks.json` (51029 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Man and his Symbols ( PDFDrive )/03_5_minister_conversion.json` (483 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Man and his Symbols ( PDFDrive )/03_embeddings.json` (363 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Man and his Symbols ( PDFDrive )/03_nodes_chunks.json` (64413 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Man and his Symbols ( PDFDrive )/ministers/base/claim.json` (494225 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Man and his Symbols ( PDFDrive )/ministers/base/principle.json` (541474 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Man and his Symbols ( PDFDrive )/ministers/base/rule.json` (557794 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Man and his Symbols ( PDFDrive )/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Marcus-Aurelius-Meditations/00_canonical_text.txt` (436071 bytes) :: text lines=6159; words=76155
+- `ingestion/v2/rag_storage/Marcus-Aurelius-Meditations/00_raw.txt` (436071 bytes) :: text lines=6159; words=76155
+- `ingestion/v2/rag_storage/Marcus-Aurelius-Meditations/01_chapters.json` (441192 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Marcus-Aurelius-Meditations/02_doctrine.json` (28999 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Marcus-Aurelius-Meditations/02_doctrine_chunks.json` (28280 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Marcus-Aurelius-Meditations/03_5_minister_conversion.json` (390 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Marcus-Aurelius-Meditations/03_embeddings.json` (333 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Marcus-Aurelius-Meditations/03_nodes_chunks.json` (37889 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Marcus-Aurelius-Meditations/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/00_canonical_text.txt` (436981 bytes) :: text lines=1654; words=73193
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/00_raw.txt` (436981 bytes) :: text lines=1654; words=73193
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/00_raw_repaired.txt` (436981 bytes) :: text lines=1654; words=73193
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/01_chapters.json` (1090322 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/02_doctrine.json` (58755 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/02_doctrine_chunks.json` (59780 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/02_doctrine_errors.log` (80 bytes) :: text lines=1; words=10
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/03_5_minister_errors.log` (2504 bytes) :: text lines=50; words=182
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/03_embeddings.json` (363 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/03_nodes_chunks.json` (72530 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1017525848549392771.txt` (3400 bytes) :: text lines=1; words=573
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1192839722357607745.txt` (3240 bytes) :: text lines=9; words=543
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1216504710364506505.txt` (2030 bytes) :: text lines=94; words=267
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1266209080797424602.txt` (4179 bytes) :: text lines=13; words=721
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1394373325478965421.txt` (1571 bytes) :: text lines=9; words=225
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1428324889086120016.txt` (4159 bytes) :: text lines=17; words=704
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1448997882135121210.txt` (1322 bytes) :: text lines=5; words=209
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1474460381646858140.txt` (6050 bytes) :: text lines=12; words=1025
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1562998538107925380.txt` (3611 bytes) :: text lines=12; words=620
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1580502056766304271.txt` (4706 bytes) :: text lines=53; words=747
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1630341444701952327.txt` (5698 bytes) :: text lines=13; words=958
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1748272262284132227.txt` (481 bytes) :: text lines=1; words=80
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1800939016283247180.txt` (1646 bytes) :: text lines=9; words=269
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1965018380545878880.txt` (4802 bytes) :: text lines=5; words=774
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_1990700588804663969.txt` (5785 bytes) :: text lines=1; words=977
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_199817580272029136.txt` (5919 bytes) :: text lines=11; words=962
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2012798557241803708.txt` (5247 bytes) :: text lines=7; words=893
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2042315714459779132.txt` (3057 bytes) :: text lines=13; words=502
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2088332053886658558.txt` (4050 bytes) :: text lines=191; words=551
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_212229637389518533.txt` (2631 bytes) :: text lines=13; words=447
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2180764232717984740.txt` (5252 bytes) :: text lines=21; words=903
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2207268345432450873.txt` (1943 bytes) :: text lines=9; words=333
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2315738674112038607.txt` (3563 bytes) :: text lines=11; words=619
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2335486470066686893.txt` (5095 bytes) :: text lines=9; words=862
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2358915026498724890.txt` (3761 bytes) :: text lines=13; words=662
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2367518707087367251.txt` (3596 bytes) :: text lines=1; words=587
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2389124839388854558.txt` (2131 bytes) :: text lines=4; words=353
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2481012996800211450.txt` (5841 bytes) :: text lines=1; words=1007
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2635977383939891211.txt` (3174 bytes) :: text lines=1; words=515
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2651093159483615122.txt` (1948 bytes) :: text lines=1; words=332
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2718261941905218331.txt` (4936 bytes) :: text lines=13; words=840
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_2783152153574044914.txt` (5106 bytes) :: text lines=1; words=843
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3042883734672425925.txt` (3299 bytes) :: text lines=2; words=552
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3151056861116697771.txt` (4146 bytes) :: text lines=15; words=711
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3193960732529470767.txt` (4817 bytes) :: text lines=15; words=788
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3234574327791446196.txt` (5802 bytes) :: text lines=11; words=1026
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3260338269471377606.txt` (1706 bytes) :: text lines=9; words=265
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3327630869990701389.txt` (5564 bytes) :: text lines=1; words=939
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_33319113127071399.txt` (3441 bytes) :: text lines=1; words=584
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3343427982376533948.txt` (4661 bytes) :: text lines=7; words=809
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3344146707717166815.txt` (3412 bytes) :: text lines=1; words=583
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_336818068572797639.txt` (2949 bytes) :: text lines=9; words=496
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3701739550052629309.txt` (843 bytes) :: text lines=5; words=134
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3730932932062404436.txt` (811 bytes) :: text lines=3; words=128
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_375729204854006483.txt` (3399 bytes) :: text lines=7; words=597
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3778400996749234423.txt` (4764 bytes) :: text lines=1; words=819
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3809813039545033852.txt` (5492 bytes) :: text lines=9; words=925
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3812162055895137505.txt` (4092 bytes) :: text lines=13; words=689
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3842636475269164721.txt` (3916 bytes) :: text lines=1; words=670
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3893428437196294049.txt` (2707 bytes) :: text lines=12; words=471
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3936266023903142494.txt` (5111 bytes) :: text lines=23; words=874
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_3957261861860191499.txt` (3810 bytes) :: text lines=9; words=650
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4113106634907879853.txt` (5399 bytes) :: text lines=8; words=948
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4140972585084939170.txt` (3237 bytes) :: text lines=11; words=539
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4300620448315497501.txt` (6516 bytes) :: text lines=27; words=1083
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4399438018390332861.txt` (3311 bytes) :: text lines=1; words=556
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4413381081504805829.txt` (485 bytes) :: text lines=1; words=77
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4492216815171930125.txt` (5497 bytes) :: text lines=1; words=936
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4631909824200267183.txt` (5771 bytes) :: text lines=27; words=955
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4656107777371434221.txt` (5494 bytes) :: text lines=13; words=925
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4692159492583349511.txt` (2953 bytes) :: text lines=1; words=482
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4693531874660666773.txt` (428 bytes) :: text lines=1; words=68
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_4716738545550533990.txt` (2081 bytes) :: text lines=33; words=339
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_497512029144874726.txt` (537 bytes) :: text lines=1; words=84
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5041610060268228484.txt` (385 bytes) :: text lines=16; words=56
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5202601456689542380.txt` (6327 bytes) :: text lines=29; words=1040
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5359704128487637602.txt` (5367 bytes) :: text lines=23; words=936
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5394999996967810740.txt` (4545 bytes) :: text lines=1; words=766
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5424773614686302559.txt` (4874 bytes) :: text lines=9; words=826
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5431486934452791902.txt` (3633 bytes) :: text lines=3; words=606
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5458358489966451031.txt` (2705 bytes) :: text lines=13; words=454
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5518598105175415895.txt` (2994 bytes) :: text lines=7; words=507
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5902789927252812843.txt` (2003 bytes) :: text lines=33; words=322
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_5932195381023496180.txt` (7143 bytes) :: text lines=23; words=1239
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6012945113057892397.txt` (4633 bytes) :: text lines=1; words=789
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6152722358522405648.txt` (2255 bytes) :: text lines=13; words=346
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_626923540158206848.txt` (5025 bytes) :: text lines=18; words=885
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6374937063235989214.txt` (2911 bytes) :: text lines=11; words=440
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6413307903139085733.txt` (3795 bytes) :: text lines=17; words=647
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6429158048976742337.txt` (1231 bytes) :: text lines=7; words=188
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6498269320617037134.txt` (5880 bytes) :: text lines=7; words=1009
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6646947400675680964.txt` (3662 bytes) :: text lines=6; words=603
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6665104887659314569.txt` (5493 bytes) :: text lines=18; words=935
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6684714469465984148.txt` (1055 bytes) :: text lines=5; words=176
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6776231883418946579.txt` (5198 bytes) :: text lines=4; words=909
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6810012951734970755.txt` (6197 bytes) :: text lines=11; words=1040
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6870430246938539594.txt` (5225 bytes) :: text lines=17; words=875
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_6979505166351729355.txt` (5858 bytes) :: text lines=12; words=1005
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7103600463418470311.txt` (5779 bytes) :: text lines=1; words=955
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7108627231772959073.txt` (4919 bytes) :: text lines=2; words=845
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7144209274242766447.txt` (5614 bytes) :: text lines=1; words=960
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_724705613237197002.txt` (5558 bytes) :: text lines=1; words=740
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7334691626494034999.txt` (3580 bytes) :: text lines=7; words=589
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7351971945171760380.txt` (397 bytes) :: text lines=13; words=60
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7396214746187160609.txt` (1896 bytes) :: text lines=9; words=303
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7460437294780892167.txt` (4006 bytes) :: text lines=2; words=730
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_750782604277739928.txt` (5244 bytes) :: text lines=19; words=918
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7562706452493893930.txt` (6026 bytes) :: text lines=8; words=1014
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7597701240186466357.txt` (2398 bytes) :: text lines=81; words=330
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7597730507627367224.txt` (5516 bytes) :: text lines=3; words=979
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7633907286054261185.txt` (1571 bytes) :: text lines=6; words=257
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7658897595147762830.txt` (2731 bytes) :: text lines=13; words=467
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7717033183253480638.txt` (3810 bytes) :: text lines=3; words=646
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7770990916531107790.txt` (4907 bytes) :: text lines=7; words=849
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7807856293835234927.txt` (442 bytes) :: text lines=1; words=73
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_7897930520128358102.txt` (2156 bytes) :: text lines=7; words=358
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_810242293631470670.txt` (3247 bytes) :: text lines=1; words=558
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_8281604437056719175.txt` (1100 bytes) :: text lines=7; words=186
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_8377017393648008869.txt` (5191 bytes) :: text lines=12; words=870
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_8704669316032349063.txt` (3332 bytes) :: text lines=1; words=568
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_8760325718224754524.txt` (163 bytes) :: text lines=1; words=31
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_8813133780824806133.txt` (4144 bytes) :: text lines=9; words=676
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_8853863935359231928.txt` (4332 bytes) :: text lines=7; words=753
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_9085745965677062854.txt` (4238 bytes) :: text lines=19; words=706
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_909737123878117557.txt` (5610 bytes) :: text lines=25; words=945
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/glyph_repair_944982777092098691.txt` (3724 bytes) :: text lines=1; words=623
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/ministers/base/claim.json` (239069 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/ministers/base/principle.json` (286577 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/ministers/base/rule.json` (270821 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Mastery by Robert Greene/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Men-are-from-mars-women-are-from-venus/00_canonical_text.txt` (697108 bytes) :: text lines=8974; words=84693
+- `ingestion/v2/rag_storage/Men-are-from-mars-women-are-from-venus/00_raw.txt` (697108 bytes) :: text lines=8974; words=84693
+- `ingestion/v2/rag_storage/Men-are-from-mars-women-are-from-venus/01_chapters.json` (707423 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Men-are-from-mars-women-are-from-venus/02_doctrine.json` (63807 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Men-are-from-mars-women-are-from-venus/02_doctrine_chunks.json` (62238 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Men-are-from-mars-women-are-from-venus/02_doctrine_errors.log` (85 bytes) :: text lines=1; words=10
+- `ingestion/v2/rag_storage/Men-are-from-mars-women-are-from-venus/03_5_minister_conversion.json` (538 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Men-are-from-mars-women-are-from-venus/03_embeddings.json` (362 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Men-are-from-mars-women-are-from-venus/03_nodes_chunks.json` (81701 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Men-are-from-mars-women-are-from-venus/ministers/base/claim.json` (510194 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Men-are-from-mars-women-are-from-venus/ministers/base/principle.json` (525764 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Men-are-from-mars-women-are-from-venus/ministers/base/rule.json` (557885 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Men-are-from-mars-women-are-from-venus/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/NeilPostman-AmusingOurselvesToDeath/00_canonical_text.txt` (439557 bytes) :: text lines=6771; words=63483
+- `ingestion/v2/rag_storage/NeilPostman-AmusingOurselvesToDeath/00_raw.txt` (439557 bytes) :: text lines=6771; words=63483
+- `ingestion/v2/rag_storage/NeilPostman-AmusingOurselvesToDeath/01_chapters.json` (449793 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/NeilPostman-AmusingOurselvesToDeath/02_doctrine.json` (56094 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/NeilPostman-AmusingOurselvesToDeath/02_doctrine_chunks.json` (54350 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/NeilPostman-AmusingOurselvesToDeath/02_doctrine_errors.log` (79 bytes) :: text lines=1; words=10
+- `ingestion/v2/rag_storage/NeilPostman-AmusingOurselvesToDeath/03_5_minister_conversion.json` (477 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/NeilPostman-AmusingOurselvesToDeath/03_embeddings.json` (361 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/NeilPostman-AmusingOurselvesToDeath/03_nodes_chunks.json` (65697 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/NeilPostman-AmusingOurselvesToDeath/ministers/base/claim.json` (510646 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/NeilPostman-AmusingOurselvesToDeath/ministers/base/principle.json` (526288 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/NeilPostman-AmusingOurselvesToDeath/ministers/base/rule.json` (558214 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/NeilPostman-AmusingOurselvesToDeath/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy/00_canonical_text.txt` (402909 bytes) :: text lines=8010; words=67425
+- `ingestion/v2/rag_storage/No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy/00_raw.txt` (402909 bytes) :: text lines=8010; words=67425
+- `ingestion/v2/rag_storage/No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy/01_chapters.json` (423193 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy/02_doctrine.json` (130035 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy/02_doctrine_chunks.json` (126675 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy/03_5_minister_conversion.json` (509 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy/03_embeddings.json` (361 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy/03_nodes_chunks.json` (183335 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy/ministers/base/claim.json` (446989 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy/ministers/base/principle.json` (573997 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy/ministers/base/rule.json` (574349 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Notes-from-Underground-Extract/00_canonical_text.txt` (29658 bytes) :: text lines=562; words=5125
+- `ingestion/v2/rag_storage/Notes-from-Underground-Extract/00_raw.txt` (29658 bytes) :: text lines=562; words=5125
+- `ingestion/v2/rag_storage/Notes-from-Underground-Extract/01_chapters.json` (31413 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Notes-from-Underground-Extract/02_doctrine.json` (10267 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Notes-from-Underground-Extract/02_doctrine_chunks.json` (9945 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Notes-from-Underground-Extract/03_5_minister_conversion.json` (361 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Notes-from-Underground-Extract/03_embeddings.json` (332 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Notes-from-Underground-Extract/03_nodes_chunks.json` (11585 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Notes-from-Underground-Extract/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Ortega_y_Gasset_Jose_The_Revolt_of_the_Masses/00_canonical_text.txt` (0 bytes) :: text lines=0; words=0
+- `ingestion/v2/rag_storage/Ortega_y_Gasset_Jose_The_Revolt_of_the_Masses/00_raw.txt` (0 bytes) :: text lines=0; words=0
+- `ingestion/v2/rag_storage/Ortega_y_Gasset_Jose_The_Revolt_of_the_Masses/00_raw_repaired.txt` (0 bytes) :: text lines=0; words=0
+- `ingestion/v2/rag_storage/Ortega_y_Gasset_Jose_The_Revolt_of_the_Masses/01_chapters.json` (1375 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Ortega_y_Gasset_Jose_The_Revolt_of_the_Masses/02_doctrine.json` (903 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Ortega_y_Gasset_Jose_The_Revolt_of_the_Masses/02_doctrine_chunks.json` (821 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Ortega_y_Gasset_Jose_The_Revolt_of_the_Masses/03_5_minister_conversion.json` (213 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Ortega_y_Gasset_Jose_The_Revolt_of_the_Masses/03_embeddings.json` (332 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Ortega_y_Gasset_Jose_The_Revolt_of_the_Masses/03_nodes_chunks.json` (824 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Ortega_y_Gasset_Jose_The_Revolt_of_the_Masses/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Poor Charlie’s Almanack_ The Wit and Wisdom of Charles T. Munger ( PDFDrive )/00_canonical_text.txt` (872175 bytes) :: text lines=15885; words=142625
+- `ingestion/v2/rag_storage/Poor Charlie’s Almanack_ The Wit and Wisdom of Charles T. Munger ( PDFDrive )/00_raw.txt` (872175 bytes) :: text lines=15885; words=142625
+- `ingestion/v2/rag_storage/Poor Charlie’s Almanack_ The Wit and Wisdom of Charles T. Munger ( PDFDrive )/01_chapters.json` (899078 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Poor Charlie’s Almanack_ The Wit and Wisdom of Charles T. Munger ( PDFDrive )/02_doctrine.json` (149980 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Poor Charlie’s Almanack_ The Wit and Wisdom of Charles T. Munger ( PDFDrive )/02_doctrine_chunks.json` (140560 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Poor Charlie’s Almanack_ The Wit and Wisdom of Charles T. Munger ( PDFDrive )/02_doctrine_errors.log` (2531 bytes) :: text lines=31; words=303
+- `ingestion/v2/rag_storage/Poor Charlie’s Almanack_ The Wit and Wisdom of Charles T. Munger ( PDFDrive )/03_5_minister_errors.log` (2303 bytes) :: text lines=47; words=167
+- `ingestion/v2/rag_storage/Poor Charlie’s Almanack_ The Wit and Wisdom of Charles T. Munger ( PDFDrive )/03_embeddings.json` (361 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Poor Charlie’s Almanack_ The Wit and Wisdom of Charles T. Munger ( PDFDrive )/03_nodes_chunks.json` (209374 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Poor Charlie’s Almanack_ The Wit and Wisdom of Charles T. Munger ( PDFDrive )/ministers/base/claim.json` (271964 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Poor Charlie’s Almanack_ The Wit and Wisdom of Charles T. Munger ( PDFDrive )/ministers/base/principle.json` (223704 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Poor Charlie’s Almanack_ The Wit and Wisdom of Charles T. Munger ( PDFDrive )/ministers/base/rule.json` (303834 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Poor Charlie’s Almanack_ The Wit and Wisdom of Charles T. Munger ( PDFDrive )/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Seamos_personas_de_Infliuencia/00_canonical_text.txt` (368637 bytes) :: text lines=5510; words=58537
+- `ingestion/v2/rag_storage/Seamos_personas_de_Infliuencia/00_raw.txt` (368637 bytes) :: text lines=5510; words=58537
+- `ingestion/v2/rag_storage/Seamos_personas_de_Infliuencia/01_chapters.json` (374151 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Seamos_personas_de_Infliuencia/02_doctrine.json` (21895 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Seamos_personas_de_Infliuencia/02_doctrine_chunks.json` (10156 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Seamos_personas_de_Infliuencia/02_doctrine_errors.log` (1445 bytes) :: text lines=20; words=180
+- `ingestion/v2/rag_storage/Seamos_personas_de_Infliuencia/03_5_minister_errors.log` (2494 bytes) :: text lines=50; words=182
+- `ingestion/v2/rag_storage/Seamos_personas_de_Infliuencia/03_embeddings.json` (330 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Seamos_personas_de_Infliuencia/03_nodes_chunks.json` (16646 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Seamos_personas_de_Infliuencia/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Summary-of-SGTCIY-pdf/00_canonical_text.txt` (20024 bytes) :: text lines=22; words=3395
+- `ingestion/v2/rag_storage/Summary-of-SGTCIY-pdf/00_raw.txt` (20024 bytes) :: text lines=22; words=3395
+- `ingestion/v2/rag_storage/Summary-of-SGTCIY-pdf/01_chapters.json` (20676 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Summary-of-SGTCIY-pdf/02_doctrine.json` (4636 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Summary-of-SGTCIY-pdf/02_doctrine_chunks.json` (3535 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Summary-of-SGTCIY-pdf/03_5_minister_errors.log` (2311 bytes) :: text lines=47; words=167
+- `ingestion/v2/rag_storage/Summary-of-SGTCIY-pdf/03_embeddings.json` (331 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Summary-of-SGTCIY-pdf/03_nodes_chunks.json` (6050 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Summary-of-SGTCIY-pdf/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/SuperThinking/00_canonical_text.txt` (0 bytes) :: text lines=0; words=0
+- `ingestion/v2/rag_storage/SuperThinking/00_raw.txt` (0 bytes) :: text lines=0; words=0
+- `ingestion/v2/rag_storage/SuperThinking/00_raw_repaired.txt` (0 bytes) :: text lines=0; words=0
+- `ingestion/v2/rag_storage/SuperThinking/01_chapters.json` (425 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/SuperThinking/02_doctrine.json` (1222 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/SuperThinking/02_doctrine_chunks.json` (1187 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/SuperThinking/03_5_minister_errors.log` (1043 bytes) :: text lines=18; words=77
+- `ingestion/v2/rag_storage/SuperThinking/03_embeddings.json` (331 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/SuperThinking/03_nodes_chunks.json` (1528 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/SuperThinking/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/The Courage To Be Disliked/00_canonical_text.txt` (364794 bytes) :: text lines=4755; words=62296
+- `ingestion/v2/rag_storage/The Courage To Be Disliked/00_raw.txt` (364794 bytes) :: text lines=4755; words=62296
+- `ingestion/v2/rag_storage/The Courage To Be Disliked/01_chapters.json` (378049 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/The Courage To Be Disliked/02_doctrine.json` (28466 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/The Courage To Be Disliked/02_doctrine_chunks.json` (9741 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/The Courage To Be Disliked/02_doctrine_errors.log` (4164 bytes) :: text lines=53; words=510
+- `ingestion/v2/rag_storage/The Courage To Be Disliked/03_5_minister_errors.log` (2303 bytes) :: text lines=47; words=167
+- `ingestion/v2/rag_storage/The Courage To Be Disliked/03_embeddings.json` (331 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/The Courage To Be Disliked/03_nodes_chunks.json` (2750 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/The Courage To Be Disliked/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/The Diary of a CEO_ 33 Laws of Business and Life (2023)/00_canonical_text.txt` (470305 bytes) :: text lines=7231; words=75822
+- `ingestion/v2/rag_storage/The Diary of a CEO_ 33 Laws of Business and Life (2023)/00_raw.txt` (470305 bytes) :: text lines=7231; words=75822
+- `ingestion/v2/rag_storage/The Diary of a CEO_ 33 Laws of Business and Life (2023)/01_chapters.json` (486840 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/The Diary of a CEO_ 33 Laws of Business and Life (2023)/02_doctrine.json` (44395 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/The Diary of a CEO_ 33 Laws of Business and Life (2023)/02_doctrine_chunks.json` (15923 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/The Diary of a CEO_ 33 Laws of Business and Life (2023)/02_doctrine_errors.log` (19663 bytes) :: text lines=250; words=2428
+- `ingestion/v2/rag_storage/The Diary of a CEO_ 33 Laws of Business and Life (2023)/03_5_minister_errors.log` (2311 bytes) :: text lines=47; words=167
+- `ingestion/v2/rag_storage/The Diary of a CEO_ 33 Laws of Business and Life (2023)/03_embeddings.json` (332 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/The Diary of a CEO_ 33 Laws of Business and Life (2023)/03_nodes_chunks.json` (1398 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/The Diary of a CEO_ 33 Laws of Business and Life (2023)/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/The Myth of Sisyphus - Albert Camus/00_canonical_text.txt` (335641 bytes) :: text lines=5219; words=57858
+- `ingestion/v2/rag_storage/The Myth of Sisyphus - Albert Camus/00_raw.txt` (335641 bytes) :: text lines=5219; words=57858
+- `ingestion/v2/rag_storage/The Myth of Sisyphus - Albert Camus/01_chapters.json` (346096 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/The Myth of Sisyphus - Albert Camus/02_doctrine.json` (16568 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/The Myth of Sisyphus - Albert Camus/02_doctrine_chunks.json` (11220 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/The Myth of Sisyphus - Albert Camus/02_doctrine_errors.log` (6558 bytes) :: text lines=84; words=823
+- `ingestion/v2/rag_storage/The Myth of Sisyphus - Albert Camus/03_5_minister_errors.log` (1043 bytes) :: text lines=18; words=77
+- `ingestion/v2/rag_storage/The Myth of Sisyphus - Albert Camus/03_embeddings.json` (319 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/The Myth of Sisyphus - Albert Camus/03_nodes_chunks.json` (2 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/The Myth of Sisyphus - Albert Camus/progress.json` (320 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/The Psychology of Persuasion/00_canonical_text.txt` (681207 bytes) :: text lines=10835; words=109938
+- `ingestion/v2/rag_storage/The Psychology of Persuasion/00_raw.txt` (681207 bytes) :: text lines=10835; words=109938
+- `ingestion/v2/rag_storage/The Psychology of Persuasion/01_chapters.json` (690052 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/The Psychology of Persuasion/02_doctrine.json` (22216 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/The Psychology of Persuasion/02_doctrine_chunks.json` (4980 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/The Psychology of Persuasion/02_doctrine_errors.log` (11004 bytes) :: text lines=136; words=1343
+- `ingestion/v2/rag_storage/The Psychology of Persuasion/03_5_minister_errors.log` (1043 bytes) :: text lines=18; words=77
+- `ingestion/v2/rag_storage/The Psychology of Persuasion/03_embeddings.json` (317 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/The Psychology of Persuasion/03_nodes_chunks.json` (2 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/The Psychology of Persuasion/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/ThePersonalMBA10thAnniversaryEdition/00_canonical_text.txt` (0 bytes) :: text lines=0; words=0
+- `ingestion/v2/rag_storage/ThePersonalMBA10thAnniversaryEdition/00_raw.txt` (0 bytes) :: text lines=0; words=0
+- `ingestion/v2/rag_storage/ThePersonalMBA10thAnniversaryEdition/00_raw_repaired.txt` (0 bytes) :: text lines=0; words=0
+- `ingestion/v2/rag_storage/ThePersonalMBA10thAnniversaryEdition/01_chapters.json` (586 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/ThePersonalMBA10thAnniversaryEdition/02_doctrine.json` (559 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/ThePersonalMBA10thAnniversaryEdition/02_doctrine_chunks.json` (462 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/ThePersonalMBA10thAnniversaryEdition/03_5_minister_errors.log` (2303 bytes) :: text lines=47; words=167
+- `ingestion/v2/rag_storage/ThePersonalMBA10thAnniversaryEdition/03_embeddings.json` (333 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/ThePersonalMBA10thAnniversaryEdition/03_nodes_chunks.json` (443 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/ThePersonalMBA10thAnniversaryEdition/progress.json` (320 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/TheRighteousMind/00_canonical_text.txt` (0 bytes) :: text lines=0; words=0
+- `ingestion/v2/rag_storage/TheRighteousMind/00_raw.txt` (0 bytes) :: text lines=0; words=0
+- `ingestion/v2/rag_storage/TheRighteousMind/00_raw_repaired.txt` (0 bytes) :: text lines=0; words=0
+- `ingestion/v2/rag_storage/TheRighteousMind/01_chapters.json` (482 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/TheRighteousMind/02_doctrine.json` (478 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/TheRighteousMind/02_doctrine_chunks.json` (316 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/TheRighteousMind/02_doctrine_errors.log` (60 bytes) :: text lines=1; words=8
+- `ingestion/v2/rag_storage/TheRighteousMind/03_5_minister_errors.log` (1043 bytes) :: text lines=18; words=77
+- `ingestion/v2/rag_storage/TheRighteousMind/03_embeddings.json` (320 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/TheRighteousMind/03_nodes_chunks.json` (2 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/TheRighteousMind/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/The_Psychology_of_Money/00_canonical_text.txt` (314772 bytes) :: text lines=4711; words=51380
+- `ingestion/v2/rag_storage/The_Psychology_of_Money/00_raw.txt` (314772 bytes) :: text lines=4711; words=51380
+- `ingestion/v2/rag_storage/The_Psychology_of_Money/01_chapters.json` (324418 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/The_Psychology_of_Money/02_doctrine.json` (32076 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/The_Psychology_of_Money/02_doctrine_chunks.json` (14511 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/The_Psychology_of_Money/02_doctrine_errors.log` (7325 bytes) :: text lines=95; words=929
+- `ingestion/v2/rag_storage/The_Psychology_of_Money/03_5_minister_errors.log` (2311 bytes) :: text lines=47; words=167
+- `ingestion/v2/rag_storage/The_Psychology_of_Money/03_embeddings.json` (331 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/The_Psychology_of_Money/03_nodes_chunks.json` (13423 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/The_Psychology_of_Money/progress.json` (320 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Thus spoke Zarathustra/00_canonical_text.txt` (470084 bytes) :: text lines=1104; words=724
+- `ingestion/v2/rag_storage/Thus spoke Zarathustra/00_raw.txt` (470084 bytes) :: text lines=1104; words=724
+- `ingestion/v2/rag_storage/Thus spoke Zarathustra/01_chapters.json` (484922 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Thus spoke Zarathustra/02_doctrine.json` (44509 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Thus spoke Zarathustra/02_doctrine_chunks.json` (11748 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Thus spoke Zarathustra/02_doctrine_errors.log` (15239 bytes) :: text lines=212; words=1965
+- `ingestion/v2/rag_storage/Thus spoke Zarathustra/03_5_minister_errors.log` (2313 bytes) :: text lines=47; words=167
+- `ingestion/v2/rag_storage/Thus spoke Zarathustra/03_embeddings.json` (331 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Thus spoke Zarathustra/03_nodes_chunks.json` (12059 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Thus spoke Zarathustra/progress.json` (320 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Win-Your-Inner-Battles/00_canonical_text.txt` (153013 bytes) :: text lines=174; words=27265
+- `ingestion/v2/rag_storage/Win-Your-Inner-Battles/00_raw.txt` (153013 bytes) :: text lines=174; words=27265
+- `ingestion/v2/rag_storage/Win-Your-Inner-Battles/01_chapters.json` (157955 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Win-Your-Inner-Battles/02_doctrine.json` (13775 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Win-Your-Inner-Battles/02_doctrine_chunks.json` (10900 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Win-Your-Inner-Battles/02_doctrine_errors.log` (6903 bytes) :: text lines=87; words=846
+- `ingestion/v2/rag_storage/Win-Your-Inner-Battles/03_5_minister_errors.log` (1043 bytes) :: text lines=18; words=77
+- `ingestion/v2/rag_storage/Win-Your-Inner-Battles/03_embeddings.json` (331 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Win-Your-Inner-Battles/03_nodes_chunks.json` (1098 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Win-Your-Inner-Battles/progress.json` (320 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Your Next Five Moves Patrick Bet David/00_canonical_text.txt` (490619 bytes) :: text lines=7114; words=84687
+- `ingestion/v2/rag_storage/Your Next Five Moves Patrick Bet David/00_raw.txt` (490619 bytes) :: text lines=7114; words=84687
+- `ingestion/v2/rag_storage/Your Next Five Moves Patrick Bet David/01_chapters.json` (512066 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Your Next Five Moves Patrick Bet David/02_doctrine.json` (45572 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Your Next Five Moves Patrick Bet David/02_doctrine_chunks.json` (18991 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Your Next Five Moves Patrick Bet David/02_doctrine_errors.log` (16847 bytes) :: text lines=213; words=2100
+- `ingestion/v2/rag_storage/Your Next Five Moves Patrick Bet David/03_5_minister_errors.log` (2313 bytes) :: text lines=47; words=167
+- `ingestion/v2/rag_storage/Your Next Five Moves Patrick Bet David/03_embeddings.json` (331 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/Your Next Five Moves Patrick Bet David/03_nodes_chunks.json` (10558 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/Your Next Five Moves Patrick Bet David/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset/00_canonical_text.txt` (84236 bytes) :: text lines=1474; words=14971
+- `ingestion/v2/rag_storage/_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset/00_raw.txt` (84236 bytes) :: text lines=1474; words=14971
+- `ingestion/v2/rag_storage/_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset/01_chapters.json` (89454 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset/02_doctrine.json` (16284 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset/02_doctrine_chunks.json` (6976 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset/02_doctrine_errors.log` (5767 bytes) :: text lines=83; words=736
+- `ingestion/v2/rag_storage/_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset/03_5_minister_errors.log` (2311 bytes) :: text lines=47; words=167
+- `ingestion/v2/rag_storage/_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset/03_embeddings.json` (330 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset/03_nodes_chunks.json` (7060 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/crowdastudypopu00bongoog/00_canonical_text.txt` (3272 bytes) :: text lines=290; words=496
+- `ingestion/v2/rag_storage/crowdastudypopu00bongoog/00_raw.txt` (3272 bytes) :: text lines=290; words=496
+- `ingestion/v2/rag_storage/crowdastudypopu00bongoog/01_chapters.json` (3183 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/crowdastudypopu00bongoog/02_doctrine.json` (743 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/crowdastudypopu00bongoog/02_doctrine_chunks.json` (709 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/crowdastudypopu00bongoog/02_doctrine_errors.log` (84 bytes) :: text lines=1; words=10
+- `ingestion/v2/rag_storage/crowdastudypopu00bongoog/03_5_minister_errors.log` (1043 bytes) :: text lines=18; words=77
+- `ingestion/v2/rag_storage/crowdastudypopu00bongoog/03_embeddings.json` (331 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/crowdastudypopu00bongoog/03_nodes_chunks.json` (1132 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/crowdastudypopu00bongoog/progress.json` (320 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/ernest_becker_the_denial_of_deathbookfi-org/00_canonical_text.txt` (757953 bytes) :: text lines=12483; words=125903
+- `ingestion/v2/rag_storage/ernest_becker_the_denial_of_deathbookfi-org/00_raw.txt` (757953 bytes) :: text lines=12483; words=125903
+- `ingestion/v2/rag_storage/ernest_becker_the_denial_of_deathbookfi-org/01_chapters.json` (775968 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/ernest_becker_the_denial_of_deathbookfi-org/02_doctrine.json` (56524 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/ernest_becker_the_denial_of_deathbookfi-org/02_doctrine_chunks.json` (36136 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/ernest_becker_the_denial_of_deathbookfi-org/02_doctrine_errors.log` (23188 bytes) :: text lines=289; words=2800
+- `ingestion/v2/rag_storage/ernest_becker_the_denial_of_deathbookfi-org/03_5_minister_errors.log` (2311 bytes) :: text lines=47; words=167
+- `ingestion/v2/rag_storage/ernest_becker_the_denial_of_deathbookfi-org/03_embeddings.json` (331 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/ernest_becker_the_denial_of_deathbookfi-org/03_nodes_chunks.json` (13356 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/ernest_becker_the_denial_of_deathbookfi-org/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/extreme_ownership__how_us_navy_seals_lead_and_win/glyph_repair_2898146614114781885.txt` (5243 bytes) :: text lines=15; words=915
+- `ingestion/v2/rag_storage/extreme_ownership__how_us_navy_seals_lead_and_win/glyph_repair_4733129900231139990.txt` (1926 bytes) :: text lines=4; words=315
+- `ingestion/v2/rag_storage/extreme_ownership__how_us_navy_seals_lead_and_win/glyph_repair_5903988453719137471.txt` (3588 bytes) :: text lines=14; words=566
+- `ingestion/v2/rag_storage/extreme_ownership__how_us_navy_seals_lead_and_win/glyph_repair_889926229012906559.txt` (1742 bytes) :: text lines=7; words=290
+- `ingestion/v2/rag_storage/extreme_ownership__how_us_navy_seals_lead_and_win/progress.json` (325 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/f94cc-a-guide-to-the-good-life-the-ancient-art-of-stoic-joy-william-braxton-irvine/glyph_repair_2716354529812915701.txt` (1577 bytes) :: text lines=9; words=255
+- `ingestion/v2/rag_storage/f94cc-a-guide-to-the-good-life-the-ancient-art-of-stoic-joy-william-braxton-irvine/glyph_repair_333906601097893724.txt` (4542 bytes) :: text lines=3; words=740
+- `ingestion/v2/rag_storage/f94cc-a-guide-to-the-good-life-the-ancient-art-of-stoic-joy-william-braxton-irvine/glyph_repair_6464862799289382339.txt` (604 bytes) :: text lines=1; words=97
+- `ingestion/v2/rag_storage/f94cc-a-guide-to-the-good-life-the-ancient-art-of-stoic-joy-william-braxton-irvine/glyph_repair_6952445444919142034.txt` (1993 bytes) :: text lines=11; words=312
+- `ingestion/v2/rag_storage/f94cc-a-guide-to-the-good-life-the-ancient-art-of-stoic-joy-william-braxton-irvine/glyph_repair_7236022041559461268.txt` (772 bytes) :: text lines=1; words=122
+- `ingestion/v2/rag_storage/f94cc-a-guide-to-the-good-life-the-ancient-art-of-stoic-joy-william-braxton-irvine/progress.json` (327 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/mans-search-for-meaning/00_canonical_text.txt` (269642 bytes) :: text lines=3372; words=46117
+- `ingestion/v2/rag_storage/mans-search-for-meaning/00_raw.txt` (269642 bytes) :: text lines=3372; words=46117
+- `ingestion/v2/rag_storage/mans-search-for-meaning/01_chapters.json` (272192 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/mans-search-for-meaning/02_doctrine.json` (5419 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/mans-search-for-meaning/02_doctrine_chunks.json` (2124 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/mans-search-for-meaning/02_doctrine_errors.log` (2027 bytes) :: text lines=25; words=248
+- `ingestion/v2/rag_storage/mans-search-for-meaning/03_5_minister_errors.log` (1043 bytes) :: text lines=18; words=77
+- `ingestion/v2/rag_storage/mans-search-for-meaning/03_embeddings.json` (319 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/mans-search-for-meaning/03_nodes_chunks.json` (2 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/mans-search-for-meaning/progress.json` (320 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/milan_kundera_-_the_unbearable_lightness_of_being/00_canonical_text.txt` (495075 bytes) :: text lines=6487; words=88726
+- `ingestion/v2/rag_storage/milan_kundera_-_the_unbearable_lightness_of_being/00_raw.txt` (495075 bytes) :: text lines=6487; words=88726
+- `ingestion/v2/rag_storage/milan_kundera_-_the_unbearable_lightness_of_being/01_chapters.json` (499666 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/milan_kundera_-_the_unbearable_lightness_of_being/02_doctrine.json` (11405 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/milan_kundera_-_the_unbearable_lightness_of_being/02_doctrine_chunks.json` (8181 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/milan_kundera_-_the_unbearable_lightness_of_being/02_doctrine_errors.log` (3932 bytes) :: text lines=50; words=497
+- `ingestion/v2/rag_storage/milan_kundera_-_the_unbearable_lightness_of_being/03_5_minister_errors.log` (2313 bytes) :: text lines=47; words=167
+- `ingestion/v2/rag_storage/milan_kundera_-_the_unbearable_lightness_of_being/03_embeddings.json` (331 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/milan_kundera_-_the_unbearable_lightness_of_being/03_nodes_chunks.json` (1621 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/milan_kundera_-_the_unbearable_lightness_of_being/progress.json` (320 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/modern-man-in-search-of-a-soul-stages-of-life-1/00_canonical_text.txt` (539690 bytes) :: text lines=9525; words=89976
+- `ingestion/v2/rag_storage/modern-man-in-search-of-a-soul-stages-of-life-1/00_raw.txt` (539690 bytes) :: text lines=9525; words=89976
+- `ingestion/v2/rag_storage/modern-man-in-search-of-a-soul-stages-of-life-1/01_chapters.json` (547730 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/modern-man-in-search-of-a-soul-stages-of-life-1/02_doctrine.json` (19231 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/modern-man-in-search-of-a-soul-stages-of-life-1/02_doctrine_chunks.json` (5253 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/modern-man-in-search-of-a-soul-stages-of-life-1/02_doctrine_errors.log` (8018 bytes) :: text lines=99; words=982
+- `ingestion/v2/rag_storage/modern-man-in-search-of-a-soul-stages-of-life-1/03_5_minister_errors.log` (2311 bytes) :: text lines=47; words=167
+- `ingestion/v2/rag_storage/modern-man-in-search-of-a-soul-stages-of-life-1/03_embeddings.json` (333 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/modern-man-in-search-of-a-soul-stages-of-life-1/03_nodes_chunks.json` (3228 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/modern-man-in-search-of-a-soul-stages-of-life-1/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/pathtowealthorli00hall/00_canonical_text.txt` (345132 bytes) :: text lines=1201; words=775
+- `ingestion/v2/rag_storage/pathtowealthorli00hall/00_raw.txt` (345132 bytes) :: text lines=1201; words=775
+- `ingestion/v2/rag_storage/pathtowealthorli00hall/01_chapters.json` (357038 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/pathtowealthorli00hall/02_doctrine.json` (39219 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/pathtowealthorli00hall/02_doctrine_chunks.json` (27827 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/pathtowealthorli00hall/02_doctrine_errors.log` (11553 bytes) :: text lines=153; words=1468
+- `ingestion/v2/rag_storage/pathtowealthorli00hall/03_5_minister_errors.log` (2313 bytes) :: text lines=47; words=167
+- `ingestion/v2/rag_storage/pathtowealthorli00hall/03_embeddings.json` (348 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/pathtowealthorli00hall/03_nodes_chunks.json` (23954 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/pathtowealthorli00hall/progress.json` (320 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/roadto/00_canonical_text.txt` (500678 bytes) :: text lines=8226; words=83556
+- `ingestion/v2/rag_storage/roadto/00_raw.txt` (500678 bytes) :: text lines=8226; words=83556
+- `ingestion/v2/rag_storage/roadto/01_chapters.json` (514332 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/roadto/02_doctrine.json` (33964 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/roadto/02_doctrine_chunks.json` (27015 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/roadto/02_doctrine_errors.log` (18010 bytes) :: text lines=224; words=2223
+- `ingestion/v2/rag_storage/roadto/03_5_minister_errors.log` (1043 bytes) :: text lines=18; words=77
+- `ingestion/v2/rag_storage/roadto/03_embeddings.json` (320 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/roadto/03_nodes_chunks.json` (2 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/roadto/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/the-communication-book-44-ideas-for-better-conversations-every-day-9781324001997-1324001992_compress/00_canonical_text.txt` (109824 bytes) :: text lines=1810; words=17958
+- `ingestion/v2/rag_storage/the-communication-book-44-ideas-for-better-conversations-every-day-9781324001997-1324001992_compress/00_raw.txt` (109824 bytes) :: text lines=1810; words=17958
+- `ingestion/v2/rag_storage/the-communication-book-44-ideas-for-better-conversations-every-day-9781324001997-1324001992_compress/01_chapters.json` (115866 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/the-communication-book-44-ideas-for-better-conversations-every-day-9781324001997-1324001992_compress/02_doctrine.json` (16012 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/the-communication-book-44-ideas-for-better-conversations-every-day-9781324001997-1324001992_compress/02_doctrine_chunks.json` (4782 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/the-communication-book-44-ideas-for-better-conversations-every-day-9781324001997-1324001992_compress/02_doctrine_errors.log` (4620 bytes) :: text lines=60; words=571
+- `ingestion/v2/rag_storage/the-communication-book-44-ideas-for-better-conversations-every-day-9781324001997-1324001992_compress/03_5_minister_errors.log` (1043 bytes) :: text lines=18; words=77
+- `ingestion/v2/rag_storage/the-communication-book-44-ideas-for-better-conversations-every-day-9781324001997-1324001992_compress/03_embeddings.json` (319 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/the-communication-book-44-ideas-for-better-conversations-every-day-9781324001997-1324001992_compress/03_nodes_chunks.json` (2 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/the-communication-book-44-ideas-for-better-conversations-every-day-9781324001997-1324001992_compress/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/the-millionaire-fastlane/00_canonical_text.txt` (735529 bytes) :: text lines=10606; words=122146
+- `ingestion/v2/rag_storage/the-millionaire-fastlane/00_raw.txt` (735529 bytes) :: text lines=10606; words=122146
+- `ingestion/v2/rag_storage/the-millionaire-fastlane/01_chapters.json` (758029 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/the-millionaire-fastlane/02_doctrine.json` (62405 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/the-millionaire-fastlane/02_doctrine_chunks.json` (16093 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/the-millionaire-fastlane/02_doctrine_errors.log` (28697 bytes) :: text lines=367; words=3547
+- `ingestion/v2/rag_storage/the-millionaire-fastlane/03_5_minister_errors.log` (2311 bytes) :: text lines=47; words=167
+- `ingestion/v2/rag_storage/the-millionaire-fastlane/03_embeddings.json` (332 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/the-millionaire-fastlane/03_nodes_chunks.json` (667 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/the-millionaire-fastlane/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/the_magic_of_thinking_big/00_canonical_text.txt` (493390 bytes) :: text lines=7258; words=82782
+- `ingestion/v2/rag_storage/the_magic_of_thinking_big/00_raw.txt` (493390 bytes) :: text lines=7258; words=82782
+- `ingestion/v2/rag_storage/the_magic_of_thinking_big/01_chapters.json` (501991 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/the_magic_of_thinking_big/02_doctrine.json` (22587 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/the_magic_of_thinking_big/02_doctrine_chunks.json` (7020 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/the_magic_of_thinking_big/02_doctrine_errors.log` (11547 bytes) :: text lines=145; words=1426
+- `ingestion/v2/rag_storage/the_magic_of_thinking_big/03_5_minister_errors.log` (1043 bytes) :: text lines=18; words=77
+- `ingestion/v2/rag_storage/the_magic_of_thinking_big/03_embeddings.json` (320 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/the_magic_of_thinking_big/03_nodes_chunks.json` (2 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/the_magic_of_thinking_big/progress.json` (320 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_/00_canonical_text.txt` (583563 bytes) :: text lines=9434; words=89362
+- `ingestion/v2/rag_storage/think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_/00_raw.txt` (583563 bytes) :: text lines=9434; words=89362
+- `ingestion/v2/rag_storage/think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_/01_chapters.json` (600861 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_/02_doctrine.json` (51662 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_/02_doctrine_chunks.json` (34117 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_/02_doctrine_errors.log` (16911 bytes) :: text lines=210; words=2076
+- `ingestion/v2/rag_storage/think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_/03_5_minister_errors.log` (2311 bytes) :: text lines=47; words=167
+- `ingestion/v2/rag_storage/think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_/03_embeddings.json` (332 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/rag_storage/think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_/03_nodes_chunks.json` (30120 bytes) :: json_valid=True; json_type=list
+- `ingestion/v2/rag_storage/think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_/progress.json` (321 bytes) :: json_valid=True; json_type=dict
+- `ingestion/v2/run_all_v2_ingest.py` (1612 bytes) :: py lines=49; classes=0; funcs=1
+- `ingestion/v2/scripts/generate_chapters_fallback.py` (968 bytes) :: py lines=22; classes=0; funcs=0
+- `ingestion/v2/src/ASYNC_PIPELINE_GUIDE.py` (17753 bytes) :: py lines=406; classes=0; funcs=0
+- `ingestion/v2/src/DELIVERABLES.md` (10392 bytes) :: text lines=325; words=1108
+- `ingestion/v2/src/IMPLEMENTATION_REPORT.md` (13973 bytes) :: text lines=441; words=1716
+- `ingestion/v2/src/IMPLEMENTATION_SUMMARY.txt` (15599 bytes) :: text lines=330; words=1267
+- `ingestion/v2/src/INTEGRATION_GUIDE.md` (13858 bytes) :: text lines=405; words=1461
+- `ingestion/v2/src/README_ASYNC_PIPELINE.md` (10296 bytes) :: text lines=422; words=1176
+- `ingestion/v2/src/README_PRODUCTION_PIPELINE.md` (14320 bytes) :: text lines=534; words=1441
+- `ingestion/v2/src/VERIFICATION_CHECKLIST.md` (6027 bytes) :: text lines=205; words=827
+- `ingestion/v2/src/__init__.py` (2164 bytes) :: py lines=86; classes=0; funcs=0
+- `ingestion/v2/src/adaptive_controller.py` (10217 bytes) :: py lines=277; classes=5; funcs=16
+- `ingestion/v2/src/async_doctrine_workers.py` (8710 bytes) :: py lines=235; classes=0; funcs=3
+- `ingestion/v2/src/async_ingest_config.py` (2126 bytes) :: py lines=78; classes=1; funcs=1
+- `ingestion/v2/src/async_ingest_orchestrator.py` (8219 bytes) :: py lines=220; classes=1; funcs=5
+- `ingestion/v2/src/async_ingestion_orchestrator.py` (13200 bytes) :: py lines=385; classes=4; funcs=16
+- `ingestion/v2/src/async_workers.py` (20345 bytes) :: py lines=570; classes=0; funcs=10
+- `ingestion/v2/src/benchmark_harness.py` (14850 bytes) :: py lines=411; classes=4; funcs=22
+- `ingestion/v2/src/capital_allocation.py` (10545 bytes) :: py lines=297; classes=1; funcs=9
+- `ingestion/v2/src/chapter_splitter.py` (6169 bytes) :: py lines=215; classes=0; funcs=3
+- `ingestion/v2/src/config.py` (6875 bytes) :: py lines=167; classes=0; funcs=0
+- `ingestion/v2/src/demo_async_pipeline.py` (2430 bytes) :: py lines=74; classes=0; funcs=2
+- `ingestion/v2/src/distributed_queue.py` (11406 bytes) :: py lines=351; classes=4; funcs=32
+- `ingestion/v2/src/doctrine_extractor.py` (17721 bytes) :: py lines=471; classes=0; funcs=7
+- `ingestion/v2/src/embeddings.py` (6789 bytes) :: py lines=218; classes=0; funcs=3
+- `ingestion/v2/src/ingest_metrics.py` (3871 bytes) :: py lines=114; classes=1; funcs=14
+- `ingestion/v2/src/ingest_pipeline.py` (33923 bytes) :: py lines=829; classes=0; funcs=12
+- `ingestion/v2/src/ingest_workers.py` (11531 bytes) :: py lines=346; classes=5; funcs=22
+- `ingestion/v2/src/ingestion_config.py` (10638 bytes) :: py lines=359; classes=7; funcs=4
+- `ingestion/v2/src/ingestion_kis_enhancer.py` (15157 bytes) :: py lines=444; classes=2; funcs=11
+- `ingestion/v2/src/integration_examples.py` (10594 bytes) :: py lines=325; classes=1; funcs=11
+- `ingestion/v2/src/memory_db.py` (7609 bytes) :: py lines=221; classes=1; funcs=16
+- `ingestion/v2/src/minister_converter.py` (13119 bytes) :: py lines=359; classes=0; funcs=5
+- `ingestion/v2/src/minister_vector_db.py` (6909 bytes) :: py lines=215; classes=1; funcs=7
+- `ingestion/v2/src/ollama_client.py` (7265 bytes) :: py lines=184; classes=1; funcs=4
+- `ingestion/v2/src/pdf_extraction.py` (2522 bytes) :: py lines=78; classes=0; funcs=3
+- `ingestion/v2/src/progress_tracker.py` (2896 bytes) :: py lines=106; classes=0; funcs=2
+- `ingestion/v2/src/quickstart.py` (10693 bytes) :: py lines=320; classes=0; funcs=5
+- `ingestion/v2/src/rate_controller.py` (4603 bytes) :: py lines=128; classes=1; funcs=10
+- `ingestion/v2/src/utils.py` (3935 bytes) :: py lines=153; classes=0; funcs=7
+- `ingestion/v2/src/vector_db.py` (6957 bytes) :: py lines=197; classes=1; funcs=11
+- `ingestion/v2/src/verify_installation.py` (5468 bytes) :: py lines=190; classes=0; funcs=0
+
+## data (317 files)
+
+- Extension mix: .json:209, .pdf:61, .yaml:20, .index:18, .jsonl:8, .log:1
+
+- `data/books/16-05-2021-070111The-Richest-Man-in-Babylon.pdf` (1576497 bytes) :: binary
+- `data/books/20090526_TNA13Crawford2009.pdf` (194885 bytes) :: binary
+- `data/books/2950_Daniel Kahneman - Thinking, Fast and Slow (2013).pdf` (3021431 bytes) :: binary
+- `data/books/33449.pdf` (1210913 bytes) :: binary
+- `data/books/64b13492db952-the-daily-stoic.pdf` (2725248 bytes) :: binary
+- `data/books/9780262353946_caa.pdf` (492428 bytes) :: binary
+- `data/books/Being in Love.pdf` (933631 bytes) :: binary
+- `data/books/Beyond good and evil.pdf` (6790130 bytes) :: binary
+- `data/books/CAMUS, Albert - The Stranger.pdf` (550049 bytes) :: binary
+- `data/books/Cioran, E. M. - Trouble With Being Born (Seaver, 2011).pdf` (1061930 bytes) :: binary
+- `data/books/ClearThinking.pdf` (6389931 bytes) :: binary
+- `data/books/Collins-2001-Good-to-Great-Why-Some-Companies-Make-the-Leap...and-Others-Dont_.pdf` (7702978 bytes) :: binary
+- `data/books/Crime.pdf` (2352410 bytes) :: binary
+- `data/books/Crucial Conversations.pdf` (2084008 bytes) :: binary
+- `data/books/Deep Work.pdf` (1594739 bytes) :: binary
+- `data/books/Do It Today.pdf` (753032 bytes) :: binary
+- `data/books/E001005.pdf` (1383132 bytes) :: binary
+- `data/books/Felix-Dennis-How-to-Get-Rich.pdf` (1142033 bytes) :: binary
+- `data/books/Finish_What_You_Start_The_Art_of_Following_Through_Taking_Action.pdf` (635162 bytes) :: binary
+- `data/books/Finite-and-Infinite-Games-by-James-Carse.pdf` (8009574 bytes) :: binary
+- `data/books/How To Win Friends And Influence People - Carnegie, Dale.pdf` (1624097 bytes) :: binary
+- `data/books/How to Not Die Alone.pdf` (5719047 bytes) :: binary
+- `data/books/Jacques Ellul - The Technological Society.pdf` (11689365 bytes) :: binary
+- `data/books/Letters from a Stoic 1.pdf` (9239490 bytes) :: binary
+- `data/books/Machiavelli,+The+Prince.pdf` (2860352 bytes) :: binary
+- `data/books/Man and his Symbols ( PDFDrive ).pdf` (62391741 bytes) :: binary
+- `data/books/Marcus-Aurelius-Meditations.pdf` (1986376 bytes) :: binary
+- `data/books/Mastery by Robert Greene.pdf` (1815979 bytes) :: binary
+- `data/books/Men-are-from-mars-women-are-from-venus.pdf` (1254315 bytes) :: binary
+- `data/books/NeilPostman-AmusingOurselvesToDeath.pdf` (3821883 bytes) :: binary
+- `data/books/No-Excuses-The-Power-of-Self-Discipline-by-Brian-Tracy.pdf` (1967169 bytes) :: binary
+- `data/books/Notes-from-Underground-Extract.pdf` (2701687 bytes) :: binary
+- `data/books/Ortega_y_Gasset_Jose_The_Revolt_of_the_Masses.pdf` (23246967 bytes) :: binary
+- `data/books/Poor Charlie’s Almanack_ The Wit and Wisdom of Charles T. Munger ( PDFDrive ).pdf` (2332085 bytes) :: binary
+- `data/books/Seamos_personas_de_Infliuencia.pdf` (356862 bytes) :: binary
+- `data/books/Summary-of-SGTCIY-pdf.pdf` (172619 bytes) :: binary
+- `data/books/SuperThinking.pdf` (10326801 bytes) :: binary
+- `data/books/The Courage To Be Disliked.pdf` (2451180 bytes) :: binary
+- `data/books/The Diary of a CEO_ 33 Laws of Business and Life (2023).pdf` (9893255 bytes) :: binary
+- `data/books/The Myth of Sisyphus - Albert Camus.pdf` (1246909 bytes) :: binary
+- `data/books/The Psychology of Persuasion.pdf` (3574104 bytes) :: binary
+- `data/books/ThePersonalMBA10thAnniversaryEdition.pdf` (8683628 bytes) :: binary
+- `data/books/TheRighteousMind.pdf` (7418525 bytes) :: binary
+- `data/books/The_Psychology_of_Money.pdf` (2953539 bytes) :: binary
+- `data/books/Thus spoke Zarathustra.pdf` (13775442 bytes) :: binary
+- `data/books/Win-Your-Inner-Battles.pdf` (650467 bytes) :: binary
+- `data/books/Your Next Five Moves Patrick Bet David.pdf` (6774563 bytes) :: binary
+- `data/books/_OceanofPDF.com_The_art_of_laziness_-_Library_Mindset.pdf` (591860 bytes) :: binary
+- `data/books/crowdastudypopu00bongoog.pdf` (3005323 bytes) :: binary
+- `data/books/ernest_becker_the_denial_of_deathbookfi-org.pdf` (8505880 bytes) :: binary
+- `data/books/extreme_ownership__how_us_navy_seals_lead_and_win.pdf` (2381718 bytes) :: binary
+- `data/books/f94cc-a-guide-to-the-good-life-the-ancient-art-of-stoic-joy-william-braxton-irvine.pdf` (722387 bytes) :: binary
+- `data/books/mans-search-for-meaning.pdf` (323804 bytes) :: binary
+- `data/books/milan_kundera_-_the_unbearable_lightness_of_being.pdf` (673655 bytes) :: binary
+- `data/books/modern-man-in-search-of-a-soul-stages-of-life-1.pdf` (11085845 bytes) :: binary
+- `data/books/pathtowealthorli00hall.pdf` (21896100 bytes) :: binary
+- `data/books/roadto.pdf` (3307363 bytes) :: binary
+- `data/books/the-communication-book-44-ideas-for-better-conversations-every-day-9781324001997-1324001992_compress.pdf` (1607301 bytes) :: binary
+- `data/books/the-millionaire-fastlane.pdf` (3752691 bytes) :: binary
+- `data/books/the_magic_of_thinking_big.pdf` (1038821 bytes) :: binary
+- `data/books/think-again-the-power-of-knowing-what-you-dont-know-random-house-large-print-grant-adam-z-lib.org_.pdf` (27339075 bytes) :: binary
+- `data/conversations/llm_conversation_20260219_170916.json` (3379 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/llm_conversation_20260219_172345.json` (22095 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/llm_conversation_20260219_192944.json` (30711 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260217_222116.json` (2752 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_035416.json` (8718 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_040256.json` (13972 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_101857.json` (8055 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_104425.json` (12658 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_174532_s1.json` (9811 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_174801_s2.json` (5342 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_175123_s3.json` (5851 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_175504_s4.json` (5552 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_175811_s5.json` (5577 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_180140_s6.json` (4914 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_180439_s7.json` (4908 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_180746_s8.json` (4796 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_181126_s9.json` (4605 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_181452_s10.json` (4607 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_181806_s11.json` (4537 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_182116_s12.json` (4375 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_182409_s13.json` (4623 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_182708_s14.json` (4265 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_183012_s15.json` (4265 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_183347_s16.json` (4340 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_183728_s17.json` (4799 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_184033_s18.json` (4849 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_184342_s19.json` (4123 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_184643_s20.json` (4100 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_185021_s21.json` (4216 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_185328_s22.json` (4224 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_185700_s23.json` (4236 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_190044_s24.json` (3939 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_190337_s25.json` (3927 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_190637_s26.json` (4149 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_190946_s27.json` (4151 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_191229_s28.json` (4307 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_191529_s29.json` (3735 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_191837_s30.json` (3688 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_192124_s31.json` (3695 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_192434_s32.json` (3704 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_192734_s33.json` (3787 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_193125_s34.json` (3833 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_193434_s35.json` (3759 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_193753_s36.json` (3759 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_194137_s37.json` (4030 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_194513_s38.json` (4275 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_195313_s39.json` (9215 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_195621_s40.json` (4990 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_195939_s41.json` (4992 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_200322_s42.json` (4377 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_200633_s43.json` (4532 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_200951_s44.json` (3796 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_201300_s45.json` (4048 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_201607_s46.json` (3894 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_201932_s47.json` (4306 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_202357_s48.json` (4292 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_202845_s49.json` (4247 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_203222_s50.json` (5739 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_203535_s51.json` (4303 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_203922_s52.json` (4256 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_204238_s53.json` (4426 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_204602_s54.json` (3612 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_204927_s55.json` (3884 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_205309_s56.json` (3730 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_205621_s57.json` (3815 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_205950_s58.json` (3812 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_210255_s59.json` (3626 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_211058_s60.json` (8232 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_211912_s61.json` (9312 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_212653_s62.json` (10110 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_212954_s63.json` (4850 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_213302_s64.json` (4841 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_213627_s65.json` (4848 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_214012_s66.json` (4843 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_214316_s67.json` (4846 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_214630_s68.json` (4755 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_215310_s69.json` (8087 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_215634_s70.json` (4914 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_220030_s71.json` (4705 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_220355_s72.json` (4647 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_220718_s73.json` (4885 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_220942_s74.json` (2532 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_221748_s75.json` (8700 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_222113_s76.json` (4276 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_222518_s77.json` (4195 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_222922_s78.json` (4229 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_223309_s79.json` (4413 bytes) :: json_valid=True; json_type=dict
+- `data/conversations/uc_20260218_223656_s80.json` (4328 bytes) :: json_valid=True; json_type=dict
+- `data/doctrine/locked/adaptation.yaml` (3343 bytes) :: text lines=104; words=392
+- `data/doctrine/locked/conflict.yaml` (3459 bytes) :: text lines=109; words=401
+- `data/doctrine/locked/data.yaml` (3228 bytes) :: text lines=106; words=375
+- `data/doctrine/locked/diplomacy.yaml` (3602 bytes) :: text lines=110; words=421
+- `data/doctrine/locked/discipline.yaml` (3064 bytes) :: text lines=102; words=356
+- `data/doctrine/locked/grand_strategist.yaml` (3842 bytes) :: text lines=107; words=458
+- `data/doctrine/locked/intelligence.yaml` (3126 bytes) :: text lines=98; words=358
+- `data/doctrine/locked/legitimacy.yaml` (6512 bytes) :: text lines=185; words=749
+- `data/doctrine/locked/n.yaml` (5313 bytes) :: text lines=158; words=666
+- `data/doctrine/locked/narrative.yaml` (3554 bytes) :: text lines=106; words=425
+- `data/doctrine/locked/optionality.yaml` (6286 bytes) :: text lines=197; words=732
+- `data/doctrine/locked/power.yaml` (3155 bytes) :: text lines=105; words=381
+- `data/doctrine/locked/psychology.yaml` (3186 bytes) :: text lines=106; words=371
+- `data/doctrine/locked/risk_resources.yaml` (3119 bytes) :: text lines=101; words=375
+- `data/doctrine/locked/sovereign.yaml` (2377 bytes) :: text lines=64; words=275
+- `data/doctrine/locked/technology.yaml` (3371 bytes) :: text lines=115; words=393
+- `data/doctrine/locked/timing.yaml` (3339 bytes) :: text lines=107; words=396
+- `data/doctrine/locked/tribunal.yaml` (1797 bytes) :: text lines=63; words=155
+- `data/doctrine/locked/truth.yaml` (6388 bytes) :: text lines=193; words=738
+- `data/doctrine/locked/war_mode.yaml` (1615 bytes) :: text lines=78; words=131
+- `data/learning_insights/learning-insights.jsonl` (3249 bytes) :: text lines=2; words=278
+- `data/learning_insights/weak-domains.json` (271 bytes) :: json_valid=True; json_type=dict
+- `data/memory/arc_timeline.json` (4 bytes) :: json_valid=True; json_type=dict
+- `data/memory/contradictions.json` (4 bytes) :: json_valid=True; json_type=list
+- `data/memory/episodes.jsonl` (154582 bytes) :: text lines=178; words=18917
+- `data/memory/metrics.jsonl` (47576 bytes) :: text lines=178; words=5122
+- `data/memory/patterns.json` (4 bytes) :: json_valid=True; json_type=dict
+- `data/memory/simulation_report_llm_smoke.json` (2753 bytes) :: json_valid=True; json_type=dict
+- `data/memory/simulation_report_smoke.json` (4984 bytes) :: json_valid=True; json_type=dict
+- `data/memory/test_episodes.jsonl` (1692 bytes) :: text lines=4; words=140
+- `data/memory/test_episodes_ml.jsonl` (34785 bytes) :: text lines=90; words=2700
+- `data/memory/test_metrics.jsonl` (6560 bytes) :: text lines=40; words=560
+- `data/memory/test_metrics_ml.jsonl` (4954 bytes) :: text lines=30; words=450
+- `data/memory/trace.log` (8857 bytes) :: text lines=48; words=755
+- `data/memory_db_stub.json` (194 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/adaptation/claims.json` (260314 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/adaptation/doctrine.json` (601838 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/adaptation/principles.json` (283603 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/adaptation/rules.json` (283088 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/adaptation/vector.index` (4 bytes) :: binary
+- `data/ministers/adaptation/warnings.json` (269324 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/base/claims.json` (1968 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/base/doctrine.json` (5318 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/base/principles.json` (2587 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/base/rules.json` (2639 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/base/vector.index` (4 bytes) :: binary
+- `data/ministers/base/warnings.json` (1937 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/conflict/claims.json` (135242 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/conflict/doctrine.json` (312246 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/conflict/principles.json` (151092 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/conflict/rules.json` (148682 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/conflict/vector.index` (4 bytes) :: binary
+- `data/ministers/conflict/warnings.json` (142675 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/constraints/claims.json` (357789 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/constraints/doctrine.json` (828498 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/constraints/principles.json` (385575 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/constraints/rules.json` (391647 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/constraints/vector.index` (4 bytes) :: binary
+- `data/ministers/constraints/warnings.json` (365459 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/data/claims.json` (34053 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/data/doctrine.json` (82150 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/data/principles.json` (36461 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/data/rules.json` (36380 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/data/vector.index` (4 bytes) :: binary
+- `data/ministers/data/warnings.json` (34132 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/diplomacy/claims.json` (170 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/diplomacy/doctrine.json` (348 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/diplomacy/principles.json` (174 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/diplomacy/rules.json` (169 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/diplomacy/vector.index` (4 bytes) :: binary
+- `data/ministers/diplomacy/warnings.json` (172 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/discipline/claims.json` (212471 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/discipline/doctrine.json` (479897 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/discipline/principles.json` (229630 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/discipline/rules.json` (230150 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/discipline/vector.index` (4 bytes) :: binary
+- `data/ministers/discipline/warnings.json` (217219 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/execution/claims.json` (16458 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/execution/doctrine.json` (39730 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/execution/principles.json` (16993 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/execution/rules.json` (16469 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/execution/warnings.json` (16199 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/executor/claims.json` (40286 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/executor/doctrine.json` (92946 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/executor/principles.json` (43792 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/executor/rules.json` (45659 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/executor/vector.index` (4 bytes) :: binary
+- `data/ministers/executor/warnings.json` (43583 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/legitimacy/claims.json` (32016 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/legitimacy/doctrine.json` (74100 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/legitimacy/principles.json` (33905 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/legitimacy/rules.json` (35378 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/legitimacy/vector.index` (4 bytes) :: binary
+- `data/ministers/legitimacy/warnings.json` (34044 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/optionality/claims.json` (132964 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/optionality/doctrine.json` (306049 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/optionality/principles.json` (140292 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/optionality/rules.json` (144764 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/optionality/vector.index` (4 bytes) :: binary
+- `data/ministers/optionality/warnings.json` (135686 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/power/claims.json` (266777 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/power/doctrine.json` (614875 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/power/principles.json` (291487 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/power/rules.json` (290558 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/power/vector.index` (4 bytes) :: binary
+- `data/ministers/power/warnings.json` (269834 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/psychology/claims.json` (213970 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/psychology/doctrine.json` (497408 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/psychology/principles.json` (224484 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/psychology/rules.json` (229349 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/psychology/vector.index` (4 bytes) :: binary
+- `data/ministers/psychology/warnings.json` (219533 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/registry/claims.json` (169 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/registry/doctrine.json` (347 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/registry/principles.json` (173 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/registry/rules.json` (168 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/registry/vector.index` (4 bytes) :: binary
+- `data/ministers/registry/warnings.json` (171 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/risk/claims.json` (283891 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/risk/doctrine.json` (641748 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/risk/principles.json` (309619 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/risk/rules.json` (307192 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/risk/vector.index` (4 bytes) :: binary
+- `data/ministers/risk/warnings.json` (290686 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/strategy/claims.json` (377091 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/strategy/doctrine.json` (863563 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/strategy/principles.json` (414291 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/strategy/rules.json` (415980 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/strategy/vector.index` (4 bytes) :: binary
+- `data/ministers/strategy/warnings.json` (386069 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/technology/claims.json` (24705 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/technology/doctrine.json` (58229 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/technology/principles.json` (24367 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/technology/rules.json` (25176 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/technology/vector.index` (4 bytes) :: binary
+- `data/ministers/technology/warnings.json` (24783 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/timing/claims.json` (134618 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/timing/doctrine.json` (313808 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/timing/principles.json` (142785 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/timing/rules.json` (146796 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/timing/vector.index` (4 bytes) :: binary
+- `data/ministers/timing/warnings.json` (136161 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/truth/claims.json` (87935 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/truth/doctrine.json` (196995 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/truth/principles.json` (92772 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/truth/rules.json` (92797 bytes) :: json_valid=True; json_type=dict
+- `data/ministers/truth/vector.index` (4 bytes) :: binary
+- `data/ministers/truth/warnings.json` (90046 bytes) :: json_valid=True; json_type=dict
+- `data/sessions/completed/session_session_1365443524_a200aa6a.json` (2231 bytes) :: json_valid=True; json_type=dict
+- `data/sessions/completed/session_session_1365443565_a9eaf33a.json` (538 bytes) :: json_valid=True; json_type=dict
+- `data/sessions/completed/session_session_1365443566_44a8b8b1.json` (550 bytes) :: json_valid=True; json_type=dict
+- `data/sessions/completed/session_session_1365443567_d66dd3af.json` (562 bytes) :: json_valid=True; json_type=dict
+- `data/sessions/completed/session_session_1365443568_2903f950.json` (569 bytes) :: json_valid=True; json_type=dict
+- `data/sessions/completed/session_session_1365943051_5de42df2.json` (10591 bytes) :: json_valid=True; json_type=dict
+- `data/sessions/completed/session_session_1365953683_5de42df2.json` (10591 bytes) :: json_valid=True; json_type=dict
+- `data/sessions/completed/session_session_1365971777_5de42df2.json` (10591 bytes) :: json_valid=True; json_type=dict
+- `data/sessions/completed/session_session_1366021208_905a409d.json` (10553 bytes) :: json_valid=True; json_type=dict
+- `data/sessions/completed/session_session_1366296290_5de42df2.json` (2188 bytes) :: json_valid=True; json_type=dict
+- `data/sessions/completed/session_session_1366350163_5de42df2.json` (2188 bytes) :: json_valid=True; json_type=dict
+- `data/sessions/completed/session_session_1366395533_5de42df2.json` (1470 bytes) :: json_valid=True; json_type=dict
+- `data/sessions/completed/session_session_1366417915_7dac6ff1.json` (2976 bytes) :: json_valid=True; json_type=dict
+- `data/sessions/completed/session_session_1366436961_7b8b965a.json` (2206 bytes) :: json_valid=True; json_type=dict
+- `data/sessions/completed/session_session_1366458912_7b8b965a.json` (1444 bytes) :: json_valid=True; json_type=dict
+- `data/sessions/completed/session_session_1366503189_cfe996e8.json` (1410 bytes) :: json_valid=True; json_type=dict
+- `data/sessions/completed/session_session_1366588490_2dd9cd7b.json` (1418 bytes) :: json_valid=True; json_type=dict
+- `data/sessions/completed/session_session_1366598545_7fa3b767.json` (4065 bytes) :: json_valid=True; json_type=dict
+- `data/sessions/consequences.jsonl` (443 bytes) :: text lines=2; words=41
+- `data/vector_db_stub.json` (219323 bytes) :: json_valid=True; json_type=dict
+
+## evaluation (210 files)
+
+- Extension mix: .json:106, .md:33, .py:30, .log:26, .pid:7, .pt:3, .svg:3, .txt:1, .zip:1
+
+- `evaluation/BENCHMARK_README.md` (9585 bytes) :: text lines=350; words=1158
+- `evaluation/EVALUATION_GUIDE.md` (10829 bytes) :: text lines=393; words=1072
+- `evaluation/GAPS_FIXED.md` (17744 bytes) :: text lines=567; words=1978
+- `evaluation/INTEGRATION_CHECKLIST.md` (9805 bytes) :: text lines=349; words=1068
+- `evaluation/MODEL_VERSION.json` (1513 bytes) :: json_valid=True; json_type=dict
+- `evaluation/__init__.py` (1101 bytes) :: py lines=38; classes=0; funcs=1
+- `evaluation/adversarial_user_simulator.py` (7162 bytes) :: py lines=180; classes=2; funcs=5
+- `evaluation/analyze_kis_failure_mode.py` (15305 bytes) :: py lines=372; classes=0; funcs=8
+- `evaluation/analyze_minister_similarity.py` (7889 bytes) :: py lines=228; classes=0; funcs=8
+- `evaluation/baselines/ERA_v2.0_diversity_baseline/PHASE2_ROBUSTNESS_REPORT.md` (799 bytes) :: text lines=28; words=118
+- `evaluation/baselines/ERA_v2.0_diversity_baseline/TAG.txt` (29 bytes) :: text lines=1; words=1
+- `evaluation/baselines/ERA_v2.0_diversity_baseline/baseline_lock.json` (6134 bytes) :: json_valid=True; json_type=dict
+- `evaluation/baselines/ERA_v2.0_diversity_baseline/phase2_robustness_results.json` (599927 bytes) :: json_valid=True; json_type=dict
+- `evaluation/baselines/ERA_v2.0_diversity_baseline/split_manifest_seed42.json` (6976 bytes) :: json_valid=True; json_type=dict
+- `evaluation/benchmark_dataset/adversarial.json` (5847 bytes) :: json_valid=True; json_type=list
+- `evaluation/benchmark_dataset/dataset_manifest.json` (1311 bytes) :: json_valid=True; json_type=dict
+- `evaluation/benchmark_dataset/emotional.json` (21312 bytes) :: json_valid=True; json_type=list
+- `evaluation/benchmark_dataset/irreversible.json` (22301 bytes) :: json_valid=True; json_type=list
+- `evaluation/benchmark_dataset/long_horizon.json` (21037 bytes) :: json_valid=True; json_type=list
+- `evaluation/benchmark_dataset/ood.json` (20067 bytes) :: json_valid=True; json_type=list
+- `evaluation/benchmark_dataset/split_manifest_seed42.json` (6976 bytes) :: json_valid=True; json_type=dict
+- `evaluation/benchmark_dataset/strategic.json` (20887 bytes) :: json_valid=True; json_type=list
+- `evaluation/build_kis2_index.py` (1902 bytes) :: py lines=67; classes=0; funcs=1
+- `evaluation/build_phase2_gating_dataset.py` (13604 bytes) :: py lines=377; classes=0; funcs=7
+- `evaluation/create_split_manifest.py` (6974 bytes) :: py lines=210; classes=0; funcs=4
+- `evaluation/distribution_shift.py` (3994 bytes) :: py lines=121; classes=1; funcs=6
+- `evaluation/evaluate_phase2_gates.py` (9650 bytes) :: py lines=293; classes=0; funcs=7
+- `evaluation/evaluation_runner.py` (27172 bytes) :: py lines=640; classes=2; funcs=14
+- `evaluation/freeze_diversity_baseline.py` (4520 bytes) :: py lines=142; classes=0; funcs=3
+- `evaluation/gate_milestone3.py` (16533 bytes) :: py lines=412; classes=0; funcs=5
+- `evaluation/gating_model.py` (11248 bytes) :: py lines=319; classes=2; funcs=12
+- `evaluation/gating_support.py` (19227 bytes) :: py lines=549; classes=1; funcs=23
+- `evaluation/kis2_retrieval.py` (15486 bytes) :: py lines=417; classes=4; funcs=18
+- `evaluation/learned_uncertainty.py` (7110 bytes) :: py lines=184; classes=2; funcs=9
+- `evaluation/metrics/__init__.py` (126 bytes) :: py lines=7; classes=0; funcs=0
+- `evaluation/metrics/evaluation_metrics.py` (9792 bytes) :: py lines=269; classes=1; funcs=10
+- `evaluation/models/phase2_gating_model.meta.json` (34057 bytes) :: json_valid=True; json_type=dict
+- `evaluation/models/phase2_gating_model.pt` (17301 bytes) :: binary
+- `evaluation/models/phase2_gating_model_v2_aug4_embed.meta.json` (1754312 bytes) :: json_valid=True; json_type=dict
+- `evaluation/models/phase2_gating_model_v2_aug4_embed.pt` (487457 bytes) :: binary
+- `evaluation/models/phase2_gating_model_v2_aug6_embed.meta.json` (1754219 bytes) :: json_valid=True; json_type=dict
+- `evaluation/models/phase2_gating_model_v2_aug6_embed.pt` (487457 bytes) :: binary
+- `evaluation/models/uncertainty_predictor_compare_semantic.json` (17664 bytes) :: json_valid=True; json_type=dict
+- `evaluation/models/uncertainty_predictor_compare_semantic_q30.json` (17705 bytes) :: json_valid=True; json_type=dict
+- `evaluation/models/uncertainty_predictor_compare_strict.json` (17647 bytes) :: json_valid=True; json_type=dict
+- `evaluation/models/uncertainty_predictor_compare_strict_q30.json` (17677 bytes) :: json_valid=True; json_type=dict
+- `evaluation/models/uncertainty_predictor_semantic_control_q30.json` (17711 bytes) :: json_valid=True; json_type=dict
+- `evaluation/models/uncertainty_predictor_semantic_full_q30.json` (17671 bytes) :: json_valid=True; json_type=dict
+- `evaluation/models/uncertainty_predictor_v1.json` (17627 bytes) :: json_valid=True; json_type=dict
+- `evaluation/red_team_governance.py` (4165 bytes) :: py lines=119; classes=0; funcs=3
+- `evaluation/reliability_analysis.py` (23963 bytes) :: py lines=605; classes=0; funcs=20
+- `evaluation/results/ERA_v1.0_FROZEN_BENCHMARK_REPORT.md` (1653 bytes) :: text lines=45; words=160
+- `evaluation/results/ERA_v1.1_CALIBRATED_BENCHMARK_REPORT.md` (1848 bytes) :: text lines=47; words=189
+- `evaluation/results/KIS2_AB_COMPARE_limit2_20260303.md` (940 bytes) :: text lines=17; words=86
+- `evaluation/results/KIS_FAILURE_MODE_DIAGNOSIS.md` (802 bytes) :: text lines=24; words=98
+- `evaluation/results/KIS_FAILURE_MODE_DIAGNOSIS_current_strict.md` (801 bytes) :: text lines=24; words=98
+- `evaluation/results/KIS_FAILURE_MODE_DIAGNOSIS_principle_activation_static.md` (4482 bytes) :: text lines=92; words=362
+- `evaluation/results/KIS_FAILURE_MODE_DIAGNOSIS_test_control.md` (782 bytes) :: text lines=24; words=98
+- `evaluation/results/KIS_FAILURE_MODE_DIAGNOSIS_test_control_leq06.md` (7871 bytes) :: text lines=155; words=606
+- `evaluation/results/MINISTER_SIMILARITY_REPORT.md` (943 bytes) :: text lines=23; words=94
+- `evaluation/results/PHASE2_GATE_REPORT.md` (1133 bytes) :: text lines=27; words=125
+- `evaluation/results/PHASE2_GATE_REPORT_caseA.md` (1153 bytes) :: text lines=27; words=125
+- `evaluation/results/PHASE2_GATE_REPORT_semantic_control.md` (1126 bytes) :: text lines=27; words=125
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT.md` (1173 bytes) :: text lines=43; words=173
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_control.md` (995 bytes) :: text lines=36; words=146
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_control_darbar_strengthened.md` (993 bytes) :: text lines=36; words=146
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_control_learned.md` (995 bytes) :: text lines=36; words=146
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_control_principle_activation_static.md` (995 bytes) :: text lines=36; words=146
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_control_runtime_percentile.md` (993 bytes) :: text lines=36; words=146
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_control_semantic.md` (995 bytes) :: text lines=36; words=146
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_limit2_kis1_20260303_091407.md` (1001 bytes) :: text lines=36; words=146
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_limit2_kis2_20260303_092203.md` (1177 bytes) :: text lines=43; words=173
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_no_control.md` (995 bytes) :: text lines=36; words=146
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_semantic_control.md` (994 bytes) :: text lines=36; words=146
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_semantic_control_kis2_u50_20260304_072214.md` (1173 bytes) :: text lines=43; words=173
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_test_semantic_no_control.md` (995 bytes) :: text lines=36; words=146
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_train_semantic_control.md` (994 bytes) :: text lines=36; words=146
+- `evaluation/results/PHASE2_ROBUSTNESS_REPORT_val_semantic_control.md` (1009 bytes) :: text lines=36; words=146
+- `evaluation/results/benchmark_results.json` (10249 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/frozen/ERA_v3.5_robust_control_validated/MANIFEST.json` (1242 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/frozen/ERA_v3.5_robust_control_validated/milestone3_gate_report_control_semantic_full.json` (2683 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/frozen/ERA_v3.5_robust_control_validated/phase2_robustness_results.json` (3785919 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/frozen/ERA_v3.5_robust_control_validated/phase4_unified_full_20260302_144852.err.log` (282990 bytes) :: text lines=2535; words=15834
+- `evaluation/results/frozen/ERA_v3.5_robust_control_validated/phase4_unified_full_20260302_144852.out.log` (3775 bytes) :: text lines=91; words=396
+- `evaluation/results/frozen/ERA_v3.5_robust_control_validated/phase4_unified_full_20260302_144852.pid` (7 bytes) :: 
+- `evaluation/results/frozen/ERA_v3.5_robust_control_validated/uncertainty_analysis_semantic_full_q30.json` (36947 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/frozen/ERA_v3_semantic_control_baseline/MANIFEST.json` (1104 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/frozen/ERA_v3_semantic_control_baseline/milestone3_gate_report_control_semantic_full.json` (2683 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/frozen/ERA_v3_semantic_control_baseline/phase2_robustness_results_test_semantic_control.json` (1029971 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/frozen/ERA_v3_semantic_control_baseline/phase2_robustness_results_train_semantic_control.json` (4203664 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/frozen/ERA_v3_semantic_control_baseline/phase2_robustness_results_val_semantic_control.json` (1051854 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/frozen/ERA_v3_semantic_control_baseline/uncertainty_analysis_semantic_full_q30.json` (36947 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/gating_dataset_train.err.log` (55501 bytes) :: text lines=425; words=2356
+- `evaluation/results/gating_dataset_train.json` (264756 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/gating_dataset_train.log` (770 bytes) :: text lines=16; words=58
+- `evaluation/results/gating_dataset_train.pid` (7 bytes) :: 
+- `evaluation/results/gating_dataset_train_aug4_embed.json` (10197200 bytes) :: json_valid=None; json_type=unknown_large
+- `evaluation/results/gating_dataset_train_aug6_embed.json` (14282446 bytes) :: json_valid=None; json_type=unknown_large
+- `evaluation/results/gating_dataset_val.json` (63838 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/gating_dataset_val_aug4_embed.json` (2442811 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/gating_dataset_val_aug6_embed.json` (3419417 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/kis2_ab_compare_limit2_20260303.json` (1638 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/kis2_full_test_20260303_094735.err.log` (8379 bytes) :: text lines=86; words=486
+- `evaluation/results/kis2_full_test_20260303_094735.out.log` (0 bytes) :: text lines=0; words=0
+- `evaluation/results/kis2_full_test_20260303_094735.pid` (7 bytes) :: 
+- `evaluation/results/kis_failure_mode_diagnosis.json` (3487 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/kis_failure_mode_diagnosis_current_strict.json` (3486 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/kis_failure_mode_diagnosis_principle_activation_static.json` (13382 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/kis_failure_mode_diagnosis_test_control.json` (3435 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/kis_failure_mode_diagnosis_test_control_leq06.json` (22597 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/logs/ollama_serve_20260222_185159.err.log` (3271 bytes) :: text lines=14; words=182
+- `evaluation/results/logs/ollama_serve_20260222_185159.out.log` (190 bytes) :: text lines=2; words=26
+- `evaluation/results/logs/step1_core_identity_20260222_162953.err.log` (6958 bytes) :: text lines=66; words=295
+- `evaluation/results/logs/step1_core_identity_20260222_162953.out.log` (0 bytes) :: text lines=0; words=0
+- `evaluation/results/logs/step1_core_identity_20260222_163256.log` (274424 bytes) :: text lines=2099; words=5366
+- `evaluation/results/logs/step1_core_identity_after_ollama_fix_20260222_224313.log` (472842 bytes) :: text lines=3111; words=12769
+- `evaluation/results/manual_inspection_5_hard_cases.json` (4821 bytes) :: json_valid=True; json_type=list
+- `evaluation/results/manual_inspection_5_hard_cases.md` (5320 bytes) :: text lines=101; words=505
+- `evaluation/results/milestone3_gate_report.json` (1450 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/milestone3_gate_report_control_darbar_strengthened.json` (2598 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/milestone3_gate_report_control_learned.json` (2642 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/milestone3_gate_report_control_principle_activation_static.json` (2655 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/milestone3_gate_report_control_runtime_percentile.json` (2616 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/milestone3_gate_report_control_semantic.json` (2678 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/milestone3_gate_report_control_semantic_full.json` (2683 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/milestone3_gate_report_latest.json` (2423 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/milestone3_gate_report_modeling_latest.json` (2423 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/milestone3_gate_report_modeling_semantic_q30.json` (2438 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/milestone3_gate_report_modeling_strict_q30.json` (2430 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/minister_similarity_report.json` (47374 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_confidence_run_20260226_180423.err.log` (4935 bytes) :: text lines=94; words=301
+- `evaluation/results/phase2_confidence_run_20260226_180423.out.log` (200 bytes) :: text lines=6; words=24
+- `evaluation/results/phase2_confidence_run_20260226_180756.err.log` (130302 bytes) :: text lines=1263; words=7273
+- `evaluation/results/phase2_confidence_run_20260226_180756.out.log` (732 bytes) :: text lines=18; words=77
+- `evaluation/results/phase2_files_snapshot_20260225.zip` (25664 bytes) :: binary
+- `evaluation/results/phase2_gate_report.json` (1653 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_gate_report_caseA.json` (1673 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_gate_report_semantic_control.json` (1646 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_gate_report_test_control_darbar_strengthened.json` (1740 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_gate_report_test_control_principle_activation_static.json` (1745 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_gate_report_test_control_runtime_percentile.json` (1717 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_gating_training_report.json` (33692 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_gating_training_report_v2_aug4_embed.json` (1754000 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_gating_training_report_v2_aug6_embed.json` (1753908 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_robustness_results.json` (1119835 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_robustness_results_test_control.json` (561558 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_robustness_results_test_control_darbar_strengthened.json` (720597 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_robustness_results_test_control_learned.json` (719659 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_robustness_results_test_control_principle_activation_static.json` (827520 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_robustness_results_test_control_runtime_percentile.json` (720536 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_robustness_results_test_control_semantic.json` (837134 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_robustness_results_test_limit2_kis1_20260303_091407.json` (279403 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_robustness_results_test_limit2_kis2_20260303_092203.json` (258491 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_robustness_results_test_no_control.json` (563649 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_robustness_results_test_semantic_control.json` (1029971 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_robustness_results_test_semantic_control_kis2_u50_20260304_072214.json` (1119835 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_robustness_results_test_semantic_no_control.json` (939858 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_robustness_results_train_semantic_control.json` (4203664 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_robustness_results_val_semantic_control.json` (1051854 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/phase2_test_diversity_20260225_011425.err.log` (4961 bytes) :: text lines=51; words=224
+- `evaluation/results/phase2_test_diversity_20260225_011425.log` (0 bytes) :: text lines=0; words=0
+- `evaluation/results/phase2_with_gates_test.err.log` (41311 bytes) :: text lines=455; words=1982
+- `evaluation/results/phase2_with_gates_test.out.log` (2217 bytes) :: text lines=53; words=233
+- `evaluation/results/phase2_with_gates_test.pid` (7 bytes) :: 
+- `evaluation/results/phase4_full_20260301_191218.err.log` (261432 bytes) :: text lines=2531; words=15144
+- `evaluation/results/phase4_full_20260301_191218.out.log` (3132 bytes) :: text lines=90; words=366
+- `evaluation/results/phase4_full_20260301_191218.pid` (7 bytes) :: 
+- `evaluation/results/phase4_unified_full_20260302_144852.err.log` (282990 bytes) :: text lines=2535; words=15834
+- `evaluation/results/phase4_unified_full_20260302_144852.out.log` (3775 bytes) :: text lines=91; words=396
+- `evaluation/results/phase4_unified_full_20260302_144852.pid` (7 bytes) :: 
+- `evaluation/results/reliability_phase2_council/reliability_phase2_council.json` (37206 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/reliability_phase2_full/reliability_phase2_full.json` (37693 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/reliability_phase2_semantic_control/reliability_phase2_semantic_control.json` (12079 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/reliability_phase2_semantic_control/reliability_raw.svg` (5406 bytes) :: 
+- `evaluation/results/reliability_phase2_semantic_full/reliability_calibrated_test.svg` (4263 bytes) :: 
+- `evaluation/results/reliability_phase2_semantic_full/reliability_phase2_semantic_full.json` (38572 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/reliability_phase2_semantic_full/reliability_raw.svg` (5671 bytes) :: 
+- `evaluation/results/semantic_train_control_20260302_105120.err.log` (2713 bytes) :: text lines=39; words=190
+- `evaluation/results/semantic_train_control_20260302_105120.out.log` (200 bytes) :: text lines=6; words=24
+- `evaluation/results/semantic_train_control_20260302_105120.pid` (6 bytes) :: 
+- `evaluation/results/soft_match_experiment_hard10.json` (9975 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/uncertainty_analysis_council650.json` (11936 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/uncertainty_analysis_council_latest.json` (28697 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/uncertainty_analysis_full1300.json` (11939 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/uncertainty_analysis_latest.json` (35370 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/uncertainty_analysis_manual_h70.json` (34160 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/uncertainty_analysis_semantic_control_q30.json` (35682 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/uncertainty_analysis_semantic_full_q30.json` (36947 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/uncertainty_analysis_strict_semantic_compare_semantic.json` (34043 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/uncertainty_analysis_strict_semantic_compare_semantic_q30.json` (35542 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/uncertainty_analysis_strict_semantic_compare_strict.json` (34100 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/uncertainty_analysis_strict_semantic_compare_strict_q30.json` (34945 bytes) :: json_valid=True; json_type=dict
+- `evaluation/results/uncertainty_enriched_rows_latest.json` (1018214 bytes) :: json_valid=True; json_type=list
+- `evaluation/results/uncertainty_enriched_semantic_control_q30.json` (164375 bytes) :: json_valid=True; json_type=list
+- `evaluation/results/uncertainty_enriched_semantic_full_q30.json` (1041597 bytes) :: json_valid=True; json_type=list
+- `evaluation/results/uncertainty_enriched_strict_semantic_compare_semantic.json` (164264 bytes) :: json_valid=True; json_type=list
+- `evaluation/results/uncertainty_enriched_strict_semantic_compare_semantic_q30.json` (164228 bytes) :: json_valid=True; json_type=list
+- `evaluation/results/uncertainty_enriched_strict_semantic_compare_strict.json` (162433 bytes) :: json_valid=True; json_type=list
+- `evaluation/results/uncertainty_enriched_strict_semantic_compare_strict_q30.json` (162358 bytes) :: json_valid=True; json_type=list
+- `evaluation/results/uncertainty_m3_test_control.json` (11800 bytes) :: json_valid=True; json_type=dict
+- `evaluation/run_phase2_robustness.py` (120106 bytes) :: py lines=2739; classes=1; funcs=50
+- `evaluation/run_phase2_with_gates.py` (16089 bytes) :: py lines=410; classes=0; funcs=2
+- `evaluation/run_phase4_stress.py` (4238 bytes) :: py lines=114; classes=0; funcs=2
+- `evaluation/scoring/outcome_scorer.py` (16040 bytes) :: py lines=408; classes=2; funcs=10
+- `evaluation/scoring/regret_scorer.py` (4179 bytes) :: py lines=121; classes=2; funcs=3
+- `evaluation/scoring/rubric_engine.py` (4676 bytes) :: py lines=151; classes=1; funcs=7
+- `evaluation/stats_engine.py` (16854 bytes) :: py lines=452; classes=2; funcs=11
+- `evaluation/train_kis2_reranker.py` (4079 bytes) :: py lines=138; classes=1; funcs=4
+- `evaluation/train_phase2_gating.py` (9392 bytes) :: py lines=237; classes=0; funcs=6
+- `evaluation/uncertainty_analysis.py` (61102 bytes) :: py lines=1593; classes=1; funcs=35
+
+## rag_cache (175 files)
+
+- Extension mix: .json:175
+
+- `rag_cache/llm/01603ef62b26ddaf530c0d97c1c1d00ad255b53f4a11ffa0a9257a15fce68f2f.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/02383b499a680aa0d79664a9e7b343715a7becdcb26f8a33342692f9a3581f2e.json` (123 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/0317bd929172bfdfd37da3f1ccce27bcbcc10dcfffd078ac7ebe3fc2bbc002a3.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/0334ebe9aaac7de9fcc75b023a8e1844f918e92af37fa5b200f7acdf05024259.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/0462f28a26ef5b694d510c65eb35114c4f004bdcfc0d6ceea8ef29ba88b17530.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/0582b53d13ae9db081c6b3c1c3d5880ad279d10b31180afd4a0b570265ae76ff.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/059507cbdb75e2ae73a5452e0d745b17ce7324d7d0fdbac27c64acca9c2a47cd.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/05d2fca7fbc00627c11cc214877b52838c998ffd0759d1cfe4b4e0c99e19a783.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/08939e6372e47da3647dd816544e595b9faecb46903cb24405875e62a5cce1b6.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/0992445227192b2cddbb8470b446f652615a9e1208bcc113525b015186817840.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/0b5629ab1eec81a7862848c80e671e807162a4aa4f11a15374c5548a7a248506.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/0c7cdd0169e0f5239b221d082d01a3c94d0f9bace7116488e5699433280ad21a.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/0dd835d97a146272d48d6a753c15e5d80ae24a930d9a0ec9c7ee2846111651bc.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/0e04200ae53dc84280fd7b7dcb814d6b5a1b2a2d947553b7045b2fb4418000fb.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/0ebb707394fdec34dd3df6d9e1c157c34f83d4b3e09d80cc9d99ad1c567fea32.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/0f731cd1ae70780ff701791dedfbc9fd937dfdcc8885fbfccd12cf5b41ae2b74.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/0f77c1bbcb1935ab75fac7c9bf981a9fc6046dc48390ea1fd2cf4b1df123f61a.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/101a9eb7a89058dcfdea3e094e36a86eede5f0be27d35cc9d47e8c2bdc1c5706.json` (52 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/1026c1b85c770ea3710201284597d9d2681562fd4f9d70d3c511275e73c4f9a4.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/104265756961270b945a38664499dccfb124dff066631b3cfc06b34b41521054.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/11c4bd79584e0cab7ad986ccb3d7747993fc585ac5fec3a84785aea2b8eb6ecd.json` (52 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/11d7897edce14e209a6b8a3553ed05216d1161c031760668e9386eaa0e4d2209.json` (52 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/158ede8a9e1b8267fe796b33f5ee412e116397cac271174ae5e1fbf0270587c5.json` (52 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/177f83e5fbcd6ea0cfee249db463a702541616548b86338390ca72ee12dcb0dd.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/1868104e85098b84c40cc80140d9d9cd9d674e4123037ab1e78f3b626a319f09.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/18d1bb990207f3dc526c1d0b277c5aae336d711c4ed48c1ba2cac63e38480576.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/19eb7b95ce09fc0e63fc0c6dec2745861fe35acc099f679c70c699bd69960cd4.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/1b7e2c8109a80008ae818255f8ae9970232028b177c937eb6cd76171f8d90957.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/1d48f75b7add02f96d61e296b2dbc0246709ea81bdcb95f18309eb5766924646.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/20eab3b0142fd643547ec6f32d73e887ef0433f0907b0d48bf27df1b40891994.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/214fb1a5070d426fa832b657df0da41b96b1d2b9702d6de50a2ab73a4f122abb.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/24441dd5c7f5d7827c121744eac0c476de627cb35d7c50cc872cd697fc958491.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/275aacc99a57c2e6425ea05d3356a37622486649e20bd011ed51a198de7893ef.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/28e2f012f6ca556e540216546568d94138195f60bffcd6859162579706f28b45.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/2c31b3f1e6ba65ffa73197385d205c675c89043dfa2cb97703eac1298276824b.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/31d13ad064df4654054fb2bed6de5135cd22e609d20e314207a88f2f0ff3b33e.json` (122 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/34b5134dec7b93095c3e8c538eefcd82b4b166d20c6b57648cc6820d375537ce.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/34c23cddbc92a6974f19c81c0a9fe463620556ae48e5dc39f8039d88b8ce4b5b.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/354e3058df66516b326b0ea0b4e5750cdf62907308ad021618cc1019722be56a.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/376cdc92d73c4ae6c56b225bc4195be6e71ef4f8eb1e0c204ee6b9f613bf663e.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/37e748d83f2621c31d34c02dec762c5780adcaecc339ad4c4efb184a7e4c64ec.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/380fe96e5b78e7735ecbd2722116a5e49e67b9f38f3d4e58b090b45a9699d08e.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/38d5243847e2191403c01cfa86af8b0df1835b3f840ca129aa71bd4d363ad794.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/395d7f96bd527e63eca0acbefdc53685c089438aea65c10c245157cb2f83f211.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/3af07eb44830cde2408d7212d76cfdaf47721fc6ac9573d5d55e44340e84a722.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/3cd4bdc2a81aba3b811e703deeab7a66a709f8b0ac8f7147aaa9b9283ad4b511.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/3d61f0cda1f3bfcc5d7d22e9ecf48f798626e52c0022483b20c8496fcd85de53.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/4366cf33d911c685b824853067725e282ad38e1b7561b171d538be04d1e0e5a9.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/44f3c6374d6fb9aa466bd9c51ff446f7e11fb19627b4c1f318181a5647e408e6.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/4ac2e02478765b073aa0a947132a85a781608ac1d43a73e49f43807ed31895b0.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/4b2170a972699797fd0e186445cb6402bfa057978459ee48b68d05e6498cdb45.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/4b955acc4305a56bae3b1a151be1a832f3ac4678a5c5198e3f4a6930bbdb1394.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/4bccf511278d8d6d99b8333ab05084706f99e5e539b275b9865fe94e56fa4b4d.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/4c441f9b7aa1494cdaa850e91abef5048caac3ee4d3a8949d51c25a0935612e7.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/556b851274e66d381e1a0e22d64545d5a6efaba460505165c203c18e964c149b.json` (122 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/56a4efd1af81a34d99cd40f4f7334a2f1d8c543392561beca7e3dac6c2581052.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/586efc32f42024e6b5f25ba11f98f3ca1d2a8983f355804b96a25ddfbe13e549.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/5cce07e55aec7535e1f0a808df29b0c8a4b2f9eb35750990bfc26ce926f7d299.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/609c201665c1fe63b4cc38d83bd6f9f5c76a4cb7f62fc5c5470ac563ab7ff6db.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/61105da769a7ac50863dbcee6fa8a540f1b8405ff3ea61d5738047f3101c1e90.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/61fd62e47c1628183f64471db2294762e1d14932674d53d8e17a83645b0ae023.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/622ae5e1b190cfef3d096e2fffb392169684a08e05e79ec4a8ce892e65f70026.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/63262315e34df3943641196cd66aa77b3d1309c0d894b12be0bbcaa8bbf0571d.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/639d3e4a87c373fad24ed65ce5a684a6fdbf55cc59694dd764c71d77a658f947.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/6539647cff09e398c06143978ab6256da42acb055a291e0f03cf20cd9e6f6e2a.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/677a991fe38f09cd2164310906cb20c4f0058462a5206c2281d2501bff2ce408.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/692292a6179c5626971ec22aebf6962a66f90765952e916d63a83b6858cc4e16.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/6c3b94ed91d665158e1afe737a548fc7e47945ffa3d02f54543e63a2fcc8ebd7.json` (52 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/6ce02333d02ad5b183ad3bfa49817d7301a4de49605f70eded21094f7b6eb632.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/6f5378d972c8e86502d889da5de7316795f04eb03a33ae504f95feee64af6876.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/6f8d629396f76cfced69c31b49afb78c3458a815df578b56137169ef456e8bb5.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/7587954f4912a6bfc1bfe9d46526566eea4155c7c7578f5cc71043a97ce68b48.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/765dca72cecf4298479ae9a06ba4e3c9695f689f53d918804a9227cdd8b6ef39.json` (122 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/7733d60e68f8cb8324593f6a97074ace848a8ede3bf968f4063a9318c8fb066a.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/77367fa1bb1de6069c759b33818b8f7773dc40054568d1325ac8a0beb6397253.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/79ea2fe63ac963c24c5326e4049ada39554ea982965ae3afb80f563b9659d8dd.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/7ae9dc860b9c3c34b7c3d19f3d2c9cc88daad23d6564415ec1f771628e58ba78.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/7b748e4fad72ae9300e0f1614e5a708bce7f25a754797bb5a57573dfec78d346.json` (122 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/7bb2a3da0b74e6d04ab875493ca63f18a6897cebc48861060e504423ec024542.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/7f9866e8712a671d78d791e0b1b288d0772fee4705c8b12660e01e834f0dc8dc.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/819ce8c005670dadd253012fe53fe6656270467ef59fb1c74d91eb5975e7bbaf.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/84d4f21f8d8070f1902fb35b22c3777db9cf237fbb3f28e7b32fd60cf536450b.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/855b46806136cb6981f490e2defe1cb9421f8dfb31f41d3f04ebdc3e9609c7a2.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/85bf7fe3f9651cb47ecdca8739cbc62ea9174b289e0fe124ec66c0d9df573480.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/86a40eb2cb17d90c24774f3f47dadc3bf617e51cf897ceae3ae979906b3f5763.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/8ac6ebd0339c871b81880aa5c83646dd6ba0d021e168f25dee294ce42b63a42a.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/8dcfcbcdae2c091634ab19fb8d9736fbf5f69e58373d4ab0904919a0f75078a7.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/8f342f4b598bd192927cd9d90930f5a553e2c3b9b6042e7584a4556693a2a620.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/8f6dbdf63ff5edcd7d50460cfa3f94e4aaaa47ac81e80c01d91286c1f62f0ca3.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/8fe1bcbbd1d39e29632db6787525f1b2df5a5fd504fd0d6771c373edb40af7bb.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/92b2728bdc9fa743cb4b9db2116ab493d6294325cfa432c2e4ea2e95e039a015.json` (129 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/92ed8a9a2889cc5a6336164135d21d8bd102998c83e5601f2dd68ad6b00fa1bf.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/93e36ac27d96a6b810969ae752c5809e51117adaae553f4138fc20c289586a7d.json` (122 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/93f57aad7064168de0449a844aed4180f8205cfb73b478f96b172e128b8aca34.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/941b5422a9933765ffb790f435acecbfd2a0c4f28639935bf23f01be8289dd5c.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/94d7358f20da8138418f0350b0e0edaccddb5cb4614f77a1c08d6757d5936d00.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/98184e049c7a99572b016d292dc7b4977e7109ac4d1826445c04d68965bd2725.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/98ed6d9308662f4208583bfe057b8648872b1762a0599bb1d1a380ad249c7216.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/9ac44539f162a11274b50703c95ac64a56b9153d1d8475dc4b93e0a02d1e25a2.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/9ae5d6fdd6c7083e42cf22c6dd667903270f6e1c806dab78f101bc766cf4f49b.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/9c486236a9542a66da7dfa4cd40a916b2d009cf3a069a6d3b411879f9ef35916.json` (52 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/a32cb1c1a557dcdebcc83aacbac0dbe8fec46d4102b3a0550c526efc50a9b697.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/a3ee9a619934e4931bafefa91419347301bf895d073b8a717142b4af5b004545.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/a4cea847345d7507d7f81c5d410d9258a67cd55e9a038e46789b554aaf9c0374.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/a5820870c3b6dc91668f3562abcfd60bc4dc45e0c9c7246764ed641c4c50d69c.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/a5fd1c9b184b6b39d994fd79af8e5bea638cb5ba7e4d83bc81bddfe4ea30ff87.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/a6a0b22517c57755e37b4f11eabec28956ba5d8c6d19684959829466fa9c536d.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/a7ece65771536d3f25085a585636f74bb9511cf0c857b8d59b3a63d9dd86dde8.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/aabc816e8888d499f4376f8b4f3d7ee57e7330c96277159eb6f7b138694c67f2.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/ab43d4247c9b1d2ddd9fab762c62cd2217779fe426a8884d4fb5b46b24d0450b.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/ac13a6afc3d3d6f1fdcf26afea66c52632ffae09202bd5bdd45044d93c4fa700.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/ad40089813a3fbaedcf5736037cfbd9d1bfe1e86b54f49b79b5579e250d015de.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/ad5ad0ea7301cbcc98671686c7f413503ad526ddc4715e89507309a684a410b1.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/adc7ddc91c0eaac7751539472b1009f5b1b6cd1b834452e30f887083349a9288.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/af8ce138e918f030751766f36a5906446bdf204a057bc20cbc696e7ba1726dba.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/b5c0dec8b6af4bec90cba2664a4ba8ed355e8e4ddd857e4319deac5a5b25b0cb.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/b78dc610681d1a037692e102a10300ab585ef176c0404e82a583004e6eeaa534.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/b81f53493a997d46d442b4dd5e34b8bec924e5d5359924b50d7a9270ad4be181.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/b87c5411c7287748ac175fba23ad62e6e241e2f940c42d20791704285279c51b.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/b90b724d51ab323089fe11c39a107a039492b68030a68847464c5e098e2a9daa.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/bb1761adfb2f672011de20ef721fd77bb888c53265b36386be41fe1825024dad.json` (52 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/bb1b04dc0a2b74cc8ddfb6ec9cf76b48fe2d1b8920b5a3b4b76a43316a3aba3f.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/bc3ba7ee762841658d38c39ed0460298c2975e97701991aef523f553d02c00a1.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/c064f506b6118e019078808b0d8e59d0630078832ed65621c18eced8c2da7242.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/c0a81ad7f3a4f5c3e8f055288657291512666f7ffa99a3cbeef065de49d611ed.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/c303c1643acd9eaf82923ea17c342af810895fa7a7ff53f79f3e066310ad0d1f.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/c36ef960042290202a3c6fcbaacdd60a33109472d50319c61d23a419218bbe71.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/c487a5087c8adc1787f3b4099d085d5cc96643d18411f191cc74aad9e9625baf.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/c76bbf40a8e4c58b371adbbbbf2d67733bfe0dc4a0a18279706b71d64cfb60cd.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/c80c8e38375e74171e4ccf9aa4f18cf2c00a14f67fbada521b98a5c63c4b1812.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/c89bdfea149211bfe9eb113411aaa5beafe554a168f2fe034966fea8f3efb3fc.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/c96dcf863687c72a6b74670ccbe7453bc49faebdcf5ae478a6041b4abc31166a.json` (122 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/c9e7e93818d611a38db7f19dd00227bf25282ae4f2e449d0bf8e84f19eacdd19.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/cc1392fc78dc60b08427978142baaa85a54b01f8dae19b3dd85197335a90919f.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/cc9cf706175389b11cd7f3d58badcd6e977aee192cfe62d0e908855031cce204.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/ccc910dad9e5c5024baccaf2d2aecf0189b8665f724a245bed5fa2bcce0c76bd.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/ce30cd59412cb04d5c835290cccc60c6e68351682354ded103ef32c06332f444.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/cfc1873af8e9f401f12b811ec81ebb49f9be585d2748fe578f59481682256ec5.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/d488571350dffbb3829aa49d8750f26ff1243468b488d6d3857cc1a69862980b.json` (52 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/d4ccf33c2df1789d0ee1bcd9a3f0131d8d0423ffdbec0dbb0127febcdd0970e5.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/d5246ab3bef20dd339ef89eac3694257efd6f256a5e197eb9ca90f4e68602a5c.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/d569ee0d0550d934aff205b27e7ba455a44c3c4ab573509ce88094dddd1b256e.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/d92b41dd4e709b0d060776d31cc9b29ec613b27976b76ce3fa4a0844cf23a9b1.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/d9e454acab08ca5c10474b0f67f08802bf247c50d66f672fc45d72cdd15b261c.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/daed9be52c4a1c2895b3b25a58a87811f60c8298dfc2344d98ff76391680393a.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/db862b3506f54519065389bceb361df8fa20b5cffa435e9af05c5bce9bb96edb.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/dbd94964de1f8f703f31fcff95ae47ab64fcca3266d5a4f04a871d6af5506140.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/de0ab018371f5034b97d709215d03d8387d331362dcbbf4f94f85eee28f1a2a4.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/debe409549a1ef90df3f2b5abcce147628845123d5500f8e045e54bdc26c6345.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/dffff24bb447db2e1ce7f6721b9b4ddce07d24d1d1a25b56105c76b75e2721b2.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/e1f82c4d1cb965f3815f3b480c46615653c0df915d98760bbc5a88130830ef65.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/e4bf0919f675b4377937bd7804186cdb337b0b1c7f34c152e67168432d30422e.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/e4f4af5f4d1456bc737326c8f61dd71cd2057a39e41a8f3f1883fda7dd26d9d9.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/e5295361945e69631f47f9c1bc9d530dea6caf582daefe8b0b5434c571a17c56.json` (122 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/e5d3bbd31af02a8b5a6eb77719493b0e79bbdb261f1e2e4034517f6acb16cf5c.json` (46 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/e635f3a45959f780e346b82b79345f682c1cfbfe95764df4512139afca6ca921.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/e857e51bda5a22765c7e792e37b15c24615ab85c58c595c6497f050e9e352667.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/e9bc73377f9227a845a28082e8259ad2405cfb0ff88068951fe4cb177aa94b8e.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/e9e1198d6de79a1edb6bf0f2c0d80692a880e86163fba0864d55f74eece03545.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/ea3382383c4cc2fab8322e373f71b226d4c0aa7dda2bc2f3a50e42bb5db6a6e3.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/ec463d4d8b27c98cea682dca1daa3248f4f9a53cd7b3d917ea3fb490b7237ba9.json` (52 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/eca6ab1123f84a19725a50d525732ecd2673fdd4ca20935d567e58a907d8590f.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/ee9e65f719bbe7c40b6ef990bc3e04848f300484239b997c6bccc4e03cc6de23.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/ef8c30a031520c6cc86625104a28825e0752a61fbc1ef8f424b417c0f09ad9fb.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/f2153757b5df5ea548f71b0357434968c5436f5eb51cac8783af96fccbc715bf.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/f26ccece9f99a37e04cd3fc0b71b607391f9a0fd06917ac7bb02b22bb7994bdc.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/f33f40807a8fb5222505ada1c5483f588046e67fb26433174832ff1ced410bde.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/f3a161ca74827af7952f370c9eddb63c19bed210703e4fea4849440fac7048e3.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/f43745299a703b1e09baba08ee6cab83f7a8c3927fbffc206de355363c490e5e.json` (129 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/f4e2be2de453ebd743d0bd5f72dbd821a95812d5479b3b86d5094d14269e31c5.json` (51 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/f4e9c56c22420bd57b556dd89a556d218e086fe092cb6e3e76207a147780e083.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/f77fe9ba4c2cfad586ea3bdd6e01450595d93c372771ef01c8fe1454c3e02816.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/f7b15923fd459a75dc2f669a2b61e773d7e241a0493089c9820954f657af58a9.json` (127 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/fd2ff3053ce2157b4840b28c2566e66fb5ac7f7358a0544637de308b8d2e4048.json` (128 bytes) :: json_valid=True; json_type=dict
+- `rag_cache/llm/fe10a8faa130860e98f7ef07a1389b947a433f0e62ed7430179bbc44a8c47526.json` (51 bytes) :: json_valid=True; json_type=dict
+
+## tests (73 files)
+
+- Extension mix: .py:56, .md:10, .json:5, .ini:1, .txt:1
+
+- `tests/README.md` (9025 bytes) :: text lines=293; words=1118
+- `tests/TEST_MANIFEST.md` (6416 bytes) :: text lines=222; words=864
+- `tests/advanced_persona_test_suite.py` (19861 bytes) :: py lines=497; classes=3; funcs=16
+- `tests/check_extraction.py` (1360 bytes) :: py lines=29; classes=0; funcs=0
+- `tests/check_kis_in_doctrine.py` (700 bytes) :: py lines=20; classes=0; funcs=0
+- `tests/comprehensive_feature_test.py` (17131 bytes) :: py lines=486; classes=2; funcs=16
+- `tests/comprehensive_persona_test_suite.py` (30672 bytes) :: py lines=761; classes=5; funcs=24
+- `tests/conftest.py` (2545 bytes) :: py lines=75; classes=0; funcs=7
+- `tests/debug_kis_ingestion.py` (2281 bytes) :: py lines=60; classes=0; funcs=0
+- `tests/master_test_orchestrator.py` (26140 bytes) :: py lines=620; classes=2; funcs=24
+- `tests/pytest.ini` (942 bytes) :: text lines=38; words=109
+- `tests/run_adapter_test.py` (207 bytes) :: py lines=7; classes=0; funcs=0
+- `tests/run_kis_integration_test.py` (7181 bytes) :: py lines=216; classes=0; funcs=6
+- `tests/run_phase1_test.py` (1157 bytes) :: py lines=29; classes=0; funcs=0
+- `tests/run_tests.py` (5432 bytes) :: py lines=167; classes=1; funcs=9
+- `tests/run_v2_ingest_test.py` (387 bytes) :: py lines=12; classes=0; funcs=0
+- `tests/sovereign_stress_test.py` (10851 bytes) :: py lines=328; classes=0; funcs=7
+- `tests/test_async_embed.py` (3184 bytes) :: py lines=86; classes=0; funcs=2
+- `tests/test_async_embed_debug.py` (3480 bytes) :: py lines=100; classes=0; funcs=2
+- `tests/test_async_ingest.py` (6045 bytes) :: py lines=205; classes=0; funcs=7
+- `tests/test_async_ingestion.py` (11893 bytes) :: py lines=363; classes=6; funcs=15
+- `tests/test_deepseek_doctrine.py` (4737 bytes) :: py lines=122; classes=0; funcs=0
+- `tests/test_direct_ingest.py` (914 bytes) :: py lines=27; classes=0; funcs=0
+- `tests/test_e2e_ingestion.py` (7548 bytes) :: py lines=207; classes=0; funcs=3
+- `tests/test_embed.py` (349 bytes) :: py lines=13; classes=0; funcs=0
+- `tests/test_embed_model.py` (664 bytes) :: py lines=17; classes=0; funcs=0
+- `tests/test_features.py` (4849 bytes) :: py lines=152; classes=0; funcs=0
+- `tests/test_generate.py` (344 bytes) :: py lines=13; classes=0; funcs=0
+- `tests/test_improved_doctrine.py` (6537 bytes) :: py lines=146; classes=0; funcs=1
+- `tests/test_kis_enhancement_direct.py` (2078 bytes) :: py lines=61; classes=0; funcs=0
+- `tests/test_kis_exact_scenario.py` (3270 bytes) :: py lines=91; classes=0; funcs=0
+- `tests/test_kis_integration.py` (1580 bytes) :: py lines=43; classes=0; funcs=0
+- `tests/test_llm_client.py` (4350 bytes) :: py lines=129; classes=0; funcs=0
+- `tests/test_llm_kis_integration.py` (5875 bytes) :: py lines=154; classes=0; funcs=0
+- `tests/test_minister_converter.py` (10483 bytes) :: py lines=290; classes=0; funcs=6
+- `tests/test_nodes.json` (421 bytes) :: json_valid=True; json_type=list
+- `tests/test_single.json` (135 bytes) :: json_valid=True; json_type=list
+- `tests/test_split.py` (1422 bytes) :: py lines=46; classes=0; funcs=0
+- `tests/test_split_direct.py` (1231 bytes) :: py lines=28; classes=0; funcs=0
+- `tests/test_split_qwen25.py` (1186 bytes) :: py lines=48; classes=0; funcs=0
+- `tests/test_step3_simple.py` (1186 bytes) :: py lines=36; classes=0; funcs=0
+- `tests/test_step4_training_data.py` (11183 bytes) :: py lines=309; classes=0; funcs=7
+- `tests/vector_db_smoke.py` (554 bytes) :: py lines=17; classes=0; funcs=0
+- `tests/verification/COMPLETE_FEATURE_LIST.md` (13270 bytes) :: text lines=501; words=1691
+- `tests/verification/CONSOLIDATED_CODE.md` (67129 bytes) :: text lines=1935; words=5685
+- `tests/verification/CONSOLIDATED_STRUCTURE_GUIDE.md` (5858 bytes) :: text lines=181; words=782
+- `tests/verification/MASTER_DOCUMENTATION.md` (42820 bytes) :: text lines=21; words=100
+- `tests/verification/SESSION_SUMMARY_STEPS_2_3.md` (8429 bytes) :: text lines=262; words=1095
+- `tests/verification/SESSION_SUMMARY_STEPS_2_4_FINAL.md` (17589 bytes) :: text lines=592; words=2004
+- `tests/verification/STEP_3_LLM_CLIENT_COMPLETE.md` (5131 bytes) :: text lines=174; words=650
+- `tests/verification/STEP_4_TRAINING_DATA_COLLECTION.md` (14525 bytes) :: text lines=600; words=1691
+- `tests/verification/advanced_test_report.json` (1103 bytes) :: json_valid=True; json_type=dict
+- `tests/verification/check_chapter_text.py` (953 bytes) :: py lines=28; classes=0; funcs=0
+- `tests/verification/check_doctrine.py` (1140 bytes) :: py lines=30; classes=0; funcs=0
+- `tests/verification/check_extraction.py` (1360 bytes) :: py lines=29; classes=0; funcs=0
+- `tests/verification/check_ingestion_status.py` (1510 bytes) :: py lines=50; classes=0; funcs=0
+- `tests/verification/check_v2_status.py` (1410 bytes) :: py lines=47; classes=0; funcs=0
+- `tests/verification/master_test_report.json` (5940 bytes) :: json_valid=True; json_type=dict
+- `tests/verification/master_test_report.txt` (642 bytes) :: text lines=21; words=64
+- `tests/verification/quick_verify.py` (5286 bytes) :: py lines=170; classes=0; funcs=0
+- `tests/verification/test_ml_layer.py` (8726 bytes) :: py lines=231; classes=0; funcs=0
+- `tests/verification/test_persona_simple.py` (2055 bytes) :: py lines=69; classes=0; funcs=1
+- `tests/verification/test_report.json` (9932 bytes) :: json_valid=True; json_type=dict
+- `tests/verification/test_startup.py` (750 bytes) :: py lines=27; classes=0; funcs=0
+- `tests/verification/verify_all_features.py` (9616 bytes) :: py lines=401; classes=0; funcs=1
+- `tests/verification/verify_and_run.py` (8632 bytes) :: py lines=254; classes=0; funcs=0
+- `tests/verification/verify_improvements.py` (3819 bytes) :: py lines=98; classes=0; funcs=0
+- `tests/verification/verify_llm_integration.py` (2114 bytes) :: py lines=68; classes=0; funcs=0
+- `tests/verify_api_fixes.py` (7144 bytes) :: py lines=200; classes=0; funcs=0
+- `tests/verify_kis_integration.py` (1918 bytes) :: py lines=62; classes=0; funcs=0
+- `tests/verify_kis_saved.py` (931 bytes) :: py lines=25; classes=0; funcs=0
+- `tests/verify_llm_implementation.py` (4813 bytes) :: py lines=147; classes=0; funcs=0
+- `tests/verify_ml_integration.py` (10751 bytes) :: py lines=349; classes=0; funcs=8
+
+## documentation (54 files)
+
+- Extension mix: .md:43, .json:9, .csv:1, .txt:1
+
+- `documentation/01_PROJECT_OVERVIEW.md` (12262 bytes) :: text lines=332; words=1420
+- `documentation/02_ARCHITECTURE.md` (25462 bytes) :: text lines=645; words=2209
+- `documentation/03_FILE_REFERENCE.md` (26682 bytes) :: text lines=1054; words=3232
+- `documentation/04_DATA_FLOW.md` (27401 bytes) :: text lines=979; words=2443
+- `documentation/05_FLOWCHARTS.md` (31732 bytes) :: text lines=699; words=2239
+- `documentation/API_FIXES_SUMMARY.md` (6347 bytes) :: text lines=198; words=647
+- `documentation/DIALOGUE_ENHANCEMENT_GUIDE.md` (14019 bytes) :: text lines=439; words=1726
+- `documentation/DYNAMIC_COUNCIL_GUIDE.md` (11756 bytes) :: text lines=383; words=1251
+- `documentation/FINAL_SUMMARY.md` (20358 bytes) :: text lines=365; words=1460
+- `documentation/HYBRID_MEMORY_ARCHITECTURE.md` (9821 bytes) :: text lines=274; words=941
+- `documentation/IMPLEMENTATION_COMPLETE.md` (11212 bytes) :: text lines=368; words=1435
+- `documentation/INTEGRATION_SUMMARY.md` (10993 bytes) :: text lines=344; words=1219
+- `documentation/LLM_CONVERSATION_GUIDE.md` (8715 bytes) :: text lines=374; words=1038
+- `documentation/ML_LEARNING_LOOP_COMPLETE.md` (16915 bytes) :: text lines=363; words=1345
+- `documentation/MODE_EXAMPLES.md` (21710 bytes) :: text lines=625; words=3209
+- `documentation/MODE_ORCHESTRATOR_COMPLETE.md` (13221 bytes) :: text lines=452; words=1828
+- `documentation/MODE_QUICK_REFERENCE.md` (5197 bytes) :: text lines=159; words=675
+- `documentation/MODE_SELECTION_GUIDE.md` (13556 bytes) :: text lines=381; words=1752
+- `documentation/MODE_TESTING_CHECKLIST.md` (13088 bytes) :: text lines=463; words=1954
+- `documentation/PWM_INTEGRATION_GUIDE.md` (21327 bytes) :: text lines=582; words=2190
+- `documentation/PWM_INTEGRATION_SUMMARY.md` (16822 bytes) :: text lines=443; words=1704
+- `documentation/PWM_REDESIGN_IMPLEMENTATION.md` (10600 bytes) :: text lines=319; words=1215
+- `documentation/README.md` (8292 bytes) :: text lines=220; words=1001
+- `documentation/SESSION_FEATURES_GUIDE.md` (12234 bytes) :: text lines=405; words=1446
+- `documentation/SOVEREIGN_ORCHESTRATOR_GUIDE.md` (9702 bytes) :: text lines=330; words=1060
+- `documentation/SYNTHETIC_CONVERSATION_GUIDE.md` (8916 bytes) :: text lines=295; words=1195
+- `documentation/SYSTEM_ARCHITECTURE.md` (17881 bytes) :: text lines=435; words=1725
+- `documentation/SYSTEM_READY.md` (5387 bytes) :: text lines=161; words=697
+- `documentation/SYSTEM_STATUS.md` (18883 bytes) :: text lines=313; words=1371
+- `documentation/TECHNICAL_CHANGES_SUMMARY.md` (12304 bytes) :: text lines=419; words=1451
+- `documentation/TESTING_VALIDATION_GUIDE.md` (8383 bytes) :: text lines=261; words=1011
+- `documentation/USER_PERSONA_CONVERSATION_GUIDE.md` (6218 bytes) :: text lines=183; words=684
+- `documentation/forensic_audit_2026-03-04/00_complete_file_manifest.csv` (543354 bytes) :: text lines=3105; words=6382
+- `documentation/forensic_audit_2026-03-04/00_complete_file_manifest.json` (896781 bytes) :: json_valid=True; json_type=list
+- `documentation/forensic_audit_2026-03-04/00_inventory_summary.json` (186 bytes) :: json_valid=True; json_type=dict
+- `documentation/forensic_audit_2026-03-04/01_python_source_index.json` (222879 bytes) :: json_valid=True; json_type=list
+- `documentation/forensic_audit_2026-03-04/02_text_source_index.json` (282366 bytes) :: json_valid=True; json_type=list
+- `documentation/forensic_audit_2026-03-04/03_json_source_index.json` (683679 bytes) :: json_valid=True; json_type=list
+- `documentation/forensic_audit_2026-03-04/99_analysis_errors.json` (1016 bytes) :: json_valid=True; json_type=list
+- `documentation/forensic_audit_2026-03-04/A00_SCOPE_AND_METHOD.md` (1109 bytes) :: text lines=19; words=98
+- `documentation/forensic_audit_2026-03-04/A01_FILE_COVERAGE.md` (3883 bytes) :: text lines=98; words=382
+- `documentation/forensic_audit_2026-03-04/A02_PYTHON_ARCHITECTURE_INDEX.md` (10460 bytes) :: text lines=236; words=855
+- `documentation/forensic_audit_2026-03-04/A03_PARSER_AND_DATA_QUALITY_FLAGS.md` (1437 bytes) :: text lines=23; words=153
+- `documentation/forensic_audit_2026-03-04/A04_DEPENDENCY_AND_ENTRYPOINT_MAP.md` (3453 bytes) :: text lines=135; words=351
+- `documentation/forensic_audit_2026-03-04/A04_dependency_map.json` (6095 bytes) :: json_valid=True; json_type=dict
+- `documentation/forensic_audit_2026-03-04/A05_API_SECURITY_TEST_SURFACE.md` (4983 bytes) :: text lines=78; words=445
+- `documentation/forensic_audit_2026-03-04/A05_test_inventory.json` (7807 bytes) :: json_valid=True; json_type=list
+- `documentation/forensic_audit_2026-03-04/A06_documentation_index.json` (191029 bytes) :: json_valid=True; json_type=list
+- `documentation/sovereign_ml_log.txt` (1450 bytes) :: text lines=10; words=116
+- `documentation/system doc/01_PROJECT_OVERVIEW.md` (12262 bytes) :: text lines=332; words=1420
+- `documentation/system doc/02_ARCHITECTURE.md` (25462 bytes) :: text lines=645; words=2209
+- `documentation/system doc/03_FILE_REFERENCE.md` (26682 bytes) :: text lines=1054; words=3232
+- `documentation/system doc/04_DATA_FLOW.md` (27401 bytes) :: text lines=979; words=2443
+- `documentation/system doc/05_FLOWCHARTS.md` (31732 bytes) :: text lines=699; words=2239
+
+## persona (44 files)
+
+- Extension mix: .py:43, .md:1
+
+- `persona/DOCTRINE_ENHANCEMENT_REFERENCE.md` (11618 bytes) :: text lines=324; words=1184
+- `persona/__init__.py` (240 bytes) :: py lines=17; classes=0; funcs=0
+- `persona/analysis.py` (17303 bytes) :: py lines=438; classes=0; funcs=10
+- `persona/brain.py` (2062 bytes) :: py lines=49; classes=2; funcs=1
+- `persona/cache_manager.py` (9712 bytes) :: py lines=276; classes=1; funcs=9
+- `persona/clarify.py` (3406 bytes) :: py lines=92; classes=0; funcs=3
+- `persona/context.py` (4847 bytes) :: py lines=136; classes=0; funcs=4
+- `persona/council.py` (8472 bytes) :: py lines=193; classes=2; funcs=2
+- `persona/council/__init__.py` (1061 bytes) :: py lines=37; classes=0; funcs=1
+- `persona/council/dynamic_council.py` (8958 bytes) :: py lines=236; classes=1; funcs=8
+- `persona/doctrine_loader.py` (6191 bytes) :: py lines=167; classes=2; funcs=4
+- `persona/domain_detector.py` (9152 bytes) :: py lines=267; classes=0; funcs=8
+- `persona/knowledge_engine.py` (21279 bytes) :: py lines=551; classes=0; funcs=15
+- `persona/learning/__init__.py` (0 bytes) :: py lines=0; classes=0; funcs=0
+- `persona/learning/confidence_model.py` (1058 bytes) :: py lines=39; classes=1; funcs=5
+- `persona/learning/consequence_engine.py` (2278 bytes) :: py lines=85; classes=1; funcs=4
+- `persona/learning/episodic_memory.py` (5459 bytes) :: py lines=141; classes=2; funcs=11
+- `persona/learning/failure_analysis.py` (3857 bytes) :: py lines=107; classes=1; funcs=5
+- `persona/learning/outcome_feedback.py` (3261 bytes) :: py lines=84; classes=1; funcs=5
+- `persona/learning/outcome_feedback_loop.py` (4449 bytes) :: py lines=133; classes=1; funcs=7
+- `persona/learning/performance_metrics.py` (5422 bytes) :: py lines=137; classes=1; funcs=9
+- `persona/main.py` (42911 bytes) :: py lines=841; classes=0; funcs=4
+- `persona/ministers.py` (36851 bytes) :: py lines=901; classes=22; funcs=25
+- `persona/modes/__init__.py` (755 bytes) :: py lines=33; classes=0; funcs=0
+- `persona/modes/mode_metrics.py` (6290 bytes) :: py lines=193; classes=1; funcs=11
+- `persona/modes/mode_orchestrator.py` (23092 bytes) :: py lines=626; classes=9; funcs=37
+- `persona/ollama_runtime.py` (7394 bytes) :: py lines=180; classes=1; funcs=6
+- `persona/persistence/__init__.py` (0 bytes) :: py lines=0; classes=0; funcs=0
+- `persona/persistence/conversation_arc.py` (4942 bytes) :: py lines=153; classes=1; funcs=11
+- `persona/persistence/memory_store.py` (0 bytes) :: py lines=0; classes=0; funcs=0
+- `persona/persona_learning_processor.py` (20938 bytes) :: py lines=508; classes=1; funcs=13
+- `persona/persona_minister_kis_bridge.py` (13505 bytes) :: py lines=394; classes=1; funcs=8
+- `persona/pwm_integration/__init__.py` (0 bytes) :: py lines=0; classes=0; funcs=0
+- `persona/pwm_integration/pwm_bridge.py` (16611 bytes) :: py lines=423; classes=1; funcs=11
+- `persona/run_persona.py` (1285 bytes) :: py lines=41; classes=0; funcs=1
+- `persona/run_persona_conversation.py` (1620 bytes) :: py lines=54; classes=0; funcs=0
+- `persona/session_manager.py` (15512 bytes) :: py lines=412; classes=3; funcs=16
+- `persona/state.py` (2879 bytes) :: py lines=61; classes=1; funcs=4
+- `persona/test_session_workflow.py` (7478 bytes) :: py lines=210; classes=0; funcs=5
+- `persona/trace.py` (1716 bytes) :: py lines=57; classes=0; funcs=3
+- `persona/validation/__init__.py` (0 bytes) :: py lines=0; classes=0; funcs=0
+- `persona/validation/contradiction_detector.py` (0 bytes) :: py lines=0; classes=0; funcs=0
+- `persona/validation/identity_validator.py` (3455 bytes) :: py lines=82; classes=1; funcs=7
+- `persona/validation/mode_validator.py` (4670 bytes) :: py lines=149; classes=1; funcs=6
+
+## (root) (43 files)
+
+- Extension mix: .txt:12, .md:10, .log:7, .json:6, .py:5, (none):2, .example:1
+
+- `.env` (224 bytes) :: text lines=12; words=16
+- `.env.example` (8431 bytes) :: 
+- `.gitignore` (473 bytes) :: text lines=48; words=55
+- `ARCHITECTURE_CLARIFICATION.md` (8457 bytes) :: text lines=297; words=1005
+- `AUDIT_REPORT.txt` (13303 bytes) :: text lines=360; words=1377
+- `AUDIT_REPORT_FINAL.txt` (16735 bytes) :: text lines=550; words=1845
+- `AUDIT_RESOLUTION.md` (16971 bytes) :: text lines=592; words=2208
+- `AUDIT_RESOLUTION_INDEX.md` (11782 bytes) :: text lines=352; words=1482
+- `CHANGELOG.md` (7760 bytes) :: text lines=246; words=1010
+- `COMPLETION_SUMMARY.md` (15772 bytes) :: text lines=443; words=2016
+- `DEAD_ENDS_AND_REDUNDANCY.txt` (10795 bytes) :: text lines=337; words=1113
+- `DEAD_ENDS_RESOLUTION.md` (7840 bytes) :: text lines=275; words=1012
+- `DEPENDENCIES.md` (12893 bytes) :: text lines=524; words=1717
+- `R&R.txt` (6220 bytes) :: text lines=377; words=706
+- `README.md` (12026 bytes) :: text lines=390; words=1405
+- `SESSION_WORK_SUMMARY.md` (7988 bytes) :: text lines=251; words=1030
+- `STARTUP_GUIDE.txt` (6284 bytes) :: text lines=217; words=607
+- `START_HERE.md` (10413 bytes) :: text lines=351; words=1322
+- `UNIFIED_SYSTEM_GUIDE.txt` (15382 bytes) :: text lines=550; words=1710
+- `analyze_conversation_learning.py` (8377 bytes) :: py lines=219; classes=0; funcs=0
+- `benchmark_quickstart.log` (4444 bytes) :: text lines=48; words=163
+- `eval_demo_output.txt` (12322 bytes) :: text lines=133; words=496
+- `ingestion_kis_full_test.log` (23430 bytes) :: text lines=260; words=1332
+- `live_metrics.json` (3614 bytes) :: json_valid=True; json_type=dict
+- `llm_conversation.py` (9367 bytes) :: py lines=276; classes=1; funcs=7
+- `memo.txt` (6916 bytes) :: text lines=366; words=774
+- `milestone3_gate_report_control_semantic_full.json` (2683 bytes) :: json_valid=True; json_type=dict
+- `persona_output.log` (5528 bytes) :: text lines=50; words=379
+- `phase2_robustness_results_test_semantic_control.json` (1029971 bytes) :: json_valid=True; json_type=dict
+- `phase2_robustness_results_train_semantic_control.json` (4203664 bytes) :: json_valid=True; json_type=dict
+- `phase2_robustness_results_val_semantic_control.json` (1051854 bytes) :: json_valid=True; json_type=dict
+- `requirements.txt` (1526 bytes) :: text lines=85; words=145
+- `review.txt` (8295 bytes) :: text lines=476; words=1021
+- `run_benchmark.py` (20807 bytes) :: py lines=501; classes=1; funcs=8
+- `run_eval_demo.py` (8759 bytes) :: py lines=216; classes=0; funcs=1
+- `run_output.log` (850 bytes) :: text lines=10; words=51
+- `system_main.py` (33762 bytes) :: py lines=865; classes=1; funcs=14
+- `test_ingest_full_output.log` (872 bytes) :: text lines=20; words=101
+- `test_ingestion_debug.log` (502 bytes) :: text lines=10; words=38
+- `test_input.txt` (62 bytes) :: text lines=2; words=10
+- `test_input_multi.txt` (97 bytes) :: text lines=5; words=16
+- `test_results.log` (227 bytes) :: text lines=2; words=11
+- `uncertainty_analysis_semantic_full_q30.json` (36947 bytes) :: json_valid=True; json_type=dict
+
+## sovereign (34 files)
+
+- Extension mix: .py:33, .md:1
+
+- `sovereign/council/aggregator.py` (2018 bytes) :: py lines=46; classes=1; funcs=2
+- `sovereign/llm_adapter.py` (5508 bytes) :: py lines=119; classes=1; funcs=8
+- `sovereign/ministers/README.md` (3711 bytes) :: text lines=103; words=399
+- `sovereign/ministers/__init__.py` (5610 bytes) :: py lines=151; classes=2; funcs=5
+- `sovereign/ministers/adaptation.py` (1222 bytes) :: py lines=36; classes=1; funcs=3
+- `sovereign/ministers/base_minister.py` (1268 bytes) :: py lines=37; classes=1; funcs=2
+- `sovereign/ministers/conflict.py` (875 bytes) :: py lines=28; classes=1; funcs=3
+- `sovereign/ministers/data.py` (758 bytes) :: py lines=22; classes=1; funcs=3
+- `sovereign/ministers/diplomacy.py` (879 bytes) :: py lines=22; classes=1; funcs=3
+- `sovereign/ministers/discipline.py` (865 bytes) :: py lines=22; classes=1; funcs=3
+- `sovereign/ministers/examples.py` (6948 bytes) :: py lines=195; classes=0; funcs=5
+- `sovereign/ministers/grand_strategist.py` (875 bytes) :: py lines=22; classes=1; funcs=3
+- `sovereign/ministers/intelligence.py` (875 bytes) :: py lines=22; classes=1; funcs=3
+- `sovereign/ministers/legitimacy.py` (847 bytes) :: py lines=22; classes=1; funcs=3
+- `sovereign/ministers/meeting_flow.py` (12601 bytes) :: py lines=316; classes=4; funcs=4
+- `sovereign/ministers/narrative.py` (824 bytes) :: py lines=22; classes=1; funcs=3
+- `sovereign/ministers/optionality.py` (854 bytes) :: py lines=22; classes=1; funcs=3
+- `sovereign/ministers/orchestrator.py` (13457 bytes) :: py lines=307; classes=2; funcs=7
+- `sovereign/ministers/power.py` (799 bytes) :: py lines=22; classes=1; funcs=3
+- `sovereign/ministers/psychology.py` (841 bytes) :: py lines=22; classes=1; funcs=3
+- `sovereign/ministers/risk.py` (813 bytes) :: py lines=23; classes=1; funcs=3
+- `sovereign/ministers/risk_minister.py` (2799 bytes) :: py lines=68; classes=1; funcs=2
+- `sovereign/ministers/risk_resources.py` (882 bytes) :: py lines=22; classes=1; funcs=3
+- `sovereign/ministers/sovereign.py` (824 bytes) :: py lines=22; classes=1; funcs=3
+- `sovereign/ministers/technology.py` (821 bytes) :: py lines=22; classes=1; funcs=3
+- `sovereign/ministers/timing.py` (781 bytes) :: py lines=22; classes=1; funcs=3
+- `sovereign/ministers/tribunal.py` (1192 bytes) :: py lines=28; classes=1; funcs=4
+- `sovereign/ministers/truth.py` (796 bytes) :: py lines=22; classes=1; funcs=3
+- `sovereign/ministers/war_mode.py` (819 bytes) :: py lines=22; classes=1; funcs=3
+- `sovereign/prime_confident.py` (8412 bytes) :: py lines=161; classes=1; funcs=5
+- `sovereign/runtime/council_runtime.py` (1820 bytes) :: py lines=49; classes=2; funcs=4
+- `sovereign/runtime/minister_runtime.py` (1037 bytes) :: py lines=28; classes=1; funcs=3
+- `sovereign/sovereign_main.py` (5076 bytes) :: py lines=152; classes=0; funcs=2
+- `sovereign/sovereign_main_integration_example.py` (10978 bytes) :: py lines=301; classes=0; funcs=2
+
+## ml (33 files)
+
+- Extension mix: .py:27, .json:3, .md:2, .jsonl:1
+
+- `ml/IMPLEMENTATION_COMPLETE.md` (14761 bytes) :: text lines=516; words=1878
+- `ml/QUICKSTART.py` (11232 bytes) :: py lines=328; classes=0; funcs=5
+- `ml/README.md` (15814 bytes) :: text lines=576; words=1765
+- `ml/__init__.py` (1763 bytes) :: py lines=75; classes=0; funcs=0
+- `ml/cache/ingestion_kis_logs.json` (78936 bytes) :: json_valid=True; json_type=dict
+- `ml/cache/outcomes/outcome_index.json` (56491 bytes) :: json_valid=True; json_type=dict
+- `ml/cache/outcomes/outcome_records.jsonl` (1046922 bytes) :: text lines=371; words=144829
+- `ml/cache/training_datasets/training_dataset_20260215_041612.json` (2333 bytes) :: json_valid=True; json_type=dict
+- `ml/darbar.py` (1609 bytes) :: py lines=47; classes=0; funcs=1
+- `ml/doctrine_update.py` (0 bytes) :: py lines=0; classes=0; funcs=0
+- `ml/features/__init__.py` (666 bytes) :: py lines=30; classes=0; funcs=0
+- `ml/features/feature_extractor.py` (10626 bytes) :: py lines=328; classes=10; funcs=9
+- `ml/judgment/__init__.py` (175 bytes) :: py lines=12; classes=0; funcs=0
+- `ml/judgment/ml_judgment_prior.py` (8799 bytes) :: py lines=260; classes=2; funcs=9
+- `ml/kis/__init__.py` (299 bytes) :: py lines=16; classes=0; funcs=0
+- `ml/kis/knowledge_integration_system.py` (15895 bytes) :: py lines=462; classes=5; funcs=12
+- `ml/labels/__init__.py` (330 bytes) :: py lines=18; classes=0; funcs=0
+- `ml/labels/label_generator.py` (9449 bytes) :: py lines=273; classes=1; funcs=10
+- `ml/llm_handshakes/__init__.py` (484 bytes) :: py lines=22; classes=0; funcs=0
+- `ml/llm_handshakes/llm_interface.py` (16353 bytes) :: py lines=495; classes=6; funcs=7
+- `ml/minister_retraining.py` (0 bytes) :: py lines=0; classes=0; funcs=0
+- `ml/ml_orchestrator.py` (14653 bytes) :: py lines=371; classes=1; funcs=11
+- `ml/outcomes/__init__.py` (268 bytes) :: py lines=14; classes=0; funcs=0
+- `ml/outcomes/outcome_recorder.py` (14743 bytes) :: py lines=434; classes=3; funcs=16
+- `ml/pattern_extraction.py` (11024 bytes) :: py lines=282; classes=1; funcs=11
+- `ml/quick_test_ml.py` (3514 bytes) :: py lines=115; classes=0; funcs=0
+- `ml/reward_shaping.py` (819 bytes) :: py lines=24; classes=0; funcs=1
+- `ml/sovereign_orchestrator.py` (25136 bytes) :: py lines=581; classes=1; funcs=10
+- `ml/system_retraining.py` (2981 bytes) :: py lines=93; classes=1; funcs=6
+- `ml/test_ml_learning_loop.py` (6215 bytes) :: py lines=150; classes=0; funcs=2
+- `ml/tests/__init__.py` (137 bytes) :: py lines=7; classes=0; funcs=0
+- `ml/tests/test_ml_wisdom.py` (14091 bytes) :: py lines=405; classes=5; funcs=18
+- `ml/vector_memory.py` (2398 bytes) :: py lines=71; classes=1; funcs=3
+
+## scripts (15 files)
+
+- Extension mix: .py:11, .out:4
+
+- `scripts/STARTUP_GUIDE.py` (12043 bytes) :: py lines=396; classes=0; funcs=0
+- `scripts/VISUAL_SUMMARY.py` (6767 bytes) :: py lines=168; classes=0; funcs=8
+- `scripts/check_embed.py` (284 bytes) :: py lines=7; classes=0; funcs=0
+- `scripts/check_ingestion_status.py` (1273 bytes) :: py lines=43; classes=0; funcs=0
+- `scripts/check_models.py` (1324 bytes) :: py lines=35; classes=0; funcs=0
+- `scripts/check_ollama_api.out` (191 bytes) :: text lines=6; words=21
+- `scripts/check_ollama_api.py` (437 bytes) :: py lines=18; classes=0; funcs=0
+- `scripts/check_requirements.py` (897 bytes) :: py lines=35; classes=0; funcs=0
+- `scripts/ingest_status.py` (2705 bytes) :: py lines=68; classes=0; funcs=0
+- `scripts/run_embed_only.out` (0 bytes) :: text lines=0; words=0
+- `scripts/run_embed_only.py` (855 bytes) :: py lines=20; classes=0; funcs=1
+- `scripts/scan_rag_storage.py` (2010 bytes) :: py lines=51; classes=0; funcs=1
+- `scripts/stream_persona_live.py` (3801 bytes) :: py lines=109; classes=0; funcs=4
+- `scripts/test_embed.out` (113276 bytes) :: text lines=2; words=4107
+- `scripts/test_generate.out` (432 bytes) :: text lines=3; words=4
+
+## documents (13 files)
+
+- Extension mix: .md:8, (none):5
+
+- `documents/CONSOLIDATION_COMPLETE.md` (6418 bytes) :: text lines=197; words=768
+- `documents/CONSOLIDATION_IMPLEMENTATION_REPORT.md` (10011 bytes) :: text lines=298; words=1327
+- `documents/Clarification Request Person N` (48511 bytes) :: text lines=1607; words=6146
+- `documents/KIS Evaluation and Upgrades` (29960 bytes) :: text lines=826; words=3909
+- `documents/Multi-Agent LLM Simulation` (21285 bytes) :: text lines=675; words=2811
+- `documents/PHASE_3_5_IMPLEMENTATION_SUMMARY.md` (5986 bytes) :: text lines=195; words=654
+- `documents/PHASE_3_5_MINISTER_CONVERSION.md` (11064 bytes) :: text lines=397; words=1169
+- `documents/PHASE_3_5_POPULATION_REPORT.md` (6781 bytes) :: text lines=252; words=784
+- `documents/PHASE_3_5_QUICK_START.md` (9765 bytes) :: text lines=406; words=979
+- `documents/PHASE_3_5_REAL_DATA_SUMMARY.md` (9299 bytes) :: text lines=353; words=982
+- `documents/Personal World Model` (101430 bytes) :: text lines=3658; words=12744
+- `documents/QUICK_REFERENCE.md` (7040 bytes) :: text lines=244; words=947
+- `documents/Runtime Architecture Bug` (24206 bytes) :: text lines=786; words=2800
+
+## archive (11 files)
+
+- Extension mix: .py:11
+
+- `archive/integrations_old/__init__.py` (219 bytes) :: py lines=6; classes=0; funcs=0
+- `archive/integrations_old/persona_mas_integration.py` (9757 bytes) :: py lines=264; classes=1; funcs=5
+- `archive/integrations_old/persona_mas_integration_simple.py` (6576 bytes) :: py lines=185; classes=1; funcs=5
+- `archive/runtime_old/__init__.py` (559 bytes) :: py lines=19; classes=0; funcs=0
+- `archive/runtime_old/action_spiral.py` (1764 bytes) :: py lines=47; classes=1; funcs=3
+- `archive/runtime_old/consciousness.py` (859 bytes) :: py lines=27; classes=1; funcs=3
+- `archive/runtime_old/diagnostics.py` (2005 bytes) :: py lines=51; classes=1; funcs=6
+- `archive/runtime_old/dopamine.py` (870 bytes) :: py lines=29; classes=1; funcs=3
+- `archive/runtime_old/memory.py` (1028 bytes) :: py lines=32; classes=1; funcs=2
+- `archive/runtime_old/predictive.py` (2181 bytes) :: py lines=64; classes=1; funcs=5
+- `archive/runtime_old/run_sim.py` (1690 bytes) :: py lines=48; classes=0; funcs=1
+
+## hse (11 files)
+
+- Extension mix: .py:11
+
+- `hse/__init__.py` (674 bytes) :: py lines=16; classes=0; funcs=0
+- `hse/analytics_server.py` (1839 bytes) :: py lines=64; classes=0; funcs=5
+- `hse/crisis_injector.py` (1938 bytes) :: py lines=41; classes=1; funcs=2
+- `hse/human_profile.py` (2221 bytes) :: py lines=78; classes=1; funcs=7
+- `hse/personality_drift.py` (2705 bytes) :: py lines=71; classes=1; funcs=4
+- `hse/population_manager.py` (2499 bytes) :: py lines=87; classes=2; funcs=10
+- `hse/simulation/__init__.py` (187 bytes) :: py lines=5; classes=0; funcs=0
+- `hse/simulation/bidirectional_simulation.py` (19764 bytes) :: py lines=457; classes=1; funcs=16
+- `hse/simulation/human_persona_adapter.py` (1557 bytes) :: py lines=52; classes=1; funcs=4
+- `hse/simulation/stress_orchestrator.py` (2434 bytes) :: py lines=75; classes=1; funcs=4
+- `hse/simulation/synthetic_human_sim.py` (6793 bytes) :: py lines=162; classes=1; funcs=4
+
+## rag_storage (11 files)
+
+- Extension mix: .json:7, .log:2, .txt:2
+
+- `rag_storage/16-05-2021-070111The-Richest-Man-in-Babylon/00_canonical_text.txt` (246818 bytes) :: text lines=4981; words=57393
+- `rag_storage/16-05-2021-070111The-Richest-Man-in-Babylon/00_raw.txt` (246818 bytes) :: text lines=4981; words=57393
+- `rag_storage/16-05-2021-070111The-Richest-Man-in-Babylon/01_chapters.json` (253876 bytes) :: json_valid=True; json_type=list
+- `rag_storage/16-05-2021-070111The-Richest-Man-in-Babylon/02_doctrine.json` (81299 bytes) :: json_valid=True; json_type=list
+- `rag_storage/16-05-2021-070111The-Richest-Man-in-Babylon/02_doctrine_chunks.json` (7108 bytes) :: json_valid=True; json_type=dict
+- `rag_storage/16-05-2021-070111The-Richest-Man-in-Babylon/02_doctrine_errors.log` (4690 bytes) :: text lines=64; words=590
+- `rag_storage/16-05-2021-070111The-Richest-Man-in-Babylon/03_5_minister_errors.log` (2311 bytes) :: text lines=47; words=167
+- `rag_storage/16-05-2021-070111The-Richest-Man-in-Babylon/03_embeddings.json` (332 bytes) :: json_valid=True; json_type=dict
+- `rag_storage/16-05-2021-070111The-Richest-Man-in-Babylon/03_nodes_chunks.json` (3981 bytes) :: json_valid=True; json_type=list
+- `rag_storage/16-05-2021-070111The-Richest-Man-in-Babylon/progress.json` (335 bytes) :: json_valid=True; json_type=dict
+- `rag_storage/Marcus-Aurelius-Meditations/progress.json` (350 bytes) :: json_valid=True; json_type=dict
+
+## multi_agent_sim (10 files)
+
+- Extension mix: .py:10
+
+- `multi_agent_sim/__init__.py` (731 bytes) :: py lines=16; classes=0; funcs=0
+- `multi_agent_sim/__main__.py` (890 bytes) :: py lines=33; classes=0; funcs=1
+- `multi_agent_sim/agents.py` (1769 bytes) :: py lines=53; classes=3; funcs=7
+- `multi_agent_sim/archetypes.py` (648 bytes) :: py lines=15; classes=0; funcs=0
+- `multi_agent_sim/demo.py` (953 bytes) :: py lines=22; classes=0; funcs=1
+- `multi_agent_sim/logger.py` (1061 bytes) :: py lines=34; classes=1; funcs=4
+- `multi_agent_sim/orchestrator.py` (2713 bytes) :: py lines=55; classes=1; funcs=4
+- `multi_agent_sim/run_terminal.py` (2327 bytes) :: py lines=66; classes=0; funcs=1
+- `multi_agent_sim/simulation_runner.py` (6951 bytes) :: py lines=197; classes=1; funcs=5
+- `multi_agent_sim/terminal.py` (8181 bytes) :: py lines=255; classes=0; funcs=3
+
+## Memory (9 files)
+
+- Extension mix: .txt:6, .md:1, .py:1, .sql:1
+
+- `Memory/2026-02-19.md` (3073 bytes) :: text lines=89; words=392
+- `Memory/pwm.py` (5244 bytes) :: py lines=124; classes=0; funcs=8
+- `Memory/schema.sql` (4612 bytes) :: text lines=138; words=545
+- `Memory/templates/commit_decision.txt` (827 bytes) :: text lines=31; words=98
+- `Memory/templates/confidence_scoring.txt` (634 bytes) :: text lines=30; words=79
+- `Memory/templates/hypothesis_generation.txt` (877 bytes) :: text lines=34; words=96
+- `Memory/templates/memory_write.txt` (563 bytes) :: text lines=25; words=67
+- `Memory/templates/session_summary.txt` (619 bytes) :: text lines=27; words=84
+- `Memory/templates/signal_extraction.txt` (699 bytes) :: text lines=28; words=79
+
+## logs (7 files)
+
+- Extension mix: .log:5, .json:2
+
+- `logs/463e069d.log` (726016 bytes) :: text lines=122; words=96281
+- `logs/7bf8e511.log` (2434 bytes) :: text lines=3; words=204
+- `logs/7dcd692d.log` (2438 bytes) :: text lines=3; words=204
+- `logs/a5522752.log` (828744 bytes) :: text lines=116; words=111966
+- `logs/f7672858.log` (701388 bytes) :: text lines=120; words=93792
+- `logs/live_exchange.json` (50274 bytes) :: json_valid=True; json_type=list
+- `logs/live_exchange_persona.json` (7360 bytes) :: json_valid=True; json_type=dict
+
+## audit_temp (6 files)
+
+- Extension mix: .txt:6
+
+- `audit_temp/all_markdown_files.txt` (8450 bytes) :: text lines=77; words=74
+- `audit_temp/all_python_files.txt` (16010 bytes) :: text lines=261; words=258
+- `audit_temp/markdown_files.txt` (6512 bytes) :: text lines=72; words=72
+- `audit_temp/python_files.txt` (19712 bytes) :: text lines=256; words=256
+- `audit_temp/todos.txt` (17049640 bytes) :: text lines=8667; words=32074
+- `audit_temp/todos_raw.txt` (198 bytes) :: text lines=2; words=15
+
+## llm (5 files)
+
+- Extension mix: .py:5
+
+- `llm/__init__.py` (318 bytes) :: py lines=11; classes=0; funcs=0
+- `llm/interactive_llm_conversation.py` (7468 bytes) :: py lines=223; classes=2; funcs=7
+- `llm/interactive_persona_chat.py` (1720 bytes) :: py lines=59; classes=0; funcs=1
+- `llm/ollama.py` (1489 bytes) :: py lines=38; classes=0; funcs=2
+- `llm/ollama_model_selector.py` (2375 bytes) :: py lines=81; classes=0; funcs=2
+
+## utils (5 files)
+
+- Extension mix: .py:5
+
+- `utils/ML_WISDOM_INTEGRATION_GUIDE.py` (15207 bytes) :: py lines=465; classes=0; funcs=10
+- `utils/__init__.py` (317 bytes) :: py lines=9; classes=0; funcs=0
+- `utils/batch_convert_rag_storage.py` (5174 bytes) :: py lines=152; classes=0; funcs=2
+- `utils/cleanup_atomic_dirs.py` (2654 bytes) :: py lines=82; classes=0; funcs=2
+- `utils/migrate_to_consolidated.py` (7512 bytes) :: py lines=196; classes=0; funcs=2
+
+## analytics (4 files)
+
+- Extension mix: .py:4
+
+- `analytics/__init__.py` (0 bytes) :: py lines=0; classes=0; funcs=0
+- `analytics/dashboard.py` (1705 bytes) :: py lines=61; classes=1; funcs=4
+- `analytics/improvement_tracker.py` (0 bytes) :: py lines=0; classes=0; funcs=0
+- `analytics/reporting.py` (0 bytes) :: py lines=0; classes=0; funcs=0
+
+## knowledge (2 files)
+
+- Extension mix: .json:1, .npy:1
+
+- `knowledge/embeddings.npy` (21632 bytes) :: binary
+- `knowledge/principles.json` (1429 bytes) :: json_valid=True; json_type=list
+
+## .github (1 files)
+
+- Extension mix: .md:1
+
+- `.github/copilot-instructions.md` (12168 bytes) :: text lines=379; words=1251

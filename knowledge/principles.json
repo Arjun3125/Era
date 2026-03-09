@@ -1,0 +1,51 @@
+[
+  {
+    "id": "reversibility",
+    "text": "Prefer choices that can be reversed cheaply when uncertainty is high.",
+    "domain": "optionality",
+    "historical_success_rate": 0.5,
+    "embedding": []
+  },
+  {
+    "id": "downside_asymmetry",
+    "text": "Protect against asymmetric downside before chasing upside.",
+    "domain": "risk",
+    "historical_success_rate": 0.5,
+    "embedding": []
+  },
+  {
+    "id": "feedback_loops",
+    "text": "Assess second-order and feedback-loop effects before final commitment.",
+    "domain": "systems",
+    "historical_success_rate": 0.5,
+    "embedding": []
+  },
+  {
+    "id": "systemic_barriers",
+    "text": "Account for structural constraints and institutional barriers to execution.",
+    "domain": "systems",
+    "historical_success_rate": 0.5,
+    "embedding": []
+  },
+  {
+    "id": "time_value",
+    "text": "Evaluate the value of acting now versus waiting for better information.",
+    "domain": "temporal",
+    "historical_success_rate": 0.5,
+    "embedding": []
+  },
+  {
+    "id": "optionality",
+    "text": "Preserve strategic optionality when the environment is unstable.",
+    "domain": "optionality",
+    "historical_success_rate": 0.5,
+    "embedding": []
+  },
+  {
+    "id": "information_value",
+    "text": "Estimate what additional signal would materially change the decision.",
+    "domain": "information",
+    "historical_success_rate": 0.5,
+    "embedding": []
+  }
+]

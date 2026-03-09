@@ -1,0 +1,359 @@
+[
+  {
+    "file": "ml/tests/__init__.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "ml/tests/test_ml_wisdom.py",
+    "test_functions": 17,
+    "test_classes": 5,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/advanced_persona_test_suite.py",
+    "test_functions": 9,
+    "test_classes": 2,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/check_extraction.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/check_kis_in_doctrine.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/comprehensive_feature_test.py",
+    "test_functions": 9,
+    "test_classes": 1,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/comprehensive_persona_test_suite.py",
+    "test_functions": 8,
+    "test_classes": 3,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/conftest.py",
+    "test_functions": 1,
+    "test_classes": 0,
+    "pytest_marks": [
+      "async_",
+      "e2e",
+      "embedding",
+      "ingestion",
+      "smoke",
+      "verification"
+    ]
+  },
+  {
+    "file": "tests/debug_kis_ingestion.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/master_test_orchestrator.py",
+    "test_functions": 0,
+    "test_classes": 2,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/run_adapter_test.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/run_kis_integration_test.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/run_phase1_test.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/run_tests.py",
+    "test_functions": 0,
+    "test_classes": 1,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/run_v2_ingest_test.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/sovereign_stress_test.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/test_async_embed.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/test_async_embed_debug.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/test_async_ingest.py",
+    "test_functions": 1,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/test_async_ingestion.py",
+    "test_functions": 0,
+    "test_classes": 6,
+    "pytest_marks": [
+      "asyncio"
+    ]
+  },
+  {
+    "file": "tests/test_deepseek_doctrine.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/test_direct_ingest.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/test_e2e_ingestion.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/test_embed.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/test_embed_model.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/test_features.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/test_generate.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/test_improved_doctrine.py",
+    "test_functions": 1,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/test_kis_enhancement_direct.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/test_kis_exact_scenario.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/test_kis_integration.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/test_llm_client.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/test_llm_kis_integration.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/test_minister_converter.py",
+    "test_functions": 5,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/test_split.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/test_split_direct.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/test_split_qwen25.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/test_step3_simple.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/test_step4_training_data.py",
+    "test_functions": 6,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/vector_db_smoke.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/verification/check_chapter_text.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/verification/check_doctrine.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/verification/check_extraction.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/verification/check_ingestion_status.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/verification/check_v2_status.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/verification/quick_verify.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/verification/test_ml_layer.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/verification/test_persona_simple.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/verification/test_startup.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/verification/verify_all_features.py",
+    "test_functions": 1,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/verification/verify_and_run.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/verification/verify_improvements.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/verification/verify_llm_integration.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/verify_api_fixes.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/verify_kis_integration.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/verify_kis_saved.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/verify_llm_implementation.py",
+    "test_functions": 0,
+    "test_classes": 0,
+    "pytest_marks": []
+  },
+  {
+    "file": "tests/verify_ml_integration.py",
+    "test_functions": 4,
+    "test_classes": 0,
+    "pytest_marks": []
+  }
+]
