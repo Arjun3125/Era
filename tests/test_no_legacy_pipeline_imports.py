@@ -9,7 +9,6 @@ _ROOT = Path(__file__).resolve().parents[1]
 _TARGETS = (
     Path("run_refactored.py"),
     Path("system_main.py"),
-    Path("run_benchmark.py"),
     Path("modules/domain_analysis/engine.py"),
     Path("modules/knowledge_synthesis/engine.py"),
     Path("modules/council_execution/engine.py"),
