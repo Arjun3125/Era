@@ -2,28 +2,33 @@
   "scenario_id": "RISK_060",
   "category": "risk",
   "difficulty": "expert",
-  "title": "Legal exposure",
-  "prompt": "A new regional law might classify your product as a financial service. Decide approach.",
+  "title": "Supply chain disruption",
+  "prompt": "A key supplier signals potential delays that could disrupt delivery timelines. Decide the best supply chain response.",
   "context": {
     "company_size": "mid",
-    "cash_reserve_months": 13,
-    "brand_strength": "medium",
-    "customer_loyalty": "high",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 90,
-    "urgency_rank": 5
+    "cash_reserve_months": 16,
+    "brand_strength": "low",
+    "customer_loyalty": "low",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 28,
+    "urgency_rank": 2,
+    "supplier_concentration": 0.177,
+    "lead_time_risk": 0.259,
+    "demand_volatility": 0.149,
+    "inventory_cover": 0.334
   },
   "decision_options": [
-    "proactively comply",
-    "lobby for clarification",
-    "geo-block region",
-    "wait and monitor"
+    "diversify suppliers",
+    "build safety stock",
+    "temporarily halt new orders",
+    "rush alternative sourcing",
+    "fast-track substitutes"
   ],
-  "expected_decision": "proactively comply",
+  "expected_decision": "fast-track substitutes",
   "reasoning_rubric": [
-    "avoid fines",
-    "protect reputation",
-    "maintain market access"
+    "reduce lead time risk",
+    "maintain commitments",
+    "pay for speed"
   ],
   "evaluation": {
     "decision_weight": 0.55,

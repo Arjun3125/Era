@@ -2,28 +2,34 @@
   "scenario_id": "RES_032",
   "category": "resource_allocation",
   "difficulty": "expert",
-  "title": "Headcount allocation",
-  "prompt": "Choose how to place 10 new engineers among infra, core product, and growth.",
+  "title": "Staffing allocation decision",
+  "prompt": "Hiring capacity is limited this quarter. Decide how to allocate headcount to best support the company's priorities.",
   "context": {
     "company_size": "small",
-    "cash_reserve_months": 12,
-    "brand_strength": "medium",
-    "customer_loyalty": "low",
+    "cash_reserve_months": 8,
+    "brand_strength": "low",
+    "customer_loyalty": "high",
     "regulatory_pressure": "low",
-    "time_pressure_days": 30,
-    "urgency_rank": 2
+    "time_pressure_days": 43,
+    "urgency_rank": 1,
+    "backlog_size": 0.937,
+    "incident_rate": 0.703,
+    "sales_pipeline": 0.375,
+    "delivery_pressure": 0.161,
+    "reliability_risk": 0.806
   },
   "decision_options": [
-    "infra focus",
-    "core product focus",
-    "growth focus",
-    "balanced"
+    "hire engineers",
+    "hire operations staff",
+    "add reliability engineers",
+    "use contractors",
+    "pause hiring"
   ],
-  "expected_decision": "balanced",
+  "expected_decision": "add reliability engineers",
   "reasoning_rubric": [
-    "avoid single bottlenecks",
-    "support roadmap",
-    "manage risk"
+    "stabilize systems",
+    "reduce incidents",
+    "protect uptime"
   ],
   "evaluation": {
     "decision_weight": 0.55,

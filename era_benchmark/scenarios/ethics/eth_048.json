@@ -2,28 +2,33 @@
   "scenario_id": "ETH_048",
   "category": "ethics",
   "difficulty": "expert",
-  "title": "User privacy vs experimentation",
-  "prompt": "You want to run high-velocity A/B tests requiring additional data collection. Decide boundaries.",
+  "title": "Workforce reduction dilemma",
+  "prompt": "Revenue has slowed and expenses exceed plan. Leadership must choose a workforce strategy to stabilize finances while protecting long-term capability.",
   "context": {
-    "company_size": "small",
-    "cash_reserve_months": 18,
-    "brand_strength": "low",
-    "customer_loyalty": "low",
+    "company_size": "mid",
+    "cash_reserve_months": 6,
+    "brand_strength": "high",
+    "customer_loyalty": "moderate",
     "regulatory_pressure": "low",
-    "time_pressure_days": 7,
-    "urgency_rank": 3
+    "time_pressure_days": 56,
+    "urgency_rank": 2,
+    "cost_gap": 0.89,
+    "morale_risk": 0.771,
+    "hiring_friction": 0.755,
+    "growth_outlook": "moderate"
   },
   "decision_options": [
-    "collect minimal data",
-    "collect all data with opt-out",
-    "delay tests",
-    "synthetic data only"
+    "reduce headcount",
+    "redeploy staff",
+    "implement pay cuts",
+    "pause hiring",
+    "raise bridge capital"
   ],
-  "expected_decision": "collect minimal data",
+  "expected_decision": "implement pay cuts",
   "reasoning_rubric": [
-    "minimize privacy risk",
-    "enable learning",
-    "respect consent"
+    "share burden",
+    "avoid layoffs",
+    "improve runway"
   ],
   "evaluation": {
     "decision_weight": 0.55,

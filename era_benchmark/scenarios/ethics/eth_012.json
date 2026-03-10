@@ -1,29 +1,34 @@
 {
   "scenario_id": "ETH_012",
   "category": "ethics",
-  "difficulty": "expert",
-  "title": "User privacy vs experimentation",
-  "prompt": "You want to run high-velocity A/B tests requiring additional data collection. Decide boundaries.",
+  "difficulty": "hard",
+  "title": "AI bias allegation",
+  "prompt": "An external report claims your AI model shows bias in a critical workflow. Decide the most ethical response.",
   "context": {
-    "company_size": "enterprise",
-    "cash_reserve_months": 10,
-    "brand_strength": "high",
-    "customer_loyalty": "low",
+    "company_size": "large",
+    "cash_reserve_months": 12,
+    "brand_strength": "medium",
+    "customer_loyalty": "moderate",
     "regulatory_pressure": "low",
-    "time_pressure_days": 60,
-    "urgency_rank": 2
+    "time_pressure_days": 29,
+    "urgency_rank": 3,
+    "harm_level": 0.1,
+    "evidence_strength": 0.269,
+    "revenue_dependency": 0.807,
+    "public_visibility": 0.65
   },
   "decision_options": [
-    "collect minimal data",
-    "collect all data with opt-out",
-    "delay tests",
-    "synthetic data only"
+    "pause and audit",
+    "open communication",
+    "transparent disclosure",
+    "address silently",
+    "reject allegations"
   ],
-  "expected_decision": "collect minimal data",
+  "expected_decision": "open communication",
   "reasoning_rubric": [
-    "minimize privacy risk",
-    "enable learning",
-    "respect consent"
+    "build trust",
+    "show accountability",
+    "reduce backlash"
   ],
   "evaluation": {
     "decision_weight": 0.55,

@@ -1,29 +1,34 @@
 {
   "scenario_id": "LT_006",
   "category": "long_term_tradeoffs",
-  "difficulty": "medium",
-  "title": "Platform bet",
-  "prompt": "You can replatform to a modern stack in 12 months or keep investing in the legacy system. Decide.",
+  "difficulty": "expert",
+  "title": "Growth vs stability",
+  "prompt": "The market opportunity is changing rapidly, and leadership must decide how aggressively to grow versus protect stability.",
   "context": {
     "company_size": "small",
-    "cash_reserve_months": 18,
+    "cash_reserve_months": 17,
     "brand_strength": "high",
     "customer_loyalty": "moderate",
-    "regulatory_pressure": "high",
-    "time_pressure_days": 7,
-    "urgency_rank": 1
+    "regulatory_pressure": "low",
+    "time_pressure_days": 34,
+    "urgency_rank": 3,
+    "market_opportunity": 0.597,
+    "burn_rate": 0.37,
+    "reliability_risk": 0.251,
+    "investor_pressure": 0.69
   },
   "decision_options": [
-    "full replatform now",
-    "incremental strangler",
-    "stay on legacy",
-    "outsource platform"
+    "rapid expansion",
+    "steady growth",
+    "scale aggressively",
+    "stabilize operations",
+    "exit the market"
   ],
-  "expected_decision": "incremental strangler",
+  "expected_decision": "scale aggressively",
   "reasoning_rubric": [
-    "manage migration risk",
-    "control cost",
-    "retain optionality"
+    "capture market share",
+    "accept higher burn",
+    "move fast"
   ],
   "evaluation": {
     "decision_weight": 0.55,

@@ -12,9 +12,9 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 import joblib
 
-from .dataset_builder import build_dataset
-from .feature_extractor import FeatureConfig, FeatureExtractor
-from .model import ModelConfig, build_regressor
+from modules.value_model.dataset_builder import build_dataset
+from modules.value_model.feature_extractor import FeatureConfig, FeatureExtractor
+from modules.value_model.model import ModelConfig, build_regressor
 
 
 def load_dataset(path: Path) -> List[Dict[str, Any]]:
@@ -53,20 +53,30 @@ def main() -> None:
         )
 
     rows = load_dataset(dataset_path)
-    y = np.array([float(row["score"]) for row in rows], dtype=float)
+    scenario_ids = sorted({row.get("scenario_id", "") for row in rows if row.get("scenario_id")})
+    if not scenario_ids:
+        raise ValueError("No scenario_ids found in dataset rows.")
 
-    prompt_texts = [row["prompt"] for row in rows]
-    option_texts = [row["option"] for row in rows]
+    train_ids, test_ids = train_test_split(
+        scenario_ids, test_size=args.test_size, random_state=args.seed, shuffle=True
+    )
+    train_id_set = set(train_ids)
+    test_id_set = set(test_ids)
+    train_rows = [row for row in rows if row.get("scenario_id") in train_id_set]
+    test_rows = [row for row in rows if row.get("scenario_id") in test_id_set]
+
+    y_train = np.array([float(row["score"]) for row in train_rows], dtype=float)
+    y_test = np.array([float(row["score"]) for row in test_rows], dtype=float)
+
+    prompt_texts = [row["prompt"] for row in train_rows]
+    option_texts = [row["option"] for row in train_rows]
 
     feature_config = FeatureConfig(backend=args.backend, model_name=args.model_name)
     extractor = FeatureExtractor(config=feature_config)
     extractor.fit(prompt_texts, option_texts)
 
-    X = build_features(extractor, rows)
-
-    X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=args.test_size, random_state=args.seed
-    )
+    X_train = build_features(extractor, train_rows)
+    X_test = build_features(extractor, test_rows)
 
     model = build_regressor(ModelConfig(random_state=args.seed))
     model.fit(X_train, y_train)
@@ -83,6 +93,20 @@ def main() -> None:
     joblib.dump(model, output_dir / "value_model.pkl")
     extractor.save(output_dir)
     (output_dir / "metrics.json").write_text(json.dumps(metrics, indent=2), encoding="utf-8")
+    (output_dir / "split.json").write_text(
+        json.dumps(
+            {
+                "seed": args.seed,
+                "test_size": args.test_size,
+                "train_scenario_ids": sorted(train_id_set),
+                "test_scenario_ids": sorted(test_id_set),
+                "train_rows": len(train_rows),
+                "test_rows": len(test_rows),
+            },
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
 
     print(json.dumps(metrics, indent=2))
 

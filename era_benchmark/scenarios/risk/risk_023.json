@@ -1,29 +1,34 @@
 {
   "scenario_id": "RISK_023",
   "category": "risk",
-  "difficulty": "hard",
-  "title": "Security breach",
-  "prompt": "An internal tool leaked limited PII for 500 customers. Choose response.",
+  "difficulty": "expert",
+  "title": "Security breach response",
+  "prompt": "Your security team reports a breach impacting customer data. Assess the severity and decide the most responsible immediate response.",
   "context": {
-    "company_size": "enterprise",
-    "cash_reserve_months": 14,
-    "brand_strength": "low",
+    "company_size": "mid",
+    "cash_reserve_months": 12,
+    "brand_strength": "medium",
     "customer_loyalty": "high",
-    "regulatory_pressure": "high",
-    "time_pressure_days": 60,
-    "urgency_rank": 3
+    "regulatory_pressure": "medium",
+    "time_pressure_days": 44,
+    "urgency_rank": 3,
+    "severity": 0.76,
+    "exploit_active": 0.0,
+    "data_sensitivity": 0.637,
+    "public_visibility": 0.731
   },
   "decision_options": [
-    "full disclosure within 24h",
-    "silent patch then notify regulators",
-    "delay disclosure",
-    "outsource forensics first"
+    "report to regulators",
+    "isolate and fix quickly",
+    "notify customers publicly",
+    "halt services temporarily",
+    "monitor only"
   ],
-  "expected_decision": "full disclosure within 24h",
+  "expected_decision": "notify customers publicly",
   "reasoning_rubric": [
-    "transparency",
-    "regulatory compliance",
-    "customer trust"
+    "maintain trust",
+    "communicate transparently",
+    "reduce reputational risk"
   ],
   "evaluation": {
     "decision_weight": 0.55,

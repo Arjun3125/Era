@@ -1,30 +1,36 @@
 {
   "scenario_id": "STRAT_005",
   "category": "strategy",
-  "difficulty": "easy",
-  "title": "Competitor price war",
-  "prompt": "A rival just undercut your core SaaS product by 60%. Users are churning. Decide the best competitive response.",
+  "difficulty": "expert",
+  "title": "Competitor price pressure",
+  "prompt": "A rival just cut price by 20%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
-    "company_size": "small",
-    "cash_reserve_months": 14,
+    "company_size": "large",
+    "cash_reserve_months": 11,
     "brand_strength": "medium",
-    "customer_loyalty": "high",
-    "regulatory_pressure": "medium",
-    "time_pressure_days": 90,
-    "urgency_rank": 5
+    "customer_loyalty": "low",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 29,
+    "urgency_rank": 3,
+    "price_sensitivity": 0.129,
+    "r_and_d_capacity": 0.647,
+    "market_awareness": 0.32,
+    "product_breadth": 0.707,
+    "enterprise_fit": 0.751,
+    "competitor_price_cut_pct": 20
   },
   "decision_options": [
-    "lower price",
-    "add premium features",
-    "increase marketing",
-    "bundle services",
-    "ignore competitor"
+    "shift to enterprise buyers",
+    "improve product quality",
+    "run aggressive campaigns",
+    "offer product bundles",
+    "focus enterprise tier"
   ],
-  "expected_decision": "add premium features",
+  "expected_decision": "shift to enterprise buyers",
   "reasoning_rubric": [
-    "avoid destructive price war",
+    "prioritize high-value accounts",
     "protect margin",
-    "differentiate product"
+    "stabilize revenue"
   ],
   "evaluation": {
     "decision_weight": 0.55,

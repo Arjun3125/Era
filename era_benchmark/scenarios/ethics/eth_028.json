@@ -2,28 +2,33 @@
   "scenario_id": "ETH_028",
   "category": "ethics",
   "difficulty": "expert",
-  "title": "AI bias mitigation",
-  "prompt": "Your model underperforms for a protected group. Choose mitigation.",
+  "title": "Workforce reduction dilemma",
+  "prompt": "Revenue has slowed and expenses exceed plan. Leadership must choose a workforce strategy to stabilize finances while protecting long-term capability.",
   "context": {
-    "company_size": "mid",
-    "cash_reserve_months": 7,
-    "brand_strength": "low",
-    "customer_loyalty": "high",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 90,
-    "urgency_rank": 3
+    "company_size": "large",
+    "cash_reserve_months": 5,
+    "brand_strength": "medium",
+    "customer_loyalty": "low",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 47,
+    "urgency_rank": 2,
+    "cost_gap": 0.862,
+    "morale_risk": 0.838,
+    "hiring_friction": 0.88,
+    "growth_outlook": "moderate"
   },
   "decision_options": [
-    "ship with caveats",
-    "delay launch and retrain",
-    "add human review",
-    "geo-limit rollout"
+    "layoff now",
+    "reassign employees",
+    "temporary salary reduction",
+    "pause hiring",
+    "seek financing"
   ],
-  "expected_decision": "add human review",
+  "expected_decision": "reassign employees",
   "reasoning_rubric": [
-    "harm reduction",
-    "fairness",
-    "maintain progress"
+    "retain talent",
+    "focus on priority work",
+    "minimize disruption"
   ],
   "evaluation": {
     "decision_weight": 0.55,

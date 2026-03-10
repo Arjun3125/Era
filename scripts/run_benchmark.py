@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 from pathlib import Path
 
@@ -13,6 +14,21 @@ if str(ROOT) not in sys.path:
 from modules.evaluation_engine import EvaluationRunner
 from modules.evaluation_engine.report import generate_report
 from modules.evaluation_engine.runner import load_scenarios
+
+
+def load_split_ids(path: Path, split: str | None) -> set[str] | None:
+    if not split or split.lower() == "all":
+        return None
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    split_key = split.lower()
+    if isinstance(payload, list):
+        return {str(item) for item in payload}
+    key = f"{split_key}_scenario_ids"
+    if key in payload:
+        return {str(item) for item in payload[key]}
+    if split_key in payload:
+        return {str(item) for item in payload[split_key]}
+    raise ValueError(f"Split '{split_key}' not found in {path}.")
 
 
 def main() -> None:
@@ -28,10 +44,18 @@ def main() -> None:
     parser.add_argument("--decision-policy", default="hybrid", help="Decision policy: era|simulator|hybrid.")
     parser.add_argument("--value-model", default=None, help="Path to trained value model directory.")
     parser.add_argument("--value-weight", type=float, default=0.4, help="Weight for value model scoring.")
+    parser.add_argument("--split-file", default=None, help="Path to split.json for train/test filtering.")
+    parser.add_argument("--split", default="test", help="Split to run: train|test|all.")
     parser.add_argument("--debug-failures", type=int, default=0, help="Print first N failures (scenario_id, predicted, expected).")
     args = parser.parse_args()
 
-    scenarios = load_scenarios(Path(args.benchmark), category=args.category, limit=args.limit)
+    split_ids = load_split_ids(Path(args.split_file), args.split) if args.split_file else None
+    scenarios = load_scenarios(
+        Path(args.benchmark),
+        category=args.category,
+        limit=args.limit,
+        scenario_ids=split_ids,
+    )
     runner = EvaluationRunner(
         scenarios,
         requested_mode=args.mode,

@@ -1,29 +1,36 @@
 {
   "scenario_id": "STRAT_039",
   "category": "strategy",
-  "difficulty": "hard",
-  "title": "Build vs partner",
-  "prompt": "You need an AI summarization feature in 90 days. Choose whether to build, partner, or acquire.",
+  "difficulty": "expert",
+  "title": "Competitor price pressure",
+  "prompt": "A rival just cut price by 26%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
-    "company_size": "small",
-    "cash_reserve_months": 14,
-    "brand_strength": "high",
-    "customer_loyalty": "moderate",
+    "company_size": "mid",
+    "cash_reserve_months": 21,
+    "brand_strength": "medium",
+    "customer_loyalty": "low",
     "regulatory_pressure": "medium",
-    "time_pressure_days": 30,
-    "urgency_rank": 4
+    "time_pressure_days": 34,
+    "urgency_rank": 3,
+    "price_sensitivity": 0.23,
+    "r_and_d_capacity": 0.111,
+    "market_awareness": 0.582,
+    "product_breadth": 0.833,
+    "enterprise_fit": 0.786,
+    "competitor_price_cut_pct": 26
   },
   "decision_options": [
-    "build internally",
-    "partner with API vendor",
-    "acquire small startup",
-    "delay feature"
+    "package services",
+    "increase differentiation",
+    "boost marketing spend",
+    "offer product bundles",
+    "shift to enterprise buyers"
   ],
-  "expected_decision": "partner with API vendor",
+  "expected_decision": "package services",
   "reasoning_rubric": [
-    "time-to-market",
-    "cost control",
-    "integration risk"
+    "raise switching costs",
+    "increase perceived value",
+    "reduce churn"
   ],
   "evaluation": {
     "decision_weight": 0.55,

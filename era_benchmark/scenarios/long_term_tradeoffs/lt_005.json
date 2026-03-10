@@ -1,29 +1,34 @@
 {
   "scenario_id": "LT_005",
   "category": "long_term_tradeoffs",
-  "difficulty": "easy",
-  "title": "Innovation vs reliability",
-  "prompt": "Aggressive feature velocity is causing incident frequency to rise. Choose path.",
+  "difficulty": "hard",
+  "title": "Growth vs stability",
+  "prompt": "The market opportunity is changing rapidly, and leadership must decide how aggressively to grow versus protect stability.",
   "context": {
-    "company_size": "small",
-    "cash_reserve_months": 13,
-    "brand_strength": "medium",
-    "customer_loyalty": "low",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 7,
-    "urgency_rank": 5
+    "company_size": "mid",
+    "cash_reserve_months": 7,
+    "brand_strength": "low",
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "medium",
+    "time_pressure_days": 43,
+    "urgency_rank": 2,
+    "market_opportunity": 0.152,
+    "burn_rate": 0.815,
+    "reliability_risk": 0.947,
+    "investor_pressure": 0.281
   },
   "decision_options": [
-    "slow releases and harden",
-    "continue velocity",
-    "feature freeze",
-    "add staging gates"
+    "aggressive expansion",
+    "measured growth",
+    "maximize runway",
+    "invest in reliability",
+    "exit the market"
   ],
-  "expected_decision": "slow releases and harden",
+  "expected_decision": "invest in reliability",
   "reasoning_rubric": [
-    "reduce incidents",
     "sustain trust",
-    "preserve learning pace"
+    "reduce risk",
+    "support long-term stability"
   ],
   "evaluation": {
     "decision_weight": 0.55,

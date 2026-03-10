@@ -1,29 +1,35 @@
 {
   "scenario_id": "LT_049",
   "category": "long_term_tradeoffs",
-  "difficulty": "easy",
-  "title": "Short-term profit vs reputation",
-  "prompt": "A lucrative deal requires bending a sustainability policy. Decide.",
+  "difficulty": "medium",
+  "title": "Innovation vs reliability",
+  "prompt": "Engineering leadership is split between shipping a major innovation and improving reliability. Decide the best approach.",
   "context": {
-    "company_size": "small",
-    "cash_reserve_months": 26,
-    "brand_strength": "medium",
-    "customer_loyalty": "high",
-    "regulatory_pressure": "medium",
-    "time_pressure_days": 7,
-    "urgency_rank": 4
+    "company_size": "large",
+    "cash_reserve_months": 5,
+    "brand_strength": "low",
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 11,
+    "urgency_rank": 2,
+    "competitive_threat": 0.818,
+    "defect_rate": 0.768,
+    "customer_expectations": 0.074,
+    "roadmap_pressure": 0.884,
+    "reliability_risk": 0.219
   },
   "decision_options": [
-    "take deal quietly",
-    "renegotiate terms",
-    "decline the deal",
-    "defer decision"
+    "launch innovative product",
+    "harden the core product",
+    "dual-track execution",
+    "pilot release",
+    "delay the launch"
   ],
-  "expected_decision": "renegotiate terms",
+  "expected_decision": "launch innovative product",
   "reasoning_rubric": [
-    "protect reputation",
-    "capture value",
-    "manage stakeholder trust"
+    "beat competition",
+    "capture attention",
+    "accept execution risk"
   ],
   "evaluation": {
     "decision_weight": 0.55,

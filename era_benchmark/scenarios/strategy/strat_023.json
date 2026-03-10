@@ -1,29 +1,36 @@
 {
   "scenario_id": "STRAT_023",
   "category": "strategy",
-  "difficulty": "hard",
-  "title": "Build vs partner",
-  "prompt": "You need an AI summarization feature in 90 days. Choose whether to build, partner, or acquire.",
+  "difficulty": "medium",
+  "title": "Competitor price pressure",
+  "prompt": "A rival just cut price by 24%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
-    "company_size": "mid",
-    "cash_reserve_months": 8,
-    "brand_strength": "medium",
+    "company_size": "large",
+    "cash_reserve_months": 21,
+    "brand_strength": "low",
     "customer_loyalty": "low",
     "regulatory_pressure": "high",
-    "time_pressure_days": 60,
-    "urgency_rank": 3
+    "time_pressure_days": 5,
+    "urgency_rank": 1,
+    "price_sensitivity": 0.507,
+    "r_and_d_capacity": 0.331,
+    "market_awareness": 0.187,
+    "product_breadth": 0.103,
+    "enterprise_fit": 0.11,
+    "competitor_price_cut_pct": 24
   },
   "decision_options": [
-    "build internally",
-    "partner with API vendor",
-    "acquire small startup",
-    "delay feature"
+    "temporary price cut",
+    "increase differentiation",
+    "boost marketing spend",
+    "offer product bundles",
+    "shift to enterprise buyers"
   ],
-  "expected_decision": "partner with API vendor",
+  "expected_decision": "temporary price cut",
   "reasoning_rubric": [
-    "time-to-market",
-    "cost control",
-    "integration risk"
+    "capture price-sensitive demand",
+    "defend market share",
+    "accept margin pressure"
   ],
   "evaluation": {
     "decision_weight": 0.55,

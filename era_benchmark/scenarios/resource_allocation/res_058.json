@@ -1,29 +1,35 @@
 {
   "scenario_id": "RES_058",
   "category": "resource_allocation",
-  "difficulty": "medium",
-  "title": "Budget split",
-  "prompt": "You have $5M incremental budget. Allocate between product, sales, and reliability.",
+  "difficulty": "expert",
+  "title": "Staffing allocation decision",
+  "prompt": "Hiring capacity is limited this quarter. Decide how to allocate headcount to best support the company's priorities.",
   "context": {
-    "company_size": "mid",
-    "cash_reserve_months": 13,
-    "brand_strength": "low",
-    "customer_loyalty": "moderate",
+    "company_size": "small",
+    "cash_reserve_months": 21,
+    "brand_strength": "medium",
+    "customer_loyalty": "high",
     "regulatory_pressure": "low",
-    "time_pressure_days": 60,
-    "urgency_rank": 3
+    "time_pressure_days": 34,
+    "urgency_rank": 1,
+    "backlog_size": 0.641,
+    "incident_rate": 0.709,
+    "sales_pipeline": 0.867,
+    "delivery_pressure": 0.636,
+    "reliability_risk": 0.789
   },
   "decision_options": [
-    "product-heavy",
-    "sales-heavy",
-    "reliability-first",
-    "even split"
+    "add developers",
+    "add reliability engineers",
+    "expand sales headcount",
+    "expand engineering team",
+    "hold headcount steady"
   ],
-  "expected_decision": "reliability-first",
+  "expected_decision": "expand engineering team",
   "reasoning_rubric": [
-    "protect uptime",
-    "support growth",
-    "align with stage"
+    "increase delivery capacity",
+    "clear backlog",
+    "ship faster"
   ],
   "evaluation": {
     "decision_weight": 0.55,

@@ -1,29 +1,35 @@
 {
   "scenario_id": "LT_030",
   "category": "long_term_tradeoffs",
-  "difficulty": "medium",
-  "title": "Platform bet",
-  "prompt": "You can replatform to a modern stack in 12 months or keep investing in the legacy system. Decide.",
+  "difficulty": "easy",
+  "title": "Innovation vs reliability",
+  "prompt": "Engineering leadership is split between shipping a major innovation and improving reliability. Decide the best approach.",
   "context": {
     "company_size": "small",
-    "cash_reserve_months": 21,
-    "brand_strength": "medium",
-    "customer_loyalty": "low",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 30,
-    "urgency_rank": 5
+    "cash_reserve_months": 6,
+    "brand_strength": "high",
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 19,
+    "urgency_rank": 3,
+    "competitive_threat": 0.166,
+    "defect_rate": 0.798,
+    "customer_expectations": 0.911,
+    "roadmap_pressure": 0.52,
+    "reliability_risk": 0.636
   },
   "decision_options": [
-    "full replatform now",
-    "incremental strangler",
-    "stay on legacy",
-    "outsource platform"
+    "ship major innovation",
+    "focus on reliability",
+    "two-track delivery",
+    "stabilize core",
+    "delay the launch"
   ],
-  "expected_decision": "incremental strangler",
+  "expected_decision": "stabilize core",
   "reasoning_rubric": [
-    "manage migration risk",
-    "control cost",
-    "retain optionality"
+    "reduce defects",
+    "protect customers",
+    "build trust"
   ],
   "evaluation": {
     "decision_weight": 0.55,

@@ -1,29 +1,33 @@
 {
   "scenario_id": "STRAT_076",
   "category": "strategy",
-  "difficulty": "expert",
-  "title": "Product focus",
-  "prompt": "Customers ask for many niche features that slow core roadmap. Decide focus for next two quarters.",
+  "difficulty": "medium",
+  "title": "Market entry decision",
+  "prompt": "Your company is considering entry into a new region with uncertain demand and regulatory complexity. Decide the best market entry strategy.",
   "context": {
-    "company_size": "enterprise",
-    "cash_reserve_months": 6,
+    "company_size": "small",
+    "cash_reserve_months": 20,
     "brand_strength": "high",
-    "customer_loyalty": "high",
-    "regulatory_pressure": "high",
-    "time_pressure_days": 60,
-    "urgency_rank": 1
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 17,
+    "urgency_rank": 3,
+    "market_uncertainty": 0.189,
+    "local_partner_available": 0.0,
+    "strategic_importance": 0.86
   },
   "decision_options": [
-    "double down on core features",
-    "prioritize niche requests",
-    "open plugin platform",
-    "pause roadmap"
+    "launch immediately",
+    "localize before launch",
+    "joint venture with local player",
+    "buy a local competitor",
+    "exit the opportunity"
   ],
-  "expected_decision": "double down on core features",
+  "expected_decision": "buy a local competitor",
   "reasoning_rubric": [
-    "avoid roadmap fragmentation",
-    "preserve velocity",
-    "serve largest segment"
+    "buy market access",
+    "accelerate entry",
+    "use cash advantage"
   ],
   "evaluation": {
     "decision_weight": 0.55,

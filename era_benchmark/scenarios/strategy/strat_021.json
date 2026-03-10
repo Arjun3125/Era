@@ -1,30 +1,36 @@
 {
   "scenario_id": "STRAT_021",
   "category": "strategy",
-  "difficulty": "easy",
-  "title": "Competitor price war",
-  "prompt": "A rival just undercut your core SaaS product by 60%. Users are churning. Decide the best competitive response.",
+  "difficulty": "expert",
+  "title": "Competitor price pressure",
+  "prompt": "A rival just cut price by 70%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
-    "company_size": "small",
-    "cash_reserve_months": 6,
+    "company_size": "mid",
+    "cash_reserve_months": 17,
     "brand_strength": "low",
-    "customer_loyalty": "high",
+    "customer_loyalty": "moderate",
     "regulatory_pressure": "low",
-    "time_pressure_days": 7,
-    "urgency_rank": 1
+    "time_pressure_days": 55,
+    "urgency_rank": 1,
+    "price_sensitivity": 0.561,
+    "r_and_d_capacity": 0.387,
+    "market_awareness": 0.692,
+    "product_breadth": 0.179,
+    "enterprise_fit": 0.675,
+    "competitor_price_cut_pct": 70
   },
   "decision_options": [
-    "lower price",
-    "add premium features",
+    "temporary price cut",
+    "increase differentiation",
     "increase marketing",
-    "bundle services",
-    "ignore competitor"
+    "package services",
+    "prioritize enterprise deals"
   ],
-  "expected_decision": "add premium features",
+  "expected_decision": "temporary price cut",
   "reasoning_rubric": [
-    "avoid destructive price war",
-    "protect margin",
-    "differentiate product"
+    "capture price-sensitive demand",
+    "defend market share",
+    "accept margin pressure"
   ],
   "evaluation": {
     "decision_weight": 0.55,

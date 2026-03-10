@@ -1,29 +1,34 @@
 {
   "scenario_id": "ETH_050",
   "category": "ethics",
-  "difficulty": "medium",
-  "title": "Employee layoffs",
-  "prompt": "Facing a 20% budget gap, you can do layoffs or across-the-board pay cuts. Pick a path.",
+  "difficulty": "hard",
+  "title": "Workforce reduction dilemma",
+  "prompt": "Revenue has slowed and expenses exceed plan. Leadership must choose a workforce strategy to stabilize finances while protecting long-term capability.",
   "context": {
-    "company_size": "small",
-    "cash_reserve_months": 23,
-    "brand_strength": "high",
-    "customer_loyalty": "moderate",
+    "company_size": "mid",
+    "cash_reserve_months": 6,
+    "brand_strength": "medium",
+    "customer_loyalty": "low",
     "regulatory_pressure": "medium",
-    "time_pressure_days": 14,
-    "urgency_rank": 5
+    "time_pressure_days": 31,
+    "urgency_rank": 3,
+    "cost_gap": 0.814,
+    "morale_risk": 0.993,
+    "hiring_friction": 0.222,
+    "growth_outlook": "high"
   },
   "decision_options": [
-    "targeted layoffs",
-    "pay cuts for all",
-    "freeze hiring and bonuses",
-    "bridge with debt"
+    "reduce headcount",
+    "implement pay cuts",
+    "across-the-board cuts",
+    "stop new hiring",
+    "seek financing"
   ],
-  "expected_decision": "targeted layoffs",
+  "expected_decision": "implement pay cuts",
   "reasoning_rubric": [
-    "preserve core teams",
-    "treat people fairly",
-    "avoid long-term morale damage"
+    "share burden",
+    "avoid layoffs",
+    "improve runway"
   ],
   "evaluation": {
     "decision_weight": 0.55,

@@ -1,29 +1,34 @@
 {
   "scenario_id": "RES_003",
   "category": "resource_allocation",
-  "difficulty": "hard",
-  "title": "Data center expansion",
-  "prompt": "Capacity is tight in two regions. Decide where to add capacity first.",
+  "difficulty": "expert",
+  "title": "Budget allocation decision",
+  "prompt": "Your annual budget is constrained. Decide where to allocate incremental spend for the next two quarters.",
   "context": {
-    "company_size": "small",
-    "cash_reserve_months": 29,
+    "company_size": "large",
+    "cash_reserve_months": 8,
     "brand_strength": "high",
     "customer_loyalty": "low",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 90,
-    "urgency_rank": 3
+    "regulatory_pressure": "high",
+    "time_pressure_days": 14,
+    "urgency_rank": 1,
+    "product_quality_gap": 0.617,
+    "demand_gap": 0.379,
+    "conversion_gap": 0.787,
+    "reliability_risk": 0.243
   },
   "decision_options": [
-    "region A",
-    "region B",
-    "multi-cloud burst",
-    "optimize usage only"
+    "invest in engineering",
+    "expand campaigns",
+    "invest in sales",
+    "fund platform stability",
+    "expand sales coverage"
   ],
-  "expected_decision": "multi-cloud burst",
+  "expected_decision": "expand sales coverage",
   "reasoning_rubric": [
-    "resilience",
-    "latency",
-    "cost efficiency"
+    "improve conversion",
+    "close deals",
+    "expand revenue"
   ],
   "evaluation": {
     "decision_weight": 0.55,

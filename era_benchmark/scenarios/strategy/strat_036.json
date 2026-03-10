@@ -2,28 +2,35 @@
   "scenario_id": "STRAT_036",
   "category": "strategy",
   "difficulty": "expert",
-  "title": "Product focus",
-  "prompt": "Customers ask for many niche features that slow core roadmap. Decide focus for next two quarters.",
+  "title": "Competitor price pressure",
+  "prompt": "A rival just cut price by 63%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
-    "company_size": "enterprise",
-    "cash_reserve_months": 7,
+    "company_size": "mid",
+    "cash_reserve_months": 21,
     "brand_strength": "medium",
-    "customer_loyalty": "moderate",
+    "customer_loyalty": "low",
     "regulatory_pressure": "medium",
-    "time_pressure_days": 90,
-    "urgency_rank": 1
+    "time_pressure_days": 50,
+    "urgency_rank": 2,
+    "price_sensitivity": 0.9,
+    "r_and_d_capacity": 0.806,
+    "market_awareness": 0.119,
+    "product_breadth": 0.641,
+    "enterprise_fit": 0.672,
+    "competitor_price_cut_pct": 63
   },
   "decision_options": [
-    "double down on core features",
-    "prioritize niche requests",
-    "open plugin platform",
-    "pause roadmap"
+    "discount aggressively",
+    "improve product quality",
+    "increase marketing",
+    "offer product bundles",
+    "prioritize enterprise deals"
   ],
-  "expected_decision": "double down on core features",
+  "expected_decision": "discount aggressively",
   "reasoning_rubric": [
-    "avoid roadmap fragmentation",
-    "preserve velocity",
-    "serve largest segment"
+    "capture price-sensitive demand",
+    "defend market share",
+    "accept margin pressure"
   ],
   "evaluation": {
     "decision_weight": 0.55,

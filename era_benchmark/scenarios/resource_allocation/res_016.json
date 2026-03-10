@@ -2,28 +2,33 @@
   "scenario_id": "RES_016",
   "category": "resource_allocation",
   "difficulty": "expert",
-  "title": "Budget split",
-  "prompt": "You have $5M incremental budget. Allocate between product, sales, and reliability.",
+  "title": "Budget allocation decision",
+  "prompt": "Your annual budget is constrained. Decide where to allocate incremental spend for the next two quarters.",
   "context": {
-    "company_size": "enterprise",
-    "cash_reserve_months": 9,
-    "brand_strength": "medium",
+    "company_size": "large",
+    "cash_reserve_months": 15,
+    "brand_strength": "high",
     "customer_loyalty": "moderate",
     "regulatory_pressure": "high",
-    "time_pressure_days": 60,
-    "urgency_rank": 1
+    "time_pressure_days": 18,
+    "urgency_rank": 1,
+    "product_quality_gap": 0.857,
+    "demand_gap": 0.611,
+    "conversion_gap": 0.948,
+    "reliability_risk": 0.677
   },
   "decision_options": [
-    "product-heavy",
-    "sales-heavy",
-    "reliability-first",
-    "even split"
+    "invest in engineering",
+    "boost marketing spend",
+    "grow sales team",
+    "increase reliability spend",
+    "cut discretionary spend"
   ],
-  "expected_decision": "reliability-first",
+  "expected_decision": "invest in engineering",
   "reasoning_rubric": [
-    "protect uptime",
-    "support growth",
-    "align with stage"
+    "fix product gaps",
+    "improve retention",
+    "build differentiation"
   ],
   "evaluation": {
     "decision_weight": 0.55,

@@ -1,29 +1,36 @@
 {
   "scenario_id": "STRAT_034",
   "category": "strategy",
-  "difficulty": "medium",
-  "title": "Market entry sequencing",
-  "prompt": "You can expand to APAC or LATAM this year, not both. Where do you go first?",
+  "difficulty": "expert",
+  "title": "Competitor price pressure",
+  "prompt": "A rival just cut price by 48%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
-    "company_size": "small",
-    "cash_reserve_months": 24,
-    "brand_strength": "low",
+    "company_size": "large",
+    "cash_reserve_months": 22,
+    "brand_strength": "high",
     "customer_loyalty": "moderate",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 60,
-    "urgency_rank": 4
+    "regulatory_pressure": "high",
+    "time_pressure_days": 48,
+    "urgency_rank": 1,
+    "price_sensitivity": 0.452,
+    "r_and_d_capacity": 0.301,
+    "market_awareness": 0.587,
+    "product_breadth": 0.731,
+    "enterprise_fit": 0.346,
+    "competitor_price_cut_pct": 48
   },
   "decision_options": [
-    "enter APAC now",
-    "enter LATAM now",
-    "delay expansion",
-    "partner with regional player"
+    "temporary price cut",
+    "increase differentiation",
+    "run aggressive campaigns",
+    "bundle services",
+    "shift to enterprise buyers"
   ],
-  "expected_decision": "enter APAC now",
+  "expected_decision": "bundle services",
   "reasoning_rubric": [
-    "maximize TAM",
-    "balance execution risk",
-    "respect capital constraints"
+    "raise switching costs",
+    "increase perceived value",
+    "reduce churn"
   ],
   "evaluation": {
     "decision_weight": 0.55,

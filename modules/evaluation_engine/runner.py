@@ -105,7 +105,12 @@ class EvaluationRunner:
             confidence = float(result.decision_contract.confidence or 0.0)
             reasoning = self._extract_reasoning(result)
             score = self._score_option(result, confidence)
-            if self.value_model is not None:\n                value_scores[str(option)] = self.value_model.predict(\n                    scenario.get(\"prompt\", \"\"),\n                    str(option),\n                    scenario.get(\"context\", {}),\n                )
+            if self.value_model is not None:
+                value_scores[str(option)] = self.value_model.predict(
+                    scenario.get("prompt", ""),
+                    str(option),
+                    scenario.get("context", {}),
+                )
             prediction = prediction_map.get(str(option))
             option_evals.append(
                 OptionEvaluation(
@@ -122,7 +127,7 @@ class EvaluationRunner:
                 counterfactuals[str(option)] = self._run_counterfactual(scenario, option)
 
         option_evals.sort(key=lambda item: (item.score, item.confidence, item.option), reverse=True)
-        default_choice = option_evals[0] if option_evals else OptionEvaluation("", 0.0, 0.0, "", "")
+        default_choice = option_evals[0] if option_evals else OptionEvaluation("", 0.0, 0.0, "", "", 0.0, {})
         chosen = default_choice
         if self.decision_policy == "simulator" and simulator_best:
             chosen = next(
@@ -147,7 +152,19 @@ class EvaluationRunner:
         option_utilities = {item.option: item.utility for item in simulator_utilities}
         expected = scenario.get("expected_decision", "")
         combined_scores: Dict[str, float] = {}
-        if self.value_model is not None:\n            for item in option_evals:\n                value_score = value_scores.get(item.option, 0.0)\n                combined_scores[item.option] = round(\n                    (1 - self.value_weight) * item.score + self.value_weight * value_score,\n                    4,\n                )\n            # Re-select with value model if policy requests it.\n            if self.decision_policy == \"value_model\" and combined_scores:\n                best_option = max(combined_scores.items(), key=lambda kv: kv[1])[0]\n                chosen = next((item for item in option_evals if item.option == best_option), chosen)\n\n+        normalized_chosen = match_option(chosen.option, options) or chosen.option
+        if self.value_model is not None:
+            for item in option_evals:
+                value_score = value_scores.get(item.option, 0.0)
+                combined_scores[item.option] = round(
+                    (1 - self.value_weight) * item.score + self.value_weight * value_score,
+                    4,
+                )
+            # Re-select with value model if policy requests it.
+            if self.decision_policy == "value_model" and combined_scores:
+                best_option = max(combined_scores.items(), key=lambda kv: kv[1])[0]
+                chosen = next((item for item in option_evals if item.option == best_option), chosen)
+
+        normalized_chosen = match_option(chosen.option, options) or chosen.option
         decision_correct = accuracy_score(normalized_chosen, expected)
         rubric = scenario.get("reasoning_rubric", [])
         reasoning_text = chosen.reasoning
@@ -337,12 +354,16 @@ def load_scenarios(
     *,
     category: Optional[str] = None,
     limit: Optional[int] = None,
+    scenario_ids: Optional[Iterable[str]] = None,
 ) -> List[Dict[str, Any]]:
     scenarios: List[Dict[str, Any]] = []
+    allowed_ids = {str(item) for item in scenario_ids} if scenario_ids else None
     categories = [category] if category else [p.name for p in (root / "scenarios").iterdir() if p.is_dir()]
     for cat in sorted(categories):
         for path in sorted((root / "scenarios" / cat).glob("*.json")):
             data = json.loads(path.read_text(encoding="utf-8"))
+            if allowed_ids is not None and data.get("scenario_id") not in allowed_ids:
+                continue
             scenarios.append(data)
             if limit and len(scenarios) >= limit:
                 return scenarios

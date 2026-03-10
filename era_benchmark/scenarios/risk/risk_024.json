@@ -2,28 +2,33 @@
   "scenario_id": "RISK_024",
   "category": "risk",
   "difficulty": "expert",
-  "title": "Legal exposure",
-  "prompt": "A new regional law might classify your product as a financial service. Decide approach.",
+  "title": "Security breach response",
+  "prompt": "Your security team reports a breach impacting customer data. Assess the severity and decide the most responsible immediate response.",
   "context": {
-    "company_size": "mid",
-    "cash_reserve_months": 29,
+    "company_size": "large",
+    "cash_reserve_months": 4,
     "brand_strength": "high",
-    "customer_loyalty": "low",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 60,
-    "urgency_rank": 4
+    "customer_loyalty": "high",
+    "regulatory_pressure": "medium",
+    "time_pressure_days": 19,
+    "urgency_rank": 1,
+    "severity": 0.848,
+    "exploit_active": 0.855,
+    "data_sensitivity": 0.786,
+    "public_visibility": 0.721
   },
   "decision_options": [
-    "proactively comply",
-    "lobby for clarification",
-    "geo-block region",
-    "wait and monitor"
+    "file a regulatory disclosure",
+    "patch immediately",
+    "publicly disclose",
+    "halt services temporarily",
+    "shut down systems"
   ],
-  "expected_decision": "proactively comply",
+  "expected_decision": "shut down systems",
   "reasoning_rubric": [
-    "avoid fines",
-    "protect reputation",
-    "maintain market access"
+    "contain rapidly",
+    "prevent escalation",
+    "accept short-term disruption"
   ],
   "evaluation": {
     "decision_weight": 0.55,

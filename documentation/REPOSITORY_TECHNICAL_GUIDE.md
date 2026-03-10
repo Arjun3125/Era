@@ -78,6 +78,47 @@ Purpose:
 
 - Implement the business logic of the staged decision flow
 
+### `era_benchmark/`
+
+- [`era_benchmark/benchmark_index.json`](c:\era\era_benchmark\benchmark_index.json): benchmark metadata (current version, counts)
+- [`era_benchmark/schema.md`](c:\era\era_benchmark\schema.md): scenario schema and scoring rules
+- `era_benchmark/scenarios/*`: 300 context-driven scenarios used for evaluation, training seeds, and regression checks
+
+Purpose:
+
+- Provide a frozen, deterministic evaluation dataset (ERA-Bench v1.1)
+- Back value-model training and regression checks
+
+Regeneration:
+
+- [`scripts/generate_era_benchmark.py`](c:\era\scripts\generate_era_benchmark.py) rebuilds the dataset deterministically with a seed
+
+### `evaluation/`
+
+- [`evaluation/evaluate_benchmark.py`](c:\era\evaluation\evaluate_benchmark.py): wrapper CLI for the evaluation engine
+
+Purpose:
+
+- Quick evaluation runs over ERA-Bench without experiment harness overhead
+
+### `experiments/`
+
+- `experiments/run_benchmark.py`: experiment runner with metrics, plots, and bootstrap statistics
+- `experiments/experiment_registry.py`: named experiment configs (baseline vs council modes, value model)
+
+Purpose:
+
+- Reproducible experiment execution with statistical reporting
+
+### `scripts/`
+
+- [`scripts/run_benchmark.py`](c:\era\scripts\run_benchmark.py): primary benchmark runner with split filtering
+- [`scripts/generate_era_benchmark.py`](c:\era\scripts\generate_era_benchmark.py): ERA-Bench v1.1 generator
+
+Purpose:
+
+- CLI entrypoints and dataset tooling for evaluation and benchmarking
+
 ### `data/`
 
 Contains local artifacts and reference data. Important current observations:

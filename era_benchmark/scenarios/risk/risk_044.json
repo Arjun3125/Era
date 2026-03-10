@@ -2,28 +2,33 @@
   "scenario_id": "RISK_044",
   "category": "risk",
   "difficulty": "expert",
-  "title": "Security breach",
-  "prompt": "An internal tool leaked limited PII for 500 customers. Choose response.",
+  "title": "Supply chain disruption",
+  "prompt": "A key supplier signals potential delays that could disrupt delivery timelines. Decide the best supply chain response.",
   "context": {
-    "company_size": "enterprise",
-    "cash_reserve_months": 7,
-    "brand_strength": "medium",
-    "customer_loyalty": "high",
+    "company_size": "small",
+    "cash_reserve_months": 19,
+    "brand_strength": "low",
+    "customer_loyalty": "moderate",
     "regulatory_pressure": "medium",
-    "time_pressure_days": 14,
-    "urgency_rank": 4
+    "time_pressure_days": 10,
+    "urgency_rank": 3,
+    "supplier_concentration": 0.176,
+    "lead_time_risk": 0.843,
+    "demand_volatility": 0.848,
+    "inventory_cover": 0.586
   },
   "decision_options": [
-    "full disclosure within 24h",
-    "silent patch then notify regulators",
-    "delay disclosure",
-    "outsource forensics first"
+    "add backup suppliers",
+    "increase inventory buffer",
+    "expedite alternative supply",
+    "fast-track substitutes",
+    "maintain current plan"
   ],
-  "expected_decision": "full disclosure within 24h",
+  "expected_decision": "expedite alternative supply",
   "reasoning_rubric": [
-    "transparency",
-    "regulatory compliance",
-    "customer trust"
+    "reduce lead time risk",
+    "maintain commitments",
+    "pay for speed"
   ],
   "evaluation": {
     "decision_weight": 0.55,

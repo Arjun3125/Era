@@ -1,30 +1,33 @@
 {
   "scenario_id": "STRAT_045",
   "category": "strategy",
-  "difficulty": "easy",
-  "title": "Competitor price war",
-  "prompt": "A rival just undercut your core SaaS product by 60%. Users are churning. Decide the best competitive response.",
+  "difficulty": "hard",
+  "title": "Market entry decision",
+  "prompt": "Your company is considering entry into a new region with uncertain demand and regulatory complexity. Decide the best market entry strategy.",
   "context": {
-    "company_size": "enterprise",
-    "cash_reserve_months": 12,
+    "company_size": "large",
+    "cash_reserve_months": 7,
     "brand_strength": "medium",
-    "customer_loyalty": "low",
-    "regulatory_pressure": "medium",
-    "time_pressure_days": 30,
-    "urgency_rank": 5
+    "customer_loyalty": "high",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 43,
+    "urgency_rank": 1,
+    "market_uncertainty": 0.867,
+    "local_partner_available": 1.0,
+    "strategic_importance": 0.1
   },
   "decision_options": [
-    "lower price",
-    "add premium features",
-    "increase marketing",
-    "bundle services",
-    "ignore competitor"
+    "enter the market now",
+    "localize before launch",
+    "form a local partnership",
+    "acquire a local startup",
+    "exit the opportunity"
   ],
-  "expected_decision": "add premium features",
+  "expected_decision": "form a local partnership",
   "reasoning_rubric": [
-    "avoid destructive price war",
-    "protect margin",
-    "differentiate product"
+    "share risk",
+    "gain local expertise",
+    "speed market access"
   ],
   "evaluation": {
     "decision_weight": 0.55,

@@ -2,28 +2,33 @@
   "scenario_id": "ETH_010",
   "category": "ethics",
   "difficulty": "medium",
-  "title": "AI bias mitigation",
-  "prompt": "Your model underperforms for a protected group. Choose mitigation.",
+  "title": "AI bias allegation",
+  "prompt": "An external report claims your AI model shows bias in a critical workflow. Decide the most ethical response.",
   "context": {
-    "company_size": "enterprise",
-    "cash_reserve_months": 6,
+    "company_size": "small",
+    "cash_reserve_months": 22,
     "brand_strength": "medium",
     "customer_loyalty": "moderate",
-    "regulatory_pressure": "medium",
-    "time_pressure_days": 30,
-    "urgency_rank": 5
+    "regulatory_pressure": "low",
+    "time_pressure_days": 13,
+    "urgency_rank": 1,
+    "harm_level": 0.532,
+    "evidence_strength": 0.149,
+    "revenue_dependency": 0.315,
+    "public_visibility": 0.072
   },
   "decision_options": [
-    "ship with caveats",
-    "delay launch and retrain",
-    "add human review",
-    "geo-limit rollout"
+    "pause and audit",
+    "deploy with guardrails",
+    "transparent disclosure",
+    "address silently",
+    "dismiss the report"
   ],
-  "expected_decision": "add human review",
+  "expected_decision": "pause and audit",
   "reasoning_rubric": [
-    "harm reduction",
-    "fairness",
-    "maintain progress"
+    "prevent harm",
+    "validate evidence",
+    "regain trust"
   ],
   "evaluation": {
     "decision_weight": 0.55,

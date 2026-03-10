@@ -1,29 +1,33 @@
 {
   "scenario_id": "STRAT_062",
   "category": "strategy",
-  "difficulty": "medium",
-  "title": "Market entry sequencing",
-  "prompt": "You can expand to APAC or LATAM this year, not both. Where do you go first?",
+  "difficulty": "expert",
+  "title": "Market entry decision",
+  "prompt": "Your company is considering entry into a new region with uncertain demand and regulatory complexity. Decide the best market entry strategy.",
   "context": {
     "company_size": "mid",
-    "cash_reserve_months": 8,
-    "brand_strength": "low",
-    "customer_loyalty": "high",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 90,
-    "urgency_rank": 2
+    "cash_reserve_months": 12,
+    "brand_strength": "medium",
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 11,
+    "urgency_rank": 2,
+    "market_uncertainty": 0.693,
+    "local_partner_available": 1.0,
+    "strategic_importance": 0.126
   },
   "decision_options": [
-    "enter APAC now",
-    "enter LATAM now",
-    "delay expansion",
-    "partner with regional player"
+    "go live now",
+    "localize before launch",
+    "joint venture with local player",
+    "acquire a local startup",
+    "pause entry indefinitely"
   ],
-  "expected_decision": "enter APAC now",
+  "expected_decision": "localize before launch",
   "reasoning_rubric": [
-    "maximize TAM",
-    "balance execution risk",
-    "respect capital constraints"
+    "reduce regulatory risk",
+    "adapt to local needs",
+    "avoid premature launch"
   ],
   "evaluation": {
     "decision_weight": 0.55,

@@ -2,28 +2,33 @@
   "scenario_id": "RISK_012",
   "category": "risk",
   "difficulty": "expert",
-  "title": "Legal exposure",
-  "prompt": "A new regional law might classify your product as a financial service. Decide approach.",
+  "title": "Security breach response",
+  "prompt": "Your security team reports a breach impacting customer data. Assess the severity and decide the most responsible immediate response.",
   "context": {
-    "company_size": "enterprise",
-    "cash_reserve_months": 23,
-    "brand_strength": "high",
-    "customer_loyalty": "moderate",
+    "company_size": "mid",
+    "cash_reserve_months": 16,
+    "brand_strength": "low",
+    "customer_loyalty": "high",
     "regulatory_pressure": "low",
-    "time_pressure_days": 30,
-    "urgency_rank": 2
+    "time_pressure_days": 37,
+    "urgency_rank": 2,
+    "severity": 0.755,
+    "exploit_active": 0.769,
+    "data_sensitivity": 0.929,
+    "public_visibility": 0.484
   },
   "decision_options": [
-    "proactively comply",
-    "lobby for clarification",
-    "geo-block region",
-    "wait and monitor"
+    "report to regulators",
+    "isolate and fix quickly",
+    "issue a public statement",
+    "contain and patch",
+    "watch and wait"
   ],
-  "expected_decision": "proactively comply",
+  "expected_decision": "contain and patch",
   "reasoning_rubric": [
-    "avoid fines",
-    "protect reputation",
-    "maintain market access"
+    "stop the breach",
+    "reduce ongoing harm",
+    "restore security quickly"
   ],
   "evaluation": {
     "decision_weight": 0.55,

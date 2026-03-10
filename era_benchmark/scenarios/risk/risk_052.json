@@ -2,28 +2,33 @@
   "scenario_id": "RISK_052",
   "category": "risk",
   "difficulty": "expert",
-  "title": "Supplier failure",
-  "prompt": "Primary hardware supplier shows quality issues and late shipments. Decide mitigation.",
+  "title": "Supply chain disruption",
+  "prompt": "A key supplier signals potential delays that could disrupt delivery timelines. Decide the best supply chain response.",
   "context": {
     "company_size": "mid",
-    "cash_reserve_months": 7,
+    "cash_reserve_months": 21,
     "brand_strength": "medium",
-    "customer_loyalty": "high",
-    "regulatory_pressure": "medium",
-    "time_pressure_days": 7,
-    "urgency_rank": 2
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 54,
+    "urgency_rank": 1,
+    "supplier_concentration": 0.725,
+    "lead_time_risk": 0.839,
+    "demand_volatility": 0.761,
+    "inventory_cover": 0.562
   },
   "decision_options": [
-    "dual-source immediately",
-    "increase QA and penalties",
-    "build inventory buffer",
-    "accept current risk"
+    "dual-source components",
+    "stockpile inventory",
+    "pause sales",
+    "rush alternative sourcing",
+    "do nothing"
   ],
-  "expected_decision": "dual-source immediately",
+  "expected_decision": "stockpile inventory",
   "reasoning_rubric": [
-    "reduce single point of failure",
-    "preserve delivery commitments",
-    "control costs"
+    "buffer against delays",
+    "maintain service levels",
+    "use cash strategically"
   ],
   "evaluation": {
     "decision_weight": 0.55,

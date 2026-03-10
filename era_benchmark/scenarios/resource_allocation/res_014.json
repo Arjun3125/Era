@@ -1,29 +1,34 @@
 {
   "scenario_id": "RES_014",
   "category": "resource_allocation",
-  "difficulty": "medium",
-  "title": "Headcount allocation",
-  "prompt": "Choose how to place 10 new engineers among infra, core product, and growth.",
+  "difficulty": "expert",
+  "title": "Budget allocation decision",
+  "prompt": "Your annual budget is constrained. Decide where to allocate incremental spend for the next two quarters.",
   "context": {
-    "company_size": "enterprise",
-    "cash_reserve_months": 21,
-    "brand_strength": "medium",
+    "company_size": "mid",
+    "cash_reserve_months": 4,
+    "brand_strength": "low",
     "customer_loyalty": "low",
     "regulatory_pressure": "high",
-    "time_pressure_days": 60,
-    "urgency_rank": 4
+    "time_pressure_days": 20,
+    "urgency_rank": 2,
+    "product_quality_gap": 0.757,
+    "demand_gap": 0.862,
+    "conversion_gap": 0.739,
+    "reliability_risk": 0.739
   },
   "decision_options": [
-    "infra focus",
-    "core product focus",
-    "growth focus",
-    "balanced"
+    "fund engineering capacity",
+    "boost marketing spend",
+    "expand sales coverage",
+    "increase reliability spend",
+    "cut discretionary spend"
   ],
-  "expected_decision": "balanced",
+  "expected_decision": "increase reliability spend",
   "reasoning_rubric": [
-    "avoid single bottlenecks",
-    "support roadmap",
-    "manage risk"
+    "protect uptime",
+    "reduce risk",
+    "support scale"
   ],
   "evaluation": {
     "decision_weight": 0.55,

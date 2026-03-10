@@ -2,28 +2,33 @@
   "scenario_id": "ETH_020",
   "category": "ethics",
   "difficulty": "expert",
-  "title": "Employee layoffs",
-  "prompt": "Facing a 20% budget gap, you can do layoffs or across-the-board pay cuts. Pick a path.",
+  "title": "AI bias allegation",
+  "prompt": "An external report claims your AI model shows bias in a critical workflow. Decide the most ethical response.",
   "context": {
-    "company_size": "enterprise",
-    "cash_reserve_months": 28,
-    "brand_strength": "high",
+    "company_size": "small",
+    "cash_reserve_months": 17,
+    "brand_strength": "medium",
     "customer_loyalty": "high",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 60,
-    "urgency_rank": 5
+    "regulatory_pressure": "medium",
+    "time_pressure_days": 49,
+    "urgency_rank": 1,
+    "harm_level": 0.266,
+    "evidence_strength": 0.103,
+    "revenue_dependency": 0.232,
+    "public_visibility": 0.187
   },
   "decision_options": [
-    "targeted layoffs",
-    "pay cuts for all",
-    "freeze hiring and bonuses",
-    "bridge with debt"
+    "pause and audit",
+    "halt release for audit",
+    "publicly disclose issues",
+    "fix internally first",
+    "dismiss the report"
   ],
-  "expected_decision": "targeted layoffs",
+  "expected_decision": "halt release for audit",
   "reasoning_rubric": [
-    "preserve core teams",
-    "treat people fairly",
-    "avoid long-term morale damage"
+    "prevent harm",
+    "validate evidence",
+    "regain trust"
   ],
   "evaluation": {
     "decision_weight": 0.55,

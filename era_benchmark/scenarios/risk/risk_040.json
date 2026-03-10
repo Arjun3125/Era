@@ -2,28 +2,33 @@
   "scenario_id": "RISK_040",
   "category": "risk",
   "difficulty": "expert",
-  "title": "Supplier failure",
-  "prompt": "Primary hardware supplier shows quality issues and late shipments. Decide mitigation.",
+  "title": "Supply chain disruption",
+  "prompt": "A key supplier signals potential delays that could disrupt delivery timelines. Decide the best supply chain response.",
   "context": {
-    "company_size": "enterprise",
-    "cash_reserve_months": 21,
-    "brand_strength": "low",
-    "customer_loyalty": "moderate",
-    "regulatory_pressure": "high",
-    "time_pressure_days": 7,
-    "urgency_rank": 5
+    "company_size": "large",
+    "cash_reserve_months": 13,
+    "brand_strength": "high",
+    "customer_loyalty": "high",
+    "regulatory_pressure": "medium",
+    "time_pressure_days": 21,
+    "urgency_rank": 2,
+    "supplier_concentration": 0.155,
+    "lead_time_risk": 0.128,
+    "demand_volatility": 0.131,
+    "inventory_cover": 0.613
   },
   "decision_options": [
-    "dual-source immediately",
-    "increase QA and penalties",
-    "build inventory buffer",
-    "accept current risk"
+    "diversify suppliers",
+    "increase inventory buffer",
+    "slow order intake",
+    "fast-track substitutes",
+    "do nothing"
   ],
-  "expected_decision": "dual-source immediately",
+  "expected_decision": "fast-track substitutes",
   "reasoning_rubric": [
-    "reduce single point of failure",
-    "preserve delivery commitments",
-    "control costs"
+    "reduce lead time risk",
+    "maintain commitments",
+    "pay for speed"
   ],
   "evaluation": {
     "decision_weight": 0.55,

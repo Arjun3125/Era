@@ -2,28 +2,32 @@
   "scenario_id": "STRAT_063",
   "category": "strategy",
   "difficulty": "hard",
-  "title": "Build vs partner",
-  "prompt": "You need an AI summarization feature in 90 days. Choose whether to build, partner, or acquire.",
+  "title": "Market entry decision",
+  "prompt": "Your company is considering entry into a new region with uncertain demand and regulatory complexity. Decide the best market entry strategy.",
   "context": {
-    "company_size": "small",
-    "cash_reserve_months": 15,
-    "brand_strength": "low",
-    "customer_loyalty": "high",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 14,
-    "urgency_rank": 3
+    "company_size": "mid",
+    "cash_reserve_months": 5,
+    "brand_strength": "high",
+    "customer_loyalty": "low",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 22,
+    "urgency_rank": 2,
+    "market_uncertainty": 0.886,
+    "local_partner_available": 0.781,
+    "strategic_importance": 0.145
   },
   "decision_options": [
-    "build internally",
-    "partner with API vendor",
-    "acquire small startup",
-    "delay feature"
+    "go live now",
+    "delay and localize",
+    "joint venture with local player",
+    "strategic acquisition",
+    "exit the opportunity"
   ],
-  "expected_decision": "partner with API vendor",
+  "expected_decision": "delay and localize",
   "reasoning_rubric": [
-    "time-to-market",
-    "cost control",
-    "integration risk"
+    "reduce regulatory risk",
+    "adapt to local needs",
+    "avoid premature launch"
   ],
   "evaluation": {
     "decision_weight": 0.55,

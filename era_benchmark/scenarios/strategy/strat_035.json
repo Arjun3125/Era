@@ -1,29 +1,36 @@
 {
   "scenario_id": "STRAT_035",
   "category": "strategy",
-  "difficulty": "hard",
-  "title": "Build vs partner",
-  "prompt": "You need an AI summarization feature in 90 days. Choose whether to build, partner, or acquire.",
+  "difficulty": "expert",
+  "title": "Competitor price pressure",
+  "prompt": "A rival just cut price by 57%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
     "company_size": "small",
-    "cash_reserve_months": 13,
+    "cash_reserve_months": 21,
     "brand_strength": "high",
     "customer_loyalty": "low",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 7,
-    "urgency_rank": 5
+    "regulatory_pressure": "medium",
+    "time_pressure_days": 8,
+    "urgency_rank": 2,
+    "price_sensitivity": 0.888,
+    "r_and_d_capacity": 0.737,
+    "market_awareness": 0.578,
+    "product_breadth": 0.296,
+    "enterprise_fit": 0.81,
+    "competitor_price_cut_pct": 57
   },
   "decision_options": [
-    "build internally",
-    "partner with API vendor",
-    "acquire small startup",
-    "delay feature"
+    "temporary price cut",
+    "add premium features",
+    "run aggressive campaigns",
+    "bundle services",
+    "focus enterprise tier"
   ],
-  "expected_decision": "partner with API vendor",
+  "expected_decision": "add premium features",
   "reasoning_rubric": [
-    "time-to-market",
-    "cost control",
-    "integration risk"
+    "avoid destructive price war",
+    "protect margin",
+    "increase differentiation"
   ],
   "evaluation": {
     "decision_weight": 0.55,

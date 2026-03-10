@@ -1,29 +1,35 @@
 {
   "scenario_id": "LT_035",
   "category": "long_term_tradeoffs",
-  "difficulty": "hard",
+  "difficulty": "easy",
   "title": "Innovation vs reliability",
-  "prompt": "Aggressive feature velocity is causing incident frequency to rise. Choose path.",
+  "prompt": "Engineering leadership is split between shipping a major innovation and improving reliability. Decide the best approach.",
   "context": {
-    "company_size": "enterprise",
-    "cash_reserve_months": 30,
+    "company_size": "mid",
+    "cash_reserve_months": 7,
     "brand_strength": "medium",
-    "customer_loyalty": "low",
-    "regulatory_pressure": "high",
-    "time_pressure_days": 7,
-    "urgency_rank": 5
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 17,
+    "urgency_rank": 1,
+    "competitive_threat": 0.147,
+    "defect_rate": 0.834,
+    "customer_expectations": 0.828,
+    "roadmap_pressure": 0.758,
+    "reliability_risk": 0.89
   },
   "decision_options": [
-    "slow releases and harden",
-    "continue velocity",
-    "feature freeze",
-    "add staging gates"
+    "launch innovative product",
+    "stabilize core",
+    "dual-track execution",
+    "pilot release",
+    "harden the core product"
   ],
-  "expected_decision": "slow releases and harden",
+  "expected_decision": "harden the core product",
   "reasoning_rubric": [
-    "reduce incidents",
-    "sustain trust",
-    "preserve learning pace"
+    "reduce defects",
+    "protect customers",
+    "build trust"
   ],
   "evaluation": {
     "decision_weight": 0.55,

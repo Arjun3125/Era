@@ -1,29 +1,34 @@
 {
   "scenario_id": "RISK_004",
   "category": "risk",
-  "difficulty": "expert",
-  "title": "Supplier failure",
-  "prompt": "Primary hardware supplier shows quality issues and late shipments. Decide mitigation.",
+  "difficulty": "hard",
+  "title": "Security breach response",
+  "prompt": "Your security team reports a breach impacting customer data. Assess the severity and decide the most responsible immediate response.",
   "context": {
-    "company_size": "mid",
-    "cash_reserve_months": 6,
+    "company_size": "small",
+    "cash_reserve_months": 5,
     "brand_strength": "low",
-    "customer_loyalty": "high",
+    "customer_loyalty": "low",
     "regulatory_pressure": "medium",
-    "time_pressure_days": 60,
-    "urgency_rank": 4
+    "time_pressure_days": 9,
+    "urgency_rank": 1,
+    "severity": 0.922,
+    "exploit_active": 0.973,
+    "data_sensitivity": 0.375,
+    "public_visibility": 0.993
   },
   "decision_options": [
-    "dual-source immediately",
-    "increase QA and penalties",
-    "build inventory buffer",
-    "accept current risk"
+    "notify regulators",
+    "patch immediately",
+    "freeze operations",
+    "halt services temporarily",
+    "observe without action"
   ],
-  "expected_decision": "dual-source immediately",
+  "expected_decision": "freeze operations",
   "reasoning_rubric": [
-    "reduce single point of failure",
-    "preserve delivery commitments",
-    "control costs"
+    "contain rapidly",
+    "prevent escalation",
+    "accept short-term disruption"
   ],
   "evaluation": {
     "decision_weight": 0.55,

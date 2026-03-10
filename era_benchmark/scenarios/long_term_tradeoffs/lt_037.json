@@ -1,29 +1,35 @@
 {
   "scenario_id": "LT_037",
   "category": "long_term_tradeoffs",
-  "difficulty": "easy",
-  "title": "Short-term profit vs reputation",
-  "prompt": "A lucrative deal requires bending a sustainability policy. Decide.",
+  "difficulty": "medium",
+  "title": "Innovation vs reliability",
+  "prompt": "Engineering leadership is split between shipping a major innovation and improving reliability. Decide the best approach.",
   "context": {
     "company_size": "small",
-    "cash_reserve_months": 26,
+    "cash_reserve_months": 16,
     "brand_strength": "high",
-    "customer_loyalty": "moderate",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 60,
-    "urgency_rank": 2
+    "customer_loyalty": "low",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 31,
+    "urgency_rank": 2,
+    "competitive_threat": 0.283,
+    "defect_rate": 0.734,
+    "customer_expectations": 0.799,
+    "roadmap_pressure": 0.284,
+    "reliability_risk": 0.439
   },
   "decision_options": [
-    "take deal quietly",
-    "renegotiate terms",
-    "decline the deal",
-    "defer decision"
+    "launch innovative product",
+    "harden the core product",
+    "split team",
+    "pilot release",
+    "wait for readiness"
   ],
-  "expected_decision": "renegotiate terms",
+  "expected_decision": "harden the core product",
   "reasoning_rubric": [
-    "protect reputation",
-    "capture value",
-    "manage stakeholder trust"
+    "reduce defects",
+    "protect customers",
+    "build trust"
   ],
   "evaluation": {
     "decision_weight": 0.55,

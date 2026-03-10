@@ -88,12 +88,19 @@ Full evaluation engine CLI:
 python scripts/run_benchmark.py --benchmark era_benchmark --mode meeting
 ```
 
+Regenerate ERA-Bench (v1.1) with balanced, context-driven labels:
+
+```bash
+python scripts/generate_era_benchmark.py --root era_benchmark --seed 20260310
+```
+
 ## Repository Layout
 
 - [`config/`](c:\era\config): runtime settings and override normalization
 - [`core/`](c:\era\core): contracts, orchestrator, observability primitives
 - [`decision_env/`](c:\era\decision_env): scenario generation, simulation, reward shaping, and episode execution around the refactored ERA policy
 - [`era_benchmark/`](c:\era\era_benchmark): ERA-Bench scenarios (structured decision cases) plus schema and index for evaluation/training seeds
+- [`scripts/`](c:\era\scripts): benchmark runners and dataset generators (including ERA-Bench regeneration)
 - [`modules/`](c:\era\modules): pipeline stage implementations
 - [`data/`](c:\era\data): retained local data and artifacts
 - [`knowledge/`](c:\era\knowledge): principle corpus used by knowledge synthesis

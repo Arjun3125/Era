@@ -1,30 +1,36 @@
 {
   "scenario_id": "STRAT_029",
   "category": "strategy",
-  "difficulty": "easy",
-  "title": "Competitor price war",
-  "prompt": "A rival just undercut your core SaaS product by 60%. Users are churning. Decide the best competitive response.",
+  "difficulty": "expert",
+  "title": "Competitor price pressure",
+  "prompt": "A rival just cut price by 37%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
-    "company_size": "mid",
-    "cash_reserve_months": 30,
-    "brand_strength": "low",
-    "customer_loyalty": "high",
+    "company_size": "large",
+    "cash_reserve_months": 19,
+    "brand_strength": "medium",
+    "customer_loyalty": "low",
     "regulatory_pressure": "high",
-    "time_pressure_days": 7,
-    "urgency_rank": 4
+    "time_pressure_days": 13,
+    "urgency_rank": 1,
+    "price_sensitivity": 0.682,
+    "r_and_d_capacity": 0.563,
+    "market_awareness": 0.309,
+    "product_breadth": 0.811,
+    "enterprise_fit": 0.377,
+    "competitor_price_cut_pct": 37
   },
   "decision_options": [
-    "lower price",
-    "add premium features",
-    "increase marketing",
-    "bundle services",
-    "ignore competitor"
+    "discount aggressively",
+    "improve product quality",
+    "package services",
+    "offer product bundles",
+    "focus enterprise tier"
   ],
-  "expected_decision": "add premium features",
+  "expected_decision": "package services",
   "reasoning_rubric": [
-    "avoid destructive price war",
-    "protect margin",
-    "differentiate product"
+    "raise switching costs",
+    "increase perceived value",
+    "reduce churn"
   ],
   "evaluation": {
     "decision_weight": 0.55,

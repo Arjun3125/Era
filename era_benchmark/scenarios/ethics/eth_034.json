@@ -1,29 +1,34 @@
 {
   "scenario_id": "ETH_034",
   "category": "ethics",
-  "difficulty": "medium",
-  "title": "AI bias mitigation",
-  "prompt": "Your model underperforms for a protected group. Choose mitigation.",
+  "difficulty": "expert",
+  "title": "Workforce reduction dilemma",
+  "prompt": "Revenue has slowed and expenses exceed plan. Leadership must choose a workforce strategy to stabilize finances while protecting long-term capability.",
   "context": {
-    "company_size": "small",
-    "cash_reserve_months": 24,
-    "brand_strength": "medium",
-    "customer_loyalty": "low",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 7,
-    "urgency_rank": 4
+    "company_size": "mid",
+    "cash_reserve_months": 5,
+    "brand_strength": "low",
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 20,
+    "urgency_rank": 3,
+    "cost_gap": 0.869,
+    "morale_risk": 0.545,
+    "hiring_friction": 0.529,
+    "growth_outlook": "low"
   },
   "decision_options": [
-    "ship with caveats",
-    "delay launch and retrain",
-    "add human review",
-    "geo-limit rollout"
+    "layoff now",
+    "shift teams",
+    "implement pay cuts",
+    "pause hiring",
+    "temporary salary reduction"
   ],
-  "expected_decision": "add human review",
+  "expected_decision": "temporary salary reduction",
   "reasoning_rubric": [
-    "harm reduction",
-    "fairness",
-    "maintain progress"
+    "share burden",
+    "avoid layoffs",
+    "improve runway"
   ],
   "evaluation": {
     "decision_weight": 0.55,

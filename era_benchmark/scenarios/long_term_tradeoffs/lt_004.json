@@ -2,28 +2,33 @@
   "scenario_id": "LT_004",
   "category": "long_term_tradeoffs",
   "difficulty": "expert",
-  "title": "Short-term profit vs reputation",
-  "prompt": "A lucrative deal requires bending a sustainability policy. Decide.",
+  "title": "Growth vs stability",
+  "prompt": "The market opportunity is changing rapidly, and leadership must decide how aggressively to grow versus protect stability.",
   "context": {
-    "company_size": "enterprise",
-    "cash_reserve_months": 17,
-    "brand_strength": "medium",
-    "customer_loyalty": "high",
+    "company_size": "large",
+    "cash_reserve_months": 3,
+    "brand_strength": "high",
+    "customer_loyalty": "moderate",
     "regulatory_pressure": "low",
-    "time_pressure_days": 60,
-    "urgency_rank": 4
+    "time_pressure_days": 39,
+    "urgency_rank": 1,
+    "market_opportunity": 0.923,
+    "burn_rate": 0.514,
+    "reliability_risk": 0.931,
+    "investor_pressure": 0.34
   },
   "decision_options": [
-    "take deal quietly",
-    "renegotiate terms",
-    "decline the deal",
-    "defer decision"
+    "scale aggressively",
+    "measured growth",
+    "improve resiliency",
+    "invest in reliability",
+    "leave the segment"
   ],
-  "expected_decision": "renegotiate terms",
+  "expected_decision": "improve resiliency",
   "reasoning_rubric": [
-    "protect reputation",
-    "capture value",
-    "manage stakeholder trust"
+    "sustain trust",
+    "reduce risk",
+    "support long-term stability"
   ],
   "evaluation": {
     "decision_weight": 0.55,
