@@ -82,6 +82,12 @@ Benchmark ERA against ERA-Bench:
 python evaluation/evaluate_benchmark.py --limit 20 --mode meeting
 ```
 
+Full evaluation engine CLI:
+
+```bash
+python scripts/run_benchmark.py --benchmark era_benchmark --mode meeting
+```
+
 ## Repository Layout
 
 - [`config/`](c:\era\config): runtime settings and override normalization
