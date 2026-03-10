@@ -41,6 +41,11 @@ def main() -> None:
     parser.add_argument("--output", default="data/value_model/model")
     parser.add_argument("--backend", default="tfidf", help="tfidf|sentence_transformers")
     parser.add_argument("--model-name", default="", help="SentenceTransformer model name.")
+    parser.add_argument("--model-type", default="mlp", help="mlp|ridge|random_forest")
+    parser.add_argument("--ridge-alpha", type=float, default=1.0)
+    parser.add_argument("--rf-trees", type=int, default=200)
+    parser.add_argument("--rf-max-depth", type=int, default=None)
+    parser.add_argument("--rf-min-samples-leaf", type=int, default=2)
     parser.add_argument("--test-size", type=float, default=0.2)
     parser.add_argument("--seed", type=int, default=42)
     args = parser.parse_args()
@@ -78,7 +83,16 @@ def main() -> None:
     X_train = build_features(extractor, train_rows)
     X_test = build_features(extractor, test_rows)
 
-    model = build_regressor(ModelConfig(random_state=args.seed))
+    model = build_regressor(
+        ModelConfig(
+            model_type=args.model_type,
+            random_state=args.seed,
+            ridge_alpha=args.ridge_alpha,
+            rf_trees=args.rf_trees,
+            rf_max_depth=args.rf_max_depth,
+            rf_min_samples_leaf=args.rf_min_samples_leaf,
+        )
+    )
     model.fit(X_train, y_train)
     preds = model.predict(X_test)
 
