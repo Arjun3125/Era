@@ -88,6 +88,16 @@ Full evaluation engine CLI:
 python scripts/run_benchmark.py --benchmark era_benchmark --mode meeting
 ```
 
+Learning-layer hybrid decision (policy + value + reasoning):
+
+```bash
+python scripts/run_benchmark.py \
+  --benchmark era_benchmark \
+  --decision-policy hybrid_all \
+  --policy-model data/policy_model/model_v1_1_logistic \
+  --value-model data/value_model/model_v1_1_ridge
+```
+
 Regenerate ERA-Bench (v1.1) with balanced, context-driven labels:
 
 ```bash
@@ -102,6 +112,7 @@ python scripts/generate_era_benchmark.py --root era_benchmark --seed 20260310
 - [`era_benchmark/`](c:\era\era_benchmark): ERA-Bench scenarios (structured decision cases) plus schema and index for evaluation/training seeds
 - [`scripts/`](c:\era\scripts): benchmark runners and dataset generators (including ERA-Bench regeneration)
 - [`modules/`](c:\era\modules): pipeline stage implementations
+- [`modules/learning_core/`](c:\era\modules\learning_core): shared feature extraction and dataset utilities for learning models
 - [`data/`](c:\era\data): retained local data and artifacts
 - [`knowledge/`](c:\era\knowledge): principle corpus used by knowledge synthesis
 - [`tests/`](c:\era\tests): unit and integration coverage for the refactored runtime

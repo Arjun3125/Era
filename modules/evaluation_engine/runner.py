@@ -64,6 +64,12 @@ class EvaluationRunner:
         self.baseline_temperature = baseline_temperature
         self.enable_counterfactuals = enable_counterfactuals
         self.decision_policy = str(decision_policy or "era").strip().lower()
+        if (
+            self.decision_policy == "hybrid"
+            and self.policy_model is not None
+            and self.value_model is not None
+        ):
+            self.decision_policy = "hybrid_all"
 
     def run(self) -> Dict[str, Any]:
         results: List[Dict[str, Any]] = []

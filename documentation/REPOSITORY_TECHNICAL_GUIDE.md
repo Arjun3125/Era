@@ -78,6 +78,36 @@ Purpose:
 
 - Implement the business logic of the staged decision flow
 
+### `modules/learning_core/`
+
+- `feature_extractor.py`: shared embedding + TF-IDF feature generation for learning models
+- `dataset_utils.py`: shared dataset loading and split helpers
+- `knowledge_features.py`: lightweight knowledge-derived features from the principles corpus
+
+Purpose:
+
+- Shared learning utilities used by both policy and value networks
+
+### `modules/value_model/`
+
+- `model.py`: regression model selection (ridge/MLP/random forest)
+- `train.py`: value model training pipeline
+- `predictor.py`: runtime value scoring
+
+Purpose:
+
+- Value network: predicts decision quality given prompt + option + context
+
+### `modules/policy_model/`
+
+- `model.py`: policy model selection (logistic/random forest)
+- `train.py`: policy model training pipeline
+- `predictor.py`: runtime policy scoring
+
+Purpose:
+
+- Policy network: predicts option likelihoods to guide candidate selection
+
 ### `era_benchmark/`
 
 - [`era_benchmark/benchmark_index.json`](c:\era\era_benchmark\benchmark_index.json): benchmark metadata (current version, counts)
