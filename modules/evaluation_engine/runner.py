@@ -26,6 +26,8 @@ class OptionEvaluation:
     confidence: float
     decision: str
     reasoning: str
+    utility: float
+    prediction: Dict[str, Any]
 
 
 class EvaluationRunner:
@@ -79,6 +81,8 @@ class EvaluationRunner:
         counterfactuals: Dict[str, str] = {}
         simulator_utilities = self.simulator.compute_utilities(scenario)
         simulator_best = max(simulator_utilities, key=lambda item: item.utility) if simulator_utilities else None
+        prediction_map = {item.option: item.prediction for item in simulator_utilities}
+        utility_map = {item.option: item.utility for item in simulator_utilities}
 
         for option in options:
             result = self.pipeline.run(
@@ -95,6 +99,7 @@ class EvaluationRunner:
             confidence = float(result.decision_contract.confidence or 0.0)
             reasoning = self._extract_reasoning(result)
             score = self._score_option(result, confidence)
+            prediction = prediction_map.get(str(option))
             option_evals.append(
                 OptionEvaluation(
                     option=str(option),
@@ -102,6 +107,8 @@ class EvaluationRunner:
                     confidence=confidence,
                     decision=decision,
                     reasoning=reasoning,
+                    utility=utility_map.get(str(option), 0.0),
+                    prediction=prediction.__dict__ if prediction else {},
                 )
             )
             if self.enable_counterfactuals:
@@ -131,7 +138,6 @@ class EvaluationRunner:
 
         option_scores = {item.option: item.score for item in option_evals}
         option_utilities = {item.option: item.utility for item in simulator_utilities}
-        prediction_map = {item.option: item.prediction for item in simulator_utilities}
         expected = scenario.get("expected_decision", "")
         normalized_chosen = match_option(chosen.option, options) or chosen.option
         decision_correct = accuracy_score(normalized_chosen, expected)
@@ -160,11 +166,13 @@ class EvaluationRunner:
             "confidence": clamp_score(chosen.confidence),
             "reasoning": reasoning_text,
             "score": round(combined_score, 4),
+            "value": option_utilities.get(normalized_chosen, 0.0),
             "decision_correct": decision_correct,
             "rubric_score": rubric_hit_score,
             "regret": regret_score(option_utilities, chosen.option),
             "option_scores": option_scores,
             "option_utilities": option_utilities,
+            "option_values": option_utilities,
             "option_evaluations": [item.__dict__ for item in option_evals],
             "simulator_choice": simulator_best.option if simulator_best else "",
             "simulator_utility": simulator_best.utility if simulator_best else 0.0,
