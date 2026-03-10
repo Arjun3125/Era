@@ -9,10 +9,12 @@ from pathlib import Path
 from typing import Any, Dict, Iterable, List, Mapping, Optional
 
 from modules.decision_pipeline import DecisionPipelineEngine
+from modules.decision_simulator import DecisionSimulator
 
 from .calibration import expected_calibration_error
 from .llm_baseline import run_llm_baseline
 from .metrics import accuracy_score, average, clamp_score
+from .option_match import match_option
 from .regret import regret_score
 from .rubric_eval import rubric_score
 
@@ -39,6 +41,7 @@ class EvaluationRunner:
     ) -> None:
         self.scenarios = scenarios
         self.pipeline = DecisionPipelineEngine.create()
+        self.simulator = DecisionSimulator()
         self.requested_mode = requested_mode
         self.baseline_provider = baseline_provider
         self.baseline_model = baseline_model
@@ -71,6 +74,8 @@ class EvaluationRunner:
         options = scenario.get("decision_options") or []
         option_evals: List[OptionEvaluation] = []
         counterfactuals: Dict[str, str] = {}
+        simulator_utilities = self.simulator.compute_utilities(scenario)
+        simulator_best = max(simulator_utilities, key=lambda item: item.utility) if simulator_utilities else None
 
         for option in options:
             result = self.pipeline.run(
@@ -103,8 +108,10 @@ class EvaluationRunner:
         chosen = option_evals[0] if option_evals else OptionEvaluation("", 0.0, 0.0, "", "")
 
         option_scores = {item.option: item.score for item in option_evals}
+        option_utilities = {item.option: item.utility for item in simulator_utilities}
         expected = scenario.get("expected_decision", "")
-        decision_correct = accuracy_score(chosen.option, expected)
+        normalized_chosen = match_option(chosen.option, options) or chosen.option
+        decision_correct = accuracy_score(normalized_chosen, expected)
         rubric = scenario.get("reasoning_rubric", [])
         rubric_hit_score = rubric_score(chosen.reasoning, rubric)
 
@@ -119,15 +126,18 @@ class EvaluationRunner:
         combined_score = w_decision * decision_correct + w_reason * rubric_hit_score
 
         return {
-            "decision": chosen.option,
+            "decision": normalized_chosen,
             "confidence": clamp_score(chosen.confidence),
             "reasoning": chosen.reasoning,
             "score": round(combined_score, 4),
             "decision_correct": decision_correct,
             "rubric_score": rubric_hit_score,
-            "regret": regret_score(option_scores, chosen.option),
+            "regret": regret_score(option_utilities, chosen.option),
             "option_scores": option_scores,
+            "option_utilities": option_utilities,
             "option_evaluations": [item.__dict__ for item in option_evals],
+            "simulator_choice": simulator_best.option if simulator_best else "",
+            "simulator_utility": simulator_best.utility if simulator_best else 0.0,
             "counterfactuals": counterfactuals if self.enable_counterfactuals else {},
         }
 
@@ -227,6 +237,11 @@ class EvaluationRunner:
         for item in results:
             categories.setdefault(item["category"], []).append(item["era"]["score"])
 
+        simulator_accuracy = average(
+            accuracy_score(item["era"].get("simulator_choice", ""), item["era"]["decision"])
+            for item in results
+        )
+
         baseline = {}
         if results and results[0]["baseline"].get("status") == "ok":
             baseline_accuracy = average(
@@ -251,6 +266,9 @@ class EvaluationRunner:
                 "avg_regret": round(era_regret, 4),
                 "rubric_score": round(era_rubric, 4),
                 "ece": era_ece,
+            },
+            "simulator": {
+                "accuracy": round(simulator_accuracy, 4),
             },
             "baseline": baseline,
             "category_scores": {

@@ -25,6 +25,7 @@ def main() -> None:
     parser.add_argument("--baseline-model", default=None, help="Baseline model name (provider-specific).")
     parser.add_argument("--baseline-temperature", type=float, default=0.0, help="Baseline temperature.")
     parser.add_argument("--counterfactuals", action="store_true", help="Enable counterfactual runs.")
+    parser.add_argument("--debug-failures", type=int, default=0, help="Print first N failures (scenario_id, predicted, expected).")
     args = parser.parse_args()
 
     scenarios = load_scenarios(Path(args.benchmark), category=args.category, limit=args.limit)
@@ -38,6 +39,23 @@ def main() -> None:
     )
     summary = runner.run()
     print(generate_report(summary))
+
+    if args.debug_failures:
+        failures = []
+        scenario_map = {s.get("scenario_id"): s for s in scenarios}
+        for item in summary.get("results", []):
+            if not item["era"].get("decision_correct"):
+                failures.append(
+                    (
+                        item.get("scenario_id"),
+                        item["era"].get("decision"),
+                        scenario_map.get(item.get("scenario_id"), {}).get("expected_decision"),
+                    )
+                )
+        print("")
+        print("First failures")
+        for failure in failures[: args.debug_failures]:
+            print(f"{failure[0]} | predicted={failure[1]} | expected={failure[2]}")
 
 
 if __name__ == "__main__":

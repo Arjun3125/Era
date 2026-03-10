@@ -14,6 +14,7 @@ def generate_report(summary: Dict[str, any]) -> str:
 
     era = summary.get("era", {})
     baseline = summary.get("baseline", {})
+    simulator = summary.get("simulator", {})
 
     def section(title: str, block: Dict[str, any]) -> None:
         lines.append(f"{title}:")
@@ -24,6 +25,10 @@ def generate_report(summary: Dict[str, any]) -> str:
         lines.append("")
 
     section("ERA", era)
+    if simulator:
+        lines.append("Simulator:")
+        lines.append(f"accuracy: {simulator.get('accuracy', 0.0):.4f}")
+        lines.append("")
     if baseline:
         section("Baseline", baseline)
 
