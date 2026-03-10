@@ -34,6 +34,26 @@ def build_features(extractor: FeatureExtractor, rows: List[Dict[str, Any]]) -> n
     return np.vstack(features)
 
 
+def split_rows(
+    rows: List[Dict[str, Any]],
+    *,
+    test_size: float,
+    seed: int,
+) -> tuple[list[Dict[str, Any]], list[Dict[str, Any]], list[str], list[str]]:
+    scenario_ids = sorted({row.get("scenario_id", "") for row in rows if row.get("scenario_id")})
+    if not scenario_ids:
+        raise ValueError("No scenario_ids found in dataset rows.")
+
+    train_ids, test_ids = train_test_split(
+        scenario_ids, test_size=test_size, random_state=seed, shuffle=True
+    )
+    train_id_set = set(train_ids)
+    test_id_set = set(test_ids)
+    train_rows = [row for row in rows if row.get("scenario_id") in train_id_set]
+    test_rows = [row for row in rows if row.get("scenario_id") in test_id_set]
+    return train_rows, test_rows, sorted(train_id_set), sorted(test_id_set)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Train the decision value model.")
     parser.add_argument("--dataset", default="data/value_model/datasets/benchmark_v1.jsonl")
@@ -41,6 +61,7 @@ def main() -> None:
     parser.add_argument("--output", default="data/value_model/model")
     parser.add_argument("--backend", default="tfidf", help="tfidf|sentence_transformers")
     parser.add_argument("--model-name", default="", help="SentenceTransformer model name.")
+    parser.add_argument("--st-local-only", action="store_true", help="Use local-only sentence-transformers weights.")
     parser.add_argument("--model-type", default="mlp", help="mlp|ridge|random_forest")
     parser.add_argument("--ridge-alpha", type=float, default=1.0)
     parser.add_argument("--rf-trees", type=int, default=200)
@@ -58,17 +79,11 @@ def main() -> None:
         )
 
     rows = load_dataset(dataset_path)
-    scenario_ids = sorted({row.get("scenario_id", "") for row in rows if row.get("scenario_id")})
-    if not scenario_ids:
-        raise ValueError("No scenario_ids found in dataset rows.")
-
-    train_ids, test_ids = train_test_split(
-        scenario_ids, test_size=args.test_size, random_state=args.seed, shuffle=True
+    train_rows, test_rows, train_ids, test_ids = split_rows(
+        rows,
+        test_size=args.test_size,
+        seed=args.seed,
     )
-    train_id_set = set(train_ids)
-    test_id_set = set(test_ids)
-    train_rows = [row for row in rows if row.get("scenario_id") in train_id_set]
-    test_rows = [row for row in rows if row.get("scenario_id") in test_id_set]
 
     y_train = np.array([float(row["score"]) for row in train_rows], dtype=float)
     y_test = np.array([float(row["score"]) for row in test_rows], dtype=float)
@@ -76,7 +91,11 @@ def main() -> None:
     prompt_texts = [row["prompt"] for row in train_rows]
     option_texts = [row["option"] for row in train_rows]
 
-    feature_config = FeatureConfig(backend=args.backend, model_name=args.model_name)
+    feature_config = FeatureConfig(
+        backend=args.backend,
+        model_name=args.model_name,
+        local_files_only=bool(args.st_local_only),
+    )
     extractor = FeatureExtractor(config=feature_config)
     extractor.fit(prompt_texts, option_texts)
 
@@ -112,8 +131,8 @@ def main() -> None:
             {
                 "seed": args.seed,
                 "test_size": args.test_size,
-                "train_scenario_ids": sorted(train_id_set),
-                "test_scenario_ids": sorted(test_id_set),
+                "train_scenario_ids": train_ids,
+                "test_scenario_ids": test_ids,
                 "train_rows": len(train_rows),
                 "test_rows": len(test_rows),
             },

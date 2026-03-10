@@ -14,6 +14,7 @@ import numpy as np
 class FeatureConfig:
     backend: str = "tfidf"
     model_name: str = ""
+    local_files_only: bool = False
 
 
 class FeatureExtractor:
@@ -89,7 +90,10 @@ class FeatureExtractor:
         from sentence_transformers import SentenceTransformer
 
         model_name = self.config.model_name or "all-MiniLM-L6-v2"
-        self._st_model = SentenceTransformer(model_name)
+        self._st_model = SentenceTransformer(
+            model_name,
+            local_files_only=bool(self.config.local_files_only),
+        )
 
     @staticmethod
     def _format_prompt(prompt: str, context: Dict[str, Any]) -> str:
