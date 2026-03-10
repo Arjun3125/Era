@@ -5,8 +5,13 @@ from __future__ import annotations
 import argparse
 import json
 import math
+import sys
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Mapping, Tuple
+
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 from modules.decision_pipeline import DecisionPipelineEngine
 
@@ -36,7 +41,7 @@ def extract_reasoning(result: Any) -> str:
     knowledge_result = getattr(result, "knowledge_result", {}) or getattr(result, "knowledge_contract", {}) or {}
     synthesized = knowledge_result.get("synthesized_items") or knowledge_result.get("synthesized_knowledge") or []
     if isinstance(synthesized, Iterable) and not isinstance(synthesized, (str, bytes, bytearray)):
-        rationale = f\"{rationale} {' '.join(map(str, synthesized))}\".strip()
+        rationale = f"{rationale} {' '.join(map(str, synthesized))}".strip()
     return rationale.lower()
 
 
