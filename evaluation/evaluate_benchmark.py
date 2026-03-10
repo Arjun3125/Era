@@ -16,6 +16,50 @@ if str(ROOT) not in sys.path:
 from modules.decision_pipeline import DecisionPipelineEngine
 
 
+def build_option_prompt(base_prompt: str, option_text: str) -> str:
+    return "\n".join(
+        [
+            "You are evaluating a single candidate decision option.",
+            base_prompt.strip(),
+            "",
+            f"Candidate option under review: {option_text}",
+            "",
+            "Judge whether this option should be accepted, accepted with mitigation, deferred, or rejected.",
+            "Prefer survivability, downside control, and strategic robustness over shallow optimism.",
+        ]
+    )
+
+
+def score_option(result: Any) -> float:
+    decision = str(getattr(result.decision_contract, "decision", "") or "").strip().lower()
+    confidence = float(getattr(result.decision_contract, "confidence", 0.0) or 0.0)
+    recommendation = str(
+        getattr(result.decision_packaging_contract, "recommendation", "") or ""
+    ).strip().lower()
+    red_line_count = int(getattr(result.decision_packaging_contract, "red_line_count", 0) or 0)
+    requires_followup = bool(
+        getattr(result.decision_packaging_contract, "requires_followup", False)
+    )
+
+    base_scores = {
+        "accept": 1.0,
+        "accept_with_mitigation": 0.65,
+        "direct_response": 0.35,
+        "defer": 0.0,
+        "reject": -1.0,
+    }
+    score = base_scores.get(decision, 0.0)
+    score += max(0.0, min(1.0, confidence))
+    if recommendation == "support":
+        score += 0.15
+    elif recommendation == "oppose":
+        score -= 0.15
+    score -= red_line_count * 0.2
+    if requires_followup:
+        score -= 0.1
+    return round(score, 4)
+
+
 def load_scenarios(root: Path, *, category: str | None = None, limit: int | None = None) -> List[Dict[str, Any]]:
     scenarios: List[Dict[str, Any]] = []
     categories = [category] if category else [p.name for p in (root / "scenarios").iterdir() if p.is_dir()]
@@ -45,11 +89,8 @@ def extract_reasoning(result: Any) -> str:
     return rationale.lower()
 
 
-def evaluate_decision(result: Any, scenario: Mapping[str, Any]) -> Tuple[float, Dict[str, Any]]:
-    decision = ""
-    if hasattr(result, "decision_contract"):
-        decision = str(result.decision_contract.decision or "").strip().lower()
-    reasoning_text = extract_reasoning(result)
+def evaluate_decision(chosen_option: str, reasoning_text: str, scenario: Mapping[str, Any]) -> Tuple[float, Dict[str, Any]]:
+    decision = str(chosen_option or "").strip().lower()
     expected_decision = str(scenario.get("expected_decision", "")).strip().lower()
     decision_score = 1.0 if decision == expected_decision else 0.0
 
@@ -98,13 +139,43 @@ def run_benchmark(
 
     for scenario in scenarios:
         cat = scenario.get("category", "uncategorized")
-        result = pipeline.run(
-            user_input=scenario["prompt"],
-            requested_mode=requested_mode or scenario.get("mode") or "meeting",
-            metadata={"scenario_id": scenario.get("scenario_id"), "benchmark": "era_bench"},
-            source="era_benchmark",
-        )
-        score, details = evaluate_decision(result, scenario)
+        options = scenario.get("decision_options") or []
+        best = None
+        best_result = None
+        option_scores: List[Dict[str, Any]] = []
+        for option_text in options:
+            result = pipeline.run(
+                user_input=build_option_prompt(scenario["prompt"], option_text),
+                requested_mode=requested_mode or scenario.get("mode") or "meeting",
+                metadata={
+                    "scenario_id": scenario.get("scenario_id"),
+                    "benchmark": "era_bench",
+                    "candidate_option": option_text,
+                },
+                source="era_benchmark",
+            )
+            score_value = score_option(result)
+            option_scores.append(
+                {
+                    "option": option_text,
+                    "score": score_value,
+                    "confidence": float(getattr(result.decision_contract, "confidence", 0.0) or 0.0),
+                    "decision": str(getattr(result.decision_contract, "decision", "") or "").strip().lower(),
+                }
+            )
+            key = (score_value, float(getattr(result.decision_contract, "confidence", 0.0) or 0.0))
+            if best is None or key > best:
+                best = key
+                best_result = (option_text, result)
+
+        if best_result is None:
+            chosen_option = ""
+            reasoning_text = ""
+        else:
+            chosen_option, chosen_result = best_result
+            reasoning_text = extract_reasoning(chosen_result)
+
+        score, details = evaluate_decision(chosen_option, reasoning_text, scenario)
         scores.append(score)
         per_category.setdefault(cat, []).append(score)
         per_scenario_details.append(
@@ -112,6 +183,8 @@ def run_benchmark(
                 "scenario_id": scenario.get("scenario_id"),
                 "category": cat,
                 "difficulty": scenario.get("difficulty"),
+                "chosen_option": chosen_option,
+                "option_scores": option_scores,
                 "score": score,
                 **details,
             }
