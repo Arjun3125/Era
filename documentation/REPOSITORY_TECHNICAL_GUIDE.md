@@ -119,6 +119,23 @@ Purpose:
 
 - Simulated environment for generating additional decision data beyond static benchmarks
 
+### `scripts/generate_simulated_data.py`
+
+Generates synthetic outcome + reward rows by running each benchmark scenario through the decision environment.
+
+Output (default):
+
+- `data/simulated/decision_env.jsonl`
+
+Each row includes:
+
+- scenario_id
+- prompt
+- option
+- context
+- outcome
+- reward
+
 ### `era_benchmark/`
 
 - [`era_benchmark/benchmark_index.json`](c:\era\era_benchmark\benchmark_index.json): benchmark metadata (current version, counts)

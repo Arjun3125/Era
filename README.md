@@ -98,6 +98,12 @@ python scripts/run_benchmark.py \
   --value-model data/value_model/model_v1_1_ridge
 ```
 
+Generate simulated outcomes (decision environment):
+
+```bash
+python scripts/generate_simulated_data.py --scenarios-root era_benchmark --limit 300 --output data/simulated/decision_env.jsonl
+```
+
 Regenerate ERA-Bench (v1.1) with balanced, context-driven labels:
 
 ```bash

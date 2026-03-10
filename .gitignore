@@ -51,6 +51,7 @@ data/policy_model/
 data/value_model/
 data/*/model_v1_1_*_k/
 data/*/datasets/*_knowledge.jsonl
+data/simulated/
 
 # Data files - large PDFs
 data/books/*.pdf
