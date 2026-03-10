@@ -104,7 +104,16 @@ Expert router (Mixture-of-Experts council):
 python run_refactored.py \
   --input "Competitor undercut pricing" \
   --mode meeting \
-  --routing-context "{\"expert_router_enabled\": true, \"expert_router_top_k\": 3}"
+  --routing-context "{`"expert_router_enabled`": true, `"expert_router_top_k`": 3}"
+```
+
+Learned minister weights (council_weight_model):
+
+```bash
+python run_refactored.py \
+  --input "Should we acquire a rival?" \
+  --mode meeting \
+  --routing-context "{`"council_weight_model_enabled`": true, `"council_weight_top_k`": 4, `"council_weight_model_path`": `"data/council_learning/model`"}"
 ```
 
 Generate simulated outcomes (decision environment):

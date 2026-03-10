@@ -20,6 +20,7 @@ from core.contracts import (
 from .engine import ModeRoutingEngine
 from .mode_orchestrator import ExecutionConfig, ModeOrchestrator
 from modules.expert_router import ExpertRouterPredictor
+from modules.council_learning import CouncilWeightPredictor
 
 
 def _coerce_iterable_items(
@@ -129,12 +130,18 @@ class ModeRoutingModule(ModulePlugin):
             selected_ministers = self._to_string_list(result.selected_ministers, lowercase=True)
             expert_weights = {}
             if result.should_invoke_council:
-                expert_weights = self._apply_expert_router(
+                expert_weights = self._apply_weight_model(
                     context=context,
                     routing_context=routing_context,
                     user_input=user_input,
-                    selected_ministers=selected_ministers,
                 )
+                if not expert_weights:
+                    expert_weights = self._apply_expert_router(
+                        context=context,
+                        routing_context=routing_context,
+                        user_input=user_input,
+                        selected_ministers=selected_ministers,
+                    )
             if expert_weights:
                 selected_ministers = list(expert_weights.keys())
             execution_plan = self._normalize_execution_plan(
@@ -263,6 +270,70 @@ class ModeRoutingModule(ModulePlugin):
             ModeRoutingModule._read_normalized_key(context.metadata, ("expert_router_top_k",)),
             ModeRoutingModule._read_normalized_key(context.input_contract.metadata, ("expert_router_top_k",)),
             ModeRoutingModule._read_normalized_key(routing_context, ("expert_router_top_k",)),
+        ):
+            if candidate is None:
+                continue
+            try:
+                top_k = int(candidate)
+                break
+            except (TypeError, ValueError):
+                continue
+
+        ranked = sorted(weights.items(), key=lambda item: item[1], reverse=True)
+        if top_k:
+            ranked = ranked[: max(1, top_k)]
+        return {name: score for name, score in ranked if score > 0}
+
+    @staticmethod
+    def _apply_weight_model(
+        *,
+        context: ExecutionContext,
+        routing_context: Mapping[str, Any],
+        user_input: str,
+    ) -> Dict[str, float]:
+        candidates = (
+            ModeRoutingModule._read_normalized_key(context.config, ("council_weight_model_path",)),
+            ModeRoutingModule._read_normalized_key(context.metadata, ("council_weight_model_path",)),
+            ModeRoutingModule._read_normalized_key(context.input_contract.metadata, ("council_weight_model_path",)),
+            ModeRoutingModule._read_normalized_key(routing_context, ("council_weight_model_path",)),
+        )
+        model_path = None
+        for candidate in candidates:
+            if candidate:
+                model_path = candidate
+                break
+
+        enabled_candidates = (
+            ModeRoutingModule._read_normalized_key(context.config, ("council_weight_model_enabled",)),
+            ModeRoutingModule._read_normalized_key(context.metadata, ("council_weight_model_enabled",)),
+            ModeRoutingModule._read_normalized_key(context.input_contract.metadata, ("council_weight_model_enabled",)),
+            ModeRoutingModule._read_normalized_key(routing_context, ("council_weight_model_enabled",)),
+        )
+        enabled = False
+        for candidate in enabled_candidates:
+            if isinstance(candidate, bool):
+                enabled = candidate
+                break
+            text = ModeRoutingModule._normalize_text(candidate).lower()
+            if text in {"1", "true", "yes", "on"}:
+                enabled = True
+                break
+            if text in {"0", "false", "no", "off"}:
+                enabled = False
+                break
+
+        if not enabled and not model_path:
+            return {}
+
+        predictor = CouncilWeightPredictor(Path(model_path) if model_path else None)
+        weights = predictor.predict(user_input, dict(routing_context))
+
+        top_k = None
+        for candidate in (
+            ModeRoutingModule._read_normalized_key(context.config, ("council_weight_top_k",)),
+            ModeRoutingModule._read_normalized_key(context.metadata, ("council_weight_top_k",)),
+            ModeRoutingModule._read_normalized_key(context.input_contract.metadata, ("council_weight_top_k",)),
+            ModeRoutingModule._read_normalized_key(routing_context, ("council_weight_top_k",)),
         ):
             if candidate is None:
                 continue

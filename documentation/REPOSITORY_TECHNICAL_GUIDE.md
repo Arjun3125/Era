@@ -136,6 +136,19 @@ Runtime controls:
 - `expert_router_top_k`: restrict to top-K experts
 - `expert_router_path`: optional model directory for router inference
 
+### `modules/council_learning/`
+
+- `dataset_builder.py`: bootstraps training targets from scenario context
+- `weight_model.py`: MLP/ridge weight model
+- `train.py`: training pipeline for minister weights
+- `predictor.py`: runtime weight inference
+
+Runtime controls:
+
+- `council_weight_model_enabled`: boolean flag to enable learned weighting
+- `council_weight_model_path`: model directory for `CouncilWeightPredictor`
+- `council_weight_top_k`: restrict to top-K ministers by learned weight
+
 ### `scripts/generate_simulated_data.py`
 
 Generates synthetic outcome + reward rows by running each benchmark scenario through the decision environment.
