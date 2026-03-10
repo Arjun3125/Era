@@ -47,6 +47,10 @@ experiments/results/
 data/value_model/
 data/policy_model/
 *.log
+data/policy_model/
+data/value_model/
+data/*/model_v1_1_*_k/
+data/*/datasets/*_knowledge.jsonl
 
 # Data files - large PDFs
 data/books/*.pdf

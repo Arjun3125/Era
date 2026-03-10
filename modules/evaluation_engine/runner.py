@@ -12,6 +12,7 @@ from modules.decision_pipeline import DecisionPipelineEngine
 from modules.decision_simulator import DecisionSimulator
 from modules.value_model import ValueModelPredictor
 from modules.policy_model import PolicyModelPredictor
+from modules.learning_core import augment_context_with_knowledge
 
 from .calibration import expected_calibration_error
 from .llm_baseline import run_llm_baseline
@@ -91,6 +92,10 @@ class EvaluationRunner:
         options = scenario.get("decision_options") or []
         option_evals: List[OptionEvaluation] = []
         counterfactuals: Dict[str, str] = {}
+        enriched_context = augment_context_with_knowledge(
+            scenario.get("context", {}),
+            scenario.get("prompt", ""),
+        )
         simulator_utilities = self.simulator.compute_utilities(scenario)
         simulator_best = max(simulator_utilities, key=lambda item: item.utility) if simulator_utilities else None
         prediction_map = {item.option: item.prediction for item in simulator_utilities}
@@ -132,13 +137,13 @@ class EvaluationRunner:
                 value_scores[str(option)] = self.value_model.predict(
                     scenario.get("prompt", ""),
                     str(option),
-                    scenario.get("context", {}),
+                    enriched_context,
                 )
             if self.policy_model is not None and str(option) not in policy_scores:
                 policy_scores[str(option)] = self.policy_model.predict(
                     scenario.get("prompt", ""),
                     str(option),
-                    scenario.get("context", {}),
+                    enriched_context,
                 )
             prediction = prediction_map.get(str(option))
             option_evals.append(
@@ -164,6 +169,7 @@ class EvaluationRunner:
         expected = scenario.get("expected_decision", "")
         combined_scores: Dict[str, float] = {}
         policy_value_scores: Dict[str, float] = {}
+        hybrid_all_scores: Dict[str, float] = {}
         if self.value_model is not None:
             for item in option_evals:
                 value_score = value_scores.get(item.option, 0.0)
@@ -177,6 +183,15 @@ class EvaluationRunner:
                 value_score = value_scores.get(item.option, 0.0)
                 policy_value_scores[item.option] = round(
                     self.policy_weight * policy_score + (1 - self.policy_weight) * value_score,
+                    4,
+                )
+        if self.policy_model is not None and self.value_model is not None:
+            for item in option_evals:
+                policy_score = policy_scores.get(item.option, 0.0)
+                value_score = value_scores.get(item.option, 0.0)
+                reasoning_score = clamp_score(item.score)
+                hybrid_all_scores[item.option] = round(
+                    0.5 * value_score + 0.3 * reasoning_score + 0.2 * policy_score,
                     4,
                 )
 
@@ -207,6 +222,9 @@ class EvaluationRunner:
             chosen = next((item for item in option_evals if item.option == best_option), chosen)
         elif self.decision_policy == "hybrid_policy_value" and policy_value_scores:
             best_option = max(policy_value_scores.items(), key=lambda kv: kv[1])[0]
+            chosen = next((item for item in option_evals if item.option == best_option), chosen)
+        elif self.decision_policy == "hybrid_all" and hybrid_all_scores:
+            best_option = max(hybrid_all_scores.items(), key=lambda kv: kv[1])[0]
             chosen = next((item for item in option_evals if item.option == best_option), chosen)
 
         normalized_chosen = match_option(chosen.option, options) or chosen.option
@@ -247,6 +265,7 @@ class EvaluationRunner:
             "option_combined_scores": combined_scores,
             "option_policy_scores": policy_scores,
             "option_policy_value_scores": policy_value_scores,
+            "option_hybrid_all_scores": hybrid_all_scores,
             "option_evaluations": [item.__dict__ for item in option_evals],
             "simulator_choice": simulator_best.option if simulator_best else "",
             "simulator_utility": simulator_best.utility if simulator_best else 0.0,

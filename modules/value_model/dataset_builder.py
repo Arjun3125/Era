@@ -10,6 +10,7 @@ from typing import Any, Dict, Iterable, List, Optional
 from modules.decision_simulator import DecisionSimulator
 from modules.evaluation_engine.option_match import match_option
 from modules.evaluation_engine.rubric_eval import rubric_score
+from modules.learning_core import augment_context_with_knowledge
 
 
 @dataclass
@@ -61,6 +62,7 @@ def build_dataset(
 
     for scenario in scenarios:
         prompt = scenario.get("prompt", "")
+        base_context = augment_context_with_knowledge(scenario.get("context", {}), prompt)
         options = scenario.get("decision_options", [])
         expected = scenario.get("expected_decision", "")
         rubric = scenario.get("reasoning_rubric", [])
@@ -78,7 +80,7 @@ def build_dataset(
                     category=scenario.get("category", ""),
                     prompt=prompt,
                     option=str(option),
-                    context=scenario.get("context", {}),
+                    context=base_context,
                     expected_decision=expected,
                     decision_correct=decision_correct,
                     rubric_score=rubric_score_value,

@@ -45,7 +45,7 @@ def main() -> None:
     parser.add_argument(
         "--decision-policy",
         default="hybrid",
-        help="Decision policy: era|simulator|hybrid|hybrid_value|policy_model|hybrid_policy_value.",
+        help="Decision policy: era|simulator|hybrid|hybrid_value|policy_model|hybrid_policy_value|hybrid_all.",
     )
     parser.add_argument("--value-model", default=None, help="Path to trained value model directory.")
     parser.add_argument("--value-weight", type=float, default=0.4, help="Weight for value model scoring.")
