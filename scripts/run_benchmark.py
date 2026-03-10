@@ -41,7 +41,11 @@ def main() -> None:
     parser.add_argument("--baseline-model", default=None, help="Baseline model name (provider-specific).")
     parser.add_argument("--baseline-temperature", type=float, default=0.0, help="Baseline temperature.")
     parser.add_argument("--counterfactuals", action="store_true", help="Enable counterfactual runs.")
-    parser.add_argument("--decision-policy", default="hybrid", help="Decision policy: era|simulator|hybrid.")
+    parser.add_argument(
+        "--decision-policy",
+        default="hybrid",
+        help="Decision policy: era|simulator|hybrid|hybrid_value. Hybrid combines reasoning with simulator/value scores; hybrid_value uses reasoning+value.",
+    )
     parser.add_argument("--value-model", default=None, help="Path to trained value model directory.")
     parser.add_argument("--value-weight", type=float, default=0.4, help="Weight for value model scoring.")
     parser.add_argument("--split-file", default=None, help="Path to split.json for train/test filtering.")

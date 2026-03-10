@@ -129,24 +129,6 @@ class EvaluationRunner:
         option_evals.sort(key=lambda item: (item.score, item.confidence, item.option), reverse=True)
         default_choice = option_evals[0] if option_evals else OptionEvaluation("", 0.0, 0.0, "", "", 0.0, {})
         chosen = default_choice
-        if self.decision_policy == "simulator" and simulator_best:
-            chosen = next(
-                (item for item in option_evals if item.option == simulator_best.option),
-                default_choice,
-            )
-        elif self.decision_policy == "hybrid" and option_evals and simulator_best:
-            def _normalize(value: float) -> float:
-                return max(0.0, min(1.0, (value + 1.0) / 2.0))
-            sim_score = _normalize(simulator_best.utility)
-            best = None
-            for item in option_evals:
-                era_score = _normalize(item.score)
-                combined = 0.7 * era_score + 0.3 * sim_score if item.option == simulator_best.option else 0.7 * era_score
-                key = (combined, item.confidence, item.option)
-                if best is None or key > best[0]:
-                    best = (key, item)
-            if best:
-                chosen = best[1]
 
         option_scores = {item.option: item.score for item in option_evals}
         option_utilities = {item.option: item.utility for item in simulator_utilities}
@@ -159,10 +141,29 @@ class EvaluationRunner:
                     (1 - self.value_weight) * item.score + self.value_weight * value_score,
                     4,
                 )
-            # Re-select with value model if policy requests it.
-            if self.decision_policy == "value_model" and combined_scores:
-                best_option = max(combined_scores.items(), key=lambda kv: kv[1])[0]
-                chosen = next((item for item in option_evals if item.option == best_option), chosen)
+
+        if self.decision_policy == "simulator" and simulator_best:
+            chosen = next(
+                (item for item in option_evals if item.option == simulator_best.option),
+                default_choice,
+            )
+        elif self.decision_policy == "hybrid" and option_evals and simulator_best:
+            def _normalize(value: float) -> float:
+                return max(0.0, min(1.0, (value + 1.0) / 2.0))
+            sim_score = _normalize(simulator_best.utility)
+            best = None
+            for item in option_evals:
+                base_score = combined_scores.get(item.option, item.score)
+                era_score = _normalize(base_score)
+                combined = 0.7 * era_score + 0.3 * sim_score if item.option == simulator_best.option else 0.7 * era_score
+                key = (combined, item.confidence, item.option)
+                if best is None or key > best[0]:
+                    best = (key, item)
+            if best:
+                chosen = best[1]
+        elif self.decision_policy in ("value_model", "hybrid_value") and combined_scores:
+            best_option = max(combined_scores.items(), key=lambda kv: kv[1])[0]
+            chosen = next((item for item in option_evals if item.option == best_option), chosen)
 
         normalized_chosen = match_option(chosen.option, options) or chosen.option
         decision_correct = accuracy_score(normalized_chosen, expected)
