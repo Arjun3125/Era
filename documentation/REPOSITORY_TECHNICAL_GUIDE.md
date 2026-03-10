@@ -108,6 +108,17 @@ Purpose:
 
 - Policy network: predicts option likelihoods to guide candidate selection
 
+### `modules/decision_environment/`
+
+- `environment.py`: simple reset/step interface for training loops
+- `scenario_simulator.py`: wraps outcome model + reward computation
+- `outcome_model.py`: heuristic outcome prediction for decisions
+- `reward_function.py`: utility-based reward scoring
+
+Purpose:
+
+- Simulated environment for generating additional decision data beyond static benchmarks
+
 ### `era_benchmark/`
 
 - [`era_benchmark/benchmark_index.json`](c:\era\era_benchmark\benchmark_index.json): benchmark metadata (current version, counts)

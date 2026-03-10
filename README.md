@@ -113,6 +113,7 @@ python scripts/generate_era_benchmark.py --root era_benchmark --seed 20260310
 - [`scripts/`](c:\era\scripts): benchmark runners and dataset generators (including ERA-Bench regeneration)
 - [`modules/`](c:\era\modules): pipeline stage implementations
 - [`modules/learning_core/`](c:\era\modules\learning_core): shared feature extraction and dataset utilities for learning models
+- [`modules/decision_environment/`](c:\era\modules\decision_environment): scenario simulation + reward computation for learned training loops
 - [`data/`](c:\era\data): retained local data and artifacts
 - [`knowledge/`](c:\era\knowledge): principle corpus used by knowledge synthesis
 - [`tests/`](c:\era\tests): unit and integration coverage for the refactored runtime
