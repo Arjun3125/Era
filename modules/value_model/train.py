@@ -1,0 +1,91 @@
+"""Training pipeline for the value model."""
+
+from __future__ import annotations
+
+import argparse
+import json
+from pathlib import Path
+from typing import Any, Dict, List
+
+import numpy as np
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+from sklearn.model_selection import train_test_split
+import joblib
+
+from .dataset_builder import build_dataset
+from .feature_extractor import FeatureConfig, FeatureExtractor
+from .model import ModelConfig, build_regressor
+
+
+def load_dataset(path: Path) -> List[Dict[str, Any]]:
+    rows: List[Dict[str, Any]] = []
+    with path.open("r", encoding="utf-8") as handle:
+        for line in handle:
+            if line.strip():
+                rows.append(json.loads(line))
+    return rows
+
+
+def build_features(extractor: FeatureExtractor, rows: List[Dict[str, Any]]) -> np.ndarray:
+    features = [
+        extractor.encode(row["prompt"], row["option"], row.get("context", {}))
+        for row in rows
+    ]
+    return np.vstack(features)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Train the decision value model.")
+    parser.add_argument("--dataset", default="data/value_model/datasets/benchmark_v1.jsonl")
+    parser.add_argument("--scenarios-root", default="era_benchmark")
+    parser.add_argument("--output", default="data/value_model/model")
+    parser.add_argument("--backend", default="tfidf", help="tfidf|sentence_transformers")
+    parser.add_argument("--model-name", default="", help="SentenceTransformer model name.")
+    parser.add_argument("--test-size", type=float, default=0.2)
+    parser.add_argument("--seed", type=int, default=42)
+    args = parser.parse_args()
+
+    dataset_path = Path(args.dataset)
+    if not dataset_path.exists():
+        build_dataset(
+            scenarios_root=Path(args.scenarios_root),
+            output_path=dataset_path,
+        )
+
+    rows = load_dataset(dataset_path)
+    y = np.array([float(row["score"]) for row in rows], dtype=float)
+
+    prompt_texts = [row["prompt"] for row in rows]
+    option_texts = [row["option"] for row in rows]
+
+    feature_config = FeatureConfig(backend=args.backend, model_name=args.model_name)
+    extractor = FeatureExtractor(config=feature_config)
+    extractor.fit(prompt_texts, option_texts)
+
+    X = build_features(extractor, rows)
+
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=args.test_size, random_state=args.seed
+    )
+
+    model = build_regressor(ModelConfig(random_state=args.seed))
+    model.fit(X_train, y_train)
+    preds = model.predict(X_test)
+
+    metrics = {
+        "mse": float(mean_squared_error(y_test, preds)),
+        "mae": float(mean_absolute_error(y_test, preds)),
+        "r2": float(r2_score(y_test, preds)),
+    }
+
+    output_dir = Path(args.output)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    joblib.dump(model, output_dir / "value_model.pkl")
+    extractor.save(output_dir)
+    (output_dir / "metrics.json").write_text(json.dumps(metrics, indent=2), encoding="utf-8")
+
+    print(json.dumps(metrics, indent=2))
+
+
+if __name__ == "__main__":
+    main()

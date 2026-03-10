@@ -38,6 +38,8 @@ def main() -> None:
     parser.add_argument("--dataset", default="benchmark_v1", help="Dataset name or path.")
     parser.add_argument("--mode", default=None, help="Pipeline mode override.")
     parser.add_argument("--decision-policy", default="hybrid", help="Decision policy: era|simulator|hybrid.")
+    parser.add_argument("--value-model", default=None, help="Path to trained value model directory.")
+    parser.add_argument("--value-weight", type=float, default=0.4, help="Weight for value model scoring.")
     parser.add_argument("--runs", type=int, default=1, help="Number of runs.")
     parser.add_argument("--seed", type=int, default=42, help="Random seed for bootstrap CI.")
     parser.add_argument("--baseline-provider", default="none", help="Baseline provider: none|ollama.")
@@ -57,6 +59,8 @@ def main() -> None:
             model=args.model,
             mode=args.mode,
             decision_policy=args.decision_policy,
+            value_model_path=args.value_model,
+            value_weight=args.value_weight,
             baseline_provider=args.baseline_provider,
             baseline_model=args.baseline_model,
             baseline_temperature=args.baseline_temperature,
@@ -79,6 +83,8 @@ def main() -> None:
             baseline_temperature=config.baseline_temperature,
             enable_counterfactuals=config.counterfactuals,
             decision_policy=config.decision_policy,
+            value_model_path=config.value_model_path,
+            value_weight=config.value_weight,
         )
         summary = runner.run()
         run_summaries.append(summary)

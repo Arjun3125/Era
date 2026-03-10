@@ -44,6 +44,7 @@ rag_cache/
 rag_storage/
 logs/
 experiments/results/
+data/value_model/
 *.log
 
 # Data files - large PDFs

@@ -19,6 +19,8 @@ class ExperimentConfig:
     model: str = "era"
     mode: Optional[str] = None
     decision_policy: str = "hybrid"
+    value_model_path: Optional[str] = None
+    value_weight: float = 0.4
     baseline_provider: str = "none"
     baseline_model: Optional[str] = None
     baseline_temperature: float = 0.0

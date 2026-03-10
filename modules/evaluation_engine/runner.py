@@ -10,6 +10,7 @@ from typing import Any, Dict, Iterable, List, Mapping, Optional
 
 from modules.decision_pipeline import DecisionPipelineEngine
 from modules.decision_simulator import DecisionSimulator
+from modules.value_model import ValueModelPredictor
 
 from .calibration import expected_calibration_error
 from .llm_baseline import run_llm_baseline
@@ -41,10 +42,14 @@ class EvaluationRunner:
         baseline_temperature: float = 0.0,
         enable_counterfactuals: bool = False,
         decision_policy: str = "hybrid",
+        value_model_path: Optional[str] = None,
+        value_weight: float = 0.4,
     ) -> None:
         self.scenarios = scenarios
         self.pipeline = DecisionPipelineEngine.create()
         self.simulator = DecisionSimulator()
+        self.value_model = ValueModelPredictor(Path(value_model_path)) if value_model_path else None
+        self.value_weight = float(value_weight)
         self.requested_mode = requested_mode
         self.baseline_provider = baseline_provider
         self.baseline_model = baseline_model
@@ -83,6 +88,7 @@ class EvaluationRunner:
         simulator_best = max(simulator_utilities, key=lambda item: item.utility) if simulator_utilities else None
         prediction_map = {item.option: item.prediction for item in simulator_utilities}
         utility_map = {item.option: item.utility for item in simulator_utilities}
+        value_scores: Dict[str, float] = {}
 
         for option in options:
             result = self.pipeline.run(
@@ -99,6 +105,7 @@ class EvaluationRunner:
             confidence = float(result.decision_contract.confidence or 0.0)
             reasoning = self._extract_reasoning(result)
             score = self._score_option(result, confidence)
+            if self.value_model is not None:\n                value_scores[str(option)] = self.value_model.predict(\n                    scenario.get(\"prompt\", \"\"),\n                    str(option),\n                    scenario.get(\"context\", {}),\n                )
             prediction = prediction_map.get(str(option))
             option_evals.append(
                 OptionEvaluation(
@@ -139,7 +146,8 @@ class EvaluationRunner:
         option_scores = {item.option: item.score for item in option_evals}
         option_utilities = {item.option: item.utility for item in simulator_utilities}
         expected = scenario.get("expected_decision", "")
-        normalized_chosen = match_option(chosen.option, options) or chosen.option
+        combined_scores: Dict[str, float] = {}
+        if self.value_model is not None:\n            for item in option_evals:\n                value_score = value_scores.get(item.option, 0.0)\n                combined_scores[item.option] = round(\n                    (1 - self.value_weight) * item.score + self.value_weight * value_score,\n                    4,\n                )\n            # Re-select with value model if policy requests it.\n            if self.decision_policy == \"value_model\" and combined_scores:\n                best_option = max(combined_scores.items(), key=lambda kv: kv[1])[0]\n                chosen = next((item for item in option_evals if item.option == best_option), chosen)\n\n+        normalized_chosen = match_option(chosen.option, options) or chosen.option
         decision_correct = accuracy_score(normalized_chosen, expected)
         rubric = scenario.get("reasoning_rubric", [])
         reasoning_text = chosen.reasoning
@@ -173,6 +181,8 @@ class EvaluationRunner:
             "option_scores": option_scores,
             "option_utilities": option_utilities,
             "option_values": option_utilities,
+            "option_value_scores": value_scores,
+            "option_combined_scores": combined_scores,
             "option_evaluations": [item.__dict__ for item in option_evals],
             "simulator_choice": simulator_best.option if simulator_best else "",
             "simulator_utility": simulator_best.utility if simulator_best else 0.0,

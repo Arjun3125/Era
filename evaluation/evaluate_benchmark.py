@@ -25,6 +25,8 @@ def main() -> None:
     parser.add_argument("--baseline-temperature", type=float, default=0.0, help="Baseline temperature.")
     parser.add_argument("--counterfactuals", action="store_true", help="Enable counterfactual runs.")
     parser.add_argument("--decision-policy", default="hybrid", help="Decision policy: era|simulator|hybrid.")
+    parser.add_argument("--value-model", default=None, help="Path to trained value model directory.")
+    parser.add_argument("--value-weight", type=float, default=0.4, help="Weight for value model scoring.")
     args = parser.parse_args()
 
     scenarios = load_scenarios(Path(args.scenarios_root), category=args.category, limit=args.limit)
@@ -36,6 +38,8 @@ def main() -> None:
         baseline_temperature=args.baseline_temperature,
         enable_counterfactuals=bool(args.counterfactuals),
         decision_policy=args.decision_policy,
+        value_model_path=args.value_model,
+        value_weight=args.value_weight,
     )
     summary = runner.run()
     print(generate_report(summary))
