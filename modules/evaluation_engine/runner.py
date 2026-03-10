@@ -47,6 +47,7 @@ class EvaluationRunner:
         value_weight: float = 0.4,
         policy_model_path: Optional[str] = None,
         policy_weight: float = 0.6,
+        policy_top_k: Optional[int] = None,
     ) -> None:
         self.scenarios = scenarios
         self.pipeline = DecisionPipelineEngine.create()
@@ -55,6 +56,7 @@ class EvaluationRunner:
         self.value_weight = float(value_weight)
         self.policy_model = PolicyModelPredictor(Path(policy_model_path)) if policy_model_path else None
         self.policy_weight = float(policy_weight)
+        self.policy_top_k = int(policy_top_k) if policy_top_k is not None else None
         self.requested_mode = requested_mode
         self.baseline_provider = baseline_provider
         self.baseline_model = baseline_model
@@ -96,7 +98,22 @@ class EvaluationRunner:
         value_scores: Dict[str, float] = {}
         policy_scores: Dict[str, float] = {}
 
-        for option in options:
+        candidate_options = options
+        if self.policy_model is not None and self.policy_top_k:
+            for option in options:
+                policy_scores[str(option)] = self.policy_model.predict(
+                    scenario.get("prompt", ""),
+                    str(option),
+                    scenario.get("context", {}),
+                )
+            ranked = sorted(
+                options,
+                key=lambda opt: policy_scores.get(str(opt), 0.0),
+                reverse=True,
+            )
+            candidate_options = ranked[: self.policy_top_k]
+
+        for option in candidate_options:
             result = self.pipeline.run(
                 user_input=self._build_option_prompt(scenario, option),
                 requested_mode=self.requested_mode or scenario.get("mode") or "meeting",
@@ -117,7 +134,7 @@ class EvaluationRunner:
                     str(option),
                     scenario.get("context", {}),
                 )
-            if self.policy_model is not None:
+            if self.policy_model is not None and str(option) not in policy_scores:
                 policy_scores[str(option)] = self.policy_model.predict(
                     scenario.get("prompt", ""),
                     str(option),

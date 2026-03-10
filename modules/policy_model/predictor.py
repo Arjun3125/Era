@@ -8,7 +8,7 @@ from typing import Any, Dict
 import joblib
 import numpy as np
 
-from modules.value_model.feature_extractor import FeatureExtractor
+from modules.learning_core import FeatureExtractor
 
 
 class PolicyModelPredictor:

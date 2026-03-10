@@ -9,7 +9,7 @@ from typing import Any, Dict
 import numpy as np
 import joblib
 
-from .feature_extractor import FeatureExtractor
+from modules.learning_core import FeatureExtractor
 
 
 class ValueModelPredictor:

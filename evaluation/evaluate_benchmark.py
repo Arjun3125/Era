@@ -51,6 +51,7 @@ def main() -> None:
     parser.add_argument("--value-weight", type=float, default=0.4, help="Weight for value model scoring.")
     parser.add_argument("--policy-model", default=None, help="Path to trained policy model directory.")
     parser.add_argument("--policy-weight", type=float, default=0.6, help="Weight for policy vs value scores when combining.")
+    parser.add_argument("--policy-top-k", type=int, default=None, help="Restrict reasoning to top-K policy options.")
     args = parser.parse_args()
 
     split_ids = load_split_ids(Path(args.split_file), args.split) if args.split_file else None
@@ -72,6 +73,7 @@ def main() -> None:
         value_weight=args.value_weight,
         policy_model_path=args.policy_model,
         policy_weight=args.policy_weight,
+        policy_top_k=args.policy_top_k,
     )
     summary = runner.run()
     print(generate_report(summary))

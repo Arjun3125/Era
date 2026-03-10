@@ -11,8 +11,7 @@ import joblib
 import numpy as np
 from sklearn.metrics import accuracy_score, f1_score, log_loss, roc_auc_score
 
-from modules.value_model.feature_extractor import FeatureConfig, FeatureExtractor
-from modules.value_model.train import build_features, load_dataset, split_rows
+from modules.learning_core import FeatureConfig, FeatureExtractor, build_features, load_dataset, split_rows
 from modules.policy_model.dataset_builder import build_dataset
 from modules.policy_model.model import ModelConfig, build_classifier
 

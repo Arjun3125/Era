@@ -45,6 +45,7 @@ rag_storage/
 logs/
 experiments/results/
 data/value_model/
+data/policy_model/
 *.log
 
 # Data files - large PDFs
