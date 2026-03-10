@@ -45,10 +45,12 @@ def main() -> None:
     parser.add_argument(
         "--decision-policy",
         default="hybrid",
-        help="Decision policy: era|simulator|hybrid|hybrid_value. Hybrid combines reasoning with simulator/value scores; hybrid_value uses reasoning+value.",
+        help="Decision policy: era|simulator|hybrid|hybrid_value|policy_model|hybrid_policy_value.",
     )
     parser.add_argument("--value-model", default=None, help="Path to trained value model directory.")
     parser.add_argument("--value-weight", type=float, default=0.4, help="Weight for value model scoring.")
+    parser.add_argument("--policy-model", default=None, help="Path to trained policy model directory.")
+    parser.add_argument("--policy-weight", type=float, default=0.6, help="Weight for policy vs value scores when combining.")
     args = parser.parse_args()
 
     split_ids = load_split_ids(Path(args.split_file), args.split) if args.split_file else None
@@ -68,6 +70,8 @@ def main() -> None:
         decision_policy=args.decision_policy,
         value_model_path=args.value_model,
         value_weight=args.value_weight,
+        policy_model_path=args.policy_model,
+        policy_weight=args.policy_weight,
     )
     summary = runner.run()
     print(generate_report(summary))

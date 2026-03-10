@@ -11,6 +11,7 @@ from typing import Any, Dict, Iterable, List, Mapping, Optional
 from modules.decision_pipeline import DecisionPipelineEngine
 from modules.decision_simulator import DecisionSimulator
 from modules.value_model import ValueModelPredictor
+from modules.policy_model import PolicyModelPredictor
 
 from .calibration import expected_calibration_error
 from .llm_baseline import run_llm_baseline
@@ -44,12 +45,16 @@ class EvaluationRunner:
         decision_policy: str = "hybrid",
         value_model_path: Optional[str] = None,
         value_weight: float = 0.4,
+        policy_model_path: Optional[str] = None,
+        policy_weight: float = 0.6,
     ) -> None:
         self.scenarios = scenarios
         self.pipeline = DecisionPipelineEngine.create()
         self.simulator = DecisionSimulator()
         self.value_model = ValueModelPredictor(Path(value_model_path)) if value_model_path else None
         self.value_weight = float(value_weight)
+        self.policy_model = PolicyModelPredictor(Path(policy_model_path)) if policy_model_path else None
+        self.policy_weight = float(policy_weight)
         self.requested_mode = requested_mode
         self.baseline_provider = baseline_provider
         self.baseline_model = baseline_model
@@ -89,6 +94,7 @@ class EvaluationRunner:
         prediction_map = {item.option: item.prediction for item in simulator_utilities}
         utility_map = {item.option: item.utility for item in simulator_utilities}
         value_scores: Dict[str, float] = {}
+        policy_scores: Dict[str, float] = {}
 
         for option in options:
             result = self.pipeline.run(
@@ -107,6 +113,12 @@ class EvaluationRunner:
             score = self._score_option(result, confidence)
             if self.value_model is not None:
                 value_scores[str(option)] = self.value_model.predict(
+                    scenario.get("prompt", ""),
+                    str(option),
+                    scenario.get("context", {}),
+                )
+            if self.policy_model is not None:
+                policy_scores[str(option)] = self.policy_model.predict(
                     scenario.get("prompt", ""),
                     str(option),
                     scenario.get("context", {}),
@@ -134,11 +146,20 @@ class EvaluationRunner:
         option_utilities = {item.option: item.utility for item in simulator_utilities}
         expected = scenario.get("expected_decision", "")
         combined_scores: Dict[str, float] = {}
+        policy_value_scores: Dict[str, float] = {}
         if self.value_model is not None:
             for item in option_evals:
                 value_score = value_scores.get(item.option, 0.0)
                 combined_scores[item.option] = round(
                     (1 - self.value_weight) * item.score + self.value_weight * value_score,
+                    4,
+                )
+        if self.policy_model is not None and self.value_model is not None:
+            for item in option_evals:
+                policy_score = policy_scores.get(item.option, 0.0)
+                value_score = value_scores.get(item.option, 0.0)
+                policy_value_scores[item.option] = round(
+                    self.policy_weight * policy_score + (1 - self.policy_weight) * value_score,
                     4,
                 )
 
@@ -163,6 +184,12 @@ class EvaluationRunner:
                 chosen = best[1]
         elif self.decision_policy in ("value_model", "hybrid_value") and combined_scores:
             best_option = max(combined_scores.items(), key=lambda kv: kv[1])[0]
+            chosen = next((item for item in option_evals if item.option == best_option), chosen)
+        elif self.decision_policy == "policy_model" and policy_scores:
+            best_option = max(policy_scores.items(), key=lambda kv: kv[1])[0]
+            chosen = next((item for item in option_evals if item.option == best_option), chosen)
+        elif self.decision_policy == "hybrid_policy_value" and policy_value_scores:
+            best_option = max(policy_value_scores.items(), key=lambda kv: kv[1])[0]
             chosen = next((item for item in option_evals if item.option == best_option), chosen)
 
         normalized_chosen = match_option(chosen.option, options) or chosen.option
@@ -201,6 +228,8 @@ class EvaluationRunner:
             "option_values": option_utilities,
             "option_value_scores": value_scores,
             "option_combined_scores": combined_scores,
+            "option_policy_scores": policy_scores,
+            "option_policy_value_scores": policy_value_scores,
             "option_evaluations": [item.__dict__ for item in option_evals],
             "simulator_choice": simulator_best.option if simulator_best else "",
             "simulator_utility": simulator_best.utility if simulator_best else 0.0,
