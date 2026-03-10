@@ -1,0 +1,32 @@
+{
+  "scenario_id": "STRAT_031",
+  "category": "strategy",
+  "difficulty": "hard",
+  "title": "Build vs partner",
+  "prompt": "You need an AI summarization feature in 90 days. Choose whether to build, partner, or acquire.",
+  "context": {
+    "company_size": "mid",
+    "cash_reserve_months": 16,
+    "brand_strength": "medium",
+    "customer_loyalty": "low",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 7,
+    "urgency_rank": 1
+  },
+  "decision_options": [
+    "build internally",
+    "partner with API vendor",
+    "acquire small startup",
+    "delay feature"
+  ],
+  "expected_decision": "partner with API vendor",
+  "reasoning_rubric": [
+    "time-to-market",
+    "cost control",
+    "integration risk"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

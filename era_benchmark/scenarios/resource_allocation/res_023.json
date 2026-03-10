@@ -1,0 +1,32 @@
+{
+  "scenario_id": "RES_023",
+  "category": "resource_allocation",
+  "difficulty": "hard",
+  "title": "Headcount allocation",
+  "prompt": "Choose how to place 10 new engineers among infra, core product, and growth.",
+  "context": {
+    "company_size": "small",
+    "cash_reserve_months": 12,
+    "brand_strength": "low",
+    "customer_loyalty": "low",
+    "regulatory_pressure": "medium",
+    "time_pressure_days": 60,
+    "urgency_rank": 3
+  },
+  "decision_options": [
+    "infra focus",
+    "core product focus",
+    "growth focus",
+    "balanced"
+  ],
+  "expected_decision": "balanced",
+  "reasoning_rubric": [
+    "avoid single bottlenecks",
+    "support roadmap",
+    "manage risk"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

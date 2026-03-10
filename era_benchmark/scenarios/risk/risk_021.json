@@ -1,0 +1,32 @@
+{
+  "scenario_id": "RISK_021",
+  "category": "risk",
+  "difficulty": "easy",
+  "title": "Legal exposure",
+  "prompt": "A new regional law might classify your product as a financial service. Decide approach.",
+  "context": {
+    "company_size": "enterprise",
+    "cash_reserve_months": 25,
+    "brand_strength": "medium",
+    "customer_loyalty": "low",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 14,
+    "urgency_rank": 1
+  },
+  "decision_options": [
+    "proactively comply",
+    "lobby for clarification",
+    "geo-block region",
+    "wait and monitor"
+  ],
+  "expected_decision": "proactively comply",
+  "reasoning_rubric": [
+    "avoid fines",
+    "protect reputation",
+    "maintain market access"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

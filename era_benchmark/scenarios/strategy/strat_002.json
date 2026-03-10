@@ -1,0 +1,32 @@
+{
+  "scenario_id": "STRAT_002",
+  "category": "strategy",
+  "difficulty": "medium",
+  "title": "Market entry sequencing",
+  "prompt": "You can expand to APAC or LATAM this year, not both. Where do you go first?",
+  "context": {
+    "company_size": "enterprise",
+    "cash_reserve_months": 8,
+    "brand_strength": "medium",
+    "customer_loyalty": "low",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 30,
+    "urgency_rank": 2
+  },
+  "decision_options": [
+    "enter APAC now",
+    "enter LATAM now",
+    "delay expansion",
+    "partner with regional player"
+  ],
+  "expected_decision": "enter APAC now",
+  "reasoning_rubric": [
+    "maximize TAM",
+    "balance execution risk",
+    "respect capital constraints"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

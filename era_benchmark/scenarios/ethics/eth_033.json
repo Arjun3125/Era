@@ -1,0 +1,32 @@
+{
+  "scenario_id": "ETH_033",
+  "category": "ethics",
+  "difficulty": "easy",
+  "title": "User privacy vs experimentation",
+  "prompt": "You want to run high-velocity A/B tests requiring additional data collection. Decide boundaries.",
+  "context": {
+    "company_size": "enterprise",
+    "cash_reserve_months": 12,
+    "brand_strength": "high",
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "medium",
+    "time_pressure_days": 60,
+    "urgency_rank": 3
+  },
+  "decision_options": [
+    "collect minimal data",
+    "collect all data with opt-out",
+    "delay tests",
+    "synthetic data only"
+  ],
+  "expected_decision": "collect minimal data",
+  "reasoning_rubric": [
+    "minimize privacy risk",
+    "enable learning",
+    "respect consent"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

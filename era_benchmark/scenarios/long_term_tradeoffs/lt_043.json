@@ -1,0 +1,32 @@
+{
+  "scenario_id": "LT_043",
+  "category": "long_term_tradeoffs",
+  "difficulty": "hard",
+  "title": "Short-term profit vs reputation",
+  "prompt": "A lucrative deal requires bending a sustainability policy. Decide.",
+  "context": {
+    "company_size": "enterprise",
+    "cash_reserve_months": 16,
+    "brand_strength": "high",
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 90,
+    "urgency_rank": 3
+  },
+  "decision_options": [
+    "take deal quietly",
+    "renegotiate terms",
+    "decline the deal",
+    "defer decision"
+  ],
+  "expected_decision": "renegotiate terms",
+  "reasoning_rubric": [
+    "protect reputation",
+    "capture value",
+    "manage stakeholder trust"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

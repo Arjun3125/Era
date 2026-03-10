@@ -1,0 +1,32 @@
+{
+  "scenario_id": "RES_009",
+  "category": "resource_allocation",
+  "difficulty": "easy",
+  "title": "Data center expansion",
+  "prompt": "Capacity is tight in two regions. Decide where to add capacity first.",
+  "context": {
+    "company_size": "enterprise",
+    "cash_reserve_months": 17,
+    "brand_strength": "medium",
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 90,
+    "urgency_rank": 4
+  },
+  "decision_options": [
+    "region A",
+    "region B",
+    "multi-cloud burst",
+    "optimize usage only"
+  ],
+  "expected_decision": "multi-cloud burst",
+  "reasoning_rubric": [
+    "resilience",
+    "latency",
+    "cost efficiency"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

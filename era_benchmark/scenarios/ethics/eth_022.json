@@ -1,0 +1,32 @@
+{
+  "scenario_id": "ETH_022",
+  "category": "ethics",
+  "difficulty": "medium",
+  "title": "AI bias mitigation",
+  "prompt": "Your model underperforms for a protected group. Choose mitigation.",
+  "context": {
+    "company_size": "enterprise",
+    "cash_reserve_months": 26,
+    "brand_strength": "high",
+    "customer_loyalty": "low",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 30,
+    "urgency_rank": 2
+  },
+  "decision_options": [
+    "ship with caveats",
+    "delay launch and retrain",
+    "add human review",
+    "geo-limit rollout"
+  ],
+  "expected_decision": "add human review",
+  "reasoning_rubric": [
+    "harm reduction",
+    "fairness",
+    "maintain progress"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

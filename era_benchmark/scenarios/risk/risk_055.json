@@ -1,0 +1,32 @@
+{
+  "scenario_id": "RISK_055",
+  "category": "risk",
+  "difficulty": "hard",
+  "title": "Supplier failure",
+  "prompt": "Primary hardware supplier shows quality issues and late shipments. Decide mitigation.",
+  "context": {
+    "company_size": "small",
+    "cash_reserve_months": 19,
+    "brand_strength": "high",
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 30,
+    "urgency_rank": 5
+  },
+  "decision_options": [
+    "dual-source immediately",
+    "increase QA and penalties",
+    "build inventory buffer",
+    "accept current risk"
+  ],
+  "expected_decision": "dual-source immediately",
+  "reasoning_rubric": [
+    "reduce single point of failure",
+    "preserve delivery commitments",
+    "control costs"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

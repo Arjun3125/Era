@@ -59,10 +59,35 @@ Example:
 python run_refactored.py --input "We need a final high-stakes ruling" --mode darbar
 ```
 
+## Embedded Decision Environment
+
+ERA now includes an embedded one-step decision environment that treats the refactored
+pipeline as the acting policy over generated scenarios.
+
+Run a short simulation batch:
+
+```bash
+python run_refactored.py --simulate-episodes 3 --scenario-domain startup --seed 7
+```
+
+Optional experience log:
+
+```bash
+python run_refactored.py --simulate-episodes 5 --experience-log logs/decision_env_episodes.jsonl
+```
+
+Benchmark ERA against ERA-Bench:
+
+```bash
+python evaluation/evaluate_benchmark.py --limit 20 --mode meeting
+```
+
 ## Repository Layout
 
 - [`config/`](c:\era\config): runtime settings and override normalization
 - [`core/`](c:\era\core): contracts, orchestrator, observability primitives
+- [`decision_env/`](c:\era\decision_env): scenario generation, simulation, reward shaping, and episode execution around the refactored ERA policy
+- [`era_benchmark/`](c:\era\era_benchmark): ERA-Bench scenarios (structured decision cases) plus schema and index for evaluation/training seeds
 - [`modules/`](c:\era\modules): pipeline stage implementations
 - [`data/`](c:\era\data): retained local data and artifacts
 - [`knowledge/`](c:\era\knowledge): principle corpus used by knowledge synthesis
@@ -102,7 +127,7 @@ python run_refactored.py --input "Need a release decision"
 Focused runtime tests:
 
 ```bash
-pytest tests/test_decision_pipeline_engine.py tests/test_no_legacy_pipeline_imports.py -q
+pytest tests/test_decision_pipeline_engine.py tests/test_no_legacy_pipeline_imports.py tests/test_decision_env.py -q
 ```
 
 Broader refactor-era suite:

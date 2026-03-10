@@ -1,0 +1,32 @@
+{
+  "scenario_id": "RISK_029",
+  "category": "risk",
+  "difficulty": "easy",
+  "title": "Security breach",
+  "prompt": "An internal tool leaked limited PII for 500 customers. Choose response.",
+  "context": {
+    "company_size": "small",
+    "cash_reserve_months": 7,
+    "brand_strength": "medium",
+    "customer_loyalty": "low",
+    "regulatory_pressure": "medium",
+    "time_pressure_days": 7,
+    "urgency_rank": 4
+  },
+  "decision_options": [
+    "full disclosure within 24h",
+    "silent patch then notify regulators",
+    "delay disclosure",
+    "outsource forensics first"
+  ],
+  "expected_decision": "full disclosure within 24h",
+  "reasoning_rubric": [
+    "transparency",
+    "regulatory compliance",
+    "customer trust"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

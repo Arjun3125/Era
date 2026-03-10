@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "scenario_count": 300,
+  "categories": {
+    "strategy": 80,
+    "risk": 60,
+    "ethics": 50,
+    "resource_allocation": 60,
+    "long_term_tradeoffs": 50
+  },
+  "difficulty_levels": {
+    "easy": "obvious best decision",
+    "medium": "requires tradeoff analysis",
+    "hard": "conflicting objectives",
+    "expert": "multi-step strategic reasoning"
+  }
+}

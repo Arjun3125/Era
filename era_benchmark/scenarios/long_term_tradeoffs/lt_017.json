@@ -1,0 +1,32 @@
+{
+  "scenario_id": "LT_017",
+  "category": "long_term_tradeoffs",
+  "difficulty": "easy",
+  "title": "Innovation vs reliability",
+  "prompt": "Aggressive feature velocity is causing incident frequency to rise. Choose path.",
+  "context": {
+    "company_size": "mid",
+    "cash_reserve_months": 11,
+    "brand_strength": "high",
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 14,
+    "urgency_rank": 2
+  },
+  "decision_options": [
+    "slow releases and harden",
+    "continue velocity",
+    "feature freeze",
+    "add staging gates"
+  ],
+  "expected_decision": "slow releases and harden",
+  "reasoning_rubric": [
+    "reduce incidents",
+    "sustain trust",
+    "preserve learning pace"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

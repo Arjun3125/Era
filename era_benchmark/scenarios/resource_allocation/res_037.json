@@ -1,0 +1,32 @@
+{
+  "scenario_id": "RES_037",
+  "category": "resource_allocation",
+  "difficulty": "easy",
+  "title": "Budget split",
+  "prompt": "You have $5M incremental budget. Allocate between product, sales, and reliability.",
+  "context": {
+    "company_size": "mid",
+    "cash_reserve_months": 10,
+    "brand_strength": "medium",
+    "customer_loyalty": "low",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 30,
+    "urgency_rank": 2
+  },
+  "decision_options": [
+    "product-heavy",
+    "sales-heavy",
+    "reliability-first",
+    "even split"
+  ],
+  "expected_decision": "reliability-first",
+  "reasoning_rubric": [
+    "protect uptime",
+    "support growth",
+    "align with stage"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

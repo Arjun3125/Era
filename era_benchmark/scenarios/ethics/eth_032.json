@@ -1,0 +1,32 @@
+{
+  "scenario_id": "ETH_032",
+  "category": "ethics",
+  "difficulty": "expert",
+  "title": "Employee layoffs",
+  "prompt": "Facing a 20% budget gap, you can do layoffs or across-the-board pay cuts. Pick a path.",
+  "context": {
+    "company_size": "small",
+    "cash_reserve_months": 14,
+    "brand_strength": "medium",
+    "customer_loyalty": "high",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 60,
+    "urgency_rank": 2
+  },
+  "decision_options": [
+    "targeted layoffs",
+    "pay cuts for all",
+    "freeze hiring and bonuses",
+    "bridge with debt"
+  ],
+  "expected_decision": "targeted layoffs",
+  "reasoning_rubric": [
+    "preserve core teams",
+    "treat people fairly",
+    "avoid long-term morale damage"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "scenario_id": "LT_006",
+  "category": "long_term_tradeoffs",
+  "difficulty": "medium",
+  "title": "Platform bet",
+  "prompt": "You can replatform to a modern stack in 12 months or keep investing in the legacy system. Decide.",
+  "context": {
+    "company_size": "small",
+    "cash_reserve_months": 18,
+    "brand_strength": "high",
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 7,
+    "urgency_rank": 1
+  },
+  "decision_options": [
+    "full replatform now",
+    "incremental strangler",
+    "stay on legacy",
+    "outsource platform"
+  ],
+  "expected_decision": "incremental strangler",
+  "reasoning_rubric": [
+    "manage migration risk",
+    "control cost",
+    "retain optionality"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}
