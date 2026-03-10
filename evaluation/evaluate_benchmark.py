@@ -24,6 +24,7 @@ def main() -> None:
     parser.add_argument("--baseline-model", default=None, help="Baseline model name (provider-specific).")
     parser.add_argument("--baseline-temperature", type=float, default=0.0, help="Baseline temperature.")
     parser.add_argument("--counterfactuals", action="store_true", help="Enable counterfactual runs.")
+    parser.add_argument("--decision-policy", default="era", help="Decision policy: era|simulator|hybrid.")
     args = parser.parse_args()
 
     scenarios = load_scenarios(Path(args.scenarios_root), category=args.category, limit=args.limit)
@@ -34,6 +35,7 @@ def main() -> None:
         baseline_model=args.baseline_model,
         baseline_temperature=args.baseline_temperature,
         enable_counterfactuals=bool(args.counterfactuals),
+        decision_policy=args.decision_policy,
     )
     summary = runner.run()
     print(generate_report(summary))

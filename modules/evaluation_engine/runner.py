@@ -38,6 +38,7 @@ class EvaluationRunner:
         baseline_model: Optional[str] = None,
         baseline_temperature: float = 0.0,
         enable_counterfactuals: bool = False,
+        decision_policy: str = "era",
     ) -> None:
         self.scenarios = scenarios
         self.pipeline = DecisionPipelineEngine.create()
@@ -47,6 +48,7 @@ class EvaluationRunner:
         self.baseline_model = baseline_model
         self.baseline_temperature = baseline_temperature
         self.enable_counterfactuals = enable_counterfactuals
+        self.decision_policy = str(decision_policy or "era").strip().lower()
 
     def run(self) -> Dict[str, Any]:
         results: List[Dict[str, Any]] = []
@@ -63,6 +65,7 @@ class EvaluationRunner:
                     "scenario_id": scenario.get("scenario_id"),
                     "category": scenario.get("category"),
                     "difficulty": scenario.get("difficulty"),
+                    "expected_decision": scenario.get("expected_decision", ""),
                     "era": era,
                     "baseline": baseline,
                 }
@@ -105,7 +108,26 @@ class EvaluationRunner:
                 counterfactuals[str(option)] = self._run_counterfactual(scenario, option)
 
         option_evals.sort(key=lambda item: (item.score, item.confidence, item.option), reverse=True)
-        chosen = option_evals[0] if option_evals else OptionEvaluation("", 0.0, 0.0, "", "")
+        default_choice = option_evals[0] if option_evals else OptionEvaluation("", 0.0, 0.0, "", "")
+        chosen = default_choice
+        if self.decision_policy == "simulator" and simulator_best:
+            chosen = next(
+                (item for item in option_evals if item.option == simulator_best.option),
+                default_choice,
+            )
+        elif self.decision_policy == "hybrid" and option_evals and simulator_best:
+            def _normalize(value: float) -> float:
+                return max(0.0, min(1.0, (value + 1.0) / 2.0))
+            sim_score = _normalize(simulator_best.utility)
+            best = None
+            for item in option_evals:
+                era_score = _normalize(item.score)
+                combined = 0.7 * era_score + 0.3 * sim_score if item.option == simulator_best.option else 0.7 * era_score
+                key = (combined, item.confidence, item.option)
+                if best is None or key > best[0]:
+                    best = (key, item)
+            if best:
+                chosen = best[1]
 
         option_scores = {item.option: item.score for item in option_evals}
         option_utilities = {item.option: item.utility for item in simulator_utilities}
@@ -139,6 +161,7 @@ class EvaluationRunner:
             "simulator_choice": simulator_best.option if simulator_best else "",
             "simulator_utility": simulator_best.utility if simulator_best else 0.0,
             "counterfactuals": counterfactuals if self.enable_counterfactuals else {},
+            "decision_policy": self.decision_policy,
         }
 
     @staticmethod
@@ -238,7 +261,7 @@ class EvaluationRunner:
             categories.setdefault(item["category"], []).append(item["era"]["score"])
 
         simulator_accuracy = average(
-            accuracy_score(item["era"].get("simulator_choice", ""), item["era"]["decision"])
+            accuracy_score(item["era"].get("simulator_choice", ""), item.get("expected_decision", ""))
             for item in results
         )
 

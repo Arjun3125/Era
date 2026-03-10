@@ -30,9 +30,9 @@ class DecisionSimulator:
     def __init__(self) -> None:
         self._category_weights = {
             "strategy": {"benefit": 0.6, "risk": 0.3, "cost": 0.2, "reversibility": 0.2},
-            "risk": {"benefit": 0.3, "risk": 0.7, "cost": 0.2, "reversibility": 0.2},
+            "risk": {"benefit": 0.2, "risk": 0.8, "cost": 0.2, "reversibility": 0.2},
             "ethics": {"benefit": 0.4, "risk": 0.5, "cost": 0.2, "reversibility": 0.1},
-            "resource_allocation": {"benefit": 0.5, "risk": 0.4, "cost": 0.4, "reversibility": 0.2},
+            "resource_allocation": {"benefit": 0.6, "risk": 0.4, "cost": 0.3, "reversibility": 0.2},
             "long_term_tradeoffs": {"benefit": 0.5, "risk": 0.4, "cost": 0.2, "reversibility": 0.3},
         }
 
@@ -81,9 +81,9 @@ class DecisionSimulator:
             notes.append("delay")
 
         if any(token in text for token in ["dual-source", "redundant", "backup", "mitigation", "harden"]):
-            risk -= 0.2
-            cost += 0.15
-            benefit += 0.05
+            risk -= 0.3
+            cost += 0.1
+            benefit += 0.15
             notes.append("mitigate_risk")
 
         if any(token in text for token in ["increase marketing", "marketing", "sales-heavy", "growth"]):
@@ -99,10 +99,28 @@ class DecisionSimulator:
             notes.append("price_war")
 
         if any(token in text for token in ["compliance", "disclosure", "transparency", "audit"]):
-            risk -= 0.25
-            cost += 0.1
-            benefit += 0.05
+            risk -= 0.35
+            cost += 0.05
+            benefit += 0.1
             notes.append("compliance")
+
+        if any(token in text for token in ["reliability-first", "reliability", "multi-cloud", "redundancy"]):
+            benefit += 0.2
+            risk -= 0.2
+            cost += 0.1
+            notes.append("resilience_investment")
+
+        if any(token in text for token in ["balanced", "even split"]):
+            benefit += 0.1
+            risk -= 0.05
+            cost += 0.05
+            notes.append("balanced_allocation")
+
+        if any(token in text for token in ["product-heavy", "sales-heavy"]):
+            benefit += 0.05
+            risk += 0.1
+            cost += 0.1
+            notes.append("focus_spend")
 
         if any(token in text for token in ["layoffs", "pay cuts", "freeze"]):
             cost -= 0.1
