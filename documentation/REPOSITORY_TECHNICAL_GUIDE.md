@@ -119,6 +119,23 @@ Purpose:
 
 - Simulated environment for generating additional decision data beyond static benchmarks
 
+### `modules/expert_router/`
+
+- `expert_registry.py`: expert list + heuristic domain routing
+- `router_model.py`: router model definition (logistic/random forest)
+- `router_predictor.py`: runtime router inference (model or heuristic)
+- `aggregator.py`: weighted aggregation for expert positions
+
+Purpose:
+
+- Learned (or heuristic) expert routing for council selection
+
+Runtime controls:
+
+- `expert_router_enabled`: boolean routing context flag
+- `expert_router_top_k`: restrict to top-K experts
+- `expert_router_path`: optional model directory for router inference
+
 ### `scripts/generate_simulated_data.py`
 
 Generates synthetic outcome + reward rows by running each benchmark scenario through the decision environment.

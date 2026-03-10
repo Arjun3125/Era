@@ -22,10 +22,12 @@ def _run_once(
     pipeline: DecisionPipelineEngine,
     user_input: str,
     requested_mode: str | None,
+    routing_context: Dict[str, Any] | None,
 ) -> Dict[str, Any]:
     result = pipeline.run(
         user_input=user_input,
         requested_mode=requested_mode,
+        routing_context=routing_context,
         source="run_refactored",
     )
     return {
@@ -126,6 +128,11 @@ def main() -> int:
         default=None,
         help="Optional JSONL output path for episode records in simulation mode.",
     )
+    parser.add_argument(
+        "--routing-context",
+        default=None,
+        help="Optional JSON dict for routing context overrides (expert router, etc).",
+    )
     args = parser.parse_args()
 
     if args.simulate_episodes < 0:
@@ -154,12 +161,19 @@ def main() -> int:
         return 0
 
     pipeline = DecisionPipelineEngine.create(strict=bool(args.strict))
+    routing_context = None
+    if args.routing_context:
+        try:
+            routing_context = json.loads(args.routing_context)
+        except json.JSONDecodeError as exc:
+            parser.error(f"--routing-context must be valid JSON: {exc}")
 
     if args.user_input:
         payload = _run_once(
             pipeline=pipeline,
             user_input=args.user_input,
             requested_mode=args.requested_mode,
+            routing_context=routing_context,
         )
         print(json.dumps(payload, indent=2))
         return 0
@@ -178,6 +192,7 @@ def main() -> int:
             pipeline=pipeline,
             user_input=user_input,
             requested_mode=args.requested_mode,
+            routing_context=routing_context,
         )
         print(json.dumps(payload, indent=2))
     return 0

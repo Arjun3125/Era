@@ -108,6 +108,10 @@ class CouncilExecutionModule(ModulePlugin):
     def execute(self, context: ExecutionContext) -> ModuleResult:
         mode = self._resolve_mode(context)
         routing_context, routing_sources = self._merge_routing_context(context)
+        expert_weights = self._read_normalized_key(context.state, ("expert_weights",))
+        if isinstance(expert_weights, Mapping):
+            routing_context = dict(routing_context)
+            routing_context["expert_weights"] = expert_weights
         selected_ministers = self._resolve_selected_ministers(context)
 
         try:

@@ -6,6 +6,7 @@ from collections.abc import Iterable
 from dataclasses import dataclass
 import math
 from typing import Any, Dict, List, Mapping, Tuple
+from pathlib import Path
 
 from core.contracts import (
     ExecutionContext,
@@ -18,6 +19,7 @@ from core.contracts import (
 
 from .engine import ModeRoutingEngine
 from .mode_orchestrator import ExecutionConfig, ModeOrchestrator
+from modules.expert_router import ExpertRouterPredictor
 
 
 def _coerce_iterable_items(
@@ -125,6 +127,16 @@ class ModeRoutingModule(ModulePlugin):
                 routing_context=routing_context,
             )
             selected_ministers = self._to_string_list(result.selected_ministers, lowercase=True)
+            expert_weights = {}
+            if result.should_invoke_council:
+                expert_weights = self._apply_expert_router(
+                    context=context,
+                    routing_context=routing_context,
+                    user_input=user_input,
+                    selected_ministers=selected_ministers,
+                )
+            if expert_weights:
+                selected_ministers = list(expert_weights.keys())
             execution_plan = self._normalize_execution_plan(
                 result.execution_plan,
                 defaults=self._execution_plan_defaults(),
@@ -141,6 +153,7 @@ class ModeRoutingModule(ModulePlugin):
                     "resolved_mode": result.resolved_mode,
                     "should_invoke_council": result.should_invoke_council,
                     "selected_ministers": selected_ministers,
+                    "expert_weights": expert_weights,
                     "mode_frame": result.frame,
                     "execution_plan": execution_plan,
                     "mode_contract": result.mode_contract,
@@ -198,6 +211,71 @@ class ModeRoutingModule(ModulePlugin):
 
     def health(self) -> ModuleHealth:
         return ModuleHealth(ok=True, details={"mode": self.orchestrator.get_current_mode()})
+
+    @staticmethod
+    def _apply_expert_router(
+        *,
+        context: ExecutionContext,
+        routing_context: Mapping[str, Any],
+        user_input: str,
+        selected_ministers: List[str],
+    ) -> Dict[str, float]:
+        candidates = (
+            ModeRoutingModule._read_normalized_key(context.config, ("expert_router_path",)),
+            ModeRoutingModule._read_normalized_key(context.metadata, ("expert_router_path",)),
+            ModeRoutingModule._read_normalized_key(context.input_contract.metadata, ("expert_router_path",)),
+            ModeRoutingModule._read_normalized_key(routing_context, ("expert_router_path",)),
+        )
+        router_path = None
+        for candidate in candidates:
+            if candidate:
+                router_path = candidate
+                break
+
+        enabled_candidates = (
+            ModeRoutingModule._read_normalized_key(context.config, ("expert_router_enabled",)),
+            ModeRoutingModule._read_normalized_key(context.metadata, ("expert_router_enabled",)),
+            ModeRoutingModule._read_normalized_key(context.input_contract.metadata, ("expert_router_enabled",)),
+            ModeRoutingModule._read_normalized_key(routing_context, ("expert_router_enabled",)),
+        )
+        enabled = False
+        for candidate in enabled_candidates:
+            if isinstance(candidate, bool):
+                enabled = candidate
+                break
+            text = ModeRoutingModule._normalize_text(candidate).lower()
+            if text in {"1", "true", "yes", "on"}:
+                enabled = True
+                break
+            if text in {"0", "false", "no", "off"}:
+                enabled = False
+                break
+
+        if not enabled and not router_path:
+            return {}
+
+        predictor = ExpertRouterPredictor(Path(router_path) if router_path else None)
+        weights = predictor.predict(user_input, dict(routing_context))
+
+        top_k = None
+        for candidate in (
+            ModeRoutingModule._read_normalized_key(context.config, ("expert_router_top_k",)),
+            ModeRoutingModule._read_normalized_key(context.metadata, ("expert_router_top_k",)),
+            ModeRoutingModule._read_normalized_key(context.input_contract.metadata, ("expert_router_top_k",)),
+            ModeRoutingModule._read_normalized_key(routing_context, ("expert_router_top_k",)),
+        ):
+            if candidate is None:
+                continue
+            try:
+                top_k = int(candidate)
+                break
+            except (TypeError, ValueError):
+                continue
+
+        ranked = sorted(weights.items(), key=lambda item: item[1], reverse=True)
+        if top_k:
+            ranked = ranked[: max(1, top_k)]
+        return {name: score for name, score in ranked if score > 0}
 
     @staticmethod
     def _resolve_requested_mode(

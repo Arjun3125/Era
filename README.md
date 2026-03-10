@@ -98,6 +98,15 @@ python scripts/run_benchmark.py \
   --value-model data/value_model/model_v1_1_ridge
 ```
 
+Expert router (Mixture-of-Experts council):
+
+```bash
+python run_refactored.py \
+  --input "Competitor undercut pricing" \
+  --mode meeting \
+  --routing-context "{\"expert_router_enabled\": true, \"expert_router_top_k\": 3}"
+```
+
 Generate simulated outcomes (decision environment):
 
 ```bash

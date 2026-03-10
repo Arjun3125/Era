@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import Any, Callable, Dict, List, Mapping, Optional
 
 from modules.council_router.mode_orchestrator import ExecutionConfig, ModeOrchestrator
+from modules.expert_router.aggregator import aggregate_weighted_positions
 
 
 CouncilFactory = Callable[[Any], Any]
@@ -328,6 +329,14 @@ class CouncilExecutionEngine:
             neutral_count,
             minister_positions,
         )
+        weighted_aggregation = None
+        expert_weights = context_map.get("expert_weights") if isinstance(context_map, Mapping) else None
+        if isinstance(expert_weights, Mapping):
+            weighted_aggregation = aggregate_weighted_positions(
+                minister_positions=minister_positions,
+                expert_weights={str(k).lower(): float(v) for k, v in expert_weights.items()},
+            )
+            recommendation = weighted_aggregation.get("recommendation", recommendation)
 
         red_lines = [
             name
@@ -338,6 +347,8 @@ class CouncilExecutionEngine:
         consensus_strength = (
             max(support_count, oppose_count) / total_consulted if total_consulted else 0.0
         )
+        if weighted_aggregation and weighted_aggregation.get("consensus_strength") is not None:
+            consensus_strength = float(weighted_aggregation["consensus_strength"])
         if total_consulted == 0:
             warnings.append("No ministers produced positions; consensus defaults to 0.0.")
         council_positions = self._build_council_positions(minister_positions)
@@ -357,6 +368,7 @@ class CouncilExecutionEngine:
             "minister_outputs": minister_positions,
             "council_positions": council_positions,
             "mode_metadata": mode_aggregation,
+            "weighted_aggregation": weighted_aggregation or {},
             "support_count": support_count,
             "oppose_count": oppose_count,
             "neutral_count": neutral_count,
