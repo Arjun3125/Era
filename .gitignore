@@ -43,6 +43,7 @@ metrics_store/
 rag_cache/
 rag_storage/
 logs/
+experiments/results/
 *.log
 
 # Data files - large PDFs
