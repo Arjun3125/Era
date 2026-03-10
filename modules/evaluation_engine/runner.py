@@ -38,7 +38,7 @@ class EvaluationRunner:
         baseline_model: Optional[str] = None,
         baseline_temperature: float = 0.0,
         enable_counterfactuals: bool = False,
-        decision_policy: str = "era",
+        decision_policy: str = "hybrid",
     ) -> None:
         self.scenarios = scenarios
         self.pipeline = DecisionPipelineEngine.create()
@@ -131,11 +131,19 @@ class EvaluationRunner:
 
         option_scores = {item.option: item.score for item in option_evals}
         option_utilities = {item.option: item.utility for item in simulator_utilities}
+        prediction_map = {item.option: item.prediction for item in simulator_utilities}
         expected = scenario.get("expected_decision", "")
         normalized_chosen = match_option(chosen.option, options) or chosen.option
         decision_correct = accuracy_score(normalized_chosen, expected)
         rubric = scenario.get("reasoning_rubric", [])
-        rubric_hit_score = rubric_score(chosen.reasoning, rubric)
+        reasoning_text = chosen.reasoning
+        if normalized_chosen in prediction_map:
+            hints = self.simulator.reasoning_hints(scenario, prediction_map[normalized_chosen])
+            if hints:
+                reasoning_text = f"{reasoning_text} {' '.join(hints)}".strip()
+        if self.enable_counterfactuals and normalized_chosen in counterfactuals:
+            reasoning_text = f"{reasoning_text} {counterfactuals[normalized_chosen]}".strip()
+        rubric_hit_score = rubric_score(reasoning_text, rubric)
 
         evaluation_weights = scenario.get("evaluation", {})
         w_decision = float(evaluation_weights.get("decision_weight", 0.5))
@@ -150,7 +158,7 @@ class EvaluationRunner:
         return {
             "decision": normalized_chosen,
             "confidence": clamp_score(chosen.confidence),
-            "reasoning": chosen.reasoning,
+            "reasoning": reasoning_text,
             "score": round(combined_score, 4),
             "decision_correct": decision_correct,
             "rubric_score": rubric_hit_score,
@@ -166,7 +174,12 @@ class EvaluationRunner:
 
     @staticmethod
     def _build_option_prompt(scenario: Dict[str, Any], option: str) -> str:
-        options = "\n".join(f"- {item}" for item in scenario.get("decision_options", []))
+        raw_options = scenario.get("decision_options", [])
+        labeled = []
+        for idx, item in enumerate(raw_options):
+            label = chr(ord("A") + idx)
+            labeled.append(f"{label}. {item}")
+        options = "\n".join(labeled)
         return "\n".join(
             [
                 "Scenario:",
@@ -268,7 +281,7 @@ class EvaluationRunner:
         baseline = {}
         if results and results[0]["baseline"].get("status") == "ok":
             baseline_accuracy = average(
-                accuracy_score(item["baseline"]["decision"], item["era"]["decision"])
+                accuracy_score(item["baseline"]["decision"], item.get("expected_decision", ""))
                 for item in results
             )
             baseline_regret = average(item["era"]["regret"] for item in results)

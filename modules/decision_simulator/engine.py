@@ -62,6 +62,54 @@ class DecisionSimulator:
             )
         return outputs
 
+    def reasoning_hints(self, scenario: Dict[str, Any], prediction: OutcomePrediction | None) -> List[str]:
+        if prediction is None:
+            return []
+        category = str(scenario.get("category", "strategy")).strip().lower()
+        hints: List[str] = []
+        for note in prediction.notes:
+            if category == "risk":
+                if note == "mitigate_risk":
+                    hints.append("reduce single point of failure")
+                if note == "time_pressure":
+                    hints.append("preserve delivery commitments")
+                if note == "low_runway":
+                    hints.append("control costs")
+                if note == "compliance":
+                    hints.append("regulatory compliance")
+            elif category == "resource_allocation":
+                if note == "resilience_investment":
+                    hints.append("protect uptime")
+                if note == "balanced_allocation":
+                    hints.append("align with stage")
+                if note == "growth_spend":
+                    hints.append("support growth")
+            elif category == "strategy":
+                if note == "price_war":
+                    hints.append("avoid destructive price war")
+                if note == "growth_spend":
+                    hints.append("increase product differentiation")
+            elif category == "ethics":
+                if note == "compliance":
+                    hints.append("transparency")
+                if note == "morale_risk":
+                    hints.append("treat people fairly")
+            elif category == "long_term_tradeoffs":
+                if note == "resilience_investment":
+                    hints.append("sustain trust")
+                if note == "balanced_allocation":
+                    hints.append("retain optionality")
+
+        # Deduplicate while preserving order.
+        seen = set()
+        deduped: List[str] = []
+        for item in hints:
+            if item in seen:
+                continue
+            seen.add(item)
+            deduped.append(item)
+        return deduped
+
     def predict_outcome(self, scenario: Dict[str, Any], option: str) -> OutcomePrediction:
         text = str(option).strip().lower()
         context = scenario.get("context") or {}
