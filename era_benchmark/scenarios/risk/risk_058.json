@@ -2,33 +2,38 @@
   "scenario_id": "RISK_058",
   "category": "risk",
   "difficulty": "expert",
-  "title": "Supply chain disruption",
-  "prompt": "A key supplier signals potential delays that could disrupt delivery timelines. Decide the best supply chain response.",
+  "title": "Security breach response",
+  "prompt": "Your security team reports a breach impacting customer data. Assess the severity and decide the most responsible immediate response.",
   "context": {
-    "company_size": "small",
-    "cash_reserve_months": 4,
-    "brand_strength": "medium",
+    "company_size": "mid",
+    "cash_reserve_months": 14,
+    "brand_strength": "low",
     "customer_loyalty": "high",
-    "regulatory_pressure": "medium",
-    "time_pressure_days": 56,
+    "regulatory_pressure": "high",
+    "time_pressure_days": 23,
     "urgency_rank": 1,
-    "supplier_concentration": 0.571,
-    "lead_time_risk": 0.869,
-    "demand_volatility": 0.792,
-    "inventory_cover": 0.212
+    "growth_outlook": "high",
+    "stake_level": "low",
+    "reversibility": "low",
+    "decision_horizon_months": 3,
+    "industry": "health",
+    "severity": 0.483,
+    "exploit_active": 1.0,
+    "data_sensitivity": 0.893,
+    "public_visibility": 0.873
   },
   "decision_options": [
-    "diversify suppliers",
-    "build safety stock",
-    "pause sales",
-    "add backup suppliers",
-    "do nothing"
+    "report to regulators",
+    "contain and patch",
+    "notify customers publicly",
+    "shut down systems",
+    "observe without action"
   ],
-  "expected_decision": "add backup suppliers",
+  "expected_decision": "notify customers publicly",
   "reasoning_rubric": [
-    "reduce single point of failure",
-    "improve resilience",
-    "manage supplier risk"
+    "maintain trust",
+    "communicate transparently",
+    "reduce reputational risk"
   ],
   "evaluation": {
     "decision_weight": 0.55,

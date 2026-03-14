@@ -5,7 +5,67 @@ Shared pytest configuration and fixtures for ERA Test Suite
 import pytest
 import sys
 import os
+import asyncio
+import inspect
+import tempfile
+import shutil
 from pathlib import Path
+
+# Ensure temp dirs are writable inside the repo
+_tmp_root = Path(__file__).parent.parent / "_pytest_tmp_run"
+_tmp_root.mkdir(parents=True, exist_ok=True)
+os.environ.setdefault("TMPDIR", str(_tmp_root))
+os.environ.setdefault("TEMP", str(_tmp_root))
+os.environ.setdefault("TMP", str(_tmp_root))
+tempfile.tempdir = str(_tmp_root)
+
+# Ensure temp dirs are writable on Windows by providing a custom mkdtemp.
+from uuid import uuid4
+
+
+def _mkdtemp(*args, **kwargs):
+    base_dir = kwargs.get("dir") or tempfile.gettempdir()
+    prefix = kwargs.get("prefix", "tmp")
+    for _ in range(1000):
+        name = f"{prefix}{uuid4().hex[:8]}"
+        path = Path(base_dir) / name
+        try:
+            os.mkdir(path)
+            return str(path)
+        except FileExistsError:
+            continue
+    raise FileExistsError("Could not create temporary directory")
+
+
+tempfile.mkdtemp = _mkdtemp
+
+# Avoid pytest temp cleanup failures on restricted directories.
+try:
+    import _pytest.pathlib as _pytest_pathlib
+    import _pytest.tmpdir as _pytest_tmpdir
+
+    _orig_cleanup_dead_symlinks = _pytest_pathlib.cleanup_dead_symlinks
+    _orig_rm_rf = _pytest_pathlib.rm_rf
+
+    def _safe_cleanup_dead_symlinks(root):  # type: ignore[override]
+        try:
+            return _orig_cleanup_dead_symlinks(root)
+        except PermissionError:
+            return None
+
+    def _safe_rm_rf(*args, **kwargs):  # type: ignore[override]
+        try:
+            return _orig_rm_rf(*args, **kwargs)
+        except PermissionError:
+            return None
+
+    _pytest_pathlib.cleanup_dead_symlinks = _safe_cleanup_dead_symlinks  # type: ignore[assignment]
+    _pytest_tmpdir.cleanup_dead_symlinks = _safe_cleanup_dead_symlinks  # type: ignore[assignment]
+    _pytest_pathlib.rm_rf = _safe_rm_rf  # type: ignore[assignment]
+    if hasattr(_pytest_tmpdir, "rm_rf"):
+        _pytest_tmpdir.rm_rf = _safe_rm_rf  # type: ignore[assignment]
+except Exception:
+    pass
 
 # Add parent directories to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -50,8 +110,25 @@ def temp_test_dir(tmp_path):
     return tmp_path
 
 
+@pytest.fixture
+def tmp_path():  # type: ignore[override]
+    """Provide a writable temp path without relying on pytest's tmpdir plugin."""
+    path = Path(_mkdtemp(dir=_tmp_root, prefix="pytest-"))
+    try:
+        yield path
+    finally:
+        shutil.rmtree(path, ignore_errors=True)
+
+
 def pytest_configure(config):
     """Register custom markers"""
+    try:
+        if not getattr(config.option, "basetemp", None):
+            base_temp = _tmp_root / f"pytest-{uuid4().hex[:8]}"
+            base_temp.mkdir(parents=True, exist_ok=True)
+            config.option.basetemp = str(base_temp)
+    except Exception:
+        pass
     config.addinivalue_line("markers", "requires_ollama: mark test as requiring Ollama service")
     config.addinivalue_line("markers", "requires_embeddings: mark test as requiring embedding service")
 
@@ -72,3 +149,10 @@ def pytest_collection_modifyitems(config, items):
             item.add_marker(pytest.mark.smoke)
         if "e2e" in item.nodeid or "end_to_end" in item.nodeid:
             item.add_marker(pytest.mark.e2e)
+
+
+def pytest_pyfunc_call(pyfuncitem):
+    """Run async test functions without requiring pytest-asyncio."""
+    if inspect.iscoroutinefunction(pyfuncitem.obj):
+        asyncio.run(pyfuncitem.obj(**pyfuncitem.funcargs))
+        return True

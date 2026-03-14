@@ -1,0 +1,41 @@
+{
+  "scenario_id": "STRAT_475",
+  "category": "strategy",
+  "difficulty": "easy",
+  "title": "Market entry decision",
+  "prompt": "Your company is considering entry into a new region with uncertain demand and regulatory complexity. Decide the best market entry strategy.",
+  "context": {
+    "company_size": "mid",
+    "cash_reserve_months": 6,
+    "brand_strength": "medium",
+    "customer_loyalty": "high",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 46,
+    "urgency_rank": 1,
+    "growth_outlook": "low",
+    "stake_level": "medium",
+    "reversibility": "medium",
+    "decision_horizon_months": 24,
+    "industry": "fintech",
+    "market_uncertainty": 0.836,
+    "local_partner_available": 0.0,
+    "strategic_importance": 0.213
+  },
+  "decision_options": [
+    "enter the market now",
+    "localize before launch",
+    "joint venture with local player",
+    "strategic acquisition",
+    "postpone for localization"
+  ],
+  "expected_decision": "postpone for localization",
+  "reasoning_rubric": [
+    "reduce regulatory risk",
+    "adapt to local needs",
+    "avoid premature launch"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

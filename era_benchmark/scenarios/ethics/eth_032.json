@@ -1,34 +1,39 @@
 {
   "scenario_id": "ETH_032",
   "category": "ethics",
-  "difficulty": "easy",
-  "title": "Workforce reduction dilemma",
-  "prompt": "Revenue has slowed and expenses exceed plan. Leadership must choose a workforce strategy to stabilize finances while protecting long-term capability.",
+  "difficulty": "expert",
+  "title": "AI bias allegation",
+  "prompt": "An external report claims your AI model shows bias in a critical workflow. Decide the most ethical response.",
   "context": {
-    "company_size": "small",
-    "cash_reserve_months": 22,
+    "company_size": "large",
+    "cash_reserve_months": 12,
     "brand_strength": "medium",
     "customer_loyalty": "moderate",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 25,
-    "urgency_rank": 2,
-    "cost_gap": 0.118,
-    "morale_risk": 0.596,
-    "hiring_friction": 0.888,
-    "growth_outlook": "moderate"
+    "regulatory_pressure": "medium",
+    "time_pressure_days": 31,
+    "urgency_rank": 1,
+    "growth_outlook": "low",
+    "stake_level": "low",
+    "reversibility": "medium",
+    "decision_horizon_months": 4,
+    "industry": "retail",
+    "harm_level": 0.178,
+    "evidence_strength": 0.597,
+    "revenue_dependency": 0.871,
+    "public_visibility": 0.527
   },
   "decision_options": [
-    "reduce headcount",
-    "reassign employees",
-    "temporary salary reduction",
-    "stop new hiring",
-    "seek financing"
+    "halt release for audit",
+    "ship with safeguards",
+    "transparent disclosure",
+    "publicly disclose issues",
+    "dismiss the report"
   ],
-  "expected_decision": "reassign employees",
+  "expected_decision": "publicly disclose issues",
   "reasoning_rubric": [
-    "retain talent",
-    "focus on priority work",
-    "minimize disruption"
+    "build trust",
+    "show accountability",
+    "reduce backlash"
   ],
   "evaluation": {
     "decision_weight": 0.55,

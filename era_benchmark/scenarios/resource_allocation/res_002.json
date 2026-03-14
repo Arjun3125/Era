@@ -6,29 +6,34 @@
   "prompt": "Your annual budget is constrained. Decide where to allocate incremental spend for the next two quarters.",
   "context": {
     "company_size": "large",
-    "cash_reserve_months": 19,
-    "brand_strength": "high",
-    "customer_loyalty": "high",
-    "regulatory_pressure": "medium",
-    "time_pressure_days": 21,
-    "urgency_rank": 3,
-    "product_quality_gap": 0.602,
-    "demand_gap": 0.55,
-    "conversion_gap": 0.226,
-    "reliability_risk": 0.321
+    "cash_reserve_months": 21,
+    "brand_strength": "low",
+    "customer_loyalty": "low",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 44,
+    "urgency_rank": 2,
+    "growth_outlook": "low",
+    "stake_level": "high",
+    "reversibility": "low",
+    "decision_horizon_months": 5,
+    "industry": "media",
+    "product_quality_gap": 0.576,
+    "demand_gap": 0.916,
+    "conversion_gap": 0.828,
+    "reliability_risk": 0.924
   },
   "decision_options": [
-    "invest in engineering",
-    "invest in marketing",
-    "invest in sales",
+    "increase product investment",
     "invest in infrastructure",
+    "invest in sales",
+    "fund platform stability",
     "slow spending"
   ],
-  "expected_decision": "invest in marketing",
+  "expected_decision": "invest in infrastructure",
   "reasoning_rubric": [
-    "increase demand",
-    "support growth",
-    "build pipeline"
+    "protect uptime",
+    "reduce risk",
+    "support scale"
   ],
   "evaluation": {
     "decision_weight": 0.55,

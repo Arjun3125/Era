@@ -1,5 +1,23 @@
 #!/usr/bin/env python3
 """Test deepseek model with doctrine extraction prompt."""
+import sys
+# Skip in pytest unless explicitly enabled (requires local Ollama)
+try:
+    import os
+    import pytest
+
+    if os.getenv("ERA_RUN_OLLAMA_TESTS", "").lower() not in ("1", "true", "yes"):
+        pytest.skip(
+            "requires Ollama; set ERA_RUN_OLLAMA_TESTS=1 to run",
+            allow_module_level=True,
+        )
+    if os.getenv("ERA_RUN_LONG_LLM_TESTS", "").lower() not in ("1", "true", "yes"):
+        pytest.skip(
+            "long-running LLM test; set ERA_RUN_LONG_LLM_TESTS=1 to run",
+            allow_module_level=True,
+        )
+except Exception:
+    pass
 import requests
 import json
 

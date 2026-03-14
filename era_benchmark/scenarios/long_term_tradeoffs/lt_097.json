@@ -1,0 +1,42 @@
+{
+  "scenario_id": "LT_097",
+  "category": "long_term_tradeoffs",
+  "difficulty": "hard",
+  "title": "Growth vs stability",
+  "prompt": "The market opportunity is changing rapidly, and leadership must decide how aggressively to grow versus protect stability.",
+  "context": {
+    "company_size": "small",
+    "cash_reserve_months": 22,
+    "brand_strength": "low",
+    "customer_loyalty": "low",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 57,
+    "urgency_rank": 3,
+    "growth_outlook": "low",
+    "stake_level": "low",
+    "reversibility": "medium",
+    "decision_horizon_months": 21,
+    "industry": "fintech",
+    "market_opportunity": 0.928,
+    "burn_rate": 0.486,
+    "reliability_risk": 0.609,
+    "investor_pressure": 0.103
+  },
+  "decision_options": [
+    "scale aggressively",
+    "measured growth",
+    "maximize runway",
+    "invest in reliability",
+    "balanced expansion"
+  ],
+  "expected_decision": "balanced expansion",
+  "reasoning_rubric": [
+    "balance growth and risk",
+    "maintain optionality",
+    "avoid overreach"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

@@ -6,6 +6,21 @@ Demonstrates how the LLM handshake integrates with KIS for decision guidance.
 
 import sys
 import json
+import os
+# Skip in pytest unless explicitly enabled (requires local Ollama)
+if "pytest" in sys.modules:
+    import pytest
+
+    if os.getenv("ERA_RUN_OLLAMA_TESTS", "").lower() not in ("1", "true", "yes"):
+        pytest.skip(
+            "requires Ollama; set ERA_RUN_OLLAMA_TESTS=1 to run",
+            allow_module_level=True,
+        )
+    if os.getenv("ERA_RUN_LONG_LLM_TESTS", "").lower() not in ("1", "true", "yes"):
+        pytest.skip(
+            "long-running LLM test; set ERA_RUN_LONG_LLM_TESTS=1 to run",
+            allow_module_level=True,
+        )
 sys.path.insert(0, r'C:\era')
 
 print('=' * 80)

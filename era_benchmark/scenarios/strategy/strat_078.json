@@ -2,32 +2,40 @@
   "scenario_id": "STRAT_078",
   "category": "strategy",
   "difficulty": "expert",
-  "title": "Market entry decision",
-  "prompt": "Your company is considering entry into a new region with uncertain demand and regulatory complexity. Decide the best market entry strategy.",
+  "title": "Competitor price pressure",
+  "prompt": "A rival just cut price by 10%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
     "company_size": "small",
-    "cash_reserve_months": 4,
+    "cash_reserve_months": 21,
     "brand_strength": "low",
     "customer_loyalty": "moderate",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 8,
+    "regulatory_pressure": "high",
+    "time_pressure_days": 16,
     "urgency_rank": 2,
-    "market_uncertainty": 0.701,
-    "local_partner_available": 0.631,
-    "strategic_importance": 0.677
+    "growth_outlook": "high",
+    "stake_level": "low",
+    "reversibility": "medium",
+    "decision_horizon_months": 11,
+    "industry": "fintech",
+    "price_sensitivity": 0.135,
+    "r_and_d_capacity": 0.511,
+    "market_awareness": 0.203,
+    "product_breadth": 0.819,
+    "enterprise_fit": 0.793,
+    "competitor_price_cut_pct": 10
   },
   "decision_options": [
-    "form a local partnership",
-    "postpone for localization",
-    "joint venture with local player",
-    "strategic acquisition",
-    "pause entry indefinitely"
+    "temporary price cut",
+    "increase differentiation",
+    "package services",
+    "offer product bundles",
+    "shift to enterprise buyers"
   ],
-  "expected_decision": "form a local partnership",
+  "expected_decision": "package services",
   "reasoning_rubric": [
-    "share risk",
-    "gain local expertise",
-    "speed market access"
+    "raise switching costs",
+    "increase perceived value",
+    "reduce churn"
   ],
   "evaluation": {
     "decision_weight": 0.55,

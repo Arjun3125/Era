@@ -6,6 +6,7 @@ import argparse
 import json
 import sys
 from pathlib import Path
+from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -37,6 +38,8 @@ def main() -> None:
     parser.add_argument("--category", default=None, help="Optional single category to run.")
     parser.add_argument("--limit", type=int, default=None, help="Limit number of scenarios for quick runs.")
     parser.add_argument("--mode", default=None, help="Pipeline mode override.")
+    parser.add_argument("--routing-context", default=None, help="JSON string for routing context overrides.")
+    parser.add_argument("--routing-context-file", default=None, help="Path to JSON routing context overrides.")
     parser.add_argument("--baseline-provider", default="none", help="Baseline provider: none|ollama.")
     parser.add_argument("--baseline-model", default=None, help="Baseline model name (provider-specific).")
     parser.add_argument("--baseline-temperature", type=float, default=0.0, help="Baseline temperature.")
@@ -56,6 +59,20 @@ def main() -> None:
     parser.add_argument("--debug-failures", type=int, default=0, help="Print first N failures (scenario_id, predicted, expected).")
     args = parser.parse_args()
 
+    routing_context: dict[str, Any] | None = None
+    if args.routing_context_file:
+        payload = json.loads(
+            Path(args.routing_context_file).read_text(encoding="utf-8-sig").lstrip("\ufeff")
+        )
+        if not isinstance(payload, dict):
+            raise ValueError("routing-context-file must contain a JSON object.")
+        routing_context = dict(payload)
+    if args.routing_context:
+        payload = json.loads(args.routing_context)
+        if not isinstance(payload, dict):
+            raise ValueError("routing-context must be a JSON object.")
+        routing_context = {**(routing_context or {}), **payload}
+
     split_ids = load_split_ids(Path(args.split_file), args.split) if args.split_file else None
     scenarios = load_scenarios(
         Path(args.benchmark),
@@ -66,6 +83,7 @@ def main() -> None:
     runner = EvaluationRunner(
         scenarios,
         requested_mode=args.mode,
+        routing_context=routing_context,
         baseline_provider=args.baseline_provider,
         baseline_model=args.baseline_model,
         baseline_temperature=args.baseline_temperature,

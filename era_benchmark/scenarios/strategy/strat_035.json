@@ -1,36 +1,41 @@
 {
   "scenario_id": "STRAT_035",
   "category": "strategy",
-  "difficulty": "expert",
+  "difficulty": "hard",
   "title": "Competitor price pressure",
-  "prompt": "A rival just cut price by 57%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
+  "prompt": "A rival just cut price by 44%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
     "company_size": "small",
-    "cash_reserve_months": 21,
+    "cash_reserve_months": 12,
     "brand_strength": "high",
     "customer_loyalty": "low",
     "regulatory_pressure": "medium",
-    "time_pressure_days": 8,
+    "time_pressure_days": 51,
     "urgency_rank": 2,
-    "price_sensitivity": 0.888,
-    "r_and_d_capacity": 0.737,
-    "market_awareness": 0.578,
-    "product_breadth": 0.296,
-    "enterprise_fit": 0.81,
-    "competitor_price_cut_pct": 57
+    "growth_outlook": "high",
+    "stake_level": "high",
+    "reversibility": "low",
+    "decision_horizon_months": 15,
+    "industry": "industrial",
+    "price_sensitivity": 0.567,
+    "r_and_d_capacity": 0.553,
+    "market_awareness": 0.81,
+    "product_breadth": 0.537,
+    "enterprise_fit": 0.91,
+    "competitor_price_cut_pct": 44
   },
   "decision_options": [
     "temporary price cut",
-    "add premium features",
-    "run aggressive campaigns",
+    "focus enterprise tier",
+    "boost marketing spend",
     "bundle services",
-    "focus enterprise tier"
+    "prioritize enterprise deals"
   ],
-  "expected_decision": "add premium features",
+  "expected_decision": "focus enterprise tier",
   "reasoning_rubric": [
-    "avoid destructive price war",
+    "prioritize high-value accounts",
     "protect margin",
-    "increase differentiation"
+    "stabilize revenue"
   ],
   "evaluation": {
     "decision_weight": 0.55,

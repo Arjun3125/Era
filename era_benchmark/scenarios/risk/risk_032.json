@@ -1,34 +1,39 @@
 {
   "scenario_id": "RISK_032",
   "category": "risk",
-  "difficulty": "expert",
-  "title": "Supply chain disruption",
-  "prompt": "A key supplier signals potential delays that could disrupt delivery timelines. Decide the best supply chain response.",
+  "difficulty": "hard",
+  "title": "Security breach response",
+  "prompt": "Your security team reports a breach impacting customer data. Assess the severity and decide the most responsible immediate response.",
   "context": {
-    "company_size": "large",
-    "cash_reserve_months": 19,
-    "brand_strength": "low",
-    "customer_loyalty": "low",
+    "company_size": "small",
+    "cash_reserve_months": 22,
+    "brand_strength": "medium",
+    "customer_loyalty": "moderate",
     "regulatory_pressure": "high",
-    "time_pressure_days": 32,
-    "urgency_rank": 2,
-    "supplier_concentration": 0.257,
-    "lead_time_risk": 0.815,
-    "demand_volatility": 0.703,
-    "inventory_cover": 0.374
+    "time_pressure_days": 16,
+    "urgency_rank": 1,
+    "growth_outlook": "low",
+    "stake_level": "medium",
+    "reversibility": "medium",
+    "decision_horizon_months": 16,
+    "industry": "industrial",
+    "severity": 0.907,
+    "exploit_active": 0.865,
+    "data_sensitivity": 0.866,
+    "public_visibility": 0.189
   },
   "decision_options": [
-    "dual-source components",
-    "stockpile inventory",
-    "slow order intake",
-    "build safety stock",
-    "maintain current plan"
+    "notify regulators",
+    "contain and patch",
+    "notify customers publicly",
+    "shut down systems",
+    "monitor only"
   ],
-  "expected_decision": "build safety stock",
+  "expected_decision": "notify regulators",
   "reasoning_rubric": [
-    "buffer against delays",
-    "maintain service levels",
-    "use cash strategically"
+    "regulatory compliance",
+    "limit legal exposure",
+    "document incident"
   ],
   "evaluation": {
     "decision_weight": 0.55,

@@ -49,6 +49,11 @@ def build_base_context(rng: random.Random) -> Dict[str, Any]:
     regulatory_pressure = rng.choice(["low", "medium", "high"])
     time_pressure_days = rng.randint(5, 60)
     urgency_rank = rng.randint(1, 3)
+    growth_outlook = rng.choice(["low", "moderate", "high"])
+    stake_level = rng.choice(["low", "medium", "high"])
+    reversibility = rng.choice(["low", "medium", "high"])
+    decision_horizon_months = rng.randint(3, 24)
+    industry = rng.choice(["saas", "fintech", "health", "retail", "industrial", "media"])
     return {
         "company_size": company_size,
         "cash_reserve_months": cash_reserve_months,
@@ -57,6 +62,11 @@ def build_base_context(rng: random.Random) -> Dict[str, Any]:
         "regulatory_pressure": regulatory_pressure,
         "time_pressure_days": time_pressure_days,
         "urgency_rank": urgency_rank,
+        "growth_outlook": growth_outlook,
+        "stake_level": stake_level,
+        "reversibility": reversibility,
+        "decision_horizon_months": decision_horizon_months,
+        "industry": industry,
     }
 
 
@@ -684,6 +694,7 @@ def generate_scenarios(
     *,
     seed: int,
     counts: Dict[str, int],
+    version: str,
 ) -> Dict[str, Any]:
     rng = random.Random(seed)
     id_prefixes = {
@@ -709,6 +720,7 @@ def generate_scenarios(
         per_template = total // len(templates[category])
         remainder = total % len(templates[category])
         scenario_index = 1
+        width = max(3, len(str(total)))
 
         for idx, template in enumerate(templates[category]):
             target_count = per_template + (1 if idx < remainder else 0)
@@ -740,7 +752,7 @@ def generate_scenarios(
 
                 rubric = template.rubric_map.get(expected, [])
                 id_prefix = id_prefixes[category]
-                scenario_id = f"{id_prefix.upper()}_{scenario_index:03d}"
+                scenario_id = f"{id_prefix.upper()}_{scenario_index:0{width}d}"
                 scenario = {
                     "scenario_id": scenario_id,
                     "category": category,
@@ -753,12 +765,12 @@ def generate_scenarios(
                     "reasoning_rubric": rubric,
                     "evaluation": {"decision_weight": 0.55, "reasoning_weight": 0.45},
                 }
-                path = category_dir / f"{id_prefix}_{scenario_index:03d}.json"
+                path = category_dir / f"{id_prefix}_{scenario_index:0{width}d}.json"
                 path.write_text(json.dumps(scenario, indent=2), encoding="utf-8")
                 scenario_index += 1
 
     index = {
-        "version": "1.1",
+        "version": version,
         "scenario_count": sum(counts.values()),
         "categories": counts,
     }
@@ -770,20 +782,46 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Generate ERA-Bench scenarios.")
     parser.add_argument("--root", default="era_benchmark", help="Benchmark root directory.")
     parser.add_argument("--seed", type=int, default=20260310)
+    parser.add_argument("--total", type=int, default=None, help="Total scenarios across all categories.")
+    parser.add_argument("--scale", type=float, default=None, help="Scale factor for default counts.")
+    parser.add_argument("--counts-json", default=None, help="JSON file with category counts overrides.")
+    parser.add_argument("--version", default="1.2", help="Benchmark version string.")
     args = parser.parse_args()
 
-    counts = {
+    base_counts = {
         "strategy": 80,
         "risk": 60,
         "ethics": 50,
         "resource_allocation": 60,
         "long_term_tradeoffs": 50,
     }
+    counts = dict(base_counts)
+    if args.counts_json:
+        payload = json.loads(Path(args.counts_json).read_text(encoding="utf-8"))
+        if not isinstance(payload, dict):
+            raise ValueError("counts-json must contain a JSON object of category counts.")
+        counts = {str(k): int(v) for k, v in payload.items()}
+    elif args.total is not None:
+        total = int(args.total)
+        base_total = sum(base_counts.values())
+        counts = {}
+        remaining = total
+        categories = list(base_counts.keys())
+        for idx, category in enumerate(categories):
+            if idx == len(categories) - 1:
+                counts[category] = remaining
+            else:
+                scaled = int(round(base_counts[category] / base_total * total))
+                counts[category] = max(1, scaled)
+                remaining -= counts[category]
+    elif args.scale is not None:
+        scale = float(args.scale)
+        counts = {k: max(1, int(round(v * scale))) for k, v in base_counts.items()}
 
     root = Path(args.root)
     root.mkdir(parents=True, exist_ok=True)
     (root / "scenarios").mkdir(parents=True, exist_ok=True)
-    generate_scenarios(root, seed=args.seed, counts=counts)
+    generate_scenarios(root, seed=args.seed, counts=counts, version=args.version)
 
 
 if __name__ == "__main__":

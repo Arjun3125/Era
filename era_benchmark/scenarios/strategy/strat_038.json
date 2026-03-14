@@ -1,36 +1,41 @@
 {
   "scenario_id": "STRAT_038",
   "category": "strategy",
-  "difficulty": "medium",
+  "difficulty": "hard",
   "title": "Competitor price pressure",
-  "prompt": "A rival just cut price by 42%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
+  "prompt": "A rival just cut price by 58%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
-    "company_size": "large",
+    "company_size": "small",
     "cash_reserve_months": 22,
-    "brand_strength": "low",
+    "brand_strength": "high",
     "customer_loyalty": "low",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 20,
-    "urgency_rank": 3,
-    "price_sensitivity": 0.681,
-    "r_and_d_capacity": 0.544,
-    "market_awareness": 0.209,
-    "product_breadth": 0.409,
-    "enterprise_fit": 0.237,
-    "competitor_price_cut_pct": 42
+    "regulatory_pressure": "high",
+    "time_pressure_days": 47,
+    "urgency_rank": 2,
+    "growth_outlook": "moderate",
+    "stake_level": "low",
+    "reversibility": "high",
+    "decision_horizon_months": 7,
+    "industry": "health",
+    "price_sensitivity": 0.376,
+    "r_and_d_capacity": 0.287,
+    "market_awareness": 0.188,
+    "product_breadth": 0.349,
+    "enterprise_fit": 0.668,
+    "competitor_price_cut_pct": 58
   },
   "decision_options": [
-    "lower price",
+    "temporary price cut",
     "improve product quality",
     "increase marketing",
-    "discount aggressively",
-    "shift to enterprise buyers"
+    "package services",
+    "prioritize enterprise deals"
   ],
-  "expected_decision": "discount aggressively",
+  "expected_decision": "prioritize enterprise deals",
   "reasoning_rubric": [
-    "capture price-sensitive demand",
-    "defend market share",
-    "accept margin pressure"
+    "prioritize high-value accounts",
+    "protect margin",
+    "stabilize revenue"
   ],
   "evaluation": {
     "decision_weight": 0.55,

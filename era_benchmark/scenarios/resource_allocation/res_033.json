@@ -2,34 +2,38 @@
   "scenario_id": "RES_033",
   "category": "resource_allocation",
   "difficulty": "expert",
-  "title": "Staffing allocation decision",
-  "prompt": "Hiring capacity is limited this quarter. Decide how to allocate headcount to best support the company's priorities.",
+  "title": "Budget allocation decision",
+  "prompt": "Your annual budget is constrained. Decide where to allocate incremental spend for the next two quarters.",
   "context": {
     "company_size": "small",
-    "cash_reserve_months": 21,
-    "brand_strength": "low",
-    "customer_loyalty": "moderate",
+    "cash_reserve_months": 23,
+    "brand_strength": "high",
+    "customer_loyalty": "low",
     "regulatory_pressure": "low",
-    "time_pressure_days": 34,
+    "time_pressure_days": 47,
     "urgency_rank": 1,
-    "backlog_size": 0.715,
-    "incident_rate": 0.923,
-    "sales_pipeline": 0.865,
-    "delivery_pressure": 0.621,
-    "reliability_risk": 0.679
+    "growth_outlook": "high",
+    "stake_level": "low",
+    "reversibility": "low",
+    "decision_horizon_months": 6,
+    "industry": "health",
+    "product_quality_gap": 0.504,
+    "demand_gap": 0.487,
+    "conversion_gap": 0.622,
+    "reliability_risk": 0.224
   },
   "decision_options": [
-    "add developers",
-    "add reliability engineers",
+    "increase product investment",
+    "boost marketing spend",
     "grow sales team",
-    "bring in contractors",
-    "pause hiring"
+    "fund platform stability",
+    "slow spending"
   ],
-  "expected_decision": "add developers",
+  "expected_decision": "grow sales team",
   "reasoning_rubric": [
-    "increase delivery capacity",
-    "clear backlog",
-    "ship faster"
+    "improve conversion",
+    "close deals",
+    "expand revenue"
   ],
   "evaluation": {
     "decision_weight": 0.55,

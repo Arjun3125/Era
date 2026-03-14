@@ -1,34 +1,39 @@
 {
   "scenario_id": "ETH_025",
   "category": "ethics",
-  "difficulty": "expert",
+  "difficulty": "hard",
   "title": "AI bias allegation",
   "prompt": "An external report claims your AI model shows bias in a critical workflow. Decide the most ethical response.",
   "context": {
     "company_size": "small",
-    "cash_reserve_months": 15,
+    "cash_reserve_months": 10,
     "brand_strength": "medium",
-    "customer_loyalty": "high",
+    "customer_loyalty": "moderate",
     "regulatory_pressure": "low",
-    "time_pressure_days": 57,
+    "time_pressure_days": 27,
     "urgency_rank": 1,
-    "harm_level": 0.19,
-    "evidence_strength": 0.119,
-    "revenue_dependency": 0.69,
-    "public_visibility": 0.126
+    "growth_outlook": "moderate",
+    "stake_level": "medium",
+    "reversibility": "high",
+    "decision_horizon_months": 8,
+    "industry": "media",
+    "harm_level": 0.431,
+    "evidence_strength": 0.101,
+    "revenue_dependency": 0.242,
+    "public_visibility": 0.174
   },
   "decision_options": [
     "halt release for audit",
-    "deploy with guardrails",
-    "publicly disclose issues",
+    "ship with safeguards",
     "open communication",
-    "dismiss the report"
+    "fix internally first",
+    "deny claims"
   ],
-  "expected_decision": "open communication",
+  "expected_decision": "halt release for audit",
   "reasoning_rubric": [
-    "build trust",
-    "show accountability",
-    "reduce backlash"
+    "prevent harm",
+    "validate evidence",
+    "regain trust"
   ],
   "evaluation": {
     "decision_weight": 0.55,

@@ -1,0 +1,42 @@
+{
+  "scenario_id": "RISK_177",
+  "category": "risk",
+  "difficulty": "hard",
+  "title": "Security breach response",
+  "prompt": "Your security team reports a breach impacting customer data. Assess the severity and decide the most responsible immediate response.",
+  "context": {
+    "company_size": "mid",
+    "cash_reserve_months": 21,
+    "brand_strength": "high",
+    "customer_loyalty": "low",
+    "regulatory_pressure": "medium",
+    "time_pressure_days": 55,
+    "urgency_rank": 1,
+    "growth_outlook": "moderate",
+    "stake_level": "high",
+    "reversibility": "low",
+    "decision_horizon_months": 8,
+    "industry": "fintech",
+    "severity": 0.412,
+    "exploit_active": 0.957,
+    "data_sensitivity": 0.811,
+    "public_visibility": 0.348
+  },
+  "decision_options": [
+    "notify regulators",
+    "contain and patch",
+    "issue a public statement",
+    "halt services temporarily",
+    "patch immediately"
+  ],
+  "expected_decision": "patch immediately",
+  "reasoning_rubric": [
+    "stop the breach",
+    "reduce ongoing harm",
+    "restore security quickly"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "scenario_id": "LT_119",
+  "category": "long_term_tradeoffs",
+  "difficulty": "expert",
+  "title": "Growth vs stability",
+  "prompt": "The market opportunity is changing rapidly, and leadership must decide how aggressively to grow versus protect stability.",
+  "context": {
+    "company_size": "small",
+    "cash_reserve_months": 22,
+    "brand_strength": "low",
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 13,
+    "urgency_rank": 3,
+    "growth_outlook": "moderate",
+    "stake_level": "high",
+    "reversibility": "low",
+    "decision_horizon_months": 6,
+    "industry": "retail",
+    "market_opportunity": 0.406,
+    "burn_rate": 0.844,
+    "reliability_risk": 0.861,
+    "investor_pressure": 0.536
+  },
+  "decision_options": [
+    "rapid expansion",
+    "steady growth",
+    "preserve cash",
+    "improve resiliency",
+    "invest in reliability"
+  ],
+  "expected_decision": "invest in reliability",
+  "reasoning_rubric": [
+    "sustain trust",
+    "reduce risk",
+    "support long-term stability"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

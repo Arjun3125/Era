@@ -1,0 +1,42 @@
+{
+  "scenario_id": "RES_155",
+  "category": "resource_allocation",
+  "difficulty": "expert",
+  "title": "Budget allocation decision",
+  "prompt": "Your annual budget is constrained. Decide where to allocate incremental spend for the next two quarters.",
+  "context": {
+    "company_size": "mid",
+    "cash_reserve_months": 7,
+    "brand_strength": "high",
+    "customer_loyalty": "high",
+    "regulatory_pressure": "medium",
+    "time_pressure_days": 56,
+    "urgency_rank": 1,
+    "growth_outlook": "low",
+    "stake_level": "high",
+    "reversibility": "low",
+    "decision_horizon_months": 3,
+    "industry": "health",
+    "product_quality_gap": 0.393,
+    "demand_gap": 0.146,
+    "conversion_gap": 0.247,
+    "reliability_risk": 0.399
+  },
+  "decision_options": [
+    "increase product investment",
+    "expand campaigns",
+    "expand sales coverage",
+    "invest in infrastructure",
+    "cut discretionary spend"
+  ],
+  "expected_decision": "invest in infrastructure",
+  "reasoning_rubric": [
+    "protect uptime",
+    "reduce risk",
+    "support scale"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

@@ -1,35 +1,39 @@
 {
   "scenario_id": "LT_045",
   "category": "long_term_tradeoffs",
-  "difficulty": "hard",
-  "title": "Innovation vs reliability",
-  "prompt": "Engineering leadership is split between shipping a major innovation and improving reliability. Decide the best approach.",
+  "difficulty": "expert",
+  "title": "Growth vs stability",
+  "prompt": "The market opportunity is changing rapidly, and leadership must decide how aggressively to grow versus protect stability.",
   "context": {
-    "company_size": "mid",
+    "company_size": "small",
     "cash_reserve_months": 6,
-    "brand_strength": "low",
+    "brand_strength": "medium",
     "customer_loyalty": "low",
-    "regulatory_pressure": "medium",
-    "time_pressure_days": 41,
+    "regulatory_pressure": "high",
+    "time_pressure_days": 50,
     "urgency_rank": 1,
-    "competitive_threat": 0.144,
-    "defect_rate": 0.858,
-    "customer_expectations": 0.115,
-    "roadmap_pressure": 0.811,
-    "reliability_risk": 0.256
+    "growth_outlook": "moderate",
+    "stake_level": "medium",
+    "reversibility": "medium",
+    "decision_horizon_months": 7,
+    "industry": "saas",
+    "market_opportunity": 0.216,
+    "burn_rate": 0.851,
+    "reliability_risk": 0.575,
+    "investor_pressure": 0.711
   },
   "decision_options": [
-    "release breakthrough",
-    "stabilize core",
-    "focus on reliability",
-    "pilot release",
-    "postpone release"
+    "rapid expansion",
+    "balanced expansion",
+    "maximize runway",
+    "stabilize operations",
+    "leave the segment"
   ],
-  "expected_decision": "focus on reliability",
+  "expected_decision": "maximize runway",
   "reasoning_rubric": [
-    "reduce defects",
-    "protect customers",
-    "build trust"
+    "extend runway",
+    "reduce burn",
+    "protect downside"
   ],
   "evaluation": {
     "decision_weight": 0.55,

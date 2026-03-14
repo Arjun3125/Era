@@ -2,33 +2,38 @@
   "scenario_id": "RISK_049",
   "category": "risk",
   "difficulty": "expert",
-  "title": "Supply chain disruption",
-  "prompt": "A key supplier signals potential delays that could disrupt delivery timelines. Decide the best supply chain response.",
+  "title": "Security breach response",
+  "prompt": "Your security team reports a breach impacting customer data. Assess the severity and decide the most responsible immediate response.",
   "context": {
     "company_size": "mid",
-    "cash_reserve_months": 19,
-    "brand_strength": "medium",
-    "customer_loyalty": "high",
+    "cash_reserve_months": 8,
+    "brand_strength": "high",
+    "customer_loyalty": "low",
     "regulatory_pressure": "low",
-    "time_pressure_days": 47,
+    "time_pressure_days": 55,
     "urgency_rank": 1,
-    "supplier_concentration": 0.502,
-    "lead_time_risk": 0.828,
-    "demand_volatility": 0.357,
-    "inventory_cover": 0.691
+    "growth_outlook": "high",
+    "stake_level": "high",
+    "reversibility": "low",
+    "decision_horizon_months": 6,
+    "industry": "media",
+    "severity": 0.675,
+    "exploit_active": 0.549,
+    "data_sensitivity": 0.191,
+    "public_visibility": 0.765
   },
   "decision_options": [
-    "diversify suppliers",
-    "build safety stock",
-    "temporarily halt new orders",
-    "expedite alternative supply",
-    "fast-track substitutes"
+    "notify regulators",
+    "patch immediately",
+    "issue a public statement",
+    "freeze operations",
+    "watch and wait"
   ],
-  "expected_decision": "fast-track substitutes",
+  "expected_decision": "freeze operations",
   "reasoning_rubric": [
-    "reduce lead time risk",
-    "maintain commitments",
-    "pay for speed"
+    "contain rapidly",
+    "prevent escalation",
+    "accept short-term disruption"
   ],
   "evaluation": {
     "decision_weight": 0.55,

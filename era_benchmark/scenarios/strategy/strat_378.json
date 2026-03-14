@@ -1,0 +1,44 @@
+{
+  "scenario_id": "STRAT_378",
+  "category": "strategy",
+  "difficulty": "hard",
+  "title": "Competitor price pressure",
+  "prompt": "A rival just cut price by 10%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
+  "context": {
+    "company_size": "large",
+    "cash_reserve_months": 21,
+    "brand_strength": "high",
+    "customer_loyalty": "low",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 54,
+    "urgency_rank": 2,
+    "growth_outlook": "moderate",
+    "stake_level": "high",
+    "reversibility": "medium",
+    "decision_horizon_months": 23,
+    "industry": "industrial",
+    "price_sensitivity": 0.718,
+    "r_and_d_capacity": 0.592,
+    "market_awareness": 0.186,
+    "product_breadth": 0.293,
+    "enterprise_fit": 0.217,
+    "competitor_price_cut_pct": 10
+  },
+  "decision_options": [
+    "temporary price cut",
+    "increase differentiation",
+    "increase marketing",
+    "offer product bundles",
+    "improve product quality"
+  ],
+  "expected_decision": "improve product quality",
+  "reasoning_rubric": [
+    "avoid destructive price war",
+    "protect margin",
+    "increase differentiation"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

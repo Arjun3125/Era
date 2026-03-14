@@ -1,0 +1,26 @@
+experiments:
+  - name: policy_v2
+    dataset: benchmark_v1_test
+    decision_policy: hybrid_all
+    policy_model: data/policy_model/model_st_v1
+    value_model: data/value_model/model_st_v1
+    routing_context_file: data/mode_controller/routing_context_st_v1.json
+    runs: 1
+    seeds: [42]
+
+  - name: policy_v2_long_horizon
+    dataset: benchmark_v1_test
+    decision_policy: hybrid_all
+    policy_model: data/policy_model/model_st_v1
+    value_model: data/value_model/model_st_v1
+    runs: 1
+    seeds: [43]
+    notes: "Benchmark run; long-horizon simulation is separate from ERA-Bench."
+
+  - name: council_ablation
+    dataset: benchmark_v1_test
+    decision_policy: hybrid_policy_value
+    policy_model: data/policy_model/model_st_v1
+    value_model: data/value_model/model_st_v1
+    runs: 1
+    seeds: [44]

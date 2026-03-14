@@ -1,4 +1,17 @@
-import requests, time
+import requests, time, sys, os
+if "pytest" in sys.modules:
+    import pytest
+
+    if os.getenv("ERA_RUN_OLLAMA_TESTS", "").lower() not in ("1", "true", "yes"):
+        pytest.skip(
+            "requires Ollama; set ERA_RUN_OLLAMA_TESTS=1 to run",
+            allow_module_level=True,
+        )
+    if os.getenv("ERA_RUN_LONG_LLM_TESTS", "").lower() not in ("1", "true", "yes"):
+        pytest.skip(
+            "long-running LLM test; set ERA_RUN_LONG_LLM_TESTS=1 to run",
+            allow_module_level=True,
+        )
 model='nomic-embed-text:latest'
 texts=['test embedding one','another short text']
 start=time.time()

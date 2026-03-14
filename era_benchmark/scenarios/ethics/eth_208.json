@@ -1,0 +1,42 @@
+{
+  "scenario_id": "ETH_208",
+  "category": "ethics",
+  "difficulty": "expert",
+  "title": "AI bias allegation",
+  "prompt": "An external report claims your AI model shows bias in a critical workflow. Decide the most ethical response.",
+  "context": {
+    "company_size": "large",
+    "cash_reserve_months": 17,
+    "brand_strength": "low",
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 19,
+    "urgency_rank": 3,
+    "growth_outlook": "high",
+    "stake_level": "high",
+    "reversibility": "low",
+    "decision_horizon_months": 9,
+    "industry": "health",
+    "harm_level": 0.194,
+    "evidence_strength": 0.936,
+    "revenue_dependency": 0.19,
+    "public_visibility": 0.738
+  },
+  "decision_options": [
+    "halt release for audit",
+    "ship with safeguards",
+    "transparent disclosure",
+    "address silently",
+    "publicly disclose issues"
+  ],
+  "expected_decision": "publicly disclose issues",
+  "reasoning_rubric": [
+    "build trust",
+    "show accountability",
+    "reduce backlash"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

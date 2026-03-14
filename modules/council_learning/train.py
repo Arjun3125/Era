@@ -11,9 +11,9 @@ import joblib
 import numpy as np
 from sklearn.metrics import mean_squared_error
 
-from modules.learning_core import FeatureConfig, FeatureExtractor, build_features, load_dataset, split_rows
+from modules.learning_core import FeatureConfig, FeatureExtractor, load_dataset, split_rows
 from modules.expert_router.expert_registry import EXPERTS
-from .dataset_builder import build_dataset
+from .dataset_builder import build_dataset, build_dataset_from_runs, build_dataset_from_simulated
 from .weight_model import ModelConfig, build_regressor
 
 
@@ -21,6 +21,8 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Train council weight model.")
     parser.add_argument("--dataset", default="data/council_learning/datasets/benchmark_v1_1.jsonl")
     parser.add_argument("--scenarios-root", default="era_benchmark")
+    parser.add_argument("--simulated", default=None, help="Path to simulated JSONL dataset.")
+    parser.add_argument("--runs", default=None, help="Path to council runs JSONL dataset.")
     parser.add_argument("--output", default="data/council_learning/model")
     parser.add_argument("--backend", default="tfidf", help="tfidf|sentence_transformers")
     parser.add_argument("--model-name", default="", help="SentenceTransformer model name.")
@@ -32,7 +34,17 @@ def main() -> None:
     args = parser.parse_args()
 
     dataset_path = Path(args.dataset)
-    if not dataset_path.exists():
+    if args.runs:
+        build_dataset_from_runs(
+            runs_path=Path(args.runs),
+            output_path=dataset_path,
+        )
+    elif args.simulated:
+        build_dataset_from_simulated(
+            simulated_path=Path(args.simulated),
+            output_path=dataset_path,
+        )
+    elif not dataset_path.exists():
         build_dataset(
             scenarios_root=Path(args.scenarios_root),
             output_path=dataset_path,
@@ -55,8 +67,15 @@ def main() -> None:
     extractor = FeatureExtractor(config=feature_config)
     extractor.fit(prompt_texts, option_texts)
 
-    X_train = build_features(extractor, train_rows)
-    X_test = build_features(extractor, test_rows)
+    def build_weight_features(rows: List[Dict[str, Any]]) -> np.ndarray:
+        features = [
+            extractor.encode(row["prompt"], "", row.get("context", {}))
+            for row in rows
+        ]
+        return np.vstack(features)
+
+    X_train = build_weight_features(train_rows)
+    X_test = build_weight_features(test_rows)
     y_train = np.array([row["weights"] for row in train_rows], dtype=float)
     y_test = np.array([row["weights"] for row in test_rows], dtype=float)
 

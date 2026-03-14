@@ -59,85 +59,11 @@ Example:
 python run_refactored.py --input "We need a final high-stakes ruling" --mode darbar
 ```
 
-## Embedded Decision Environment
-
-ERA now includes an embedded one-step decision environment that treats the refactored
-pipeline as the acting policy over generated scenarios.
-
-Run a short simulation batch:
-
-```bash
-python run_refactored.py --simulate-episodes 3 --scenario-domain startup --seed 7
-```
-
-Optional experience log:
-
-```bash
-python run_refactored.py --simulate-episodes 5 --experience-log logs/decision_env_episodes.jsonl
-```
-
-Benchmark ERA against ERA-Bench:
-
-```bash
-python evaluation/evaluate_benchmark.py --limit 20 --mode meeting
-```
-
-Full evaluation engine CLI:
-
-```bash
-python scripts/run_benchmark.py --benchmark era_benchmark --mode meeting
-```
-
-Learning-layer hybrid decision (policy + value + reasoning):
-
-```bash
-python scripts/run_benchmark.py \
-  --benchmark era_benchmark \
-  --decision-policy hybrid_all \
-  --policy-model data/policy_model/model_v1_1_logistic \
-  --value-model data/value_model/model_v1_1_ridge
-```
-
-Expert router (Mixture-of-Experts council):
-
-```bash
-python run_refactored.py \
-  --input "Competitor undercut pricing" \
-  --mode meeting \
-  --routing-context "{`"expert_router_enabled`": true, `"expert_router_top_k`": 3}"
-```
-
-Learned minister weights (council_weight_model):
-
-```bash
-python run_refactored.py \
-  --input "Should we acquire a rival?" \
-  --mode meeting \
-  --routing-context "{`"council_weight_model_enabled`": true, `"council_weight_top_k`": 4, `"council_weight_model_path`": `"data/council_learning/model`"}"
-```
-
-Generate simulated outcomes (decision environment):
-
-```bash
-python scripts/generate_simulated_data.py --scenarios-root era_benchmark --limit 300 --output data/simulated/decision_env.jsonl
-```
-
-Regenerate ERA-Bench (v1.1) with balanced, context-driven labels:
-
-```bash
-python scripts/generate_era_benchmark.py --root era_benchmark --seed 20260310
-```
-
 ## Repository Layout
 
 - [`config/`](c:\era\config): runtime settings and override normalization
 - [`core/`](c:\era\core): contracts, orchestrator, observability primitives
-- [`decision_env/`](c:\era\decision_env): scenario generation, simulation, reward shaping, and episode execution around the refactored ERA policy
-- [`era_benchmark/`](c:\era\era_benchmark): ERA-Bench scenarios (structured decision cases) plus schema and index for evaluation/training seeds
-- [`scripts/`](c:\era\scripts): benchmark runners and dataset generators (including ERA-Bench regeneration)
 - [`modules/`](c:\era\modules): pipeline stage implementations
-- [`modules/learning_core/`](c:\era\modules\learning_core): shared feature extraction and dataset utilities for learning models
-- [`modules/decision_environment/`](c:\era\modules\decision_environment): scenario simulation + reward computation for learned training loops
 - [`data/`](c:\era\data): retained local data and artifacts
 - [`knowledge/`](c:\era\knowledge): principle corpus used by knowledge synthesis
 - [`tests/`](c:\era\tests): unit and integration coverage for the refactored runtime
@@ -176,7 +102,7 @@ python run_refactored.py --input "Need a release decision"
 Focused runtime tests:
 
 ```bash
-pytest tests/test_decision_pipeline_engine.py tests/test_no_legacy_pipeline_imports.py tests/test_decision_env.py -q
+pytest tests/test_decision_pipeline_engine.py tests/test_no_legacy_pipeline_imports.py -q
 ```
 
 Broader refactor-era suite:

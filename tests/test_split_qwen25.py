@@ -1,4 +1,14 @@
 import sys
+# Skip in pytest unless explicitly enabled (requires local Ollama)
+if "pytest" in sys.modules:
+    import os
+    import pytest
+
+    if not os.getenv("ERA_RUN_OLLAMA_TESTS"):
+        pytest.skip(
+            "requires Ollama; set ERA_RUN_OLLAMA_TESTS=1 to run",
+            allow_module_level=True,
+        )
 sys.path.insert(0, r'C:\era\ingestion\v1')
 from ingest import PHASE1_SYSTEM_PROMPT
 from llm import OllamaClient
@@ -29,10 +39,10 @@ Does this page START a new chapter, CONTINUE the current chapter,
 or END the current chapter?
 
 Return JSON exactly:
-{
+{{
   "decision": "start_new_chapter | continue_chapter | end_chapter",
   "confidence": 0.0
-}
+}}
 """
 
 full = PHASE1_SYSTEM_PROMPT + "\n\n" + user_prompt

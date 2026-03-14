@@ -1,0 +1,44 @@
+{
+  "scenario_id": "STRAT_304",
+  "category": "strategy",
+  "difficulty": "expert",
+  "title": "Competitor price pressure",
+  "prompt": "A rival just cut price by 60%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
+  "context": {
+    "company_size": "mid",
+    "cash_reserve_months": 16,
+    "brand_strength": "high",
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 17,
+    "urgency_rank": 2,
+    "growth_outlook": "low",
+    "stake_level": "high",
+    "reversibility": "high",
+    "decision_horizon_months": 20,
+    "industry": "retail",
+    "price_sensitivity": 0.274,
+    "r_and_d_capacity": 0.247,
+    "market_awareness": 0.677,
+    "product_breadth": 0.842,
+    "enterprise_fit": 0.589,
+    "competitor_price_cut_pct": 60
+  },
+  "decision_options": [
+    "discount aggressively",
+    "increase differentiation",
+    "run aggressive campaigns",
+    "bundle services",
+    "package services"
+  ],
+  "expected_decision": "package services",
+  "reasoning_rubric": [
+    "raise switching costs",
+    "increase perceived value",
+    "reduce churn"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

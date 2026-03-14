@@ -1,35 +1,39 @@
 {
   "scenario_id": "RES_041",
   "category": "resource_allocation",
-  "difficulty": "medium",
-  "title": "Staffing allocation decision",
-  "prompt": "Hiring capacity is limited this quarter. Decide how to allocate headcount to best support the company's priorities.",
+  "difficulty": "expert",
+  "title": "Budget allocation decision",
+  "prompt": "Your annual budget is constrained. Decide where to allocate incremental spend for the next two quarters.",
   "context": {
     "company_size": "large",
-    "cash_reserve_months": 17,
+    "cash_reserve_months": 23,
     "brand_strength": "medium",
     "customer_loyalty": "moderate",
     "regulatory_pressure": "low",
-    "time_pressure_days": 38,
-    "urgency_rank": 2,
-    "backlog_size": 0.903,
-    "incident_rate": 0.391,
-    "sales_pipeline": 0.19,
-    "delivery_pressure": 0.792,
-    "reliability_risk": 0.357
+    "time_pressure_days": 6,
+    "urgency_rank": 3,
+    "growth_outlook": "low",
+    "stake_level": "low",
+    "reversibility": "high",
+    "decision_horizon_months": 10,
+    "industry": "saas",
+    "product_quality_gap": 0.762,
+    "demand_gap": 0.577,
+    "conversion_gap": 0.523,
+    "reliability_risk": 0.797
   },
   "decision_options": [
-    "hire engineers",
-    "grow ops team",
-    "hire sales reps",
-    "short-term contractors",
-    "hold headcount steady"
+    "increase product investment",
+    "boost marketing spend",
+    "fund engineering capacity",
+    "invest in infrastructure",
+    "reduce burn"
   ],
-  "expected_decision": "hire engineers",
+  "expected_decision": "fund engineering capacity",
   "reasoning_rubric": [
-    "increase delivery capacity",
-    "clear backlog",
-    "ship faster"
+    "fix product gaps",
+    "improve retention",
+    "build differentiation"
   ],
   "evaluation": {
     "decision_weight": 0.55,

@@ -5,24 +5,29 @@
   "title": "Security breach response",
   "prompt": "Your security team reports a breach impacting customer data. Assess the severity and decide the most responsible immediate response.",
   "context": {
-    "company_size": "mid",
-    "cash_reserve_months": 12,
+    "company_size": "small",
+    "cash_reserve_months": 11,
     "brand_strength": "medium",
     "customer_loyalty": "high",
-    "regulatory_pressure": "medium",
-    "time_pressure_days": 44,
+    "regulatory_pressure": "high",
+    "time_pressure_days": 41,
     "urgency_rank": 3,
-    "severity": 0.76,
-    "exploit_active": 0.0,
-    "data_sensitivity": 0.637,
-    "public_visibility": 0.731
+    "growth_outlook": "low",
+    "stake_level": "low",
+    "reversibility": "low",
+    "decision_horizon_months": 19,
+    "industry": "retail",
+    "severity": 0.647,
+    "exploit_active": 1.0,
+    "data_sensitivity": 0.213,
+    "public_visibility": 0.876
   },
   "decision_options": [
-    "report to regulators",
+    "notify regulators",
     "isolate and fix quickly",
-    "notify customers publicly",
+    "issue a public statement",
     "halt services temporarily",
-    "monitor only"
+    "notify customers publicly"
   ],
   "expected_decision": "notify customers publicly",
   "reasoning_rubric": [

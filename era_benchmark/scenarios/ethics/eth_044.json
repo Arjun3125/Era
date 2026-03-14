@@ -1,34 +1,39 @@
 {
   "scenario_id": "ETH_044",
   "category": "ethics",
-  "difficulty": "expert",
-  "title": "Workforce reduction dilemma",
-  "prompt": "Revenue has slowed and expenses exceed plan. Leadership must choose a workforce strategy to stabilize finances while protecting long-term capability.",
+  "difficulty": "hard",
+  "title": "AI bias allegation",
+  "prompt": "An external report claims your AI model shows bias in a critical workflow. Decide the most ethical response.",
   "context": {
     "company_size": "small",
-    "cash_reserve_months": 6,
+    "cash_reserve_months": 17,
     "brand_strength": "high",
-    "customer_loyalty": "low",
-    "regulatory_pressure": "high",
-    "time_pressure_days": 53,
-    "urgency_rank": 2,
-    "cost_gap": 0.808,
-    "morale_risk": 0.489,
-    "hiring_friction": 0.245,
-    "growth_outlook": "moderate"
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 6,
+    "urgency_rank": 3,
+    "growth_outlook": "high",
+    "stake_level": "medium",
+    "reversibility": "medium",
+    "decision_horizon_months": 11,
+    "industry": "retail",
+    "harm_level": 0.472,
+    "evidence_strength": 0.878,
+    "revenue_dependency": 0.898,
+    "public_visibility": 0.171
   },
   "decision_options": [
-    "reduce headcount",
-    "redeploy staff",
-    "implement pay cuts",
-    "across-the-board cuts",
-    "seek financing"
+    "halt release for audit",
+    "pause and audit",
+    "publicly disclose issues",
+    "address silently",
+    "dismiss the report"
   ],
-  "expected_decision": "across-the-board cuts",
+  "expected_decision": "pause and audit",
   "reasoning_rubric": [
-    "share burden",
-    "avoid layoffs",
-    "improve runway"
+    "prevent harm",
+    "validate evidence",
+    "regain trust"
   ],
   "evaluation": {
     "decision_weight": 0.55,

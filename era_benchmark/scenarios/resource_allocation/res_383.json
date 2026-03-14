@@ -1,0 +1,43 @@
+{
+  "scenario_id": "RES_383",
+  "category": "resource_allocation",
+  "difficulty": "hard",
+  "title": "Staffing allocation decision",
+  "prompt": "Hiring capacity is limited this quarter. Decide how to allocate headcount to best support the company's priorities.",
+  "context": {
+    "company_size": "large",
+    "cash_reserve_months": 22,
+    "brand_strength": "medium",
+    "customer_loyalty": "high",
+    "regulatory_pressure": "medium",
+    "time_pressure_days": 33,
+    "urgency_rank": 3,
+    "growth_outlook": "moderate",
+    "stake_level": "medium",
+    "reversibility": "low",
+    "decision_horizon_months": 12,
+    "industry": "media",
+    "backlog_size": 0.924,
+    "incident_rate": 0.743,
+    "sales_pipeline": 0.856,
+    "delivery_pressure": 0.64,
+    "reliability_risk": 0.113
+  },
+  "decision_options": [
+    "add developers",
+    "expand engineering team",
+    "hire sales reps",
+    "bring in contractors",
+    "hold headcount steady"
+  ],
+  "expected_decision": "expand engineering team",
+  "reasoning_rubric": [
+    "increase delivery capacity",
+    "clear backlog",
+    "ship faster"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

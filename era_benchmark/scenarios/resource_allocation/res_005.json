@@ -1,34 +1,39 @@
 {
   "scenario_id": "RES_005",
   "category": "resource_allocation",
-  "difficulty": "medium",
+  "difficulty": "expert",
   "title": "Budget allocation decision",
   "prompt": "Your annual budget is constrained. Decide where to allocate incremental spend for the next two quarters.",
   "context": {
-    "company_size": "large",
-    "cash_reserve_months": 7,
-    "brand_strength": "medium",
+    "company_size": "small",
+    "cash_reserve_months": 6,
+    "brand_strength": "low",
     "customer_loyalty": "high",
-    "regulatory_pressure": "medium",
-    "time_pressure_days": 43,
-    "urgency_rank": 1,
-    "product_quality_gap": 0.928,
-    "demand_gap": 0.131,
-    "conversion_gap": 0.488,
-    "reliability_risk": 0.159
+    "regulatory_pressure": "high",
+    "time_pressure_days": 16,
+    "urgency_rank": 2,
+    "growth_outlook": "high",
+    "stake_level": "medium",
+    "reversibility": "high",
+    "decision_horizon_months": 12,
+    "industry": "saas",
+    "product_quality_gap": 0.74,
+    "demand_gap": 0.144,
+    "conversion_gap": 0.264,
+    "reliability_risk": 0.982
   },
   "decision_options": [
-    "invest in engineering",
-    "expand campaigns",
-    "invest in sales",
-    "increase reliability spend",
-    "increase product investment"
+    "increase product investment",
+    "invest in marketing",
+    "grow sales team",
+    "invest in infrastructure",
+    "slow spending"
   ],
-  "expected_decision": "increase product investment",
+  "expected_decision": "invest in infrastructure",
   "reasoning_rubric": [
-    "fix product gaps",
-    "improve retention",
-    "build differentiation"
+    "protect uptime",
+    "reduce risk",
+    "support scale"
   ],
   "evaluation": {
     "decision_weight": 0.55,

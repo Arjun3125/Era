@@ -12,7 +12,7 @@ import numpy as np
 from sklearn.metrics import accuracy_score, f1_score, log_loss, roc_auc_score
 
 from modules.learning_core import FeatureConfig, FeatureExtractor, build_features, load_dataset, split_rows
-from modules.policy_model.dataset_builder import build_dataset
+from modules.policy_model.dataset_builder import build_dataset, build_dataset_from_simulated
 from modules.policy_model.model import ModelConfig, build_classifier
 
 
@@ -20,8 +20,9 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Train the decision policy model.")
     parser.add_argument("--dataset", default="data/policy_model/datasets/benchmark_v1_1.jsonl")
     parser.add_argument("--scenarios-root", default="era_benchmark")
+    parser.add_argument("--simulated", default=None, help="Path to simulated JSONL dataset.")
     parser.add_argument("--output", default="data/policy_model/model")
-    parser.add_argument("--backend", default="tfidf", help="tfidf|sentence_transformers")
+    parser.add_argument("--backend", default="tfidf", help="tfidf|sentence_transformers|scenario_encoder")
     parser.add_argument("--model-name", default="", help="SentenceTransformer model name.")
     parser.add_argument("--st-local-only", action="store_true", help="Use local-only sentence-transformers weights.")
     parser.add_argument("--model-type", default="logistic", help="logistic|random_forest")
@@ -33,7 +34,12 @@ def main() -> None:
     args = parser.parse_args()
 
     dataset_path = Path(args.dataset)
-    if not dataset_path.exists():
+    if args.simulated:
+        build_dataset_from_simulated(
+            simulated_path=Path(args.simulated),
+            output_path=dataset_path,
+        )
+    elif not dataset_path.exists():
         build_dataset(
             scenarios_root=Path(args.scenarios_root),
             output_path=dataset_path,

@@ -1,35 +1,39 @@
 {
   "scenario_id": "RES_047",
   "category": "resource_allocation",
-  "difficulty": "hard",
-  "title": "Staffing allocation decision",
-  "prompt": "Hiring capacity is limited this quarter. Decide how to allocate headcount to best support the company's priorities.",
+  "difficulty": "expert",
+  "title": "Budget allocation decision",
+  "prompt": "Your annual budget is constrained. Decide where to allocate incremental spend for the next two quarters.",
   "context": {
     "company_size": "large",
-    "cash_reserve_months": 14,
-    "brand_strength": "medium",
-    "customer_loyalty": "low",
+    "cash_reserve_months": 22,
+    "brand_strength": "low",
+    "customer_loyalty": "high",
     "regulatory_pressure": "low",
-    "time_pressure_days": 19,
-    "urgency_rank": 2,
-    "backlog_size": 0.861,
-    "incident_rate": 0.872,
-    "sales_pipeline": 0.78,
-    "delivery_pressure": 0.948,
-    "reliability_risk": 0.825
+    "time_pressure_days": 22,
+    "urgency_rank": 1,
+    "growth_outlook": "low",
+    "stake_level": "low",
+    "reversibility": "low",
+    "decision_horizon_months": 5,
+    "industry": "saas",
+    "product_quality_gap": 0.248,
+    "demand_gap": 0.909,
+    "conversion_gap": 0.365,
+    "reliability_risk": 0.917
   },
   "decision_options": [
-    "hire engineers",
-    "grow ops team",
-    "expand sales headcount",
-    "bring in contractors",
-    "pause hiring"
+    "increase product investment",
+    "invest in marketing",
+    "expand sales coverage",
+    "boost marketing spend",
+    "cut discretionary spend"
   ],
-  "expected_decision": "hire engineers",
+  "expected_decision": "boost marketing spend",
   "reasoning_rubric": [
-    "increase delivery capacity",
-    "clear backlog",
-    "ship faster"
+    "increase demand",
+    "support growth",
+    "build pipeline"
   ],
   "evaluation": {
     "decision_weight": 0.55,

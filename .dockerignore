@@ -1,0 +1,42 @@
+# Git
+.git
+.gitignore
+.github
+
+# Local env
+.env
+.env.*
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtualenv
+.venv/
+venv/
+
+# Pytest
+.pytest_cache/
+.pytest_tmp*/
+_pytest_tmp*/
+
+# Local temp/output
+.tmp/
+logs/
+*.log
+
+# Data/artifacts
+data/
+rag_storage/
+ml/cache/
+ml/models/
+experiments/results/
+experiments/traces/
+experiments/plots/
+experiments/reports/
+
+# Docs/tests
+documentation/
+tests/

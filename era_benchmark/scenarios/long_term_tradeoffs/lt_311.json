@@ -1,0 +1,43 @@
+{
+  "scenario_id": "LT_311",
+  "category": "long_term_tradeoffs",
+  "difficulty": "medium",
+  "title": "Innovation vs reliability",
+  "prompt": "Engineering leadership is split between shipping a major innovation and improving reliability. Decide the best approach.",
+  "context": {
+    "company_size": "mid",
+    "cash_reserve_months": 19,
+    "brand_strength": "high",
+    "customer_loyalty": "high",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 28,
+    "urgency_rank": 1,
+    "growth_outlook": "moderate",
+    "stake_level": "high",
+    "reversibility": "low",
+    "decision_horizon_months": 18,
+    "industry": "health",
+    "competitive_threat": 0.648,
+    "defect_rate": 0.566,
+    "customer_expectations": 0.452,
+    "roadmap_pressure": 0.835,
+    "reliability_risk": 0.55
+  },
+  "decision_options": [
+    "launch innovative product",
+    "harden the core product",
+    "ship major innovation",
+    "limited beta launch",
+    "wait for readiness"
+  ],
+  "expected_decision": "ship major innovation",
+  "reasoning_rubric": [
+    "beat competition",
+    "capture attention",
+    "accept execution risk"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

@@ -2,33 +2,38 @@
   "scenario_id": "ETH_045",
   "category": "ethics",
   "difficulty": "expert",
-  "title": "Workforce reduction dilemma",
-  "prompt": "Revenue has slowed and expenses exceed plan. Leadership must choose a workforce strategy to stabilize finances while protecting long-term capability.",
+  "title": "AI bias allegation",
+  "prompt": "An external report claims your AI model shows bias in a critical workflow. Decide the most ethical response.",
   "context": {
     "company_size": "mid",
-    "cash_reserve_months": 6,
-    "brand_strength": "medium",
-    "customer_loyalty": "high",
+    "cash_reserve_months": 24,
+    "brand_strength": "low",
+    "customer_loyalty": "low",
     "regulatory_pressure": "low",
-    "time_pressure_days": 40,
-    "urgency_rank": 3,
-    "cost_gap": 0.759,
-    "morale_risk": 0.439,
-    "hiring_friction": 0.186,
-    "growth_outlook": "high"
+    "time_pressure_days": 48,
+    "urgency_rank": 2,
+    "growth_outlook": "low",
+    "stake_level": "low",
+    "reversibility": "low",
+    "decision_horizon_months": 24,
+    "industry": "industrial",
+    "harm_level": 0.106,
+    "evidence_strength": 0.23,
+    "revenue_dependency": 0.556,
+    "public_visibility": 0.144
   },
   "decision_options": [
-    "reduce headcount",
-    "reassign employees",
-    "raise bridge capital",
-    "pause hiring",
-    "seek financing"
+    "ship with safeguards",
+    "release with mitigation",
+    "transparent disclosure",
+    "fix internally first",
+    "deny claims"
   ],
-  "expected_decision": "raise bridge capital",
+  "expected_decision": "ship with safeguards",
   "reasoning_rubric": [
-    "protect growth",
-    "extend runway",
-    "use capital access"
+    "maintain momentum",
+    "add safeguards",
+    "monitor outcomes"
   ],
   "evaluation": {
     "decision_weight": 0.55,

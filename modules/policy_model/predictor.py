@@ -28,3 +28,10 @@ class PolicyModelPredictor:
             prob = 1.0 / (1.0 + np.exp(-score))
             return max(0.0, min(1.0, prob))
         return float(self.model.predict(features_arr)[0])
+
+    def warm_cache(self, prompt: str, options: list[str], context: Dict[str, Any]) -> None:
+        if self.extractor.config.backend != "sentence_transformers":
+            return
+        prompt_text = self.extractor._format_prompt(prompt, context)
+        option_texts = [str(item or "") for item in options]
+        self.extractor.warm_cache([prompt_text], option_texts)

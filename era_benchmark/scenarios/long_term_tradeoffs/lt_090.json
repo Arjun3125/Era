@@ -1,0 +1,42 @@
+{
+  "scenario_id": "LT_090",
+  "category": "long_term_tradeoffs",
+  "difficulty": "hard",
+  "title": "Growth vs stability",
+  "prompt": "The market opportunity is changing rapidly, and leadership must decide how aggressively to grow versus protect stability.",
+  "context": {
+    "company_size": "mid",
+    "cash_reserve_months": 5,
+    "brand_strength": "low",
+    "customer_loyalty": "high",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 28,
+    "urgency_rank": 1,
+    "growth_outlook": "high",
+    "stake_level": "high",
+    "reversibility": "high",
+    "decision_horizon_months": 18,
+    "industry": "saas",
+    "market_opportunity": 0.161,
+    "burn_rate": 0.877,
+    "reliability_risk": 0.317,
+    "investor_pressure": 0.832
+  },
+  "decision_options": [
+    "maximize runway",
+    "measured growth",
+    "preserve cash",
+    "invest in reliability",
+    "leave the segment"
+  ],
+  "expected_decision": "maximize runway",
+  "reasoning_rubric": [
+    "extend runway",
+    "reduce burn",
+    "protect downside"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

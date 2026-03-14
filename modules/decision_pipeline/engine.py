@@ -35,6 +35,7 @@ from modules.council_router.module import ModeRoutingModule
 from modules.domain_analysis.module import DomainAnalysisModule
 from modules.input_normalization.module import InputNormalizationModule
 from modules.knowledge_synthesis.module import KnowledgeSynthesisModule
+from modules.scenario_memory.module import ScenarioMemoryModule
 from modules.decision_packaging.module import DecisionPackagingModule
 from modules.prime_decision.engine import PrimeDecisionEngine
 from modules.prime_decision.module import PrimeDecisionModule
@@ -86,6 +87,7 @@ class DecisionPipelineEngine:
     config_module: RuntimeConfigModule
     domain_module: DomainAnalysisModule
     mode_module: ModeRoutingModule
+    scenario_memory_module: ScenarioMemoryModule
     knowledge_module: KnowledgeSynthesisModule
     validation_module: ContractValidationModule
     council_module: CouncilExecutionModule
@@ -127,6 +129,7 @@ class DecisionPipelineEngine:
             config_module=RuntimeConfigModule.create(),
             domain_module=DomainAnalysisModule.create(llm_adapter=llm),
             mode_module=ModeRoutingModule.create(),
+            scenario_memory_module=ScenarioMemoryModule.create(),
             knowledge_module=KnowledgeSynthesisModule.create(),
             validation_module=ContractValidationModule.create(),
             council_module=CouncilExecutionModule.create(llm=llm),
@@ -355,6 +358,12 @@ class DecisionPipelineEngine:
                 source="core",
             ),
             ExtensionStageSpec(
+                name="scenario_memory",
+                handler=self._stage_scenario_memory,
+                on_error="degrade",
+                source="core",
+            ),
+            ExtensionStageSpec(
                 name="knowledge_synthesis",
                 handler=self._stage_knowledge_synthesis,
                 on_error="degrade",
@@ -403,6 +412,7 @@ class DecisionPipelineEngine:
             "runtime_config",
             "domain_analysis",
             "mode_routing",
+            "scenario_memory",
             "knowledge_synthesis",
             "council_execution",
             "council_normalization",
@@ -429,6 +439,10 @@ class DecisionPipelineEngine:
     def _stage_mode_routing(self, context: ExecutionContext) -> StageOutcome:
         self._prepare_context(context)
         return self._run_plugin(self.mode_module, context)
+
+    def _stage_scenario_memory(self, context: ExecutionContext) -> StageOutcome:
+        self._prepare_context(context)
+        return self._run_plugin(self.scenario_memory_module, context)
 
     def _stage_knowledge_synthesis(self, context: ExecutionContext) -> StageOutcome:
         self._prepare_context(context)

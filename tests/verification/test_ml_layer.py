@@ -12,6 +12,15 @@ Shows:
 
 import os
 import sys
+# Skip in pytest unless explicitly enabled (long-running / interactive)
+if "pytest" in sys.modules:
+    import pytest
+
+    if not os.getenv("ERA_RUN_INTEGRATION_TESTS"):
+        pytest.skip(
+            "integration test; set ERA_RUN_INTEGRATION_TESTS=1 to run",
+            allow_module_level=True,
+        )
 
 os.environ['AUTOMATED_SIMULATION'] = '1'
 os.environ['PERSONA_DEBUG'] = '0'  # Reduce noise

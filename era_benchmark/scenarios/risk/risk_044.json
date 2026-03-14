@@ -2,33 +2,38 @@
   "scenario_id": "RISK_044",
   "category": "risk",
   "difficulty": "expert",
-  "title": "Supply chain disruption",
-  "prompt": "A key supplier signals potential delays that could disrupt delivery timelines. Decide the best supply chain response.",
+  "title": "Security breach response",
+  "prompt": "Your security team reports a breach impacting customer data. Assess the severity and decide the most responsible immediate response.",
   "context": {
-    "company_size": "small",
-    "cash_reserve_months": 19,
+    "company_size": "large",
+    "cash_reserve_months": 6,
     "brand_strength": "low",
-    "customer_loyalty": "moderate",
-    "regulatory_pressure": "medium",
-    "time_pressure_days": 10,
+    "customer_loyalty": "high",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 6,
     "urgency_rank": 3,
-    "supplier_concentration": 0.176,
-    "lead_time_risk": 0.843,
-    "demand_volatility": 0.848,
-    "inventory_cover": 0.586
+    "growth_outlook": "moderate",
+    "stake_level": "high",
+    "reversibility": "low",
+    "decision_horizon_months": 8,
+    "industry": "health",
+    "severity": 0.852,
+    "exploit_active": 0.894,
+    "data_sensitivity": 0.339,
+    "public_visibility": 0.645
   },
   "decision_options": [
-    "add backup suppliers",
-    "increase inventory buffer",
-    "expedite alternative supply",
-    "fast-track substitutes",
-    "maintain current plan"
+    "shut down systems",
+    "patch immediately",
+    "publicly disclose",
+    "halt services temporarily",
+    "observe without action"
   ],
-  "expected_decision": "expedite alternative supply",
+  "expected_decision": "shut down systems",
   "reasoning_rubric": [
-    "reduce lead time risk",
-    "maintain commitments",
-    "pay for speed"
+    "contain rapidly",
+    "prevent escalation",
+    "accept short-term disruption"
   ],
   "evaluation": {
     "decision_weight": 0.55,

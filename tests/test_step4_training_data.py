@@ -10,6 +10,7 @@ Demonstrates the feedback loop:
 """
 
 import json
+import pytest
 from datetime import datetime, timedelta
 from ml.ml_orchestrator import MLWisdomOrchestrator
 from ml.judgment.ml_judgment_prior import MLJudgmentPrior
@@ -17,19 +18,30 @@ from ml.kis.knowledge_integration_system import KnowledgeIntegrationSystem
 from ml.llm_handshakes.llm_interface import LLMInterface
 
 
-def test_outcome_recording():
+@pytest.fixture(scope="module")
+def orchestrator():
+    ml_prior = MLJudgmentPrior()
+    return MLWisdomOrchestrator(
+        ml_prior=ml_prior,
+        cache_dir="ml/cache",
+    )
+
+
+@pytest.fixture(scope="module")
+def decision_key(orchestrator):
+    result = orchestrator.process_decision(
+        user_input="Should I commit significant resources to this project?"
+    )
+    return result.get("decision_key")
+
+
+def test_outcome_recording(orchestrator):
     """Test basic outcome recording."""
     print("\n" + "="*70)
     print("TEST 1: Outcome Recording")
     print("="*70)
     
     # Initialize orchestrator with outcome database
-    ml_prior = MLJudgmentPrior()
-    orchestrator = MLWisdomOrchestrator(
-        ml_prior=ml_prior,
-        cache_dir="ml/cache"
-    )
-    
     # Simulate recording a decision
     print("\nRecording a decision...")
     result = orchestrator.process_decision(
@@ -48,7 +60,7 @@ def test_outcome_recording():
     else:
         print(f"  [ERROR] Decision not found in database")
     
-    return decision_key, orchestrator
+    assert decision_key
 
 
 def test_outcome_recording_with_feedback(decision_key, orchestrator):

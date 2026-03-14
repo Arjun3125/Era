@@ -10,6 +10,7 @@ EXPERTS = [
     "risk",
     "risk_resources",
     "grand_strategist",
+    "strategy",
     "intelligence",
     "timing",
     "technology",
@@ -68,13 +69,15 @@ def expert_weights_from_context(prompt: str, context: Dict[str, Any]) -> Dict[st
         weights["risk"] = 1.0
 
     total = sum(weights.values()) or 1.0
-    return {expert: round(value / total, 4) for expert, value in weights.items()}
+    return {expert: value / total for expert, value in weights.items()}
 
 
 def normalize_experts(experts: Iterable[str]) -> List[str]:
-    normalized = []
+    normalized: List[str] = []
+    seen = set()
     for item in experts:
         text = str(item).strip().lower()
-        if text and text in EXPERTS:
+        if text and text in EXPERTS and text not in seen:
             normalized.append(text)
+            seen.add(text)
     return normalized

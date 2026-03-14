@@ -2,33 +2,38 @@
   "scenario_id": "ETH_030",
   "category": "ethics",
   "difficulty": "expert",
-  "title": "Workforce reduction dilemma",
-  "prompt": "Revenue has slowed and expenses exceed plan. Leadership must choose a workforce strategy to stabilize finances while protecting long-term capability.",
+  "title": "AI bias allegation",
+  "prompt": "An external report claims your AI model shows bias in a critical workflow. Decide the most ethical response.",
   "context": {
     "company_size": "small",
-    "cash_reserve_months": 5,
+    "cash_reserve_months": 11,
     "brand_strength": "medium",
-    "customer_loyalty": "low",
-    "regulatory_pressure": "medium",
-    "time_pressure_days": 25,
+    "customer_loyalty": "high",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 41,
     "urgency_rank": 3,
-    "cost_gap": 0.832,
-    "morale_risk": 0.693,
-    "hiring_friction": 0.684,
-    "growth_outlook": "high"
+    "growth_outlook": "moderate",
+    "stake_level": "high",
+    "reversibility": "low",
+    "decision_horizon_months": 16,
+    "industry": "health",
+    "harm_level": 0.286,
+    "evidence_strength": 0.169,
+    "revenue_dependency": 0.402,
+    "public_visibility": 0.141
   },
   "decision_options": [
-    "layoff now",
-    "redeploy staff",
-    "temporary salary reduction",
-    "pause hiring",
-    "secure new funding"
+    "pause and audit",
+    "release with mitigation",
+    "publicly disclose issues",
+    "fix internally first",
+    "reject allegations"
   ],
-  "expected_decision": "redeploy staff",
+  "expected_decision": "publicly disclose issues",
   "reasoning_rubric": [
-    "retain talent",
-    "focus on priority work",
-    "minimize disruption"
+    "build trust",
+    "show accountability",
+    "reduce backlash"
   ],
   "evaluation": {
     "decision_weight": 0.55,

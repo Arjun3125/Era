@@ -1,34 +1,39 @@
 {
   "scenario_id": "ETH_041",
   "category": "ethics",
-  "difficulty": "expert",
-  "title": "Workforce reduction dilemma",
-  "prompt": "Revenue has slowed and expenses exceed plan. Leadership must choose a workforce strategy to stabilize finances while protecting long-term capability.",
+  "difficulty": "medium",
+  "title": "AI bias allegation",
+  "prompt": "An external report claims your AI model shows bias in a critical workflow. Decide the most ethical response.",
   "context": {
-    "company_size": "large",
-    "cash_reserve_months": 8,
-    "brand_strength": "medium",
-    "customer_loyalty": "low",
-    "regulatory_pressure": "high",
-    "time_pressure_days": 49,
+    "company_size": "small",
+    "cash_reserve_months": 22,
+    "brand_strength": "high",
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "medium",
+    "time_pressure_days": 39,
     "urgency_rank": 3,
-    "cost_gap": 0.906,
-    "morale_risk": 0.187,
-    "hiring_friction": 0.14,
-    "growth_outlook": "moderate"
+    "growth_outlook": "moderate",
+    "stake_level": "high",
+    "reversibility": "medium",
+    "decision_horizon_months": 22,
+    "industry": "fintech",
+    "harm_level": 0.76,
+    "evidence_strength": 0.535,
+    "revenue_dependency": 0.992,
+    "public_visibility": 0.576
   },
   "decision_options": [
-    "immediate layoffs",
-    "shift teams",
-    "temporary salary reduction",
-    "pause hiring",
-    "secure new funding"
+    "halt release for audit",
+    "release with mitigation",
+    "open communication",
+    "quietly fix",
+    "deny claims"
   ],
-  "expected_decision": "immediate layoffs",
+  "expected_decision": "halt release for audit",
   "reasoning_rubric": [
-    "extend runway",
-    "reduce fixed costs",
-    "accept morale impact"
+    "prevent harm",
+    "validate evidence",
+    "regain trust"
   ],
   "evaluation": {
     "decision_weight": 0.55,

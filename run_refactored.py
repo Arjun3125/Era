@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from pathlib import Path
 from typing import Any, Dict
 
 from decision_env import (
@@ -12,6 +13,10 @@ from decision_env import (
     DecisionEnvironment,
     EpisodeRunner,
     EraDecisionAgent,
+    LongHorizonDecisionEnvironment,
+    LongHorizonEpisodeRunner,
+    MultiStepDecisionEnvironment,
+    MultiStepEpisodeRunner,
     ScenarioGenerator,
 )
 from modules.decision_pipeline import DecisionPipelineEngine
@@ -58,26 +63,64 @@ def _run_simulation(
     scenario_domain: str | None,
     seed: int | None,
     experience_log: str | None,
+    simulate_steps: int,
+    long_horizon: bool,
 ) -> Dict[str, Any]:
     pipeline = DecisionPipelineEngine.create(strict=strict)
-    environment = DecisionEnvironment(
-        generator=ScenarioGenerator(seed=seed),
-        default_domain=scenario_domain,
-    )
-    agent = EraDecisionAgent(
-        pipeline=pipeline,
-        requested_mode=requested_mode or "meeting",
-    )
-    runner = EpisodeRunner(environment=environment, agent=agent)
-    summary = runner.run_training_loop(
-        episode_count=episode_count,
-        domain=scenario_domain,
-        experience_log_path=experience_log,
-    )
+    agent = EraDecisionAgent(pipeline=pipeline, requested_mode=requested_mode or "meeting")
+    if long_horizon:
+        environment = LongHorizonDecisionEnvironment(
+            generator=ScenarioGenerator(seed=seed),
+            default_domain=scenario_domain,
+            max_steps=simulate_steps or 24,
+        )
+        runner = LongHorizonEpisodeRunner(environment=environment, agent=agent)
+        episodes = runner.run_training_loop(episode_count=episode_count)
+        if experience_log:
+            log_path = Path(experience_log)
+            log_path.parent.mkdir(parents=True, exist_ok=True)
+            with log_path.open("w", encoding="utf-8") as handle:
+                for episode in episodes:
+                    handle.write(json.dumps(episode.as_dict(), ensure_ascii=True))
+                    handle.write("\n")
+        payload = {
+            "episode_count": episode_count,
+            "episodes": [episode.as_dict() for episode in episodes],
+        }
+        payload["requested_mode"] = requested_mode or "meeting"
+        payload["scenario_domain"] = scenario_domain or "mixed"
+        payload["seed"] = seed
+        payload["simulate_steps"] = simulate_steps
+        payload["experience_log"] = experience_log
+        return payload
+    if simulate_steps and simulate_steps > 1:
+        environment = MultiStepDecisionEnvironment(
+            generator=ScenarioGenerator(seed=seed),
+            default_domain=scenario_domain,
+            max_steps=simulate_steps,
+        )
+        runner = MultiStepEpisodeRunner(environment=environment, agent=agent)
+        summary = runner.run_training_loop(
+            episode_count=episode_count,
+            domain=scenario_domain,
+            experience_log_path=experience_log,
+        )
+    else:
+        environment = DecisionEnvironment(
+            generator=ScenarioGenerator(seed=seed),
+            default_domain=scenario_domain,
+        )
+        runner = EpisodeRunner(environment=environment, agent=agent)
+        summary = runner.run_training_loop(
+            episode_count=episode_count,
+            domain=scenario_domain,
+            experience_log_path=experience_log,
+        )
     payload = summary.as_dict()
     payload["requested_mode"] = requested_mode or "meeting"
     payload["scenario_domain"] = scenario_domain or "mixed"
     payload["seed"] = seed
+    payload["simulate_steps"] = simulate_steps
     payload["experience_log"] = experience_log
     return payload
 
@@ -108,6 +151,17 @@ def main() -> int:
         type=int,
         default=0,
         help="Run the embedded decision environment for N episodes.",
+    )
+    parser.add_argument(
+        "--simulate-steps",
+        type=int,
+        default=1,
+        help="Number of steps per episode when simulating (1 = one-step).",
+    )
+    parser.add_argument(
+        "--long-horizon",
+        action="store_true",
+        help="Use the long-horizon strategic simulation environment.",
     )
     parser.add_argument(
         "--scenario-domain",
@@ -156,6 +210,8 @@ def main() -> int:
             scenario_domain=args.scenario_domain,
             seed=args.seed,
             experience_log=args.experience_log,
+            simulate_steps=args.simulate_steps,
+            long_horizon=bool(args.long_horizon),
         )
         print(json.dumps(payload, indent=2))
         return 0

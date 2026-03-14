@@ -1,0 +1,42 @@
+{
+  "scenario_id": "RISK_081",
+  "category": "risk",
+  "difficulty": "expert",
+  "title": "Security breach response",
+  "prompt": "Your security team reports a breach impacting customer data. Assess the severity and decide the most responsible immediate response.",
+  "context": {
+    "company_size": "large",
+    "cash_reserve_months": 14,
+    "brand_strength": "high",
+    "customer_loyalty": "high",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 56,
+    "urgency_rank": 2,
+    "growth_outlook": "high",
+    "stake_level": "medium",
+    "reversibility": "low",
+    "decision_horizon_months": 17,
+    "industry": "industrial",
+    "severity": 0.768,
+    "exploit_active": 0.0,
+    "data_sensitivity": 0.837,
+    "public_visibility": 0.978
+  },
+  "decision_options": [
+    "report to regulators",
+    "isolate and fix quickly",
+    "notify customers publicly",
+    "halt services temporarily",
+    "monitor only"
+  ],
+  "expected_decision": "report to regulators",
+  "reasoning_rubric": [
+    "regulatory compliance",
+    "limit legal exposure",
+    "document incident"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

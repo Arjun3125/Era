@@ -1,0 +1,43 @@
+{
+  "scenario_id": "RES_408",
+  "category": "resource_allocation",
+  "difficulty": "expert",
+  "title": "Staffing allocation decision",
+  "prompt": "Hiring capacity is limited this quarter. Decide how to allocate headcount to best support the company's priorities.",
+  "context": {
+    "company_size": "mid",
+    "cash_reserve_months": 21,
+    "brand_strength": "low",
+    "customer_loyalty": "high",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 6,
+    "urgency_rank": 1,
+    "growth_outlook": "low",
+    "stake_level": "low",
+    "reversibility": "high",
+    "decision_horizon_months": 15,
+    "industry": "saas",
+    "backlog_size": 0.618,
+    "incident_rate": 0.615,
+    "sales_pipeline": 0.797,
+    "delivery_pressure": 0.413,
+    "reliability_risk": 0.634
+  },
+  "decision_options": [
+    "hire engineers",
+    "hire operations staff",
+    "hire sales reps",
+    "use contractors",
+    "grow sales team"
+  ],
+  "expected_decision": "grow sales team",
+  "reasoning_rubric": [
+    "expand pipeline",
+    "grow revenue",
+    "improve coverage"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

@@ -16,6 +16,7 @@ MODULE_PACKAGE_NAMES = (
     "domain_analysis",
     "input_normalization",
     "knowledge_synthesis",
+    "scenario_memory",
     "prime_decision",
     "runtime_config",
 )

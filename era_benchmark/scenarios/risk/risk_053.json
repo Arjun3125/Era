@@ -2,33 +2,38 @@
   "scenario_id": "RISK_053",
   "category": "risk",
   "difficulty": "expert",
-  "title": "Supply chain disruption",
-  "prompt": "A key supplier signals potential delays that could disrupt delivery timelines. Decide the best supply chain response.",
+  "title": "Security breach response",
+  "prompt": "Your security team reports a breach impacting customer data. Assess the severity and decide the most responsible immediate response.",
   "context": {
-    "company_size": "large",
-    "cash_reserve_months": 16,
-    "brand_strength": "medium",
+    "company_size": "small",
+    "cash_reserve_months": 21,
+    "brand_strength": "high",
     "customer_loyalty": "moderate",
     "regulatory_pressure": "medium",
-    "time_pressure_days": 34,
+    "time_pressure_days": 5,
     "urgency_rank": 2,
-    "supplier_concentration": 0.108,
-    "lead_time_risk": 0.815,
-    "demand_volatility": 0.876,
-    "inventory_cover": 0.138
+    "growth_outlook": "high",
+    "stake_level": "medium",
+    "reversibility": "high",
+    "decision_horizon_months": 18,
+    "industry": "fintech",
+    "severity": 0.881,
+    "exploit_active": 1.0,
+    "data_sensitivity": 0.13,
+    "public_visibility": 0.837
   },
   "decision_options": [
-    "diversify suppliers",
-    "build safety stock",
-    "pause sales",
-    "increase inventory buffer",
-    "wait and reassess"
+    "file a regulatory disclosure",
+    "patch immediately",
+    "publicly disclose",
+    "halt services temporarily",
+    "watch and wait"
   ],
-  "expected_decision": "increase inventory buffer",
+  "expected_decision": "publicly disclose",
   "reasoning_rubric": [
-    "buffer against delays",
-    "maintain service levels",
-    "use cash strategically"
+    "maintain trust",
+    "communicate transparently",
+    "reduce reputational risk"
   ],
   "evaluation": {
     "decision_weight": 0.55,

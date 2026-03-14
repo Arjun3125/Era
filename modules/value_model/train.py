@@ -12,7 +12,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 import joblib
 
-from modules.value_model.dataset_builder import build_dataset
+from modules.value_model.dataset_builder import build_dataset, build_dataset_from_simulated
 from modules.learning_core import FeatureConfig, FeatureExtractor, build_features, load_dataset, split_rows
 from modules.value_model.model import ModelConfig, build_regressor
 
@@ -21,8 +21,9 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Train the decision value model.")
     parser.add_argument("--dataset", default="data/value_model/datasets/benchmark_v1.jsonl")
     parser.add_argument("--scenarios-root", default="era_benchmark")
+    parser.add_argument("--simulated", default=None, help="Path to simulated JSONL dataset.")
     parser.add_argument("--output", default="data/value_model/model")
-    parser.add_argument("--backend", default="tfidf", help="tfidf|sentence_transformers")
+    parser.add_argument("--backend", default="tfidf", help="tfidf|sentence_transformers|scenario_encoder")
     parser.add_argument("--model-name", default="", help="SentenceTransformer model name.")
     parser.add_argument("--st-local-only", action="store_true", help="Use local-only sentence-transformers weights.")
     parser.add_argument("--model-type", default="mlp", help="mlp|ridge|random_forest")
@@ -35,7 +36,12 @@ def main() -> None:
     args = parser.parse_args()
 
     dataset_path = Path(args.dataset)
-    if not dataset_path.exists():
+    if args.simulated:
+        build_dataset_from_simulated(
+            simulated_path=Path(args.simulated),
+            output_path=dataset_path,
+        )
+    elif not dataset_path.exists():
         build_dataset(
             scenarios_root=Path(args.scenarios_root),
             output_path=dataset_path,

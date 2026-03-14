@@ -1,36 +1,41 @@
 {
   "scenario_id": "STRAT_010",
   "category": "strategy",
-  "difficulty": "hard",
+  "difficulty": "expert",
   "title": "Competitor price pressure",
-  "prompt": "A rival just cut price by 61%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
+  "prompt": "A rival just cut price by 39%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
-    "company_size": "large",
-    "cash_reserve_months": 3,
+    "company_size": "small",
+    "cash_reserve_months": 24,
     "brand_strength": "high",
     "customer_loyalty": "moderate",
     "regulatory_pressure": "medium",
-    "time_pressure_days": 21,
-    "urgency_rank": 2,
-    "price_sensitivity": 0.775,
-    "r_and_d_capacity": 0.888,
-    "market_awareness": 0.663,
-    "product_breadth": 0.297,
-    "enterprise_fit": 0.864,
-    "competitor_price_cut_pct": 61
+    "time_pressure_days": 24,
+    "urgency_rank": 1,
+    "growth_outlook": "low",
+    "stake_level": "low",
+    "reversibility": "high",
+    "decision_horizon_months": 22,
+    "industry": "industrial",
+    "price_sensitivity": 0.812,
+    "r_and_d_capacity": 0.278,
+    "market_awareness": 0.262,
+    "product_breadth": 0.107,
+    "enterprise_fit": 0.691,
+    "competitor_price_cut_pct": 39
   },
   "decision_options": [
-    "discount aggressively",
-    "increase differentiation",
+    "lower price",
     "add premium features",
+    "boost marketing spend",
     "package services",
-    "shift to enterprise buyers"
+    "prioritize enterprise deals"
   ],
-  "expected_decision": "add premium features",
+  "expected_decision": "prioritize enterprise deals",
   "reasoning_rubric": [
-    "avoid destructive price war",
+    "prioritize high-value accounts",
     "protect margin",
-    "increase differentiation"
+    "stabilize revenue"
   ],
   "evaluation": {
     "decision_weight": 0.55,

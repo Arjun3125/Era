@@ -1,0 +1,42 @@
+{
+  "scenario_id": "RES_182",
+  "category": "resource_allocation",
+  "difficulty": "expert",
+  "title": "Budget allocation decision",
+  "prompt": "Your annual budget is constrained. Decide where to allocate incremental spend for the next two quarters.",
+  "context": {
+    "company_size": "small",
+    "cash_reserve_months": 22,
+    "brand_strength": "low",
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 57,
+    "urgency_rank": 1,
+    "growth_outlook": "high",
+    "stake_level": "low",
+    "reversibility": "medium",
+    "decision_horizon_months": 7,
+    "industry": "media",
+    "product_quality_gap": 0.901,
+    "demand_gap": 0.88,
+    "conversion_gap": 0.739,
+    "reliability_risk": 0.487
+  },
+  "decision_options": [
+    "increase product investment",
+    "invest in marketing",
+    "grow sales team",
+    "increase reliability spend",
+    "cut discretionary spend"
+  ],
+  "expected_decision": "invest in marketing",
+  "reasoning_rubric": [
+    "increase demand",
+    "support growth",
+    "build pipeline"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

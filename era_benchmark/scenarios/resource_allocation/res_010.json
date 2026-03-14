@@ -1,34 +1,39 @@
 {
   "scenario_id": "RES_010",
   "category": "resource_allocation",
-  "difficulty": "medium",
+  "difficulty": "hard",
   "title": "Budget allocation decision",
   "prompt": "Your annual budget is constrained. Decide where to allocate incremental spend for the next two quarters.",
   "context": {
     "company_size": "mid",
-    "cash_reserve_months": 6,
+    "cash_reserve_months": 7,
     "brand_strength": "high",
-    "customer_loyalty": "moderate",
-    "regulatory_pressure": "medium",
-    "time_pressure_days": 8,
+    "customer_loyalty": "low",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 20,
     "urgency_rank": 2,
-    "product_quality_gap": 0.21,
-    "demand_gap": 0.182,
-    "conversion_gap": 0.71,
-    "reliability_risk": 0.111
+    "growth_outlook": "low",
+    "stake_level": "high",
+    "reversibility": "low",
+    "decision_horizon_months": 20,
+    "industry": "saas",
+    "product_quality_gap": 0.906,
+    "demand_gap": 0.184,
+    "conversion_gap": 0.529,
+    "reliability_risk": 0.438
   },
   "decision_options": [
-    "increase product investment",
+    "fund engineering capacity",
     "invest in marketing",
     "grow sales team",
-    "expand sales coverage",
-    "reduce burn"
+    "fund platform stability",
+    "invest in engineering"
   ],
-  "expected_decision": "expand sales coverage",
+  "expected_decision": "invest in engineering",
   "reasoning_rubric": [
-    "improve conversion",
-    "close deals",
-    "expand revenue"
+    "fix product gaps",
+    "improve retention",
+    "build differentiation"
   ],
   "evaluation": {
     "decision_weight": 0.55,

@@ -1,34 +1,39 @@
 {
   "scenario_id": "ETH_034",
   "category": "ethics",
-  "difficulty": "expert",
-  "title": "Workforce reduction dilemma",
-  "prompt": "Revenue has slowed and expenses exceed plan. Leadership must choose a workforce strategy to stabilize finances while protecting long-term capability.",
+  "difficulty": "easy",
+  "title": "AI bias allegation",
+  "prompt": "An external report claims your AI model shows bias in a critical workflow. Decide the most ethical response.",
   "context": {
     "company_size": "mid",
-    "cash_reserve_months": 5,
+    "cash_reserve_months": 22,
     "brand_strength": "low",
     "customer_loyalty": "moderate",
     "regulatory_pressure": "high",
-    "time_pressure_days": 20,
-    "urgency_rank": 3,
-    "cost_gap": 0.869,
-    "morale_risk": 0.545,
-    "hiring_friction": 0.529,
-    "growth_outlook": "low"
+    "time_pressure_days": 14,
+    "urgency_rank": 1,
+    "growth_outlook": "low",
+    "stake_level": "medium",
+    "reversibility": "medium",
+    "decision_horizon_months": 24,
+    "industry": "media",
+    "harm_level": 0.976,
+    "evidence_strength": 0.838,
+    "revenue_dependency": 0.885,
+    "public_visibility": 0.128
   },
   "decision_options": [
-    "layoff now",
-    "shift teams",
-    "implement pay cuts",
-    "pause hiring",
-    "temporary salary reduction"
+    "halt release for audit",
+    "deploy with guardrails",
+    "publicly disclose issues",
+    "stop rollout for review",
+    "deny claims"
   ],
-  "expected_decision": "temporary salary reduction",
+  "expected_decision": "stop rollout for review",
   "reasoning_rubric": [
-    "share burden",
-    "avoid layoffs",
-    "improve runway"
+    "prevent harm",
+    "validate evidence",
+    "regain trust"
   ],
   "evaluation": {
     "decision_weight": 0.55,

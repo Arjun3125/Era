@@ -2,33 +2,38 @@
   "scenario_id": "RISK_051",
   "category": "risk",
   "difficulty": "expert",
-  "title": "Supply chain disruption",
-  "prompt": "A key supplier signals potential delays that could disrupt delivery timelines. Decide the best supply chain response.",
+  "title": "Security breach response",
+  "prompt": "Your security team reports a breach impacting customer data. Assess the severity and decide the most responsible immediate response.",
   "context": {
-    "company_size": "small",
-    "cash_reserve_months": 12,
+    "company_size": "large",
+    "cash_reserve_months": 15,
     "brand_strength": "high",
-    "customer_loyalty": "high",
+    "customer_loyalty": "moderate",
     "regulatory_pressure": "high",
-    "time_pressure_days": 20,
+    "time_pressure_days": 6,
     "urgency_rank": 1,
-    "supplier_concentration": 0.823,
-    "lead_time_risk": 0.749,
-    "demand_volatility": 0.905,
-    "inventory_cover": 0.326
+    "growth_outlook": "low",
+    "stake_level": "low",
+    "reversibility": "medium",
+    "decision_horizon_months": 3,
+    "industry": "industrial",
+    "severity": 0.808,
+    "exploit_active": 1.0,
+    "data_sensitivity": 0.827,
+    "public_visibility": 0.181
   },
   "decision_options": [
-    "add backup suppliers",
-    "build safety stock",
-    "dual-source components",
-    "rush alternative sourcing",
-    "wait and reassess"
+    "file a regulatory disclosure",
+    "isolate and fix quickly",
+    "issue a public statement",
+    "freeze operations",
+    "watch and wait"
   ],
-  "expected_decision": "dual-source components",
+  "expected_decision": "file a regulatory disclosure",
   "reasoning_rubric": [
-    "reduce single point of failure",
-    "improve resilience",
-    "manage supplier risk"
+    "regulatory compliance",
+    "limit legal exposure",
+    "document incident"
   ],
   "evaluation": {
     "decision_weight": 0.55,

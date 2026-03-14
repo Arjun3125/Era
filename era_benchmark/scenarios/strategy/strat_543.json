@@ -1,0 +1,41 @@
+{
+  "scenario_id": "STRAT_543",
+  "category": "strategy",
+  "difficulty": "hard",
+  "title": "Market entry decision",
+  "prompt": "Your company is considering entry into a new region with uncertain demand and regulatory complexity. Decide the best market entry strategy.",
+  "context": {
+    "company_size": "small",
+    "cash_reserve_months": 12,
+    "brand_strength": "medium",
+    "customer_loyalty": "high",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 37,
+    "urgency_rank": 2,
+    "growth_outlook": "moderate",
+    "stake_level": "high",
+    "reversibility": "high",
+    "decision_horizon_months": 11,
+    "industry": "industrial",
+    "market_uncertainty": 0.608,
+    "local_partner_available": 0.988,
+    "strategic_importance": 0.651
+  },
+  "decision_options": [
+    "partner with a local firm",
+    "delay and localize",
+    "form a local partnership",
+    "acquire a local startup",
+    "exit the opportunity"
+  ],
+  "expected_decision": "partner with a local firm",
+  "reasoning_rubric": [
+    "share risk",
+    "gain local expertise",
+    "speed market access"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

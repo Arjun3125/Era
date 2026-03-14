@@ -1,33 +1,41 @@
 {
   "scenario_id": "STRAT_062",
   "category": "strategy",
-  "difficulty": "expert",
-  "title": "Market entry decision",
-  "prompt": "Your company is considering entry into a new region with uncertain demand and regulatory complexity. Decide the best market entry strategy.",
+  "difficulty": "hard",
+  "title": "Competitor price pressure",
+  "prompt": "A rival just cut price by 52%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
-    "company_size": "mid",
-    "cash_reserve_months": 12,
-    "brand_strength": "medium",
-    "customer_loyalty": "moderate",
-    "regulatory_pressure": "high",
-    "time_pressure_days": 11,
-    "urgency_rank": 2,
-    "market_uncertainty": 0.693,
-    "local_partner_available": 1.0,
-    "strategic_importance": 0.126
+    "company_size": "small",
+    "cash_reserve_months": 22,
+    "brand_strength": "high",
+    "customer_loyalty": "high",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 55,
+    "urgency_rank": 1,
+    "growth_outlook": "high",
+    "stake_level": "low",
+    "reversibility": "medium",
+    "decision_horizon_months": 10,
+    "industry": "saas",
+    "price_sensitivity": 0.847,
+    "r_and_d_capacity": 0.893,
+    "market_awareness": 0.643,
+    "product_breadth": 0.785,
+    "enterprise_fit": 0.706,
+    "competitor_price_cut_pct": 52
   },
   "decision_options": [
-    "go live now",
-    "localize before launch",
-    "joint venture with local player",
-    "acquire a local startup",
-    "pause entry indefinitely"
+    "temporary price cut",
+    "improve product quality",
+    "boost marketing spend",
+    "offer product bundles",
+    "prioritize enterprise deals"
   ],
-  "expected_decision": "localize before launch",
+  "expected_decision": "improve product quality",
   "reasoning_rubric": [
-    "reduce regulatory risk",
-    "adapt to local needs",
-    "avoid premature launch"
+    "avoid destructive price war",
+    "protect margin",
+    "increase differentiation"
   ],
   "evaluation": {
     "decision_weight": 0.55,

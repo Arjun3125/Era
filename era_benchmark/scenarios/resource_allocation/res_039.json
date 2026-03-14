@@ -1,35 +1,39 @@
 {
   "scenario_id": "RES_039",
   "category": "resource_allocation",
-  "difficulty": "hard",
-  "title": "Staffing allocation decision",
-  "prompt": "Hiring capacity is limited this quarter. Decide how to allocate headcount to best support the company's priorities.",
+  "difficulty": "expert",
+  "title": "Budget allocation decision",
+  "prompt": "Your annual budget is constrained. Decide where to allocate incremental spend for the next two quarters.",
   "context": {
     "company_size": "small",
     "cash_reserve_months": 6,
     "brand_strength": "medium",
-    "customer_loyalty": "moderate",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 40,
-    "urgency_rank": 1,
-    "backlog_size": 0.788,
-    "incident_rate": 0.313,
-    "sales_pipeline": 0.887,
-    "delivery_pressure": 0.829,
-    "reliability_risk": 0.204
+    "customer_loyalty": "low",
+    "regulatory_pressure": "medium",
+    "time_pressure_days": 48,
+    "urgency_rank": 2,
+    "growth_outlook": "moderate",
+    "stake_level": "high",
+    "reversibility": "high",
+    "decision_horizon_months": 19,
+    "industry": "retail",
+    "product_quality_gap": 0.496,
+    "demand_gap": 0.487,
+    "conversion_gap": 0.86,
+    "reliability_risk": 0.742
   },
   "decision_options": [
-    "hire engineers",
-    "add reliability engineers",
-    "hire sales reps",
-    "short-term contractors",
-    "hold headcount steady"
+    "fund engineering capacity",
+    "expand campaigns",
+    "expand sales coverage",
+    "fund platform stability",
+    "slow spending"
   ],
-  "expected_decision": "hire engineers",
+  "expected_decision": "fund platform stability",
   "reasoning_rubric": [
-    "increase delivery capacity",
-    "clear backlog",
-    "ship faster"
+    "protect uptime",
+    "reduce risk",
+    "support scale"
   ],
   "evaluation": {
     "decision_weight": 0.55,

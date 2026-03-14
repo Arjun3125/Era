@@ -1,0 +1,42 @@
+{
+  "scenario_id": "RISK_543",
+  "category": "risk",
+  "difficulty": "expert",
+  "title": "Supply chain disruption",
+  "prompt": "A key supplier signals potential delays that could disrupt delivery timelines. Decide the best supply chain response.",
+  "context": {
+    "company_size": "large",
+    "cash_reserve_months": 20,
+    "brand_strength": "medium",
+    "customer_loyalty": "low",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 54,
+    "urgency_rank": 3,
+    "growth_outlook": "low",
+    "stake_level": "high",
+    "reversibility": "high",
+    "decision_horizon_months": 21,
+    "industry": "saas",
+    "supplier_concentration": 0.811,
+    "lead_time_risk": 0.87,
+    "demand_volatility": 0.886,
+    "inventory_cover": 0.191
+  },
+  "decision_options": [
+    "add backup suppliers",
+    "increase inventory buffer",
+    "build safety stock",
+    "expedite alternative supply",
+    "wait and reassess"
+  ],
+  "expected_decision": "build safety stock",
+  "reasoning_rubric": [
+    "buffer against delays",
+    "maintain service levels",
+    "use cash strategically"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

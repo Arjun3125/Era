@@ -8,27 +8,32 @@
     "company_size": "large",
     "cash_reserve_months": 4,
     "brand_strength": "medium",
-    "customer_loyalty": "moderate",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 13,
+    "customer_loyalty": "low",
+    "regulatory_pressure": "medium",
+    "time_pressure_days": 59,
     "urgency_rank": 2,
-    "product_quality_gap": 0.783,
-    "demand_gap": 0.495,
-    "conversion_gap": 0.53,
-    "reliability_risk": 0.767
+    "growth_outlook": "moderate",
+    "stake_level": "high",
+    "reversibility": "high",
+    "decision_horizon_months": 4,
+    "industry": "industrial",
+    "product_quality_gap": 0.873,
+    "demand_gap": 0.954,
+    "conversion_gap": 0.737,
+    "reliability_risk": 0.845
   },
   "decision_options": [
     "fund engineering capacity",
-    "expand campaigns",
-    "invest in sales",
+    "boost marketing spend",
+    "grow sales team",
     "invest in infrastructure",
-    "cut discretionary spend"
+    "slow spending"
   ],
-  "expected_decision": "invest in infrastructure",
+  "expected_decision": "fund engineering capacity",
   "reasoning_rubric": [
-    "protect uptime",
-    "reduce risk",
-    "support scale"
+    "fix product gaps",
+    "improve retention",
+    "build differentiation"
   ],
   "evaluation": {
     "decision_weight": 0.55,

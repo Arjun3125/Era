@@ -1,34 +1,39 @@
 {
   "scenario_id": "ETH_046",
   "category": "ethics",
-  "difficulty": "expert",
-  "title": "Workforce reduction dilemma",
-  "prompt": "Revenue has slowed and expenses exceed plan. Leadership must choose a workforce strategy to stabilize finances while protecting long-term capability.",
+  "difficulty": "easy",
+  "title": "AI bias allegation",
+  "prompt": "An external report claims your AI model shows bias in a critical workflow. Decide the most ethical response.",
   "context": {
-    "company_size": "large",
-    "cash_reserve_months": 6,
-    "brand_strength": "medium",
-    "customer_loyalty": "high",
+    "company_size": "small",
+    "cash_reserve_months": 23,
+    "brand_strength": "high",
+    "customer_loyalty": "moderate",
     "regulatory_pressure": "high",
-    "time_pressure_days": 15,
+    "time_pressure_days": 45,
     "urgency_rank": 2,
-    "cost_gap": 0.82,
-    "morale_risk": 0.283,
-    "hiring_friction": 0.608,
-    "growth_outlook": "low"
+    "growth_outlook": "low",
+    "stake_level": "high",
+    "reversibility": "high",
+    "decision_horizon_months": 10,
+    "industry": "retail",
+    "harm_level": 0.787,
+    "evidence_strength": 0.815,
+    "revenue_dependency": 0.942,
+    "public_visibility": 0.46
   },
   "decision_options": [
-    "immediate layoffs",
-    "reassign employees",
-    "implement pay cuts",
-    "hiring freeze",
-    "raise bridge capital"
+    "halt release for audit",
+    "ship with safeguards",
+    "publicly disclose issues",
+    "fix internally first",
+    "dismiss the report"
   ],
-  "expected_decision": "immediate layoffs",
+  "expected_decision": "halt release for audit",
   "reasoning_rubric": [
-    "extend runway",
-    "reduce fixed costs",
-    "accept morale impact"
+    "prevent harm",
+    "validate evidence",
+    "regain trust"
   ],
   "evaluation": {
     "decision_weight": 0.55,

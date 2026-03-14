@@ -5,30 +5,35 @@
   "title": "Budget allocation decision",
   "prompt": "Your annual budget is constrained. Decide where to allocate incremental spend for the next two quarters.",
   "context": {
-    "company_size": "small",
-    "cash_reserve_months": 21,
-    "brand_strength": "medium",
+    "company_size": "mid",
+    "cash_reserve_months": 22,
+    "brand_strength": "high",
     "customer_loyalty": "high",
-    "regulatory_pressure": "high",
-    "time_pressure_days": 5,
-    "urgency_rank": 1,
-    "product_quality_gap": 0.733,
-    "demand_gap": 0.847,
-    "conversion_gap": 0.851,
-    "reliability_risk": 0.482
+    "regulatory_pressure": "medium",
+    "time_pressure_days": 8,
+    "urgency_rank": 2,
+    "growth_outlook": "low",
+    "stake_level": "high",
+    "reversibility": "high",
+    "decision_horizon_months": 17,
+    "industry": "saas",
+    "product_quality_gap": 0.23,
+    "demand_gap": 0.864,
+    "conversion_gap": 0.986,
+    "reliability_risk": 0.503
   },
   "decision_options": [
-    "invest in engineering",
+    "increase product investment",
     "expand campaigns",
-    "grow sales team",
-    "fund platform stability",
+    "invest in sales",
+    "increase reliability spend",
     "slow spending"
   ],
-  "expected_decision": "expand campaigns",
+  "expected_decision": "invest in sales",
   "reasoning_rubric": [
-    "increase demand",
-    "support growth",
-    "build pipeline"
+    "improve conversion",
+    "close deals",
+    "expand revenue"
   ],
   "evaluation": {
     "decision_weight": 0.55,

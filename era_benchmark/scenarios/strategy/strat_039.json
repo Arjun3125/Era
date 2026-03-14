@@ -1,36 +1,41 @@
 {
   "scenario_id": "STRAT_039",
   "category": "strategy",
-  "difficulty": "expert",
+  "difficulty": "hard",
   "title": "Competitor price pressure",
-  "prompt": "A rival just cut price by 26%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
+  "prompt": "A rival just cut price by 55%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
-    "company_size": "mid",
+    "company_size": "small",
     "cash_reserve_months": 21,
-    "brand_strength": "medium",
+    "brand_strength": "high",
     "customer_loyalty": "low",
-    "regulatory_pressure": "medium",
-    "time_pressure_days": 34,
+    "regulatory_pressure": "low",
+    "time_pressure_days": 29,
     "urgency_rank": 3,
-    "price_sensitivity": 0.23,
-    "r_and_d_capacity": 0.111,
-    "market_awareness": 0.582,
-    "product_breadth": 0.833,
-    "enterprise_fit": 0.786,
-    "competitor_price_cut_pct": 26
+    "growth_outlook": "moderate",
+    "stake_level": "medium",
+    "reversibility": "medium",
+    "decision_horizon_months": 19,
+    "industry": "media",
+    "price_sensitivity": 0.835,
+    "r_and_d_capacity": 0.787,
+    "market_awareness": 0.891,
+    "product_breadth": 0.792,
+    "enterprise_fit": 0.731,
+    "competitor_price_cut_pct": 55
   },
   "decision_options": [
-    "package services",
+    "discount aggressively",
     "increase differentiation",
-    "boost marketing spend",
-    "offer product bundles",
-    "shift to enterprise buyers"
+    "increase marketing",
+    "add premium features",
+    "prioritize enterprise deals"
   ],
-  "expected_decision": "package services",
+  "expected_decision": "add premium features",
   "reasoning_rubric": [
-    "raise switching costs",
-    "increase perceived value",
-    "reduce churn"
+    "avoid destructive price war",
+    "protect margin",
+    "increase differentiation"
   ],
   "evaluation": {
     "decision_weight": 0.55,

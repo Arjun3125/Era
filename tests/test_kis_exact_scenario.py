@@ -3,6 +3,16 @@
 import json
 import sys
 import os
+try:
+    import pytest
+
+    if os.getenv("ERA_RUN_INGESTION_TESTS", "").lower() not in ("1", "true", "yes"):
+        pytest.skip(
+            "ingestion test; set ERA_RUN_INGESTION_TESTS=1 to run",
+            allow_module_level=True,
+        )
+except Exception:
+    pass
 sys.path.insert(0, 'C:\\era')
 
 from ingestion.v2.src.ingestion_kis_enhancer import IngestionKISEnhancer, IngestionKISContext

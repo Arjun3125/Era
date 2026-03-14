@@ -1,11 +1,11 @@
 {
-  "version": "1.1",
-  "scenario_count": 300,
+  "version": "1.2",
+  "scenario_count": 3000,
   "categories": {
-    "strategy": 80,
-    "risk": 60,
-    "ethics": 50,
-    "resource_allocation": 60,
-    "long_term_tradeoffs": 50
+    "strategy": 800,
+    "risk": 600,
+    "ethics": 500,
+    "resource_allocation": 600,
+    "long_term_tradeoffs": 500
   }
 }

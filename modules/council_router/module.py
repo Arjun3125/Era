@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from collections.abc import Iterable
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 import math
 from typing import Any, Dict, List, Mapping, Tuple
 from pathlib import Path
@@ -20,7 +20,10 @@ from core.contracts import (
 from .engine import ModeRoutingEngine
 from .mode_orchestrator import ExecutionConfig, ModeOrchestrator
 from modules.expert_router import ExpertRouterPredictor
+from modules.moe_router import MoERouterPredictor
 from modules.council_learning import CouncilWeightPredictor
+from modules.reasoning_controller import ReasoningControllerPredictor
+from modules.mode_controller import ModeControllerPredictor
 
 
 def _coerce_iterable_items(
@@ -82,6 +85,31 @@ class ModeRoutingModule(ModulePlugin):
 
     orchestrator: ModeOrchestrator
     engine: ModeRoutingEngine
+    _reasoning_controller_cache: Dict[str, ReasoningControllerPredictor] = field(
+        default_factory=dict,
+        init=False,
+        repr=False,
+    )
+    _mode_controller_cache: Dict[str, ModeControllerPredictor] = field(
+        default_factory=dict,
+        init=False,
+        repr=False,
+    )
+    _expert_router_cache: Dict[str, ExpertRouterPredictor] = field(
+        default_factory=dict,
+        init=False,
+        repr=False,
+    )
+    _moe_router_cache: Dict[str, MoERouterPredictor] = field(
+        default_factory=dict,
+        init=False,
+        repr=False,
+    )
+    _council_weight_cache: Dict[str, CouncilWeightPredictor] = field(
+        default_factory=dict,
+        init=False,
+        repr=False,
+    )
 
     @classmethod
     def create(cls, config: ExecutionConfig | None = None) -> "ModeRoutingModule":
@@ -118,6 +146,18 @@ class ModeRoutingModule(ModulePlugin):
 
     def execute(self, context: ExecutionContext) -> ModuleResult:
         routing_context, routing_sources = self._merge_routing_context(context)
+        routing_context, mode_metadata = self._apply_mode_controller(
+            context=context,
+            routing_context=routing_context,
+        )
+        if mode_metadata:
+            routing_sources.append("mode_controller")
+        routing_context, controller_metadata = self._apply_reasoning_controller(
+            context=context,
+            routing_context=routing_context,
+        )
+        if controller_metadata:
+            routing_sources.append("reasoning_controller")
         requested_mode_raw = self._resolve_requested_mode(context, routing_context)
         user_input = context.input_contract.user_input
 
@@ -135,6 +175,13 @@ class ModeRoutingModule(ModulePlugin):
                     routing_context=routing_context,
                     user_input=user_input,
                 )
+                if not expert_weights:
+                    expert_weights = self._apply_moe_router(
+                        context=context,
+                        routing_context=routing_context,
+                        user_input=user_input,
+                        selected_ministers=selected_ministers,
+                    )
                 if not expert_weights:
                     expert_weights = self._apply_expert_router(
                         context=context,
@@ -161,6 +208,7 @@ class ModeRoutingModule(ModulePlugin):
                     "should_invoke_council": result.should_invoke_council,
                     "selected_ministers": selected_ministers,
                     "expert_weights": expert_weights,
+                    "reasoning_budget": controller_metadata.get("reasoning_budget"),
                     "mode_frame": result.frame,
                     "execution_plan": execution_plan,
                     "mode_contract": result.mode_contract,
@@ -194,6 +242,7 @@ class ModeRoutingModule(ModulePlugin):
                     "resolved_mode": fallback_mode,
                     "should_invoke_council": mode_contract.should_invoke_council,
                     "selected_ministers": [],
+                    "reasoning_budget": controller_metadata.get("reasoning_budget"),
                     "mode_frame": "Mode routing failed before framing.",
                     "execution_plan": execution_plan,
                     "mode_contract": mode_contract,
@@ -219,8 +268,123 @@ class ModeRoutingModule(ModulePlugin):
     def health(self) -> ModuleHealth:
         return ModuleHealth(ok=True, details={"mode": self.orchestrator.get_current_mode()})
 
-    @staticmethod
+    def _apply_mode_controller(
+        self,
+        *,
+        context: ExecutionContext,
+        routing_context: Mapping[str, Any],
+    ) -> tuple[Dict[str, Any], Dict[str, Any]]:
+        candidates = (
+            ModeRoutingModule._read_normalized_key(context.config, ("mode_controller_path",)),
+            ModeRoutingModule._read_normalized_key(context.metadata, ("mode_controller_path",)),
+            ModeRoutingModule._read_normalized_key(
+                context.input_contract.metadata, ("mode_controller_path",)
+            ),
+            ModeRoutingModule._read_normalized_key(routing_context, ("mode_controller_path",)),
+        )
+        controller_path = None
+        for candidate in candidates:
+            if candidate:
+                controller_path = candidate
+                break
+
+        enabled_candidates = (
+            ModeRoutingModule._read_normalized_key(context.config, ("mode_controller_enabled",)),
+            ModeRoutingModule._read_normalized_key(context.metadata, ("mode_controller_enabled",)),
+            ModeRoutingModule._read_normalized_key(
+                context.input_contract.metadata, ("mode_controller_enabled",)
+            ),
+            ModeRoutingModule._read_normalized_key(routing_context, ("mode_controller_enabled",)),
+        )
+        enabled = False
+        for candidate in enabled_candidates:
+            if isinstance(candidate, bool):
+                enabled = candidate
+                break
+            text = ModeRoutingModule._normalize_text(candidate).lower()
+            if text in {"1", "true", "yes", "on"}:
+                enabled = True
+                break
+            if text in {"0", "false", "no", "off"}:
+                enabled = False
+                break
+
+        if not enabled and not controller_path:
+            return dict(routing_context), {}
+
+        predictor = self._get_mode_controller(controller_path)
+        budget = predictor.predict_budget(context.input_contract.user_input, dict(routing_context))
+        merged = dict(routing_context)
+        merged["reasoning_budget"] = budget
+        merged["mode_controller_budget"] = budget
+        return merged, {"mode_controller_budget": budget}
+
+    def _apply_reasoning_controller(
+        self,
+        *,
+        context: ExecutionContext,
+        routing_context: Mapping[str, Any],
+    ) -> tuple[Dict[str, Any], Dict[str, Any]]:
+        candidates = (
+            ModeRoutingModule._read_normalized_key(context.config, ("reasoning_controller_path",)),
+            ModeRoutingModule._read_normalized_key(context.metadata, ("reasoning_controller_path",)),
+            ModeRoutingModule._read_normalized_key(
+                context.input_contract.metadata, ("reasoning_controller_path",)
+            ),
+            ModeRoutingModule._read_normalized_key(routing_context, ("reasoning_controller_path",)),
+        )
+        controller_path = None
+        for candidate in candidates:
+            if candidate:
+                controller_path = candidate
+                break
+
+        enabled_candidates = (
+            ModeRoutingModule._read_normalized_key(context.config, ("reasoning_controller_enabled",)),
+            ModeRoutingModule._read_normalized_key(context.metadata, ("reasoning_controller_enabled",)),
+            ModeRoutingModule._read_normalized_key(
+                context.input_contract.metadata, ("reasoning_controller_enabled",)
+            ),
+            ModeRoutingModule._read_normalized_key(routing_context, ("reasoning_controller_enabled",)),
+        )
+        enabled = False
+        for candidate in enabled_candidates:
+            if isinstance(candidate, bool):
+                enabled = candidate
+                break
+            text = ModeRoutingModule._normalize_text(candidate).lower()
+            if text in {"1", "true", "yes", "on"}:
+                enabled = True
+                break
+            if text in {"0", "false", "no", "off"}:
+                enabled = False
+                break
+
+        existing_budget = None
+        for key in ("reasoning_budget", "mode_controller_budget"):
+            if key in routing_context:
+                try:
+                    existing_budget = int(routing_context[key])
+                    break
+                except (TypeError, ValueError):
+                    continue
+
+        if existing_budget is None and not enabled and not controller_path:
+            return dict(routing_context), {}
+
+        if existing_budget is None:
+            predictor = self._get_reasoning_controller(controller_path)
+            budget = predictor.predict_budget(context.input_contract.user_input, dict(routing_context))
+        else:
+            budget = existing_budget
+        overrides = ReasoningControllerPredictor.budget_overrides(budget)
+        merged = dict(routing_context)
+        merged.update(overrides)
+        merged["reasoning_budget"] = budget
+        return merged, {"reasoning_budget": budget}
+
     def _apply_expert_router(
+        self,
         *,
         context: ExecutionContext,
         routing_context: Mapping[str, Any],
@@ -261,7 +425,7 @@ class ModeRoutingModule(ModulePlugin):
         if not enabled and not router_path:
             return {}
 
-        predictor = ExpertRouterPredictor(Path(router_path) if router_path else None)
+        predictor = self._get_expert_router(router_path)
         weights = predictor.predict(user_input, dict(routing_context))
 
         top_k = None
@@ -284,8 +448,73 @@ class ModeRoutingModule(ModulePlugin):
             ranked = ranked[: max(1, top_k)]
         return {name: score for name, score in ranked if score > 0}
 
-    @staticmethod
+    def _apply_moe_router(
+        self,
+        *,
+        context: ExecutionContext,
+        routing_context: Mapping[str, Any],
+        user_input: str,
+        selected_ministers: List[str],
+    ) -> Dict[str, float]:
+        candidates = (
+            ModeRoutingModule._read_normalized_key(context.config, ("moe_router_path",)),
+            ModeRoutingModule._read_normalized_key(context.metadata, ("moe_router_path",)),
+            ModeRoutingModule._read_normalized_key(context.input_contract.metadata, ("moe_router_path",)),
+            ModeRoutingModule._read_normalized_key(routing_context, ("moe_router_path",)),
+        )
+        router_path = None
+        for candidate in candidates:
+            if candidate:
+                router_path = candidate
+                break
+
+        enabled_candidates = (
+            ModeRoutingModule._read_normalized_key(context.config, ("moe_router_enabled",)),
+            ModeRoutingModule._read_normalized_key(context.metadata, ("moe_router_enabled",)),
+            ModeRoutingModule._read_normalized_key(context.input_contract.metadata, ("moe_router_enabled",)),
+            ModeRoutingModule._read_normalized_key(routing_context, ("moe_router_enabled",)),
+        )
+        enabled = False
+        for candidate in enabled_candidates:
+            if isinstance(candidate, bool):
+                enabled = candidate
+                break
+            text = ModeRoutingModule._normalize_text(candidate).lower()
+            if text in {"1", "true", "yes", "on"}:
+                enabled = True
+                break
+            if text in {"0", "false", "no", "off"}:
+                enabled = False
+                break
+
+        if not enabled and not router_path:
+            return {}
+
+        predictor = self._get_moe_router(router_path)
+        weights = predictor.predict(user_input, dict(routing_context))
+
+        top_k = None
+        for candidate in (
+            ModeRoutingModule._read_normalized_key(context.config, ("moe_router_top_k",)),
+            ModeRoutingModule._read_normalized_key(context.metadata, ("moe_router_top_k",)),
+            ModeRoutingModule._read_normalized_key(context.input_contract.metadata, ("moe_router_top_k",)),
+            ModeRoutingModule._read_normalized_key(routing_context, ("moe_router_top_k",)),
+        ):
+            if candidate is None:
+                continue
+            try:
+                top_k = int(candidate)
+                break
+            except (TypeError, ValueError):
+                continue
+
+        ranked = sorted(weights.items(), key=lambda item: item[1], reverse=True)
+        if top_k:
+            ranked = ranked[: max(1, top_k)]
+        return {name: score for name, score in ranked if score > 0}
+
     def _apply_weight_model(
+        self,
         *,
         context: ExecutionContext,
         routing_context: Mapping[str, Any],
@@ -325,7 +554,7 @@ class ModeRoutingModule(ModulePlugin):
         if not enabled and not model_path:
             return {}
 
-        predictor = CouncilWeightPredictor(Path(model_path) if model_path else None)
+        predictor = self._get_council_weight_model(model_path)
         weights = predictor.predict(user_input, dict(routing_context))
 
         top_k = None
@@ -405,6 +634,66 @@ class ModeRoutingModule(ModulePlugin):
             seen.add(source)
             deduped_sources.append(source)
         return merged, deduped_sources
+
+    def _get_reasoning_controller(
+        self,
+        path: Any,
+    ) -> ReasoningControllerPredictor:
+        key = str(path or "")
+        cached = self._reasoning_controller_cache.get(key)
+        if cached is not None:
+            return cached
+        predictor = ReasoningControllerPredictor(Path(path) if path else None)
+        self._reasoning_controller_cache[key] = predictor
+        return predictor
+
+    def _get_mode_controller(
+        self,
+        path: Any,
+    ) -> ModeControllerPredictor:
+        key = str(path or "")
+        cached = self._mode_controller_cache.get(key)
+        if cached is not None:
+            return cached
+        predictor = ModeControllerPredictor(Path(path) if path else None)
+        self._mode_controller_cache[key] = predictor
+        return predictor
+
+    def _get_expert_router(
+        self,
+        path: Any,
+    ) -> ExpertRouterPredictor:
+        key = str(path or "")
+        cached = self._expert_router_cache.get(key)
+        if cached is not None:
+            return cached
+        predictor = ExpertRouterPredictor(Path(path) if path else None)
+        self._expert_router_cache[key] = predictor
+        return predictor
+
+    def _get_moe_router(
+        self,
+        path: Any,
+    ) -> MoERouterPredictor:
+        key = str(path or "")
+        cached = self._moe_router_cache.get(key)
+        if cached is not None:
+            return cached
+        predictor = MoERouterPredictor(Path(path) if path else None)
+        self._moe_router_cache[key] = predictor
+        return predictor
+
+    def _get_council_weight_model(
+        self,
+        path: Any,
+    ) -> CouncilWeightPredictor:
+        key = str(path or "")
+        cached = self._council_weight_cache.get(key)
+        if cached is not None:
+            return cached
+        predictor = CouncilWeightPredictor(Path(path) if path else None)
+        self._council_weight_cache[key] = predictor
+        return predictor
 
     def _safe_execution_plan(self, mode: str) -> Dict[str, bool]:
         defaults = self._execution_plan_defaults()

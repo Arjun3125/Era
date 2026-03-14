@@ -1,34 +1,39 @@
 {
   "scenario_id": "ETH_039",
   "category": "ethics",
-  "difficulty": "expert",
-  "title": "Workforce reduction dilemma",
-  "prompt": "Revenue has slowed and expenses exceed plan. Leadership must choose a workforce strategy to stabilize finances while protecting long-term capability.",
+  "difficulty": "hard",
+  "title": "AI bias allegation",
+  "prompt": "An external report claims your AI model shows bias in a critical workflow. Decide the most ethical response.",
   "context": {
-    "company_size": "mid",
-    "cash_reserve_months": 5,
+    "company_size": "large",
+    "cash_reserve_months": 12,
     "brand_strength": "medium",
-    "customer_loyalty": "moderate",
-    "regulatory_pressure": "medium",
-    "time_pressure_days": 28,
+    "customer_loyalty": "low",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 56,
     "urgency_rank": 3,
-    "cost_gap": 0.888,
-    "morale_risk": 0.469,
-    "hiring_friction": 0.438,
-    "growth_outlook": "low"
+    "growth_outlook": "moderate",
+    "stake_level": "low",
+    "reversibility": "low",
+    "decision_horizon_months": 19,
+    "industry": "media",
+    "harm_level": 0.377,
+    "evidence_strength": 0.823,
+    "revenue_dependency": 0.797,
+    "public_visibility": 0.094
   },
   "decision_options": [
-    "layoff now",
-    "reassign employees",
-    "temporary salary reduction",
-    "pause hiring",
-    "raise bridge capital"
+    "pause and audit",
+    "release with mitigation",
+    "transparent disclosure",
+    "halt release for audit",
+    "deny claims"
   ],
-  "expected_decision": "temporary salary reduction",
+  "expected_decision": "halt release for audit",
   "reasoning_rubric": [
-    "share burden",
-    "avoid layoffs",
-    "improve runway"
+    "prevent harm",
+    "validate evidence",
+    "regain trust"
   ],
   "evaluation": {
     "decision_weight": 0.55,

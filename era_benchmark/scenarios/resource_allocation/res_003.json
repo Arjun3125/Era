@@ -6,29 +6,34 @@
   "prompt": "Your annual budget is constrained. Decide where to allocate incremental spend for the next two quarters.",
   "context": {
     "company_size": "large",
-    "cash_reserve_months": 8,
-    "brand_strength": "high",
-    "customer_loyalty": "low",
-    "regulatory_pressure": "high",
-    "time_pressure_days": 14,
+    "cash_reserve_months": 20,
+    "brand_strength": "low",
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "medium",
+    "time_pressure_days": 44,
     "urgency_rank": 1,
-    "product_quality_gap": 0.617,
-    "demand_gap": 0.379,
-    "conversion_gap": 0.787,
-    "reliability_risk": 0.243
+    "growth_outlook": "high",
+    "stake_level": "low",
+    "reversibility": "medium",
+    "decision_horizon_months": 18,
+    "industry": "retail",
+    "product_quality_gap": 0.803,
+    "demand_gap": 0.822,
+    "conversion_gap": 0.883,
+    "reliability_risk": 0.854
   },
   "decision_options": [
     "invest in engineering",
-    "expand campaigns",
-    "invest in sales",
-    "fund platform stability",
-    "expand sales coverage"
+    "boost marketing spend",
+    "increase reliability spend",
+    "invest in infrastructure",
+    "reduce burn"
   ],
-  "expected_decision": "expand sales coverage",
+  "expected_decision": "increase reliability spend",
   "reasoning_rubric": [
-    "improve conversion",
-    "close deals",
-    "expand revenue"
+    "protect uptime",
+    "reduce risk",
+    "support scale"
   ],
   "evaluation": {
     "decision_weight": 0.55,

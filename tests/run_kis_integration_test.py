@@ -9,6 +9,17 @@ Complete KIS Integration Test
 import json
 import os
 import sys
+
+try:
+    import pytest
+
+    if os.getenv("ERA_RUN_INGESTION_TESTS", "").lower() not in ("1", "true", "yes"):
+        pytest.skip(
+            "ingestion test; set ERA_RUN_INGESTION_TESTS=1 to run",
+            allow_module_level=True,
+        )
+except Exception:
+    pass
 import shutil
 from pathlib import Path
 
@@ -213,3 +224,7 @@ def main():
 if __name__ == "__main__":
     success = main()
     sys.exit(0 if success else 1)
+
+
+def test_kis_integration():
+    assert main() is True

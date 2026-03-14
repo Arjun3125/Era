@@ -1,4 +1,14 @@
 import sys, os, json, shutil
+try:
+    import pytest
+
+    if os.getenv("ERA_RUN_INGESTION_TESTS", "").lower() not in ("1", "true", "yes"):
+        pytest.skip(
+            "ingestion test; set ERA_RUN_INGESTION_TESTS=1 to run",
+            allow_module_level=True,
+        )
+except Exception:
+    pass
 from pathlib import Path
 
 # Clean

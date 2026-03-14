@@ -43,16 +43,7 @@ metrics_store/
 rag_cache/
 rag_storage/
 logs/
-experiments/results/
-data/value_model/
-data/policy_model/
 *.log
-data/policy_model/
-data/value_model/
-data/*/model_v1_1_*_k/
-data/*/datasets/*_knowledge.jsonl
-data/simulated/
-data/council_learning/
 
 # Data files - large PDFs
 data/books/*.pdf
@@ -60,11 +51,28 @@ data/books/*.pdf
 # Local test temp dirs
 .pytest_tmp/
 .pytest_tmp_run/
+_pytest_tmp/
+_pytest_tmp_run/
+.pytest_cache/
+.tmp/
 
 # Evaluation-generated artifacts
 evaluation/results/
 evaluation/models/
 evaluation/baselines/
+
+# Experiment outputs
+experiments/results/
+experiments/traces/
+experiments/plots/
+experiments/reports/
+
+# Model artifacts
+data/policy_model/
+data/value_model/
+data/reasoning_controller/
+data/calibration/
+data/scenario_index*
 
 # Local analysis/output artifacts
 audit_temp/

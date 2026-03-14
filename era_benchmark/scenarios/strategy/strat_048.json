@@ -1,33 +1,41 @@
 {
   "scenario_id": "STRAT_048",
   "category": "strategy",
-  "difficulty": "hard",
-  "title": "Market entry decision",
-  "prompt": "Your company is considering entry into a new region with uncertain demand and regulatory complexity. Decide the best market entry strategy.",
+  "difficulty": "expert",
+  "title": "Competitor price pressure",
+  "prompt": "A rival just cut price by 30%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
-    "company_size": "large",
-    "cash_reserve_months": 8,
-    "brand_strength": "low",
+    "company_size": "small",
+    "cash_reserve_months": 20,
+    "brand_strength": "high",
     "customer_loyalty": "low",
     "regulatory_pressure": "low",
-    "time_pressure_days": 21,
-    "urgency_rank": 3,
-    "market_uncertainty": 0.426,
-    "local_partner_available": 0.952,
-    "strategic_importance": 0.841
+    "time_pressure_days": 29,
+    "urgency_rank": 1,
+    "growth_outlook": "moderate",
+    "stake_level": "low",
+    "reversibility": "low",
+    "decision_horizon_months": 23,
+    "industry": "saas",
+    "price_sensitivity": 0.449,
+    "r_and_d_capacity": 0.148,
+    "market_awareness": 0.132,
+    "product_breadth": 0.879,
+    "enterprise_fit": 0.622,
+    "competitor_price_cut_pct": 30
   },
   "decision_options": [
-    "launch immediately",
-    "joint venture with local player",
-    "form a local partnership",
-    "buy a local competitor",
-    "pause entry indefinitely"
+    "discount aggressively",
+    "increase differentiation",
+    "increase marketing",
+    "offer product bundles",
+    "prioritize enterprise deals"
   ],
-  "expected_decision": "joint venture with local player",
+  "expected_decision": "offer product bundles",
   "reasoning_rubric": [
-    "share risk",
-    "gain local expertise",
-    "speed market access"
+    "raise switching costs",
+    "increase perceived value",
+    "reduce churn"
   ],
   "evaluation": {
     "decision_weight": 0.55,

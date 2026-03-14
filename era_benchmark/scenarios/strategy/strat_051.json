@@ -1,33 +1,41 @@
 {
   "scenario_id": "STRAT_051",
   "category": "strategy",
-  "difficulty": "medium",
-  "title": "Market entry decision",
-  "prompt": "Your company is considering entry into a new region with uncertain demand and regulatory complexity. Decide the best market entry strategy.",
+  "difficulty": "hard",
+  "title": "Competitor price pressure",
+  "prompt": "A rival just cut price by 58%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
     "company_size": "mid",
     "cash_reserve_months": 21,
     "brand_strength": "medium",
-    "customer_loyalty": "high",
-    "regulatory_pressure": "medium",
-    "time_pressure_days": 57,
-    "urgency_rank": 3,
-    "market_uncertainty": 0.104,
-    "local_partner_available": 0.0,
-    "strategic_importance": 0.863
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 28,
+    "urgency_rank": 2,
+    "growth_outlook": "low",
+    "stake_level": "medium",
+    "reversibility": "high",
+    "decision_horizon_months": 20,
+    "industry": "health",
+    "price_sensitivity": 0.84,
+    "r_and_d_capacity": 0.522,
+    "market_awareness": 0.694,
+    "product_breadth": 0.367,
+    "enterprise_fit": 0.193,
+    "competitor_price_cut_pct": 58
   },
   "decision_options": [
-    "go live now",
-    "localize before launch",
-    "form a local partnership",
-    "acquire a local startup",
-    "strategic acquisition"
+    "discount aggressively",
+    "add premium features",
+    "boost marketing spend",
+    "offer product bundles",
+    "prioritize enterprise deals"
   ],
-  "expected_decision": "strategic acquisition",
+  "expected_decision": "discount aggressively",
   "reasoning_rubric": [
-    "buy market access",
-    "accelerate entry",
-    "use cash advantage"
+    "capture price-sensitive demand",
+    "defend market share",
+    "accept margin pressure"
   ],
   "evaluation": {
     "decision_weight": 0.55,

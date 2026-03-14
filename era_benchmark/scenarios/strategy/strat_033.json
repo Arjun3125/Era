@@ -1,36 +1,41 @@
 {
   "scenario_id": "STRAT_033",
   "category": "strategy",
-  "difficulty": "medium",
+  "difficulty": "expert",
   "title": "Competitor price pressure",
-  "prompt": "A rival just cut price by 24%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
+  "prompt": "A rival just cut price by 51%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
-    "company_size": "small",
+    "company_size": "mid",
     "cash_reserve_months": 21,
     "brand_strength": "low",
     "customer_loyalty": "low",
     "regulatory_pressure": "high",
-    "time_pressure_days": 20,
-    "urgency_rank": 1,
-    "price_sensitivity": 0.461,
-    "r_and_d_capacity": 0.407,
-    "market_awareness": 0.162,
-    "product_breadth": 0.129,
-    "enterprise_fit": 0.238,
-    "competitor_price_cut_pct": 24
+    "time_pressure_days": 17,
+    "urgency_rank": 3,
+    "growth_outlook": "moderate",
+    "stake_level": "medium",
+    "reversibility": "high",
+    "decision_horizon_months": 12,
+    "industry": "fintech",
+    "price_sensitivity": 0.172,
+    "r_and_d_capacity": 0.651,
+    "market_awareness": 0.099,
+    "product_breadth": 0.511,
+    "enterprise_fit": 0.679,
+    "competitor_price_cut_pct": 51
   },
   "decision_options": [
-    "temporary price cut",
-    "increase differentiation",
     "lower price",
-    "bundle services",
-    "shift to enterprise buyers"
+    "increase differentiation",
+    "shift to enterprise buyers",
+    "offer product bundles",
+    "focus enterprise tier"
   ],
-  "expected_decision": "lower price",
+  "expected_decision": "shift to enterprise buyers",
   "reasoning_rubric": [
-    "capture price-sensitive demand",
-    "defend market share",
-    "accept margin pressure"
+    "prioritize high-value accounts",
+    "protect margin",
+    "stabilize revenue"
   ],
   "evaluation": {
     "decision_weight": 0.55,

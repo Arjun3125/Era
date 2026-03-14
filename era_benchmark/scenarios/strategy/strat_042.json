@@ -1,33 +1,41 @@
 {
   "scenario_id": "STRAT_042",
   "category": "strategy",
-  "difficulty": "hard",
-  "title": "Market entry decision",
-  "prompt": "Your company is considering entry into a new region with uncertain demand and regulatory complexity. Decide the best market entry strategy.",
+  "difficulty": "expert",
+  "title": "Competitor price pressure",
+  "prompt": "A rival just cut price by 53%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
     "company_size": "large",
-    "cash_reserve_months": 15,
+    "cash_reserve_months": 17,
     "brand_strength": "medium",
-    "customer_loyalty": "moderate",
-    "regulatory_pressure": "high",
-    "time_pressure_days": 56,
-    "urgency_rank": 2,
-    "market_uncertainty": 0.593,
-    "local_partner_available": 0.0,
-    "strategic_importance": 0.643
+    "customer_loyalty": "low",
+    "regulatory_pressure": "medium",
+    "time_pressure_days": 45,
+    "urgency_rank": 3,
+    "growth_outlook": "high",
+    "stake_level": "high",
+    "reversibility": "high",
+    "decision_horizon_months": 11,
+    "industry": "industrial",
+    "price_sensitivity": 0.797,
+    "r_and_d_capacity": 0.629,
+    "market_awareness": 0.408,
+    "product_breadth": 0.69,
+    "enterprise_fit": 0.594,
+    "competitor_price_cut_pct": 53
   },
   "decision_options": [
-    "go live now",
-    "localize before launch",
-    "form a local partnership",
-    "acquire a local startup",
-    "postpone for localization"
+    "temporary price cut",
+    "increase differentiation",
+    "run aggressive campaigns",
+    "add premium features",
+    "shift to enterprise buyers"
   ],
-  "expected_decision": "postpone for localization",
+  "expected_decision": "add premium features",
   "reasoning_rubric": [
-    "reduce regulatory risk",
-    "adapt to local needs",
-    "avoid premature launch"
+    "avoid destructive price war",
+    "protect margin",
+    "increase differentiation"
   ],
   "evaluation": {
     "decision_weight": 0.55,

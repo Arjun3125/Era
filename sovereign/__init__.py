@@ -1,0 +1,1 @@
+"""Sovereign package stub."""

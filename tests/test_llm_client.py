@@ -11,6 +11,20 @@ Verifies that:
 
 import sys
 import os
+# Skip in pytest unless explicitly enabled (requires local Ollama)
+if "pytest" in sys.modules:
+    import pytest
+
+    if os.getenv("ERA_RUN_OLLAMA_TESTS", "").lower() not in ("1", "true", "yes"):
+        pytest.skip(
+            "requires Ollama; set ERA_RUN_OLLAMA_TESTS=1 to run",
+            allow_module_level=True,
+        )
+    if os.getenv("ERA_RUN_LONG_LLM_TESTS", "").lower() not in ("1", "true", "yes"):
+        pytest.skip(
+            "long-running LLM test; set ERA_RUN_LONG_LLM_TESTS=1 to run",
+            allow_module_level=True,
+        )
 
 sys.path.insert(0, r'C:\era')
 
@@ -49,6 +63,13 @@ if not llm.client:
     print('[WARN] Ollama client not available - cannot test')
     print('  (Install OllamaClient to enable actual LLM calls)')
     print('  Skipping remaining tests')
+    if "pytest" in sys.modules:
+        import pytest
+
+        pytest.skip(
+            "Ollama client unavailable for LLM integration test",
+            allow_module_level=True,
+        )
     sys.exit(0)
 
 try:

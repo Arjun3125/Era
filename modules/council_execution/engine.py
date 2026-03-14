@@ -57,6 +57,10 @@ class _NativeMinister:
 
     def analyze(self, user_input: str, context: Mapping[str, Any]) -> Dict[str, Any]:
         text = str(user_input or "").lower()
+        option_text = ""
+        if "option:" in text:
+            option_text = text.split("option:", 1)[-1].strip()
+            option_text = option_text.splitlines()[0].strip()
         domains = {str(item).strip().lower() for item in (context.get("domains") or [])}
         urgency = _native_keyword_score(text, _NATIVE_SPEED_KEYWORDS)
         risk_score = _native_keyword_score(text, _NATIVE_RISK_KEYWORDS)
@@ -71,6 +75,35 @@ class _NativeMinister:
             stance = "support"
         elif uncertainty >= 0.35:
             stance = "neutral"
+
+        if option_text:
+            support_terms = {
+                "risk": ["contain", "patch", "audit", "shut", "mitigate", "harden", "pause", "halt", "stop"],
+                "risk_resources": ["diversify", "backup", "buffer", "stockpile", "dual-source"],
+                "grand_strategist": ["expand", "acquire", "partner", "launch", "enter", "differentiate", "growth"],
+                "timing": ["launch now", "immediately", "move fast", "now"],
+                "technology": ["reliability", "infrastructure", "stability", "platform"],
+                "legitimacy": ["disclose", "transparent", "audit", "compliance", "communicate", "open"],
+                "truth": ["disclose", "transparent", "communicate", "open"],
+                "optionality": ["pilot", "beta", "limited", "experiment", "pause", "delay"],
+                "data": ["monitor", "measure", "analyze", "report", "review"],
+                "power": ["aggressive", "attack", "price cut", "dominate"],
+            }
+            oppose_terms = {
+                "risk": ["ignore", "deny", "do nothing", "monitor only", "release", "ship", "launch"],
+                "legitimacy": ["deny", "quiet", "cover", "ignore", "dismiss"],
+                "truth": ["deny", "quiet", "cover", "dismiss"],
+                "timing": ["delay", "pause", "wait"],
+                "power": ["retreat", "exit", "abandon", "withdraw"],
+            }
+            for term in support_terms.get(self.name, []):
+                if term in option_text:
+                    stance = "support"
+                    break
+            for term in oppose_terms.get(self.name, []):
+                if term in option_text:
+                    stance = "oppose"
+                    break
 
         confidence = 0.55
         if stance == "support":
@@ -309,6 +342,27 @@ class CouncilExecutionEngine:
             available_ministers=available_ministers,
             warnings=warnings,
         )
+
+        learned_ministers = self._load_learned_ministers(
+            minister_names,
+            context_map,
+            warnings,
+        )
+        if learned_ministers is not None:
+            ministers_map = learned_ministers
+            minister_key_map = {
+                str(name).strip().lower(): name
+                for name in ministers_map.keys()
+                if str(name).strip()
+            }
+            available_ministers = set(minister_key_map.keys())
+            minister_names = self._resolve_minister_names(
+                selected_ministers=selected_ministers,
+                resolved_mode=resolved_mode,
+                context=context_map,
+                available_ministers=available_ministers,
+                warnings=warnings,
+            )
         minister_positions, failed_ministers, execution_warnings = self._collect_minister_positions(
             ministers=ministers_map,
             minister_key_map=minister_key_map,
@@ -424,6 +478,43 @@ class CouncilExecutionEngine:
                 )
 
         return positions, failed, warnings
+
+    @staticmethod
+    def _load_learned_ministers(
+        minister_names: List[str],
+        context: Dict[str, Any],
+        warnings: List[str],
+    ) -> Dict[str, Any] | None:
+        enable = context.get("use_learned_ministers") or context.get("minister_policy_path")
+        if not enable:
+            return None
+        policy_root = context.get("minister_policy_path") or "data/minister_policies"
+        try:
+            from pathlib import Path
+
+            from modules.minister_policies import MinisterPolicyPredictor, PolicyMinister
+        except Exception as exc:
+            warnings.append(f"Failed to load minister policies: {exc}")
+            return None
+
+        root = Path(str(policy_root))
+        if not root.exists():
+            warnings.append(f"Minister policy path not found: {root}")
+            return None
+
+        learned: Dict[str, Any] = {}
+        for name in minister_names:
+            model_dir = root / name
+            if not model_dir.exists():
+                warnings.append(f"Minister policy missing for '{name}', fallback to native.")
+                return None
+            try:
+                predictor = MinisterPolicyPredictor(model_dir=model_dir)
+                learned[name] = PolicyMinister(name=name, predictor=predictor)
+            except Exception as exc:
+                warnings.append(f"Failed to load policy for {name}: {exc}")
+                return None
+        return learned
 
     @staticmethod
     def _normalize_position(

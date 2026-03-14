@@ -1,34 +1,39 @@
 {
   "scenario_id": "ETH_029",
   "category": "ethics",
-  "difficulty": "expert",
-  "title": "Workforce reduction dilemma",
-  "prompt": "Revenue has slowed and expenses exceed plan. Leadership must choose a workforce strategy to stabilize finances while protecting long-term capability.",
+  "difficulty": "medium",
+  "title": "AI bias allegation",
+  "prompt": "An external report claims your AI model shows bias in a critical workflow. Decide the most ethical response.",
   "context": {
-    "company_size": "large",
-    "cash_reserve_months": 6,
+    "company_size": "mid",
+    "cash_reserve_months": 4,
     "brand_strength": "medium",
-    "customer_loyalty": "low",
+    "customer_loyalty": "high",
     "regulatory_pressure": "medium",
-    "time_pressure_days": 11,
-    "urgency_rank": 1,
-    "cost_gap": 0.868,
-    "morale_risk": 0.131,
-    "hiring_friction": 0.485,
-    "growth_outlook": "moderate"
+    "time_pressure_days": 56,
+    "urgency_rank": 2,
+    "growth_outlook": "high",
+    "stake_level": "medium",
+    "reversibility": "medium",
+    "decision_horizon_months": 20,
+    "industry": "media",
+    "harm_level": 0.492,
+    "evidence_strength": 0.809,
+    "revenue_dependency": 0.922,
+    "public_visibility": 0.165
   },
   "decision_options": [
-    "layoff now",
-    "redeploy staff",
-    "across-the-board cuts",
-    "stop new hiring",
-    "raise bridge capital"
+    "stop rollout for review",
+    "release with mitigation",
+    "transparent disclosure",
+    "address silently",
+    "reject allegations"
   ],
-  "expected_decision": "raise bridge capital",
+  "expected_decision": "stop rollout for review",
   "reasoning_rubric": [
-    "protect growth",
-    "extend runway",
-    "use capital access"
+    "prevent harm",
+    "validate evidence",
+    "regain trust"
   ],
   "evaluation": {
     "decision_weight": 0.55,

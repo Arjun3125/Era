@@ -1,33 +1,41 @@
 {
   "scenario_id": "STRAT_064",
   "category": "strategy",
-  "difficulty": "medium",
-  "title": "Market entry decision",
-  "prompt": "Your company is considering entry into a new region with uncertain demand and regulatory complexity. Decide the best market entry strategy.",
+  "difficulty": "expert",
+  "title": "Competitor price pressure",
+  "prompt": "A rival just cut price by 63%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
-    "company_size": "large",
-    "cash_reserve_months": 17,
+    "company_size": "small",
+    "cash_reserve_months": 20,
     "brand_strength": "high",
-    "customer_loyalty": "moderate",
-    "regulatory_pressure": "medium",
-    "time_pressure_days": 55,
-    "urgency_rank": 1,
-    "market_uncertainty": 0.138,
-    "local_partner_available": 0.0,
-    "strategic_importance": 0.512
+    "customer_loyalty": "low",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 7,
+    "urgency_rank": 3,
+    "growth_outlook": "moderate",
+    "stake_level": "low",
+    "reversibility": "high",
+    "decision_horizon_months": 24,
+    "industry": "fintech",
+    "price_sensitivity": 0.447,
+    "r_and_d_capacity": 0.567,
+    "market_awareness": 0.151,
+    "product_breadth": 0.872,
+    "enterprise_fit": 0.333,
+    "competitor_price_cut_pct": 63
   },
   "decision_options": [
-    "launch immediately",
-    "localize before launch",
-    "buy a local competitor",
-    "acquire a local startup",
-    "exit the opportunity"
+    "discount aggressively",
+    "package services",
+    "boost marketing spend",
+    "bundle services",
+    "prioritize enterprise deals"
   ],
-  "expected_decision": "buy a local competitor",
+  "expected_decision": "package services",
   "reasoning_rubric": [
-    "buy market access",
-    "accelerate entry",
-    "use cash advantage"
+    "raise switching costs",
+    "increase perceived value",
+    "reduce churn"
   ],
   "evaluation": {
     "decision_weight": 0.55,

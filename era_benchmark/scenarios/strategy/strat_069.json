@@ -2,32 +2,40 @@
   "scenario_id": "STRAT_069",
   "category": "strategy",
   "difficulty": "expert",
-  "title": "Market entry decision",
-  "prompt": "Your company is considering entry into a new region with uncertain demand and regulatory complexity. Decide the best market entry strategy.",
+  "title": "Competitor price pressure",
+  "prompt": "A rival just cut price by 16%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
-    "company_size": "large",
-    "cash_reserve_months": 15,
-    "brand_strength": "medium",
+    "company_size": "small",
+    "cash_reserve_months": 22,
+    "brand_strength": "high",
     "customer_loyalty": "high",
     "regulatory_pressure": "high",
-    "time_pressure_days": 46,
+    "time_pressure_days": 5,
     "urgency_rank": 2,
-    "market_uncertainty": 0.162,
-    "local_partner_available": 1.0,
-    "strategic_importance": 0.853
+    "growth_outlook": "moderate",
+    "stake_level": "medium",
+    "reversibility": "low",
+    "decision_horizon_months": 16,
+    "industry": "retail",
+    "price_sensitivity": 0.759,
+    "r_and_d_capacity": 0.338,
+    "market_awareness": 0.238,
+    "product_breadth": 0.676,
+    "enterprise_fit": 0.533,
+    "competitor_price_cut_pct": 16
   },
   "decision_options": [
-    "go live now",
-    "delay and localize",
-    "buy a local competitor",
-    "strategic acquisition",
-    "pause entry indefinitely"
+    "discount aggressively",
+    "bundle services",
+    "boost marketing spend",
+    "package services",
+    "shift to enterprise buyers"
   ],
-  "expected_decision": "buy a local competitor",
+  "expected_decision": "bundle services",
   "reasoning_rubric": [
-    "buy market access",
-    "accelerate entry",
-    "use cash advantage"
+    "raise switching costs",
+    "increase perceived value",
+    "reduce churn"
   ],
   "evaluation": {
     "decision_weight": 0.55,

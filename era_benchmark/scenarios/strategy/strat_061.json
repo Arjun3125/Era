@@ -1,33 +1,41 @@
 {
   "scenario_id": "STRAT_061",
   "category": "strategy",
-  "difficulty": "medium",
-  "title": "Market entry decision",
-  "prompt": "Your company is considering entry into a new region with uncertain demand and regulatory complexity. Decide the best market entry strategy.",
+  "difficulty": "hard",
+  "title": "Competitor price pressure",
+  "prompt": "A rival just cut price by 30%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
     "company_size": "small",
     "cash_reserve_months": 21,
-    "brand_strength": "medium",
-    "customer_loyalty": "low",
+    "brand_strength": "low",
+    "customer_loyalty": "moderate",
     "regulatory_pressure": "low",
-    "time_pressure_days": 25,
+    "time_pressure_days": 15,
     "urgency_rank": 1,
-    "market_uncertainty": 0.2,
-    "local_partner_available": 0.0,
-    "strategic_importance": 0.833
+    "growth_outlook": "moderate",
+    "stake_level": "medium",
+    "reversibility": "low",
+    "decision_horizon_months": 5,
+    "industry": "saas",
+    "price_sensitivity": 0.854,
+    "r_and_d_capacity": 0.683,
+    "market_awareness": 0.107,
+    "product_breadth": 0.464,
+    "enterprise_fit": 0.863,
+    "competitor_price_cut_pct": 30
   },
   "decision_options": [
-    "go live now",
-    "postpone for localization",
-    "strategic acquisition",
-    "acquire a local startup",
-    "pause entry indefinitely"
+    "lower price",
+    "increase differentiation",
+    "increase marketing",
+    "offer product bundles",
+    "focus enterprise tier"
   ],
-  "expected_decision": "strategic acquisition",
+  "expected_decision": "lower price",
   "reasoning_rubric": [
-    "buy market access",
-    "accelerate entry",
-    "use cash advantage"
+    "capture price-sensitive demand",
+    "defend market share",
+    "accept margin pressure"
   ],
   "evaluation": {
     "decision_weight": 0.55,

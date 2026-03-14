@@ -45,7 +45,7 @@ def main() -> None:
     parser.add_argument("--dataset", default="data/value_model/datasets/benchmark_v1_1.jsonl")
     parser.add_argument("--scenarios-root", default="era_benchmark")
     parser.add_argument("--output", default="data/value_model/tuning_v1_1")
-    parser.add_argument("--backend", default="tfidf", help="tfidf|sentence_transformers")
+    parser.add_argument("--backend", default="tfidf", help="tfidf|sentence_transformers|scenario_encoder")
     parser.add_argument("--model-name", default="", help="SentenceTransformer model name.")
     parser.add_argument("--st-local-only", action="store_true", help="Use local-only sentence-transformers weights.")
     parser.add_argument("--seed", type=int, default=42)

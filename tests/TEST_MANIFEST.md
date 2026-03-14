@@ -3,6 +3,24 @@
 ## Overview
 Complete test and verification suite for the ERA (Persona) system. All tests organized under `C:\era\tests\`.
 
+## Refactor Coverage Additions (2026-03-11)
+Added targeted tests for the refactored architecture:
+- `test_failure_analysis.py` (failure classification + aggregation)
+- `test_scenario_memory_index.py` (scenario memory index + retrieval formatting)
+- `test_budget_metrics.py` (budget efficiency computations)
+- `test_evaluation_engine_smoke.py` (EvaluationRunner smoke test)
+- `test_section_smoke.py` (pipeline module catalog + stage verification)
+- `test_uncertainty_calibration.py` (temperature + isotonic + calibration metrics)
+- `test_rl_components.py` (GAE, buffers, PPO networks, trainer smoke)
+- `test_decision_simulator_and_engine.py` (DecisionSimulator + OptionEvaluator)
+- `test_scenario_memory_module.py` (ScenarioMemoryModule execution path)
+- `test_expert_routing.py` (expert router + MoE helpers)
+- `test_learning_core_features.py` (feature extraction + dataset utilities)
+- `test_policy_value_models.py` (policy/value predictor round-trip)
+- `test_controllers.py` (reasoning + mode controllers)
+- `test_experiment_infra.py` (scheduler + experiment runner)
+- `test_evaluation_engine_utils.py` (option matching + rubric + calibration)
+
 ## Running Tests
 
 ### Run all tests
@@ -71,8 +89,6 @@ pytest tests/test_embed.py -v
 - `test_async_embed_debug.py` - Async embedding debugging
 
 **Ingestion & Processing (3 files)**
-- `test_e2e_ingestion.py` - End-to-end data ingestion pipeline
-- `test_async_ingest.py` - Asynchronous ingestion operations
 - `test_minister_converter.py` - Minister data structure conversion
 
 **Generation & LLM (3 files)**
@@ -124,7 +140,7 @@ pytest tests/test_embed.py -v
 |--------|-------------|-------|
 | `unit` | Unit tests | 12 test_*.py files |
 | `integration` | Integration tests | 5 suite files |
-| `e2e` | End-to-end tests | test_e2e_ingestion.py |
+| `e2e` | End-to-end tests | (legacy ingestion e2e removed) |
 | `async` | Async operations | test_async_*.py (4 files) |
 | `embedding` | Vector embeddings | test_embed*.py (4 files) |
 | `ingestion` | RAG data ingestion | test_*ingest*.py (2 files) |

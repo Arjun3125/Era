@@ -36,7 +36,7 @@ C:\era\tests/
 │   ├── UNIT TESTS:
 │   │   ├── Embedding: test_embed.py, test_embed_model.py, 
 │   │   │             test_async_embed.py, test_async_embed_debug.py
-│   │   ├── Ingestion: test_async_ingest.py, test_e2e_ingestion.py
+│   │   ├── Ingestion: (legacy async ingestion tests removed)
 │   │   ├── Generation: test_generate.py, test_deepseek_doctrine.py,
 │   │   │              test_improved_doctrine.py
 │   │   ├── Processing: test_split.py, test_split_direct.py, test_split_qwen25.py

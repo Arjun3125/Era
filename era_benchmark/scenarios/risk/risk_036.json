@@ -1,34 +1,39 @@
 {
   "scenario_id": "RISK_036",
   "category": "risk",
-  "difficulty": "expert",
-  "title": "Supply chain disruption",
-  "prompt": "A key supplier signals potential delays that could disrupt delivery timelines. Decide the best supply chain response.",
+  "difficulty": "hard",
+  "title": "Security breach response",
+  "prompt": "Your security team reports a breach impacting customer data. Assess the severity and decide the most responsible immediate response.",
   "context": {
-    "company_size": "mid",
-    "cash_reserve_months": 4,
-    "brand_strength": "medium",
-    "customer_loyalty": "low",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 25,
+    "company_size": "small",
+    "cash_reserve_months": 20,
+    "brand_strength": "low",
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 50,
     "urgency_rank": 1,
-    "supplier_concentration": 0.691,
-    "lead_time_risk": 0.79,
-    "demand_volatility": 0.95,
-    "inventory_cover": 0.55
+    "growth_outlook": "low",
+    "stake_level": "low",
+    "reversibility": "high",
+    "decision_horizon_months": 11,
+    "industry": "saas",
+    "severity": 0.502,
+    "exploit_active": 0.0,
+    "data_sensitivity": 0.7,
+    "public_visibility": 0.55
   },
   "decision_options": [
-    "dual-source components",
-    "build safety stock",
-    "slow order intake",
-    "expedite alternative supply",
-    "wait and reassess"
+    "report to regulators",
+    "isolate and fix quickly",
+    "issue a public statement",
+    "shut down systems",
+    "watch and wait"
   ],
-  "expected_decision": "dual-source components",
+  "expected_decision": "report to regulators",
   "reasoning_rubric": [
-    "reduce single point of failure",
-    "improve resilience",
-    "manage supplier risk"
+    "regulatory compliance",
+    "limit legal exposure",
+    "document incident"
   ],
   "evaluation": {
     "decision_weight": 0.55,

@@ -1,36 +1,41 @@
 {
   "scenario_id": "STRAT_008",
   "category": "strategy",
-  "difficulty": "hard",
+  "difficulty": "medium",
   "title": "Competitor price pressure",
-  "prompt": "A rival just cut price by 29%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
+  "prompt": "A rival just cut price by 34%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
-    "company_size": "large",
+    "company_size": "mid",
     "cash_reserve_months": 22,
     "brand_strength": "medium",
     "customer_loyalty": "low",
     "regulatory_pressure": "low",
-    "time_pressure_days": 20,
-    "urgency_rank": 3,
-    "price_sensitivity": 0.558,
-    "r_and_d_capacity": 0.146,
-    "market_awareness": 0.143,
-    "product_breadth": 0.234,
-    "enterprise_fit": 0.495,
-    "competitor_price_cut_pct": 29
+    "time_pressure_days": 10,
+    "urgency_rank": 1,
+    "growth_outlook": "high",
+    "stake_level": "low",
+    "reversibility": "high",
+    "decision_horizon_months": 6,
+    "industry": "fintech",
+    "price_sensitivity": 0.142,
+    "r_and_d_capacity": 0.875,
+    "market_awareness": 0.239,
+    "product_breadth": 0.458,
+    "enterprise_fit": 0.238,
+    "competitor_price_cut_pct": 34
   },
   "decision_options": [
-    "temporary price cut",
-    "add premium features",
+    "discount aggressively",
+    "increase differentiation",
     "boost marketing spend",
     "offer product bundles",
-    "shift to enterprise buyers"
+    "focus enterprise tier"
   ],
-  "expected_decision": "temporary price cut",
+  "expected_decision": "increase differentiation",
   "reasoning_rubric": [
-    "capture price-sensitive demand",
-    "defend market share",
-    "accept margin pressure"
+    "avoid destructive price war",
+    "protect margin",
+    "increase differentiation"
   ],
   "evaluation": {
     "decision_weight": 0.55,

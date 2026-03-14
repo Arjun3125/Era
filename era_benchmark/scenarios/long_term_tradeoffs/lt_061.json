@@ -1,0 +1,42 @@
+{
+  "scenario_id": "LT_061",
+  "category": "long_term_tradeoffs",
+  "difficulty": "expert",
+  "title": "Growth vs stability",
+  "prompt": "The market opportunity is changing rapidly, and leadership must decide how aggressively to grow versus protect stability.",
+  "context": {
+    "company_size": "mid",
+    "cash_reserve_months": 11,
+    "brand_strength": "medium",
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 44,
+    "urgency_rank": 1,
+    "growth_outlook": "low",
+    "stake_level": "high",
+    "reversibility": "high",
+    "decision_horizon_months": 4,
+    "industry": "media",
+    "market_opportunity": 0.954,
+    "burn_rate": 0.477,
+    "reliability_risk": 0.576,
+    "investor_pressure": 0.495
+  },
+  "decision_options": [
+    "scale aggressively",
+    "steady growth",
+    "optimize cash",
+    "stabilize operations",
+    "wind down presence"
+  ],
+  "expected_decision": "scale aggressively",
+  "reasoning_rubric": [
+    "capture market share",
+    "accept higher burn",
+    "move fast"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

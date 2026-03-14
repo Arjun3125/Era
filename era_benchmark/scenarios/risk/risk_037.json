@@ -2,33 +2,38 @@
   "scenario_id": "RISK_037",
   "category": "risk",
   "difficulty": "expert",
-  "title": "Supply chain disruption",
-  "prompt": "A key supplier signals potential delays that could disrupt delivery timelines. Decide the best supply chain response.",
+  "title": "Security breach response",
+  "prompt": "Your security team reports a breach impacting customer data. Assess the severity and decide the most responsible immediate response.",
   "context": {
     "company_size": "small",
-    "cash_reserve_months": 19,
+    "cash_reserve_months": 3,
     "brand_strength": "low",
-    "customer_loyalty": "moderate",
+    "customer_loyalty": "low",
     "regulatory_pressure": "low",
-    "time_pressure_days": 8,
-    "urgency_rank": 2,
-    "supplier_concentration": 0.846,
-    "lead_time_risk": 0.81,
-    "demand_volatility": 0.832,
-    "inventory_cover": 0.904
+    "time_pressure_days": 21,
+    "urgency_rank": 1,
+    "growth_outlook": "moderate",
+    "stake_level": "medium",
+    "reversibility": "high",
+    "decision_horizon_months": 12,
+    "industry": "industrial",
+    "severity": 0.843,
+    "exploit_active": 0.823,
+    "data_sensitivity": 0.856,
+    "public_visibility": 0.936
   },
   "decision_options": [
-    "add backup suppliers",
-    "build safety stock",
-    "temporarily halt new orders",
-    "expedite alternative supply",
-    "maintain current plan"
+    "file a regulatory disclosure",
+    "patch immediately",
+    "shut down systems",
+    "freeze operations",
+    "monitor only"
   ],
-  "expected_decision": "build safety stock",
+  "expected_decision": "shut down systems",
   "reasoning_rubric": [
-    "buffer against delays",
-    "maintain service levels",
-    "use cash strategically"
+    "contain rapidly",
+    "prevent escalation",
+    "accept short-term disruption"
   ],
   "evaluation": {
     "decision_weight": 0.55,

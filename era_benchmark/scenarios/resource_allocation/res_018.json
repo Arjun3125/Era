@@ -5,30 +5,35 @@
   "title": "Budget allocation decision",
   "prompt": "Your annual budget is constrained. Decide where to allocate incremental spend for the next two quarters.",
   "context": {
-    "company_size": "mid",
-    "cash_reserve_months": 19,
-    "brand_strength": "low",
-    "customer_loyalty": "low",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 15,
-    "urgency_rank": 2,
-    "product_quality_gap": 0.209,
-    "demand_gap": 0.188,
-    "conversion_gap": 0.797,
-    "reliability_risk": 0.973
+    "company_size": "large",
+    "cash_reserve_months": 16,
+    "brand_strength": "medium",
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 8,
+    "urgency_rank": 3,
+    "growth_outlook": "high",
+    "stake_level": "low",
+    "reversibility": "high",
+    "decision_horizon_months": 14,
+    "industry": "media",
+    "product_quality_gap": 0.568,
+    "demand_gap": 0.433,
+    "conversion_gap": 0.628,
+    "reliability_risk": 0.368
   },
   "decision_options": [
-    "invest in engineering",
-    "invest in marketing",
-    "expand sales coverage",
-    "fund platform stability",
-    "slow spending"
+    "increase product investment",
+    "expand campaigns",
+    "invest in sales",
+    "increase reliability spend",
+    "cut discretionary spend"
   ],
-  "expected_decision": "fund platform stability",
+  "expected_decision": "invest in sales",
   "reasoning_rubric": [
-    "protect uptime",
-    "reduce risk",
-    "support scale"
+    "improve conversion",
+    "close deals",
+    "expand revenue"
   ],
   "evaluation": {
     "decision_weight": 0.55,

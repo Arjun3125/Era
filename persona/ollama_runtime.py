@@ -1,0 +1,179 @@
+# persona/ollama_runtime.py
+"""
+OllamaRuntime — runtime wrapper including the boot-time availability handshake.
+
+Handshakes implemented:
+- Boot-time ollama.list() availability check (hard fail unless SKIP_OLLAMA_CHECK=1)
+- analyze() and speak() functions (use configured models)
+- Deterministic sampling via temperature=0, top_p=1.0, and global seed control for reproducibility
+"""
+
+import os
+import time
+from concurrent.futures import ThreadPoolExecutor
+import ollama
+
+# Thread pool for async analyze/speak
+executor = ThreadPoolExecutor(max_workers=4)
+
+
+class OllamaRuntime:
+    def __init__(self, speak_model=None, analyze_model=None, global_seed=None):
+        default_speak_model = os.getenv("USER_MODEL", "llama3.1:8b-instruct-q4_0")
+        default_analyze_model = os.getenv("PROGRAM_MODEL", "huihui_ai/deepseek-r1-abliterated:8b")
+
+        # Allow explicit args to override env; treat empty strings as "not provided".
+        self.speak_model = speak_model or default_speak_model
+        self.analyze_model = analyze_model or default_analyze_model
+        self.global_seed = global_seed or os.getenv("EVAL_SEED", None)
+        self.messages = []
+        self.max_pairs = 10  # keep last N user/assistant pairs
+
+        # EVALUATION MODE: Lock temperature for reproducibility
+        self.eval_temperature = 0.0
+        self.eval_top_p = 1.0
+        self.eval_num_predict = os.getenv("EVAL_NUM_PREDICT", None)
+        # For reasoning models (e.g., deepseek-r1), force final answer into `content`
+        # during evaluation so downstream parsing is model-agnostic.
+        self.eval_think_off = os.getenv("EVAL_THINK_OFF", "1").lower() in {"1", "true", "yes"}
+        self.fail_fast_errors = os.getenv("EVAL_FAIL_FAST_ERRORS", "0").lower() in {"1", "true", "yes"}
+        
+        # Boot-time handshake: verify Ollama daemon reachable.
+        # Honor environment override SKIP_OLLAMA_CHECK to allow development without daemon.
+        skip_check = os.getenv("SKIP_OLLAMA_CHECK", "").lower() in {"1", "true", "yes"}
+        if not skip_check:
+            try:
+                # raise on failure to ensure hard fail at startup
+                ollama.list()
+            except Exception as e:
+                # Fail hard (consistent with spec). Caller may catch.
+                print("FATAL: Ollama not reachable:", e)
+                # Use SystemExit for hard exit semantics similar to original script.
+                raise SystemExit(1)
+
+    def analyze(self, system_prompt, user_prompt):
+        """
+        Silent analysis handshake — expected to return free-form text (usually JSON).
+        
+        EVALUATION MODE: Uses temperature=0, top_p=1.0 for deterministic sampling
+        when global_seed is set (reproducible results across 5 seeds).
+        """
+        try:
+            # Build call options - deterministic if in evaluation mode
+            options = {
+                "temperature": self.eval_temperature,
+                "top_p": self.eval_top_p,
+            }
+            
+            # Inject seed if available
+            if self.global_seed is not None:
+                options["seed"] = int(self.global_seed)
+            if self.eval_num_predict is not None:
+                options["num_predict"] = int(self.eval_num_predict)
+            
+            chat_kwargs = {
+                "model": self.analyze_model,
+                "messages": [
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_prompt},
+                ],
+                "options": options,
+            }
+            if self.eval_think_off:
+                chat_kwargs["think"] = False
+
+            response = ollama.chat(
+                **chat_kwargs,
+            )
+            return self._extract_text(response)
+        except Exception as e:
+            if self.fail_fast_errors:
+                raise RuntimeError(f"Ollama analyze() failed: {e}") from e
+            return f"[LLM analyze error: {e}]"
+
+    def analyze_async(self, system_prompt, user_prompt):
+        """Return a Future wrapping analyze() so callers can run it in the threadpool."""
+        return executor.submit(self.analyze, system_prompt, user_prompt)
+
+    def speak(self, system_context, user_input):
+        """
+        Primary speak handshake — user-visible. Blocking.
+        Maintains conversation history and trims it.
+        
+        EVALUATION MODE: Uses temperature=0, top_p=1.0 for deterministic sampling
+        when global_seed is set (reproducible results across 5 seeds).
+        """
+        # Ensure single system context
+        if self.messages and self.messages[0].get("role") == "system":
+            self.messages[0]["content"] = system_context
+        else:
+            self.messages.insert(0, {"role": "system", "content": system_context})
+        # append new user message
+        self.messages.append({"role": "user", "content": user_input})
+
+        # trim history to preserve system + last N pairs
+        max_msgs = 1 + (self.max_pairs * 2)
+        if len(self.messages) > max_msgs:
+            tail = self.messages[-(max_msgs - 1):]
+            self.messages = [self.messages[0]] + tail
+
+        try:
+            # Build call options - deterministic if in evaluation mode
+            options = {
+                "temperature": self.eval_temperature,
+                "top_p": self.eval_top_p,
+            }
+            
+            # Inject seed if available
+            if self.global_seed is not None:
+                options["seed"] = int(self.global_seed)
+            if self.eval_num_predict is not None:
+                options["num_predict"] = int(self.eval_num_predict)
+            
+            chat_kwargs = {
+                "model": self.speak_model,
+                "messages": self.messages,
+                "options": options,
+            }
+            if self.eval_think_off:
+                chat_kwargs["think"] = False
+
+            response = ollama.chat(**chat_kwargs)
+            assistant_text = self._extract_text(response)
+        except Exception as e:
+            if self.fail_fast_errors:
+                raise RuntimeError(f"Ollama speak() failed: {e}") from e
+            assistant_text = f"[LLM speak error: {e}]"
+
+        # append assistant response and trim again if needed
+        self.messages.append({"role": "assistant", "content": assistant_text})
+        if len(self.messages) > max_msgs:
+            tail = self.messages[-(max_msgs - 1):]
+            self.messages = [self.messages[0]] + tail
+
+        return assistant_text
+
+    def _extract_text(self, response) -> str:
+        """
+        Normalize model output into unified assistant text.
+
+        Priority:
+        1) message.content
+        2) message.thinking (fallback when content is empty)
+        """
+        payload = response.model_dump() if hasattr(response, "model_dump") else response
+        message = payload.get("message", {}) if isinstance(payload, dict) else {}
+
+        content = (message.get("content") or "").strip()
+        if content:
+            return content
+
+        thinking = (message.get("thinking") or "").strip()
+        if thinking:
+            return thinking
+
+        return ""
+
+    def speak_async(self, system_context, user_input):
+        """Return a Future wrapping speak() so callers can run it in the threadpool."""
+        return executor.submit(self.speak, system_context, user_input)

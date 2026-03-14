@@ -1,35 +1,39 @@
 {
   "scenario_id": "LT_040",
   "category": "long_term_tradeoffs",
-  "difficulty": "medium",
-  "title": "Innovation vs reliability",
-  "prompt": "Engineering leadership is split between shipping a major innovation and improving reliability. Decide the best approach.",
+  "difficulty": "hard",
+  "title": "Growth vs stability",
+  "prompt": "The market opportunity is changing rapidly, and leadership must decide how aggressively to grow versus protect stability.",
   "context": {
     "company_size": "large",
     "cash_reserve_months": 6,
     "brand_strength": "high",
-    "customer_loyalty": "low",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 15,
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 47,
     "urgency_rank": 1,
-    "competitive_threat": 0.165,
-    "defect_rate": 0.892,
-    "customer_expectations": 0.323,
-    "roadmap_pressure": 0.844,
-    "reliability_risk": 0.566
+    "growth_outlook": "low",
+    "stake_level": "low",
+    "reversibility": "low",
+    "decision_horizon_months": 22,
+    "industry": "saas",
+    "market_opportunity": 0.122,
+    "burn_rate": 0.891,
+    "reliability_risk": 0.924,
+    "investor_pressure": 0.289
   },
   "decision_options": [
-    "ship major innovation",
-    "focus on reliability",
-    "dual-track execution",
-    "harden the core product",
-    "postpone release"
+    "rapid expansion",
+    "improve resiliency",
+    "maximize runway",
+    "stabilize operations",
+    "exit the market"
   ],
-  "expected_decision": "harden the core product",
+  "expected_decision": "improve resiliency",
   "reasoning_rubric": [
-    "reduce defects",
-    "protect customers",
-    "build trust"
+    "sustain trust",
+    "reduce risk",
+    "support long-term stability"
   ],
   "evaluation": {
     "decision_weight": 0.55,

@@ -6,25 +6,30 @@
   "prompt": "Your annual budget is constrained. Decide where to allocate incremental spend for the next two quarters.",
   "context": {
     "company_size": "large",
-    "cash_reserve_months": 21,
-    "brand_strength": "high",
+    "cash_reserve_months": 24,
+    "brand_strength": "medium",
     "customer_loyalty": "moderate",
     "regulatory_pressure": "low",
-    "time_pressure_days": 21,
-    "urgency_rank": 1,
-    "product_quality_gap": 0.869,
-    "demand_gap": 0.361,
-    "conversion_gap": 0.671,
-    "reliability_risk": 0.335
+    "time_pressure_days": 24,
+    "urgency_rank": 2,
+    "growth_outlook": "moderate",
+    "stake_level": "medium",
+    "reversibility": "low",
+    "decision_horizon_months": 9,
+    "industry": "industrial",
+    "product_quality_gap": 0.839,
+    "demand_gap": 0.788,
+    "conversion_gap": 0.35,
+    "reliability_risk": 0.843
   },
   "decision_options": [
     "fund engineering capacity",
-    "invest in marketing",
+    "boost marketing spend",
     "grow sales team",
-    "fund platform stability",
-    "invest in engineering"
+    "increase product investment",
+    "cut discretionary spend"
   ],
-  "expected_decision": "invest in engineering",
+  "expected_decision": "increase product investment",
   "reasoning_rubric": [
     "fix product gaps",
     "improve retention",

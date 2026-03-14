@@ -5,30 +5,35 @@
   "title": "Growth vs stability",
   "prompt": "The market opportunity is changing rapidly, and leadership must decide how aggressively to grow versus protect stability.",
   "context": {
-    "company_size": "mid",
-    "cash_reserve_months": 7,
-    "brand_strength": "low",
-    "customer_loyalty": "high",
+    "company_size": "small",
+    "cash_reserve_months": 6,
+    "brand_strength": "high",
+    "customer_loyalty": "low",
     "regulatory_pressure": "high",
-    "time_pressure_days": 44,
+    "time_pressure_days": 57,
     "urgency_rank": 2,
-    "market_opportunity": 0.208,
-    "burn_rate": 0.855,
-    "reliability_risk": 0.357,
-    "investor_pressure": 0.8
+    "growth_outlook": "high",
+    "stake_level": "low",
+    "reversibility": "low",
+    "decision_horizon_months": 21,
+    "industry": "media",
+    "market_opportunity": 0.154,
+    "burn_rate": 0.832,
+    "reliability_risk": 0.653,
+    "investor_pressure": 0.861
   },
   "decision_options": [
-    "aggressive expansion",
-    "balanced expansion",
-    "optimize cash",
-    "stabilize operations",
-    "exit the market"
+    "scale aggressively",
+    "steady growth",
+    "preserve cash",
+    "invest in reliability",
+    "stabilize operations"
   ],
-  "expected_decision": "optimize cash",
+  "expected_decision": "stabilize operations",
   "reasoning_rubric": [
-    "extend runway",
-    "reduce burn",
-    "protect downside"
+    "sustain trust",
+    "reduce risk",
+    "support long-term stability"
   ],
   "evaluation": {
     "decision_weight": 0.55,

@@ -1,33 +1,41 @@
 {
   "scenario_id": "STRAT_066",
   "category": "strategy",
-  "difficulty": "medium",
-  "title": "Market entry decision",
-  "prompt": "Your company is considering entry into a new region with uncertain demand and regulatory complexity. Decide the best market entry strategy.",
+  "difficulty": "expert",
+  "title": "Competitor price pressure",
+  "prompt": "A rival just cut price by 45%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
-    "company_size": "mid",
+    "company_size": "large",
     "cash_reserve_months": 19,
-    "brand_strength": "high",
-    "customer_loyalty": "moderate",
+    "brand_strength": "medium",
+    "customer_loyalty": "low",
     "regulatory_pressure": "low",
-    "time_pressure_days": 32,
-    "urgency_rank": 2,
-    "market_uncertainty": 0.198,
-    "local_partner_available": 1.0,
-    "strategic_importance": 0.849
+    "time_pressure_days": 29,
+    "urgency_rank": 3,
+    "growth_outlook": "moderate",
+    "stake_level": "high",
+    "reversibility": "high",
+    "decision_horizon_months": 14,
+    "industry": "saas",
+    "price_sensitivity": 0.8,
+    "r_and_d_capacity": 0.636,
+    "market_awareness": 0.522,
+    "product_breadth": 0.499,
+    "enterprise_fit": 0.405,
+    "competitor_price_cut_pct": 45
   },
   "decision_options": [
-    "go live now",
-    "acquire a local startup",
-    "joint venture with local player",
-    "strategic acquisition",
-    "abandon entry"
+    "temporary price cut",
+    "increase differentiation",
+    "discount aggressively",
+    "bundle services",
+    "shift to enterprise buyers"
   ],
-  "expected_decision": "acquire a local startup",
+  "expected_decision": "discount aggressively",
   "reasoning_rubric": [
-    "buy market access",
-    "accelerate entry",
-    "use cash advantage"
+    "capture price-sensitive demand",
+    "defend market share",
+    "accept margin pressure"
   ],
   "evaluation": {
     "decision_weight": 0.55,

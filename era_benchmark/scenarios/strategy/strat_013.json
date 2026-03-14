@@ -3,34 +3,39 @@
   "category": "strategy",
   "difficulty": "expert",
   "title": "Competitor price pressure",
-  "prompt": "A rival just cut price by 11%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
+  "prompt": "A rival just cut price by 64%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
-    "company_size": "mid",
-    "cash_reserve_months": 19,
+    "company_size": "large",
+    "cash_reserve_months": 20,
     "brand_strength": "low",
     "customer_loyalty": "moderate",
-    "regulatory_pressure": "high",
-    "time_pressure_days": 27,
+    "regulatory_pressure": "low",
+    "time_pressure_days": 44,
     "urgency_rank": 2,
-    "price_sensitivity": 0.418,
-    "r_and_d_capacity": 0.835,
-    "market_awareness": 0.168,
-    "product_breadth": 0.17,
-    "enterprise_fit": 0.529,
-    "competitor_price_cut_pct": 11
+    "growth_outlook": "high",
+    "stake_level": "medium",
+    "reversibility": "medium",
+    "decision_horizon_months": 24,
+    "industry": "media",
+    "price_sensitivity": 0.727,
+    "r_and_d_capacity": 0.734,
+    "market_awareness": 0.076,
+    "product_breadth": 0.777,
+    "enterprise_fit": 0.429,
+    "competitor_price_cut_pct": 64
   },
   "decision_options": [
-    "improve product quality",
+    "lower price",
     "add premium features",
-    "increase marketing",
-    "package services",
-    "prioritize enterprise deals"
+    "temporary price cut",
+    "offer product bundles",
+    "focus enterprise tier"
   ],
-  "expected_decision": "improve product quality",
+  "expected_decision": "temporary price cut",
   "reasoning_rubric": [
-    "avoid destructive price war",
-    "protect margin",
-    "increase differentiation"
+    "capture price-sensitive demand",
+    "defend market share",
+    "accept margin pressure"
   ],
   "evaluation": {
     "decision_weight": 0.55,

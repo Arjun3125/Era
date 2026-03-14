@@ -1,34 +1,39 @@
 {
   "scenario_id": "ETH_049",
   "category": "ethics",
-  "difficulty": "medium",
-  "title": "Workforce reduction dilemma",
-  "prompt": "Revenue has slowed and expenses exceed plan. Leadership must choose a workforce strategy to stabilize finances while protecting long-term capability.",
+  "difficulty": "easy",
+  "title": "AI bias allegation",
+  "prompt": "An external report claims your AI model shows bias in a critical workflow. Decide the most ethical response.",
   "context": {
     "company_size": "small",
-    "cash_reserve_months": 6,
-    "brand_strength": "high",
-    "customer_loyalty": "low",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 19,
-    "urgency_rank": 3,
-    "cost_gap": 0.845,
-    "morale_risk": 0.969,
-    "hiring_friction": 0.289,
-    "growth_outlook": "low"
+    "cash_reserve_months": 16,
+    "brand_strength": "medium",
+    "customer_loyalty": "high",
+    "regulatory_pressure": "medium",
+    "time_pressure_days": 54,
+    "urgency_rank": 1,
+    "growth_outlook": "high",
+    "stake_level": "low",
+    "reversibility": "low",
+    "decision_horizon_months": 11,
+    "industry": "retail",
+    "harm_level": 0.975,
+    "evidence_strength": 0.82,
+    "revenue_dependency": 0.84,
+    "public_visibility": 0.21
   },
   "decision_options": [
-    "immediate layoffs",
-    "redeploy staff",
-    "across-the-board cuts",
-    "hiring freeze",
-    "raise bridge capital"
+    "halt release for audit",
+    "deploy with guardrails",
+    "open communication",
+    "address silently",
+    "dismiss the report"
   ],
-  "expected_decision": "across-the-board cuts",
+  "expected_decision": "halt release for audit",
   "reasoning_rubric": [
-    "share burden",
-    "avoid layoffs",
-    "improve runway"
+    "prevent harm",
+    "validate evidence",
+    "regain trust"
   ],
   "evaluation": {
     "decision_weight": 0.55,

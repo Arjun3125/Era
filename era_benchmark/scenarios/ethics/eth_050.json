@@ -1,34 +1,39 @@
 {
   "scenario_id": "ETH_050",
   "category": "ethics",
-  "difficulty": "hard",
-  "title": "Workforce reduction dilemma",
-  "prompt": "Revenue has slowed and expenses exceed plan. Leadership must choose a workforce strategy to stabilize finances while protecting long-term capability.",
+  "difficulty": "medium",
+  "title": "AI bias allegation",
+  "prompt": "An external report claims your AI model shows bias in a critical workflow. Decide the most ethical response.",
   "context": {
-    "company_size": "mid",
-    "cash_reserve_months": 6,
-    "brand_strength": "medium",
-    "customer_loyalty": "low",
-    "regulatory_pressure": "medium",
-    "time_pressure_days": 31,
+    "company_size": "small",
+    "cash_reserve_months": 20,
+    "brand_strength": "low",
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 21,
     "urgency_rank": 3,
-    "cost_gap": 0.814,
-    "morale_risk": 0.993,
-    "hiring_friction": 0.222,
-    "growth_outlook": "high"
+    "growth_outlook": "low",
+    "stake_level": "low",
+    "reversibility": "high",
+    "decision_horizon_months": 15,
+    "industry": "health",
+    "harm_level": 0.593,
+    "evidence_strength": 0.14,
+    "revenue_dependency": 0.214,
+    "public_visibility": 0.155
   },
   "decision_options": [
-    "reduce headcount",
-    "implement pay cuts",
-    "across-the-board cuts",
-    "stop new hiring",
-    "seek financing"
+    "halt release for audit",
+    "ship with safeguards",
+    "open communication",
+    "quietly fix",
+    "reject allegations"
   ],
-  "expected_decision": "implement pay cuts",
+  "expected_decision": "halt release for audit",
   "reasoning_rubric": [
-    "share burden",
-    "avoid layoffs",
-    "improve runway"
+    "prevent harm",
+    "validate evidence",
+    "regain trust"
   ],
   "evaluation": {
     "decision_weight": 0.55,

@@ -1,33 +1,41 @@
 {
   "scenario_id": "STRAT_054",
   "category": "strategy",
-  "difficulty": "hard",
-  "title": "Market entry decision",
-  "prompt": "Your company is considering entry into a new region with uncertain demand and regulatory complexity. Decide the best market entry strategy.",
+  "difficulty": "expert",
+  "title": "Competitor price pressure",
+  "prompt": "A rival just cut price by 50%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
-    "company_size": "mid",
-    "cash_reserve_months": 13,
+    "company_size": "small",
+    "cash_reserve_months": 19,
     "brand_strength": "high",
-    "customer_loyalty": "high",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 59,
-    "urgency_rank": 3,
-    "market_uncertainty": 0.431,
-    "local_partner_available": 0.0,
-    "strategic_importance": 0.712
+    "customer_loyalty": "low",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 52,
+    "urgency_rank": 1,
+    "growth_outlook": "low",
+    "stake_level": "medium",
+    "reversibility": "medium",
+    "decision_horizon_months": 13,
+    "industry": "fintech",
+    "price_sensitivity": 0.839,
+    "r_and_d_capacity": 0.406,
+    "market_awareness": 0.784,
+    "product_breadth": 0.708,
+    "enterprise_fit": 0.124,
+    "competitor_price_cut_pct": 50
   },
   "decision_options": [
-    "launch immediately",
-    "postpone for localization",
-    "form a local partnership",
-    "acquire a local startup",
-    "abandon entry"
+    "lower price",
+    "add premium features",
+    "boost marketing spend",
+    "package services",
+    "prioritize enterprise deals"
   ],
-  "expected_decision": "acquire a local startup",
+  "expected_decision": "package services",
   "reasoning_rubric": [
-    "buy market access",
-    "accelerate entry",
-    "use cash advantage"
+    "raise switching costs",
+    "increase perceived value",
+    "reduce churn"
   ],
   "evaluation": {
     "decision_weight": 0.55,

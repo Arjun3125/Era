@@ -2,34 +2,38 @@
   "scenario_id": "RES_050",
   "category": "resource_allocation",
   "difficulty": "hard",
-  "title": "Staffing allocation decision",
-  "prompt": "Hiring capacity is limited this quarter. Decide how to allocate headcount to best support the company's priorities.",
+  "title": "Budget allocation decision",
+  "prompt": "Your annual budget is constrained. Decide where to allocate incremental spend for the next two quarters.",
   "context": {
     "company_size": "small",
-    "cash_reserve_months": 6,
+    "cash_reserve_months": 7,
     "brand_strength": "high",
     "customer_loyalty": "low",
     "regulatory_pressure": "high",
-    "time_pressure_days": 37,
-    "urgency_rank": 2,
-    "backlog_size": 0.154,
-    "incident_rate": 0.567,
-    "sales_pipeline": 0.239,
-    "delivery_pressure": 0.441,
-    "reliability_risk": 0.302
+    "time_pressure_days": 32,
+    "urgency_rank": 1,
+    "growth_outlook": "low",
+    "stake_level": "medium",
+    "reversibility": "high",
+    "decision_horizon_months": 3,
+    "industry": "saas",
+    "product_quality_gap": 0.568,
+    "demand_gap": 0.158,
+    "conversion_gap": 0.886,
+    "reliability_risk": 0.398
   },
   "decision_options": [
-    "grow ops team",
-    "hire operations staff",
-    "grow sales team",
-    "use contractors",
-    "freeze hiring"
+    "increase product investment",
+    "boost marketing spend",
+    "expand sales coverage",
+    "increase reliability spend",
+    "reduce burn"
   ],
-  "expected_decision": "grow ops team",
+  "expected_decision": "expand sales coverage",
   "reasoning_rubric": [
-    "stabilize systems",
-    "reduce incidents",
-    "protect uptime"
+    "improve conversion",
+    "close deals",
+    "expand revenue"
   ],
   "evaluation": {
     "decision_weight": 0.55,

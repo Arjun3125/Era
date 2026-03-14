@@ -1,34 +1,39 @@
 {
   "scenario_id": "LT_015",
   "category": "long_term_tradeoffs",
-  "difficulty": "hard",
+  "difficulty": "expert",
   "title": "Growth vs stability",
   "prompt": "The market opportunity is changing rapidly, and leadership must decide how aggressively to grow versus protect stability.",
   "context": {
     "company_size": "large",
     "cash_reserve_months": 7,
     "brand_strength": "high",
-    "customer_loyalty": "high",
+    "customer_loyalty": "low",
     "regulatory_pressure": "medium",
-    "time_pressure_days": 16,
+    "time_pressure_days": 35,
     "urgency_rank": 2,
-    "market_opportunity": 0.153,
-    "burn_rate": 0.865,
-    "reliability_risk": 0.79,
-    "investor_pressure": 0.554
+    "growth_outlook": "low",
+    "stake_level": "low",
+    "reversibility": "medium",
+    "decision_horizon_months": 21,
+    "industry": "saas",
+    "market_opportunity": 0.17,
+    "burn_rate": 0.907,
+    "reliability_risk": 0.499,
+    "investor_pressure": 0.104
   },
   "decision_options": [
-    "aggressive expansion",
+    "scale aggressively",
     "measured growth",
-    "optimize cash",
-    "invest in reliability",
-    "wind down presence"
+    "maximize runway",
+    "stabilize operations",
+    "exit the market"
   ],
-  "expected_decision": "invest in reliability",
+  "expected_decision": "maximize runway",
   "reasoning_rubric": [
-    "sustain trust",
-    "reduce risk",
-    "support long-term stability"
+    "extend runway",
+    "reduce burn",
+    "protect downside"
   ],
   "evaluation": {
     "decision_weight": 0.55,

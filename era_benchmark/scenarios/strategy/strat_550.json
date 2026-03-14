@@ -1,0 +1,41 @@
+{
+  "scenario_id": "STRAT_550",
+  "category": "strategy",
+  "difficulty": "medium",
+  "title": "Market entry decision",
+  "prompt": "Your company is considering entry into a new region with uncertain demand and regulatory complexity. Decide the best market entry strategy.",
+  "context": {
+    "company_size": "mid",
+    "cash_reserve_months": 6,
+    "brand_strength": "low",
+    "customer_loyalty": "moderate",
+    "regulatory_pressure": "medium",
+    "time_pressure_days": 24,
+    "urgency_rank": 3,
+    "growth_outlook": "moderate",
+    "stake_level": "low",
+    "reversibility": "low",
+    "decision_horizon_months": 13,
+    "industry": "saas",
+    "market_uncertainty": 0.821,
+    "local_partner_available": 0.0,
+    "strategic_importance": 0.199
+  },
+  "decision_options": [
+    "launch immediately",
+    "localize before launch",
+    "form a local partnership",
+    "acquire a local startup",
+    "abandon entry"
+  ],
+  "expected_decision": "localize before launch",
+  "reasoning_rubric": [
+    "reduce regulatory risk",
+    "adapt to local needs",
+    "avoid premature launch"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

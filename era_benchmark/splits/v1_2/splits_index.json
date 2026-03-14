@@ -1,0 +1,40 @@
+{
+  "version": "1.2",
+  "seed": 20260311,
+  "test_ratio": 0.2,
+  "hard_levels": [
+    "hard",
+    "expert"
+  ],
+  "scenario_count": 3000,
+  "train_count": 2390,
+  "test_count": 610,
+  "hard_count": 2500,
+  "category_counts": {
+    "ethics": {
+      "train": 392,
+      "test": 108,
+      "hard": 392
+    },
+    "long_term_tradeoffs": {
+      "train": 399,
+      "test": 101,
+      "hard": 376
+    },
+    "resource_allocation": {
+      "train": 469,
+      "test": 131,
+      "hard": 553
+    },
+    "risk": {
+      "train": 483,
+      "test": 117,
+      "hard": 565
+    },
+    "strategy": {
+      "train": 647,
+      "test": 153,
+      "hard": 614
+    }
+  }
+}

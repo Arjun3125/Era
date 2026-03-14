@@ -1,0 +1,12 @@
+{
+  "minister": "data",
+  "model_name": "all-MiniLM-L6-v2",
+  "hidden_layers": [
+    64,
+    32
+  ],
+  "stance_priors": {
+    "support": 0.9999853255840262,
+    "neutral": 1.4674415973728784e-05
+  }
+}

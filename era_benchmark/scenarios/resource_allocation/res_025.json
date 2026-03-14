@@ -9,20 +9,25 @@
     "cash_reserve_months": 5,
     "brand_strength": "medium",
     "customer_loyalty": "moderate",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 29,
-    "urgency_rank": 2,
-    "product_quality_gap": 0.551,
-    "demand_gap": 0.09,
-    "conversion_gap": 0.502,
-    "reliability_risk": 0.985
+    "regulatory_pressure": "medium",
+    "time_pressure_days": 49,
+    "urgency_rank": 3,
+    "growth_outlook": "low",
+    "stake_level": "low",
+    "reversibility": "medium",
+    "decision_horizon_months": 3,
+    "industry": "health",
+    "product_quality_gap": 0.34,
+    "demand_gap": 0.164,
+    "conversion_gap": 0.52,
+    "reliability_risk": 0.675
   },
   "decision_options": [
     "increase product investment",
     "invest in marketing",
-    "invest in sales",
-    "fund platform stability",
-    "invest in infrastructure"
+    "grow sales team",
+    "invest in infrastructure",
+    "reduce burn"
   ],
   "expected_decision": "invest in infrastructure",
   "reasoning_rubric": [

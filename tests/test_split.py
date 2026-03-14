@@ -1,4 +1,14 @@
 import sys
+# Skip in pytest unless explicitly enabled (requires local Ollama)
+if "pytest" in sys.modules:
+    import os
+    import pytest
+
+    if not os.getenv("ERA_RUN_OLLAMA_TESTS"):
+        pytest.skip(
+            "requires Ollama; set ERA_RUN_OLLAMA_TESTS=1 to run",
+            allow_module_level=True,
+        )
 # ensure ingestion package is importable when running tests from tests dir
 sys.path.insert(0, r'C:\era\ingestion\v1')
 from llm import OllamaClient, DEFAULT_EXTRACT_MODEL

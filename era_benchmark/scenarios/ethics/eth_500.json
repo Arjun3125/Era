@@ -1,0 +1,41 @@
+{
+  "scenario_id": "ETH_500",
+  "category": "ethics",
+  "difficulty": "expert",
+  "title": "Workforce reduction dilemma",
+  "prompt": "Revenue has slowed and expenses exceed plan. Leadership must choose a workforce strategy to stabilize finances while protecting long-term capability.",
+  "context": {
+    "company_size": "mid",
+    "cash_reserve_months": 8,
+    "brand_strength": "high",
+    "customer_loyalty": "low",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 51,
+    "urgency_rank": 2,
+    "growth_outlook": "high",
+    "stake_level": "low",
+    "reversibility": "low",
+    "decision_horizon_months": 10,
+    "industry": "retail",
+    "cost_gap": 0.724,
+    "morale_risk": 0.502,
+    "hiring_friction": 0.147
+  },
+  "decision_options": [
+    "raise bridge capital",
+    "redeploy staff",
+    "implement pay cuts",
+    "stop new hiring",
+    "secure new funding"
+  ],
+  "expected_decision": "raise bridge capital",
+  "reasoning_rubric": [
+    "protect growth",
+    "extend runway",
+    "use capital access"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

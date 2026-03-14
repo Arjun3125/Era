@@ -1,33 +1,41 @@
 {
   "scenario_id": "STRAT_071",
   "category": "strategy",
-  "difficulty": "medium",
-  "title": "Market entry decision",
-  "prompt": "Your company is considering entry into a new region with uncertain demand and regulatory complexity. Decide the best market entry strategy.",
+  "difficulty": "expert",
+  "title": "Competitor price pressure",
+  "prompt": "A rival just cut price by 19%. Users are churning and sales is feeling pressure. Decide the best competitive response.",
   "context": {
-    "company_size": "large",
-    "cash_reserve_months": 20,
-    "brand_strength": "medium",
-    "customer_loyalty": "low",
-    "regulatory_pressure": "low",
+    "company_size": "mid",
+    "cash_reserve_months": 18,
+    "brand_strength": "low",
+    "customer_loyalty": "high",
+    "regulatory_pressure": "medium",
     "time_pressure_days": 32,
-    "urgency_rank": 3,
-    "market_uncertainty": 0.123,
-    "local_partner_available": 1.0,
-    "strategic_importance": 0.861
+    "urgency_rank": 1,
+    "growth_outlook": "moderate",
+    "stake_level": "low",
+    "reversibility": "high",
+    "decision_horizon_months": 7,
+    "industry": "industrial",
+    "price_sensitivity": 0.545,
+    "r_and_d_capacity": 0.147,
+    "market_awareness": 0.164,
+    "product_breadth": 0.711,
+    "enterprise_fit": 0.703,
+    "competitor_price_cut_pct": 19
   },
   "decision_options": [
-    "go live now",
-    "delay and localize",
-    "form a local partnership",
-    "acquire a local startup",
-    "pause entry indefinitely"
+    "temporary price cut",
+    "discount aggressively",
+    "increase marketing",
+    "package services",
+    "focus enterprise tier"
   ],
-  "expected_decision": "acquire a local startup",
+  "expected_decision": "discount aggressively",
   "reasoning_rubric": [
-    "buy market access",
-    "accelerate entry",
-    "use cash advantage"
+    "capture price-sensitive demand",
+    "defend market share",
+    "accept margin pressure"
   ],
   "evaluation": {
     "decision_weight": 0.55,

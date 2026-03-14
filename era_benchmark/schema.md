@@ -33,3 +33,17 @@
 - ethics: bias, privacy, layoffs, transparency
 - resource_allocation: budget, staffing, capacity, prioritization
 - long_term_tradeoffs: growth vs stability, innovation vs reliability, reputation vs short-term gain
+
+## Common Context Fields (examples)
+- `company_size`: small | mid | large
+- `cash_reserve_months`: integer
+- `brand_strength`: low | medium | high
+- `customer_loyalty`: low | moderate | high
+- `regulatory_pressure`: low | medium | high
+- `time_pressure_days`: integer
+- `urgency_rank`: 1–3
+- `growth_outlook`: low | moderate | high
+- `stake_level`: low | medium | high
+- `reversibility`: low | medium | high
+- `decision_horizon_months`: integer
+- `industry`: saas | fintech | health | retail | industrial | media

@@ -72,3 +72,14 @@ def calibration_bins(predictions: Iterable[dict], *, bins: int = 10) -> List[Cal
             )
         )
     return output
+
+
+def brier_score(predictions: Iterable[dict]) -> float:
+    values = []
+    for item in predictions:
+        confidence = float(item.get("confidence", 0.0) or 0.0)
+        correct = 1.0 if item.get("correct", False) else 0.0
+        values.append((confidence - correct) ** 2)
+    if not values:
+        return 0.0
+    return round(sum(values) / len(values), 4)

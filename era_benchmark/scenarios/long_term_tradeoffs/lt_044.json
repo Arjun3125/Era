@@ -1,35 +1,39 @@
 {
   "scenario_id": "LT_044",
   "category": "long_term_tradeoffs",
-  "difficulty": "medium",
-  "title": "Innovation vs reliability",
-  "prompt": "Engineering leadership is split between shipping a major innovation and improving reliability. Decide the best approach.",
+  "difficulty": "expert",
+  "title": "Growth vs stability",
+  "prompt": "The market opportunity is changing rapidly, and leadership must decide how aggressively to grow versus protect stability.",
   "context": {
-    "company_size": "mid",
-    "cash_reserve_months": 3,
+    "company_size": "large",
+    "cash_reserve_months": 22,
     "brand_strength": "medium",
-    "customer_loyalty": "moderate",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 45,
-    "urgency_rank": 3,
-    "competitive_threat": 0.874,
-    "defect_rate": 0.49,
-    "customer_expectations": 0.203,
-    "roadmap_pressure": 0.811,
-    "reliability_risk": 0.957
+    "customer_loyalty": "high",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 43,
+    "urgency_rank": 1,
+    "growth_outlook": "moderate",
+    "stake_level": "low",
+    "reversibility": "medium",
+    "decision_horizon_months": 13,
+    "industry": "media",
+    "market_opportunity": 0.657,
+    "burn_rate": 0.618,
+    "reliability_risk": 0.822,
+    "investor_pressure": 0.448
   },
   "decision_options": [
-    "release breakthrough",
-    "stabilize core",
-    "ship major innovation",
-    "pilot release",
-    "postpone release"
+    "invest in reliability",
+    "steady growth",
+    "preserve cash",
+    "improve resiliency",
+    "exit the market"
   ],
-  "expected_decision": "ship major innovation",
+  "expected_decision": "invest in reliability",
   "reasoning_rubric": [
-    "beat competition",
-    "capture attention",
-    "accept execution risk"
+    "sustain trust",
+    "reduce risk",
+    "support long-term stability"
   ],
   "evaluation": {
     "decision_weight": 0.55,

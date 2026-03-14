@@ -5,30 +5,35 @@
   "title": "Budget allocation decision",
   "prompt": "Your annual budget is constrained. Decide where to allocate incremental spend for the next two quarters.",
   "context": {
-    "company_size": "small",
-    "cash_reserve_months": 24,
-    "brand_strength": "high",
-    "customer_loyalty": "low",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 13,
-    "urgency_rank": 2,
-    "product_quality_gap": 0.833,
-    "demand_gap": 0.509,
-    "conversion_gap": 0.504,
-    "reliability_risk": 0.784
+    "company_size": "mid",
+    "cash_reserve_months": 3,
+    "brand_strength": "low",
+    "customer_loyalty": "high",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 42,
+    "urgency_rank": 3,
+    "growth_outlook": "high",
+    "stake_level": "low",
+    "reversibility": "low",
+    "decision_horizon_months": 23,
+    "industry": "health",
+    "product_quality_gap": 0.75,
+    "demand_gap": 0.913,
+    "conversion_gap": 0.714,
+    "reliability_risk": 0.789
   },
   "decision_options": [
-    "increase product investment",
-    "boost marketing spend",
-    "invest in engineering",
+    "fund platform stability",
+    "invest in marketing",
+    "expand sales coverage",
     "increase reliability spend",
-    "slow spending"
+    "reduce burn"
   ],
-  "expected_decision": "invest in engineering",
+  "expected_decision": "fund platform stability",
   "reasoning_rubric": [
-    "fix product gaps",
-    "improve retention",
-    "build differentiation"
+    "protect uptime",
+    "reduce risk",
+    "support scale"
   ],
   "evaluation": {
     "decision_weight": 0.55,

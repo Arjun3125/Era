@@ -2,33 +2,38 @@
   "scenario_id": "RISK_042",
   "category": "risk",
   "difficulty": "expert",
-  "title": "Supply chain disruption",
-  "prompt": "A key supplier signals potential delays that could disrupt delivery timelines. Decide the best supply chain response.",
+  "title": "Security breach response",
+  "prompt": "Your security team reports a breach impacting customer data. Assess the severity and decide the most responsible immediate response.",
   "context": {
     "company_size": "small",
-    "cash_reserve_months": 21,
-    "brand_strength": "medium",
-    "customer_loyalty": "moderate",
+    "cash_reserve_months": 22,
+    "brand_strength": "low",
+    "customer_loyalty": "low",
     "regulatory_pressure": "medium",
-    "time_pressure_days": 30,
-    "urgency_rank": 2,
-    "supplier_concentration": 0.561,
-    "lead_time_risk": 0.921,
-    "demand_volatility": 0.693,
-    "inventory_cover": 0.728
+    "time_pressure_days": 15,
+    "urgency_rank": 1,
+    "growth_outlook": "high",
+    "stake_level": "medium",
+    "reversibility": "high",
+    "decision_horizon_months": 15,
+    "industry": "fintech",
+    "severity": 0.829,
+    "exploit_active": 0.85,
+    "data_sensitivity": 0.778,
+    "public_visibility": 0.243
   },
   "decision_options": [
-    "add backup suppliers",
-    "build safety stock",
-    "slow order intake",
-    "rush alternative sourcing",
-    "maintain current plan"
+    "file a regulatory disclosure",
+    "patch immediately",
+    "notify customers publicly",
+    "freeze operations",
+    "observe without action"
   ],
-  "expected_decision": "build safety stock",
+  "expected_decision": "patch immediately",
   "reasoning_rubric": [
-    "buffer against delays",
-    "maintain service levels",
-    "use cash strategically"
+    "stop the breach",
+    "reduce ongoing harm",
+    "restore security quickly"
   ],
   "evaluation": {
     "decision_weight": 0.55,

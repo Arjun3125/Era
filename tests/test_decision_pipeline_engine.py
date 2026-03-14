@@ -68,6 +68,7 @@ def _engine_for_test() -> DecisionPipelineEngine:
         config_module=object(),  # type: ignore[arg-type]
         domain_module=object(),  # type: ignore[arg-type]
         mode_module=object(),  # type: ignore[arg-type]
+        scenario_memory_module=object(),  # type: ignore[arg-type]
         knowledge_module=object(),  # type: ignore[arg-type]
         validation_module=object(),  # type: ignore[arg-type]
         council_module=object(),  # type: ignore[arg-type]

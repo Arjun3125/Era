@@ -22,3 +22,10 @@ class ValueModelPredictor:
         features = self.extractor.encode(prompt, option, context)
         score = float(self.model.predict(np.asarray([features]))[0])
         return max(0.0, min(1.0, score))
+
+    def warm_cache(self, prompt: str, options: list[str], context: Dict[str, Any]) -> None:
+        if self.extractor.config.backend != "sentence_transformers":
+            return
+        prompt_text = self.extractor._format_prompt(prompt, context)
+        option_texts = [str(item or "") for item in options]
+        self.extractor.warm_cache([prompt_text], option_texts)

@@ -1,0 +1,41 @@
+{
+  "scenario_id": "STRAT_534",
+  "category": "strategy",
+  "difficulty": "expert",
+  "title": "Market entry decision",
+  "prompt": "Your company is considering entry into a new region with uncertain demand and regulatory complexity. Decide the best market entry strategy.",
+  "context": {
+    "company_size": "mid",
+    "cash_reserve_months": 10,
+    "brand_strength": "medium",
+    "customer_loyalty": "high",
+    "regulatory_pressure": "low",
+    "time_pressure_days": 8,
+    "urgency_rank": 2,
+    "growth_outlook": "moderate",
+    "stake_level": "low",
+    "reversibility": "medium",
+    "decision_horizon_months": 10,
+    "industry": "industrial",
+    "market_uncertainty": 0.459,
+    "local_partner_available": 0.0,
+    "strategic_importance": 0.708
+  },
+  "decision_options": [
+    "enter the market now",
+    "localize before launch",
+    "partner with a local firm",
+    "buy a local competitor",
+    "exit the opportunity"
+  ],
+  "expected_decision": "buy a local competitor",
+  "reasoning_rubric": [
+    "buy market access",
+    "accelerate entry",
+    "use cash advantage"
+  ],
+  "evaluation": {
+    "decision_weight": 0.55,
+    "reasoning_weight": 0.45
+  }
+}

@@ -5,30 +5,35 @@
   "title": "Security breach response",
   "prompt": "Your security team reports a breach impacting customer data. Assess the severity and decide the most responsible immediate response.",
   "context": {
-    "company_size": "large",
-    "cash_reserve_months": 13,
-    "brand_strength": "medium",
-    "customer_loyalty": "high",
+    "company_size": "mid",
+    "cash_reserve_months": 21,
+    "brand_strength": "high",
+    "customer_loyalty": "low",
     "regulatory_pressure": "medium",
-    "time_pressure_days": 28,
+    "time_pressure_days": 10,
     "urgency_rank": 3,
-    "severity": 0.849,
-    "exploit_active": 0.797,
-    "data_sensitivity": 0.825,
-    "public_visibility": 0.102
+    "growth_outlook": "moderate",
+    "stake_level": "low",
+    "reversibility": "low",
+    "decision_horizon_months": 12,
+    "industry": "media",
+    "severity": 0.478,
+    "exploit_active": 0.965,
+    "data_sensitivity": 0.272,
+    "public_visibility": 0.68
   },
   "decision_options": [
     "report to regulators",
-    "isolate and fix quickly",
-    "issue a public statement",
-    "notify regulators",
-    "watch and wait"
+    "patch immediately",
+    "notify customers publicly",
+    "halt services temporarily",
+    "observe without action"
   ],
-  "expected_decision": "notify regulators",
+  "expected_decision": "patch immediately",
   "reasoning_rubric": [
-    "regulatory compliance",
-    "limit legal exposure",
-    "document incident"
+    "stop the breach",
+    "reduce ongoing harm",
+    "restore security quickly"
   ],
   "evaluation": {
     "decision_weight": 0.55,

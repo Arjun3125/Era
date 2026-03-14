@@ -1,34 +1,39 @@
 {
   "scenario_id": "ETH_047",
   "category": "ethics",
-  "difficulty": "medium",
-  "title": "Workforce reduction dilemma",
-  "prompt": "Revenue has slowed and expenses exceed plan. Leadership must choose a workforce strategy to stabilize finances while protecting long-term capability.",
+  "difficulty": "hard",
+  "title": "AI bias allegation",
+  "prompt": "An external report claims your AI model shows bias in a critical workflow. Decide the most ethical response.",
   "context": {
     "company_size": "mid",
-    "cash_reserve_months": 14,
-    "brand_strength": "medium",
-    "customer_loyalty": "high",
-    "regulatory_pressure": "low",
-    "time_pressure_days": 26,
-    "urgency_rank": 1,
-    "cost_gap": 0.361,
-    "morale_risk": 0.942,
-    "hiring_friction": 0.729,
-    "growth_outlook": "high"
+    "cash_reserve_months": 10,
+    "brand_strength": "low",
+    "customer_loyalty": "low",
+    "regulatory_pressure": "high",
+    "time_pressure_days": 8,
+    "urgency_rank": 3,
+    "growth_outlook": "low",
+    "stake_level": "high",
+    "reversibility": "medium",
+    "decision_horizon_months": 17,
+    "industry": "retail",
+    "harm_level": 0.142,
+    "evidence_strength": 0.489,
+    "revenue_dependency": 0.867,
+    "public_visibility": 0.283
   },
   "decision_options": [
-    "layoff now",
-    "redeploy staff",
-    "across-the-board cuts",
-    "hiring freeze",
-    "seek financing"
+    "pause and audit",
+    "release with mitigation",
+    "open communication",
+    "address silently",
+    "dismiss the report"
   ],
-  "expected_decision": "redeploy staff",
+  "expected_decision": "pause and audit",
   "reasoning_rubric": [
-    "retain talent",
-    "focus on priority work",
-    "minimize disruption"
+    "prevent harm",
+    "validate evidence",
+    "regain trust"
   ],
   "evaluation": {
     "decision_weight": 0.55,
