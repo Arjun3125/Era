@@ -48,13 +48,84 @@ _NATIVE_RISK_KEYWORDS = (
 _NATIVE_SPEED_KEYWORDS = ("urgent", "deadline", "immediately", "now", "fast")
 _NATIVE_UNCERTAINTY_KEYWORDS = ("uncertain", "unknown", "ambiguous", "guess")
 
+import os as _os
+import re as _re
+try:
+    import yaml as _yaml
+    _YAML_AVAILABLE = True
+except ImportError:
+    _YAML_AVAILABLE = False
+
+_DOCTRINE_ROOT = _os.path.join(
+    _os.path.dirname(_os.path.dirname(_os.path.dirname(__file__))),
+    "data", "doctrine", "locked"
+)
+
+_MINISTER_YAML_NAMES = {
+    "risk": "risk_resources",
+    "risk_resources": "risk_resources",
+    "power": "power",
+    "grand_strategist": "grand_strategist",
+    "technology": "technology",
+    "timing": "timing",
+    "optionality": "optionality",
+    "data": "data",
+    "diplomacy": "diplomacy",
+    "psychology": "psychology",
+    "legitimacy": "legitimacy",
+    "conflict": "conflict",
+    "truth": "truth",
+    "discipline": "discipline",
+    "intelligence": "intelligence",
+    "narrative": "narrative",
+    "sovereign": "n",
+    "adaptation": "adaptation",
+    "war_mode": "war_mode",
+}
+
+
+def _load_doctrine_keywords(minister_name: str):
+    """Return (speak_keywords, silent_keywords) extracted from the minister's doctrine YAML."""
+    if not _YAML_AVAILABLE:
+        return [], []
+    yaml_name = _MINISTER_YAML_NAMES.get(minister_name)
+    if not yaml_name:
+        return [], []
+    yaml_path = _os.path.join(_DOCTRINE_ROOT, f"{yaml_name}.yaml")
+    if not _os.path.isfile(yaml_path):
+        return [], []
+    try:
+        with open(yaml_path, "r", encoding="utf-8") as f:
+            doc = _yaml.safe_load(f)
+        triggers = (doc.get("doctrine") or {}).get("triggers") or {}
+        speak_raw = triggers.get("speak") or []
+        silent_raw = triggers.get("silent") or []
+
+        def _extract(items):
+            keywords = []
+            for item in (items if isinstance(items, list) else [str(items)]):
+                # Extract 4+-char words from each trigger phrase
+                words = _re.findall(r"\b[a-z]{4,}\b", str(item).lower())
+                keywords.extend(words)
+            return list(set(keywords))
+
+        return _extract(speak_raw), _extract(silent_raw)
+    except Exception:
+        return [], []
+
 
 @dataclass
 class _NativeMinister:
     name: str
     bias: str = "neutral"
     strict_on_risk: bool = False
-    doctrine_keywords: set[str] = field(default_factory=set)
+    doctrine_speak_keywords: list = field(default_factory=list)
+    doctrine_silent_keywords: list = field(default_factory=list)
+
+    @property
+    def doctrine_keywords(self):
+        """Combined view for backward compat."""
+        return set(self.doctrine_speak_keywords) | set(self.doctrine_silent_keywords)
 
     def analyze(self, user_input: str, context: Mapping[str, Any]) -> Dict[str, Any]:
         text = str(user_input or "").lower()
@@ -67,11 +138,6 @@ class _NativeMinister:
         risk_score = _native_keyword_score(text, _NATIVE_RISK_KEYWORDS)
         uncertainty = _native_keyword_score(text, _NATIVE_UNCERTAINTY_KEYWORDS)
 
-        matched_doctrine = sum(1 for kw in self.doctrine_keywords if kw in text)
-        urgency += (matched_doctrine * 0.1)
-        risk_score += (matched_doctrine * 0.1)
-
-
         stance = self.bias
         if self.strict_on_risk and risk_score >= 0.25:
             stance = "oppose"
@@ -81,6 +147,12 @@ class _NativeMinister:
             stance = "support"
         elif uncertainty >= 0.35:
             stance = "neutral"
+
+        # Doctrine-keyword override: if doctrine says speak and text matches, push toward bias
+        if self.doctrine_speak_keywords:
+            if any(kw in text for kw in self.doctrine_speak_keywords):
+                if stance == "neutral":
+                    stance = self.bias if self.bias != "neutral" else "support"
 
         if option_text:
             support_terms = {
@@ -158,43 +230,37 @@ class NativeCouncil:
 
     @staticmethod
     def _build_ministers() -> Dict[str, _NativeMinister]:
-        from persona.doctrine_loader import DoctrineLoader
-        specs = {
-            "risk": _NativeMinister("risk", bias="oppose", strict_on_risk=True),
-            "risk_resources": _NativeMinister("risk_resources", bias="neutral", strict_on_risk=True),
-            "power": _NativeMinister("power", bias="support"),
-            "grand_strategist": _NativeMinister("grand_strategist", bias="support"),
-            "technology": _NativeMinister("technology", bias="support"),
-            "timing": _NativeMinister("timing", bias="support"),
-            "optionality": _NativeMinister("optionality", bias="support"),
-            "data": _NativeMinister("data", bias="neutral"),
-            "diplomacy": _NativeMinister("diplomacy", bias="neutral"),
-            "psychology": _NativeMinister("psychology", bias="neutral"),
-            "legitimacy": _NativeMinister("legitimacy", bias="neutral", strict_on_risk=True),
-            "conflict": _NativeMinister("conflict", bias="oppose"),
-            "truth": _NativeMinister("truth", bias="neutral"),
-            "discipline": _NativeMinister("discipline", bias="support"),
-            "intelligence": _NativeMinister("intelligence", bias="neutral"),
-            "narrative": _NativeMinister("narrative", bias="neutral"),
-            "sovereign": _NativeMinister("sovereign", bias="support"),
-            "adaptation": _NativeMinister("adaptation", bias="support"),
-            "war_mode": _NativeMinister("war_mode", bias="support"),
+        specs_raw = {
+            "risk": dict(bias="oppose", strict_on_risk=True),
+            "risk_resources": dict(bias="neutral", strict_on_risk=True),
+            "power": dict(bias="support"),
+            "grand_strategist": dict(bias="support"),
+            "technology": dict(bias="support"),
+            "timing": dict(bias="support"),
+            "optionality": dict(bias="support"),
+            "data": dict(bias="neutral"),
+            "diplomacy": dict(bias="neutral"),
+            "psychology": dict(bias="neutral"),
+            "legitimacy": dict(bias="neutral", strict_on_risk=True),
+            "conflict": dict(bias="oppose"),
+            "truth": dict(bias="neutral"),
+            "discipline": dict(bias="support"),
+            "intelligence": dict(bias="neutral"),
+            "narrative": dict(bias="neutral"),
+            "sovereign": dict(bias="support"),
+            "adaptation": dict(bias="support"),
+            "war_mode": dict(bias="support"),
         }
-        for name, minister in specs.items():
-            doc_name = "risk_resources" if name == "risk" else name
-            doc = DoctrineLoader.load(doc_name)
-            if doc:
-                kw = set(doc.triggers_speak)
-                kw.update(DoctrineLoader.extract_worldview_keywords(doc.canon_text))
-                kw.update(DoctrineLoader.extract_warnings(doc.canon_text))
-                # Also split into words if canon_text is provided, so words like "loss" or "exposure" match.
-                # Actually, the YAMLs might be structured as bullet points that contain these words.
-                # Just extract individual lowercased words from canon_text longer than 4 chars as keywords for the test to pass:
-                import re
-                words = re.findall(r'\b[a-z]{5,}\b', doc.canon_text.lower())
-                kw.update(words)
-                minister.doctrine_keywords = {str(k).lower() for k in kw if isinstance(k, str)}
-        return dict(specs)
+        ministers = {}
+        for name, kwargs in specs_raw.items():
+            speak_kw, silent_kw = _load_doctrine_keywords(name)
+            ministers[name] = _NativeMinister(
+                name=name,
+                doctrine_speak_keywords=speak_kw,
+                doctrine_silent_keywords=silent_kw,
+                **kwargs,
+            )
+        return ministers
 
 
 def _default_council_factory(llm: Any) -> Any:

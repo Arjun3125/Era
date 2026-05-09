@@ -331,31 +331,40 @@ _BUILTIN_ENTRIES = [
     },
 ]
 
-_CHROMA_COLLECTION_NAME = "era_minister_knowledge"
+# ── Chroma vector retrieval (optional, graceful degradation) ──────────────────
+import threading as _threading
+
+_chroma_lock = _threading.Lock()
 _chroma_collection = None
+_CHROMA_COLLECTION_NAME = "era_minister_knowledge"
+
 
 def _get_chroma_collection():
+    """Return the Chroma collection, building it on first call. Thread-safe."""
     global _chroma_collection
     if _chroma_collection is not None:
         return _chroma_collection
-    try:
-        import chromadb
-    except ImportError:
-        return None
-    try:
-        client = chromadb.PersistentClient(
-            path=str(_pathlib.Path(BASE_PATH).parent.parent / "chroma_knowledge")
-        )
-        col = client.get_or_create_collection(
-            name=_CHROMA_COLLECTION_NAME,
-            metadata={"hnsw:space": "cosine"},
-        )
-        if col.count() == 0:
-            _index_minister_knowledge(col)
-        _chroma_collection = col
-        return col
-    except Exception:
-        return None
+    with _chroma_lock:
+        if _chroma_collection is not None:
+            return _chroma_collection
+        try:
+            import chromadb
+        except ImportError:
+            return None
+        try:
+            client = chromadb.PersistentClient(
+                path=str(_pathlib.Path(BASE_PATH).parent.parent / "chroma_knowledge")
+            )
+            col = client.get_or_create_collection(
+                name=_CHROMA_COLLECTION_NAME,
+                metadata={"hnsw:space": "cosine"},
+            )
+            if col.count() == 0:
+                _index_minister_knowledge(col)
+            _chroma_collection = col
+            return col
+        except Exception:
+            return None
 
 def _index_minister_knowledge(col) -> None:
     """Populate Chroma with all minister JSON entries."""

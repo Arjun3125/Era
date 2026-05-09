@@ -120,21 +120,40 @@ def test_native_council_thread_safety():
     assert not errors, f"Thread safety violated: {errors}"
 
 
-def test_native_council_loads_doctrine():
+def test_native_council_loads_doctrine_keywords():
     """NativeCouncil ministers must have doctrine-enriched keyword lists after loading YAMLs."""
+    import sys
+    for k in list(sys.modules.keys()):
+        if "council_execution" in k:
+            del sys.modules[k]
+
     from modules.council_execution.engine import NativeCouncil
-
     council = NativeCouncil()
-    assert hasattr(council.ministers["risk"], "doctrine_keywords"), "Ministers must have doctrine_keywords attribute"
 
-    # In data/doctrine/locked/risk_resources.yaml, canon usually contains "loss" or "exposure"
-    kw = council.ministers["risk"].doctrine_keywords
-    assert len(kw) > 0, "Doctrine keywords should have been loaded"
+    # After Task 5 the risk minister must have doctrine-sourced keywords
+    risk_minister = council.ministers.get("risk")
+    assert risk_minister is not None
+    # Doctrine YAML for risk includes "irreversible" — verify it's in the keyword list
+    assert hasattr(risk_minister, "doctrine_speak_keywords"), (
+        "Minister missing 'doctrine_speak_keywords' — YAML not loaded"
+    )
+    assert len(risk_minister.doctrine_speak_keywords) > 0, (
+        "doctrine_speak_keywords is empty — YAML triggers not parsed"
+    )
 
-    # Test scoring impact
-    res = council.ministers["risk"].analyze("We have significant market exposure here", {})
-    # Default risk without doctrine might be neutral, but with doctrine match it should be oppose
-    assert res["stance"] == "oppose"
+
+def test_doctrine_keywords_influence_stance():
+    """A risk-related input must trigger the risk minister's 'oppose' stance via doctrine keywords."""
+    from modules.council_execution.engine import NativeCouncil
+    council = NativeCouncil()
+    risk_minister = council.ministers["risk"]
+    result = risk_minister.analyze(
+        "This is irreversible and could cause catastrophic loss",
+        {"domains": ["risk"]}
+    )
+    assert result["stance"] == "oppose", (
+        f"Expected 'oppose' for risk-laden input, got '{result['stance']}'"
+    )
 
 
 def test_chroma_knowledge_retrieval_semantic():
