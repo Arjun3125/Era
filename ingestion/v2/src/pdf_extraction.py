@@ -3,12 +3,22 @@ from __future__ import annotations
 
 from typing import List
 
-from ingestion.v1.ingest import extract_pdf_pages as _extract_pdf_pages
+import logging
+import pdfplumber
 
+logger = logging.getLogger(__name__)
 
 def extract_pdf_pages(pdf_path: str, **kwargs) -> List[str]:
-    """Reuse v1 stub extraction for tests."""
-    return _extract_pdf_pages(pdf_path, **kwargs)
+    """Extract real text from a PDF file using pdfplumber."""
+    pages_text = []
+    with pdfplumber.open(pdf_path) as pdf:
+        for page in pdf.pages:
+            text = page.extract_text()
+            if text:
+                pages_text.append(text)
+            else:
+                pages_text.append("")
+    return pages_text
 
 
 def looks_glyph_encoded(text: str) -> bool:

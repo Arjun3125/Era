@@ -17,7 +17,7 @@ from concurrent.futures import ThreadPoolExecutor, Future, TimeoutError
 from typing import Optional, Dict, Any
 
 from .state import CognitiveState
-from .context import build_system_context, trim_response, enforce_frequency, MODE_INERTIA
+from .context import build_system_context, MODE_INERTIA
 from .trace import trace, print_trace, DEBUG_OBSERVER
 from .analysis import (
     assess_situation,
@@ -613,8 +613,7 @@ def main():
             state.pending_offer_text = response
 
         # Display assistant response
-        display = trim_response(response, state.mode)
-        display = enforce_frequency(display, state.user_frequency)
+        display = response
         label = f"[{state.mode.upper()}] "
         print(f"\nN: {label}{display}\n")
         

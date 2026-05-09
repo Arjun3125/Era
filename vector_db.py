@@ -1,7 +1,8 @@
-"""Vector DB stub for tests."""
+"""VectorDBStub — in-memory stub used only by unit tests.
 
+For production knowledge retrieval see persona/knowledge_engine._get_chroma_collection().
+"""
 from __future__ import annotations
-
 from dataclasses import dataclass, field
 from typing import Any, List
 

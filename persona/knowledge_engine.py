@@ -8,8 +8,10 @@ from typing import Dict, List, Any, Optional, Tuple
 
 # -----------------------------
 # CONFIG
-# -----------------------------
-BASE_PATH = r"C:\era\data\ministers"
+import pathlib as _pathlib
+
+_PROJECT_ROOT = _pathlib.Path(__file__).resolve().parent.parent
+BASE_PATH = str(os.environ.get("ERA_MINISTER_PATH") or _PROJECT_ROOT / "data" / "ministers")
 
 KNOWLEDGE_TYPES = ["principle", "rule", "warning", "claim", "advice"]
 
@@ -270,6 +272,128 @@ def load_domain_knowledge(domain: str) -> List[Dict[str, Any]]:
     return knowledge
 
 
+_BUILTIN_ENTRIES = [
+    {
+        "aku_id": "builtin-1",
+        "content": "Quitting without a financial buffer increases long-term risk to income and retirement.",
+        "type": "warning",
+        "source": {"book": "builtin:career_risk"},
+        "memory": {"reinforcement_count": 2},
+        "_domain": "risk",
+    },
+    {
+        "aku_id": "builtin-2",
+        "content": "Plan alternatives and preserve optionality: negotiate, freelance, or part-time work first.",
+        "type": "advice",
+        "source": {"book": "builtin:optionality_guide"},
+        "memory": {"reinforcement_count": 1},
+        "_domain": "optionality",
+    },
+    {
+        "aku_id": "builtin-3",
+        "content": "Stress and burnout often follow unresolved workload and misaligned incentives; address root causes early.",
+        "type": "principle",
+        "source": {"book": "builtin:psychology_of_work"},
+        "memory": {"reinforcement_count": 3},
+        "_domain": "psychology",
+    },
+    {
+        "aku_id": "builtin-4",
+        "content": "Prioritize emergency savings covering 3-6 months of expenses before making major job moves.",
+        "type": "rule",
+        "source": {"book": "builtin:personal_finance"},
+        "memory": {"reinforcement_count": 4},
+        "_domain": "risk",
+    },
+    {
+        "aku_id": "builtin-5",
+        "content": "Decisions labelled irreversible require documenting commitments and contingency plans.",
+        "type": "principle",
+        "source": {"book": "builtin:decision_theory"},
+        "memory": {"reinforcement_count": 2},
+        "_domain": "strategy",
+    },
+    {
+        "aku_id": "builtin-6",
+        "content": "Shifts in relative power often follow technological adoption curves; monitor diffusion metrics and chokepoints.",
+        "type": "claim",
+        "source": {"book": "builtin:power_technology"},
+        "memory": {"reinforcement_count": 3},
+        "_domain": "power",
+    },
+    {
+        "aku_id": "builtin-7",
+        "content": "Invest in resilient communications and counter-intelligence to mitigate remote sensing and collection risks.",
+        "type": "advice",
+        "source": {"book": "builtin:intel_and_comm"},
+        "memory": {"reinforcement_count": 2},
+        "_domain": "technology",
+    },
+]
+
+_CHROMA_COLLECTION_NAME = "era_minister_knowledge"
+_chroma_collection = None
+
+def _get_chroma_collection():
+    global _chroma_collection
+    if _chroma_collection is not None:
+        return _chroma_collection
+    try:
+        import chromadb
+    except ImportError:
+        return None
+    try:
+        client = chromadb.PersistentClient(
+            path=str(_pathlib.Path(BASE_PATH).parent.parent / "chroma_knowledge")
+        )
+        col = client.get_or_create_collection(
+            name=_CHROMA_COLLECTION_NAME,
+            metadata={"hnsw:space": "cosine"},
+        )
+        if col.count() == 0:
+            _index_minister_knowledge(col)
+        _chroma_collection = col
+        return col
+    except Exception:
+        return None
+
+def _index_minister_knowledge(col) -> None:
+    """Populate Chroma with all minister JSON entries."""
+    if not os.path.isdir(BASE_PATH):
+        return
+    documents, metadatas, ids = [], [], []
+    for domain in os.listdir(BASE_PATH):
+        domain_path = os.path.join(BASE_PATH, domain)
+        if not os.path.isdir(domain_path):
+            continue
+        for ktype in KNOWLEDGE_TYPES:
+            file_path = os.path.join(domain_path, f"{ktype}s.json")
+            raw = load_json_safe(file_path)
+            entries = raw.get("entries", []) if isinstance(raw, dict) else (raw if isinstance(raw, list) else [])
+            for entry in entries:
+                text = str(entry.get("text", "")).strip()
+                if not text:
+                    continue
+                doc_id = str(entry.get("id", "")) or f"{domain}_{ktype}_{len(ids)}"
+                documents.append(text)
+                metadatas.append({
+                    "domain": domain,
+                    "type": ktype.rstrip("s"),
+                    "book": str(entry.get("source", {}).get("book", "")),
+                    "weight": float(entry.get("weight", 1.0)),
+                })
+                ids.append(doc_id)
+    if documents:
+        # Chroma accepts up to 5461 items per add call
+        batch = 500
+        for i in range(0, len(documents), batch):
+            col.add(
+                documents=documents[i:i+batch],
+                metadatas=metadatas[i:i+batch],
+                ids=ids[i:i+batch],
+            )
+
+
 def synthesize_knowledge(
     user_input: str,
     active_domains: List[str],
@@ -279,8 +403,30 @@ def synthesize_knowledge(
 ) -> Dict[str, Any]:
     all_entries = []
 
-    # Prefer on-disk knowledge, but fall back to builtin compact knowledge
-    if os.path.isdir(BASE_PATH):
+    # ── Try Chroma semantic retrieval ──────────────────────────────────────────
+    try:
+        col = _get_chroma_collection()
+        n_results = min(max_items * 4, col.count()) if col else 0
+        if n_results > 0:
+            results = col.query(
+                query_texts=[user_input],
+                n_results=n_results,
+                where={"domain": {"$in": active_domains}} if active_domains else None,
+            )
+            for text, meta in zip(results["documents"][0], results["metadatas"][0]):
+                all_entries.append({
+                    "aku_id": "",
+                    "content": text,
+                    "type": meta.get("type", "principle"),
+                    "_domain": meta.get("domain", ""),
+                    "source": {"book": meta.get("book", "")},
+                    "memory": {"reinforcement_count": int(float(meta.get("weight", 1.0)) * 10)},
+                })
+    except Exception:
+        pass
+
+    # ── Fall back to full file scan if Chroma unavailable ─────────────────────
+    if not all_entries and os.path.isdir(BASE_PATH):
         try:
             for domain in os.listdir(BASE_PATH):
                 domain_path = os.path.join(BASE_PATH, domain)
@@ -290,78 +436,9 @@ def synthesize_knowledge(
         except Exception:
             all_entries = []
 
-    # builtin fallback when no files are available
+    # ── Final fallback: 7 builtins ────────────────────────────────────────────
     if not all_entries:
-        try:
-            print(f"[KIS DEBUG] falling back to builtin entries (user_input={user_input[:80]!r})")
-        except Exception:
-            pass
-        builtin_entries = [
-            {
-                "aku_id": "builtin-1",
-                "content": "Quitting without a financial buffer increases long-term risk to income and retirement.",
-                "type": "warning",
-                "source": {"book": "builtin:career_risk"},
-                "memory": {"reinforcement_count": 2},
-            },
-            {
-                "aku_id": "builtin-2",
-                "content": "Plan alternatives and preserve optionality: negotiate, freelance, or part-time work first.",
-                "type": "advice",
-                "source": {"book": "builtin:optionality_guide"},
-                "memory": {"reinforcement_count": 1},
-            },
-            {
-                "aku_id": "builtin-3",
-                "content": "Stress and burnout often follow unresolved workload and misaligned incentives; address root causes early.",
-                "type": "principle",
-                "source": {"book": "builtin:psychology_of_work"},
-                "memory": {"reinforcement_count": 3},
-            },
-            {
-                "aku_id": "builtin-4",
-                "content": "Prioritize emergency savings covering 3-6 months of expenses before making major job moves.",
-                "type": "rule",
-                "source": {"book": "builtin:personal_finance"},
-                "memory": {"reinforcement_count": 4},
-            },
-            {
-                "aku_id": "builtin-5",
-                "content": "Decisions labelled irreversible require documenting commitments and contingency plans.",
-                "type": "principle",
-                "source": {"book": "builtin:decision_theory"},
-                "memory": {"reinforcement_count": 2},
-            },
-            {
-                "aku_id": "builtin-6",
-                "content": "Shifts in relative power often follow technological adoption curves; monitor diffusion metrics and chokepoints.",
-                "type": "claim",
-                "source": {"book": "builtin:power_technology"},
-                "memory": {"reinforcement_count": 3},
-            },
-            {
-                "aku_id": "builtin-7",
-                "content": "Invest in resilient communications and counter-intelligence to mitigate remote sensing and collection risks.",
-                "type": "advice",
-                "source": {"book": "builtin:intel_and_comm"},
-                "memory": {"reinforcement_count": 2},
-            },
-        ]
-        for e in builtin_entries:
-            txt = e["content"].lower()
-            if "financial" in txt or "savings" in txt or "income" in txt:
-                e["_domain"] = "risk"
-            elif "optionality" in txt or "flexible" in txt or "part-time" in txt:
-                e["_domain"] = "optionality"
-            elif "stress" in txt or "burnout" in txt:
-                e["_domain"] = "psychology"
-            elif "power" in txt or "sovereignty" in txt or "dominance" in txt:
-                e["_domain"] = "power"
-            elif "techn" in txt or "diffusion" in txt or "communication" in txt:
-                e["_domain"] = "technology"
-            else:
-                e["_domain"] = "strategy"
-        all_entries = builtin_entries
+        all_entries = _BUILTIN_ENTRIES   # move the existing builtin list to a module-level constant
 
     try:
         print(f"[KIS DEBUG] total entries available for scoring: {len(all_entries)}")
