@@ -253,7 +253,8 @@ class NativeCouncil:
     def _llm_deliberate(self, user_input: str, context: dict, minister_names: list) -> dict:
         """Call each minister via MinisterVoice, aggregate stances."""
         try:
-            from persona.council.minister_voice import MinisterVoice
+            _mv_mod = __import__("persona.council.minister_voice", fromlist=["MinisterVoice"])
+            MinisterVoice = _mv_mod.MinisterVoice
         except ImportError:
             return self._keyword_deliberate(user_input, context)
 
@@ -261,7 +262,8 @@ class NativeCouncil:
         active_domains = context.get("domains", [])
         knowledge_entries: list = []
         try:
-            from persona.knowledge_engine import synthesize_knowledge
+            _ke_mod = __import__("persona.knowledge_engine", fromlist=["synthesize_knowledge"])
+            synthesize_knowledge = _ke_mod.synthesize_knowledge
             if active_domains:
                 kis = synthesize_knowledge(
                     user_input=user_input,
