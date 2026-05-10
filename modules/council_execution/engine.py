@@ -11,7 +11,16 @@ from typing import Any, Callable, Dict, List, Mapping, Optional
 
 from modules.council_router.mode_orchestrator import ExecutionConfig, ModeOrchestrator
 from modules.expert_router.aggregator import aggregate_weighted_positions
+from modules.expert_router.aggregator import aggregate_weighted_positions
 
+
+_MEETING_MINISTERS = ["risk", "grand_strategist", "optionality", "psychology", "timing"]
+_DARBAR_MINISTERS = [
+    "risk", "grand_strategist", "power", "optionality", "psychology",
+    "timing", "legitimacy", "truth", "data", "conflict",
+    "diplomacy", "technology", "intelligence", "narrative",
+    "discipline", "adaptation", "sovereign", "war_mode",
+]
 
 CouncilFactory = Callable[[Any], Any]
 _SUPPORTED_STANCES = {"support", "oppose", "neutral"}
@@ -227,6 +236,151 @@ class NativeCouncil:
                 rationale TEXT
             )
         ''')
+
+    def deliberate(self, user_input: str, context: dict) -> dict:
+        """Run council deliberation. Uses LLM voice for meeting/darbar if LLM available.
+
+        Falls back to keyword scoring for quick/war modes or when no LLM present.
+        """
+        mode = str(context.get("mode", "meeting")).lower()
+
+        if self.llm is not None and mode in {"meeting", "darbar"}:
+            minister_names = _DARBAR_MINISTERS if mode == "darbar" else _MEETING_MINISTERS
+            return self._llm_deliberate(user_input, context, minister_names)
+        else:
+            return self._keyword_deliberate(user_input, context)
+
+    def _llm_deliberate(self, user_input: str, context: dict, minister_names: list) -> dict:
+        """Call each minister via MinisterVoice, aggregate stances."""
+        try:
+            from persona.council.minister_voice import MinisterVoice
+        except ImportError:
+            return self._keyword_deliberate(user_input, context)
+
+        mode = str(context.get("mode", "meeting")).lower()
+        active_domains = context.get("domains", [])
+        knowledge_entries: list = []
+        try:
+            from persona.knowledge_engine import synthesize_knowledge
+            if active_domains:
+                kis = synthesize_knowledge(
+                    user_input=user_input,
+                    active_domains=active_domains,
+                    domain_confidence=0.7,
+                )
+                knowledge_entries = kis.get("synthesized_knowledge", [])[:6]
+        except Exception:
+            pass
+
+        # Round 1: all ministers deliberate
+        stances = {}
+        for name in minister_names:
+            voice = MinisterVoice(minister_name=name, llm=self.llm)
+            result = voice.deliberate(user_input, context, knowledge_entries=knowledge_entries)
+            stances[name] = result
+
+        rounds = [{"round": 1, "stances": {n: r["stance"] for n, r in stances.items()}}]
+        peer_challenges: Dict[str, str] = {}
+
+        # Round 2 (darbar only): ministers see peer summary and can revise
+        if mode == "darbar":
+            peer_summary = "Peer stances from Round 1: " + ", ".join(
+                f"{n}={r['stance']}({r['confidence']:.0%})"
+                for n, r in stances.items()
+            )
+            r2_context = dict(context)
+            r2_context["peer_summary"] = peer_summary
+
+            stances_r2 = {}
+            for name in minister_names:
+                voice = MinisterVoice(minister_name=name, llm=self.llm)
+                r1_stance = stances[name]["stance"]
+                result = voice.deliberate(user_input, r2_context, knowledge_entries=knowledge_entries)
+                stances_r2[name] = result
+                # Track if minister changed position
+                if result["stance"] != r1_stance:
+                    peer_challenges[name] = (
+                        f"Changed from {r1_stance} to {result['stance']}: {result['reasoning'][:120]}"
+                    )
+
+            rounds.append({"round": 2, "stances": {n: r["stance"] for n, r in stances_r2.items()}})
+            stances = stances_r2  # final stances from round 2
+
+        support = sum(1 for r in stances.values() if r["stance"] == "support")
+        oppose = sum(1 for r in stances.values() if r["stance"] == "oppose")
+        neutral = sum(1 for r in stances.values() if r["stance"] == "neutral")
+        warnings = [f"{n}: {r['warning']}" for n, r in stances.items() if r.get("warning")]
+
+        total = max(1, support + oppose + neutral)
+        if support > oppose:
+            outcome = "proceed"
+        elif oppose > support:
+            outcome = "reconsider"
+        else:
+            outcome = "defer"
+
+        consensus_strength = max(support, oppose) / total
+
+        # Dissent summary when meaningful disagreement exists
+        dissent_summary = ""
+        if support > 0 and oppose > 0:
+            supporters = [n for n, r in stances.items() if r["stance"] == "support"]
+            opposers = [n for n, r in stances.items() if r["stance"] == "oppose"]
+            top_support_reason = stances[supporters[0]]["reasoning"] if supporters else ""
+            top_oppose_reason = stances[opposers[0]]["reasoning"] if opposers else ""
+            dissent_summary = (
+                f"{', '.join(supporters[:2])} advocate proceeding: {top_support_reason[:120]} | "
+                f"{', '.join(opposers[:2])} urge caution: {top_oppose_reason[:120]}"
+            )
+
+        MINORITY_CONFIDENCE_THRESHOLD = 0.85
+        minority_alert = ""
+        for name, result in stances.items():
+            majority_stance = "support" if outcome == "proceed" else ("oppose" if outcome == "reconsider" else "neutral")
+            if result["confidence"] >= MINORITY_CONFIDENCE_THRESHOLD and result["stance"] != majority_stance:
+                minority_alert = (
+                    f"MINORITY ALERT — {name} ({result['confidence']:.0%} confident): "
+                    f"{result['reasoning'][:200]}"
+                )
+                if result.get("warning"):
+                    minority_alert += f" | Warning: {result['warning']}"
+                break
+
+        return {
+            "outcome": outcome,
+            "recommendation": outcome,
+            "stances": stances,
+            "consensus_strength": round(consensus_strength, 3),
+            "red_line_concerns": warnings,
+            "ministers_involved": minister_names,
+            "dissent_summary": dissent_summary,
+            "minority_alert": minority_alert,
+            "rounds": rounds,
+            "peer_challenges": peer_challenges,
+        }
+
+    def _keyword_deliberate(self, user_input: str, context: dict) -> dict:
+        """Keyword-based fallback when no LLM or in quick/war mode."""
+        stances = {}
+        support, oppose, neutral = 0, 0, 0
+        for name, minister in self.ministers.items():
+            result = minister.analyze(user_input, context)
+            stances[name] = result
+            s = result["stance"]
+            if s == "support": support += 1
+            elif s == "oppose": oppose += 1
+            else: neutral += 1
+
+        total = max(1, support + oppose + neutral)
+        outcome = "proceed" if support > oppose else ("reconsider" if oppose > support else "defer")
+        return {
+            "outcome": outcome,
+            "recommendation": outcome,
+            "stances": stances,
+            "consensus_strength": round(max(support, oppose) / total, 3),
+            "red_line_concerns": [],
+            "ministers_involved": list(self.ministers.keys()),
+        }
 
     @staticmethod
     def _build_ministers() -> Dict[str, _NativeMinister]:

@@ -272,6 +272,40 @@ def load_domain_knowledge(domain: str) -> List[Dict[str, Any]]:
     return knowledge
 
 
+def reinforce_entry(entry_id: str, domain: str, category: str, positive: bool = True) -> bool:
+    """Increment reinforcement_count (positive=True) or penalty_count (positive=False).
+
+    Writes back to the minister JSON file. Returns True if entry was found and updated.
+    category: 'principles' | 'rules' | 'warnings' | 'claims'
+    """
+    import datetime as _dt
+    import json
+    import os
+    import pathlib as _pathlib
+    file_path = os.path.join(BASE_PATH, domain, f"{category}.json")
+    if not os.path.isfile(file_path):
+        return False
+    try:
+        data = json.loads(_pathlib.Path(file_path).read_text(encoding="utf-8"))
+        entries = data.get("entries", [])
+        for entry in entries:
+            if entry.get("id") == entry_id:
+                mem = entry.setdefault("memory", {})
+                if positive:
+                    mem["reinforcement_count"] = mem.get("reinforcement_count", 0) + 1
+                    mem["last_reinforced_date"] = _dt.datetime.now(_dt.timezone.utc).isoformat()
+                else:
+                    mem["penalty_count"] = mem.get("penalty_count", 0) + 1
+                _pathlib.Path(file_path).write_text(json.dumps(data, indent=2), encoding="utf-8")
+                # Invalidate Chroma collection so next query re-indexes updated weights
+                global _chroma_collection
+                _chroma_collection = None
+                return True
+    except Exception:
+        pass
+    return False
+
+
 _BUILTIN_ENTRIES = [
     {
         "aku_id": "builtin-1",
@@ -487,7 +521,14 @@ def synthesize_knowledge(
     }
 
     for score, entry in selected:
-        synthesized.append(entry["content"])
+        synthesized.append({
+            "aku_id": entry.get("aku_id", ""),
+            "content": entry.get("content", ""),
+            "type": entry.get("type", "principle"),
+            "_domain": entry.get("_domain", ""),
+            "source": entry.get("source", {}),
+            "kis_score": round(score, 4),
+        })
         backtrace.append({
             "aku_id": entry.get("aku_id"),
             "domain": entry.get("_domain"),
@@ -587,11 +628,30 @@ def synthesize_knowledge(
         "num_candidates": len(selected_scores),
     }
     
+    # Detect domains with sparse knowledge coverage
+    MIN_DOMAIN_ENTRIES = 5
+    knowledge_gaps: List[str] = []
+    for domain in active_domains:
+        domain_path = os.path.join(BASE_PATH, domain)
+        if not os.path.isdir(domain_path):
+            if domain not in knowledge_gaps:
+                knowledge_gaps.append(domain)
+            continue
+        total_in_domain = 0
+        for ktype in KNOWLEDGE_TYPES:
+            fp = os.path.join(domain_path, f"{ktype}s.json")
+            raw = load_json_safe(fp)
+            entries = raw.get("entries", []) if isinstance(raw, dict) else (raw if isinstance(raw, list) else [])
+            total_in_domain += len(entries)
+        if total_in_domain < MIN_DOMAIN_ENTRIES and domain not in knowledge_gaps:
+            knowledge_gaps.append(domain)
+
     return {
         "synthesized_knowledge": synthesized,
         "knowledge_trace": backtrace,
         "knowledge_debug": knowledge_debug,
         "knowledge_quality": knowledge_quality,
+        "knowledge_gaps": knowledge_gaps,
     }
 
 

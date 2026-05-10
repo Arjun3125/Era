@@ -94,6 +94,8 @@ class Session:
     state: CognitiveState = dc_field(default_factory=lambda: _make_state())
     mode_orchestrator: ModeOrchestrator = dc_field(default_factory=ModeOrchestrator)
     dynamic_council: DynamicCouncil = dc_field(default_factory=lambda: DynamicCouncil(llm=None))
+    user_id: Optional[str] = None
+    profile: Optional[Any] = None
 
 def _make_state() -> CognitiveState:
     s = CognitiveState()
@@ -113,7 +115,8 @@ def _get_or_create_session(session_id: str) -> Session:
 class ChatRequest(BaseModel):
     message: str
     session_id: Optional[str] = None
-    mode: Optional[str] = None  # override mode for this session
+    mode: Optional[str] = None
+    user_id: Optional[str] = None
 
 
 class ChatResponse(BaseModel):
@@ -123,6 +126,21 @@ class ChatResponse(BaseModel):
     turn: int
     domains: list[str]
     domain_confidence: float
+    entries_used: list[dict] = []
+
+
+class EntryUsed(BaseModel):
+    entry_id: str
+    domain: str
+    category: str
+
+
+class FeedbackRequest(BaseModel):
+    session_id: str
+    turn: int
+    helpful: bool
+    entries_used: list[EntryUsed] = []
+    comment: Optional[str] = None
 
 
 class ModeRequest(BaseModel):
@@ -151,10 +169,9 @@ def _assess_situation_sync(llm: Any, user_input: str) -> Dict[str, Any]:
         return assess_situation_heuristic(user_input)
 
 
-def _process_turn(state: CognitiveState, user_input: str) -> str:
+def _process_turn(state: CognitiveState, user_input: str) -> tuple[str, list[dict]]:
     llm = _components["llm"]
 
-    # Situation assessment
     raw_sit = _assess_situation_sync(llm, user_input)
     if not isinstance(raw_sit, dict):
         raw_sit = {}
@@ -172,6 +189,25 @@ def _process_turn(state: CognitiveState, user_input: str) -> str:
     )
     state.user_frequency = freq  # type: ignore[attr-defined]
 
+    # KIS retrieval — capture entries for feedback loop
+    entries_used: list[dict] = []
+    if state.domains:
+        try:
+            kis = synthesize_knowledge(
+                user_input=user_input,
+                active_domains=state.domains,
+                domain_confidence=max(state.domain_confidence, 0.5),
+            )
+            for item in kis.get("synthesized_knowledge", []):
+                entries_used.append({
+                    "entry_id": item.get("aku_id", ""),
+                    "domain": item.get("_domain", ""),
+                    "category": (item.get("type", "principle") or "principle") + "s",
+                    "content_preview": str(item.get("content", ""))[:80],
+                })
+        except Exception:
+            pass
+
     system_context = build_system_context(state)
     response = llm.speak(system_context, user_input)
 
@@ -180,18 +216,13 @@ def _process_turn(state: CognitiveState, user_input: str) -> str:
         state.recent_turns = state.recent_turns[-50:]
     state.turn_count += 1
 
-    display = response
-
-    # Background: KIS synthesis (fire-and-forget, don't block)
     if state.domains:
         try:
-            _executor.submit(
-                _bg_kis, state, user_input
-            )
+            _executor.submit(_bg_kis, state, user_input)
         except Exception:
             pass
 
-    return display
+    return response, entries_used
 
 
 def _bg_kis(state: CognitiveState, user_input: str) -> None:
@@ -239,7 +270,28 @@ def chat(req: ChatRequest) -> ChatResponse:
         else:
             raise HTTPException(status_code=400, detail=f"Unknown mode '{req.mode}'. Valid: {mo.list_modes()}")
 
-    response = _process_turn(state, req.message.strip())
+    # Attach user profile on first mention of user_id
+    if req.user_id and session.user_id is None:
+        session.user_id = req.user_id
+        try:
+            from persona.user_profile import get_or_create_profile
+            session.profile = get_or_create_profile(req.user_id)
+        except Exception:
+            pass
+
+    response, entries_used = _process_turn(state, req.message.strip())
+
+    # Update profile stats after response
+    if session.profile is not None:
+        try:
+            import datetime as _dt
+            from persona.user_profile import save_profile
+            session.profile.total_turns += 1
+            session.profile.update_themes(list(state.domains))
+            session.profile.last_active = _dt.datetime.now(_dt.timezone.utc).isoformat()
+            save_profile(session.profile)
+        except Exception:
+            pass
 
     return ChatResponse(
         session_id=session_id,
@@ -248,6 +300,7 @@ def chat(req: ChatRequest) -> ChatResponse:
         turn=state.turn_count,
         domains=list(state.domains),
         domain_confidence=float(state.domain_confidence),
+        entries_used=entries_used,
     )
 
 
@@ -300,3 +353,44 @@ def list_sessions() -> Dict[str, Any]:
             for sid, s in _sessions.items()
         ],
     }
+
+
+@app.post("/feedback")
+def submit_feedback(req: FeedbackRequest) -> Dict[str, Any]:
+    """Record whether advice for a turn was helpful. Updates minister knowledge weights."""
+    from persona.knowledge_engine import reinforce_entry
+
+    updated = 0
+    for entry in req.entries_used:
+        ok = reinforce_entry(
+            entry_id=entry.entry_id,
+            domain=entry.domain,
+            category=entry.category,
+            positive=req.helpful,
+        )
+        if ok:
+            updated += 1
+
+    session = _sessions.get(req.session_id)
+    if session and hasattr(session.state, "episodic_memory"):
+        try:
+            session.state.episodic_memory.update_outcome_for_turn(req.turn, "success" if req.helpful else "failure")
+        except Exception:
+            pass
+
+    return {
+        "session_id": req.session_id,
+        "turn": req.turn,
+        "helpful": req.helpful,
+        "updated": updated,
+    }
+
+
+@app.get("/profile/{user_id}")
+def get_profile(user_id: str) -> Dict[str, Any]:
+    from persona.user_profile import load_profile
+    from dataclasses import asdict
+    profile = load_profile(user_id)
+    if not profile:
+        raise HTTPException(status_code=404, detail="Profile not found")
+    return asdict(profile)

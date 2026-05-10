@@ -69,6 +69,21 @@ class OutcomeFeedbackLoop:
             if hasattr(self.kis_engine, 'penalize_entry'):
                 self.kis_engine.penalize_entry(item_id)
     
+    def check_and_retrain(self, failure_threshold: int = 2) -> Dict[str, Any]:
+        """Scan episodic memory for failure clusters and retrain ministers above threshold."""
+        if not self.episodic_memory:
+            return {"retrained": []}
+
+        all_clusters = self.episodic_memory.detect_failure_clusters()
+        retrained = []
+        for cluster_key, episodes in all_clusters.items():
+            if len(episodes) >= failure_threshold:
+                domain = episodes[0].domain if episodes else cluster_key.split("_")[0]
+                self.retrain_ministers(domain, episodes)
+                retrained.append({"cluster": cluster_key, "episodes": len(episodes), "domain": domain})
+
+        return {"retrained": retrained}
+
     def detect_repeated_mistake(self, episode: Episode) -> Optional[Episode]:
         """
         Check if this decision is repeating a past mistake.

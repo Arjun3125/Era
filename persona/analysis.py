@@ -436,3 +436,58 @@ User message:
     except Exception as e:
         trace("generate_clarify_exception", {"error": str(e), "raw": raw})
         return []
+
+
+_CLASSIFY_SYSTEM = (
+    "You are a situation classifier. Analyze the user input and return ONLY valid JSON with these keys: "
+    "situation_type (string), domains (list of strings), emotional_load (float 0-1), "
+    "risk_level (low|medium|high), irreversibility (none|partially|fully), clarity (float 0-1)."
+)
+
+_CLASSIFY_DEFAULTS: Dict[str, Any] = {
+    "situation_type": "unclear",
+    "domains": [],
+    "emotional_load": 0.0,
+    "risk_level": "low",
+    "irreversibility": "none",
+    "clarity": 0.5,
+}
+
+
+def classify_situation_single_call(llm: Any, user_input: str) -> Dict[str, Any]:
+    """Single structured LLM call replacing the multi-call assessment handshake.
+
+    Returns a dict with: situation_type, domains, emotional_load, risk_level,
+    irreversibility, clarity. Never raises — falls back to defaults on bad output.
+    """
+    raw: Optional[str] = None
+    try:
+        raw = llm.analyze(_CLASSIFY_SYSTEM, f"Classify this situation:\n{user_input}")
+        parsed = _safe_parse_json(raw)
+        if not isinstance(parsed, dict):
+            raise ValueError("Not a dict")
+
+        result = dict(_CLASSIFY_DEFAULTS)
+        result["situation_type"] = str(parsed.get("situation_type") or "unclear")
+
+        domains_raw = parsed.get("domains", [])
+        if isinstance(domains_raw, list):
+            result["domains"] = [str(d) for d in domains_raw if d]
+        else:
+            result["domains"] = []
+
+        result["emotional_load"] = max(0.0, min(1.0, float(parsed.get("emotional_load", 0.0))))
+
+        risk = str(parsed.get("risk_level", "low")).lower()
+        result["risk_level"] = risk if risk in {"low", "medium", "high"} else "low"
+
+        irrev = str(parsed.get("irreversibility", "none")).lower()
+        result["irreversibility"] = irrev if irrev in {"none", "partially", "fully"} else "none"
+
+        result["clarity"] = max(0.0, min(1.0, float(parsed.get("clarity", 0.5))))
+
+        trace("classify_single_call_ok", {"situation_type": result["situation_type"]})
+        return result
+    except Exception as e:
+        trace("classify_single_call_failed", {"error": str(e), "raw": raw})
+        return dict(_CLASSIFY_DEFAULTS)

@@ -54,15 +54,19 @@ class EpisodicMemory:
         return episode.episode_id
     
     def _persist(self, episode: Episode):
-        """Write to disk (append-only)."""
+        """Write to disk (append-only). No-op for :memory: storage."""
+        if self.storage_path == ":memory:":
+            return
         try:
             with open(self.storage_path, "a", encoding="utf-8") as f:
                 f.write(json.dumps(asdict(episode)) + "\n")
         except Exception as e:
             print(f"[WARNING] Failed to persist episode: {e}")
-    
+
     def load_from_disk(self):
-        """Load all episodes from disk."""
+        """Load all episodes from disk. No-op for :memory: storage."""
+        if self.storage_path == ":memory:":
+            return
         try:
             with open(self.storage_path, "r", encoding="utf-8") as f:
                 for line in f:
@@ -138,3 +142,23 @@ class EpisodicMemory:
             ep = self.episodes[episode_id]
             ep.consequence_chain.append((turn, domain, impact_type, magnitude))
             self._persist(ep)
+
+    def update_outcome_for_turn(self, turn_id: int, outcome: str) -> bool:
+        """Patch the outcome field of the episode matching turn_id. Rewrites the JSONL file."""
+        for ep in self.episodes.values():
+            if ep.turn_id == turn_id:
+                ep.outcome = outcome
+                self._rewrite_disk()
+                return True
+        return False
+
+    def _rewrite_disk(self) -> None:
+        """Full rewrite of the JSONL file from in-memory episodes. No-op for :memory:."""
+        if self.storage_path == ":memory:":
+            return
+        try:
+            with open(self.storage_path, "w", encoding="utf-8") as f:
+                for ep in self.episodes.values():
+                    f.write(json.dumps(asdict(ep)) + "\n")
+        except Exception as e:
+            print(f"[WARNING] Failed to rewrite episodes: {e}")
