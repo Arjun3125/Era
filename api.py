@@ -76,6 +76,12 @@ def _init_components() -> None:
         decision_pipeline = DecisionPipelineEngine.create(llm=llm, prime_decider=prime, risk_threshold=0.7)
         brain = PersonaBrain()
 
+        try:
+            from ml.ml_orchestrator import MLWisdomOrchestrator
+            ml_orchestrator = MLWisdomOrchestrator(cache_dir="ml/cache")
+        except Exception:
+            ml_orchestrator = None
+
         _components.update(
             llm=llm,
             prime=prime,
@@ -83,6 +89,7 @@ def _init_components() -> None:
             prime_engine=prime_engine,
             decision_pipeline=decision_pipeline,
             brain=brain,
+            ml_orchestrator=ml_orchestrator,
         )
         _init_error = None
 
@@ -246,6 +253,14 @@ def _process_turn(state: CognitiveState, user_input: str) -> tuple[str, list[dic
     if state.domains:
         try:
             _executor.submit(_bg_kis, state, user_input)
+        except Exception:
+            pass
+
+    # Background ML recording — non-blocking, never raises
+    ml_orch = _components.get("ml_orchestrator")
+    if ml_orch is not None:
+        try:
+            _executor.submit(ml_orch.process_decision, user_input)
         except Exception:
             pass
 
@@ -414,6 +429,21 @@ def submit_feedback(req: FeedbackRequest) -> Dict[str, Any]:
         except Exception:
             pass
 
+    # Record outcome into MinisterConfidenceTracker for each domain in this turn
+    try:
+        _ct_mod = __import__("persona.learning.minister_confidence", fromlist=["MinisterConfidenceTracker"])
+        tracker = _ct_mod.MinisterConfidenceTracker(storage_path="data/memory/minister_confidence.json")
+        seen_domains: set = set()
+        for entry in req.entries_used:
+            domain = entry.domain or "general"
+            if domain not in seen_domains:
+                # Record outcome for every minister that deliberated on this domain
+                for minister in ["risk", "grand_strategist", "optionality", "psychology", "timing"]:
+                    tracker.record_outcome(minister, domain, success=req.helpful)
+                seen_domains.add(domain)
+    except Exception:
+        pass
+
     return {
         "session_id": req.session_id,
         "turn": req.turn,
@@ -430,3 +460,51 @@ def get_profile(user_id: str) -> Dict[str, Any]:
     if not profile:
         raise HTTPException(status_code=404, detail="Profile not found")
     return asdict(profile)
+
+
+class ObsidianExportRequest(BaseModel):
+    vault_path: Optional[str] = None  # overrides ERA_OBSIDIAN_VAULT env var
+    episodes_path: str = "data/memory/episodes.jsonl"
+    profiles_dir: str = "data/user_profiles"
+    confidence_path: str = "data/memory/minister_confidence.json"
+
+
+@app.post("/export/obsidian")
+def export_obsidian(req: ObsidianExportRequest) -> Dict[str, Any]:
+    """Export ERA memory to an Obsidian vault as Markdown notes.
+
+    Set the ERA_OBSIDIAN_VAULT environment variable to your vault path,
+    or pass vault_path in the request body.
+
+    Creates:
+      ERA/ERA_Dashboard.md          — summary with Dataview queries
+      ERA/Episodes/turn_NNNN_*.md  — one note per episode
+      ERA/Profiles/{user_id}.md    — user profile notes
+      ERA/Learning/failure_clusters.md
+      ERA/Learning/knowledge_gaps.md
+      ERA/Learning/minister_confidence.md
+    """
+    from persona.obsidian_exporter import export_to_obsidian
+
+    # Collect current knowledge gaps from last KIS call if available
+    gaps: list[str] = []
+    for sess in _sessions.values():
+        bg = getattr(sess.state, "background_knowledge", None)
+        if isinstance(bg, dict):
+            gaps.extend(bg.get("knowledge_gaps", []))
+    gaps = list(set(gaps))
+
+    try:
+        result = export_to_obsidian(
+            vault_path=req.vault_path or None,
+            episodes_path=req.episodes_path,
+            profiles_dir=req.profiles_dir,
+            confidence_path=req.confidence_path,
+            knowledge_gaps=gaps,
+        )
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Export failed: {e}")
+
+    return result
