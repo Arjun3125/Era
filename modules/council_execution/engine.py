@@ -217,6 +217,11 @@ class NativeCouncil:
         self.llm = llm
         self.ministers = self._build_ministers()
         self._local = threading.local()
+        try:
+            _ct_mod = __import__("persona.learning.minister_confidence", fromlist=["MinisterConfidenceTracker"])
+            self._confidence_tracker = _ct_mod.MinisterConfidenceTracker()
+        except Exception:
+            self._confidence_tracker = None
 
     @property
     def db(self):
@@ -308,9 +313,18 @@ class NativeCouncil:
             rounds.append({"round": 2, "stances": {n: r["stance"] for n, r in stances_r2.items()}})
             stances = stances_r2  # final stances from round 2
 
-        support = sum(1 for r in stances.values() if r["stance"] == "support")
-        oppose = sum(1 for r in stances.values() if r["stance"] == "oppose")
-        neutral = sum(1 for r in stances.values() if r["stance"] == "neutral")
+        # Weighted vote tally — minister weight from Bayesian confidence tracker
+        domain = context.get("domains", ["general"])[0] if context.get("domains") else "general"
+        support = oppose = neutral = 0.0
+        for name, r in stances.items():
+            w = self._confidence_tracker.get_weight(name, domain) if self._confidence_tracker else 1.0
+            stance = r["stance"]
+            if stance == "support":
+                support += w
+            elif stance == "oppose":
+                oppose += w
+            else:
+                neutral += w
         warnings = [f"{n}: {r['warning']}" for n, r in stances.items() if r.get("warning")]
 
         total = max(1, support + oppose + neutral)

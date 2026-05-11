@@ -19,7 +19,7 @@ from pydantic import BaseModel
 
 from persona.state import CognitiveState
 from persona.context import build_system_context
-from persona.analysis import assess_situation, assess_situation_heuristic
+from persona.analysis import assess_situation, assess_situation_heuristic, classify_situation_single_call
 from persona.brain import PersonaBrain
 from persona.knowledge_engine import synthesize_knowledge
 from persona.council import CouncilAggregator
@@ -89,6 +89,16 @@ def _init_components() -> None:
 
 # ── Session store ──────────────────────────────────────────────────────────────
 
+def _make_feedback_loop() -> Any:
+    try:
+        from persona.learning.episodic_memory import EpisodicMemory
+        from persona.learning.outcome_feedback import OutcomeFeedbackLoop
+        mem = EpisodicMemory(storage_path=":memory:")
+        return OutcomeFeedbackLoop(episodic_memory=mem)
+    except Exception:
+        return None
+
+
 @dataclass
 class Session:
     state: CognitiveState = dc_field(default_factory=lambda: _make_state())
@@ -96,6 +106,7 @@ class Session:
     dynamic_council: DynamicCouncil = dc_field(default_factory=lambda: DynamicCouncil(llm=None))
     user_id: Optional[str] = None
     profile: Optional[Any] = None
+    feedback_loop: Optional[Any] = dc_field(default_factory=_make_feedback_loop)
 
 def _make_state() -> CognitiveState:
     s = CognitiveState()
@@ -160,6 +171,10 @@ class SessionInfo(BaseModel):
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
 def _assess_situation_sync(llm: Any, user_input: str) -> Dict[str, Any]:
+    try:
+        return classify_situation_single_call(llm, user_input)
+    except Exception:
+        pass
     try:
         future = _executor.submit(assess_situation, llm, user_input)
         return future.result(timeout=1.0)
@@ -280,6 +295,13 @@ def chat(req: ChatRequest) -> ChatResponse:
             pass
 
     response, entries_used = _process_turn(state, req.message.strip())
+
+    # Periodic retrain check every 5 turns (background, non-blocking)
+    if session.feedback_loop is not None and state.turn_count % 5 == 0:
+        try:
+            _executor.submit(session.feedback_loop.check_and_retrain)
+        except Exception:
+            pass
 
     # Update profile stats after response
     if session.profile is not None:
