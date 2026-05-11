@@ -26,11 +26,13 @@ def build_system_context(state: CognitiveState) -> str:
     mode = state.mode or "meeting"
     hint = MODE_VISIBLE_HINT.get(mode, MODE_VISIBLE_HINT["meeting"])
     domains = ", ".join(state.domains) if state.domains else "general"
-    return "\n".join(
-        [
-            f"Mode: {mode}",
-            f"Hint: {hint}",
-            f"Domains: {domains}",
-            f"Turn: {state.turn_count}",
-        ]
-    )
+    parts = [
+        f"Mode: {mode}",
+        f"Hint: {hint}",
+        f"Domains: {domains}",
+        f"Turn: {state.turn_count}",
+    ]
+    profile_hint = getattr(state, "profile_hint", None)
+    if profile_hint:
+        parts.append(f"User: {profile_hint}")
+    return "\n".join(parts)

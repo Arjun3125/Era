@@ -138,6 +138,7 @@ class ChatResponse(BaseModel):
     domains: list[str]
     domain_confidence: float
     entries_used: list[dict] = []
+    deliberation_depth: str = "meeting"  # quick | meeting | darbar
 
 
 class EntryUsed(BaseModel):
@@ -184,7 +185,7 @@ def _assess_situation_sync(llm: Any, user_input: str) -> Dict[str, Any]:
         return assess_situation_heuristic(user_input)
 
 
-def _process_turn(state: CognitiveState, user_input: str) -> tuple[str, list[dict]]:
+def _process_turn(state: CognitiveState, user_input: str) -> tuple[str, list[dict], str]:
     llm = _components["llm"]
 
     raw_sit = _assess_situation_sync(llm, user_input)
@@ -196,6 +197,17 @@ def _process_turn(state: CognitiveState, user_input: str) -> tuple[str, list[dic
         "emotional_load": float(raw_sit.get("emotional_load", 0.0)),
     }
     state.last_emotional_load = state.last_situation["emotional_load"]
+
+    # Tiered deliberation depth: stakes = emotional_load × (1 - clarity)
+    emotional_load = float(raw_sit.get("emotional_load", 0.0))
+    clarity = float(raw_sit.get("clarity", 0.5))
+    stakes = emotional_load * (1.0 - clarity)
+    if state.mode == "quick" or stakes < 0.2:
+        deliberation_depth = "quick"
+    elif stakes >= 0.5:
+        deliberation_depth = "darbar"
+    else:
+        deliberation_depth = "meeting"
 
     freq = (
         "low" if len(user_input.split()) <= 3
@@ -237,7 +249,7 @@ def _process_turn(state: CognitiveState, user_input: str) -> tuple[str, list[dic
         except Exception:
             pass
 
-    return response, entries_used
+    return response, entries_used, deliberation_depth
 
 
 def _bg_kis(state: CognitiveState, user_input: str) -> None:
@@ -291,10 +303,11 @@ def chat(req: ChatRequest) -> ChatResponse:
         try:
             from persona.user_profile import get_or_create_profile
             session.profile = get_or_create_profile(req.user_id)
+            state.profile_hint = session.profile.to_context_hint()  # type: ignore[attr-defined]
         except Exception:
             pass
 
-    response, entries_used = _process_turn(state, req.message.strip())
+    response, entries_used, deliberation_depth = _process_turn(state, req.message.strip())
 
     # Periodic retrain check every 5 turns (background, non-blocking)
     if session.feedback_loop is not None and state.turn_count % 5 == 0:
@@ -323,6 +336,7 @@ def chat(req: ChatRequest) -> ChatResponse:
         domains=list(state.domains),
         domain_confidence=float(state.domain_confidence),
         entries_used=entries_used,
+        deliberation_depth=deliberation_depth,
     )
 
 

@@ -289,22 +289,44 @@ class NativeCouncil:
         rounds = [{"round": 1, "stances": {n: r["stance"] for n, r in stances.items()}}]
         peer_challenges: Dict[str, str] = {}
 
-        # Round 2 (darbar only): ministers see peer summary and can revise
+        # Round 2 (darbar only): directed peer challenge — each minister sees named opposers
         if mode == "darbar":
-            peer_summary = "Peer stances from Round 1: " + ", ".join(
-                f"{n}={r['stance']}({r['confidence']:.0%})"
-                for n, r in stances.items()
-            )
-            r2_context = dict(context)
-            r2_context["peer_summary"] = peer_summary
-
             stances_r2 = {}
             for name in minister_names:
                 voice = MinisterVoice(minister_name=name, llm=self.llm)
-                r1_stance = stances[name]["stance"]
+                my_r1 = stances[name]
+                my_stance = my_r1["stance"]
+                my_reason = my_r1["reasoning"]
+
+                # Find ministers who explicitly disagree with this one
+                challengers = [
+                    (peer, r)
+                    for peer, r in stances.items()
+                    if peer != name and r["stance"] != my_stance and r["stance"] != "neutral"
+                ]
+
+                r2_context = dict(context)
+                if challengers:
+                    challenge_lines = []
+                    for peer_name, peer_r in challengers[:3]:
+                        challenge_lines.append(
+                            f"  - {peer_name.replace('_', ' ').title()} ({peer_r['stance']}): "
+                            f"{peer_r['reasoning'][:150]}"
+                        )
+                    r2_context["peer_challenge"] = (
+                        f"Your Round 1 position: {my_stance} — {my_reason[:150]}\n\n"
+                        f"Ministers who oppose you:\n" + "\n".join(challenge_lines) + "\n\n"
+                        f"Do you maintain your position or revise it? Challenge their reasoning "
+                        f"directly, citing doctrine or knowledge if you have one."
+                    )
+                else:
+                    r2_context["peer_challenge"] = (
+                        f"Your Round 1 position: {my_stance}. No direct challengers — confirm or refine."
+                    )
+
+                r1_stance = my_stance
                 result = voice.deliberate(user_input, r2_context, knowledge_entries=knowledge_entries)
                 stances_r2[name] = result
-                # Track if minister changed position
                 if result["stance"] != r1_stance:
                     peer_challenges[name] = (
                         f"Changed from {r1_stance} to {result['stance']}: {result['reasoning'][:120]}"
