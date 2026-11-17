@@ -28,7 +28,7 @@ def _make_minister_dir(tmp: Path, domain: str) -> Path:
 # Track 1: Knowledge Reinforcement Loop
 # ══════════════════════════════════════════════════════════════════════════════
 
-def test_reinforce_entry_increments_count(tmp_path):
+def test_reinforce_entry_increments_count(tmp_path, monkeypatch):
     """reinforce_entry must increment reinforcement_count and set last_reinforced_date."""
     import sys
     for k in list(sys.modules.keys()):
@@ -36,7 +36,7 @@ def test_reinforce_entry_increments_count(tmp_path):
             del sys.modules[k]
 
     d = _make_minister_dir(tmp_path, "adaptation")
-    os.environ["ERA_MINISTER_PATH"] = str(tmp_path / "ministers")
+    monkeypatch.setenv("ERA_MINISTER_PATH", str(tmp_path / "ministers"))
 
     from persona.knowledge_engine import reinforce_entry
     reinforce_entry("e1", "adaptation", "principles", positive=True)
@@ -48,7 +48,7 @@ def test_reinforce_entry_increments_count(tmp_path):
     assert "last_reinforced_date" in mem, "last_reinforced_date not set"
 
 
-def test_penalize_entry_increments_penalty(tmp_path):
+def test_penalize_entry_increments_penalty(tmp_path, monkeypatch):
     """reinforce_entry with positive=False must increment penalty_count."""
     import sys
     for k in list(sys.modules.keys()):
@@ -56,7 +56,7 @@ def test_penalize_entry_increments_penalty(tmp_path):
             del sys.modules[k]
 
     d = _make_minister_dir(tmp_path, "risk")
-    os.environ["ERA_MINISTER_PATH"] = str(tmp_path / "ministers")
+    monkeypatch.setenv("ERA_MINISTER_PATH", str(tmp_path / "ministers"))
 
     from persona.knowledge_engine import reinforce_entry
     reinforce_entry("e2", "risk", "principles", positive=False)
@@ -67,7 +67,7 @@ def test_penalize_entry_increments_penalty(tmp_path):
     assert mem.get("penalty_count", 0) >= 1, "penalty_count not incremented"
 
 
-def test_feedback_endpoint_updates_entry(tmp_path):
+def test_feedback_endpoint_updates_entry(tmp_path, monkeypatch):
     """POST /feedback must call reinforce_entry for each entry_id in the payload."""
     import sys
     for k in list(sys.modules.keys()):
@@ -75,7 +75,7 @@ def test_feedback_endpoint_updates_entry(tmp_path):
             del sys.modules[k]
 
     d = _make_minister_dir(tmp_path, "adaptation")
-    os.environ["ERA_MINISTER_PATH"] = str(tmp_path / "ministers")
+    monkeypatch.setenv("ERA_MINISTER_PATH", str(tmp_path / "ministers"))
 
     from fastapi.testclient import TestClient
     import api
@@ -389,13 +389,21 @@ def test_auto_retrain_triggers_after_threshold():
         mem.episodes[ep.episode_id] = ep
 
     class FakeCouncil:
-        ministers = {"career": type("M", (), {"confidence_multiplier": 1.0})()}
+        ministers = {"career": type("M", (), {})()}
+        _confidence_tracker = None  # Will be set below
+
+    from persona.learning.minister_confidence import MinisterConfidenceTracker
+    tracker = MinisterConfidenceTracker()
+    FakeCouncil._confidence_tracker = tracker
 
     loop = OutcomeFeedbackLoop(council=FakeCouncil(), episodic_memory=mem)
     loop.check_and_retrain()
 
     clusters = mem.detect_failure_clusters(domain="career")
     assert clusters, "No failure clusters detected — episodes not stored"
+    # Verify the tracker was actually called (weight should be < 1.0 after failures)
+    weight = tracker.get_weight("career", "career")
+    assert weight < 1.0, f"Expected weight < 1.0 after failures, got {weight}"
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -446,7 +454,7 @@ def test_classify_single_call_falls_back_on_bad_json():
 # Track 6: Domain Gap Detection
 # ══════════════════════════════════════════════════════════════════════════════
 
-def test_knowledge_gap_detected_when_domain_sparse(tmp_path):
+def test_knowledge_gap_detected_when_domain_sparse(tmp_path, monkeypatch):
     """synthesize_knowledge must report knowledge_gaps when a domain has fewer than MIN_ENTRIES entries."""
     import sys
     for k in list(sys.modules.keys()):
@@ -465,7 +473,7 @@ def test_knowledge_gap_detected_when_domain_sparse(tmp_path):
             {"domain": "rare_domain", "category": cat, "entries": [], "meta": {"total_entries": 0}}
         ))
 
-    os.environ["ERA_MINISTER_PATH"] = str(tmp_path / "ministers")
+    monkeypatch.setenv("ERA_MINISTER_PATH", str(tmp_path / "ministers"))
 
     from persona.knowledge_engine import synthesize_knowledge
     result = synthesize_knowledge(
@@ -597,3 +605,26 @@ def test_round2_result_includes_peer_challenges_field():
     )
     assert "peer_challenges" in result, f"peer_challenges missing: {list(result.keys())}"
     assert isinstance(result["peer_challenges"], dict)
+
+
+def test_ministerial_inquiries_and_question_sharing():
+    """Verify that ministers can formulate questions for peers and Sovereign, and that they appear in council output."""
+    import sys
+    for k in list(sys.modules.keys()):
+        if "council_execution" in k:
+            del sys.modules[k]
+
+    class InquiryLLM:
+        def analyze(self, sys_p, usr_p):
+            return '{"stance": "support", "reasoning": "We should proceed if cash allows.", "advice": "Check cash reserves.", "questions": ["To Risk Minister: what is our buffer?", "To Sovereign: what is our budget cap?"], "confidence": 0.8}'
+
+    from modules.council_execution.engine import NativeCouncil
+    council = NativeCouncil(llm=InquiryLLM())
+    result = council.deliberate(
+        user_input="Should we invest?",
+        context={"domains": ["strategy"], "mode": "darbar"},
+    )
+    assert "user_questions" in result, "user_questions missing from council result"
+    assert len(result["user_questions"]) > 0, "No user questions captured"
+    assert "MINISTERIAL INQUIRIES & CLARIFICATIONS" in result["advisory_dialogue"], "Inquiries section missing from dialogue"
+

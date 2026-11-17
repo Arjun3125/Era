@@ -1,6 +1,22 @@
 # HYBRID MEMORY ARCHITECTURE GUIDE
 
-## The Three-System Approach
+## The Three-System Approach (Plus Sensory Ingestion Layer)
+
+### Sensory Ingestion Layer: EARS (Ambient Sensory Memory Module)
+**Purpose**: Continuously capture, diarize, redact, and extract factual observations from real-world ambient audio streams (via mobile companion app or desktop mic).
+**Update Frequency**: Continuous / Asynchronous batch ingestion
+**Stores**:
+- Self-speech factual observations (domain, content, confidence)
+- Non-identifying context notes ("user was in conversation with another person")
+- Privacy-gated records (SOLO vs ANNOUNCED_RECORDING mode)
+
+**How it Feeds Memory**:
+1. **Capture, Encryption & Context**: `ears.capture.android_bridge` receives diarized transcripts from Android companion app (`ForegroundMicService.kt`) or local mic stream (`mic_stream.py`). In SOLO mode, `ears.privacy.redaction` encrypts third-party speech using symmetric Fernet encryption (`privacy.key`). In memory, conversations are decrypted so the local LLM can understand person-to-person social context and interpersonal dynamics without persisting raw unencrypted third-party text to disk.
+2. **Fact Extraction**: `ears.extraction.fact_extractor` calls local Ollama model (`qwen3:14b`) to analyze the full multi-speaker conversation and extract structured factual statements about your situation, social context, and interpersonal relationships.
+3. **Memory Storage**: `ears.memory_bridge.episodic_writer` appends extracted observations directly into `data/memory/episodes.jsonl` and `Memory/YYYY-MM-DD_episodes.jsonl` as ambient episodes (with third-party speech marked as encrypted).
+4. **Integration**: `EpisodicMemory` loads ambient observations natively, which subsequently flow into PerformanceMetrics and the 100-turn `PWMIntegrationBridge` sync to build long-term personal facts in the Personal World Model (PWM).
+
+---
 
 ### System 1: EpisodicMemory (Real-Time)
 **Purpose**: Track decisions, outcomes, consequences, patterns
@@ -262,11 +278,13 @@ for turn in range(1, 1000):
 
 | System | Update Freq | Confidence | Use Case |
 |--------|-------------|------------|----------|
+| **EARS (Sensory)** | Continuous / Asynchronous | High (extracted fact) | Capture real-world speech observations, privacy-gated fact extraction |
 | **Episodic** | Every turn | High (observed) | Pattern detection, mistake prevention |
 | **Metrics** | Every turn (agg 100) | Medium (statistical) | Identify weak features, guide retraining |
 | **PWM** | Every 100 turns | High (validated) | Store stable facts, inform long-term decisions |
 
 **Key Rule**: 
+- EARS feeds real-world ambient self-observations into **EpisodicMemory**
 - Episodic and Metrics are **fast, real-time, high-volume**
 - PWM is **slow, validated, high-confidence facts only**
 - PWM receives updates ONLY from Metrics after validation

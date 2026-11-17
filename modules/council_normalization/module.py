@@ -341,7 +341,7 @@ class CouncilNormalizationModule(ModulePlugin):
             raw.get("source_recommendation", raw.get("recommendation", ""))
         ).lower()
 
-        return {
+        normalized = {
             "outcome": outcome,
             "recommendation": recommendation,
             "avg_confidence": consensus_strength,
@@ -356,6 +356,14 @@ class CouncilNormalizationModule(ModulePlugin):
             "source_outcome": source_outcome,
             "source_recommendation": source_recommendation,
         }
+
+        # Carry through LLM deliberation fields
+        for field_name in ("advisory_dialogue", "peer_challenges", "rounds", "user_questions", "minority_alert"):
+            raw_value = raw.get(field_name)
+            if raw_value is not None:
+                normalized[field_name] = raw_value
+
+        return normalized
 
     @classmethod
     def _normalize_minister_outputs(

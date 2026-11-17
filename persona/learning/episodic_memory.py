@@ -72,7 +72,25 @@ class EpisodicMemory:
                 for line in f:
                     if line.strip():
                         data = json.loads(line)
-                        ep = Episode(**data)
+                        # Filter out extra keys not in Episode dataclass (e.g., from ambient sensory observations)
+                        valid_fields = {k: v for k, v in data.items() if k in Episode.__dataclass_fields__}
+                        # If required fields are missing (e.g., from EARS ambient schema), supply defaults
+                        if "episode_id" not in valid_fields:
+                            valid_fields["episode_id"] = str(uuid.uuid4())[:8]
+                        if "turn_id" not in valid_fields or not isinstance(valid_fields["turn_id"], int):
+                            valid_fields["turn_id"] = 0
+                        if "user_input" not in valid_fields:
+                            valid_fields["user_input"] = data.get("content", "")
+                        if "persona_recommendation" not in valid_fields:
+                            valid_fields["persona_recommendation"] = f"[Ambient] {data.get('content', '')}"
+                        if "minister_stance" not in valid_fields:
+                            valid_fields["minister_stance"] = "ambient"
+                        if "council_recommendation" not in valid_fields:
+                            valid_fields["council_recommendation"] = "none"
+                        if "confidence" not in valid_fields:
+                            valid_fields["confidence"] = float(data.get("confidence", 0.5))
+                        
+                        ep = Episode(**valid_fields)
                         self.episodes[ep.episode_id] = ep
         except FileNotFoundError:
             pass

@@ -4,16 +4,16 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from persona.ollama_runtime import OllamaRuntime
+from persona.openrouter_runtime import OpenRouterRuntime
 
 
 @dataclass
 class PersonaAgent:
-    speak_model: str = "llama3.1:8b-instruct-q4_0"
-    analyze_model: str = "huihui_ai/deepseek-r1-abliterated:8b"
+    speak_model: str = "nvidia/nemotron-3-ultra-550b-a55b:free"
+    analyze_model: str = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
 
     def __post_init__(self) -> None:
-        self.llm = OllamaRuntime(
+        self.llm = OpenRouterRuntime(
             speak_model=self.speak_model,
             analyze_model=self.analyze_model,
         )
@@ -26,7 +26,3 @@ def main() -> int:
     agent = PersonaAgent()
     agent.respond("Hello")
     return 0
-
-
-if __name__ == "__main__":
-    raise SystemExit(main())

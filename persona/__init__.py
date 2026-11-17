@@ -4,7 +4,7 @@ from .state import CognitiveState
 from .brain import ControlDirective, PersonaBrain
 from .context import build_system_context, MODE_VISIBLE_HINT, MODE_INERTIA
 from .knowledge_engine import synthesize_knowledge
-from .ollama_runtime import OllamaRuntime
+from .openrouter_runtime import OpenRouterRuntime
 
 __all__ = [
     "CognitiveState",
@@ -14,5 +14,5 @@ __all__ = [
     "MODE_VISIBLE_HINT",
     "MODE_INERTIA",
     "synthesize_knowledge",
-    "OllamaRuntime",
+    "OpenRouterRuntime",
 ]

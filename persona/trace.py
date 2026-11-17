@@ -15,3 +15,10 @@ def trace(event: str, data: Any | None = None) -> None:
     TRACE.append(payload)
     if DEBUG_OBSERVER:
         print(f"[TRACE] {payload}")
+
+
+def print_trace() -> None:
+    """Print all collected trace entries and clear the buffer."""
+    for entry in TRACE:
+        print(f"[TRACE] {entry}")
+    TRACE.clear()

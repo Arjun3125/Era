@@ -21,29 +21,36 @@ The main runtime is CLI-first and returns structured JSON.
 
 ## Current Entry Points
 
-- [`run_refactored.py`](c:\era\run_refactored.py): primary CLI entrypoint
-- [`system_main.py`](c:\era\system_main.py): compatibility shim that delegates to `run_refactored.py`
+- [`api.py`](api.py): primary HTTP API server (FastAPI, port 8765)
+- [`persona/main.py`](persona/main.py): CLI interactive loop with synthetic-human simulation
+- [`run_refactored.py`](run_refactored.py): CLI single-shot decision pipeline
+- [`system_main.py`](system_main.py): compatibility shim that delegates to `run_refactored.py`
 
 ## Quick Start
 
 ```bash
-cd c:\era
+cd C:\Users\naren\Work\Projects\School\era
 python -m venv .venv
-.\.venv\Scripts\activate
+.venv\Scripts\activate
 pip install -r requirements.txt
+```
+
+HTTP API:
+
+```bash
+uvicorn api:app --reload --port 8765
+```
+
+CLI interactive:
+
+```bash
+python -m persona.main
+```
+
+CLI single-shot:
+
+```bash
 python run_refactored.py --input "Should we delay the release for compliance review?"
-```
-
-Interactive mode:
-
-```bash
-python run_refactored.py
-```
-
-Compatibility entrypoint:
-
-```bash
-python system_main.py --input "Need a decision on vendor risk"
 ```
 
 ## Supported Modes
@@ -61,20 +68,26 @@ python run_refactored.py --input "We need a final high-stakes ruling" --mode dar
 
 ## Repository Layout
 
-- [`config/`](c:\era\config): runtime settings and override normalization
-- [`core/`](c:\era\core): contracts, orchestrator, observability primitives
-- [`modules/`](c:\era\modules): pipeline stage implementations
-- [`data/`](c:\era\data): retained local data and artifacts
-- [`knowledge/`](c:\era\knowledge): principle corpus used by knowledge synthesis
-- [`tests/`](c:\era\tests): unit and integration coverage for the refactored runtime
-- [`documentation/`](c:\era\documentation): technical docs, retained audits, cleanup notes
+- [`config/`](config): runtime settings and override normalization
+- [`core/`](core): contracts, orchestrator, observability primitives
+- [`modules/`](modules): pipeline stage implementations
+- [`persona/`](persona): knowledge engine, minister voice, user profiles, episodic memory
+- [`data/`](data): minister JSON files, doctrine YAMLs, memory stores
+- [`tests/`](tests): 86 test files, 452 tests
+- [`documentation/`](documentation): technical docs, retained audits, cleanup notes
 
 ## Key Files
 
-- [`modules/decision_pipeline/engine.py`](c:\era\modules\decision_pipeline\engine.py): central 10-stage pipeline composition
-- [`core/orchestrator/runtime.py`](c:\era\core\orchestrator\runtime.py): generic synchronous stage runner
-- [`core/contracts/io.py`](c:\era\core\contracts\io.py): typed contracts for inter-stage data flow
-- [`config/settings.py`](c:\era\config\settings.py): environment settings and invariants
+- [`modules/decision_pipeline/engine.py`](modules/decision_pipeline/engine.py): central 10-stage pipeline composition
+- [`modules/council_execution/engine.py`](modules/council_execution/engine.py): NativeCouncil with LLM minister voice
+- [`persona/knowledge_engine.py`](persona/knowledge_engine.py): KIS scoring, Chroma retrieval, reinforce/penalize
+- [`persona/council/minister_voice.py`](persona/council/minister_voice.py): LLM-per-minister deliberation
+- [`persona/learning/episodic_memory.py`](persona/learning/episodic_memory.py): decision episode storage
+- [`persona/learning/minister_confidence.py`](persona/learning/minister_confidence.py): Bayesian weight tracking
+- [`persona/user_profile.py`](persona/user_profile.py): persistent cross-session user identity
+- [`persona/context.py`](persona/context.py): system context builder
+- [`config/settings.py`](config/settings.py): environment settings and invariants
+- [`api.py`](api.py): FastAPI HTTP server with all endpoints
 
 ## Observability
 
@@ -93,39 +106,45 @@ Default file target:
 
 ## Testing
 
-Focused smoke:
+ERA fix + upgrade tests (34 tests):
 
 ```bash
-python run_refactored.py --input "Need a release decision"
+pytest tests/test_era_fixes.py tests/test_era_upgrades.py -v
 ```
 
-Focused runtime tests:
+Focused pipeline tests:
 
 ```bash
 pytest tests/test_decision_pipeline_engine.py tests/test_no_legacy_pipeline_imports.py -q
 ```
 
-Broader refactor-era suite:
+Full test suite (452 tests):
 
 ```bash
-pytest tests/test_config_settings.py tests/test_contracts_*.py tests/test_domain_analysis.py tests/test_knowledge_synthesis.py tests/test_council_execution.py tests/test_council_normalization.py tests/test_prime_decision.py tests/test_decision_pipeline_engine.py -q
+pytest tests/ -v
 ```
 
 ## Documentation
 
 Start here for the current repository:
 
-- [`documentation/REPOSITORY_TECHNICAL_GUIDE.md`](c:\era\documentation\REPOSITORY_TECHNICAL_GUIDE.md)
+- [`PROJECT_OVERVIEW.md`](PROJECT_OVERVIEW.md): architecture, memory systems, API endpoints, learning loops
+- [`documentation/REPOSITORY_TECHNICAL_GUIDE.md`](documentation/REPOSITORY_TECHNICAL_GUIDE.md): repo structure, modules, contribution guide
+
+Completed task tracking:
+
+- [`ERA_FIX_PLAN.md`](ERA_FIX_PLAN.md): 6 bug fixes (all complete)
+- [`ERA_UPGRADE_PLAN.md`](ERA_UPGRADE_PLAN.md): 9 upgrade tracks (all complete)
 
 Important note:
 
-- Several older docs in [`documentation/`](c:\era\documentation) and [`tests/README.md`](c:\era\tests\README.md) still describe removed legacy subsystems. Treat the technical guide above plus `config/`, `core/`, `modules/`, and current tests as the source of truth.
+- Several older docs in [`documentation/legacy_notes/`](documentation/legacy_notes) still describe removed legacy subsystems. Treat the documents above as the source of truth.
 
 ## Current Limitations
 
 - `requirements.txt` still contains more dependencies than the active runtime needs
-- some retained docs are stale
-- the active runtime is CLI and Python API only; there is no current web UI or active HTTP API path on `main`
+- some retained docs in `documentation/legacy_notes/` are stale
+- no authenticated service layer or web UI yet
 
 ## Development
 

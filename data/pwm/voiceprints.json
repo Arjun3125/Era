@@ -1,0 +1,11 @@
+{
+  "voiceprints": {
+    "vp_self": {
+      "voiceprint_id": "vp_self",
+      "entity_id": "self",
+      "speaker_label": "0",
+      "enrolled_date": "2026-07-07T00:00:00+00:00",
+      "notes": "Primary user voiceprint"
+    }
+  }
+}

@@ -80,3 +80,22 @@ milestone3_gate_report*.json
 phase2_robustness_results*.json
 uncertainty_analysis*.json
 data/sessions_test_tmp*/
+
+# Generated knowledge stores (rebuild with import_csds.py / sync_csds.py / ingestion)
+chroma_knowledge/
+data/ministers/*/
+data/ministers_backup_*/
+ingestion/data/
+documentation.zip
+
+# Android build artifacts
+ears_mobile_app/.gradle/
+ears_mobile_app/.idea/
+ears_mobile_app/local.properties
+ears_mobile_app/build/
+ears_mobile_app/app/build/
+
+# Local vault and scratch artifacts
+.obsidian/
+Memory/
+_darbar_test.py

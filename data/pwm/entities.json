@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "self": {
+      "entity_id": "self",
+      "name": "User",
+      "relationship": "self",
+      "interaction_count": 0,
+      "historical_emotional_tones": [],
+      "last_seen": null,
+      "notes": "Primary user of Era / EARS prosthetic."
+    },
+    "coworker": {
+      "entity_id": "coworker",
+      "name": "Coworker",
+      "relationship": "work",
+      "interaction_count": 14,
+      "historical_emotional_tones": [
+        {
+          "tone": "anxious",
+          "timestamp": "2026-07-07T13:35:41.700315+00:00"
+        },
+        {
+          "tone": "anxious",
+          "timestamp": "2026-07-07T14:21:01.995127+00:00"
+        },
+        {
+          "tone": "anxious",
+          "timestamp": "2026-07-07T14:21:47.793704+00:00"
+        },
+        {
+          "tone": "anxious",
+          "timestamp": "2026-07-08T10:24:54.344465+00:00"
+        },
+        {
+          "tone": "anxious",
+          "timestamp": "2026-07-08T10:25:53.976130+00:00"
+        },
+        {
+          "tone": "anxious",
+          "timestamp": "2026-07-08T10:27:02.156578+00:00"
+        },
+        {
+          "tone": "anxious",
+          "timestamp": "2026-07-08T10:35:55.490335+00:00"
+        },
+        {
+          "tone": "anxious",
+          "timestamp": "2026-09-10T15:57:30.926627+00:00"
+        },
+        {
+          "tone": "anxious",
+          "timestamp": "2026-09-10T16:09:52.112065+00:00"
+        },
+        {
+          "tone": "anxious",
+          "timestamp": "2026-09-10T16:12:08.960335+00:00"
+        }
+      ],
+      "last_seen": "2026-09-10T16:12:08.960335+00:00",
+      "notes": "Auto-enrolled via ambient sensory memory (work)."
+    },
+    "sarah": {
+      "entity_id": "sarah",
+      "name": "Sarah",
+      "relationship": "social",
+      "interaction_count": 0,
+      "historical_emotional_tones": [],
+      "last_seen": null,
+      "notes": "Auto-enrolled via ambient sensory memory (social)."
+    }
+  }
+}

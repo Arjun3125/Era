@@ -106,7 +106,7 @@ class IngestionKISEnhancer:
         self,
         kis_engine: Optional[KnowledgeIntegrationSystem] = None,
         orchestrator: Optional[MLWisdomOrchestrator] = None,
-        knowledge_base_path: str = "data/ministers"
+        knowledge_base_path: str = os.path.join(era_root, "data", "ministers")
     ):
         """
         Initialize the KIS enhancer.

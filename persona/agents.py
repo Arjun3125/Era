@@ -5,7 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 
 from .brain import PersonaBrain
-from .ollama_runtime import OllamaRuntime
+from .openrouter_runtime import OpenRouterRuntime
 from .state import CognitiveState
 from .context import build_system_context
 
@@ -18,7 +18,7 @@ class SimplePersonaAgent:
     def __post_init__(self) -> None:
         self.state = CognitiveState(mode=self.mode)
         self.brain = PersonaBrain()
-        self.llm = OllamaRuntime()
+        self.llm = OpenRouterRuntime()
 
     def respond(self, user_prompt: str) -> str:
         system_prompt = build_system_context(self.state)

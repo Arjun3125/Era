@@ -1,293 +1,172 @@
-# ERA Test Suite Documentation
+# ERA Test Suite
 
 ## Quick Start
 
 ```bash
-# Run all tests
-cd C:\era
-pytest tests/ -v
-
-# Run verification only
-pytest tests/verification/ -v
-
-# Run unit tests only
-pytest tests/ --ignore=tests/verification -v
+cd C:\Users\naren\Work\Projects\School\era
+.venv\Scripts\python -m pytest tests/ -v
 ```
+
+## Test Counts
+
+- **86 test files** (test_*.py)
+- **461 tests collected** (as of Sep 2026)
+- **Python 3.14**, pytest 9.x
 
 ## Folder Structure
 
 ```
-C:\era\tests/
+tests/
+├── conftest.py                          # Shared fixtures & auto-markers
 ├── pytest.ini                           # Pytest configuration
-├── conftest.py                          # Shared fixtures & setup
-├── TEST_MANIFEST.md                     # Complete test inventory
-├── TEST_REPORT_GENERATION.txt           # Generated report
-├── run_tests.py                         # Test runner script
+├── TEST_MANIFEST.md                     # Detailed test inventory
 ├── README.md                            # This file
-├── 
-├── Core Test Files (19 .py files)
-│   ├── FULL SUITE TESTS:
-│   │   ├── advanced_persona_test_suite.py (19.40 KB)
-│   │   ├── comprehensive_feature_test.py (16.73 KB)
-│   │   ├── comprehensive_persona_test_suite.py (29.95 KB)
-│   │   ├── master_test_orchestrator.py (25.53 KB)
-│   │   └── run_phase1_test.py (1.13 KB)
-│   │
-│   ├── UNIT TESTS:
-│   │   ├── Embedding: test_embed.py, test_embed_model.py, 
-│   │   │             test_async_embed.py, test_async_embed_debug.py
-│   │   ├── Ingestion: (legacy async ingestion tests removed)
-│   │   ├── Generation: test_generate.py, test_deepseek_doctrine.py,
-│   │   │              test_improved_doctrine.py
-│   │   ├── Processing: test_split.py, test_split_direct.py, test_split_qwen25.py
-│   │   └── Database: vector_db_smoke.py
-│   │
-│   ├── Data Files:
-│   │   ├── test_nodes.json
-│   │   └── test_single.json
-│   │
-│   └── [19 Python test files - 118.65 KB total]
 │
-└── verification/                        # System verification suite
-    ├── Verification Scripts (4 files)
-    │   ├── quick_verify.py (5.16 KB)
-    │   ├── verify_all_features.py (9.39 KB)
-    │   ├── verify_improvements.py (3.73 KB)
-    │   └── verify_llm_integration.py (2.06 KB)
-    │
-    └── Check Scripts (5 files)
-        ├── check_chapter_text.py (0.93 KB)
-        ├── check_doctrine.py (1.11 KB)
-        ├── check_extraction.py (1.33 KB)
-        ├── check_ingestion_status.py (1.47 KB)
-        └── check_v2_status.py (1.38 KB)
-        
-        [9 Python verification files - 26.56 KB total]
+├── ERA Fix & Upgrade Tests (core)
+│   ├── test_era_fixes.py                # 10 tests — BASE_PATH, PDF, Chroma, thread-safety, doctrine YAML
+│   └── test_era_upgrades.py             # 24 tests — feedback loop, user profiles, minister voice,
+│                                        #   auto-retrain, single-call classify, domain gaps,
+│                                        #   domain routing, Bayesian confidence, multi-round dialogue
+│
+├── Pipeline Stage Tests
+│   ├── test_input_normalization.py      # Input normalization engine
+│   ├── test_domain_analysis.py          # Domain inference, stakes, reversibility
+│   ├── test_knowledge_synthesis.py      # KIS scoring, principle selection
+│   ├── test_council_execution.py        # NativeCouncil, keyword + LLM deliberation
+│   ├── test_council_normalization.py    # Council output normalization
+│   ├── test_prime_decision.py           # Final decision resolution
+│   ├── test_decision_packaging.py       # User-facing decision summary
+│   ├── test_decision_pipeline_engine.py # 10-stage pipeline composition
+│   ├── test_decision_pipeline_*.py      # Telemetry, errors, extensions, module
+│   ├── test_mode_routing.py             # Mode selection and minister routing
+│   ├── test_runtime_config_engine.py    # Environment settings and invariants
+│   └── test_contract_validation.py      # Cross-stage contract checks
+│
+├── Contract & Architecture Tests
+│   ├── test_contracts_io.py             # Typed I/O contracts
+│   ├── test_contracts_context.py        # ExecutionContext contracts
+│   ├── test_contracts_events.py         # Event contracts
+│   ├── test_config_settings.py          # Settings model
+│   ├── test_core_orchestrator_runtime.py # Pipeline orchestrator
+│   └── test_no_legacy_pipeline_imports.py # Import guardrail
+│
+├── Observability Tests
+│   ├── test_observability_logger.py
+│   ├── test_observability_metrics.py
+│   └── test_observability_tracing.py
+│
+├── ML & Learning Tests
+│   ├── test_step4_training_data.py      # ML outcome recording → training → model
+│   ├── test_uncertainty_calibration.py  # Temperature, isotonic, risk model
+│   ├── test_policy_value_models.py      # Policy and value network components
+│   ├── test_rl_components.py            # PPO training components
+│   ├── test_decision_env.py             # Decision simulation environment
+│   └── test_scenario_memory_*.py        # FAISS scenario retrieval
+│
+├── EARS Mobile Pipeline Tests
+│   ├── test_ears_pipeline.py
+│   ├── test_ears_phase3.py
+│   └── test_ears_upgrades.py
+│
+├── Integration & Smoke Tests
+│   ├── test_llm_kis_integration.py      # LLM ↔ KIS integration
+│   ├── test_kis_integration.py          # KIS end-to-end
+│   ├── test_expert_routing.py           # Expert router
+│   └── test_evaluation_engine_smoke.py  # Evaluation engine
+│
+├── Legacy / Utility Tests (retained)
+│   ├── advanced_persona_test_suite.py
+│   ├── comprehensive_feature_test.py
+│   ├── comprehensive_persona_test_suite.py
+│   ├── master_test_orchestrator.py
+│   ├── run_phase1_test.py
+│   ├── run_tests.py
+│   └── verify_*.py
+│
+└── verification/                        # System verification scripts
+    ├── quick_verify.py
+    ├── verify_all_features.py
+    └── ...
 ```
 
-## Configuration Files Explained
+## How to Run
 
-### pytest.ini
-Central configuration for pytest. Defines:
-- Test discovery paths and patterns
-- Test markers (unit, integration, async, embedding, etc.)
-- Output formats and logging
-- Strict mode and warning handling
+### Run All Tests
 
-### conftest.py
-Shared test configuration including:
-- Path setup and imports
-- Session-scoped fixtures (era_root, test_data_dir, rag_storage_dir)
-- Test-specific fixtures (temp_test_dir)
-- Auto-marker application based on test filename
-
-### TEST_MANIFEST.md
-Complete inventory of all 27 test files with:
-- Detailed descriptions and purposes
-- Quick test commands
-- Test categorization matrix
-- Expected test results
-- Individual test documentation
-
-### run_tests.py
-Python test runner with options:
 ```bash
-python run_tests.py                 # All tests
-python run_tests.py --verify-only   # Verification only
-python run_tests.py --unit-only     # Unit tests only
-python run_tests.py --coverage      # With coverage report
-python run_tests.py --report        # Generate report
-python run_tests.py --marker=async  # Specific marker
+.venv\Scripts\python -m pytest tests/ -v
+```
+
+### Run ERA Fix & Upgrade Tests (most relevant)
+
+```bash
+.venv\Scripts\python -m pytest tests/test_era_fixes.py tests/test_era_upgrades.py -v
+```
+
+### Run Pipeline Stage Tests
+
+```bash
+.venv\Scripts\python -m pytest tests/test_decision_pipeline_engine.py tests/test_council_execution.py tests/test_knowledge_synthesis.py tests/test_domain_analysis.py -v
+```
+
+### Run Contract & Architecture Tests
+
+```bash
+.venv\Scripts\python -m pytest tests/test_contracts_*.py tests/test_config_*.py tests/test_core_*.py -v
+```
+
+### Run Specific Test
+
+```bash
+.venv\Scripts\python -m pytest tests/test_era_upgrades.py::test_reinforce_entry_increments_count -v
+```
+
+### Stop on First Failure
+
+```bash
+.venv\Scripts\python -m pytest tests/ -x
+```
+
+### Coverage Report
+
+```bash
+.venv\Scripts\python -m pytest tests/ --cov=persona --cov=modules --cov=api --cov-report=html
 ```
 
 ## Test Categories
 
-### Full Test Suites (5 files, 96.54 KB)
-Complete system validation:
-- **comprehensive_persona_test_suite.py** - Persona subsystem complete testing
-- **comprehensive_feature_test.py** - All 92+ features validated
-- **advanced_persona_test_suite.py** - Advanced LLM scenarios
-- **master_test_orchestrator.py** - Master test coordinator
-- **run_phase1_test.py** - Phase 1 baseline
+| Category | Files | What it covers |
+|----------|-------|----------------|
+| ERA Fixes | `test_era_fixes.py` | BASE_PATH, PDF extraction, Chroma, thread-safety, doctrine YAML |
+| ERA Upgrades | `test_era_upgrades.py` | Feedback loop, user profiles, minister voice, auto-retrain, multi-round |
+| Pipeline | `test_decision_pipeline_*.py` | 10-stage pipeline, telemetry, errors, extensions |
+| Council | `test_council_*.py` | NativeCouncil, deliberation, normalization |
+| Knowledge | `test_knowledge_synthesis.py` | KIS scoring, principle selection, Chroma retrieval |
+| Contracts | `test_contracts_*.py` | Typed I/O, context, events |
+| Observability | `test_observability_*.py` | Logging, metrics, tracing |
+| ML | `test_step4_*.py`, `test_uncertainty_*.py` | Training data, calibration, RL |
 
-### Core Unit Tests (12 files)
-Module-level testing:
-- **Embedding** (4): Fundamentals, models, async operations
-- **Ingestion** (2): Async pipeline, end-to-end processing
-- **Generation** (3): LLM output, Deepseek, doctrine system
-- **Text Processing** (2): Chunking, splitting, tokenization
-- **Database** (1): Vector DB smoke test
+## Environment
 
-### Verification Suite (9 files, 26.56 KB)
-System health and validation:
-- **Verification** (4): Features, improvements, LLM integration, quick checks
-- **Status Checks** (5): Chapter validation, extraction, ingestion health
-
-## How to Run Tests
-
-### Run Everything
 ```bash
-pytest tests/ -v
+# Virtual environment
+cd C:\Users\naren\Work\Projects\School\era
+.venv\Scripts\activate
+
+# Key env vars for tests
+ERA_MINISTER_PATH=data/ministers    # override minister JSON path
+ERA_PROFILE_PATH=data/user_profiles # override profile storage
 ```
-
-### Run Specific Categories
-
-**Verification Only**
-```bash
-pytest tests/verification/ -v
-```
-
-**Core Tests Only**
-```bash
-pytest tests/ --ignore=tests/verification -v
-```
-
-**By Test Suite Type**
-```bash
-# Unit tests tagged as async
-pytest tests/ -m async -v
-
-# Integration tests
-pytest tests/ -m integration -v
-
-# Embedding tests
-pytest tests/ -m embedding -v
-
-# Ingestion tests
-pytest tests/ -m ingestion -v
-```
-
-### Advanced Options
-
-**Coverage Report**
-```bash
-pytest tests/ --cov=../ --cov-report=html
-```
-Generates HTML coverage report in `htmlcov/index.html`
-
-**JUnit XML Report** (CI/CD friendly)
-```bash
-pytest tests/ --junit-xml=test_results.xml
-```
-
-**With Parallel Execution** (requires pytest-xdist)
-```bash
-pytest tests/ -n auto
-```
-
-**Stop on First Failure**
-```bash
-pytest tests/ -x
-```
-
-**Run Last Failed Tests**
-```bash
-pytest tests/ --lf
-```
-
-## Available Test Markers
-
-| Marker | Purpose | Example Command |
-|--------|---------|-----------------|
-| `unit` | Unit tests | `pytest -m unit` |
-| `integration` | Integration tests | `pytest -m integration` |
-| `e2e` | End-to-end | `pytest -m e2e` |
-| `async` | Async operations | `pytest -m async` |
-| `embedding` | Vector embeddings | `pytest -m embedding` |
-| `ingestion` | Data pipelines | `pytest -m ingestion` |
-| `generation` | LLM generation | `pytest -m generation` |
-| `verification` | System validation | `pytest -m verification` |
-| `smoke` | Quick smoke tests | `pytest -m smoke` |
-
-Combine markers with AND/OR logic:
-```bash
-pytest tests/ -m "unit and not slow"        # Unit tests excluding slow
-pytest tests/ -m "embedding or ingestion"   # Either category
-```
-
-## Expected Test Results
-
-### Recent Results
-- **Master Suite**: 31/31 tests (100%)
-- **Advanced Suite**: 34/35 tests (97.1%)
-- **Comprehensive Suite**: 32/41 tests (78.0%)
-
-### System Status
-✅ All 92+ features validated  
-✅ Async operations stable  
-✅ Embedding pipeline working  
-✅ Ingestion system operational  
-✅ LLM integration functional  
 
 ## Dependencies
 
-Tests require:
-- Python 3.9+
-- pytest >= 6.0
-- pytest-asyncio (for async tests)
-- pytest-cov (for coverage reports)
-- pytest-xdist (optional, for parallel execution)
-
-Install test dependencies:
-```bash
-pip install pytest pytest-asyncio pytest-cov pytest-xdist
-```
-
-## Troubleshooting
-
-### Tests Won't Discover
-- Check `pytest.ini` configuration
-- Verify test files follow naming convention: `test_*.py` or `*_test.py`
-- Run with verbose: `pytest tests/ -v --collect-only`
-
-### Import Errors
-- conftest.py adds sys.path entries for module imports
-- Ensure running from C:\era root directory
-- Check .venv activation
-
-### Async Test Issues
-- Ensure pytest-asyncio installed
-- Async tests automatially marked by conftest.py
-- Run with: `pytest tests/ -m async -v`
-
-### Coverage Issues
-- Install pytest-cov
-- Run: `pytest tests/ --cov=../ --cov-report=html`
-- Open `htmlcov/index.html` in browser
-
-## What to Run When
-
-| Scenario | Command |
-|----------|---------|
-| Quick validation | `pytest tests/verification/ -v` |
-| Before commit | `pytest tests/ --ignore=tests/verification -q` |
-| Full suite | `pytest tests/ -v` |
-| Integration check | `pytest tests/ -m integration -v` |
-| New feature test | `pytest tests/test_specific.py -v` |
-| CI/CD pipeline | `pytest tests/ --junit-xml=report.xml` |
-| Coverage report | `pytest tests/ --cov=../ --cov-report=html` |
-
-## For Developers
-
-When adding new tests:
-1. Place in appropriate location (tests/ or tests/verification/)
-2. Follow naming: `test_*.py` or `*_test.py`
-3. Use pytest-style functions: `def test_something():`
-4. Add markers: `@pytest.mark.unit`, `@pytest.mark.integration`
-5. Run locally: `pytest tests/ -v`
-6. Commit and push (CI/CD runs full suite)
-
-## Resources
-
-- [pytest Documentation](https://docs.pytest.org/)
-- [TEST_MANIFEST.md](TEST_MANIFEST.md) - Detailed test inventory
-- [conftest.py](conftest.py) - Fixture definitions
-- [pytest.ini](pytest.ini) - Configuration
-- Run `pytest --help` for more options
+- Python 3.14+
+- pytest >= 9.0
+- fastapi (for API tests)
+- pdfplumber (for PDF extraction tests)
+- chromadb (for semantic retrieval tests, graceful fallback)
+- pyYAML (for doctrine loading tests)
 
 ---
 
-**Last Updated**: February 14, 2026  
-**Test Framework**: pytest  
-**Total Tests**: 27 files (145 KB)  
-**Status**: ✅ Ready for use
+**Last Updated**: September 2026

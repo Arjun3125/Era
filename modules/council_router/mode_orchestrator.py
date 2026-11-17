@@ -123,7 +123,6 @@ User concern:
 
 Respond naturally, warmly, with genuine interest.
 """
-    
     def aggregate_minister_inputs(self, positions: Dict[str, Any]) -> Dict[str, Any]:
         """No aggregation needed in quick mode."""
         return {}
@@ -204,39 +203,74 @@ class MeetingModeStrategy(ModeStrategy):
     """
     MEETING MODE: Structured Debate
     
-    - Structure: Invoke 3-5 relevant ministers, each presents perspective
+    - Structure: Invoke 3-4 relevant ministers, each presents perspective
     - Synthesis: Combine into balanced view
     - Suitable for: Complex decisions, multi-stakeholder issues
     - Goal: Create consensus among diverse viewpoints
     """
     
     def decide_ministers_to_invoke(self, context: Dict[str, Any]) -> List[str]:
-        """Select 3-5 ministers relevant to detected domains."""
-        domains = context.get("domains", [])
+        """Select 3-4 ministers related to detected domains or topic (Prime Confidant default routing)."""
+        domains = list(context.get("domains", []))
+        if not domains or domains == ["general"] or domains == [""]:
+            text = str(context.get("user_input", "") or context.get("query", "") or context.get("topic", "")).lower()
+            if any(w in text for w in ["job", "career", "work", "promotion", "hire", "salary", "employer", "office"]):
+                domains.append("career")
+            if any(w in text for w in ["money", "loan", "invest", "financial", "finance", "debt", "savings", "capital", "cost", "price", "budget", "bank"]):
+                domains.append("financial")
+            if any(w in text for w in ["friend", "partner", "relationship", "family", "social", "team", "marriage"]):
+                domains.append("relationships")
+            if any(w in text for w in ["health", "diet", "sleep", "exercise", "stress", "doctor", "medical"]):
+                domains.append("health")
+            if any(w in text for w in ["strategy", "plan", "goal", "business", "company", "market", "startup", "venture"]):
+                domains.append("strategy")
+            if any(w in text for w in ["power", "negotiate", "win", "dominate", "aggressive", "war", "fight", "leverage", "compete"]):
+                domains.append("power")
+            if any(w in text for w in ["legal", "law", "ethics", "honest", "truth", "rule", "policy", "court"]):
+                domains.append("ethics")
+            if any(w in text for w in ["tech", "software", "code", "ai", "platform", "system", "app", "data", "server"]):
+                domains.append("innovation")
+            if any(w in text for w in ["change", "pivot", "adapt", "transition", "resilience", "flexibility", "crisis", "shift", "unexpected", "survive"]):
+                domains.append("resilience")
+            if any(w in text for w in ["story", "brand", "reputation", "public", "media", "communicate", "pitch", "message", "perception", "image", "pr"]):
+                domains.append("communication")
+            if any(w in text for w in ["resource", "asset", "inventory", "supply", "capacity", "time", "energy", "allocation", "equipment", "material"]):
+                domains.append("resources")
+            if any(w in text for w in ["freedom", "independence", "autonomy", "control", "own", "leader", "sovereign", "self-reliance", "govern", "authority"]):
+                domains.append("leadership")
+            if any(w in text for w in ["war", "emergency", "survival", "battle", "attack", "defend", "threat", "compete", "win", "hostile", "aggressive"]):
+                domains.append("crisis")
         
-        # Map domains to relevant ministers
         domain_minister_map = {
             "career": ["grand_strategist", "psychology", "timing"],
-            "financial": ["risk", "optionality", "data"],
-            "relationships": ["diplomacy", "psychology", "legitimacy"],
-            "health": ["psychology", "timing", "risk"],
-            "strategy": ["grand_strategist", "intelligence", "timing"],
-            "power": ["power", "diplomacy", "conflict"],
-            "ethics": ["legitimacy", "truth", "discipline"],
-            "innovation": ["technology", "grand_strategist", "risk"],
+            "financial": ["risk", "optionality", "data", "resources"],
+            "relationships": ["diplomacy", "psychology", "legitimacy", "narrative"],
+            "health": ["psychology", "timing", "risk", "adaptation"],
+            "strategy": ["grand_strategist", "intelligence", "timing", "optionality"],
+            "power": ["power", "diplomacy", "conflict", "sovereign"],
+            "ethics": ["legitimacy", "truth", "discipline", "sovereign"],
+            "innovation": ["technology", "grand_strategist", "risk", "adaptation"],
+            "resilience": ["adaptation", "risk", "optionality", "discipline"],
+            "communication": ["narrative", "diplomacy", "truth", "psychology"],
+            "resources": ["resources", "data", "risk", "grand_strategist"],
+            "leadership": ["sovereign", "power", "discipline", "legitimacy"],
+            "crisis": ["war_mode", "conflict", "risk", "adaptation", "timing"],
         }
         
-        # Gather ministers based on detected domains
-        ministers = set()
+        ministers = []
         for domain in domains:
             if domain in domain_minister_map:
-                ministers.update(domain_minister_map[domain][:2])  # Take top 2 per domain
+                for m in domain_minister_map[domain]:
+                    if m not in ministers:
+                        ministers.append(m)
         
-        # Always include risk as sanity check
-        ministers.add("risk")
+        if not ministers:
+            return ["risk", "grand_strategist", "optionality", "psychology"]
         
-        # Cap at 5 ministers
-        return list(ministers)[:5]
+        if "risk" not in ministers and len(ministers) < 4:
+            ministers.append("risk")
+            
+        return ministers[:4]
     
     def should_invoke_council(self) -> bool:
         return True
@@ -304,7 +338,7 @@ class DarbarModeStrategy(ModeStrategy):
             "adaptation", "conflict", "diplomacy", "data", "discipline",
             "grand_strategist", "intelligence", "timing", "risk", "power",
             "psychology", "technology", "legitimacy", "truth", "narrative",
-            "resources", "optionality", "sovereign",
+            "resources", "optionality", "sovereign", "war_mode",
         ]
     
     def should_invoke_council(self) -> bool:

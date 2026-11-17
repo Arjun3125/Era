@@ -15,6 +15,7 @@ from .ollama_client import OllamaClient
 from .utils import sha, chunk_text
 from .minister_converter import convert_all_doctrines, update_combined_vector_index
 from .capital_allocation import ingest_post_phase3
+from .vector_db import write_ingestion_to_chroma
 from .async_ingest_orchestrator import AsyncIngestionPipeline
 from .async_ingest_config import Chunk, MAX_EMBED_CONCURRENCY
 from .async_doctrine_workers import run_async_doctrine_extraction
@@ -258,8 +259,9 @@ def run_full_ingest_with_resume(pdf_path: str, resume: bool = True):
     kis_enhancer = None
     if KIS_AVAILABLE:
         try:
+            _kis_data_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", "data", "ministers"))
             kis_enhancer = IngestionKISEnhancer(
-                knowledge_base_path="data/ministers"
+                knowledge_base_path=_kis_data_root
             )
             print("[KIS] Enhancer initialized for doctrine synthesis", flush=True)
         except Exception as e:
@@ -549,20 +551,28 @@ def run_full_ingest_with_resume(pdf_path: str, resume: bool = True):
         nd = normalize_doctrine(d)
         nodes.extend(doctrine_to_nodes(nd, prefix=book_id.upper()))
 
-    nodes_to_embed = [n for n in nodes if n.get("type") in ("principle", "rule", "claim")]
+    nodes_to_embed = [n for n in nodes if n.get("field") in ("principles", "rules", "claims")]
 
     # Serialize chunks for the AsyncIngestionPipeline parser
     nodes_chunks_path = os.path.join(storage, "03_nodes_chunks.json")
     try:
         chunks_payload = []
-        for n in nodes_to_embed:
-            chunks_payload.append({
-                "text": n.get("text", ""),
-                "domain": n.get("metadata", {}).get("domain", "base"),
-                "category": n.get("type", "content"),
-                "source_book": book_id,
-                "source_chapter": f"ch{n.get('metadata', {}).get('chapter', 0)}",
-            })
+        for d in doctrines:
+            ch_idx = d.get("chapter_index", 0)
+            doms = d.get("domains", [])
+            domain = str(doms[0]) if doms else "base"
+            if isinstance(doms, list) and doms and isinstance(doms[0], dict):
+                domain = doms[0].get("name", "base")
+            for field, cat in [("principles", "principle"), ("rules", "rule"), ("claims", "claim")]:
+                for item in (d.get(field) or []):
+                    if item:
+                        chunks_payload.append({
+                            "text": str(item),
+                            "domain": str(domain),
+                            "category": cat,
+                            "source_book": book_id,
+                            "source_chapter": f"ch{ch_idx}",
+                        })
 
         with open(nodes_chunks_path, 'w', encoding='utf-8') as nf:
             json.dump(chunks_payload, nf, indent=2, ensure_ascii=False)
@@ -657,11 +667,11 @@ def run_full_ingest_with_resume(pdf_path: str, resume: bool = True):
             pass
 
     # ========== PHASE 3.5: MINISTER CONVERSION ==========
+    # Resolve data_root once — shared by Phase 3.5 and Phase 4
+    data_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", "data"))
     try:
         live_progress(storage, phase="phase_3.5", message="Converting doctrine to minister structure")
         
-        # Get the data root path (should be in workspace root)
-        data_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data"))
         os.makedirs(data_root, exist_ok=True)
         
         # Convert chapter doctrines to minister domain structure
@@ -717,6 +727,16 @@ def run_full_ingest_with_resume(pdf_path: str, resume: bool = True):
             pass
         # Don't fail the whole pipeline if minister conversion fails
         print(f"[INGEST][WARN] Phase 3.5 (minister conversion) failed: {e}")
+
+    # ========== PHASE 4: CHROMA SYNC ==========
+    try:
+        live_progress(storage, phase="phase_4", message="Syncing to ChromaDB")
+        # Reuse data_root from Phase 3.5 (already resolved to project_root/data)
+        chroma_result = write_ingestion_to_chroma(storage, data_root=data_root)
+        print(f"[INGEST] Chroma sync: {chroma_result.get('total_indexed', 0)} documents indexed")
+        live_progress(storage, phase="phase_4", message=f"Chroma sync: {chroma_result.get('total_indexed', 0)} docs")
+    except Exception as e:
+        print(f"[INGEST][WARN] Chroma sync failed (non-fatal): {e}")
 
     # Final progress marker
     live_progress(storage, phase="completed", message="Ingestion finished", current=100, total=100)

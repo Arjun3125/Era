@@ -1,10 +1,1053 @@
 {
-  "domain": "diplomacy",
+  "domain": "Diplomacy",
   "category": "claims",
-  "entries": [],
+  "entries": [
+    {
+      "id": "42aed5fe161244d7a2fa9c8835a0dab9",
+      "text": "Parleys can be a powerful tool in achieving a desired outcome",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 139
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e8946f7f17a44c44a9c1abd1556dd233",
+      "text": "A ruler's power and influence are ultimately determined by their ability to maintain a strong and loyal following.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5a54b0bfea1b47479816b8acab42d227",
+      "text": "A ruler's success is often dependent on their ability to navigate complex webs of power and influence.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d5e5a5531d374409bca7f59838dc259a",
+      "text": "A ruler's reputation and image are crucial to their success, and they should be willing to do whatever it takes to maintain a positive image.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3ab5527e183448c7a9c2803cb0e4a4b6",
+      "text": "A ruler should be aware of the importance of luck and circumstance in human affairs, and take steps to defend against it.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "354bce4ecdc142f89d329a24e2e1219a",
+      "text": "A ruler's ability to adapt and respond to changing circumstances is crucial to their success.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fca03ff5646b455daa41dd6aff426b70",
+      "text": "{'name': 'The French Invasion', 'description': \"The French invasion of Italy in 1494 was a direct result of the Italians' own actions, including their habit of frightening each other with the threat of foreign intervention.\"}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3d803fe4f5eb447092e35db80483ead1",
+      "text": "{'name': 'The Failure of the Italian States', 'description': 'The Italian states failed to maintain a balance of power, leading to the French invasion and the subsequent shift in the balance of power in Italy.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "05d04a61dac540b297760997b381fd45",
+      "text": "{'name': 'The importance of a strong military force', 'description': \"A well-equipped and patriotic citizen army is essential for a leader's success.\"}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "59f70aa456f0433a9a88f2f340ba762e",
+      "text": "{'name': 'The need for decisive leadership', 'description': 'Leaders should take bold action to achieve their goals and overcome obstacles.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e2b32ff0df2f4433a352a67edcb99814",
+      "text": "{'name': 'The value of experience and expertise', 'description': 'Leaders should seek guidance from experienced individuals and develop their own skills to make informed decisions.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bda1b26e82934b3ab08e514aeb95f77a",
+      "text": "{'name': 'Cesare Borgia is a model for achieving power', 'description': \"Cesare Borgia's ruthless tactics and willingness to do whatever it takes to achieve power make him a model for leaders seeking to achieve and maintain power.\"}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1b23061f1fab4c37b6fc162f1d910caf",
+      "text": "{'name': 'The psychology of the leader is key to achieving power', 'description': \"A leader's mindset and willingness to take risks are crucial to achieving and maintaining power.\"}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cec0eaec16a14724b7fd34fcbe25f37d",
+      "text": "{'name': 'History is a guide for leaders', 'description': 'Studying history can provide valuable insights and lessons for leaders seeking to achieve and maintain power.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7e23e990c52e4ab3b080b7521e7323e8",
+      "text": "Machiavelli's own mind was deeply divided during the writing of The Prince",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5ed11a921c924bf4836138fd196aef4d",
+      "text": "The book is not a careful elaboration of a rigid, predetermined vision",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ce24ff6f06644063a931e8c0e0ac9cac",
+      "text": "The Prince was written for publication and meant as a public performance",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2afa8d86259f411bb1e39e6f20fa10ef",
+      "text": "{'name': \"Machiavelli's work is a call to amoral calculation\", 'description': \"Machiavelli's ideas are often misrepresented as promoting any form of brutality and amoral calculation.\"}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "db2b3df5413d472c99cef47dbcfc5447",
+      "text": "{'name': \"Machiavelli's work is a threat to traditional values\", 'description': \"Machiavelli's ideas are seen as a challenge to traditional Christian values and a potential cause for the decline of moral standards.\"}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a48e8e48a43e4fbe8137b1a89b536972",
+      "text": "{'name': 'The Prince as a cautionary tale', 'description': 'The book is seen as a warning to rulers about the dangers of abusing power and the importance of being loved by their people.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "53afaafb761a40c99cabaa8cd90697d0",
+      "text": "{'name': \"Machiavelli's intentions\", 'description': \"Interpretations of Machiavelli's intentions vary, but most agree that he aimed to teach people about the nature of power and how to resist it.\"}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b04baf64fb434da8befe349b2b39c57c",
+      "text": "{'name': 'The impact of The Prince on European politics', 'description': 'The book had a significant impact on European politics, influencing the way rulers thought about power and legitimacy.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d8caba96942644588b411971befcbcf5",
+      "text": "The translation of 'virt\u00f9' is a key challenge in translating The Prince.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "905548fc157146c69a95a023d3377c60",
+      "text": "Machiavelli's use of archaic words and phrases can make the text difficult to understand.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "376a53465c284689a42a458eb3e9f9ab",
+      "text": "A good translation should prioritize clarity and accuracy.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ad540ece9a684d84a3f1f01884e1dbab",
+      "text": "A ruler's actions and decisions should be guided by logic, reason, and deduction.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "68619f8283a24b1a83267e461bb246fa",
+      "text": "Every clause and word in Machiavelli's text is there for a purpose and should be considered carefully.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0db270306d7745b284fe8fd76957a9d8",
+      "text": "Machiavelli's views on politics are often misunderstood",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1b7c5b47635a435ebceb9394df7d83cc",
+      "text": "the author is not condoning violence and cruelty, but rather discussing their effectiveness",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "68a6b39facea433c93601cf818835c00",
+      "text": "the translator's goal is to convey the author's intended meaning, not to impose their own moral standards",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4891aaa7b11c414ab5af41858b58f8f0",
+      "text": "{'name': 'Fortune is changeable', 'description': 'Circumstances can change rapidly, and one must be prepared to adapt.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "abb7f52f9c87497485f37c0041125f4b",
+      "text": "{'name': 'Men are obstinate', 'description': 'Humans tend to be resistant to change and may be slow to adapt.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9d956c68be9c48a48697a2c7cf1d7204",
+      "text": "{'name': 'Youth is an advantage', 'description': 'Young people are often more willing to take risks and challenge the status quo.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ebbb532031ce4535be1da7e62377d901",
+      "text": "A ruler who inherits power is better loved than a new ruler.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2f8815b46de54a5b8377aa0e168c3ae4",
+      "text": "A ruler who does not go out of his way to get himself hated is better off.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2af723fd808143adbe433889af741ed1",
+      "text": "A ruler should study the character of a people and a man of the people to know how to govern them.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d1577a937b554144ab483db7760a6b39",
+      "text": "A ruler should get to know the character of a people and a man of the people to know how to conquer them.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "991aab60e1fe44e484c37bc655c5e3fa",
+      "text": "A ruler should achieve greatness that matches his status and qualities.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d708eee1faf84fe6bc5b1d64dda92ff6",
+      "text": "A ruler who occupies a new territory without considering the local customs and institutions is likely to face rebellion and instability.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dbbc08c9842f46f8ad42b42945769c41",
+      "text": "A ruler who fails to eliminate the family of the previous ruler may lose power and control.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "85fed245583e45c29cfda11623b8d11c",
+      "text": "A ruler who prioritizes establishing colonies in the new territory is more likely to maintain stability and loyalty.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dd4cff6f47254fce8f725172f199f84d",
+      "text": "A ruler who has taken a new territory must prioritize eliminating the family of the previous ruler and establishing friendly relations with weaker neighbors.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "abab5e018c934ba8b59c5c9e31c868fe",
+      "text": "A ruler who has taken a new territory must live among the people to improve security and stability.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e1e49d3c1e584a9b9ea6cde751a31bf6",
+      "text": "A ruler who has taken a new territory must not allow foreign powers to gain influence in the new territory.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9c8ea05250584051a9003bb567cae847",
+      "text": "A ruler who has moved into a new region must make themselves leader and protector of the weaker neighboring powers.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2ba46ef3cdea44678ba7a564285d5679",
+      "text": "A ruler must take care that no foreign power strong enough to compete with their own gets a chance to penetrate the area.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0c9ce6c2de04468c9cb99240f5a62b8c",
+      "text": "A ruler must not allow discontented people to encourage a foreign power to intervene.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f7bd9d3835d54833bc500689e4f81fd1",
+      "text": "Louis's mistakes in Italy led to the loss of Lombardy and ultimately the downfall of France.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fb7dd052ed61476392c093bc5fb47fe2",
+      "text": "The desire to conquer more territory is a natural thing, but it can also lead to ruin if not managed properly.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7f97dd15e4b44c57a501aaf45dd14b2c",
+      "text": "A ruler's reputation and power can be quickly lost if they do not take action to secure their position.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2947a3712fd64f648c4f118c5d2d7915",
+      "text": "Alexander's successors held on to the territory conquered by Alexander the Great and the only trouble they had arose from their own personal ambitions and infighting.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b66a1222664f4d9ab054026a245fa51d",
+      "text": "The whole of Turkey is governed by one ruler, or sultan, and everyone serves him.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ded2efbe2b154be19fbf4d06c19f1f0b",
+      "text": "The king of France is surrounded by a number of barons whose rights date back to ancient times and who are acknowledged and loved by their subjects.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a85798277c5047519673a583982e4d9b",
+      "text": "Alexander's conquest of Asia was easy due to its Turkish form of government.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9fab53c070d8466daa95abf154cb3f82",
+      "text": "Pyrrhus's failure to hold on to the territories he took was due to the type of state he invaded.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "469aa4ea23924ce2a790ba1643106de5",
+      "text": "The Romans' inability to hold on to Spain, Gaul, and Greece was due to the internal divisions of these regions.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "774820fddcb64800bc00bd82e25c6295",
+      "text": "A ruler who has not forgotten the principles of their people will be able to rally them to fight for those principles at the first opportunity.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "47654ac8aed64db1821b6710b0d01005",
+      "text": "A people who have been accustomed to living under a ruler and have had their freedoms and traditions forgotten will be slower to rebel.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f0d55cc9b9ea42c19c06dcf8b31038fb",
+      "text": "A ruler who has been accustomed to living under a ruler and has had their family eliminated will be slower to choose a new leader and live in freedom without one.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "119069ad818d4cfb81ae7ee5f349a8de",
+      "text": "{'name': 'Exceptional Leaders', 'description': 'Exceptional leaders are those who have a combination of talent and opportunity.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "123cd5fa092c4c80af544cba66d592b3",
+      "text": "{'name': 'Luck and Circumstance', 'description': \"Luck and circumstance can play a significant role in a leader's success.\"}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "15d9d2c3c5ef4f4f94185807b2b43305",
+      "text": "{'name': 'The Importance of Armed Force', 'description': \"Armed force is an essential component of a leader's success.\"}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3a64112f64964226a67686748d4ef97d",
+      "text": "{'name': \"A ruler's power is based on their ability to maintain the loyalty of their army and the support of their allies\", 'description': \"A ruler's power is ultimately based on their ability to maintain the loyalty of their army and the support of their allies.\"}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "18b8ef25691d4e1699b1d828f58dea8d",
+      "text": "{'name': 'A ruler who achieves power through luck rather than their own abilities is unlikely to be able to hold on to it', 'description': 'A ruler who achieves power through luck rather than their own abilities is unlikely to be able to hold on to it.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0ef67723bddb4360bf36d1f7339ae72a",
+      "text": "Francesco Sforza became Duke of Milan through his own abilities and great courage.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a1854f6c04a2427aa224baa665334efa",
+      "text": "Cesare Borgia received his territories thanks to his father's position and the support of the French and papal authorities.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eca9848d295945ab9d1c72eb60a498f3",
+      "text": "Borgia's success was due in part to his ability to adapt to changing circumstances and adjust his strategy accordingly.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "16a3c5001e2d4a93bba9f688ff2de2cf",
+      "text": "Borgia's use of trickery and deception was a key factor in his success.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "20e2dd9d1ff14599be24c41cbba2a5ca",
+      "text": "Borgia's willingness to take calculated risks and make difficult decisions was a key factor in his success.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4aded363c9154e31916896e7781a4d49",
+      "text": "Cesare Borgia was a model for anyone who comes to power through fortunate circumstances",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "087fb9f0c2af49f9afceaa3899da593c",
+      "text": "Borgia's power was based on his own resources and talent",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f483320aa0d84546a6fb484ba68c5c13",
+      "text": "Borgia's success was due to his determination and ambition",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e0588f97857c46be83c777d6b23b9a5b",
+      "text": "Cesare Borgia was a skilled and ruthless ruler who achieved great success through his talents and circumstances.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a4d1efc3c67e4df0b2f0452ff1f6c60b",
+      "text": "Borgia's power and influence were key to his success.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2bdecd2d804b4542a7a8d05dd35a8a95",
+      "text": "Borgia's ability to win over people and destroy his enemies was crucial to his success.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "76d12f1274ce4eadbb0aaebc7d911670",
+      "text": "Borgia's solid foundations for his power ensured his long-term success.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3f39e0f43d5947969c3108116f1dfecb",
+      "text": "Borgia's ability to respond to aggression with his own forces and talent was essential to his success.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ab5307f1032149b591ed7d231b7ae84a",
+      "text": "Agathocles' success can be attributed to his ability to take risks and make tough decisions.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f7f596d96a6d42b792cbc99142ae32ae",
+      "text": "Oliverotto's rise to power was facilitated by his uncle's influence and his own strong personality.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ac502fae07dc4cdeafa400db609fdabb",
+      "text": "The Borgia family's power was built on a combination of violence, manipulation, and strategic alliances.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6295556afba34d418c9b9c66ca4ebc0b",
+      "text": "A ruler who uses cruelty well can improve their position with their subjects and with God.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "712cabbee62d4ca59446a9dcc047d642",
+      "text": "A ruler who uses cruelty badly has no chance of improving their position.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "18f065ef5c4d4b95b79cfa9817af24a9",
+      "text": "A ruler who takes the first approach has a chance of improving their position with their subjects and with God.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "81a5c9133f81470781f9f01494641a20",
+      "text": "A ruler's power is determined by the support of the people or the nobles.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5ab7d5657cca4d3d80475f122a6664d1",
+      "text": "A monarchy can be brought about by either the common people or the nobles.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f999609b8c89424283afb8c285648bfe",
+      "text": "A king who comes to power with the support of the people has an easier time maintaining power than one who gets there with the support of the nobles.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "990099f806e74eff83d0fc4949c32fb5",
+      "text": "A ruler must prioritize winning the affection of the common people to maintain power.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b04b6f2b3a7e4b93880110b716f0fbb5",
+      "text": "A ruler who takes the people under his protection will find it easy to win their loyalty.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3a23b304d77c4619b1e0f0ee1bd3d51a",
+      "text": "A ruler who becomes king against the will of the majority and with the support of the wealthy nobles must make it a priority to win over the affection of the common people.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5b81549ad530442c8fee7b8acb63a132",
+      "text": "{'name': 'A ruler who builds on the people is building on mud', 'description': 'A ruler who relies on the people for support is vulnerable to their whims.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "69b8c4254ebb42ea840accd191ed531a",
+      "text": "{'name': 'A well-fortified city is a strong city', 'description': 'A city with strong defenses is more likely to withstand an attack.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "94b975b337a24657bd2161c41021891e",
+      "text": "{'name': 'A leader with power and personality can overcome challenges', 'description': 'A leader with strong leadership skills and a strong personality can overcome obstacles.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ce6c36add89b4372824cd9433a219fe0",
+      "text": "Church states are upheld by ancient religious institutions that keep their rulers in power no matter what they do or how they live.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "88a86be91bb5411797e16519663d7d8f",
+      "text": "Church leaders possess states without defending them and subjects without governing them.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "59004bc23df94cc494d22a466942924b",
+      "text": "Church states are the only form of government that is secure and relaxed.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eabdf4ee71ec4a57ba5f16608f945f02",
+      "text": "The Church's power has increased dramatically in recent times.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "db1bcda7d6a64d8cab08352e86a5ef64",
+      "text": "The Italian states do not rate the pope's temporal power highly.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eb39e222eb3d4dd2aa581fc7b14ba206",
+      "text": "The Church's power is greater than the combined power of the other Italian states.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2f68d9e25a934e1b8e420659f25189ed",
+      "text": "Mercenaries are ambitious, undisciplined, disloyal, and they quarrel among themselves.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1b769755a1c641c6ac3e246cafd3691d",
+      "text": "Mercenaries have no fear of God and keep no promises.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f62713a255bf4438b9a2e256a8ec77cb",
+      "text": "Mercenaries are only interested in their meager salary and will run for it when war comes.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0eb6d8d09c7b443f8996becdd33f38f4",
+      "text": "Mercenaries bring nothing but trouble and are not a good idea.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "91e9d15caad54db3b3287e7457d2c009",
+      "text": "A ruler or republic with their own armies is more likely to make progress and less likely to fall victim to a coup.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e96ddb1e4c7b453f9e8460410b68dc16",
+      "text": "{'name': 'Mercenaries are Unreliable', 'description': 'Mercenaries are prone to turning against their employers and may not achieve desired outcomes.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f234a8fd0a9f48f3a8c10c450759577f",
+      "text": "{'name': 'Local Forces are More Effective', 'description': 'Local forces are more effective and reliable than mercenaries in achieving desired outcomes.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fc3c27b876104631bae7cf4bccc3ee61",
+      "text": "{'name': 'Mercenaries are Counterproductive', 'description': 'Mercenaries are almost always counterproductive for those who invite them in, as they can lead to ruin and slavery.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f8c5b7ef5e8b41be8b33db3cb3886c3d",
+      "text": "{'name': 'Auxiliaries are Determined', 'description': 'Auxiliaries are a tightly knit force and every one of them obedient to someone else, making them more determined and dangerous.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "530a14cb3c3c43a9b18d57a97bd818e2",
+      "text": "{'name': 'A Strong Standing Army is Essential', 'description': 'A strong standing army, comprising both cavalry and infantry, is essential for a ruler to achieve a real victory.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b93361cf78f2403b9ce01b50672ddb59",
+      "text": "{'name': 'The Importance of a Standing Army', 'description': 'A state with a standing army is unbeatable, as it can defend itself determinedly and loyally in a crisis.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e65ebdd457a24cf0a88f1bfef525b6bc",
+      "text": "{'name': 'The Dangers of Mercenaries', 'description': 'Mercenaries are unreliable and can lead to ruin, as they are driven by their own interests rather than loyalty to the state.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9324ba33c3e848c1a3a7a5c6a67f9ac4",
+      "text": "{'name': 'The Value of Expertise in War', 'description': 'A ruler who is an expert in war is more likely to maintain power and avoid downfall, as they can make informed decisions and adapt to changing circumstances.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "540b27f4bdb34544a4481d14f5fd6858",
+      "text": "{'name': 'Claim 1: A State Without an Army is Weak and Unstable', 'description': 'A state without its own army is not secure and its ruler is not a true leader.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c4c56bb4d028449bb4e49cc53afda09b",
+      "text": "{'name': 'Claim 2: A Ruler Must Be a Military Leader', 'description': 'A ruler must be a military leader and must involve himself in military matters.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1f3d2a0c16cd40e08a3d1fad5c26a312",
+      "text": "{'name': 'Claim 3: Experience and Knowledge are Essential for a Ruler', 'description': 'A ruler must exercise his mind by reading history, studying the strategies and achievements of great leaders, and learning from their successes and failures.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5bf64baa24974c2f84d6d34c7849f2d3",
+      "text": "The stop in Oran is a significant event in international relations",
+      "source": {
+        "book": "The Myth of Sisyphus - Albert Camus",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "50d4dcfea4ba4b0caf2472c4c7aa4431",
+      "text": "The stop highlights the importance of diplomacy in resolving conflicts",
+      "source": {
+        "book": "The Myth of Sisyphus - Albert Camus",
+        "chapter": 41
+      },
+      "weight": 1.0
+    }
+  ],
   "meta": {
-    "total_entries": 0,
-    "last_updated": null,
-    "aggregated_from": []
+    "total_entries": 116
   }
 }

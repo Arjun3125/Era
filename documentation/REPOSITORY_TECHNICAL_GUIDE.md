@@ -2,25 +2,24 @@
 
 ## 1. Project Overview
 
-ERA is a local, CLI-first decision governance system. Its current refactored runtime takes a user prompt, analyzes the problem domain, routes the request into a reasoning mode, optionally runs a minister-style council, normalizes the council output, produces a final decision, validates inter-stage contracts, and emits telemetry.
+ERA is a **self-improving AI decision advisor** built in Python 3.14/FastAPI. Given a user prompt, ERA normalizes the request, analyzes the problem domain, selects a reasoning mode, synthesizes knowledge from a local minister corpus, runs a minister-style council (5–18 specialists deliberating in their own voice via doctrine YAML personas + a local LLM), produces a final decision, and validates inter-stage contracts. Every turn is remembered (episodic memory), outcomes feed back into minister confidence weights (Bayesian), and the system gets sharper with use.
 
-The active repository is no longer the large multi-subsystem platform described by many older documents in this repo. After the refactor and dead-code sweep, the authoritative runtime is the refactored orchestration path centered on:
+Two entry points:
 
-- `run_refactored.py`
-- `system_main.py`
-- `core/`
-- `modules/`
-- `config/`
+- **`api.py`** — FastAPI HTTP server (primary interface, port 8765)
+- **`persona/main.py`** — CLI interactive loop with synthetic-human simulation
+
+Both reach the same underlying engine. The codebase also includes `run_refactored.py` / `system_main.py` as CLI wrappers around the decision pipeline.
 
 Target users:
 
 - Developers extending a staged orchestration pipeline
 - Researchers experimenting with decision-routing and council-style reasoning
-- Operators running a local advisory engine from the command line
+- Operators running a local advisory engine via HTTP API or CLI
 
 Primary problem solved:
 
-- Turn a free-form decision prompt into a structured, inspectable, multi-stage decision result with typed contracts, deterministic fallbacks, and optional observability
+- Turn a free-form decision prompt into a structured, inspectable, multi-stage decision result with typed contracts, deterministic fallbacks, learning feedback loops, and optional observability
 
 Domain:
 
@@ -28,16 +27,19 @@ Domain:
 - Orchestration architecture
 - Local AI tooling
 - Governance-style reasoning systems
+- Self-improving advisor systems
 
 ## 2. Repository Structure
 
 ### Root
 
-- [`run_refactored.py`](c:\era\run_refactored.py): primary CLI entrypoint for the refactored pipeline
-- [`system_main.py`](c:\era\system_main.py): compatibility shim that delegates to `run_refactored.py`
-- [`README.md`](c:\era\README.md): high-level project readme, but parts of it are stale and still reference removed legacy subsystems
-- [`requirements.txt`](c:\era\requirements.txt): broad dependency list, larger than the active refactored runtime actually needs
-- [`.env.example`](c:\era\.env.example): sample environment configuration
+- [`api.py`](api.py): **primary entry point** — FastAPI HTTP server (port 8765) with `/chat`, `/feedback`, `/profile`, `/mode`, `/export/obsidian`
+- [`run_refactored.py`](run_refactored.py): CLI entrypoint for the decision pipeline
+- [`system_main.py`](system_main.py): compatibility shim that delegates to `run_refactored.py`
+- [`persona/main.py`](persona/main.py): CLI interactive loop with synthetic-human simulation
+- [`README.md`](README.md): high-level project readme
+- [`requirements.txt`](requirements.txt): dependency list
+- [`.env.example`](.env.example): sample environment configuration
 
 ### `config/`
 
@@ -209,19 +211,20 @@ Purpose:
 
 ### `data/`
 
-Contains local artifacts and reference data. Important current observations:
+Contains local artifacts and reference data:
 
-- [`data/principles.json`](c:\era\data\principles.json) is a fallback source for knowledge synthesis if `knowledge/principles.json` is absent
-- `data/conversations/`, `data/sessions/`, `data/memory/`, `data/ministers/`, `data/doctrine/locked/` contain historical or reference artifacts
-
-Purpose:
-
-- Store persisted local data and retained knowledge assets
+- `data/doctrine/locked/` — 18 minister YAML personas (speak/silent triggers, persona canon)
+- `data/ministers/{domain}/` — `principles.json`, `rules.json`, `warnings.json`, `claims.json` per domain (the active knowledge source for KIS)
+- `data/memory/episodes.jsonl` — all decision episodes (append-only JSONL)
+- `data/memory/minister_confidence.json` — Bayesian per-minister×domain weights
+- `data/user_profiles/` — persistent cross-session user identity
+- `data/conversations/`, `data/sessions/`, `data/learning_insights/` — historical artifacts
 
 Current runtime dependency:
 
-- The active pipeline does not depend on most of these files
-- The most relevant active file-backed knowledge source is `knowledge/principles.json`, with `data/principles.json` as fallback
+- `data/ministers/` is the primary knowledge source — `persona/knowledge_engine.py` reads it directly
+- `data/doctrine/locked/` is read by `persona/council/minister_voice.py` and `modules/council_execution/engine.py` for minister personas
+- `data/memory/` and `data/user_profiles/` are written by the API layer
 
 ### `knowledge/`
 
@@ -309,12 +312,13 @@ Current reality:
 
 ### Data and infrastructure
 
-Current refactored runtime:
+Current runtime:
 
-- does not require a database
-- does not expose an active HTTP API
-- does not require a vector database
-- does not require Ollama unless you inject an LLM adapter programmatically
+- requires a local LLM via Ollama (for minister voice deliberation) — falls back to keyword scoring if unavailable
+- uses ChromaDB for semantic knowledge retrieval (graceful fallback to keyword scan)
+- uses SQLite (in-memory, per-thread) for council decision storage
+- no external database required
+- all state persisted to local JSON/JSONL files
 
 ## 4. System Architecture
 
@@ -793,35 +797,37 @@ The current CLI path works without an external LLM because domain analysis, know
 
 ### CLI usage
 
-Single run:
+HTTP API:
+
+```bash
+uvicorn api:app --reload --port 8765
+
+# Chat
+curl -X POST http://localhost:8765/chat \
+  -H "Content-Type: application/json" \
+  -d '{"message": "Should we delay the release?"}'
+
+# Feedback (closes learning loop)
+curl -X POST http://localhost:8765/feedback \
+  -H "Content-Type: application/json" \
+  -d '{"session_id":"...", "turn":3, "helpful":true, "entries_used":[...]}'
+
+# User profile
+curl http://localhost:8765/profile/user42
+```
+
+CLI interactive:
+
+```bash
+python -m persona.main
+```
+
+CLI pipeline single run:
 
 ```bash
 python run_refactored.py --input "Should we delay the release for compliance review?"
-```
-
-Force a mode:
-
-```bash
 python run_refactored.py --input "We need a fast answer" --mode quick
 python run_refactored.py --input "We need a high-stakes final ruling" --mode darbar
-```
-
-Strict orchestrator mode:
-
-```bash
-python run_refactored.py --input "Evaluate this decision" --strict
-```
-
-Interactive mode:
-
-```bash
-python run_refactored.py
-```
-
-Compatibility entrypoint:
-
-```bash
-python system_main.py --input "Need a decision on vendor risk"
 ```
 
 ### Programmatic usage
@@ -841,9 +847,13 @@ print(result.final_decision)
 
 ### Public interaction surface
 
-Current public surface is CLI and Python API only.
+| Interface | File | Port/Method |
+|-----------|------|-------------|
+| **HTTP API** | `api.py` | `uvicorn api:app --port 8765` |
+| **CLI interactive** | `persona/main.py` | `python -m persona.main` |
+| **CLI pipeline** | `run_refactored.py` | `python run_refactored.py --input "..."` |
 
-There is no active HTTP API or web UI entrypoint in the current refactored runtime.
+API endpoints: `/chat`, `/feedback`, `/profile/{user_id}`, `/mode`, `/session/{id}`, `/sessions`, `/health`, `/export/obsidian`
 
 ### Observability usage
 
@@ -868,40 +878,49 @@ ERA_OBS_STDERR=true
 
 ### Current test organization
 
-The most relevant current tests are the refactor-era tests in `tests/`:
+86 test files, 461 tests collected. Key test files:
 
-- `test_config_*`
-- `test_contracts_*`
-- `test_input_normalization*`
-- `test_domain_analysis*`
-- `test_mode_routing*`
-- `test_knowledge_synthesis*`
-- `test_council_execution*`
-- `test_council_normalization*`
-- `test_prime_decision*`
-- `test_decision_packaging*`
-- `test_decision_pipeline_*`
-- `test_observability_*`
-- `test_no_legacy_pipeline_imports.py`
+- `test_era_fixes.py` — 10 tests for BASE_PATH, PDF extraction, Chroma, thread-safety, doctrine YAML
+- `test_era_upgrades.py` — 24 tests for feedback loop, user profiles, minister voice, auto-retrain, single-call classify, domain gaps, domain routing, Bayesian confidence, multi-round dialogue
+- `test_decision_pipeline_engine.py` — 10-stage pipeline composition
+- `test_council_execution.py` — NativeCouncil, keyword + LLM deliberation
+- `test_knowledge_synthesis.py` — KIS scoring, principle selection
+- `test_domain_analysis.py` — domain inference, stakes, reversibility
+- `test_contracts_*.py` — typed I/O, context, events
+- `test_observability_*.py` — logging, metrics, tracing
+- `test_uncertainty_calibration.py` — temperature, isotonic, risk model
 
 ### Recommended commands
 
-Smoke test:
+Smoke test (HTTP API):
+
+```bash
+uvicorn api:app --reload --port 8765
+curl http://localhost:8765/health
+```
+
+Smoke test (CLI):
 
 ```bash
 python run_refactored.py --input "Need a release decision"
 ```
 
-Focused refactored runtime tests:
+ERA fix + upgrade tests:
 
 ```bash
-pytest tests/test_decision_pipeline_engine.py tests/test_no_legacy_pipeline_imports.py -q
+pytest tests/test_era_fixes.py tests/test_era_upgrades.py -v
 ```
 
-Broader refactored test slice:
+Pipeline stage tests:
 
 ```bash
-pytest tests/test_config_package.py tests/test_config_settings.py tests/test_contracts_*.py tests/test_domain_analysis.py tests/test_knowledge_synthesis.py tests/test_council_execution.py tests/test_council_normalization.py tests/test_prime_decision.py tests/test_decision_packaging.py tests/test_decision_pipeline_engine.py -q
+pytest tests/test_decision_pipeline_engine.py tests/test_council_execution.py tests/test_knowledge_synthesis.py tests/test_domain_analysis.py -v
+```
+
+Full test suite:
+
+```bash
+pytest tests/ -v
 ```
 
 ### Coverage observations
@@ -915,11 +934,12 @@ The active runtime is well covered at the unit and contract level. However:
 
 ### Stale documentation
 
-This is the largest repository risk right now.
+Several older documents in `documentation/` and `documentation/legacy_notes/` still describe pre-refactor subsystems. The following are the current source-of-truth documents:
 
-- [`README.md`](c:\era\README.md) still references removed files and subsystems
-- several documents in `documentation/` describe the pre-refactor codebase
-- [`tests/README.md`](c:\era\tests\README.md) is also stale
+- `PROJECT_OVERVIEW.md` — architecture, memory systems, API endpoints
+- `documentation/REPOSITORY_TECHNICAL_GUIDE.md` (this file) — repo structure, modules, contribution guide
+- `README.md` — quick start, entry points
+- `ERA_FIX_PLAN.md` / `ERA_UPGRADE_PLAN.md` — completed fix and upgrade task tracking
 
 ### Declared dependencies exceed active runtime needs
 
@@ -954,13 +974,15 @@ Risk:
 
 - the repo still looks larger and more feature-complete than the current execution path actually is
 
-### CLI-only current experience
+### Runtime surface
 
-The current system is usable, but the runtime surface is narrow:
+The system has three interfaces:
 
-- no active API
-- no active UI
-- no authenticated service layer
+- **HTTP API** (`api.py`) — FastAPI with full REST endpoints, session management, feedback loop, user profiles, Obsidian export
+- **CLI interactive** (`persona/main.py`) — REPL with synthetic-human simulation
+- **CLI pipeline** (`run_refactored.py`) — single-shot decision pipeline
+
+No authenticated service layer or web UI exists yet.
 
 ## 12. Contribution Guide
 

@@ -193,6 +193,12 @@ class CouncilNormalizationEngine:
             "source_recommendation": recommendation_raw,
         }
 
+        # Carry through LLM deliberation fields that aren't normalized
+        for field_name in ("advisory_dialogue", "peer_challenges", "rounds", "user_questions", "minority_alert"):
+            raw_value = raw.get(field_name)
+            if raw_value is not None:
+                normalized_council[field_name] = raw_value
+
         deduped_warnings = self._dedupe_warnings(warnings)
         contract = CouncilNormalizationContract(
             mode=mode_value,

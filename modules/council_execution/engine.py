@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from collections.abc import Iterable
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from datetime import date, datetime
 import math
@@ -11,7 +12,6 @@ from typing import Any, Callable, Dict, List, Mapping, Optional
 
 from modules.council_router.mode_orchestrator import ExecutionConfig, ModeOrchestrator
 from modules.expert_router.aggregator import aggregate_weighted_positions
-from modules.expert_router.aggregator import aggregate_weighted_positions
 
 
 _MEETING_MINISTERS = ["risk", "grand_strategist", "optionality", "psychology", "timing"]
@@ -19,7 +19,7 @@ _DARBAR_MINISTERS = [
     "risk", "grand_strategist", "power", "optionality", "psychology",
     "timing", "legitimacy", "truth", "data", "conflict",
     "diplomacy", "technology", "intelligence", "narrative",
-    "discipline", "adaptation", "sovereign", "war_mode",
+    "discipline", "adaptation", "sovereign", "war_mode", "resources",
 ]
 
 CouncilFactory = Callable[[Any], Any]
@@ -249,8 +249,22 @@ class NativeCouncil:
         """
         mode = str(context.get("mode", "meeting")).lower()
 
-        if self.llm is not None and mode in {"meeting", "darbar"}:
-            minister_names = _DARBAR_MINISTERS if mode == "darbar" else _MEETING_MINISTERS
+        if self.llm is not None:
+            if mode in {"darbar", "full_council", "board"}:
+                minister_names = _DARBAR_MINISTERS
+            elif mode in {"war", "war_mode"}:
+                minister_names = ["war_mode", "risk", "grand_strategist", "power", "timing"]
+            elif mode in {"quick", "quick_mode", "fast"}:
+                minister_names = ["risk", "grand_strategist", "adaptation"]
+            else:
+                try:
+                    from modules.council_router.mode_orchestrator import ModeOrchestrator
+                    r_context = dict(context)
+                    r_context["user_input"] = user_input
+                    selected = ModeOrchestrator().get_ministers_for_mode("meeting", r_context)
+                    minister_names = selected[:4] if selected else _MEETING_MINISTERS[:4]
+                except Exception:
+                    minister_names = _MEETING_MINISTERS[:4]
             return self._llm_deliberate(user_input, context, minister_names)
         else:
             return self._keyword_deliberate(user_input, context)
@@ -261,79 +275,213 @@ class NativeCouncil:
             _mv_mod = __import__("persona.council.minister_voice", fromlist=["MinisterVoice"])
             MinisterVoice = _mv_mod.MinisterVoice
         except ImportError:
-            return self._keyword_deliberate(user_input, context)
+            res = self._keyword_deliberate(user_input, context)
+            res["fallback_triggered"] = True
+            res.setdefault("fallback_reasons", []).append("MinisterVoice module import failed; fell back to keyword scoring.")
+            return res
+
+        def _deliberate_one(name: str, ctx: dict, entries: list) -> tuple:
+            """Deliberate a single minister. Returns (name, result_dict)."""
+            voice = MinisterVoice(minister_name=name, llm=self.llm)
+            result = voice.deliberate(user_input, ctx, knowledge_entries=entries, scenario_context=scenario_context)
+            result["kis_entries"] = entries
+            return name, result
 
         mode = str(context.get("mode", "meeting")).lower()
         active_domains = context.get("domains", [])
-        knowledge_entries: list = []
+
+        # Extract scenario memory context for ministers
+        extra_ctx = context.get("extra_context") or []
+        if isinstance(extra_ctx, list):
+            scenario_lines = [str(x) for x in extra_ctx if x]
+        elif isinstance(extra_ctx, str):
+            scenario_lines = [extra_ctx] if extra_ctx.strip() else []
+        else:
+            scenario_lines = []
+        scenario_context = "\n".join(scenario_lines) if scenario_lines else ""
+        
+        def _get_minister_domain(m_name: str) -> str:
+            mapping = {
+                "grand_strategist": "strategy",
+                "war_mode": "conflict",
+                "intelligence": "data",
+                "sovereign": "legitimacy",
+                "narrative": "truth",
+            }
+            return mapping.get(m_name, m_name)
+
+        minister_kis_map = {}
+        all_cited_kis = []
+        seen_global = set()
         try:
             _ke_mod = __import__("persona.knowledge_engine", fromlist=["synthesize_knowledge"])
             synthesize_knowledge = _ke_mod.synthesize_knowledge
-            if active_domains:
-                kis = synthesize_knowledge(
+            for name in minister_names:
+                m_dom = _get_minister_domain(name)
+                m_kis = synthesize_knowledge(
                     user_input=user_input,
-                    active_domains=active_domains,
-                    domain_confidence=0.7,
+                    active_domains=[m_dom],
+                    domain_confidence=0.8,
+                    max_items=15,  # ~3 of each category (rules, claims, warnings, principles, advice)
                 )
-                knowledge_entries = kis.get("synthesized_knowledge", [])[:6]
+                m_entries = m_kis.get("synthesized_knowledge", [])[:15]
+                minister_kis_map[name] = m_entries
+                for e in m_entries:
+                    c_clean = str(e.get("content", "")).strip().lower()
+                    if c_clean and c_clean not in seen_global:
+                        seen_global.add(c_clean)
+                        all_cited_kis.append(e)
         except Exception:
             pass
 
-        # Round 1: all ministers deliberate
+        # Round 1: all ministers deliberate (parallel)
         stances = {}
-        for name in minister_names:
-            voice = MinisterVoice(minister_name=name, llm=self.llm)
-            result = voice.deliberate(user_input, context, knowledge_entries=knowledge_entries)
-            stances[name] = result
+        with ThreadPoolExecutor(max_workers=min(len(minister_names), 4)) as pool:
+            futures = {
+                pool.submit(_deliberate_one, name, context, minister_kis_map.get(name, [])): name
+                for name in minister_names
+            }
+            for future in as_completed(futures):
+                try:
+                    name, result = future.result(timeout=180)
+                    stances[name] = result
+                except Exception as exc:
+                    name = futures[future]
+                    stances[name] = {
+                        "stance": "neutral",
+                        "reasoning": f"[{name} timed out: {exc}]",
+                        "advice": f"[{name} unavailable]",
+                        "questions": [],
+                        "confidence": 0.2,
+                        "warning": "",
+                        "knowledge_cited": "",
+                        "kis_entries": minister_kis_map.get(name, []),
+                        "fallback_triggered": True,
+                    }
 
         rounds = [{"round": 1, "stances": {n: r["stance"] for n, r in stances.items()}}]
         peer_challenges: Dict[str, str] = {}
 
-        # Round 2 (darbar only): directed peer challenge — each minister sees named opposers
+        # Round 2 (darbar only): directed peer challenge — each minister sees peer arguments
         if mode == "darbar":
-            stances_r2 = {}
+            # Build per-minister R2 contexts first (needs Round 1 stances)
+            r2_contexts = {}
             for name in minister_names:
-                voice = MinisterVoice(minister_name=name, llm=self.llm)
                 my_r1 = stances[name]
                 my_stance = my_r1["stance"]
                 my_reason = my_r1["reasoning"]
 
-                # Find ministers who explicitly disagree with this one
-                challengers = [
+                peers_to_cite = [
                     (peer, r)
                     for peer, r in stances.items()
-                    if peer != name and r["stance"] != my_stance and r["stance"] != "neutral"
+                    if peer != name
                 ]
 
-                r2_context = dict(context)
-                if challengers:
+                r2_ctx = dict(context)
+                if peers_to_cite:
                     challenge_lines = []
-                    for peer_name, peer_r in challengers[:3]:
+                    for peer_name, peer_r in peers_to_cite:
+                        q_str = f" | Questions asked: {'; '.join(peer_r.get('questions', []))}" if peer_r.get("questions") else ""
                         challenge_lines.append(
                             f"  - {peer_name.replace('_', ' ').title()} ({peer_r['stance']}): "
-                            f"{peer_r['reasoning'][:150]}"
+                            f"{peer_r['reasoning'][:200]}{q_str}"
                         )
-                    r2_context["peer_challenge"] = (
-                        f"Your Round 1 position: {my_stance} — {my_reason[:150]}\n\n"
-                        f"Ministers who oppose you:\n" + "\n".join(challenge_lines) + "\n\n"
-                        f"Do you maintain your position or revise it? Challenge their reasoning "
-                        f"directly, citing doctrine or knowledge if you have one."
+                    r2_ctx["peer_challenge"] = (
+                        f"Your Round 1 position: {my_stance} — {my_reason[:200]}\n\n"
+                        f"Fellow ministers in this Darbar session:\n" + "\n".join(challenge_lines) + "\n\n"
+                        f"Converse and debate directly! Address your colleagues by name, critique their assumptions, and argue vigorously from your own domain's doctrine!\n"
+                        f"CRITICAL REQUIREMENT: Evolve your argument, formulate actionable advice, and answer peer questions!"
                     )
                 else:
-                    r2_context["peer_challenge"] = (
-                        f"Your Round 1 position: {my_stance}. No direct challengers — confirm or refine."
+                    r2_ctx["peer_challenge"] = (
+                        f"Your Round 1 position: {my_stance}. No peer stances available — confirm or refine."
                     )
+                r2_contexts[name] = (r2_ctx, my_stance)
 
-                r1_stance = my_stance
-                result = voice.deliberate(user_input, r2_context, knowledge_entries=knowledge_entries)
-                stances_r2[name] = result
-                if result["stance"] != r1_stance:
-                    peer_challenges[name] = (
-                        f"Changed from {r1_stance} to {result['stance']}: {result['reasoning'][:120]}"
-                    )
+            # Parallel Round 2
+            stances_r2 = {}
+            with ThreadPoolExecutor(max_workers=min(len(minister_names), 4)) as pool:
+                futures = {}
+                for name in minister_names:
+                    r2_ctx, _ = r2_contexts[name]
+                    futures[pool.submit(_deliberate_one, name, r2_ctx, minister_kis_map.get(name, []))] = name
+                for future in as_completed(futures):
+                    name = futures[future]
+                    try:
+                        _, result = future.result(timeout=180)
+                        stances_r2[name] = result
+                        r1_stance = r2_contexts[name][1]
+                        shift_note = f"[{r1_stance} -> {result['stance']}] " if result["stance"] != r1_stance else f"[{result['stance']}] "
+                        peer_challenges[name] = f"{shift_note}{result['reasoning']}"
+                    except Exception as exc:
+                        stances_r2[name] = {
+                            "stance": "neutral",
+                            "reasoning": f"[{name} timed out in Round 2: {exc}]",
+                            "advice": f"[{name} unavailable]",
+                            "questions": [],
+                            "confidence": 0.2,
+                            "warning": "",
+                            "knowledge_cited": "",
+                            "kis_entries": minister_kis_map.get(name, []),
+                            "fallback_triggered": True,
+                        }
 
             rounds.append({"round": 2, "stances": {n: r["stance"] for n, r in stances_r2.items()}})
             stances = stances_r2  # final stances from round 2
+
+        # Round 3 (darbar only, when dissent persists): Consensus & Reconciliation Round
+        if mode == "darbar" and len(rounds) == 2:
+            s_count = sum(1 for r in stances.values() if r["stance"] == "support")
+            o_count = sum(1 for r in stances.values() if r["stance"] == "oppose")
+            if s_count > 0 and o_count > 0:
+                # Build per-minister R3 contexts first
+                r3_contexts = {}
+                for name in minister_names:
+                    my_r2 = stances[name]
+                    peers_to_cite = [(peer, r) for peer, r in stances.items() if peer != name]
+                    challenge_lines = [
+                        f"  - {peer_name.replace('_', ' ').title()} ({peer_r['stance']}): {peer_r['reasoning'][:200]}" + (f" | Questions: {'; '.join(peer_r.get('questions', []))}" if peer_r.get("questions") else "")
+                        for peer_name, peer_r in peers_to_cite
+                    ]
+                    r3_ctx = dict(context)
+                    r3_ctx["peer_challenge"] = (
+                        f"Your Round 2 position: {my_r2['stance']} — {my_r2['reasoning'][:200]}\n\n"
+                        f"Current Council Dissent after Round 2:\n" + "\n".join(challenge_lines) + "\n\n"
+                        f"This is Round 3 (Consensus Reconciliation). Re-evaluate your position. Find synthesis, identify redlines, or defend your doctrine!\n"
+                        f"CRITICAL REQUIREMENT: Evolve your advice to contribute to a unified execution plan. Answer peer questions!"
+                    )
+                    r3_contexts[name] = (r3_ctx, my_r2["stance"])
+
+                # Parallel Round 3
+                stances_r3 = {}
+                with ThreadPoolExecutor(max_workers=min(len(minister_names), 4)) as pool:
+                    futures = {}
+                    for name in minister_names:
+                        r3_ctx, _ = r3_contexts[name]
+                        futures[pool.submit(_deliberate_one, name, r3_ctx, minister_kis_map.get(name, []))] = name
+                    for future in as_completed(futures):
+                        name = futures[future]
+                        try:
+                            _, result = future.result(timeout=180)
+                            stances_r3[name] = result
+                            my_r2_stance = r3_contexts[name][1]
+                            shift_note = f"[{my_r2_stance} -> {result['stance']}] " if result["stance"] != my_r2_stance else f"[{result['stance']}] "
+                            peer_challenges[name] = f"Round 3: {shift_note}{result['reasoning']}"
+                        except Exception as exc:
+                            stances_r3[name] = {
+                                "stance": "neutral",
+                                "reasoning": f"[{name} timed out in Round 3: {exc}]",
+                                "advice": f"[{name} unavailable]",
+                                "questions": [],
+                                "confidence": 0.2,
+                                "warning": "",
+                                "knowledge_cited": "",
+                                "kis_entries": minister_kis_map.get(name, []),
+                                "fallback_triggered": True,
+                            }
+                    
+                rounds.append({"round": 3, "stances": {n: r["stance"] for n, r in stances_r3.items()}})
+                stances = stances_r3
 
         # Weighted vote tally — minister weight from Bayesian confidence tracker
         domain = context.get("domains", ["general"])[0] if context.get("domains") else "general"
@@ -384,6 +532,85 @@ class NativeCouncil:
                     minority_alert += f" | Warning: {result['warning']}"
                 break
 
+        # Generate Dynamic Conversational Council Dialogue & KIS Advisory Synthesis
+        dialogue_lines = [
+            "=== ROYAL CABINET DEBATE (DARBAR DIALOGUE) ===\n"
+        ]
+        if all_cited_kis:
+            kis_rules = [f"* [{e.get('_domain', 'general').upper()}] {e.get('content', '').strip()}" for e in all_cited_kis[:5]]
+            dialogue_lines.append("[COUNCIL KIS DOCTRINE SYNTHESIS]:\n" + "\n".join(kis_rules) + "\n")
+        
+        dialogue_lines.append("[MINISTERIAL DELIBERATION & DOMAIN KIS]:")
+        for n, r in stances.items():
+            d_name = n.replace("_", " ").title()
+            stance_tag = r["stance"].upper()
+            reason = r["reasoning"].strip()
+            r2_rebuttal = f"\n   -> Evolved Argument & Peer Rebuttal: \"{peer_challenges[n].strip()}\"" if n in peer_challenges else ""
+            
+            m_kis = r.get("kis_entries", [])
+            kis_str = ""
+            if m_kis:
+                grouped_kis = {}
+                for e in m_kis[:10]:
+                    c = str(e.get('content', '')).strip()
+                    if not c:
+                        continue
+                    cat = str(e.get('type', 'principle')).upper()
+                    if not cat.endswith("S") and cat != "ADVICE":
+                        cat += "S"
+                    if cat not in grouped_kis:
+                        grouped_kis[cat] = []
+                    grouped_kis[cat].append(f"        * {c}")
+                kis_lines = []
+                for cat, items in grouped_kis.items():
+                    kis_lines.append(f"      [{cat}]:")
+                    kis_lines.extend(items)
+                if kis_lines:
+                    kis_str = "\n   [Domain KIS Doctrine Input to LLM Brain]:\n" + "\n".join(kis_lines)
+            
+            dialogue_lines.append(f"* {d_name} Minister [{stance_tag}]:{kis_str}\n   \"{reason}\"{r2_rebuttal}")
+        
+        dialogue_lines.append(f"\n[SOVEREIGN FINAL VERDICT]: {outcome.upper()}")
+        if dissent_summary:
+            dialogue_lines.append(f"[TRADE-OFF ANALYSIS]: {dissent_summary}")
+        
+        dialogue_lines.append("\n=== UNIFIED SOVEREIGN STRATEGIC ADVICE PLAN ===")
+        dialogue_lines.append("An integrated execution plan formed by each minister contributing an actionable domain directive (evolved through peer debate while preserving core doctrine):")
+        for n, r in stances.items():
+            d_name = n.replace("_", " ").title()
+            adv = r.get("advice") or r.get("reasoning", "")
+            dialogue_lines.append(f"  * [{d_name} Directive]: {adv.strip()}")
+
+        all_user_questions = []
+        peers_to_check = [p for p in self.ministers.keys() if p != "sovereign"]
+        for n, r in stances.items():
+            d_name = n.replace("_", " ").title()
+            qs = r.get("questions", [])
+            for q in qs:
+                if not (q and isinstance(q, str) and str(q).strip()):
+                    continue
+                q_clean = str(q).strip()
+                # Filter out internal peer-to-peer cabinet questions so User/Sovereign only sees user-directed inquiries
+                lower_q = q_clean.lower()
+                is_peer_question = any(
+                    lower_q.startswith(f"to {peer.replace('_', ' ')}") or f"to the {peer.replace('_', ' ')}" in lower_q or f"{peer.replace('_', ' ')} minister:" in lower_q
+                    for peer in peers_to_check
+                )
+                if not is_peer_question:
+                    all_user_questions.append(f"  * [{d_name} Minister asks Sovereign]: {q_clean}")
+
+        if all_user_questions:
+            dialogue_lines.append("\n=== MINISTERIAL INQUIRIES & CLARIFICATIONS FOR THE SOVEREIGN ===")
+            dialogue_lines.append("To ensure precision and eliminate ambiguity, your cabinet respectfully requests clarification on the following domain points:")
+            dialogue_lines.extend(all_user_questions[:8])
+
+        advisory_dialogue = "\n".join(dialogue_lines)
+
+        fallback_reasons = []
+        for m_name, s_res in stances.items():
+            if isinstance(s_res, dict) and s_res.get("fallback_triggered"):
+                fallback_reasons.extend(s_res.get("fallback_reasons", []))
+
         return {
             "outcome": outcome,
             "recommendation": outcome,
@@ -395,6 +622,10 @@ class NativeCouncil:
             "minority_alert": minority_alert,
             "rounds": rounds,
             "peer_challenges": peer_challenges,
+            "advisory_dialogue": advisory_dialogue,
+            "user_questions": all_user_questions,
+            "fallback_triggered": bool(fallback_reasons),
+            "fallback_reasons": sorted(list(set(fallback_reasons))),
         }
 
     def _keyword_deliberate(self, user_input: str, context: dict) -> dict:
@@ -411,6 +642,8 @@ class NativeCouncil:
 
         total = max(1, support + oppose + neutral)
         outcome = "proceed" if support > oppose else ("reconsider" if oppose > support else "defer")
+        is_fallback = (self.llm is None) or context.get("force_fallback", False)
+        reasons = ["LLM service offline or unavailable; council defaulted to heuristic keyword scoring."] if is_fallback else []
         return {
             "outcome": outcome,
             "recommendation": outcome,
@@ -418,6 +651,8 @@ class NativeCouncil:
             "consensus_strength": round(max(support, oppose) / total, 3),
             "red_line_concerns": [],
             "ministers_involved": list(self.ministers.keys()),
+            "fallback_triggered": is_fallback,
+            "fallback_reasons": reasons,
         }
 
     @staticmethod
@@ -609,7 +844,28 @@ class CouncilExecutionEngine:
                 warnings=warnings,
             )
 
+        # ── LLM-backed deliberation path ──────────────────────────────────
+        # When an LLM is available, delegate to NativeCouncil.deliberate()
+        # which runs parallel minister deliberation with KIS context, peer
+        # challenge rounds, and generates the advisory_dialogue.
         council = self.base_council
+        if self.llm is not None and hasattr(council, "deliberate"):
+            deliberation_ctx = dict(context_map)
+            deliberation_ctx["mode"] = resolved_mode
+            try:
+                delib_result = council.deliberate(user_input, deliberation_ctx)
+                return self._map_deliberation_result(
+                    delib_result,
+                    resolved_mode=resolved_mode,
+                    warnings=warnings,
+                )
+            except Exception as exc:
+                warnings.append(
+                    f"LLM deliberation failed ({type(exc).__name__}: {exc}); "
+                    "falling back to keyword scoring."
+                )
+
+        # ── Keyword-based fallback path ───────────────────────────────────
         ministers_raw = getattr(council, "ministers", {})
         if not isinstance(ministers_raw, Mapping):
             warnings.append("Council ministers registry was invalid; normalized to empty mapping.")
@@ -1195,6 +1451,81 @@ class CouncilExecutionEngine:
             "neutral_count": 0,
             "warnings": deduped_warnings,
             "warning_count": len(deduped_warnings),
+        }
+
+    def _map_deliberation_result(
+        self,
+        delib_result: Dict[str, Any],
+        *,
+        resolved_mode: str,
+        warnings: List[str],
+    ) -> Dict[str, Any]:
+        """Map NativeCouncil.deliberate() output to the convene() result envelope."""
+        stances = delib_result.get("stances", {})
+        minister_positions: Dict[str, Dict[str, Any]] = {}
+        for name, raw in stances.items():
+            if isinstance(raw, dict):
+                minister_positions[name] = {
+                    "stance": raw.get("stance", "neutral"),
+                    "confidence": raw.get("confidence", 0.5),
+                    "reasoning": raw.get("reasoning", ""),
+                    "red_line_triggered": bool(raw.get("red_line_triggered", False)),
+                }
+
+        support_count = sum(1 for r in minister_positions.values() if r["stance"] == "support")
+        oppose_count = sum(1 for r in minister_positions.values() if r["stance"] == "oppose")
+        neutral_count = len(minister_positions) - support_count - oppose_count
+
+        red_lines = [
+            name for name, pos in minister_positions.items()
+            if pos.get("red_line_triggered")
+        ]
+
+        council_positions = [
+            {
+                "minister": name,
+                "stance": pos["stance"],
+                "confidence": pos["confidence"],
+                "reasoning": pos["reasoning"],
+                "red_line_triggered": pos["red_line_triggered"],
+            }
+            for name, pos in minister_positions.items()
+        ]
+
+        # Propagate any fallback warnings from deliberation
+        if delib_result.get("fallback_triggered"):
+            for reason in delib_result.get("fallback_reasons", []):
+                warnings.append(str(reason))
+
+        deduped_warnings = self._dedupe_warnings(warnings)
+
+        return {
+            "outcome": delib_result.get("outcome", "deadlocked"),
+            "recommendation": delib_result.get("recommendation", "defer"),
+            "mode": resolved_mode,
+            "ministers_involved": list(minister_positions.keys()),
+            "ministers_failed": delib_result.get("ministers_failed", []),
+            "minister_positions": minister_positions,
+            "minister_outputs": minister_positions,
+            "council_positions": council_positions,
+            "mode_metadata": {},
+            "weighted_aggregation": {},
+            "support_count": support_count,
+            "oppose_count": oppose_count,
+            "neutral_count": neutral_count,
+            "red_line_concerns": red_lines,
+            "consensus_strength": delib_result.get("consensus_strength", 0.0),
+            "total_ministers_consulted": len(minister_positions),
+            "reasoning": delib_result.get("dissent_summary", ""),
+            "requested_ministers": delib_result.get("ministers_involved", []),
+            "warnings": deduped_warnings,
+            "warning_count": len(deduped_warnings),
+            # Carry through LLM-specific fields for response extraction
+            "advisory_dialogue": delib_result.get("advisory_dialogue", ""),
+            "peer_challenges": delib_result.get("peer_challenges", {}),
+            "rounds": delib_result.get("rounds", []),
+            "user_questions": delib_result.get("user_questions", []),
+            "minority_alert": delib_result.get("minority_alert", ""),
         }
 
 

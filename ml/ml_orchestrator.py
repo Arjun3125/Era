@@ -128,7 +128,7 @@ class MLWisdomOrchestrator:
                     avg_kis_claim=_avg_kis_by_type(kis_result.knowledge_trace, "claim"),
                     avg_kis_advice=_avg_kis_by_type(kis_result.knowledge_trace, "advice"),
                     num_entries_used=len(kis_result.knowledge_trace),
-                    avg_entry_age_days=0.0,  # TODO: compute from entries
+                    avg_entry_age_days=_avg_entry_age_days(kis_result.knowledge_trace),
                     avg_penalty_count=0.0,
                 )
                 
@@ -396,3 +396,21 @@ def _avg_kis_by_type(knowledge_trace: List[Dict], ktype: str) -> float:
     if matching:
         return sum(matching) / len(matching)
     return 0.0
+
+
+def _avg_entry_age_days(knowledge_trace: List[Dict]) -> float:
+    """Compute average entry age in days from timestamps."""
+    ages = []
+    now = datetime.now()
+    for e in knowledge_trace:
+        ts = e.get("timestamp") or e.get("created_at")
+        if ts:
+            try:
+                if isinstance(ts, (int, float)):
+                    dt = datetime.fromtimestamp(ts)
+                else:
+                    dt = datetime.fromisoformat(str(ts).replace("Z", "+00:00"))
+                ages.append((now - dt.replace(tzinfo=None)).total_seconds() / 86400.0)
+            except Exception:
+                pass
+    return sum(ages) / len(ages) if ages else 0.0

@@ -45,7 +45,7 @@ def _parse_chunks_from_file(path: str):
         print(f"[PARSER] Error loading chunks: {e}")
     return chunks
 
-async def test_async_embed():
+async def test_async_embed(**_kwargs):
     """Test async pipeline with ThreadPoolExecutor."""
     print("=" * 70)
     print("ASYNC EMBEDDING TEST - Single Chunk")

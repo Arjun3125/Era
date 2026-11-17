@@ -96,10 +96,16 @@ def update_combined_vector_index(data_root: str) -> None:
     combined_path.write_text(json.dumps(combined, indent=2), encoding="utf-8")
 
 
-def convert_all_doctrines(doctrines: List[Dict[str, object]], book_slug: str, data_root: str) -> Dict[str, object]:
+def convert_all_doctrines(doctrines: List[Dict[str, object]], book_slug: str, data_root: str, progress_cb=None) -> Dict[str, object]:
     total_entries = 0
     domain_stats: Dict[str, Dict[str, int]] = {}
-    for chapter in doctrines:
+    total_chapters = len(doctrines)
+    for idx, chapter in enumerate(doctrines, start=1):
+        if progress_cb:
+            try:
+                progress_cb(phase="phase_3.5", message=f"Converting chapter {idx}/{total_chapters}", current=idx, total=total_chapters)
+            except Exception:
+                pass
         results = process_chapter_doctrine(chapter, book_slug, data_root)
         for domain, created in results.items():
             total_entries += created

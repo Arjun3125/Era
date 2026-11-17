@@ -414,6 +414,12 @@ class CouncilExecutionModule(ModulePlugin):
             "neutral_count": neutral_count,
             "warnings": warnings,
             "warning_count": len(warnings),
+            # Carry through LLM deliberation fields
+            "advisory_dialogue": str(cls._read_field(raw, "advisory_dialogue") or ""),
+            "peer_challenges": cls._read_field(raw, "peer_challenges") or {},
+            "rounds": cls._read_field(raw, "rounds") or [],
+            "user_questions": cls._read_field(raw, "user_questions") or [],
+            "minority_alert": str(cls._read_field(raw, "minority_alert") or ""),
         }
 
     @staticmethod

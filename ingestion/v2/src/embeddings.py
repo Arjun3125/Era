@@ -36,7 +36,7 @@ def doctrine_to_nodes(doc: Dict[str, Any], prefix: str = "") -> List[Dict[str, A
 
 
 def embed_nodes(nodes: List[Dict[str, Any]], client=None, progress_cb=None) -> List[Dict[str, Any]]:
-    """Return zero embeddings for nodes (stub)."""
+    """Generate real embeddings for nodes using client."""
     embeddings = []
     for idx, node in enumerate(nodes, start=1):
         if progress_cb:
@@ -44,10 +44,11 @@ def embed_nodes(nodes: List[Dict[str, Any]], client=None, progress_cb=None) -> L
                 progress_cb(stage="embedding", current=idx, total=len(nodes))
             except Exception:
                 pass
+        vec = client.embed(node.get("content", "")) if client else [0.0] * 1024
         embeddings.append(
             {
                 "id": node.get("id"),
-                "embedding": [0.0] * 8,
+                "embedding": vec,
                 "content": node.get("content", ""),
                 "field": node.get("field", ""),
             }

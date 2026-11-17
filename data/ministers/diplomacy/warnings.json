@@ -1,10 +1,936 @@
 {
-  "domain": "diplomacy",
+  "domain": "Diplomacy",
   "category": "warnings",
-  "entries": [],
+  "entries": [
+    {
+      "id": "0fccb1a9e8eb4bb8934ec67a04b4aa91",
+      "text": "A ruler who is seen as weak or vulnerable is at risk of losing power and respect.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d7b55dc5bed6425cb71060ae3e75f839",
+      "text": "A ruler who is unwilling to make difficult decisions and take calculated risks is unlikely to achieve their goals.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "77a40dfa293a41f984187539da202a1a",
+      "text": "A ruler who is not aware of the importance of maintaining a strong and loyal army is at risk of being overthrown.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cec6e8d9565d496d9377c2709f61091e",
+      "text": "A ruler who is not cautious of the influence of others is at risk of being manipulated or controlled.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "faf8c183c69844a79288ea51f590d2eb",
+      "text": "A ruler who is not aware of the importance of maintaining a positive image and reputation is at risk of losing power and respect.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7ba90b8dc58241ef811100d1ce03cc19",
+      "text": "{'name': 'The Dangers of Realpolitik', 'description': 'Prioritizing practical considerations over moral principles can lead to a lack of accountability and a disregard for the well-being of others.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7cc471a039b84c01a7d8b28c07bd0fe8",
+      "text": "{'name': 'The Risks of Unchecked Power', 'description': 'Allowing any one state to dominate others can lead to a loss of balance and stability in international relations.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "298bd92a081c446d9edd91baaf56631c",
+      "text": "{'name': 'The dangers of prevarication', 'description': 'Avoiding difficult decisions and taking a passive approach can lead to instability and weakness.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "703b7650f3844062a3d99e9c0c5998c8",
+      "text": "{'name': 'The risks of relying on others', 'description': 'Dependence on external forces or individuals can lead to loss of control and influence.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2c3473d6cd7e4648b613aed80f20ff45",
+      "text": "{'name': 'The importance of adaptability', 'description': 'Leaders should be prepared to adjust their strategies and approaches in response to changing circumstances.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0c280b03cbc3437dbee645d6dd8f0d29",
+      "text": "{'name': 'The pursuit of power can lead to corruption and abuse', 'description': 'The desire for power can lead leaders to act outside of moral codes and engage in corrupt and abusive behavior.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f6a5fe49d9c74b9aa58050dbd57bd63b",
+      "text": "{'name': 'Leaders must be mindful of their own motivations and biases', 'description': 'Leaders must be aware of their own motivations and biases, and take steps to mitigate their impact on decision-making.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "53f8613a8d254e498b0ba5312015908d",
+      "text": "{'name': 'The consequences of actions can be severe', 'description': \"The consequences of a leader's actions can be severe, and they must be willing to accept responsibility for their decisions.\"}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7c2559ec78d34c02b5ac876eb2c3e7bc",
+      "text": "The pursuit of power and politics can be a double-edged sword",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "11c0f378e9504d80a71b50c94d03e3d6",
+      "text": "The line between honesty and self-deception can be thin",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b2ffe9102df94693adc708f12c6ce707",
+      "text": "The importance of self-awareness and self-regulation cannot be overstated",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "75c0ce74f5e146f68a000b37bdb928e4",
+      "text": "{'name': 'Beware of the unscrupulous leader', 'description': 'Unscrupulous leaders who prioritize their own interests over the well-being of others can be a threat to social order.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f5ec4d8c9f364202b18df07bcdf14898",
+      "text": "{'name': 'Be cautious of the appeal to pragmatism', 'description': 'The appeal to pragmatism can be used to justify morally questionable actions and undermine traditional values.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4c70048639e24dc281472f4ed063bb9b",
+      "text": "{'name': 'The dangers of Machiavellianism', 'description': 'The idea that power is the ultimate goal can lead to the abuse of power and the neglect of the well-being of the people.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "dafc01ae2e414552880b8139de7699af",
+      "text": "{'name': 'The importance of moral codes in politics', 'description': 'Moral codes are essential in politics to prevent the abuse of power and to ensure that rulers prioritize the well-being of their people.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "323542372c454b2a80bff1e148009f45",
+      "text": "{'name': 'The risks of relying on appearance', 'description': 'Relying on appearance to maintain power and legitimacy can be a thin ice to tread, as it can lead to the loss of credibility and trust.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a7fb4e421e494d38bcda408a8f32fe9f",
+      "text": "Be aware of the potential for misleading contemporary jargon when translating The Prince.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7c2f1af2913d47c19a73d99de662d604",
+      "text": "Avoid using words that may be perceived as stilted or archaic.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "73d4ef68f0784aa09c75f08870e81608",
+      "text": "Consider the tone and syntax of the original text when translating it into modern English.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "00895527203b4b15baff382db216d1fa",
+      "text": "Avoid being hated by your subjects, as this can lead to downfall.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "417646eef90541d190cb5bef2cd5de18",
+      "text": "Be cautious of neutrality in conflicts, as it can be more disadvantageous than taking a side.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7373272ce3fa47a0ac3d4c7c8eb2d698",
+      "text": "be cautious of imposing modern moral standards on historical texts",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b11f678aa6c649e0828f15d54b9f553f",
+      "text": "consider the cultural and historical context when translating",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7ae712c55165465da97ef7860b3d9d78",
+      "text": "be aware of the author's intended meaning when translating",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "31f1f8d8c7c34c6eaa113e2022a1216e",
+      "text": "{'name': 'Be cautious of complacency', 'description': \"Don't become too comfortable with your current situation, as it can lead to stagnation and failure.\"}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e0ef0b3097644863a4b88331fda6ea08",
+      "text": "{'name': 'Avoid being too cautious', 'description': 'While caution is important, being too cautious can lead to missed opportunities and failure.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "83539058bc7d4c52980c0d931c8a4bf0",
+      "text": "Men are quick to change ruler when they imagine they can improve their lot.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c4629115cb6744bfb0040b1cec2bb577",
+      "text": "Men are quick to rebel against a ruler who they think can improve their lot.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8f9e0e182a3843ff8f3171a1d12b7e68",
+      "text": "A ruler who damages the interests of those whose support he needs to maintain power will make enemies.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d7a6c7c4ea574a8a9b5da91ec59aa5db",
+      "text": "A ruler who cannot give the people what they expected will lose their friendship.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5aeb84a1fec945f392137bb914b6ceb9",
+      "text": "A ruler who tries to be tough with the people he needs to maintain power will fail.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3024489bfc16470b91eacbbb0449b6e0",
+      "text": "A ruler who underestimates the difficulty of holding onto a new possession in a foreign land may face significant challenges and instability.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e37224f4e3ae4a529b24d72ac5abe776",
+      "text": "A ruler who fails to adapt to the local customs and institutions may face rebellion and opposition from the local population.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "485fe794261042588d1a9c135997bba5",
+      "text": "A ruler who fails to manage relations with new neighbors will soon lose the territory they have taken.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "203870fd0e7d4c8483364c89147b823a",
+      "text": "A ruler who does not see trouble in advance will be unable to resolve issues quickly.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "55692245870a4bedb83982599fb23a0e",
+      "text": "A ruler who does not establish colonies in the new territory will have to maintain large numbers of infantry and cavalry, which will be expensive and provoke hostility.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bf4727da703b44909fa3153bcfd99bdc",
+      "text": "A ruler who fails to manage relations with their new neighbors will soon lose what territory they have taken.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "811d9c08192d49a0af9ad35b0594fad7",
+      "text": "A ruler who does not see trouble in advance will be unable to deal with it effectively.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bef1f0b9e75e4047bdeec40ea7768c5e",
+      "text": "A ruler who makes mistakes in other departments will undermine their position and lead to loss of allies and territory.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "71d46b905f9f44309f2d327fb9612a69",
+      "text": "A ruler should be cautious not to let their enemies grow too powerful, as this can lead to their own downfall.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "653af747876e4e99babf6f34d1709518",
+      "text": "A ruler should not prioritize short-term gains over long-term security and stability.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "51651fb184d04e7fb3ca34288c110638",
+      "text": "A ruler should be aware of the potential consequences of their actions and take steps to mitigate them.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cef1dad3640349f59207abe2a099b06b",
+      "text": "When you have won a victory, you can't look to any barons for help, so after it there are none around to pose a threat.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e953ec51e2cd477ab5460797d455b1cc",
+      "text": "In countries run along French lines, you can make inroads easily enough, winning the support of a baron or two, but afterwards you're going to have all kinds of problems holding onto what you've won.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c626a08455344540a8a01e1b5c143348",
+      "text": "Conquering a city accustomed to self-government without destroying it will lead to rebellion.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fcfa68fdd68f46f3854472aaa4c7c808",
+      "text": "Occupation can never be benevolent enough to win the hearts and minds of the people.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0b0a73401e894cdebb5e5c5fc0497ade",
+      "text": "The new ruler's own forces should be used to conquer the state to ensure success.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "14c721ee8b404af1a30f1f805f45ccbc",
+      "text": "A ruler who relies too much on lucky circumstances will be less likely to last.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a4967adc0317412e8ff05491d8cb3c71",
+      "text": "A ruler who introduces change without solid experience will face opposition.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "40c107c031214036b5dfb0c9a0c95f63",
+      "text": "A ruler who depends on others to achieve their goals will be bound to fail.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8a5e48ed1f0e49cea8493457841aa74c",
+      "text": "{'name': 'The Dangers of Relying on Others', 'description': 'A leader who relies on others for support is less likely to succeed than one who can rely on themselves.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c52af8ebd196488c8f98f2e9922bdcd5",
+      "text": "{'name': 'The Importance of Maintaining Public Support', 'description': 'A leader must maintain public support to succeed.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d0ad0d01892d4b4594575f37fd844dec",
+      "text": "{'name': 'The Dangers of Being Unprepared', 'description': 'A leader who is unprepared for changing circumstances is less likely to succeed than one who is prepared.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "109137e3e3d34793a93edcebb525de06",
+      "text": "{'name': 'The dangers of relying on others for power', 'description': 'A ruler who relies too heavily on the support of others is at risk of losing their power and influence.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3ed0bda0385d4674be70e8993f4b6d02",
+      "text": "{'name': 'The importance of strategic thinking in achieving power', 'description': 'A ruler who fails to use strategic thinking and cunning is unlikely to be able to achieve their goals and maintain their power.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9e21d088c0434e038a073ae96a9c8ff8",
+      "text": "A ruler who relies too heavily on the loyalty of others may find themselves vulnerable to rebellion.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b4635f10270742d3bb6c38acb291e529",
+      "text": "A ruler who is too cautious may miss opportunities to achieve their goals.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "54dd986d26b948038d1f2804f1bfa7d0",
+      "text": "A ruler who is unwilling to take calculated risks may find themselves unable to achieve their goals.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "676fda1c9b24459b874266a3152516a1",
+      "text": "A ruler who is unaware of the potential consequences of their actions may find themselves facing unintended consequences.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "358af78bee904025b87aebbe417a8977",
+      "text": "A ruler who is unwilling to adapt to changing circumstances may find themselves unable to achieve their goals.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "884fc25b49be4c9f8322f581321bb510",
+      "text": "Do not rely on the support of others for power",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a50d6d9214884c44a6a5362c4576b2fe",
+      "text": "Be cautious of the influence of others on your power",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "efde9915174f4861879bd140d80a702c",
+      "text": "Do not underestimate the importance of building a strong foundation for power",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2a91cb11e4d34db6b6db75554d435104",
+      "text": "A ruler who relies on lucky circumstances and positive qualities may not be able to achieve their goals in the long term.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "992026248b68471c884661bb18ad3ea2",
+      "text": "A ruler who seizes power by crime may face opposition and challenges.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ecc4eff8327c47208e6a9d60682b6141",
+      "text": "A ruler who becomes hereditary ruler with the support of their fellow citizens may face challenges and opposition.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9fea50522c9e47c6b33f3ccc6cddee7d",
+      "text": "A ruler who does not build solid foundations for their power may struggle to achieve their goals.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4a22eb9b8a3d4580b0d4dbd0b5f6971b",
+      "text": "A ruler who does not respond to aggression with their own forces and talent may struggle to achieve their goals.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1c7ae881677144dd96034cb706e1266c",
+      "text": "The pursuit of power through crime and manipulation may not bring glory or long-term success.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7957381ec79541c6b0861f48f61d75bc",
+      "text": "Loyalty and mercy are essential for building strong relationships and maintaining power in the long term.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "51652f65c92c4841944e302c911ef2f3",
+      "text": "A strong personality and ability to take charge are not enough to achieve power; one must also be willing to make tough decisions and take risks.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d27f7494e62542fca83167f9dad1ebe9",
+      "text": "A ruler who is not drastic enough at the beginning but grows increasingly cruel later on will be seen as weak.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a8d07f895eee4254bd8e0e1be48671c9",
+      "text": "A ruler who is cruel on a regular basis will not be able to count on their subjects.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c047cd7c0a3c44b38811f68cc615c43a",
+      "text": "A ruler who is surrounded by men who consider themselves their equals will find it hard to give them orders or manage affairs as they want.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e757132dac4c4b69b36e31cd2dd2277e",
+      "text": "A ruler who becomes king with the support of the nobles will have more trouble keeping it than a king who gets there with the support of the people.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b3ee542a3fb9415fa1b6bac5e34031dd",
+      "text": "A ruler who becomes king against the will of the majority and with the support of the wealthy nobles must be careful not to alienate the common people.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b8e26d000e5d402a87589bf87150680e",
+      "text": "A ruler who becomes king with the support of the people must keep the people on his side to maintain power.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "33e16983e7904fb492c22ae269464f4a",
+      "text": "{'name': 'Relying on others for protection', 'description': 'A ruler who relies on others for protection is vulnerable to their whims.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5088a44e2bcc41f5b117b1b83e5ec903",
+      "text": "{'name': 'Inspiring hatred among subjects', 'description': 'A ruler who inspires hatred among their subjects is more likely to be attacked.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1e8d356fd7b34f41bcdd14849057d9d8",
+      "text": "{'name': 'Failing to maintain public supplies', 'description': 'A ruler who fails to maintain public supplies is likely to lose the support of their citizens.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "df066fc676c94648bdcf3edb97f23c90",
+      "text": "It's rash and presumptuous for a remnant to discuss Church states, as they depend on forces beyond human reason.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "da196beb1a90457dbbf414e5d3e7b5c2",
+      "text": "A ruler who relies on outside help will always be in a precarious position.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b211f2aa5f704e02b1a6f227934d3082",
+      "text": "The Church's power can be threatened by the ambition of cardinals.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c3afeb1ccf604a7c8cd1d315d589f949",
+      "text": "The use of mercenaries can lead to a loss of control and a prolonged dependence on foreign armies.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "53f2b969cc594e539548cf125fbb89ec",
+      "text": "The Church's power can be undermined by the short lifespan of popes.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7eba460efd4f4a9e8867243b8703f395",
+      "text": "Relying on mercenaries for defense is a recipe for disaster.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9653de19adbf4c46bc8903278c6f00cf",
+      "text": "A ruler or republic that relies on mercenaries will never be stable or secure.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e65c67ee55a747c09d48f9c143165126",
+      "text": "Mercenaries will plunder and pillage in peacetime and let the enemy plunder in wartime.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8f9d6eeff9e2430fadc64c6b812d4357",
+      "text": "A republic that pays for mercenary armies is more likely to fall victim to a coup.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "760f357ff0a2463594381ae5c5210559",
+      "text": "A ruler or republic that does not have good laws and good armed forces will fall victim to a coup.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d1d9cfd0cb104d839b3f7f84eab2adb7",
+      "text": "{'name': 'Beware of Mercenary Commanders', 'description': 'Mercenary commanders may turn against their employers and achieve their own goals.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2a4ec6a1b0374b5280de687da8aaedb6",
+      "text": "{'name': 'Beware of the Consequences of Hiring Mercenaries', 'description': 'Rulers should beware of the consequences of hiring mercenaries, as they can lead to ruin and slavery.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7eb8f2025a6744a3a128806ffc7d3772",
+      "text": "{'name': \"Avoid Relying on Others' Arms\", 'description': \"Rulers should avoid relying on others' arms, as they can be too loose, too heavy, or too tight, and lead to defeat.\"}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9b37b8a30e1945b39a3620246de1ff3d",
+      "text": "{'name': 'The Consequences of Neglecting War', 'description': 'A ruler who neglects the art of war is more likely to lose their throne, as they will be unprepared for challenges and unable to adapt to changing circumstances.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2522147efdf64822a3cc4c07496a84bc",
+      "text": "{'name': 'The Dangers of Relying on Luck', 'description': 'A state that relies on luck rather than its own army is unstable and vulnerable to collapse.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "687f9747f62d4434ae4ed9129f498664",
+      "text": "{'name': 'The Importance of Diagnosing Problems Early', 'description': 'A ruler who can diagnose problems early is more likely to be a wise leader, as they can take proactive steps to address challenges and maintain power and stability.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ec80d7a0f0384a25946fefd198850a75",
+      "text": "{'name': 'Warning 1: Neglecting Military Matters Can Lead to Downfall', 'description': 'A ruler who neglects military matters will not have the respect and trust of his soldiers and will be more likely to lose his throne.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2fe2476e007642cf8d6dd8bf2b00e192",
+      "text": "{'name': 'Warning 2: A Ruler Must Not Relax in Peacetime', 'description': 'A ruler must not relax in peacetime but must work hard to make the most of it and turn it to his advantage in the tough times ahead.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    }
+  ],
   "meta": {
-    "total_entries": 0,
-    "last_updated": null,
-    "aggregated_from": []
+    "total_entries": 103
   }
 }

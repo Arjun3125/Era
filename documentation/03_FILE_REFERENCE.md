@@ -450,6 +450,61 @@
 
 ---
 
+## Module: `ears/` (Ambient Sensory Memory Module)
+
+### Core Files
+
+#### `config.py`
+**Purpose:** Central configuration for cloud STT (Deepgram), local LLM (Ollama), and memory paths.
+**Key Variables:** `DEEPGRAM_API_KEY`, `DEEPGRAM_MODEL`, `OLLAMA_MODEL`, `MEMORY_DIR`, `ACTIVE_MEMORY_FILE`, `DEFAULT_MODE`.
+
+#### `daemon.py` ⭐
+**Purpose:** Entry point for running the ambient bridge backend server on C:\era.
+**Usage:** `python -m ears.daemon` (starts Uvicorn FastAPI server on port 8787).
+
+### Submodule: `ears/capture/`
+
+#### `android_bridge.py` ⭐
+**Purpose:** FastAPI backend receiving diarized transcript batches from the mobile app.
+**Key Endpoints:** `/ingest`, `/consent/start_announced_recording`, `/consent/stop`, `/consent/status`.
+
+#### `mic_stream.py`
+**Purpose:** Optional desktop test harness using PC mic and Deepgram streaming SDK.
+
+### Submodule: `ears/privacy/`
+
+#### `consent_state.py` ⭐
+**Purpose:** Manages SOLO vs ANNOUNCED_RECORDING privacy toggle state.
+**Key Functions:** `get_mode()`, `start_announced_recording()`, `stop_announced_recording()`, `is_third_party_storage_allowed()`.
+
+#### `redaction.py` ⭐
+**Purpose:** Privacy gate that drops third-party speech in SOLO mode before extraction or disk write.
+**Key Functions:** `filter_segments()`, `summarize_context_only()`.
+
+### Submodule: `ears/extraction/`
+
+#### `fact_extractor.py` ⭐
+**Purpose:** Calls local Ollama model (`qwen3:14b`) to extract factual self-observations from redacted text.
+**Key Functions:** `extract_facts()`.
+
+### Submodule: `ears/memory_bridge/`
+
+#### `episodic_writer.py` ⭐
+**Purpose:** Appends ambient observations to both daily `Memory/YYYY-MM-DD_episodes.jsonl` and active project `data/memory/episodes.jsonl`.
+**Key Functions:** `write_episode()`.
+
+---
+
+## Module: `ears_mobile_reference/` (Android Companion Reference)
+
+#### `ForegroundMicService.kt`
+**Purpose:** Reference Kotlin implementation for Android foreground service streaming audio to Deepgram WebSocket and posting batches to backend.
+
+#### `AndroidManifest_snippet.xml`
+**Purpose:** Required Android manifest permissions and service declarations for background microphone access.
+
+---
+
 ## Module: `ml/` (ML Learning System)
 
 ### Core Files

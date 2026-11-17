@@ -2,12 +2,12 @@
 
 from __future__ import annotations
 
-from persona.ollama_runtime import OllamaRuntime
+from persona.openrouter_runtime import OpenRouterRuntime
 
 
 class MLIntegratedConversation:
     def __init__(self) -> None:
-        self.llm = OllamaRuntime()
+        self.llm = OpenRouterRuntime()
 
     def run(self, prompt: str) -> str:
         return self.llm.speak("You are a helper.", prompt)

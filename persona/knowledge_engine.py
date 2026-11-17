@@ -306,6 +306,11 @@ def reinforce_entry(entry_id: str, domain: str, category: str, positive: bool = 
     return False
 
 
+def penalize_entry(entry_id: str, domain: str, category: str) -> bool:
+    """Convenience wrapper: penalize an entry (negative feedback)."""
+    return reinforce_entry(entry_id, domain, category, positive=False)
+
+
 _BUILTIN_ENTRIES = [
     {
         "aku_id": "builtin-1",
@@ -445,6 +450,8 @@ def synthesize_knowledge(
     extra_context: List[str] | None = None,
 ) -> Dict[str, Any]:
     all_entries = []
+    fallback_triggered = False
+    fallback_reasons = []
 
     # ── Try Chroma semantic retrieval ──────────────────────────────────────────
     try:
@@ -456,32 +463,38 @@ def synthesize_knowledge(
                 n_results=n_results,
                 where={"domain": {"$in": active_domains}} if active_domains else None,
             )
-            for text, meta in zip(results["documents"][0], results["metadatas"][0]):
+            for doc_id, text, meta in zip(results["ids"][0], results["documents"][0], results["metadatas"][0]):
                 all_entries.append({
-                    "aku_id": "",
+                    "aku_id": doc_id,
                     "content": text,
                     "type": meta.get("type", "principle"),
                     "_domain": meta.get("domain", ""),
                     "source": {"book": meta.get("book", "")},
                     "memory": {"reinforcement_count": int(float(meta.get("weight", 1.0)) * 10)},
                 })
-    except Exception:
-        pass
+    except Exception as e:
+        fallback_reasons.append(f"ChromaDB query error ({str(e)}).")
 
     # ── Fall back to full file scan if Chroma unavailable ─────────────────────
     if not all_entries and os.path.isdir(BASE_PATH):
+        fallback_triggered = True
+        if not fallback_reasons:
+            fallback_reasons.append("ChromaDB vector store offline or empty; KIS fell back to offline keyword file scan.")
         try:
             for domain in os.listdir(BASE_PATH):
                 domain_path = os.path.join(BASE_PATH, domain)
                 if not os.path.isdir(domain_path):
                     continue
                 all_entries.extend(load_domain_knowledge(domain))
-        except Exception:
+        except Exception as e:
             all_entries = []
+            fallback_reasons.append(f"Domain file scan error ({str(e)}).")
 
     # ── Final fallback: 7 builtins ────────────────────────────────────────────
     if not all_entries:
         all_entries = _BUILTIN_ENTRIES   # move the existing builtin list to a module-level constant
+        fallback_triggered = True
+        fallback_reasons.append("Domain knowledge stores sparse or unavailable; KIS fell back to 7 built-in entries.")
 
     try:
         print(f"[KIS DEBUG] total entries available for scoring: {len(all_entries)}")
@@ -509,7 +522,22 @@ def synthesize_knowledge(
         scored.append((kis, entry))
 
     scored.sort(key=lambda x: x[0], reverse=True)
-    selected = scored[:max_items]
+    selected = []
+    seen_contents = set()
+    type_counts = {}
+    max_per_type = max(3, max_items // 5 + 1)
+    for score, entry in scored:
+        c_clean = str(entry.get("content", "")).strip().lower()
+        if not c_clean or c_clean in seen_contents:
+            continue
+        k_type = str(entry.get("type", "principle")).lower().rstrip("s")
+        if type_counts.get(k_type, 0) >= max_per_type:
+            continue
+        type_counts[k_type] = type_counts.get(k_type, 0) + 1
+        seen_contents.add(c_clean)
+        selected.append((score, entry))
+        if len(selected) >= max_items:
+            break
 
     synthesized = []
     backtrace = []
@@ -652,6 +680,8 @@ def synthesize_knowledge(
         "knowledge_debug": knowledge_debug,
         "knowledge_quality": knowledge_quality,
         "knowledge_gaps": knowledge_gaps,
+        "fallback_triggered": fallback_triggered,
+        "fallback_reasons": fallback_reasons,
     }
 
 

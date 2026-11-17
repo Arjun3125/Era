@@ -1,0 +1,23 @@
+<!--
+    ears_mobile_reference/AndroidManifest_snippet.xml
+
+    Merge these entries into your Android project's AndroidManifest.xml.
+    Android 14+ (SDK 34+) requires the specific foregroundServiceType
+    below for mic access — omitting it will crash at startForeground().
+-->
+
+<uses-permission android:name="android.permission.RECORD_AUDIO" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+<uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+<application>
+    <!-- ... your existing application entries ... -->
+
+    <service
+        android:name=".ForegroundMicService"
+        android:foregroundServiceType="microphone"
+        android:exported="false" />
+</application>

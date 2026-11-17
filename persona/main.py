@@ -393,14 +393,14 @@ def main():
     
     print("[MAIN] Initializing LLM runtime...", file=sys.stderr, flush=True)
     
-    # Instantiate LLM runtime with graceful fallback to sovereign adapter
+    # Instantiate LLM runtime: OpenRouter → sovereign adapter
     try:
-        from .ollama_runtime import OllamaRuntime
-        print("[MAIN] Trying OllamaRuntime...", file=sys.stderr, flush=True)
-        llm = OllamaRuntime()
-        print("[MAIN] OllamaRuntime initialized", file=sys.stderr, flush=True)
+        from .openrouter_runtime import OpenRouterRuntime
+        print("[MAIN] Trying OpenRouterRuntime...", file=sys.stderr, flush=True)
+        llm = OpenRouterRuntime()
+        print("[MAIN] OpenRouterRuntime initialized", file=sys.stderr, flush=True)
     except Exception as e:
-        print(f"[MAIN] OllamaRuntime failed: {e}", file=sys.stderr, flush=True)
+        print(f"[MAIN] OpenRouterRuntime failed: {e}", file=sys.stderr, flush=True)
         try:
             from sovereign.llm_adapter import OllamaAdapter
             print("[MAIN] Trying OllamaAdapter...", file=sys.stderr, flush=True)

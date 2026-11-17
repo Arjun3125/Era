@@ -1,10 +1,1143 @@
 {
-  "domain": "diplomacy",
+  "domain": "Diplomacy",
   "category": "rules",
-  "entries": [],
+  "entries": [
+    {
+      "id": "3daa1548df6345dd82fb656380bf8231",
+      "text": "Engaging in negotiations can weaken the opponent's position",
+      "source": {
+        "book": "Felix-Dennis-How-to-Get-Rich",
+        "chapter": 139
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4fe55d3a1c58496daa7c2fe44d50d6bc",
+      "text": "A ruler should never be seen as weak or vulnerable, as this can lead to loss of power and respect.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2690290b96474a4eb90c8acd10983231",
+      "text": "A ruler should be willing to make difficult decisions and take calculated risks in order to achieve their goals.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "79b08be07be640e0827566bd51b98ffc",
+      "text": "A ruler should be aware of the importance of maintaining a strong and loyal army, and take steps to ensure their military strength.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8422c29f37584d19bb7800b900e7408c",
+      "text": "A ruler should be cautious of the influence of others, including advisors, family members, and other powerful individuals.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5b33443bcd51459fa78b01af728bf0f0",
+      "text": "A ruler should be aware of the importance of maintaining a positive image and reputation, and take steps to ensure their public image is strong.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8351919a9e784a569ce731fcdbbbce48",
+      "text": "{'name': 'The Italian Game', 'description': 'A complex web of alliances and rivalries among Italian states, with each state seeking to expand its territory and influence.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "da5b6462a9a44ec2920da40b20244166",
+      "text": "{'name': 'The Law of the Balance', 'description': 'States will form alliances to counterbalance the power of any one state that seeks to dominate others.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 5
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b5467486824a4ae9acb86830b953a3cc",
+      "text": "{'name': 'Build a power base through a citizen army', 'description': 'A leader should establish a strong military force to increase influence and respect.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4b4517adcfd74ebeb638a63355f2e25d",
+      "text": "{'name': 'Avoid relying on mercenary armies', 'description': 'Mercenary forces are unreliable and may abandon their posts when faced with challenges.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a3fda973827d4d4283c019ecf70b57d3",
+      "text": "{'name': 'Establish clear long-term policy', 'description': 'Leaders should develop a well-defined strategy to guide decision-making and achieve stability.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "950dd6cfc1644d4faa2321d45aecce92",
+      "text": "{'name': 'The end justifies the means', 'description': 'The goal of achieving and maintaining power justifies any means necessary to achieve it.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "fc97b27a5bbb4f509c3732648c16372c",
+      "text": "{'name': 'Leaders must be willing to make difficult decisions', 'description': 'Leaders must be willing to make tough choices, including killing or being killed, to achieve and maintain power.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d023e342a72f48f09e5588cd58faabdb",
+      "text": "{'name': \"Public opinion is irrelevant to a leader's actions\", 'description': \"A leader's actions are not bound by public opinion, and they must be willing to act outside of societal norms to achieve and maintain power.\"}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "de2986841d50463285c48cfcdc59b30c",
+      "text": "A ruler must be able to adapt to changing circumstances",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "25a6578f6f9c42f1bc1291bd1ad2399b",
+      "text": "A ruler must be aware of their own strengths and weaknesses",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "74f41be4ca3347daaa9884bfb3192917",
+      "text": "A ruler must be able to balance their own interests with the needs of the state",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "42fb2d2cbecd43bea5df61cdc44a54fd",
+      "text": "{'name': 'The ends justify the means', 'description': 'In certain circumstances, abandoning Christian principles may be necessary to achieve goals worth fighting for.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "43c9b0fedc19420bb01c83f35e3717f4",
+      "text": "{'name': 'Prioritize state interests', 'description': 'The strength, unity, and independence of a people and state should be prioritized over Christian principles.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "63dde89ae1714d98a36aae1379d2d835",
+      "text": "{'name': 'The Prince as a guide to power', 'description': \"Machiavelli's book is seen as a guide for rulers to achieve and maintain power.\"}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "484bef5cde164181a7ddaa57364f5494",
+      "text": "{'name': 'The importance of appearance', 'description': 'Rulers should present themselves as respectable and pious to maintain their power and legitimacy.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a2a704c7a1364ffa8ee6204167fc32b2",
+      "text": "{'name': 'The people as the ultimate source of power', 'description': 'Machiavelli believed that power ultimately lies with the people and that rulers should prioritize their interests.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c153f01e2b01468aa79c87a818284d35",
+      "text": "{'rule': \"Use the word 'ruler' or 'leader' to refer to a political leader, rather than 'king'.\", 'rationale': 'To avoid confusion and ensure accuracy in translation.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0007c5c1fdd6447fa46d1d0e4c37eda0",
+      "text": "{'rule': \"Translate 'virt\u00f9' as 'positive qualities' or 'strength of character', unless it refers to moral virtues.\", 'rationale': \"To convey the original meaning of 'virt\u00f9' in a way that is clear and accurate.\"}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9ce24217e0424c29a535fbba6b864dff",
+      "text": "When faced with two powerful neighbours who are at war, it is always better to take sides and fight hard.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "65b10292ab2243cdb3ac1d4ed9e2b337",
+      "text": "A ruler should not have half-hearted friends who do not help in times of crisis.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9e7e4bc3e97b41f68ff34cbef983cdd8",
+      "text": "A winner does not want doubtful friends who will not aid him in the time of trial.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1572e3b7c6654c4183e0493ffab4c00f",
+      "text": "do not impose modern moral standards on historical texts",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0a09667ef99d4d22aa07c4f0c693691c",
+      "text": "consider the author's intended meaning when translating",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5c4763a3d9cb4b9ca3c31dfd53cb9e31",
+      "text": "be aware of cultural and historical context when translating",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2dd8b2dbec034754bbc57ae9a72cb10d",
+      "text": "the primary concern in politics is not morality, but effectiveness",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1c802b3a41d349849df18595817f439b",
+      "text": "{'name': 'Fortune favors the bold', 'description': 'Those who take risks and are willing to challenge the status quo are more likely to succeed.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c4acd799999445b6a79a04d9bf3c5de9",
+      "text": "{'name': 'Cautiousness is a weakness', 'description': 'Being overly cautious can lead to missed opportunities and failure.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4566f574df044244972d9fcfcaa6157c",
+      "text": "{'name': 'Adapt to changing circumstances', 'description': 'Be prepared to adjust your approach to suit the changing circumstances.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 6
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "af8ab84acf60434db4a8f8cb054625c7",
+      "text": "Hereditary monarchies are easier to hold than new ones.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b4cdeece5e6c46558fb7f7169385a63b",
+      "text": "A ruler should not change the established order unless absolutely necessary.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "877ce2c287214135b58e4ab573fae259",
+      "text": "A ruler should not expect to keep the friendship of the people he has occupied.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "c62d753145ef434f9da684cb7cab2341",
+      "text": "A ruler should not try to give the people more than they expected.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "855fdf035b4045bfaca10be24cf19166",
+      "text": "A ruler should not try to be tough with the people he needs to maintain power.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f0ee33745fac46eb866d9eee919c3ca4",
+      "text": "A ruler should not occupy a new territory without considering the local customs and institutions.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "881abd8f92ae4d389e9da85dd2f98f53",
+      "text": "A ruler should not underestimate the difficulty of holding onto a new possession in a foreign land.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4ce50c3808454caf90d59e7822c83d3b",
+      "text": "A ruler should prioritize establishing colonies in the new territory to ensure loyalty and stability.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9de540c96db94fd6a6892e67cd488ba9",
+      "text": "A ruler should not plunder the new territory, but rather live among its people to improve security and stability.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6c72c52d53b74685821484873a7098c7",
+      "text": "A ruler must eliminate the family of the previous ruler to secure power.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6c339bac0abb4be1a0ca42044c9b7829",
+      "text": "A ruler must leave existing laws in place to avoid provoking the population.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9fc69e2dae0142719c0b9ef380369f1e",
+      "text": "A ruler must not restrict themselves to dealing with present threats but must use every means to foresee and forestall future problems.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9c7d5d0d81b6408f8ac7b803fcb6a879",
+      "text": "A ruler must not allow foreign powers to gain influence in the new territory.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "035cd74526c14268adde1eb09f9195e5",
+      "text": "A ruler must either pamper people or destroy them; harming them just a little will lead to retaliation.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9bd02ce2eedf485eb1bc8aa9b334ff4c",
+      "text": "A ruler must not provoke more hostility by moving an army and requisitioning lodgings, as it can turn the entire population into enemies.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cd4abaa271694fa49735b601ed71f318",
+      "text": "A ruler must not put off war when they see trouble coming, as it can lead to the enemy gaining the upper hand.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b33bda661f8047d8ad82fcbfe0e7d702",
+      "text": "A ruler must not make mistakes in other departments, as it can undermine their position and lead to loss of allies and territory.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0ba86b810bf44283b3d456c16e434f8e",
+      "text": "To help another ruler grow powerful is to prepare your own ruin.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3437e21a55d84556a16b3ca9abb3e360",
+      "text": "A ruler should not put their faith in their own foresight and spirit, as time can quickly turn against them.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d038ee2ee785411e8784b90b058eaecf",
+      "text": "A ruler should not underestimate the power of their enemies, as they can quickly shift in favor of their opponents.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a9eb4575908046ed8ded97b0d8b3e8f4",
+      "text": "To conquer a country like Turkey, it is hard to conquer but once conquered, it is very easy to hold.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4737b4622f364b78a06b6e03a18d58a7",
+      "text": "To conquer a country like France, it is somewhat easy to conquer but very hard to hold.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d5b829b78a6641bc8ac136b04670d039",
+      "text": "A country with no barons to invite you in and no one to make your invasion easier by rebelling against the king is hard to conquer.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "203d06ab594c47b396b49b542f456b74",
+      "text": "When invading a state, consider its type and internal divisions.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "852df61828354fa9ba24d863679fb7f8",
+      "text": "If a state is accustomed to self-government, destroy it to hold it.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0762aa83482b474b9070b1ba84a25476",
+      "text": "Unity among the invading forces is crucial for success.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0193312e07c24f21aec275051e10ff66",
+      "text": "The new ruler's own forces should be used to conquer the state.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6ace0637859e4d2aaafb11711a53d682",
+      "text": "The old local rulers' families should be eliminated to establish authority.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "038868d599224e448bc0dd5e32c4ea8e",
+      "text": "A ruler must be able to choose a new leader from among themselves to maintain stability.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9007819f24a044c3b70fc550554c0727",
+      "text": "A ruler must be able to live in freedom without one to maintain stability.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a92ed2eb8d034baba059e0c9dbb1c3dc",
+      "text": "A ruler must be able to impose a new administrative system and procedures to establish their government and guarantee its security.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6c4f00b12f3f42b9a21b773be9d41d81",
+      "text": "A ruler must be able to rely on their own resources to achieve their goals.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5a22380ff7e7446f91a67faa1d54b1ea",
+      "text": "{'name': 'Establish a Strong Foundation', 'description': 'A leader must establish a strong foundation before they can build on it.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "58dffa0ca21c412197b59f7597c7e2f3",
+      "text": "{'name': 'Maintain Public Support', 'description': 'A leader must maintain public support to succeed.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d3b5f9542df2401aaab080ab301b4c5b",
+      "text": "{'name': 'Be Self-Reliant', 'description': 'A leader should be self-reliant and not rely on others for support.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bb39e2a685564ae184a31c628ca23d1a",
+      "text": "{'name': 'Adapt to Changing Circumstances', 'description': 'A leader must be able to adapt to changing circumstances to succeed.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "1d43d0e6f9c44608a6b416755d848348",
+      "text": "{'name': 'The rule of the lucky', 'description': 'A ruler who achieves power through luck rather than their own abilities is unlikely to be able to hold on to it.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "de030a4b487c43e283256d8c1afab19a",
+      "text": "{'name': 'The importance of a strong foundation', 'description': 'A ruler who fails to establish a strong foundation for their power is unlikely to be able to maintain it.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "aed64f93d44e4f159f94ddf4d109d234",
+      "text": "A ruler should not rely solely on their own abilities, but also seek the counsel of others.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a7e7076243ed4526ab9c9ff246096c09",
+      "text": "A ruler should be aware of the potential for rebellion and take steps to prevent it.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a7e435b4e6fa482fb37291671d0b5f57",
+      "text": "A ruler should be willing to use force to maintain control, but also be aware of the potential consequences of such actions.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e05a70eb525242ed91b75ada325773d9",
+      "text": "A ruler should be aware of the importance of building alliances and securing the support of key individuals.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e46e27ff1482468e978a53c32a90af37",
+      "text": "A ruler should be willing to make difficult decisions and take calculated risks to achieve their goals.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0d8ba597672947129ad72317001d485e",
+      "text": "Eliminate potential threats to power",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "b4a43851f94e4d6f9b34e692c7e84d8b",
+      "text": "Win the support of key allies",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f15e3160832b4c0192bdd6b15f5a2ae3",
+      "text": "Secure territory before the death of a powerful figure",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "13b69ec992e0467fa7baaf7889d7275b",
+      "text": "Block unwanted papal initiatives",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "20f3d7e6f40f4c1599dbe11c71e8b465",
+      "text": "Overcome obstacles by force or fraud",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "bbbbcf24141445998c8e4529440c77b9",
+      "text": "A ruler should aim to be the master of all Tuscany.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3b663fa5e73a4c91b33dc3de2493b26d",
+      "text": "A ruler should not allow a cardinal whose interests they have damaged to win the election.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "8dc765d9cc3d45a5aad8be1d7ad8693f",
+      "text": "A ruler should not allow a cardinal who would have reason to fear them to win the election.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "6c1b0240d11742dc8b9aafdb21dcd4ba",
+      "text": "A ruler should choose a Spanish pope if possible.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "37b3df2bf4ce4b6a822d12c0910f6036",
+      "text": "A ruler should not let a powerful cardinal like the cardinal of Rouen take the throne.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "061afe4106b744d595b97de48aaf5bcf",
+      "text": "To achieve power, one must be willing to take risks and make tough decisions.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2fcbaddac2ab4f2c9ff7c4bc9960fa75",
+      "text": "Working with others can be demeaning and may not be necessary for achieving power.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "df0d85ead4574f1f8ec4ae6ffcc58c57",
+      "text": "Killing fellow citizens and betraying friends can be effective means of achieving power, but may not bring glory.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ed43d47efb3640cfb606ceda7049c3b6",
+      "text": "A strong personality and ability to take charge are essential for achieving power.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3d8e25468cc54a8b82219d1a1466cb2e",
+      "text": "Power can be maintained through violence and manipulation, but may not be sustainable in the long term.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a918f7a25f0740f9be8c7a37af17d21e",
+      "text": "When taking hold of a state, a ruler must assess how much violence and cruelty will be necessary.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "80c583db2c544ce5b99798cd04fd8970",
+      "text": "A ruler should get the necessary violence and cruelty over with at once, to avoid being cruel on a regular basis.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "d5ded86ba3234767a507c506e4280647",
+      "text": "A ruler should use the power given to them to deliver maximum benefits to their subjects.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "385f77529840483b909165766fd2ea59",
+      "text": "A ruler must have the support of either the common people or the nobles to maintain power.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "88240996e0c04aca9a735b51389b62ef",
+      "text": "A king who comes to power with the support of the people can get by without the nobles, but a king who gets there with the support of the nobles will have trouble keeping it.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ebb7ab450cc94bc2b38f081c68ceb306",
+      "text": "A ruler who takes the people under his protection will find it easy to win their loyalty.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "284fd82de9144b0f992ba9328cd79664",
+      "text": "A ruler who becomes king against the will of the majority and with the support of the wealthy nobles must make it a priority to win over the affection of the common people.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3d73a1fed27941e5a06597320e7c7ce7",
+      "text": "{'name': 'Defend with own resources', 'description': 'A ruler should be able to defend themselves with their own resources.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0e92977a47c241bfa9bd64298f6774ca",
+      "text": "{'name': 'Fortify home towns', 'description': 'A ruler should encourage their citizens to fortify their home towns.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "3af5991f695a4c82bf008acde0190abf",
+      "text": "{'name': 'Maintain public supplies', 'description': 'A ruler should maintain public supplies to keep their citizens well-fed.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "eaaf123ffe9d426294bb61700cf59965",
+      "text": "A ruler who can't take on an enemy in the field but has to withdraw behind their city walls will always be in need of outside help.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "527cec96fa26406aaabab71f078f4912",
+      "text": "A ruler who has built good fortifications and managed their relationship with their subjects will always think twice before attacking them.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "e26196a41e604fc1b4b357ea90c9ec24",
+      "text": "A well-fortified town with a ruler who doesn't inspire hatred among their subjects won't be attacked, and even if they are, their attackers will leave humiliated.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "2fbeb16128444fd88f79357f8fdfe29c",
+      "text": "Papal succession can lead to a loss of power and influence.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7b7155ac1e024f9eb266f92db22f69d6",
+      "text": "The Church's power can be increased by the use of finance and force.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ec86054f427241f0a7b5437b9ff1c071",
+      "text": "The use of mercenaries can lead to a prolonged dependence on foreign armies.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "df310b91cfde4d9f8ab6c35a28629afa",
+      "text": "Mercenaries are useless and dangerous for defense.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "cce23b248fa34adab9c5ad33bcc0e8c1",
+      "text": "A ruler or republic must not rely on mercenaries for defense.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "7039a59140e24fc6b43ae21fe42a71f0",
+      "text": "A ruler or republic must have good laws and good armed forces to ensure stability and security.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f23cb2b73ee44a76a6ca4a1f587b0ce5",
+      "text": "A ruler or republic must go in person and act as commander themselves to ensure effective defense.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f4907003a4d141468548a7063f76512d",
+      "text": "A republic must send its citizens to fight, and if a commander is not good, they must replace him.",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "9702e25efbac4a02aa92a4b340411ba7",
+      "text": "{'name': 'Hire Local Forces', 'description': 'Hiring local forces is more effective and reliable than hiring mercenaries.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "926e9aa4d0f04138be2c7cd539fa86b2",
+      "text": "{'name': 'Avoid Auxiliary Armies', 'description': 'Auxiliary armies are ineffective and may be counterproductive.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4924d9ab80f14c4c88477f2f70657a38",
+      "text": "{'name': 'Mercenaries are a No-Win Situation', 'description': 'Using mercenaries guarantees ruin, as they are a tightly knit force and every one of them obedient to someone else.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5fe2ac73234a462f98d3839a7ed23b1b",
+      "text": "{'name': 'Auxiliaries are More Dangerous than Mercenaries', 'description': 'Auxiliaries are far more dangerous than mercenaries, as they are a tightly knit force and every one of them obedient to someone else.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "ac129211f922423caff307c905e81fe5",
+      "text": "{'name': 'Rely on Your Own Troops', 'description': 'Rulers should prefer to lose with their own troops than to win with others, as a victory won with foreign forces is not a real victory at all.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "264946edcf0b4a399d09855c8d2c361c",
+      "text": "{'name': 'No Mercenaries Rule', 'description': 'A state should not rely on mercenaries or auxiliaries, as they are unreliable and can lead to ruin.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "0501eb4ddd93465987a5b7528bd6781f",
+      "text": "{'name': 'Own Resources Rule', 'description': 'A ruler should rely on their own resources and men, rather than foreign forces, to maintain power and stability.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5bb02eee518a42bf821db829f48c031f",
+      "text": "{'name': 'Composite Forces Rule', 'description': 'A state with a mix of its own men and mercenaries is better than one relying solely on mercenaries or auxiliaries.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "67f3f101095c4d71908251ef416423f1",
+      "text": "{'name': 'Rule 1: A State Must Have Its Own Army', 'description': 'A state without its own army is not secure and its ruler is not a true leader.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "4821c1d584c148b99a23803c427be43a",
+      "text": "{'name': 'Rule 2: A Ruler Must Involve Himself in Military Matters', 'description': 'A ruler who does not involve himself in military matters will not have the respect and trust of his soldiers.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "5282419dc4824652888cd30f5f5d8bc2",
+      "text": "{'name': 'Rule 3: A Ruler Must Exercise His Mind', 'description': 'A ruler must exercise his mind by reading history, studying the strategies and achievements of great leaders, and learning from their successes and failures.'}",
+      "source": {
+        "book": "Machiavelli,+The+Prince",
+        "chapter": 17
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "f891fa4fd31342d9a731df9d764a1eee",
+      "text": "States have the right to determine their own foreign policy",
+      "source": {
+        "book": "The Myth of Sisyphus - Albert Camus",
+        "chapter": 41
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "a5332d435a88424fb68e155dd4787c74",
+      "text": "Countries should respect each other's territorial integrity",
+      "source": {
+        "book": "The Myth of Sisyphus - Albert Camus",
+        "chapter": 41
+      },
+      "weight": 1.0
+    }
+  ],
   "meta": {
-    "total_entries": 0,
-    "last_updated": null,
-    "aggregated_from": []
+    "total_entries": 126
   }
 }

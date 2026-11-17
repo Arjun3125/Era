@@ -33,28 +33,31 @@ class OutcomeFeedbackLoop:
     
     def retrain_ministers(self, domain: str, failure_cluster: List[Episode]):
         """
-        If multiple failures in same domain, adjust minister calibration.
+        If multiple failures in same domain, adjust minister calibration
+        via the existing MinisterConfidenceTracker on the council.
         """
         if not self.council or not failure_cluster:
             return
-        
+
         # Find the relevant minister
         minister_name = domain
         if minister_name not in self.council.ministers:
             return
-        
-        minister = self.council.ministers[minister_name]
-        
+
         # Calculate success rate
         success_count = sum(1 for ep in failure_cluster if ep.outcome == "success")
         success_rate = success_count / len(failure_cluster) if failure_cluster else 0.0
-        
-        # If too many failures, lower confidence
+
+        # If too many failures, penalize via Bayesian confidence tracker
         if success_rate < 0.5:
-            # Reduce minister's base confidence multiplier
-            if hasattr(minister, 'confidence_multiplier'):
-                minister.confidence_multiplier *= 0.8  # Reduce by 20%
-                print(f"[RETRAIN] {minister_name} confidence reduced. Success rate: {success_rate:.2%}")
+            tracker = getattr(self.council, '_confidence_tracker', None)
+            if tracker is not None:
+                for ep in failure_cluster:
+                    is_success = ep.outcome == "success"
+                    tracker.record_outcome(minister_name, domain, success=is_success)
+                print(f"[RETRAIN] {minister_name} penalized via Bayesian tracker. Success rate: {success_rate:.2%}, episodes: {len(failure_cluster)}")
+            else:
+                print(f"[RETRAIN] {minister_name} has no confidence tracker; skipping. Success rate: {success_rate:.2%}")
     
     def update_kis_weights(self, knowledge_items_used: List[str], outcome: str):
         """

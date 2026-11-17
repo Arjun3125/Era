@@ -9,6 +9,7 @@ Or from project root:
 
 from __future__ import annotations
 
+import os
 import uuid
 from concurrent.futures import ThreadPoolExecutor, TimeoutError
 from typing import Any, Dict, Optional
@@ -59,10 +60,20 @@ def _init_components() -> None:
     with _init_lock:
         if _components:      # re-check inside lock
             return
-        try:
-            from persona.ollama_runtime import OllamaRuntime
-            llm = OllamaRuntime()
-        except Exception:
+        # Try LLM runtimes: OpenRouter (cloud) → sovereign adapter
+        llm = None
+
+        # 1. OpenRouter (cloud) — if API key is set
+        if os.getenv("OPENROUTER_API_KEY"):
+            try:
+                from persona.openrouter_runtime import OpenRouterRuntime
+                llm = OpenRouterRuntime()
+                print(f"[ERA] Using OpenRouter: {llm.speak_model}")
+            except Exception as e:
+                print(f"[ERA] OpenRouter unavailable: {e}")
+
+        # 2. Sovereign adapter (fallback)
+        if llm is None:
             try:
                 from sovereign.llm_adapter import OllamaAdapter  # type: ignore[import]
                 llm = OllamaAdapter()
@@ -71,7 +82,11 @@ def _init_components() -> None:
                 raise RuntimeError(f"No LLM runtime available: {e}")
 
         prime = PrimeConfident(risk_threshold=0.7)
-        council = CouncilAggregator(llm=llm)
+        try:
+            from modules.council_execution.engine import NativeCouncil
+            council = NativeCouncil(llm=llm)
+        except Exception:
+            council = CouncilAggregator(llm=llm)
         prime_engine = PrimeDecisionEngine(prime_decider=prime)
         decision_pipeline = DecisionPipelineEngine.create(llm=llm, prime_decider=prime, risk_threshold=0.7)
         brain = PersonaBrain()
@@ -100,8 +115,12 @@ def _make_feedback_loop() -> Any:
     try:
         from persona.learning.episodic_memory import EpisodicMemory
         from persona.learning.outcome_feedback import OutcomeFeedbackLoop
-        mem = EpisodicMemory(storage_path=":memory:")
-        return OutcomeFeedbackLoop(episodic_memory=mem)
+        mem = _components.get("episodic_memory")
+        if mem is None:
+            mem = EpisodicMemory(storage_path=":memory:")
+            _components["episodic_memory"] = mem
+        council = _components.get("council")
+        return OutcomeFeedbackLoop(council=council, episodic_memory=mem)
     except Exception:
         return None
 
@@ -114,6 +133,8 @@ class Session:
     user_id: Optional[str] = None
     profile: Optional[Any] = None
     feedback_loop: Optional[Any] = dc_field(default_factory=_make_feedback_loop)
+    session_manager: Optional[Any] = dc_field(default=None)
+    pm_session: Optional[Any] = dc_field(default=None)
 
 def _make_state() -> CognitiveState:
     s = CognitiveState()
@@ -124,7 +145,12 @@ _sessions: Dict[str, Session] = {}
 
 def _get_or_create_session(session_id: str) -> Session:
     if session_id not in _sessions:
-        _sessions[session_id] = Session()
+        try:
+            from persona.session_manager import SessionManager
+            sm = SessionManager(storage_dir="data/sessions")
+        except Exception:
+            sm = None
+        _sessions[session_id] = Session(session_manager=sm)
     return _sessions[session_id]
 
 
@@ -193,6 +219,155 @@ def _assess_situation_sync(llm: Any, user_input: str) -> Dict[str, Any]:
 
 
 def _process_turn(state: CognitiveState, user_input: str) -> tuple[str, list[dict], str]:
+    """Process a user turn through the 11-stage DecisionPipelineEngine."""
+    llm = _components["llm"]
+    pipeline = _components.get("decision_pipeline")
+    fallback_notices: list[str] = []
+
+    # ── Run the 11-stage pipeline ──────────────────────────────────────────
+    if pipeline is not None:
+        try:
+            result = pipeline.run(
+                user_input=user_input,
+                requested_mode=state.mode if state.mode != "meeting" else None,
+                routing_context={"domains": list(state.domains) if state.domains else []},
+                metadata={"session_state": "active"},
+            )
+
+            # Extract response from pipeline result
+            response = _extract_response_from_pipeline(result, llm, state, user_input)
+            deliberation_depth = result.mode_resolution.mode if result.mode_resolution else state.mode
+            domains = result.domain_analysis_contract.domains if result.domain_analysis_contract else list(state.domains)
+            domain_confidence = result.domain_analysis_contract.domain_confidence if result.domain_analysis_contract else 0.0
+            entries_used = _extract_entries_from_pipeline(result)
+
+            # Update state from pipeline results
+            if domains:
+                state.domains = domains
+            state.domain_confidence = domain_confidence
+            state.last_situation = {
+                "situation_type": "pipeline_resolved",
+                "clarity": float(domain_confidence),
+                "emotional_load": 0.0,
+            }
+
+            # Collect fallback notices from pipeline errors
+            if result.pipeline_issues:
+                for issue in result.pipeline_issues:
+                    if hasattr(issue, "message"):
+                        fallback_notices.append(str(issue.message))
+
+        except Exception as e:
+            # Pipeline failed — fall through to legacy path
+            fallback_notices.append(f"Pipeline failed ({type(e).__name__}: {e}); using legacy path.")
+            response, entries_used, deliberation_depth = _process_turn_legacy(state, user_input)
+    else:
+        # No pipeline — legacy path
+        response, entries_used, deliberation_depth = _process_turn_legacy(state, user_input)
+
+    # ── Append fallback notices ─────────────────────────────────────────────
+    if fallback_notices:
+        unique_notices = sorted(list(set(fallback_notices)))
+        response += "\n\n⚠️ **[SYSTEM NOTICE]**: " + "; ".join(unique_notices)
+
+    # ── Update state ────────────────────────────────────────────────────────
+    state.recent_turns.append((user_input, response))
+    if len(state.recent_turns) > 50:
+        state.recent_turns = state.recent_turns[-50:]
+    state.turn_count += 1
+
+    # ── Background: episodic memory + pattern feedback ──────────────────────
+    try:
+        from persona.learning.episodic_memory import EpisodicMemory, Episode
+        mem = _components.get("episodic_memory")
+        if mem is None:
+            mem = EpisodicMemory(storage_path=":memory:")
+            _components["episodic_memory"] = mem
+        ep = Episode(
+            episode_id=None,
+            turn_id=state.turn_count,
+            domain=(state.domains[0] if state.domains else "general"),
+            user_input=user_input[:200],
+            persona_recommendation=str(response)[:200],
+            confidence=float(state.domain_confidence or 0.5),
+            minister_stance=deliberation_depth,
+            council_recommendation=deliberation_depth,
+        )
+        mem.store_episode(ep)
+        _executor.submit(_bg_pattern_feedback, mem)
+    except Exception:
+        pass
+
+    # ── Background: ML recording ────────────────────────────────────────────
+    ml_orch = _components.get("ml_orchestrator")
+    if ml_orch is not None:
+        try:
+            _executor.submit(ml_orch.process_decision, user_input)
+        except Exception:
+            pass
+
+    return response, entries_used, deliberation_depth
+
+
+def _extract_response_from_pipeline(result, llm, state, user_input: str) -> str:
+    """Extract the final response text from a DecisionPipelineResult."""
+    # Priority 1: decision_package has a response or advisory_dialogue
+    if result.decision_package:
+        resp = result.decision_package.get("response") or result.decision_package.get("advisory_dialogue")
+        if resp:
+            return str(resp)
+
+    # Priority 2: council_result has advisory_dialogue
+    if result.council_result:
+        resp = result.council_result.get("advisory_dialogue")
+        if resp:
+            return str(resp)
+
+    # Priority 3: final_decision has recommendation text
+    if result.final_decision:
+        resp = result.final_decision.get("recommendation")
+        if resp and resp != "defer":
+            return str(resp)
+
+    # Priority 4: If council was invoked and has minister outputs, synthesize a response
+    if result.council_result and result.council_result.get("minister_outputs"):
+        ministers = result.council_result["minister_outputs"]
+        outcome = result.council_result.get("outcome", "deadlocked")
+        consensus = result.council_result.get("consensus_strength", 0.0)
+        # Build a brief summary of minister positions
+        parts = []
+        for name, output in ministers.items():
+            if isinstance(output, dict):
+                stance = output.get("stance", "neutral")
+                reasoning = output.get("reasoning", "")
+                if reasoning:
+                    parts.append(f"**{name}** ({stance}): {str(reasoning)[:200]}")
+        if parts:
+            header = f"**Council deliberation** — outcome: {outcome}, consensus: {consensus:.0%}\n\n"
+            return header + "\n\n".join(parts)
+
+    # Fallback: direct LLM speak with system context
+    system_context = build_system_context(state)
+    return llm.speak(system_context, user_input)
+
+
+def _extract_entries_from_pipeline(result) -> list[dict]:
+    """Extract knowledge entries used from pipeline result."""
+    entries: list[dict] = []
+    if result.knowledge_contract and result.knowledge_contract.synthesized_items:
+        for item in result.knowledge_contract.synthesized_items:
+            if isinstance(item, dict):
+                entries.append({
+                    "entry_id": item.get("aku_id", ""),
+                    "domain": item.get("_domain", ""),
+                    "category": (item.get("type", "principle") or "principle") + "s",
+                    "content_preview": str(item.get("content", ""))[:80],
+                })
+    return entries
+
+
+def _process_turn_legacy(state: CognitiveState, user_input: str) -> tuple[str, list[dict], str]:
+    """Legacy ad-hoc pipeline (fallback when DecisionPipelineEngine is unavailable)."""
     llm = _components["llm"]
 
     raw_sit = _assess_situation_sync(llm, user_input)
@@ -205,7 +380,6 @@ def _process_turn(state: CognitiveState, user_input: str) -> tuple[str, list[dic
     }
     state.last_emotional_load = state.last_situation["emotional_load"]
 
-    # Tiered deliberation depth: stakes = emotional_load × (1 - clarity)
     emotional_load = float(raw_sit.get("emotional_load", 0.0))
     clarity = float(raw_sit.get("clarity", 0.5))
     stakes = emotional_load * (1.0 - clarity)
@@ -223,7 +397,7 @@ def _process_turn(state: CognitiveState, user_input: str) -> tuple[str, list[dic
     )
     state.user_frequency = freq  # type: ignore[attr-defined]
 
-    # KIS retrieval — capture entries for feedback loop
+    kis: dict = {}
     entries_used: list[dict] = []
     if state.domains:
         try:
@@ -243,26 +417,20 @@ def _process_turn(state: CognitiveState, user_input: str) -> tuple[str, list[dic
             pass
 
     system_context = build_system_context(state)
-    response = llm.speak(system_context, user_input)
+    council = _components.get("council")
+    c_res: dict = {}
 
-    state.recent_turns.append((user_input, response))
-    if len(state.recent_turns) > 50:
-        state.recent_turns = state.recent_turns[-50:]
-    state.turn_count += 1
-
-    if state.domains:
+    if deliberation_depth in ("meeting", "darbar") and council is not None:
         try:
-            _executor.submit(_bg_kis, state, user_input)
-        except Exception:
-            pass
-
-    # Background ML recording — non-blocking, never raises
-    ml_orch = _components.get("ml_orchestrator")
-    if ml_orch is not None:
-        try:
-            _executor.submit(ml_orch.process_decision, user_input)
-        except Exception:
-            pass
+            c_res = council.deliberate(user_input, {"domains": state.domains or ["general"], "mode": deliberation_depth})
+            if isinstance(c_res, dict) and c_res.get("advisory_dialogue"):
+                response = c_res["advisory_dialogue"]
+            else:
+                response = llm.speak(system_context, user_input)
+        except Exception as e:
+            response = llm.speak(system_context, user_input)
+    else:
+        response = llm.speak(system_context, user_input)
 
     return response, entries_used, deliberation_depth
 
@@ -275,6 +443,38 @@ def _bg_kis(state: CognitiveState, user_input: str) -> None:
             domain_confidence=max(state.domain_confidence, 0.5),
         )
         state.background_knowledge = kis  # type: ignore[assignment]
+    except Exception:
+        pass
+
+
+def _bg_pattern_feedback(mem) -> None:
+    """Extract patterns from episodic memory and feed weak domains back into minister confidence."""
+    try:
+        from ml.pattern_extraction import PatternExtractor
+        from persona.learning.minister_confidence import MinisterConfidenceTracker
+
+        extractor = PatternExtractor(episodic_memory=mem)
+        extractor.extract_patterns(num_episodes=100)
+        signals = extractor.generate_learning_signals()
+
+        weak_domains = signals.get("weak_domains", [])
+        if not weak_domains:
+            return
+
+        tracker = MinisterConfidenceTracker(storage_path="data/memory/minister_confidence.json")
+        ministers = ["risk", "grand_strategist", "optionality", "psychology", "timing"]
+
+        for weak in weak_domains:
+            domain = weak.get("domain", "")
+            success_rate = weak.get("success_rate", 1.0)
+            if success_rate >= 0.5:
+                continue
+            # Penalize all ministers for this weak domain
+            for minister in ministers:
+                tracker.record_outcome(minister, domain, success=False)
+
+        # Save patterns for diagnostics
+        extractor.save_patterns("ml/cache/extracted_patterns.json")
     except Exception:
         pass
 
@@ -340,6 +540,28 @@ def chat(req: ChatRequest) -> ChatResponse:
             session.profile.update_themes(list(state.domains))
             session.profile.last_active = _dt.datetime.now(_dt.timezone.utc).isoformat()
             save_profile(session.profile)
+        except Exception:
+            pass
+
+    # SessionManager — start session on first turn, record each turn
+    if session.session_manager is not None:
+        try:
+            if session.pm_session is None:
+                session.pm_session = session.session_manager.start_session(
+                    problem_statement=req.message.strip()[:500],
+                    domains=list(state.domains),
+                    domain_confidence=float(state.domain_confidence),
+                    stakes="medium",
+                    reversibility="partially_reversible",
+                )
+            session.session_manager.add_turn(
+                mode=state.mode,
+                user_input=req.message.strip()[:200],
+                council_positions=[deliberation_depth],
+                prime_decision=response[:200],
+                kis_items=[e.get("entry_id", "") for e in entries_used],
+                confidence=float(state.domain_confidence),
+            )
         except Exception:
             pass
 
@@ -423,9 +645,10 @@ def submit_feedback(req: FeedbackRequest) -> Dict[str, Any]:
             updated += 1
 
     session = _sessions.get(req.session_id)
-    if session and hasattr(session.state, "episodic_memory"):
+    mem = _components.get("episodic_memory")
+    if mem:
         try:
-            session.state.episodic_memory.update_outcome_for_turn(req.turn, "success" if req.helpful else "failure")
+            mem.update_outcome_for_turn(req.turn, "success" if req.helpful else "failure")
         except Exception:
             pass
 
@@ -508,3 +731,54 @@ def export_obsidian(req: ObsidianExportRequest) -> Dict[str, Any]:
         raise HTTPException(status_code=500, detail=f"Export failed: {e}")
 
     return result
+
+
+class SimulateRequest(BaseModel):
+    problem: str
+    turns: int = 5
+    user_id: Optional[str] = None
+
+
+@app.post("/simulate")
+def simulate(req: SimulateRequest) -> Dict[str, Any]:
+    """Run a multi-turn HSE simulation: synthetic human vs persona advisor."""
+    try:
+        _init_components()
+    except RuntimeError as e:
+        raise HTTPException(status_code=503, detail=str(e))
+
+    try:
+        from hse.human_profile import SyntheticHuman
+        from hse.simulation.synthetic_human_sim import SyntheticHumanSimulation
+        from persona.state import CognitiveState
+        from persona.context import build_system_context
+        from persona.analysis import classify_situation_single_call
+
+        llm = _components["llm"]
+        human = SyntheticHuman(name="Test Subject", age=32, seed=42)
+        sim = SyntheticHumanSimulation(human, user_llm=llm)
+
+        state = CognitiveState()
+        state.mode = "meeting"
+        conversation: list[dict] = []
+
+        user_input = req.problem
+        for turn in range(req.turns):
+            classified = classify_situation_single_call(llm, user_input)
+            state.domains = classified.get("domains", ["general"])
+            state.domain_confidence = classified.get("domain_confidence", 0.5)
+
+            system_context = build_system_context(state)
+            response = llm.speak(system_context, user_input)
+
+            conversation.append({"turn": turn + 1, "human": user_input, "persona": response})
+
+            user_input = sim.generate_next_input(response, {"domains": state.domains})
+
+        return {
+            "problem": req.problem,
+            "turns_run": len(conversation),
+            "conversation": conversation,
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Simulation failed: {e}")
