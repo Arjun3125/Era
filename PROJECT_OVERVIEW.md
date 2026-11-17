@@ -240,7 +240,7 @@ ml/cache/
 
 ## Test Suite
 
-**452 tests collected** across 30+ test files:
+**455 tests collected** across 30+ test files:
 
 | File | What it covers |
 |---|---|
@@ -283,4 +283,4 @@ curl -X POST http://localhost:8765/feedback \
 - **Reachable from api.py or persona/main.py:** ~145
 - **Intentionally separate (scripts, training, ingestion):** ~50
 - **Dead code:** 0 — all root stubs serve tests or the ingestion pipeline
-- **Tests:** 452 collected
+- **Tests:** 455 collected

@@ -393,22 +393,27 @@ def main():
     
     print("[MAIN] Initializing LLM runtime...", file=sys.stderr, flush=True)
     
-    # Instantiate LLM runtime: OpenRouter → sovereign adapter
-    try:
-        from .openrouter_runtime import OpenRouterRuntime
-        print("[MAIN] Trying OpenRouterRuntime...", file=sys.stderr, flush=True)
-        llm = OpenRouterRuntime()
-        print("[MAIN] OpenRouterRuntime initialized", file=sys.stderr, flush=True)
-    except Exception as e:
-        print(f"[MAIN] OpenRouterRuntime failed: {e}", file=sys.stderr, flush=True)
+    # Instantiate LLM runtime: OpenCode server (explicit) → OpenRouter → sovereign adapter
+    if os.getenv("ERA_LLM_PROVIDER", "").lower() in {"opencode", "opencode_server"}:
+        from .opencode_runtime import OpenCodeRuntime
+        print("[MAIN] Using OpenCodeRuntime (local opencode server)", file=sys.stderr, flush=True)
+        llm = OpenCodeRuntime()
+    else:
         try:
-            from sovereign.llm_adapter import OllamaAdapter
-            print("[MAIN] Trying OllamaAdapter...", file=sys.stderr, flush=True)
-            llm = OllamaAdapter()
-            print("[MAIN] OllamaAdapter initialized", file=sys.stderr, flush=True)
+            from .openrouter_runtime import OpenRouterRuntime
+            print("[MAIN] Trying OpenRouterRuntime...", file=sys.stderr, flush=True)
+            llm = OpenRouterRuntime()
+            print("[MAIN] OpenRouterRuntime initialized", file=sys.stderr, flush=True)
         except Exception as e:
-            print("FATAL: No LLM runtime available:", e)
-            sys.exit(1)
+            print(f"[MAIN] OpenRouterRuntime failed: {e}", file=sys.stderr, flush=True)
+            try:
+                from sovereign.llm_adapter import OllamaAdapter
+                print("[MAIN] Trying OllamaAdapter...", file=sys.stderr, flush=True)
+                llm = OllamaAdapter()
+                print("[MAIN] OllamaAdapter initialized", file=sys.stderr, flush=True)
+            except Exception as e:
+                print("FATAL: No LLM runtime available:", e)
+                sys.exit(1)
     
     # Initialize MCA components
     print("[MAIN] Initializing council and orchestrators...", file=sys.stderr, flush=True)

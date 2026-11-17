@@ -1,5 +1,6 @@
 """LLM interaction utilities used by refactored entrypoints."""
 
+from persona.opencode_runtime import OpenCodeRuntime
 from persona.openrouter_runtime import OpenRouterRuntime
 
 try:  # Optional: ingestion-specific client
@@ -10,4 +11,4 @@ except Exception:  # pragma: no cover - fallback for minimal installs
     except Exception:
         OllamaClient = None  # type: ignore
 
-__all__ = ["OpenRouterRuntime", "OllamaClient"]
+__all__ = ["OpenCodeRuntime", "OpenRouterRuntime", "OllamaClient"]

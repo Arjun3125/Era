@@ -60,11 +60,17 @@ def _init_components() -> None:
     with _init_lock:
         if _components:      # re-check inside lock
             return
-        # Try LLM runtimes: OpenRouter (cloud) → sovereign adapter
+        # Try LLM runtimes: OpenCode server (explicit) → OpenRouter (cloud) → sovereign adapter
         llm = None
 
+        # 0. OpenCode server (local `opencode serve`) — set ERA_LLM_PROVIDER=opencode_server
+        if os.getenv("ERA_LLM_PROVIDER", "").lower() in {"opencode", "opencode_server"}:
+            from persona.opencode_runtime import OpenCodeRuntime
+            llm = OpenCodeRuntime()
+            print(f"[ERA] Using OpenCode server: {llm.speak_model}")
+
         # 1. OpenRouter (cloud) — if API key is set
-        if os.getenv("OPENROUTER_API_KEY"):
+        if llm is None and os.getenv("OPENROUTER_API_KEY"):
             try:
                 from persona.openrouter_runtime import OpenRouterRuntime
                 llm = OpenRouterRuntime()

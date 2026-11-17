@@ -53,6 +53,38 @@ CLI single-shot:
 python run_refactored.py --input "Should we delay the release for compliance review?"
 ```
 
+## LLM Providers
+
+Three runtime options, selected at startup:
+
+- `ERA_LLM_PROVIDER=opencode_server` — local OpenCode server (free-tier models, no API key)
+- `OPENROUTER_API_KEY` set — OpenRouter cloud models
+- neither — local Ollama via `sovereign.llm_adapter.OllamaAdapter`
+
+OpenCode setup — one command:
+
+```powershell
+.\scripts\run_opencode.ps1
+```
+
+It starts `opencode serve` on port 9467 with a generated password, wires the
+environment, and launches the API on port 8765. To start the pieces by hand:
+
+```powershell
+$env:OPENCODE_SERVER_PASSWORD="<password>"
+opencode serve --port 9467 --hostname 127.0.0.1
+# in another shell:
+$env:ERA_LLM_PROVIDER="opencode_server"
+$env:OPENCODE_SERVER_URL="http://127.0.0.1:9467"
+$env:OPENCODE_SERVER_PASSWORD="<password>"
+$env:OPENCODE_MODEL="deepseek-v4.1-flash-free"
+```
+
+Direct HTTP calls to the OpenCode free tier are rejected; the adapter goes through
+the official server session API (`persona/opencode_runtime.py`). The server must
+run with plugins disabled or it can crash on generation, so start it with a clean
+config directory plus `OPENCODE_DISABLE_DEFAULT_PLUGINS=1`.
+
 ## Supported Modes
 
 - `quick`
@@ -73,7 +105,7 @@ python run_refactored.py --input "We need a final high-stakes ruling" --mode dar
 - [`modules/`](modules): pipeline stage implementations
 - [`persona/`](persona): knowledge engine, minister voice, user profiles, episodic memory
 - [`data/`](data): minister JSON files, doctrine YAMLs, memory stores
-- [`tests/`](tests): 86 test files, 452 tests
+- [`tests/`](tests): 86 test files, 455 tests
 - [`documentation/`](documentation): technical docs, retained audits, cleanup notes
 
 ## Key Files
@@ -118,7 +150,7 @@ Focused pipeline tests:
 pytest tests/test_decision_pipeline_engine.py tests/test_no_legacy_pipeline_imports.py -q
 ```
 
-Full test suite (452 tests):
+Full test suite (455 tests):
 
 ```bash
 pytest tests/ -v
