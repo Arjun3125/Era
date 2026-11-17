@@ -85,6 +85,22 @@ the official server session API (`persona/opencode_runtime.py`). The server must
 run with plugins disabled or it can crash on generation, so start it with a clean
 config directory plus `OPENCODE_DISABLE_DEFAULT_PLUGINS=1`.
 
+### When the free quota runs out
+
+Completed LLM calls are cached in `data/llm_cache/` and the failed turn is queued
+in `data/llm_queue/`. `/chat` returns HTTP 503 with `quota_exhausted: true` and a
+`queued_job` id. After the quota resets, `POST /resume` (or the background retry,
+every 15 minutes by default) replays the turn: cached minister calls cost nothing,
+only unfinished calls run. A resumed turn continues from the failed call instead
+of restarting the council.
+
+```bash
+curl -X POST http://127.0.0.1:8765/resume
+```
+
+Tune with `ERA_LLM_CACHE_TTL_SECONDS` (0 disables caching) and
+`ERA_RESUME_INTERVAL_SECONDS` (0 disables automatic retry).
+
 ## Supported Modes
 
 - `quick`
@@ -105,7 +121,7 @@ python run_refactored.py --input "We need a final high-stakes ruling" --mode dar
 - [`modules/`](modules): pipeline stage implementations
 - [`persona/`](persona): knowledge engine, minister voice, user profiles, episodic memory
 - [`data/`](data): minister JSON files, doctrine YAMLs, memory stores
-- [`tests/`](tests): 86 test files, 455 tests
+- [`tests/`](tests): 87 test files, 459 tests
 - [`documentation/`](documentation): technical docs, retained audits, cleanup notes
 
 ## Key Files
@@ -150,7 +166,7 @@ Focused pipeline tests:
 pytest tests/test_decision_pipeline_engine.py tests/test_no_legacy_pipeline_imports.py -q
 ```
 
-Full test suite (455 tests):
+Full test suite (459 tests):
 
 ```bash
 pytest tests/ -v

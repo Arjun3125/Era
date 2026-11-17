@@ -14,6 +14,8 @@ from typing import Any, Dict, List, Mapping, Optional
 
 from core.contracts import DomainAnalysisContract
 
+from persona.llm_errors import QuotaExhaustedError
+
 _VALID_STAKES = {"low", "medium", "high"}
 _VALID_REVERSIBILITY = {
     "fully_reversible",
@@ -571,6 +573,8 @@ def _native_attempt_llm_analysis(*, llm_adapter: Any, user_input: str) -> Dict[s
             )
             result = llm_adapter.analyze(prompt=prompt, user_input=user_input)  # type: ignore[call-arg]
             return dict(result) if isinstance(result, Mapping) else None
+    except QuotaExhaustedError:
+        raise
     except Exception:
         return None
     return None

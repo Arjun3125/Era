@@ -17,6 +17,8 @@ from core.contracts import (
 
 from .engine import CouncilExecutionEngine
 
+from persona.llm_errors import QuotaExhaustedError
+
 
 def _coerce_iterable_items(value: Any, *, preserve_partial: bool) -> tuple[list[Any], bool]:
     try:
@@ -121,6 +123,8 @@ class CouncilExecutionModule(ModulePlugin):
                 context=routing_context,
                 selected_ministers=selected_ministers,
             )
+        except QuotaExhaustedError:
+            raise
         except Exception as exc:  # pragma: no cover - defensive branch
             message = f"{type(exc).__name__}: {exc}"
             fallback_contract = CouncilContract(

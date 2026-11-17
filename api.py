@@ -10,6 +10,7 @@ Or from project root:
 from __future__ import annotations
 
 import os
+import time
 import uuid
 from concurrent.futures import ThreadPoolExecutor, TimeoutError
 from typing import Any, Dict, Optional
@@ -26,6 +27,8 @@ from persona.knowledge_engine import synthesize_knowledge
 from persona.council import CouncilAggregator
 from persona.modes.mode_orchestrator import ModeOrchestrator
 from persona.council.dynamic_council import DynamicCouncil
+from persona.llm_errors import QuotaExhaustedError
+from persona import llm_resume
 from sovereign.prime_confident import PrimeConfident
 from modules.decision_pipeline import DecisionPipelineEngine
 from modules.prime_decision import PrimeDecisionEngine
@@ -113,6 +116,7 @@ def _init_components() -> None:
             ml_orchestrator=ml_orchestrator,
         )
         _init_error = None
+        _ensure_resume_worker()
 
 
 # ── Session store ──────────────────────────────────────────────────────────────
@@ -263,6 +267,8 @@ def _process_turn(state: CognitiveState, user_input: str) -> tuple[str, list[dic
                     if hasattr(issue, "message"):
                         fallback_notices.append(str(issue.message))
 
+        except QuotaExhaustedError:
+            raise  # keep finished council work; the turn is queued for later
         except Exception as e:
             # Pipeline failed — fall through to legacy path
             fallback_notices.append(f"Pipeline failed ({type(e).__name__}: {e}); using legacy path.")
@@ -433,6 +439,8 @@ def _process_turn_legacy(state: CognitiveState, user_input: str) -> tuple[str, l
                 response = c_res["advisory_dialogue"]
             else:
                 response = llm.speak(system_context, user_input)
+        except QuotaExhaustedError:
+            raise
         except Exception as e:
             response = llm.speak(system_context, user_input)
     else:
@@ -496,16 +504,7 @@ def health() -> Dict[str, str]:
     return {"status": "starting"}
 
 
-@app.post("/chat", response_model=ChatResponse)
-def chat(req: ChatRequest) -> ChatResponse:
-    if not req.message.strip():
-        raise HTTPException(status_code=400, detail="message must not be empty")
-    try:
-        _init_components()
-    except RuntimeError as e:
-        raise HTTPException(status_code=503, detail=str(e))
-
-    session_id = req.session_id or str(uuid.uuid4())
+def _run_turn(req: ChatRequest, session_id: str) -> ChatResponse:
     session = _get_or_create_session(session_id)
     state = session.state
     mo = session.mode_orchestrator
@@ -581,6 +580,104 @@ def chat(req: ChatRequest) -> ChatResponse:
         entries_used=entries_used,
         deliberation_depth=deliberation_depth,
     )
+
+
+_resume_worker_lock = threading.Lock()
+_resume_worker_started = False
+
+
+def _ensure_resume_worker() -> None:
+    """Retry queued turns in the background every ERA_RESUME_INTERVAL_SECONDS."""
+    global _resume_worker_started
+    try:
+        interval = int(os.getenv("ERA_RESUME_INTERVAL_SECONDS", "900"))
+    except ValueError:
+        interval = 900
+    if interval <= 0:
+        return
+    with _resume_worker_lock:
+        if _resume_worker_started:
+            return
+        _resume_worker_started = True
+
+    def loop() -> None:
+        while True:
+            time.sleep(interval)
+            try:
+                if llm_resume.load_pending():
+                    resume_pending()
+            except Exception:
+                pass
+
+    threading.Thread(target=loop, name="era-llm-resume", daemon=True).start()
+
+
+def resume_pending() -> dict:
+    """Replay queued turns. Cached LLM calls make finished work free."""
+    resumed = []
+    quota_error = None
+    for job in llm_resume.load_pending():
+        job_id = job.get("id", "")
+        try:
+            response = _run_turn(
+                ChatRequest(
+                    message=job["message"],
+                    session_id=job["session_id"],
+                    mode=job.get("mode"),
+                    user_id=job.get("user_id"),
+                ),
+                job["session_id"],
+            )
+        except QuotaExhaustedError as exc:
+            llm_resume.mark_attempt(job_id, str(exc))
+            quota_error = str(exc)
+            break
+        except Exception as exc:
+            llm_resume.mark_attempt(job_id, f"{type(exc).__name__}: {exc}")
+            continue
+        else:
+            llm_resume.remove_turn(job_id)
+            resumed.append({"job_id": job_id, "ok": True, "turn": response.turn, "mode": response.mode})
+    return {
+        "resumed": resumed,
+        "remaining": len(llm_resume.load_pending()),
+        "quota_exhausted": quota_error is not None,
+        "error": quota_error,
+    }
+
+
+@app.post("/chat", response_model=ChatResponse)
+def chat(req: ChatRequest) -> ChatResponse:
+    if not req.message.strip():
+        raise HTTPException(status_code=400, detail="message must not be empty")
+    try:
+        _init_components()
+    except RuntimeError as e:
+        raise HTTPException(status_code=503, detail=str(e))
+
+    session_id = req.session_id or str(uuid.uuid4())
+    try:
+        return _run_turn(req, session_id)
+    except QuotaExhaustedError as exc:
+        job = llm_resume.enqueue_turn(session_id, req.message.strip(), req.mode, req.user_id)
+        raise HTTPException(
+            status_code=503,
+            detail={
+                "quota_exhausted": True,
+                "queued_job": job["id"],
+                "message": str(exc),
+                "resume": "POST /resume retries queued turns and reuses cached LLM calls",
+            },
+        )
+
+
+@app.post("/resume")
+def resume() -> Dict[str, Any]:
+    try:
+        _init_components()
+    except RuntimeError as e:
+        raise HTTPException(status_code=503, detail=str(e))
+    return resume_pending()
 
 
 @app.post("/mode")

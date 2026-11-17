@@ -15,6 +15,8 @@ from core.contracts import (
     ModuleStatus,
 )
 
+from persona.llm_errors import QuotaExhaustedError
+
 from .engine import DomainAnalysisEngine
 
 _TRUTHY = {"1", "true", "yes", "on"}
@@ -170,6 +172,8 @@ class DomainAnalysisModule(ModulePlugin):
                 },
                 errors=warnings,
             )
+        except QuotaExhaustedError:
+            raise
         except Exception as exc:  # pragma: no cover - defensive branch
             fallback = DomainAnalysisContract(
                 domains=["strategy"],

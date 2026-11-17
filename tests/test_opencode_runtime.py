@@ -53,7 +53,8 @@ class _FakeOpenCodeServer(BaseHTTPRequestHandler):
 
 
 @pytest.fixture()
-def fake_server():
+def fake_server(tmp_path, monkeypatch):
+    monkeypatch.setenv("ERA_LLM_CACHE_PATH", str(tmp_path / "cache.jsonl"))
     _FakeOpenCodeServer.requests = []
     _FakeOpenCodeServer.generate_status = 200
     _FakeOpenCodeServer.generate_body = None
@@ -98,13 +99,39 @@ def test_speak_keeps_history(fake_server):
     assert "second question" in prompt
 
 
-def test_free_usage_limit_is_not_retried(fake_server):
+def test_free_usage_limit_raises_quota_error_without_retry(fake_server):
+    from persona.llm_errors import QuotaExhaustedError
+
     _FakeOpenCodeServer.generate_status = 503
     _FakeOpenCodeServer.generate_body = {"message": "Free usage limit reached. Subscribe to OpenCode Go."}
     llm = _runtime(fake_server)
 
-    result = llm.analyze("SYSTEM", "USER")
-    assert "Free usage limit" in result
+    with pytest.raises(QuotaExhaustedError, match="Free usage limit"):
+        llm.analyze("SYSTEM", "USER")
 
     generates = [r for r in _FakeOpenCodeServer.requests if r["path"].endswith("/generate")]
     assert len(generates) == 1
+
+
+def test_completed_calls_are_reused_after_quota_failure(fake_server, tmp_path, monkeypatch):
+    from persona.llm_errors import QuotaExhaustedError
+
+    monkeypatch.setenv("ERA_LLM_CACHE_TTL_SECONDS", "3600")
+    llm = _runtime(fake_server)
+
+    assert llm.analyze("SYSTEM", "FIRST") == "OK"
+    assert llm.analyze("SYSTEM", "FIRST") == "OK"
+    assert len([r for r in _FakeOpenCodeServer.requests if r["path"].endswith("/generate")]) == 1
+
+    _FakeOpenCodeServer.generate_status = 503
+    _FakeOpenCodeServer.generate_body = {"message": "Free usage limit reached."}
+    with pytest.raises(QuotaExhaustedError):
+        llm.analyze("SYSTEM", "SECOND")
+
+    _FakeOpenCodeServer.generate_status = 200
+    _FakeOpenCodeServer.generate_body = None
+    assert llm.analyze("SYSTEM", "SECOND") == "OK"
+    assert llm.analyze("SYSTEM", "FIRST") == "OK"
+
+    generates = [r for r in _FakeOpenCodeServer.requests if r["path"].endswith("/generate")]
+    assert len(generates) == 3

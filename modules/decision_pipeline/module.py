@@ -32,6 +32,8 @@ from core.contracts import (
 
 from .engine import DecisionPipelineEngine
 
+from persona.llm_errors import QuotaExhaustedError
+
 
 def _coerce_iterable_items(value: Any, *, preserve_partial: bool) -> tuple[list[Any], bool]:
     try:
@@ -165,6 +167,8 @@ class DecisionPipelineModule(ModulePlugin):
                 pipeline_result_raw,
                 requested_mode=requested_mode,
             )
+        except QuotaExhaustedError:
+            raise
         except Exception as exc:  # pragma: no cover - defensive guard
             message = f"{type(exc).__name__}: {exc}"
             pipeline_result_raw = {

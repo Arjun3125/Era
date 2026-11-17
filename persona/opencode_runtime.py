@@ -29,12 +29,24 @@ import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
+from persona.llm_errors import QuotaExhaustedError
+from persona.llm_resume import cache_get, cache_put
+
 executor = ThreadPoolExecutor(max_workers=4)
 
 DEFAULT_URL = "http://127.0.0.1:9467"
 DEFAULT_MODEL = "deepseek-v4.1-flash-free"
 DEFAULT_MODEL_PROVIDER = "opencode"
 PROVIDER_NAME = "opencode_server"
+
+_QUOTA_MARKERS = (
+    "free usage limit",
+    "free tier",
+    "freetiererror",
+    "quota",
+    "subscribe to opencode go",
+    "usage limit",
+)
 
 
 class OpenCodeRuntime:
@@ -74,7 +86,15 @@ class OpenCodeRuntime:
         return json.loads(body) if body.strip() else {}
 
     def _generate(self, prompt, model):
-        """Create a session, run one transient generation, delete the session."""
+        """Create a session, run one transient generation, delete the session.
+
+        Successful text is cached first: after a quota failure, replaying the
+        same turn reuses finished calls and only retries the missing ones.
+        """
+        cached = cache_get(model, prompt)
+        if cached is not None:
+            return cached
+
         session = self._request(
             "POST",
             "/api/session",
@@ -95,7 +115,16 @@ class OpenCodeRuntime:
         text = (result.get("data") or {}).get("text")
         if not isinstance(text, str) or not text.strip():
             raise RuntimeError("OpenCode server returned empty text")
-        return text.strip()
+        text = text.strip()
+        cache_put(model, prompt, text)
+        return text
+
+    @staticmethod
+    def _is_quota_body(status, body):
+        if status not in {403, 429, 503}:
+            return False
+        lowered = body.lower()
+        return any(marker in lowered for marker in _QUOTA_MARKERS)
 
     @staticmethod
     def _should_retry(exc):
@@ -110,11 +139,17 @@ class OpenCodeRuntime:
                 return self._generate(prompt, model)
             except urllib.error.HTTPError as exc:
                 body = exc.read().decode("utf-8", errors="replace")[:300]
+                if self._is_quota_body(exc.code, body):
+                    raise QuotaExhaustedError(
+                        f"OpenCode free quota exhausted (HTTP {exc.code}): {body}"
+                    ) from exc
                 err = RuntimeError(f"OpenCode server API error {exc.code}: {body}")
                 if attempt == 0 and self._should_retry(err):
                     time.sleep(1.0)
                     continue
                 raise err
+            except QuotaExhaustedError:
+                raise
             except Exception as exc:
                 if attempt == 0 and self._should_retry(exc):
                     time.sleep(1.0)
@@ -128,6 +163,8 @@ class OpenCodeRuntime:
         prompt = f"{system_prompt}\n\n{user_prompt}"
         try:
             return self._call(self.analyze_model, prompt)
+        except QuotaExhaustedError:
+            raise  # caller trims the turn and queues it; never degrade to a fake answer
         except Exception as e:
             if self.fail_fast_errors:
                 raise RuntimeError(f"OpenCode analyze() failed: {e}") from e
@@ -138,33 +175,35 @@ class OpenCodeRuntime:
 
     def speak(self, system_context, user_input):
         """Primary speak handshake — user-visible. Blocking."""
-        if self.messages and self.messages[0].get("role") == "system":
-            self.messages[0]["content"] = system_context
-        else:
-            self.messages.insert(0, {"role": "system", "content": system_context})
-        self.messages.append({"role": "user", "content": user_input})
-
-        max_msgs = 1 + (self.max_pairs * 2)
-        if len(self.messages) > max_msgs:
-            self.messages = [self.messages[0]] + self.messages[-(max_msgs - 1):]
+        history = [
+            dict(msg) for msg in self.messages
+            if msg.get("role") in {"user", "assistant"}
+        ]
+        history.append({"role": "user", "content": user_input})
+        max_history = self.max_pairs * 2
+        if len(history) > max_history:
+            history = history[-max_history:]
 
         lines = []
-        for msg in self.messages[1:]:
+        for msg in history:
             speaker = "User" if msg["role"] == "user" else "Assistant"
             lines.append(f"{speaker}: {msg['content']}")
         prompt = f"{system_context}\n\n" + "\n\n".join(lines)
 
         try:
             assistant_text = self._call(self.speak_model, prompt)
+        except QuotaExhaustedError:
+            raise  # history stays untouched, so a retry does not duplicate the turn
         except Exception as e:
             if self.fail_fast_errors:
                 raise RuntimeError(f"OpenCode speak() failed: {e}") from e
             assistant_text = f"[LLM speak error: {e}]"
 
-        self.messages.append({"role": "assistant", "content": assistant_text})
-        if len(self.messages) > max_msgs:
-            self.messages = [self.messages[0]] + self.messages[-(max_msgs - 1):]
-
+        self.messages = (
+            [{"role": "system", "content": system_context}]
+            + history
+            + [{"role": "assistant", "content": assistant_text}]
+        )
         return assistant_text
 
     def speak_async(self, system_context, user_input):

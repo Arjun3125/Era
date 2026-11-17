@@ -13,6 +13,8 @@ from typing import Any, Callable, Dict, List, Mapping, Optional
 from modules.council_router.mode_orchestrator import ExecutionConfig, ModeOrchestrator
 from modules.expert_router.aggregator import aggregate_weighted_positions
 
+from persona.llm_errors import QuotaExhaustedError
+
 
 _MEETING_MINISTERS = ["risk", "grand_strategist", "optionality", "psychology", "timing"]
 _DARBAR_MINISTERS = [
@@ -345,6 +347,8 @@ class NativeCouncil:
                 try:
                     name, result = future.result(timeout=180)
                     stances[name] = result
+                except QuotaExhaustedError:
+                    raise
                 except Exception as exc:
                     name = futures[future]
                     stances[name] = {
@@ -413,6 +417,8 @@ class NativeCouncil:
                         r1_stance = r2_contexts[name][1]
                         shift_note = f"[{r1_stance} -> {result['stance']}] " if result["stance"] != r1_stance else f"[{result['stance']}] "
                         peer_challenges[name] = f"{shift_note}{result['reasoning']}"
+                    except QuotaExhaustedError:
+                        raise
                     except Exception as exc:
                         stances_r2[name] = {
                             "stance": "neutral",
@@ -467,6 +473,8 @@ class NativeCouncil:
                             my_r2_stance = r3_contexts[name][1]
                             shift_note = f"[{my_r2_stance} -> {result['stance']}] " if result["stance"] != my_r2_stance else f"[{result['stance']}] "
                             peer_challenges[name] = f"Round 3: {shift_note}{result['reasoning']}"
+                        except QuotaExhaustedError:
+                            raise
                         except Exception as exc:
                             stances_r3[name] = {
                                 "stance": "neutral",
@@ -859,6 +867,8 @@ class CouncilExecutionEngine:
                     resolved_mode=resolved_mode,
                     warnings=warnings,
                 )
+            except QuotaExhaustedError:
+                raise
             except Exception as exc:
                 warnings.append(
                     f"LLM deliberation failed ({type(exc).__name__}: {exc}); "

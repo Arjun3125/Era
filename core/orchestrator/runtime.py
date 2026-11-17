@@ -17,6 +17,8 @@ from ..contracts.context import ExecutionContext
 from ..contracts.events import EventLevel, EventType
 from ..contracts.io import ErrorContract, InputContract
 
+from persona.llm_errors import QuotaExhaustedError
+
 
 class RunStatus(str, Enum):
     """Overall run state."""
@@ -159,6 +161,8 @@ class PipelineOrchestrator:
             try:
                 raw_result = stage.handler(context)
                 outcome = self._normalize_outcome(raw_result)
+            except QuotaExhaustedError:
+                raise
             except Exception as exc:  # pragma: no cover - defensive branch
                 outcome = StageOutcome(
                     errors=[f"{type(exc).__name__}: {exc}"],

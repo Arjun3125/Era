@@ -85,6 +85,8 @@ data/sessions_test_tmp*/
 chroma_knowledge/
 data/ministers/*/
 data/ministers_backup_*/
+data/llm_cache/
+data/llm_queue/
 data/user_profiles/
 ingestion/data/
 documentation.zip

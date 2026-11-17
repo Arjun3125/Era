@@ -7,6 +7,8 @@ import re
 from pathlib import Path
 from typing import Any, Dict, Optional
 
+from persona.llm_errors import QuotaExhaustedError
+
 try:
     import yaml as _yaml
     _YAML_OK = True
@@ -145,6 +147,8 @@ class MinisterVoice:
         try:
             raw = self.llm.analyze(system_prompt, prompt)
             return self._parse(raw)
+        except QuotaExhaustedError:
+            raise  # do not turn quota exhaustion into a neutral minister vote
         except Exception as e:
             return {
                 "stance": "neutral",

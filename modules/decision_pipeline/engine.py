@@ -27,6 +27,7 @@ from core.contracts import (
     RequestContextContract,
     RuntimeConfigContract,
 )
+
 from core.orchestrator import OrchestrationResult, PipelineOrchestrator, StageOutcome
 from modules.contract_validation.module import ContractValidationModule
 from modules.council_execution.module import CouncilExecutionModule
@@ -40,6 +41,8 @@ from modules.decision_packaging.module import DecisionPackagingModule
 from modules.prime_decision.engine import PrimeDecisionEngine
 from modules.prime_decision.module import PrimeDecisionModule
 from modules.runtime_config.module import RuntimeConfigModule
+
+from persona.llm_errors import QuotaExhaustedError
 
 from .errors import DecisionPipelineErrorEngine
 from .extensions import ExtensionStagePlanner, ExtensionStageSpec
@@ -750,6 +753,8 @@ class DecisionPipelineEngine:
                 errors=list(result.errors or []),
                 degraded=(result.status != ModuleStatus.SUCCESS),
             )
+        except QuotaExhaustedError:
+            raise
         except Exception as exc:  # pragma: no cover - defensive branch
             return StageOutcome(
                 outputs={f"{plugin_name}_status": ModuleStatus.FAILED.value},
